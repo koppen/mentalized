@@ -1,13 +1,64 @@
 ---
 layout: default
-title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+<article>
+  <h1>
+    <a href="{{ site.posts.first.url }}" title="Read '{{ site.posts.first.title }}'">
+      {{ site.posts.first.title }}
+    </a>
+  </h1>
+
+  <aside>
+    <p>
+      Posted
+      <span class="timestamp">{{ site.posts.first.date | date_to_string }}</span>
+      in
+      {{ site.posts.first.categories | array_to_sentence_string }}
+    </p>
+  </aside>
+
+  {{ site.posts.first.excerpt }}
+
+  <div class="more">
+    <a href="{{ site.posts.first.url }}" title="Read '{{ site.posts.first.title }}'">Read the entire entry</a>
+  </div>
+</article>
+
+<section class="entries double columns">
+  <section class="recent column">
+    <h1>Recent entries</h1>
+
+    <ul>
+      {% for post in site.posts limit: 5 %}
+        <li>
+          <a href="{{ post.url }}" title="Read '{{ post.title }}'">
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="popular column">
+    <h1>Popular entries</h1>
+
+    <ul>
+      <li><a href="/journal/2010/03/08/5_ways_to_run_commands_from_ruby/">5 ways to run commands from Ruby</a></li>
+      <li><a href="/journal/2011/06/27/pepper_-_a_redmine_theme/">Pepper - A Redmine theme</a></li>
+      <li><a href="/journal/2006/01/24/no_such_file_to_load_mkmf/">no such file to load &#8212; mkmf</a></li>
+      <li><a href="/journal/2009/08/03/redmine_plugin_github_hook/">Redmine plugin: Github Hook</a></li>
+      <li><a href="/journal/2006/02/06/hello_ruby_on_rails_world/">Hello Ruby on Rails World</a></li>
+    </ul>
+  </section>
+</section>
+
+<section class="social">
+  <ul>
+    <li class="twitter"><a rel="me" href="http://twitter.com/mentalizer" title="Jakob on Twitter">Twitter</a></li>
+    <li class="github"><a rel="me" href="http://github.com/koppen" title="Jakob on Github">Github</a></li>
+    <li class="working_with_rails"><a rel="me" href="http://workingwithrails.com/person/4796-jakob-skjerning" title="Jakob on Working With Rails">WWR</a></li>
+    <li class="linked_in"><a rel="me" href="http://www.linkedin.com/in/jakobskjerning" title="Jakob on LinkedIn">LinkedIn</a></li>
+    </ul>
   </ul>
-</div>
+</section>
