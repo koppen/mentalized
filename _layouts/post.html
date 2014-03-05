@@ -7,7 +7,7 @@ layout: default
   <aside>
     <p>
       Posted
-      <span class="timestamp">{{ page.date | date_to_string }}</span>
+      <span class="timestamp">{{ page.date | date_to_long_string }}</span>
       in
       {{ page.categories | array_to_sentence_string }}
     </p>

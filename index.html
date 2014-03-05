@@ -12,7 +12,7 @@ layout: default
   <aside>
     <p>
       Posted
-      <span class="timestamp">{{ site.posts.first.date | date_to_string }}</span>
+      <span class="timestamp">{{ site.posts.first.date | date_to_long_string }}</span>
       in
       {{ site.posts.first.categories | array_to_sentence_string }}
     </p>
