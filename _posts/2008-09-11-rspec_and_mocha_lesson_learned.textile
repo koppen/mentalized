@@ -1,0 +1,44 @@
+---
+layout: post
+title: RSpec and Mocha; lesson learned
+date: '2008-09-11 20:08:17 +0200'
+mt_id: 1991
+categories:
+- programming
+---
+During development of a small Ruby application today I ran into a minor issue with "RSpec":http://rspec.info/ and "Mocha":http://mocha.rubyforge.org/. Earlier today, I was developing a small "Ruby":http://www.ruby-lang.org/en/ application, trying out RSpec instead of the usual "Test::Unit":http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/, using Mocha for my stubbing and mocking needs.
+
+Unfortunately, things didn't go as I expected them to today. Imagine starting out with the following (contrived) examples:
+
+bc(ruby). describe 'Car' do
+  describe "when starting" do
+    before :each do
+      @car = Car.new
+    end
+    it "should insert key" do
+      @car.expects(:insert_key)
+      @car.start
+    end    
+    it "should turn key" do
+      @car.expects(:turn_key)
+      @car.start
+    end
+  end
+end
+
+That's the behaviour I want, now let's add some code to make the specs green.
+
+bc(ruby). class Car
+  def start
+  end
+end
+
+The above is a nice scaffold for our full implementation, but there is one problem. The specs actually pass! Without any actual code, the expectations are apparently being triggered. This is obviously not correct, and it was driving me mildly crazy. Fortunately, a bit of Googling led me to "a blog post":http://www.paperplanes.de/archives/2007/12/14/mocha_and_rspec_dont_play/ who gave me the solution. 
+
+While RSpec has its own, built-in mocking framework it doesn't mind stepping down and leave the mocking to Mocha - but you have to tell it to do so:
+
+bc(ruby). Spec::Runner.configure do |config|
+  config.mock_with :mocha
+end
+
+With the above added to my specs they properly fail, yay! Hopefully that'll teach me to RTFM.

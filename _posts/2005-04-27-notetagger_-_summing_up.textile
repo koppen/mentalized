@@ -1,0 +1,47 @@
+---
+layout: post
+title: Notetagger - Summing up
+date: '2005-04-27 17:04:58 +0200'
+mt_id: 1306
+categories:
+- projects
+---
+"The":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/ "previous":http://mentalized.net/journal/2005/04/15/notetagger_adding_tags/ "installments":http://mentalized.net/journal/2005/04/27/notetagger_adding_the_ajax/index.php cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial 
+
+bc. rails notetagger
+
+to having an application that works. It's not perfect in any way, but it does most of what I initially aimed for. Not too shabby for a slowpoke like me, I say.
+
+
+
+<!--more-->
+
+h2. The rake statistics
+
+bc. +----------------------+-------+-------+---------+---------+-----+-------+
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Helpers              |    20 |    12 |       0 |       1 |   0 |    10 |
+| Controllers          |    76 |    61 |       2 |      11 |   5 |     3 |
+| APIs                 |     0 |     0 |       0 |       0 |   0 |     0 |
+| Components           |     0 |     0 |       0 |       0 |   0 |     0 |
+|   Functionals        |    71 |    55 |       2 |      10 |   5 |     3 |
+| Models               |    17 |    14 |       2 |       1 |   0 |    12 |
+|   Units              |    28 |    20 |       2 |       4 |   2 |     3 |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Total                |   212 |   162 |       8 |      27 |   3 |     4 |
++----------------------+-------+-------+---------+---------+-----+-------+
+  Code LOC: 87     Test LOC: 75     Code to Test Ratio: 1:0.9
+
+
+h2. Things to do
+
+There are still lot of things that can be improved on Notetagger.
+
+One major thing that I haven't touched at all is testing, and I reckon there are a fair few bugs and errors spread lightly around the code (for instance the application comes tumbling down if no tags are given).
+
+Also the Ajax implementation could be better. The application is unusable if you happen to have Javascript turned off. Neither do the Ajax calls handle errors in a particularly good way.
+
+I might cover some of the above in future installments, depending on how well the existing ones are received. For now I think I'll relax a bit with making my Notetagger installation pretty and adding "fancy Ajax effects":http://mir.aculo.us/demos/effects/demo1.html that'll make Flash designers weep with envy :P
+
+Continue to next part: "Adding users and subdomains":/journal/2005/05/18/notetagger_adding_users_and_subdomains/

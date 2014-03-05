@@ -1,0 +1,41 @@
+---
+layout: post
+title: 2006 in retrospect
+date: '2007-01-03 09:57:00 +0100'
+mt_id: 1766
+categories:
+- projects
+- mentalizednet
+- copenhagenrb
+- blogging
+- biq_on_rails
+- life
+---
+It's a new year, and of course, this calls for looking back at the year that passed. The short version: 2006 has been a great year for me on several levels. 
+
+h2. Professionally 
+
+Career wise 2006 has been coloured primarily by "Ruby on Rails":http://rubyonrails.org. 
+
+I founded my "freelance web application development shop":http://substancelab.com in January and started having fun building Rails stuff for clients (with the launches of "Pluggd":http://mentalized.net/journal/2006/06/27/plug_pluggd_pluggs_in/ and "MedBillManager":http://mentalized.net/journal/2006/12/20/launch_medbillmanager/ being the highlights).
+
+On the day job, my boss finally caved in after hearing me evangelize and rave about Ruby, and "in March we started":http://mentalized.net/journal/2006/03/16/looking_for_a_rails_champion/ looking at the possibility of Rails as our new platform.
+
+The final decision, which was luckily a go, "came in July":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/ and the actual rewrite began making my dayjob ever so more interesting. 
+
+On the more social side of Ruby and Rails, 2006 also became the birth year of the "Copenhagen Ruby Brigade":http://copenhagenrb.dk. By now we hold (almost) montly meetings usually with around 20 smart and fun participants, healthy discussions and unhealthy fast food.
+
+
+h2. Virtually
+
+The life of "mentalized":http://mentalized.net has been a exciting ride throughout 2006 as well. 
+
+The year was kickstarted when my satirical "Building your very own web2.0 layout":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/ reached the "Digg":http://digg.com hordes in February and became the most visited page on mentalized in 2006 with 175K pageviews.
+
+The runner ups in the category "top content of 2006" are my "free AJAX progress indicator images":http://mentalized.net/activity-indicators/ with 107K pageviews. These are still going strong and getting a fair amount of hits every day.
+
+Third place goes to "this entry":http://mentalized.net/journal/2004/06/30/salma_hayek_summer_edition/ - wonder why...
+
+Honorable mentions go to some of my Rails related tutorials: "No such file to load -- mkmf":http://mentalized.net/journal/2006/01/24/no_such_file_to_load_mkmf/ and "Putting Debian on Ruby rails":http://mentalized.net/journal/2004/12/01/putting_debian_on_ruby_rails/.
+
+It looks like the advice I can take away from 2006 is that writing jokes, giving stuff away for free, and posting images of scantily clad women are great ways to increase your pageview statistics...

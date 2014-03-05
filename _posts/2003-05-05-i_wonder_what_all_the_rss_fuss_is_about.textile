@@ -1,0 +1,60 @@
+---
+layout: post
+title: I wonder what all the RSS fuss is about
+date: '2003-05-05 16:23:55 +0200'
+mt_id: 695
+categories:
+- blogging
+- technology
+---
+<a href="http://www.diveintomark.org" title="Mark Pilgrim">They</a> <a href="http://www.loudthinking.com" title="David Hansson">are</a> <a href="http://www.scriptingnews.com" title="Dave Winer">all</a> <a href="http://www.thinkgeek.com/" title="ThinkGeek">doing</a> <a href="http://www.mozillazine.org/weblogs/hyatt/" title="Dave Hyatt">it</a>; advocating RSS and/or providing RSS feeds. Heck, I myself am providing an RSS feed for those who care, although I have never been one of those who cared for reading blogs via RSS. I have tried to care for it a few times, but somehow it didn't appeal to me. 
+
+However, people praising RSS over and over again have persuaded me to give RSS aggregators a shot once again. So be it. AmphetaDesk, Aggie, FeedReader, and Syndirella have been downloaded, the hunt for the <del>perfect</del> <ins>acceptable</ins> RSS feed reader has begun.
+
+<!--more-->
+
+<h2>Aggie</h2>
+
+Aggie RC5 - <a href="http://bitworking.org/Aggie.html" title="Aggie">http://bitworking.org/Aggie.html</a>
+
+Aggie works by building a local HTML file containing the feeds you have in your list and then showing the HTML file to you. This approach may work for some people, but if I wanted to read blogs in my browser, my <del>Phoenix</del> <ins>Firebird</ins> with bookmarks works just fine. Several update of the feeds later and my screen was cluttered with newly opened browser windows, bummer.
+
+For some reason Aggie claims that a feed haven't changed since my last read of it even though I have just added the feed. I know this could very well be a question of semantics, but I'd expect to get a list of the existing entries in the feed instead of nothing. This also seems to lead to an "empty" HTML file being built on subsequent reads of the feeds. "0 items (0 unread) in 0 Channels" does not mirror the "many items (all unread) in 5 channels" of reality.
+
+Sorry, Aggie doesn't do it for me. Onwards to the next program.
+
+h2. AmphetaDesk
+
+AmphetaDesk v0.93.1 - <a href="http://www.disobey.com/amphetadesk/" title="AmphetaDesk">http://www.disobey.com/amphetadesk/</a>
+
+When starting AmphetaDesk it starts doing a whole lot of stuff. It downloads the newest version of the default feeds and then uses an existing browser window to serve the results in. There is no apparent way to distinquish new or old items in the generated page.
+
+Adding new feeds (actually the entire AmphetaDesk setup) works by accessing a website that is served through AmphetaDesks internal webserver. I certainly hope there are readers that actually use the Windows GUI. The whole part website/part Windows program makes AmphateDesk weird to use. For instance you have to use the web interface to add channels, but there seem to be no way to update feeds directly from the website - you have to do this from the Windows application. 
+
+A good thing about AmphetaDesk is that it has builtin retrieval of feeds with regular intervals, a thing which Aggie relied on Windows' Scheduled Tasks and a commandline tool to achieve. Both approaches have their pros and cons, the former appeals most to me though.
+
+AmphetaDesk looks to make for a great web service, but it won't make it to my desktop for long.
+
+h2. FeedReader
+
+FeedReader v2.5.610 - <a href="http://www.feedreader.com/" title="FeedReader">http://www.feedreader.com/</a>
+
+Ah good, this is more like it. FeedReader provides me with a native Win32 GUI, looking a lot like the three-pane view familiar from Outlook and other e-mail clients. Browsing the feeds and reading the individual entries takes place in the program. The interface makes sense and seems pretty intuitive.
+
+FeedReader can be scheduled to check my feeds for updates with regular intervals, it can even check individual feeds on a different schedule than the rest. If new entries have been posted it can notify you about this and it marks the new, unread items differently from the ones you've already read.
+
+There are some quirks and bugs in FeedReader still. Especially easy keyboard navigation to switch between feeds is a feature I am missing (it may very well be that I simply cant find the proper shortcuts). The impression so far is pretty good.
+
+h2. Syndirella
+
+Syndirella 0.9b beta - <a href="http://yole.ru/projects/syndirella/" title="Syndirella">http://yole.ru/projects/syndirella/</a>
+
+From the get-go Syndirella looks very much like FeedReader with its three-pane Outlook'ish layout. Feeds are easily added and updated. However Syndirella has 2 features that makes it stand out from FeedReader, a site scraper and a "move to next unread item"-keyboard shortcut (FeedReader may have had those features, but I failed to locate them).
+
+Site scraping is used when you have a website you want to keep up with but the site doesn't provide an RSS feed. You can then instruct Syndirella where on the HTML-page to look for headlines, timestamps and the other items usually displayed in RSS. Syndirella can then scrape the surplus HTML and display the website just as if it was a proper RSS feed and you'll never know the difference. 
+
+The biggest turn-off with the current version of Syndirella is that it insists on spawning an internal instance of Internet Explorer to view links. I'd pretty much prefer it to launch <del>Phoenix</del> <ins>Firebird</ins> which is my standard browser so I could go about my browsing as I am used to.
+
+h2. The verdict
+
+Of the 4 freeware aggregators above I'd say Syndirella and FeedReader are tied for a place in my heart with Syndirella edging a bit in front of FeedReader. The site scraping tool is a bit too simple but nevertheless a very nice feature. Add the easier keyboard navigation and Syndirella gets the honor of staying in my statrt-menu.

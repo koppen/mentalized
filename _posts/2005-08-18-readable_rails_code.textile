@@ -1,0 +1,11 @@
+---
+layout: post
+title: Readable Rails code
+date: '2005-08-18 12:51:01 +0200'
+mt_id: 1395
+categories:
+- programming
+---
+Man, I love how humanly readable Ruby on Rails code can be. I mean, I reckon even my mother could guess what this line of actual code does:
+
+bc. redirect_to login_url unless current_user.has_permission_to(MANAGE_USERS)

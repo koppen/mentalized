@@ -1,0 +1,72 @@
+---
+layout: post
+title: 10th Ring War overview
+date: '2003-10-04 17:45:24 +0200'
+mt_id: 1269
+categories:
+- games
+---
+One of the more impressive events in EverQuest is protecting the dwarven city of Thurgadin from being overrun by the Kael Drakkel giants.
+
+<!--more-->
+
+<ins>Update March 3, 2004: Yikes, the quality of this page is in no way appropriate for the amount of traffic it gets. For a vastly more detailed writeup, I suggest reading "the guide in my guilds library(10th Ring War Guide)":http://www.povartarewalliance.org/library/raids/ringwar/ instead.</ins>
+
+The event takes place in Great Divide and requires a big show of people. It consists of 3 main waves, each consisting of several smaller attacks. When you kill a subwave boss (Kromrif Captain, Kromrif General, or Kromrif Warlord) the timer for the spawn of the next wave starts. It is adviced to not kill the subwave boss until all other giants are dead.
+
+The end of the event is reached when Narandi the Wretched is slain, and the questor can reap his rewards.
+
+h2. The attacking waves
+
+There are 4 distinct points where the giants will launch their attacks from: 
+
+# A line to the south of Thurgadin, charging straight ahead.
+# A line to west of Thurgadin, charging up the hills to the north.
+# A group to the east of Thurgadin near the spires, charging up the hills to the north.
+# A group to the southeast of Thurgadin, west of the spires, walking west towards the river.
+
+h2. Wave 1
+
+Consists of Kromrif Recruits and Kromrif Captains. Killing a captain starts the timer for the next subwave.
+
+During this wave 2 lines of permarooted Kromriff Spearmen will spawn.
+
+h3. Subwaves
+
+# Has a captain
+# No captain
+# No captain
+# Has a captain
+# Has a captain
+# Has a captain
+# No captain
+# Has a captain (Spawns quickly after the above did).
+
+h2. Wave 2
+
+Consists of Kromrif Warriors, Priests of Zek, and Kromrif Generals. Killing a general starts the timer for the next subwave.
+
+h3. Subwaves
+
+# Has a general
+# No general
+# No general
+# Has a general
+# Has a general
+# Has a general
+
+h2. Wave 3
+
+Consists of Kromrif Veterans, High Priests of Zek, and Kromrif Warlords. Killing a warlord starts the timer for the next subwave.
+
+h3. Subwaves
+
+# Has a warlord
+# No warlord
+# Has a warlord
+# No warlord
+# Has a warlord
+
+h2. Narandi the Wretched
+
+Spawns south about a minute after the last warlord dies.

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Website downtime incoming
+date: '2004-11-15 13:46:15 +0100'
+mt_id: 832
+categories:
+- blogging
+---
+Due to some server shuffling Mentalized will be gone for some hours or days starting later today. I hope both of my readers will cope.
+
++Shuffling done, and everything seems to have worked out pretty much perfectly, let me know if not.+

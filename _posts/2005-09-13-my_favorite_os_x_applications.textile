@@ -1,0 +1,17 @@
+---
+layout: post
+title: My favorite OS X applications
+date: '2005-09-13 07:59:54 +0200'
+mt_id: 1414
+categories:
+- technology
+---
+Jumping on "the meme bandwagon":http://www.hicksdesign.co.uk/journal/10-mac-apps, here's a list of my favorite Mac OS X applications (so far):
+
+* "Quicksilver":http://quicksilver.blacktree.com/ - it took me a while to "get" this. Now, I definatly wouldn't want to go on without it - and I am not even using it's full potential. (Sidenote; these guys need to "work on their homepage title":http://www.7nights.com/asterisk/archives05/2005/09/web-publishing-tip-write-clear-titles. I missed "their website on Google":http://www.google.dk/search?q=quicksilver&sourceid=mozilla-search&start=0&start=0&ie=utf-8&oe=utf-8&client=firefox-a&rls=org.mozilla:en-US:official the first time)
+* "TextMate":http://www.macromates.com/ - Damn nice editor, well worth the price.
+* "Proteus":http://www.defaultware.com/proteus/ - This is really the Instant Messaging application I've always wanted. As perfect as they come in my eyes.
+* "Growl":http://growl.info/ - Adds a little extra "oomph"; Consistent eye-candy with support for / supported by a lot of applications.
+* "YourSQL":http://yoursql.ludit.it/ - For all my data access needs.
+
+Oh, it was supposed to be 10? Well, add Terminal, Safari, Mail, iCal and uhm... Finder to that. Yup, looks good. I can't help but think I am missing something crucial, though. 

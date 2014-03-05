@@ -1,0 +1,17 @@
+---
+layout: post
+title: Random linkage for March
+date: '2003-03-14 11:11:47 +0100'
+mt_id: 666
+categories:
+- technology
+---
+* <a href="http://hootersair.com/" title="Hooters Air">Hooters Airlines</a>
+* <a href="http://www.iespell.com/" title="ieSpell">Spellchecker for Internet Explorer textareas</a>
+* <a href="http://news.bbc.co.uk/1/hi/world/americas/2842493.stm" title="US congress opts for freedom fries">Freedom Fries - how childish can congress members be?</a>
+* <a href="http://www.idlewords.com/weblog.03.2003.html#129" title="Ten Reasons to Love France">Ten Reasons to Love France</a>
+* <a href="http://www.panoramas.dk/" title="Panoramas.dk">Highres QuickTime VR panomaras</a>
+* <a href="http://www.fairvue.com/?feature=awards2003" title="Third Annual Weblog Awards">Third Annual Weblog Awards</a>
+* <a href="http://slashdot.org/comments.pl?sid=55767&cid=5435685" title="What Percentage of Internet Traffic is Pr0n?">Pr0n as currency?</a>
+
+By the way, I really like the way <a href="http://www.kottke.org" title="kottke.org">Kottke</a> handles his random linkage (linkrolling?), but I'm too lazy to implement it here - and way too lazy to update it.

@@ -1,0 +1,59 @@
+---
+layout: post
+title: 5 reasons to not use HTML5 right now
+date: '2010-09-15 12:20:24 +0200'
+mt_id: 2046
+categories:
+- technology
+- webdesign
+- usability
+- browsers
+---
+"HTML5":http://html5.org/ is the new version of HTML and XHTML. As always when a new technology comes out, in particular one that's meant to replace what we know and -love-use, there are plenty of excuses to not progress and adapt the new technology.
+
+I hereby give you 5 reasons to not use HTML5 for your websites today - and the reasons they are wrong.
+
+<!--more-->
+
+h2. You want to keep partying like it was "1999":http://www.w3.org/TR/html401/
+
+With XHTML effectively out of the way, and HTML 4 having more than 10 years behind it, HTML5 is the road ahead.
+
+You can certainly continue using XHTML or HTML 4, but you'll only be marginalizing yourself. Eventually, customers are going to expect features that only HTML5 provides and you'll find yourself having fallen hopelessly behind.
+
+
+h2. You don't want to make it easier for your users to interact with your website
+
+HTML5 comes with a bunch of new types for input form fields, that allow browsers to tailor their UI to better match the value expected from the user. 
+
+The best known examples are the URL and email input fields, which on Mobile Safari results in the keyboard adapting itself to make it easier to input those specific kinds of values.
+
+By now, I've started getting grumpy whenever a form asks me for my email address and I have to start hunting around my keyboard panels for the @. You don't want grumpy users, do you?
+
+
+h2. You think HTML is too hard
+
+Let's get this straight; HTML isn't hard, and HTML5 is "just" HTML. Hence, HTML5 isn't hard. If you already write HTML4 (or XHTML1 for that matter) transitioning to HTML5 is a simple matter. You can practically just change your doctype and continue doing what you've always done.
+
+When that's done and said, the next step should be creating good, semantic HTML5, but one step at a time, right?
+
+
+h2. You need to support browsers that are more than 10 years old
+
+Every browser in widespread use supports HTML5. Yes, that even includes IE6; it just doesn't know it, so you need to "hold its hand a bit":http://code.google.com/p/html5shiv/. We've kind of gotten used to that by now. 
+
+Sure, not everything is supported by all browsers, so you probably shouldn't base your application on client side storage just yet. However, plenty of the core HTML5 features are widely supported, and if they aren't they either degrade gracefully, or you can find Javascripts that emulate the feature for lesser browsers.
+
+See this excellent article about "detecting support for HTML5 features":http://diveintohtml5.org/detect.html.
+
+
+h2. You think websites need to look exactly the same in every browser
+
+If you still haven't bought in to notion of "progressive enhancement":http://mentalized.net/journal/2010/05/03/explaining_progressive_enhancement/, get with the program. Your users are numerous and varied, targeting a lowest common denominator that works exactly the same for everyone is hurting those that could be getting a richer experience.
+
+And besides, I read it on the internets: "http://dowebsitesneedtolookexactlythesameineverybrowser.com/":http://dowebsitesneedtolookexactlythesameineverybrowser.com/
+
+
+h2. What's your excuse?
+
+So, why haven't you started using HTML5 yet - what's holding you back?

@@ -1,0 +1,13 @@
+---
+layout: post
+title: I want one-click RSS subscribing
+date: '2003-09-22 15:23:38 +0200'
+mt_id: 747
+categories:
+- usability
+---
+When I click a link to a Word document on a webpage (God forbid), the document opens in Word. When I follow a link to an MP3 file, Winamp adds the file to my playlist. When I click a link to a newsfeed, I get served ugly, unreadable raw XML code. That's not right!
+
+Why can't my news aggregator automagically subscribe to the feed? Is it simply a matter of people having to name their feeds .rss instead of .xml, or do we have to serve our feeds with a seperate MIME-type (xml/rss)?
+
+Autodiscovery only goes so far - as long as new users have to go through the cumbersome "First locate the feed on the page, then rightclick, then 'copy link location', then switch to your aggregator, then find the 'add new feed' menu item, then paste the feed URL, and _now_ it's added"-process, normal users are not going to bother with RSS feeds.

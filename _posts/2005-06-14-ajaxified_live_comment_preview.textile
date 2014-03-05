@@ -1,0 +1,21 @@
+---
+layout: post
+title: AJAXified live comment preview
+date: '2005-06-14 09:59:26 +0200'
+mt_id: 1342
+categories:
+- mentalizednet
+- projects
+- technology
+---
+Update: Ah well, it was a fun experiment, but I've decided to scrap it again, possible in favor of something pure Javascript'ish. The AJAX preview is either too unresponsive to be worthwhile or I send way too many requests against MT/MySQL that I am comfortable with on a shared server. 
+
+Thanks to the wonders of "Sam Stephensons Prototype":http://prototype.conio.net/, "Movable Types":http://movabletype.org comment preview template and AJAX, I am now sporting live comment previews. 
+
+"Go check it out":/journal/2005/06/14/ajaxified_live_comment_preview/#comments.
+
+There is an issue at the moment: It seems Movable Types comment preview doesn't adhere to the settings I have set for stripping HTML, so some HTML elements might show up in the preview, but be stripped in the final comment. Bad, I know.
+
+So far I've only got around to checking it in Firefox, but I think Prototype is my saviour here, and I assume the previews will work in all Javascript enabled browsers that support asynchronous XMLHTTPRequest - ie IE6, Firefox, Safari (I believe).
+
+If you don't have one of those browsers, well... "What are you waiting for?":http://getfirefox.com

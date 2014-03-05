@@ -1,0 +1,49 @@
+---
+layout: post
+title: Ben Cerveny
+date: '2005-06-10 12:36:09 +0200'
+mt_id: 1335
+categories:
+- reboot
+---
+Notes from Ben Cervenys speech; At Play in the Garden
+
+<!--more-->
+
+Play creates surface
+Playing defines our interaction abilities with the environment
+
+We can model ourselves, each others, abstract systems.
+
+We have rules, rules are the model of the system.
+
+We are complex creatures, and we seek the complex. Too orderly => bored.
+
+Chess is full of metaphors. Feudal system. The rules of chess describe the world at a certain point in time. Chess is a place to store historical knowledge. 
+
+h2. Presence
+
+MMOs are the new social game; You realize you are not alone in the game.
+You are part of a social, collaborative moment - even when playing PS2 with your friends.
+
+h2. State machine
+
+The AI of games are a state machine. It knows the rules of the game, the status of the game, and knows what actions it can take.
+
+We are state machines in the world. Perception of life can be modeled, and is being modelled subconciously. 
+
+When playing game we internalize the models of the game, it becomes an abstract system, don't even need the metaphors of the game anymore (wizards, orcs etc)
+
+h2. Media instruments
+
+What happens in the gamespace / space of play.
+
+Social tools and media resources like flickr are coming together to allow for play in creative ways. Playing is a creative act!
+
+Simplicity => playing
+
+h2. Simulation
+
+Simulation isnt a game, its a toy.
+
+A game has rules, and an endstate (winner/looser) - a toy is for exploring, experiencing, investigation of the rules of the system.

@@ -1,0 +1,38 @@
+---
+layout: post
+title: Explaining progressive enhancement
+date: '2010-05-03 08:50:31 +0200'
+mt_id: 2040
+categories:
+- webdesign
+---
+Trying to explain "progressive enhancement":http://www.alistapart.com/articles/understandingprogressiveenhancement/ (or graceful degredation, for that matter) to someone that isn't used to dealing in abstraction layers, interfaces, and presentation formats, is near impossible. 
+
+Not surprisingly, most clients fall in that category.
+
+h2. Game consoles
+
+Paul Stanton suggests using "games consoles as an analogy for progressive enhancement":http://coffeepowered.co.uk/2010/02/an-analogy-for-progressive-enhancement/ and while I see the appeal of that analogy, it does have some huge flaws (like any good analogy), so I tend to go another route.
+
+
+<!--more-->
+
+h2. Television setups
+
+<a href="http://www.flickr.com/photos/schmilblick/" title="Image by schmilblick"><img src="/files/journal/explaining_progressive_enhancement/252772357_e5e0115d32.jpg" alt="This is IE6 displaying your website" /></a>
+
+Instead, I've been toying with using TV as an analogy; If you watch a movie on a huge, wide screen, high definition, digital television hooked up to a state of the art sound system you're getting a vastly better experience than watching the exact same movie on a small black and white TV without loud speakers. The content is the same, but the device used to consume it delivers the content differently.
+
+
+h2. It's good enough
+
+The benefit of this analogy, is that practically everyone has a TV and probably knows someone who has a vastly better or inferior TV. And the range of TV setups is pretty big (standard vs high definition, 720i vs 1080p, widescreen or not, HD recorders attached, 2D vs 3D, cable vs antenna) - I just outlined the extremes above.
+
+It should also be obvious that the TVs are displaying the same content, they are just delivering it differently. Conversely the consumer can improve their experience by upgrading their TV setup. Coincidentally, over the last few years pretty much everyone (at least in Denmark and the US) has done just that as broadcasters have gone from analog to digital signals.
+
+
+h2. It's perfect!
+
+Like any good analogy this probably has a ton of huge flaws, if you really dig into it. Luckily most clients don't want to dig into it, they just want to understand what the heck I am talking about. 
+
+Do you have any experiences explaining concepts like this to "normal" people?

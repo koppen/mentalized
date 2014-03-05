@@ -1,0 +1,19 @@
+---
+layout: post
+title: Creating color schemes
+date: '2003-08-08 10:48:33 +0200'
+mt_id: 723
+categories:
+- webdesign
+---
+For the design-challenged of us, color scheme creators can be a great boon when trying to design websites where the colors don't look totally out of sync with each other. 
+
+Pick a base color and these tools suggest colors that go with it:
+
+* "ColorSchemer Online (ColorSchemer Online)":http://www.colorschemer.com/online.html 
+* "QuickColor (KOHAISTYLE.com: QuickColor)":http://kohaistyle.com/scripts/quickcolor/ (Requires Flash)
+* "ColorMatch 5K (ColorMatch 5K)":http://www.colormatch.dk/ (Requires IE it seems)
+* "+Color scheme+(Pixy's Color schemer)":http://www.pixy.cz/apps/barvy/index-en.html
+* "+ColorMatch Remix+(ColorMatch Remix)":http://color.twysted.net/ +(Improved version of ColorMatch 5K)+
+* "+The colour wizard+(The colour wizard)":http://www.webwhirlers.com/colors/wizard.asp
+* "+EasyRGB+(EasyRGB)":http://www.easyrgb.com/harmonies.php

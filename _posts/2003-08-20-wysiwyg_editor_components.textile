@@ -1,0 +1,13 @@
+---
+layout: post
+title: WYSIWYG Editor components
+date: '2003-08-20 11:43:11 +0200'
+mt_id: 728
+categories:
+- webdesign
+---
+"Dave Shea asks (mezzoblue)":http://www.mezzoblue.com/cgi-bin/mt/mezzo/archives/000229.asp  for people to post links to HTML editor browser components that output reasonably wellformed (X)HTML. For the sake of my own often-failing memory this is a linkdump of some of the more interesting components:
+
+* "Rich Text Editor(Rich Text Editor)":http://www.urbandude.com/
+* "Cross-Browser Rich Text Editor(Cross-Browser Rich Text Editor)":http://www.kevinroth.com/rte/demo.htm
+* "HTMLArea(HTMLArea)":http://www.dynarch.com/htmlarea/

@@ -1,0 +1,70 @@
+---
+layout: post
+title: 'Ruby: How to check if a String is numeric'
+date: '2011-04-14 12:17:15 +0200'
+mt_id: 2103
+categories:
+- programming
+---
+Finally, a technical article... This one caused by a seemingly simple question on Stack Overflow, asking how to "Test if string is a number":http://stackoverflow.com/questions/5661466/test-if-string-is-a-number-in-ruby-on-rails/5661695.
+
+It turns out that it's not entirely that simple to answer, and there are lot of apparently correct ideas, that all turn out to fail closer scrutiny.
+
+For those who just want the answer: As far as I can tell, the best method is the one proposed on "RosettaCode":http://rosettacode.org/wiki/Determine_if_a_string_is_numeric#Ruby and in the Stack Overflow question above:
+
+bc(ruby). class String
+  def numeric?
+    Float(self) != nil rescue false
+  end
+end
+
+If you want some more details, continue reading.
+
+
+<!--more-->
+
+Let's verify our code by transforming the question to something ubiquitous. The above method <code>String#numeric?</code> has the following behaviour:
+
+bc(ruby). "42".numeric? #=> true
+"-42".numeric? #=> true
+"1.2".numeric? #=> true
+"0".numeric? #=> true
+"1.2e34".numeric? #=> true
+"1_000".numeric? #=> true
+"".numeric? #=> false
+" ".numeric? #=> false
+"a".numeric? #=> false
+"-".numeric? #=> false
+".".numeric? #=> false
+"_".numeric? #=> false
+"1.2.3".numeric? #=> false
+
+As far as I can tell, that's what we want. Are there any cases I've missed?
+
+h2. Performance
+
+The method uses a rescue clause, basically for flow control. In addition to this being a dubious practice at best, it is not the best-performing method. In raw numbers it takes more than 10 times as long to handle a failing case than a successful one (on Ruby 1.8.7).
+
+This causes some people to suggest a regular expression driven approach instead.
+
+h2. Using a regular expression
+
+Digging around on the interwebs I found a regex discussed on "RailsForum":http://railsforum.com/viewtopic.php?id=19081 that we can use - at least after modifying it somewhat:
+
+bc(ruby). def numeric?
+  match(/\A[+-]?\d+?(_?\d+)*(\.\d+e?\d*)?\Z/) == nil ? false : true
+end
+
+This behaves as expected. Unfortunately, it is awfully slow for failing strings, way worse than using the Float rescue method above.
+
+h2. Conclusion
+
+In short, to check if a string is a numeric value, use this method:
+
+bc(ruby). class String
+  def numeric?
+    Float(self) != nil rescue false
+  end
+end
+
+It is correct, generally faster, and definitely more readable.

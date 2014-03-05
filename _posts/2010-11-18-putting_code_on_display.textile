@@ -1,0 +1,58 @@
+---
+layout: post
+title: Putting code on display
+date: '2010-11-18 10:11:49 +0100'
+mt_id: 2074
+categories:
+- programming
+- software
+- life
+---
+Some months ago, the "people I share offices with":http://www.houseofdesign.biz/p136.asp had an exhibition showing off their works. They are all visual designers and artist, so their works are fairly easy to exhibit.
+
+I turned down being part of the exhibition, primarily because I couldn't figure out what to showcase. 
+
+h2. What is a coder to do?
+
+Sure, I could've created printouts of pages from the many "sites I've built":http://substancelab.com/work, but that' s not really showing off my work. A screenshot is fine for showing the visuals of a website, but that's not what I (usually) do.
+
+I am a programmer, I write code. I would like to be able to exhibit the stuff I actually produce, not the final product that the code produces. The problem with code is that you have to be a programmer to appreciate it.
+
+Music is art, but show me a book of sheet music and I won't be able to appreciate it. I need someone to interpret the notes and perform the music for me to experience it.
+
+Can we - and if so, how - exhibit our code in a way that becomes interesting to the casual observer?
+
+<!--more-->
+
+h2. The project over time
+
+The open source project, "gource":http://code.google.com/p/gource/, creates pretty movies of how a project evolves over time. You can see how developers move around the project like little busy ants, adding, changing and deleting files. 
+
+<object width="512" height="329"><param name="movie" value="http://www.youtube.com/v/r0ji8FDNTj0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/r0ji8FDNTj0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="512" height="329"></embed></object>
+
+This is definitely visually interesting and is close to what I am looking for. While this isn't really displaying the code in any way, it is a great way to see the big view of what happens in real software projects.
+
+
+h2. The execution of code
+
+On the same visualization-over-time-page as gource, it would perhaps be interesting if the execution of code could somehow be visualized.
+
+Some quick googling lead me to "Jeliot":http://cs.joensuu.fi/jeliot/ - a "Program Visualization application. It visualizes how a Java program is interpreted". 
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/f5ahEgu5Ba0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/f5ahEgu5Ba0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+
+"It's output":http://cs.joensuu.fi/jeliot/files/jeliotSquare.html is clearly targeted at developers and people learning programming and how interpreters work, thus isn't really for general consumption.
+
+
+h2. The actual code itself?
+
+Is there some aesthetic to code itself? The words, while english'ish, is likely to be more confusing than interesting to people. How about the structure of the code? Is there some aesthetic to the way a source file flows, with indentation and line lengths?
+
+How about if we add syntax highlighting to the mix to colorize different groups of words?
+
+I guess my main worry is that people will (understandably) just see the code for the words and not the logic and behaviors it represents. And this might be okay. I guess art isn't always meant to be understood. But can code be appreciated if it is not understood?
+
+
+h2. No answers, just questions
+
+I don't have any answers, but would love to hear thoughts and see examples of how this has been done - if it has. I find it hard to believe that someone more artistically inclined than me hasn't come up with some great of exhibiting code.

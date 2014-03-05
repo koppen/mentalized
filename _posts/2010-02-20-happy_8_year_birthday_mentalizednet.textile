@@ -1,0 +1,23 @@
+---
+layout: post
+title: Happy 8 year birthday, mentalized.net
+date: '2010-02-20 12:32:00 +0100'
+mt_id: 2028
+categories:
+- mentalizednet
+---
+8 years ago, I posted "this":http://mentalized.net/journal/2002/02/20/this_is_a_weblog/ to mentalized.net:
+
+<blockquote><p>I have always promised myself that I would not fall prey to the blogging-fever that has been going around, and for a long time the title of my website actually was "This is not a weblog"...</p>
+
+<p>Well, nothing lasts forever - neither did my opinion on weblogs. Welcome to my journal.</p></blockquote>
+
+8 years later, I am still going strong (albeit not as strong as 4 years ago) who'd have thunk?
+
+h2. Holy time machine, blogman
+
+Back then, mentalized.net looked like this:
+
+!/files/journal/mentalized/mentalized_2002.jpg!
+
+So very, very blog-like :)

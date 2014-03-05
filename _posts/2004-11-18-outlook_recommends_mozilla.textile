@@ -1,0 +1,17 @@
+---
+layout: post
+title: Outlook recommends Mozilla
+date: '2004-11-18 14:59:59 +0100'
+mt_id: 835
+categories:
+- browsers
+---
+I received an email today advertising Mozilla in a somewhat subtle way: The X-message-flag of the mail was set to 
+
+bq. You are using Outlook. May I recommend Mozilla (http://www.mozilla.org)? 
+
+In Outlook XP this results in Outook seemingly recommending me Mozilla:
+
+!/journal/2004/11/18/outlook_recommends_mozilla/YouAreUsingOutlook.png (You are using Outlook)!
+
+As far as I have been able to work out, Outlook it the only mail client that displays the X-Message-Flag upfront to its user. Interesting but somewhat intrusive and spam'ish way to advocate.

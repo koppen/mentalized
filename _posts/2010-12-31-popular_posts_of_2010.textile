@@ -1,0 +1,66 @@
+---
+layout: post
+title: Popular posts of 2010
+date: '2010-12-31 13:58:39 +0100'
+mt_id: 2078
+categories:
+- mentalizednet
+---
+It's the last day of the year 2010. What better time is there to do what everybody else is doing and dive into Google Analytics and pretend statistics matter. 
+
+
+<!--more-->
+
+h2. Most popular posts
+
+# "no such file to load -- mkmf":http://mentalized.net/journal/2006/01/24/no_such_file_to_load_mkmf/
+# "Building your very own web2.0 layout":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/
+# "Using Google Page Speed to optimize websites":http://mentalized.net/journal/2009/07/27/using_google_page_speed_to_optimize_websites/
+# "Heroku, Rails 3, and Sass":http://mentalized.net/journal/2010/04/06/heroku_rails_3_and_sass/
+# "Hello Ruby on Rails world":http://mentalized.net/journal/2006/02/06/hello_ruby_on_rails_world/
+# "Redmine plugin: Github Hook":http://mentalized.net/journal/2009/08/03/redmine_plugin_github_hook/
+# "Browser size does matter - Actual numbers":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/
+# "Rails 2.0 deprecations":http://mentalized.net/journal/2007/03/13/rails_20_deprecations/
+# "5 ways to run commands from Ruby":http://mentalized.net/journal/2010/03/08/5_ways_to_run_commands_from_ruby/
+# "Setting the request content type in Rails":http://mentalized.net/journal/2005/11/14/setting_the_request_content_type_in_rails/
+
+Curiously, the majority of the popular posts this year were written from 2005 and forward and they still continue to reign supreme. Makes me wonder why I even bother writing new content.
+
+h2. Most popular 2010 posts
+
+# "Heroku, Rails 3, and Sass":http://mentalized.net/journal/2010/04/06/heroku_rails_3_and_sass/
+# "5 ways to run commands from Ruby":http://mentalized.net/journal/2010/03/08/5_ways_to_run_commands_from_ruby/
+# "Hello Rails 3 World":http://mentalized.net/journal/2010/02/05/hello_rails_3_world/
+# "Rails 3: Responding with Excel":http://mentalized.net/journal/2010/06/04/rails_3_responding_with_excel/
+# "Suppress warnings from Ruby":http://mentalized.net/journal/2010/04/02/suppress_warnings_from_ruby/
+# "Avoiding The Big Rewrite":http://mentalized.net/journal/2010/10/04/avoiding_the_big_rewrite/
+# "Introducing Progress Wars":http://mentalized.net/journal/2010/03/15/introducing_progress_wars/
+# "Humor driven development":http://mentalized.net/journal/2010/07/30/humor_driven_development/
+# "Webkit-based Xbox dashboard":http://mentalized.net/journal/2010/02/17/webkitbased_xbox_dashboard/
+# "Don't use placeholder text as labels":http://mentalized.net/journal/2010/08/05/dont_use_placeholder_text_as_labels/
+
+Looks like my Rails 3 and Ruby related posts are the ones getting the most traffic. I guess a good new years resolution would be to write more of those.
+
+h2. Referring sites
+
+Interestingly enough, and contrary to what many social media gurus would have you believe, "Google":http://google.com continues to be the master of my referrals with more than 10 times the referred visitors than the closest runner-up.
+
+The best performing social media tool is "Twitter":http://twitter.com at #14, 4 places below "Bing":http://bing.com of all things (looks like the number of people googling on Bing is slow increasing).
+
+
+h2. Progress Wars
+
+I can't really write a 2010 in review post without mentioning my hit of the year; "Progress Wars":http://progresswars.com.
+
+I launched Progress Wars back in March with a single, inconspicuous tweet, and it went on to receive 27000 visits the first day it was live. It's popularity plummeted quickly thereafter and has now settled on a more moderate ~100ish visits per day with a few spikes when it gets linked somewhere.
+
+In total, the "Perform mission" button has been clicked more than 5 million times by more than 100.000 people. 86% of the people visiting "Progress Wars":http://progresswars.com has to click the button at least once.
+
+
+h2. Here's to another great year
+
+In general the traffic on mentalized.net has been a bit lower than the previous year. Not surprisingly, given the fact that older posts seem to be driving traffic and I didn't write much in 2009.
+
+At least the traffic broke a down-trending curve and held steady in 2010. Here's aiming to push the curve upwards again in 2011.
+
+Happy new year to you, my dear reader, may it be full of win!

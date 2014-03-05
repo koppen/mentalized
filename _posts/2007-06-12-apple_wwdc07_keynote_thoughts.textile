@@ -1,0 +1,55 @@
+---
+layout: post
+title: Apple WWDC07 keynote thoughts
+date: '2007-06-12 11:16:31 +0200'
+mt_id: 1822
+categories:
+- technology
+---
+Going through my aggregated feeds today was a pain. Everyone were writing about the WWDC07 keynote stuff and I hadn't seen it yet. So I had to stop reading and "start looking":http://www.apple.com/quicktime/qtv/keynote/  . 
+
+And since I blog too little these days, I figured I might as well write down some notes and loosely joined thoughts while watching, so here goes:
+
+
+h2. Games
+
+* With Blizzard and now EA backing the Mac platform and doing simultaneous releases (did EA say this or only John Carmack?), we're pretty well served in the games area. Other companies are bound to follow. 
+* I wonder what the market share of Blizzard and EA combined is like, it has to be big chunk.
+
+
+h2. Leopard
+
+* Stacks look awesome
+** The Download stack in particular is great, talk about seeing a need and fulfilling it.
+* New finder - about bloody time
+** Cover Flow? Meh. 
+*** Cool, sure - "super useful", doubtful
+*** Although with Quick Look it might be good.
+* Back to my Mac - sounds really interesting, might be reason enough to buy .mac
+** Actually makes a good deal of business sense: They want people to have multiple macs, one in every room preferably. People aren't going to do that unless it's damn easy having more than one.
+* Time Machine
+** Definitely cool, shoddy UI
+** Wonder if they'll come out with a Mac Home Server thingy. Jives well with the Back to My Mac as well.
+
+
+h2. Safari for Windows
+
+* Why?
+* The slide showed Safari obliterating Firefox' market share, leaving only IE and Safari. Gee, that's a bad plan if I ever saw one.
+* Their track record with Windows software isn't terribly good
+** iTunes is slow as a dog on a sunny day on my XP machines
+** The UIs are different, and Apple aren't really trying to make a Windows app.
+
+
+h2. iPhone
+
+* Web apps for iPhone
+** Cool, I like it, but then again, I am a web developer
+** What is this stuff written in?
+*** Is it server based?
+*** What the heck format do we serve up to get the iPhone look'n'feel and integration with iPhone services?
+**** Some XML format? XUL? XAML? iML ;)?
+**** Microformats? :)
+** Oho, this is why they're putting Safari on Windows. They want to allow as many developers as possible to create and deploy Web apps for the iPhone and Safari for Windows allows the Windows developers to write their stuff on their platform.
+
+Oh, and a funny sidenote: Steve Jobs (or someone else on the demo machine) apparently played WoW the day before the keynote ;)

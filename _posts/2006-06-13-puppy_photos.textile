@@ -1,0 +1,9 @@
+---
+layout: post
+title: Puppy photos
+date: '2006-06-13 09:25:40 +0200'
+mt_id: 1626
+categories:
+- life
+---
+Psst, "puppy photos are over on my Flickr account":http://flickr.com/photos/jakobs/sets/72057594134497923/.

@@ -1,0 +1,20 @@
+---
+layout: post
+title: reboot7 afterthoughts
+date: '2005-06-12 20:24:44 +0200'
+mt_id: 1340
+categories:
+- reboot
+---
+One of the things that really surprised me was the amount of Mac laptops. I'm not sure I recall a single presenter using a non-Mac laptop, but there were also quite a few among the audience. And boy, is a Mac a great system for these kind of things. Bonjour, Rendevouz, WiFi, SubEthaEdit, Bluetooth, all merges into one big pile of mmmm. Just check out "the contact list":http://flickr.com/photos/heilemann/18507529/ snapped by "Michael Heilemann":http://binarybonsai.com.
+
+Lots of good talks on lots of diverse subjects (perhaps a bit too diverse), tons of interesting people. 
+
+Finding a common thread for the speeches and ideas put forth there is kinda hard, but if I hard to sum it up, I think my conclusion would be, that "the ways ahead" are 
+
+* Systems that supports social needs of users
+* Letting people shape information
+* Openness, interoperability
+* "Good enough" is actually good enough
+
+Oh, that and the fact, that I suck at networking - I hear it's kinda big at these things.

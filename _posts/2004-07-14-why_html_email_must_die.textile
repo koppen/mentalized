@@ -1,0 +1,9 @@
+---
+layout: post
+title: Why HTML email must die
+date: '2004-07-14 11:21:43 +0200'
+mt_id: 809
+categories:
+- technology
+---
+I just received my first (non-spam) email taking advantage of everybody's favorite HTML-tag, &lt;marquee&gt;. In a business related email, that I was supposed to take seriously. Somehow that proved quite difficult.

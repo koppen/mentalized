@@ -1,0 +1,15 @@
+---
+layout: post
+title: Death of the referrer tracker
+date: '2004-03-08 12:50:50 +0100'
+mt_id: 784
+categories:
+- blogging
+---
+Sigh, yet another jerk decided to spam every single goddamn entry on this website pretending to be referred from a certain URL (which gives an error 404, good job!) hammering the final nail in the referrer trackers coffin.
+
+I will no longer record or display referrers on my entries. I am not willing to provide Google juice to referrer abusers, neither am I willing to waste my time trying to limit the amount of fake referrals. This saddens me since I have found a good deal of interesting sites by following those referrals - not to mention I will be missing the stroking of my ego every time someone follows a link to my humble site.
+
+<del>Feel free to contact support@visualsoftsys.co.uk and sales@visualsoftsys.co.uk and tell them what a bunch of inept twits they are. "Visual Software Systems - marketing results you can see" - not on my website you can't.</del>
+
+<ins>Actually, since I have no way to prove that it is actually Visual Software Systems behind the abuse I am naturally not recommending or suggesting that anyone should take any action against or judge said company.</ins>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: Things that still surprise me
+date: '2004-04-16 11:25:08 +0200'
+mt_id: 790
+categories:
+- usability
+---
+That users reply to a mail and type out a lengthy message about not wanting to receive further mails like it instead of clicking the obviously visible unsubscription link.

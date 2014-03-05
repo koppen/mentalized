@@ -1,0 +1,32 @@
+---
+layout: post
+title: The UI element that broke the users back
+date: '2011-01-14 10:42:57 +0100'
+mt_id: 2081
+categories:
+- usability
+- webdesign
+---
+There it is. Your marvel of an interface. Clean, de-cluttered, easy to use. Steve Jobs would hire you if he saw this. Nah, he would be too gobsmacked to hire you. Yeah, that's right. You're the master of simpl... 
+
+The sound of your ringing phone pulls you out of your self-congratulatory bubble. 
+
+It's the boss. He's loving the interface, but wondering if it would be possible to add just a tiny element, it's not much, just an link to like the page on Facebook, no big deal.
+
+
+<!--more-->
+
+
+h2. "Just one more thing..."
+
+And he is right, it is no big deal. Adding those few pixels aren't going to break the interface. Users can still find what they need. Adding a single element to a page is rarely going to be a catastrophe and make them leave.
+
+However, users have only so much attention they want to dedicate to you and your interface. When they are confronted with a ton of elements, all clamoring for their attention, the net result is frustration and confusion.
+
+h2. Users need simplicity
+
+Any given interface is made up of its individual elements. On their own, none of them particularly intrusive or messy. The user can easily glance over a search box and judge if she needs that element at this point.
+
+However, add them all together and you get cluttered mess of ads, SEO links, social buttons, newsletter signups, Facebook boxes, and other distracting elements. If you're lucky your user might be able to find what she's looking for. If not, she'll find it elsewhere. In the worst case, you've lost a customer.
+
+It is easy to lose sight of the whole picture when you're focusing on the details of a particular change. You need to step back and consider the entire interface. It is made of up of all the elements on the page, not just the one, you're adding right now.

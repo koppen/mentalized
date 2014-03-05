@@ -1,0 +1,64 @@
+---
+layout: post
+title: Feed readers at a glance
+date: '2004-02-12 15:52:44 +0100'
+mt_id: 779
+categories:
+- blogging
+---
+Since "my favorite news aggregator":http://www.mentalized.net/journal/2003/09/07/feeddemon_as_my_aggregator_of_choice/, "FeedDemon":http://www.feeddemon.com/feeddemon/, is out of the beta phase and has started costing money, I've decided to take a look around at the alternatives before I invest the $30.
+
+In general, I have a few criterias for an aggregator to stay installed:
+
+* Must support opening links in my default browser (ie not the internal browser or IE).
+* I must be able to easily navigate to the next unread item.
+* Feeds must be able to be categorized (in folders or the like).
+* I have to be able to import my OPML list of feeds, exported from FeedDemon.
+* The 3 pane view is the only way I care to read feeds. No website display, no tossing them all into one list.
+
+Furthermore I'd like it to not look like something a developer designed just because he needed it to have a GUI.
+
+Following are my initial thoughts after spending upwards of 5 minutes with each aggregator. None of these are fullfledged, thorough reviews, merely hastily formed opinions. With the amount of aggregators out there I need to be hooked within a very short timespan or the program gets uninstalled and I am on to the next one.
+
+<!--more-->
+
+h2. Abilon
+
+Decent, appears a bit simple. Can categorize feeds into folders. Space to go to next unread item. Unappealing looks.
+
+h2. Awasu
+
+The first time around, this aggregator is a jungle of tips and hints windows. No "Go to next unread"-key? Uses internal browser. No bulk import from OPML.
+
+h2. Beaver
+
+No import from OPML. Opens links in the internal browser.
+
+h2. BottomFeeder
+
+Looks unappealing, bordering to ugly. Imports OPML just fine. Apparently no "Go to next unread"-key.
+
+h2. CleverCactus
+
+Wouldn't start at all, apparently due to a lockfile existing in the user directory of another user on the machine...
+
+
+h2. NewsDesk
+
+Imports from OPML just fine. Space navigates to next unread item. Feeds can be categorized into folders, but opens links in internal browser
+
+h2. Newz Crawler
+
+Easy import from OPML. The channels are divided into folders. Key for navigating to next unread item, but opens links in internal browser.
+
+h2. SharpReader
+
+Opens links in my default browser. Space doubles as a "move to next unread key" and "page down through entry" - this will take some getting used to. The way of showing relations between linked entries is quite interesting. So far my biggest pet peeves seem to be that the text in the UI flickers when switching entries and the minimize-on-close sucks. 
+
+h2. RssReader
+
+No import of my OPML file.
+
+h2. The bottom line
+
+Of the above aggregators SharpReader seems like the only one that might make the cut. The rest all appeared to fail on at least one of my criterias. Looks like I will be giving Sharpreader a test drive for a while, however FeedDemon is still the superior (Windows) news aggregator for me.

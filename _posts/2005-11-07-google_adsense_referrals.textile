@@ -1,0 +1,29 @@
+---
+layout: post
+title: Google Adsense Referrals
+date: '2005-11-07 10:17:21 +0100'
+mt_id: 1462
+categories:
+- blogging
+---
+Google announced a new way for you to make a bit of cash from your website; "Earn money by making other people sign up for AdSense":https://www.google.com/support/adsense/bin/answer.py?answer=27406. 
+
+This makes a whole lot of sense for Google. AdSense is obviously their cash cow so the more sites publishing their ads the better. And they're probably trying to get as many publishers as possible before "Yahoo":http://publisher.yahoo.com/ comes around snatching them all.
+
+What I do wonder, though, is what is the deal with those huge, clunky graphical banners: <script type="text/javascript"><!--
+google_ad_client = "pub-7407278311558118";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as_rimg";
+google_cpa_choice = "CAAQq8WdzgEaCCQIMpsWzihvKNvD93M";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+ I thought Google understood and realized the value of textual advertising. I mean, that's what they're selling, isn't it? Shouldn't they be taking their own medicine?
+
+Also, I wonder if I will earn referrals from people coming in through the "Ads by Gooooogle" link that's showing in my ad units? It'd make a whole lot of sense if I did.
+
+h2. Update November 10th
+
+I contacted Google with the above questions and got their reply yesterday. Not surprisingly it was a "no" to both of them, with the added "we may add more options in the future and will take your thoughts into consideration". 

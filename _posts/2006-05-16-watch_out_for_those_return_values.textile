@@ -1,0 +1,29 @@
+---
+layout: post
+title: Watch out for those return values
+date: '2006-05-16 10:22:19 +0200'
+mt_id: 1610
+categories:
+- programming
+---
+For the first time a Rubyism has bit me using Rails. I needed to make sure a field was set to false and not null. So I added af before_save callback to my ActiveRecord model:
+
+bc(ruby). before_save :set_defaults
+def set_defaults
+  self.signup_completed = false if self.signup_completed.nil?
+end
+
+This worked great and the testcase passed. Alas, a ton of other testcases failed. Somehow adding the above prevented objects from being saved for no apparent reason. They were valid, .errors were empty, but .save still returned false.
+
+"Jakob", I asked to myself, "what can prevent an ActiveRecord object from saving?" "Oh, many things", came the swift reply, "for example callbacks returning false, but that's certainly not the case here."
+
+However, that is exactly the case here: Ruby methods return the last evaluated result. Since self.signup_completed = false returns false, my callback was returning false as well, which cancels the save. Doh!
+
+h2. The solution
+
+bc(ruby). def set_defaults
+  self.signup_completed = false if self.signup_completed.nil?
+  return true
+end
+
+Ugly, but working.

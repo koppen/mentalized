@@ -1,0 +1,121 @@
+---
+layout: post
+title: Java kicks Ruby in the what now?
+date: '2009-05-19 11:46:00 +0200'
+mt_id: 2001
+categories:
+- programming
+- technology
+---
+When I first read the "Java Kicks Ruby on Rails in the Butt article":http://java.sys-con.com/node/965189 by Javier Paniza, I brushed it aside as something from the time when Rails was just getting traction and people using related, established technologies started feeling threatened.
+
+I then noticed the date - turns out the article is only a few days old! Color me confused, could that article really have been written in 2009? I thought we had left the FUD-spreading behind us.
+
+In an effort to educate Javier - and hopefully others - I decided to rewrite the Rails part of his article the way he would have written it had he had more knowledge and experience with Rails. 
+
+
+<!--more-->
+
+h2. Models
+
+First order of business when creating a Rails application is to generate the basic structure. This sets up our directory structure, configuration file, and all the other goodness that makes it easy to find ones way around a Rails project:
+
+bc(shell). $ rails cookbook2
+      create  
+      create  app/controllers
+      ...
+$ cd cookbook2
+
+We need to store recipes and categories, so let's create two models with their database tables. Since Javier doesn't like passive code generation, I'll try to limit that in this tutorial, hence I am using the model generator rather than the scaffold generator for this:
+
+bc(shell). $ ./script/generate model Recipe category_id:integer title:string description:string instructions:text
+$ ./script/generate model Category name:string
+$ rake db:migrate
+
+This creates our models and the relevant database tables with the specified fields. No SQL is required, no need to mess around in more or less usable database GUIs. We're also getting the inklings of an eventual test suite created for us.
+
+
+h2. Controllers
+
+At this point we need to create some controllers we can access through a browser. The easiest way - at least the way that's easiest to describe in words - is to simply use the controller generator twice:
+
+bc(shell). $ ./script/generate controller recipes
+$ ./script/generate controller categories
+
+This creates two controllers of 2 lines each - obviously trivial to do by hand. I'll leave that as an exercise for the code generation wary reader.
+
+
+h2. The not so secret ingredient
+
+It's time to install the secret ingredient, which is what Javier really wanted to be comparing "his project":http://openxava.org with. "Streamlined":http://github.com/relevance/streamlined/tree/master is a framework (seems everything is these days?) that "... allows you to quickly generate useful user interfaces, declaratively":
+
+bc(shell). $ ./script/plugin install git://github.com/relevance/streamlined.git
+
+In order to hook Streamlined properly into our application, a few files need to changed (we're actually writing code now, for the first time). First, add one line to the Application Controller:
+
+bc(ruby). # app/controllers/application_controller.rb:
+class ApplicationController < ActionController::Base
+  ...
+  layout 'streamlined'
+  ...
+end
+
+Both the controllers we created before needs a single line added, increasing their line count by 50%!
+
+bc(ruby). # app/controllers/categories_controller.rb:
+class CategoriesController < ApplicationController
+  acts_as_streamlined
+end
+
+bc(ruby). # app/controllers/recipes_controller.rb:
+class RecipesController < ApplicationController
+  acts_as_streamlined
+end
+
+The next step is optional, and you can skip it if you like navigating by changing the URL in the address bar of your browser. If you prefer navigation you can click on, add a single method to the ApplicationHelper:
+
+bc(ruby). # app/helpers/application_helper.rb:
+module ApplicationHelper
+  def streamlined_side_menus
+    [
+      ['Recipes', {:controller => 'recipes'}],
+      ['Categories', {:controller => 'categories'}]
+    ]
+  end
+end
+
+Time to start our application and see how it looks
+
+bc(shell). $ ./script/server
+
+!/files/journal/cookbook2/recipes.png!
+!/files/journal/cookbook2/export.png!
+
+Wow, look at that. Note that you can filter the entries, sort the columns, export to a variety of formats, and pagination is built in. Looks almost production ready, doesn't it? 
+
+Looking back, it looks like I wrote a massive 9 lines of code (3 if you skipped the optional step, 13 if you created the two controllers manually). No unused application code has been generated. 
+
+Little work, polished result indeed.
+
+
+h2. Adding a relationship
+
+Let's round this article off by refuting yet another false claim in Javiers article. To create a relationship - or association, as we call it in the Rails world - all you need to do is add a single line to your model:
+
+bc(ruby). # app/models/recipe.rb:
+class Recipe < ActiveRecord::Base
+  belongs_to :category
+end
+
+!/files/journal/cookbook2/edit_recipe.png!
+
+Now refresh the page for creating a new recipe. Voila, there's a dropdown box for assigned categories to recipes. There is no need to write any HTML, restart the server, or recompile anything for that matter.
+
+
+h2. Conclusion
+
+Interestingly enough, while Javiers article is filled with inaccuracies and is based on his lack of knowledge of Rails and its ecosystem, I don't particularly disagree with his conclusion.
+
+Rails does use passive code generation, and yes, if you want to extend or refine the generated code you have to actually edit it. You know, that sounds an awful lot like programming to me.
+
+That said, I seriously disagree with the idea that productivity can be measured using contrived examples, and that a technology can be evaluated based on cursory knowledge gained from a 2 year old tutorial.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: A small part of me on wow-europe.com
+date: '2006-11-30 13:09:16 +0100'
+mt_id: 1751
+categories:
+- games
+- webdesign
+- projects
+---
+Considering I am a World of Warcraft player and previously pondered applying for a webmaster position at Blizzard Europe but decided against it due to not feeling like moving to Paris, it's pretty cool to notice that a small part of me have still made it onto the World of Warcraft website.
+
+Their new "World of Warcraft game stats":http://www.wow-europe.com/en/info/gamestats page uses one of my activity indicators to, well, indicate activity.
+
+"Blizzards spinning ball":http://www.wow-europe.com/shared/wow-com/images/info/gamestats/indicator_circle_ball2.gif is clearly "the same as mine":http://mentalized.net/activity-indicators/indicators/circling-ball-3-frame-fade-transparent-back-dark-antialiased.gif, and has most likely been lifted from "Napyfabs collection":http://www.napyfab.com/ajax-indicators/.
+
+Putting stuff into the public domain and seeing it pop up in unexpected places like this is extremely cool and has so far been my favorite thing about putting together the "collection of animated GIF progress indicators":http://mentalized.net/activity-indicators/. 

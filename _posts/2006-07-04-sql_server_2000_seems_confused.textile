@@ -1,0 +1,27 @@
+---
+layout: post
+title: SQL Server 2000 seems confused
+date: '2006-07-04 10:23:38 +0200'
+mt_id: 1646
+categories:
+- projects
+- programming
+---
+So I am getting this error in my Windows Application Event Log: 
+
+bq. The log file for database 'tempdb' is full. Back up the transaction log for the database to free up some log space.
+
+Fair enough, it happens. But when I go to backup the tempdb database using Enterprise Manager, I get this message:
+
+bq. Backup and restore operations are not allowed on database tempdb.
+
+Someone tell that to whoever wrote the event log message. :)
+
+
+h2. The solution?
+
+The proper solution is likely to manually grow the tempdb files to a more appropriate level than the current. Ah well, I'm no DBA, and this seem to have solved the issue for now:
+
+bc(sql). BACKUP LOG tempdb WITH TRUNCATE_ONLY
+
+For some reason that command completes without errors, even though "Backup and restore operations are not allowed on database tempdb. There definitely seems to be some confusion as to what's allowed and what isn't.

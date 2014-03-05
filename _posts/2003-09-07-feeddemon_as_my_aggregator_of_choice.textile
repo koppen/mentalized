@@ -1,0 +1,15 @@
+---
+layout: post
+title: FeedDemon as my aggregator of choice
+date: '2003-09-07 16:55:28 +0200'
+mt_id: 739
+categories:
+- blogging
+---
+I think I finally found the RSS aggregator of my life. Going through <a href="http://rss.lockergnome.com/resources/" title="Lockergnome's RSS resources">Lockergnome's RSS resources</a>, basically trying every single (free) aggregator for Windows, I finally ended up sticking with "FeedDemon(FeedDemon)":http://www.feeddemon.com/feeddemon/ .
+
+Previously its low beta version numbers had kept me from really giving it a go, but I must say the current "beta 5(FeedDemon beta 5)":http://www.feeddemon.com/feeddemon/beta/ is quite nice. It does pretty much everything I want from an aggregator: It can launch links in my default browser, custom update intervals for feeds (it even respects the TTL set in the feed), single-key reading of entries, and quick and simple adding of feeds. 
+
+The "interface (FeedDemon RSS Reader Screenshots)":http://www.feeddemon.com/feeddemon/1.0/screenshots/ is pleasant to look at, intuitive, and shows an attention to usability details you don't usually see in Windows programs. As an added bonus I can define my own style for showing entries using XSLT so I can make my daily RSS reading look exactly like I want it.
+
+So far the only real downside I have noticed is the yet unknown pricetag. Hopefully this won't be too much and I might even be able to not be a cheapskate for once and support Nick Bradbury and his kids.

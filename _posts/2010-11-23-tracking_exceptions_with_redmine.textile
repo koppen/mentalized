@@ -1,0 +1,28 @@
+---
+layout: post
+title: Tracking exceptions with Redmine
+date: '2010-11-23 09:45:51 +0100'
+mt_id: 2076
+categories:
+- software
+- programming
+---
+Staying on top of errors that happen in your production Rails applications is a must. Unfortunately trawling through log files get old really fast, and getting enough information about where the error happened can be hard.
+
+That's what services like "Exceptional":http://getexceptional.com or "Hoptoad":http://hoptoadapp.com solves. Whenever an error occurs in your application the details are sent to their service, where you are able to see when, where and how many times a given error has occurred.
+
+However, if you're uneasy about sending this level of details to a third party service - or if you're simply a cheapskate like me, there is another way using "Redmine":http://redmine.org.
+
+
+<!--more-->
+
+Fortunately that's very easy. You need two pieces of open source software:
+
+* "Redmine Hoptoad Server plugin":https://github.com/edavis10/redmine_hoptoad_server
+* "Hoptoad Notifier":https://github.com/thoughtbot/hoptoad_notifier
+
+Simply install the "Redmine Hoptoad Server plugin":https://github.com/edavis10/redmine_hoptoad_server (this fork in particular) into your Redmine installation as described on "the wiki page":http://www.redmine.org/wiki/1/Plugins.
+
+Then install the official "Hoptoad Notifier plugin":https://github.com/thoughtbot/hoptoad_notifier into your application and configure it as describe in the "README":https://github.com/edavis10/redmine_hoptoad_server#readme from Redmine Hoptoad Server.
+
+Voila, from your next deployment onwards your Redmine will be receiving bug reports directly from your application, including stack traces, session values, environment variables and all the good stuff you need to investigate the issue.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Slow Lighttpd on redirect_to
+date: '2005-09-21 19:35:06 +0200'
+mt_id: 1422
+categories:
+- technology
+---
+This seems to be an issue that pops up every so often on the Ruby on Rails mailing list and IRC channel and probably elsewhere. When using "Lighttpd":http://www.lighttpd.net proxypassed behind Apache (this might also be true if you're not behind Apache, I'm too lazy to check) the redirect_to function will take roughly 30 seconds to complete.
+
+To get around this, you can disable Keep Alive in Lighttpd by adding the following line to your config:
+
+bc. server.max-keep-alive-requests = 0
+
+According to the Lighttpd Trac "this has been fixed":http://trac.lighttpd.net/trac/ticket/243 earlier today, so expect this to go away with the next Lighttpd release.
+
+Update: Seems you can also get around this by "hacking ActionController":http://www.stupidsimple.org/articles/2005/09/14/running-rails-on-lighttpd-behind-apache2. Personally I prefer disabling KeepAlive.

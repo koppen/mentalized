@@ -1,0 +1,50 @@
+---
+layout: post
+title: Don't use placeholder text as labels
+date: '2010-08-05 10:03:44 +0200'
+mt_id: 2052
+categories:
+- usability
+- webdesign
+---
+One of the form field enhancements coming in HTML5 is the "placeholder-attribute":http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-placeholder-attribute: 
+
+bq. The placeholder attribute represents a short hint (a word or short phrase) intended to aid the user with data entry. A hint could be a sample value or a brief description of the expected format.
+
+Not a new concept by any means, but it's great that it's being formalized and supported by browsers. The HTML5 spec then goes on to say:
+
+bq. The placeholder attribute should not be used as an alternative to a label.
+
+This is important because the placeholder text gets removed as the form is being filled out and your form needs to be usable even when your placeholder text is not there.
+
+
+<!--more-->
+
+h2. Label-less is okay for musicians, not for forms
+
+My common usage scenario for forms that replace labels placeholder text looks somewhat like:
+
+# I start filling out the form by tabbing to or clicking the first form field. If I'm lucky, I might have noticed the placeholder text before it is removed so I know what to enter there. 
+# When done, I hit the tab key and the keyboard focus (and my focus) is moved to the next field.
+# Puzzlement strikes. The placeholder text is gone, there is no label, and I am left with a blank field eagerly awaiting my input on ... something... anything?
+# I can now tab back to the previous field or otherwise remove focus from the current field which reveals the placeholder text, interrupts my flow, and annoys the hell out of me.
+
+Let me repeat: Your form needs to be usable when your placeholder text is not there.
+
+
+h2. The more fields, the higher need for labels
+
+For a simple form this might work out okay, for example an input field next to a 
+"search" button. Even without the placeholder it's somewhat obvious how the form works as the button text effectively becomes the label for your input field. 
+
+It might even be possible to stretch the idea to a login form: Two fields and a "Log in" button might work. More fields than that and any form is quickly becoming unusable.
+
+
+h2. Alternative methods
+
+If for some reason you cannot put labels on your forms - perhaps you have one of those websites with a quota on the amount of pixels it can use (it's a EU thing, I bet), consider using one of these alternative methods that don't entirely remove the placeholder text.  
+
+* "Fading placeholder text":http://fuelyourcoding.com/scripts/infield/
+* "Sliding placeholder text":http://www.csskarma.com/blog/sliding-labels-plugin/
+
+You won't be able to play with the cool kids and take advantage of the HTML5 attribute, but at least you're not showing your disregard for your users publicly.

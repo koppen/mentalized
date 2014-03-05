@@ -1,0 +1,21 @@
+---
+layout: post
+title: Design tweaking
+date: '2004-07-20 14:25:25 +0200'
+mt_id: 810
+categories:
+- webdesign
+- mentalizednet
+- projects
+---
+Messed around with the new layout a bit today, fixing some issues and likely creating some new ones:
+
+* The sidebar has been given a background color to seperate it a bit more from the main content.
+* The main navigation links has been spaced out and given a hover style to make them more visible.
+* The dropshadow under the pagetitle is gone. Trying to cut down on my blatant abuse of dropshadows here.
+* The outer striped gradients has been flipped. It looks nicer this way and I feel it helps leading the eye towards the content.
+* The CSS now losely follows the "naming conventions put forth by Andy Clarke(What's in a name (pt2))":http://www.stuffandnonsense.co.uk/archives/whats_in_a_name_pt2.html.
+* The document structure has been improved (I hope), based on "Tomas Jogins thoughts about hierarchy(Hierarchy)":http://jogin.com/weblog/archives/2004/07/19/hierarchy and the comments to his post. 
+* The search is now styled, inspired by the technique "detailed by Dave Shea(PHP, CGI and MT: Together at last)":http://mezzoblue.com/archives/2004/07/08/php_cgi_and_/.
+
+So far, all seems well and somewhat better.

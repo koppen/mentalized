@@ -1,0 +1,9 @@
+---
+layout: post
+title: Math of the day
+date: '2004-06-23 09:53:41 +0200'
+mt_id: 800
+categories:
+- life
+---
+1 Jakob wearing a leather jacket + 1 bicycle ride to work + 1 bicycle parked with the handlebar reaching into the bike lane = "1 torn leather jacket(Hooray...)":/journal/2004/06/23/math_of_the_day/torn_jacket.jpg

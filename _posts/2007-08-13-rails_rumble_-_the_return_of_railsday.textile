@@ -1,0 +1,11 @@
+---
+layout: post
+title: Rails Rumble - The Return of Railsday
+date: '2007-08-13 09:41:27 +0200'
+mt_id: 1855
+categories:
+- programming
+---
+Looks like someone decided to resurrect the "Railsday":http://www.railsday2006.com/ concept. While it has a different name, a different duration, a different judging process (and probably a ton of other differences), "Rails Rumble":http://railsrumble.com is still all about getting a small team together and build a kick ass web -application- thing in "Ruby on Rails":http://rubyonrails.org in a set timeframe.
+
+Time to think up a killer idea, hmmm...

@@ -1,0 +1,13 @@
+---
+layout: post
+title: The Zen of CSS design
+date: '2003-05-09 10:59:38 +0200'
+mt_id: 699
+categories:
+- webdesign
+---
+In a time where XHTML/CSS is being bashed from <a href="http://www.livejournal.com/users/jwz/193866.html" title="CSS is BS">left</a> and <a href="http://www.aquasition.net/archive/2003/05/03/css_where_art_thou_height_auto.html" title="CCS: Where Art Thou?">right</a>, mezzoblues <a title="css Zen Garden: The Beauty in CSS Design" href="http://www.mezzoblue.com/zengarden/">css Zen Garden: The Beauty in CSS Design</a> is a much appreciated initiative.
+
+The garden showcases some of the big strengths (and some of the big weaknesses) of purely CSS-based designs. It shows exactly how flexible your solution can be, when you separate content fand presentation.
+
+Newsflash: The Garden even <a href="http://www.delorie.com/web/lynxview.cgi?url=http%3A%2F%2Fwww.mezzoblue.com%2Fzengarden%2F" title="LynxView: CSS Zen Garden">works well in Lynx</a>.

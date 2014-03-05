@@ -1,0 +1,23 @@
+---
+layout: post
+title: Phew, Rails Day is over
+date: '2006-06-19 08:53:47 +0200'
+mt_id: 1631
+categories:
+- programming
+- webdesign
+- projects
+---
+After 24 hours of insane, non-stop coding, designing, talking, and general tom-foolery, "Rails Day 2006":http://www.railsday2006.com is over. "Nearly 200 teams":http://spectate.railsday2006.com/changesets/teams/ competed, committing "over 5000 total changesets":http://spectate.railsday2006.com/ to the official SVN server. 
+
+h2. My team
+
+Even though "I got a team fairly late":http://mentalized.net/journal/2006/06/13/railsday_is_acoming/, and our initial design/concept wasn't fully fleshed out, I reckon we got fairly far. The application was inspired by "Dan Russells post on Creating Passionate Users":http://headrush.typepad.com/creating_passionate_users/2006/05/what_a_graphic_.html about visualizing your life as dots. 
+
+The application got almost feature complete, although it got far from as usable as I would have liked it to. We'll have it deployed to "a webserver near you":http://www.timedots.net soon. Our "team stats are here":http://spectate.railsday2006.com/changesets/teams/155/, for those who care.
+
+h2. Is Rails Day 2007 coming soon?
+
+Rails Day was a really cool (and tough) experience, and I had a lot of fun. Thanks should go to my teammates and our "manager" (yes, Johannes, that's you ;) ), and to the Rails Day crew. The spectate function, SVN bots, and generally everything has been running pretty smootly, cheers! Also huge thanks to my lovely girlfriend who took good care of me all day, and didn't even once call me crazy or roll her eyes - at least not while I noticed. 
+
+Next year, I am hoping the danish Rails community will be crawling with people so we can field a team all sitting together. That'd be extremely cool in my book. So, see you next year?

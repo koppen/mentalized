@@ -1,0 +1,9 @@
+---
+layout: post
+title: Rails patch night
+date: '2007-04-27 13:08:02 +0200'
+mt_id: 1811
+categories:
+- copenhagenrb
+---
+Pst, if you're a rubyist in the Copenhagen area and you'd like to get into "contributing":http://dev.rubyonrails.org/ to "Rails":http://rubyonrails.org, you should come to the upcoming "Rails Patch Night":http://copenhagenrb.dk/2007/4/21/rails-patch-dag hosted by "Copenhagen Ruby Brigade":http://copenhagenrb.dk/ on the evening/night of May 5th.

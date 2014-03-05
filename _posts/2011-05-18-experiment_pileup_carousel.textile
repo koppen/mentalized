@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Experiment: PileUp Carousel'
+date: '2011-05-18 09:09:09 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  QSBjYXJvdXNlbCByZXNlbWJsaW5nIGEgc3RhY2sgb2YgcGhvdG9zIGJlaW5n
+  IHNodWZmbGVkIGZyb20gb25lIHNpZGUgb2YgdGhlIHNjcmVlbiB0byB0aGUg
+  b3RoZXIgLSB3aG8nZCBub3Qgd2FudCB0aGF0Pw==
+mt_id: 2107
+categories:
+- projects
+- webdesign
+- technology
+---
+HTML5, CSS, JavaScript, hardware accelerated 3D transformations - this post has it all. Oh, and a live demo.
+
+I recently had the idea of a photo carousel resembling a pile of photos being shuffled from one side of the screen to the other. The goal was to use as little JavaScript as possible and rely on CSS transitions instead.
+
+"The resulting demo is here":http://mentalized.net/files/journal/pileup/
+
+h2. Disclaimer
+
+This is just me messing about and kicking the tires, it's not intended to be a fully working, reusable, or customizable widget. In other words; this is not a jQuery plugin. I suppose it could be made into one fairly easily, though.
+
+
+<!--more-->
+
+h3. Sidenote
+
+&lt;pedantry&gt;When the heck did these types of widgets become "sliders"? "These are sliders":http://www.java2s.com/Code/JavaImages/SliderTest.PNG, the others are not. The best of them don't even slide. Calling them slideshows are a stretch even.&lt;/pedantry&gt;
+
+
+h2. Features
+
+* All animation is done by CSS.
+* Most visual customization is controlled via CSS.
+* Uses hardware acceleration where possible (I think).
+* Should work with any element, not just images.
+* Works in Safari, Chrome, and Firefox. It performs best in Safari, box shadows are a drag in the other browsers.
+* Should degrade reasonably gracefully in other browsers, haven't been tested there though.
+
+
+h2. Known issues
+
+* Firefox has some visual artifacts caused by rotating it seems.
+* The initial animation isn't the same across browsers, and to be honest, I'd prefer it wasn't there at all.
+* It probably doesn't work all that great with differently sized images.

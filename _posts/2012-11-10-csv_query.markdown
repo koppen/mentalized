@@ -1,0 +1,48 @@
+---
+layout: post
+title: CSV Query
+date: '2012-11-10 11:22:02 +0100'
+mt_id: 2153
+categories:
+- projects
+- technology
+---
+I seem to often find myself munging datasets from various sources in CSV format. While grep, awk, and sort go a long way, command line tools for processing CSV data are surprisingly lackluster.
+
+Sure, I could import the data into a database and run SQL queries on it, but that gets tedious after a few runs - unless, of course, if you automate it. Which I did, and I have decided to share the tool as [CSV Query](https://github.com/koppen/csv_query).
+
+
+<!--more-->
+
+## Example
+
+CSV Query is a command line tool that allows you to run SQL queries on data stored in CSV files, for example:
+
+    $ csvq --select "count(*)" --where "name='Jakob'" sample.csv
+    count(*)
+    --------
+           1
+
+## Installation
+
+[CSV Query](https://github.com/koppen/csv_query) is distributed as a [Ruby gem](http://rubygems.org/gems/csv_query), so installation is a matter of
+
+    $ gem install csv_query
+
+... assuming you have Ruby set up.
+
+## The alternatives
+
+A few days ago, I [tweeted](https://twitter.com/mentalizer/status/265038907907903488):
+
+> 1. Find problem
+> 2. Fail to find existing project that solves it
+> 3. Write it yourself
+> 4. Find 2 other projects that does the same thing
+
+That was roughly my experience with [CSV Query](https://github.com/koppen/csv_query). A few other projects aim to do roughly the same thing, and I didn't find them until after I had already written my own tool. Sigh.
+
+* [csvq.py - Python variant that does almost the same thing, but uses Python for querying](http://www.gl1tch.com/~lukewarm/software/csvq/)
+* [CSVql - A query language for CSV files](https://github.com/ondrasej/CSVql)
+
+[CSV Query](https://github.com/koppen/csv_query) is slightly different in its approach, basically passing all querying on to SQLite. Here's hoping it'll prove useful for a few people other than myself.

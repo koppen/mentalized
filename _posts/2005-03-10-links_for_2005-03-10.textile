@@ -1,0 +1,13 @@
+---
+layout: post
+title: links for 2005-03-10
+date: '2005-03-10 12:21:10 +0100'
+mt_id: 1255
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://blogs.msdn.com/ie/archive/2005/03/09/391362.aspx">IE Blog: IE and Standards</a></div>
+		<div class="delicious-extended">Chris Wilson guarantees the IE team cares about and will improve standards support - on a webpage that doesn't validate, no less</div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/webdesign">webdesign</a> <a href="http://del.icio.us/koppen/standards">standards</a> <a href="http://del.icio.us/koppen/IE">IE</a>)</div>
+	</li>
+</ul>

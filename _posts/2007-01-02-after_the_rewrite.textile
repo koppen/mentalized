@@ -1,0 +1,48 @@
+---
+layout: post
+title: After the rewrite
+date: '2007-01-02 12:28:34 +0100'
+mt_id: 1765
+categories:
+- biq_on_rails
+- technology
+- projects
+- programming
+---
+"Around 6 months ago":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
+
+A week or two before christmas the rewrite went feature complete. That is; all the features we want and need in the next, "Ruby":http://ruby-lang.org based version of BiQ have been rewritten.
+
+Let me unload some numbers on you.
+
+I started out looking at roughly 18000 lines of ASP3.0/VBScript code. That's not counting the HTML and (very little) logic in our templates. The database contained around 60 tables.
+
+As the rewrite progressed it became clear that a good deal of the code had been obsoleted over the years, most by being part of features that were planned and developed but never launched or used. Again other parts of the code were stuff that we didn't want to rewrite this time around.
+
+h2. From 15.5K to 4.5K in 6 months
+
+In the end, the final count of actually converted lines of ASP3.0/VBScript code hover at 15346.
+
+The amount of code in the Rails application is slightly different (as reported by rake stats): 4654. That's 10692 fewer lines, or a reduction in lines of code of roughly 70%.
+
+In addition to the above 4654 lines of code comes roughly the same amount of lines of test code - something we didn't have before.
+
+h2. Why did it take so long?
+
+"Jakob, why did it take so much time? 6 months is a long time for less than 5K lines of code", I hear you ask. The zen'ish answer is that it didn't actually take that long. 
+
+Based on our initial tests and prototypes we estimated (somewhat naively) that we needed around half a minute per line of ASP. The reality of things were that it took almost 1 minute per line. However, the added time resulted in a decent test suite as well (unfortunately only around 75% coverage) - this is extra time well spent in my book.
+
+The original guesstimate also figured an average 4 hours of actual rewriting per day, which proved to be not true. Had the 4 hours per day been the reality, I would've been writing this blog entry in November instead.
+
+h2. What's happening now?
+
+As the investigative reader might have noticed the site at "biq.dk":http://www.biq.dk is still the old ASP/VBScript site. 
+
+The actual rewrite was only step one. Step two, which we're working on now, is building new fancy features, improving the existing ones, and generally giving the application a face lift. This isn't only about pretty and readable code, we want a pretty and usable application as well.
+
+Since the rewrite isn't only about going from VBScript to Ruby, but also going from "Windows":http://microsoft.com/windows to "Linux":http://debian.org, IIS to "Apache":http://httpd.apache.org/ and "Mongrel":http://mongrel.rubyforge.org, one server to 2 servers, and a slew of other infrastructure changes we're still not quite ready to launch.
+
+We still have to change, modify and verify a good deal of our internal processes and procedures (like deployment). We also need to run a bunch of internal tests and checks to make sure that everything is behaving as it should and in a timely manner - including the parts of BiQ that haven't been rewritten.
+
+We're hoping to launch before February, I'll be sure to shout it from the roof tops (or at least "mentalized":http://mentalized.net) when we do. I'll see if I can find the time to write a bit more about some of the more technical details of the rewrite as well.

@@ -1,0 +1,134 @@
+---
+layout: post
+title: Notetagger - Adding the Ajax
+date: '2005-04-27 16:57:00 +0200'
+mt_id: 1304
+categories:
+- projects
+---
+Finally I can get around to one of the reasons I started creating Notetagger: Playing with Ajax. In this installment I'll take you through adding simple Ajax functionality to an application.
+
+You might want to read the "previous installment":/journal/2005/04/15/notetagger_adding_tags/ before this one.
+
+<!--more-->
+
+h2. A bit of Ajax theory
+
+In short, Ajax is a combination of technologies that allows websites to perform actions without having to refresh the page. In effect this works by using Javascript to send a HTTP request to the webserver, and using the results from that request to alter parts of the existing page.
+
+h2. How it works in Rails
+
+The Ajax functionality of Rails is contained in the "prototype":http://prototype.conio.net/ Javascript library, combined with a "set of helper tags":http://rails.rubyonrails.com/classes/ActionView/Helpers/JavascriptHelper.html to ease the pain of writing Javascript calls by hand.
+
+The documentation is somewhat scarce at the moment, but luckily there is "a movie showing how to turn a regular, boring form into a fresh, Ajaxy form":http://www.rubyonrails.com/media/video/rails-ajax.mov. That's what the kids want these days, so that's what we'll give them.
+
+
+h2. Including prototype
+
+For now, I'll include the Ajax Javascript functions in my code by using
+
+bc. <%= define_javascript_functions %>
+
+in my view. This inserts the Javascript into the HTML so it's not really optimal. When I get around to wrapping the views in layouts, I'll be able to include them properly in the header of my layout, but this will do for now.
+
+
+h2. Adding the create form
+
+Since the note creation/update form already resides in a partial, it's easy to add it to the notes list. I don't want the form to be visible all the time, so I toss it in a hidden div and add a link above it to toggle the display of that div.
+
+Ruby on Rails' Javascript Helpers makes it easy to add a link, that calls the Toggle function (included in prototype) so I add another link to hide the div again.
+
+All in all, I've add this to the top of my view:
+
+bc. <p><%= link_to_function('Create a new note', "Toggle.display('create_note')") %></p>
+<div id="create_note" style="display: none">
+        <%= form_tag :action => 'create' %>
+                <% @note = Note.new %>
+                <%= render_partial "form" %>
+                <%= submit_tag "Save note" %>
+                | <%= link_to_function('Cancel', "Toggle.display('create_note_form')") %>
+        <%= end_form_tag %>
+</div>
+
+This actually works, the form can be toggled and new posts can be created, but apart from the toggling of the forms visibility this isn't terribly Ajaxy. Let's change that.
+
+Looking at the Javascript Helpers you might notice there is a form tag helper, form_remote_tag. This is the one we want, since that makes the form send a XMLHTTPRequest on submitting instead of the regular HTTP request.
+
+Now this is where things get a bit murky.
+
+h2. form_remote_tag
+
+According to the docs form_remote_tag accepts an options hash that specifies callbacks. Basically these callbacks are Javascript code that should be executed at specific times of the requests lifecycle. The "docs lists these 4 callbacks":http://rails.rubyonrails.com/classes/ActionView/Helpers/JavascriptHelper.html#M000364.
+
+Since I couldn't find anything more specific than that I studied the movie from above a few times, and finally by trial and error I ended up with a form tag looking like
+
+bc. <%= form_remote_tag(
+  :url => {:action => 'create'},
+  :update => 'notes',
+  :loading => "Toggle.display('create_note');",
+  :complete => "$(create_note_form).reset();",
+  :html => {'id' => 'create_note_form'}
+) %>
+
+Note that the contents of each of the callbacks are actually Javascript snippets (although in the case of :complete, they are processed a bit by Rails before being handed to the Javascript engine). I'll explain the options line by line:
+
+bc. :url => {:action => 'create'},
+
+This is the URL to the receiving action. Nothing out of the ordinary here.
+
+bc. :update => 'notes',
+
+'notes' is the id of a DOM element which contents should be replaced with the results returned by the action. For that to work I've added a &lt;div id="notes"&gt; around my list of notes since that's where I want the new note to appear.
+
+bc. :loading => "Toggle.display('create_note');",
+
+This removes the div with the form immediatly after sending the request by calling the Toggle effect just as above.
+
+bc. :complete => "$(create_note_form).reset();",
+
+When the XMLHTTPRequest has completed, this line makes sure the form is cleared so the user can add a new note. The syntax $(create_note_form) is transformed by Rails into Javascript that looks up the DOM element with the id 'create_note_form'.
+
+bc. :html => {'id' => 'create_note_form'}
+
+This line simply puts id="create_note_form" into the raw HTML for the form tag. With this in place, the previous line can hook onto that id to reset the form.
+
+With the above in place, the Ajax stuff actually works, but it isn't pretty.
+
+h2. create action with a twist
+
+At this point things look screwy because I've used my existing create action, which redirects to the list action after completion. This means that the full HTML for the notes list, including layout and form and taglist, is inserted into the notes div. That's not really what I want.
+
+Instead I want to create a note, then return the list of entries *without* layout or form for insertion into the proper div.
+
+The easiest way to achieve that seems to be to extract the display of the list into a partial and create a new create action that renders that partial without any layout added. In code that looks like:
+
+bc(ruby). class NotesController < ApplicationController
+  layout 'notes', :except => {'create_with_ajax'}
+  def create_with_ajax
+    @note = Note.new(@params[:note])
+    if @note.save
+      @notes = Note.find_all(nil, 'created_at DESC')
+      render_partial 'list'
+    end
+  end
+end
+
+And indeed, it actually works now!
+
+
+h2. Finishing touches
+
+Using the above techniques makes it easy to also Ajaxify the "Delete" link. It's a matter of using link_to_remote, which acts in the same manner as form_remote_tag in regards to callbacks.
+
+Using the callbacks and some extra divs also makes it easy to create status messages to inform the user of what's going on.
+
+
+h2. Getting the code
+
+If you want to take a peek at what this and the previous installments have resulted in you can "download the app directory":/files/journal/notetagger/sources/notetagger_app_20050427.zip. 
+
+I guess it might be possible to create a Rails application, setup a database like "described earlier":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/ and unzip the contents into the app directory to get Notetagger running locally.
+
+Good luck if you try :)
+
+"Continue to next part: Summing Up":/journal/2005/04/27/notetagger_summing_up/

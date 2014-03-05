@@ -1,0 +1,9 @@
+---
+layout: post
+title: Have you switched away from IE yet?
+date: '2004-07-01 10:35:30 +0200'
+mt_id: 803
+categories:
+- browsers
+---
+"No?!(Oops, severe security hole in Internet Explorer)":http://www.securityfocus.com/bid/10308/discussion/ "How(And another!)":http://www.securityfocus.com/bid/10023/discussion/ "many(Oh my, a Internet Explorer security hole)":http://www.securityfocus.com/bid/9510/discussion/ "more(Yet another Internet Explorer security hole)":http://www.securityfocus.com/bid/9335/discussion/ "reasons(Surely, this can't be an Internet Explorer security hole)":http://www.securityfocus.com/bid/8984/discussion/ "do(You mean this is also a security hole in Internet Explorer?)":http://www.securityfocus.com/bid/8565/discussion/ "you(Browser - security = Internet + Explorer)":http://www.securityfocus.com/bid/8556/discussion/ "need(And yet another Internet Explorer security hole)":http://www.securityfocus.com/bid/6961/discussion/ "still?!(Guess what, another Internet Explorer security hole)":http://www.securityfocus.com/bid/5450/discussion/

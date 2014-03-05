@@ -1,0 +1,11 @@
+---
+layout: post
+title: Hell froze over
+date: '2003-10-17 10:35:42 +0200'
+mt_id: 755
+categories:
+- technology
+---
+Hell froze over and "probably the best Windows application ever written" was released. And I could care less:
+
+bq. The iTunes Music Store is not available in your country yet. You will be able to browse music and listen to previews, but you won't be able to purchase music unless your billing address is in the United States.

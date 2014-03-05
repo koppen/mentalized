@@ -1,0 +1,15 @@
+---
+layout: post
+title: Kill the Rails pluralization
+date: '2006-02-02 16:38:11 +0100'
+mt_id: 1525
+categories:
+- programming
+---
+One of the oft-ranted about features of Rails, is the Inflector - also known as that f***** pluralizer. To turn it off, put this in your config/environment.rb, below the line that says "Include your application configuration below":
+
+bc(ruby). ActiveRecord::Base.pluralize_table_names = false
+
+This works in Rails 1.0, and counters seemingly weird issues where Rails can't find your tables (like the "Before updating scaffolding from new DB schema, try creating a table for your model" message from the scaffold generator).
+
+To figure out what the pluralizer does and expects, do check out "Geoffrey Grosenbach's Pluralizer Tool":http://nubyonrails.topfunky.com/tools/pluralize.

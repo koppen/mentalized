@@ -1,0 +1,13 @@
+---
+layout: post
+title: Damn you all to hell!
+date: '2004-03-03 09:50:34 +0100'
+mt_id: 781
+categories:
+- technology
+---
+Arg! "Re: Re: Document", "stolen", "Fake", "Re: Your bill", "something for you", "Re: Your document", "hi", "hello", "unknown", "warning", "read it immediatly", "information", and the list goes on.
+
+People, stop getting viruses - how hard can it be? Having a virus scanner is no reason to not apply common sense when reading emails. Failing to do so results in me having to deal with people assuming that since *your* virus forged *my* email address as sender, that I am the one stupid enough to have been infected.
+
+Sigh...

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Fare well David
+date: '2005-11-15 10:50:55 +0100'
+mt_id: 1468
+categories:
+- life
+---
+Last night "a bunch of people said goodbye":http://pinds.com/articles/2005/11/15/emigrationsafhandling-worth-doing to "David":http://www.loudthinking.com, all while trying to prive whatever information we could from that impressive (and loud) mind of his.
+
+Selected highlights from David's emigration speech/presentation/keynote/whachamacallit:
+
+* Danish mediocricy-loving and taxes pushed him towards the states. 
+* Open sourcing Rails was a fantastic idea.
+* "Reality PR" requires a thick hide and bombastic opinions.
+* We ain't seen the best of Rails yet.
+
+Thanks bundles to "Lars Pind":http://pinds.com, "Thomas Madsen-Mygdal":http://www.bootstrapping.net/, "Martin von Haller":http://suse.groenbaek.net/openlife/, "Nikolaj Nyholm":http://nyholm.net/decibel/, and "Guan Yang":http://unicast.org/ for organizing that little shindig. Oh, and thanks to Gert from "

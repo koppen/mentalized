@@ -1,0 +1,82 @@
+---
+layout: post
+title: Jimbo Wales
+date: '2005-06-10 14:22:31 +0200'
+mt_id: 1336
+categories:
+- reboot
+---
+Notes from Jimbo Wales' speech; The Intelligence of Wikipedia
+
+<!--more-->
+
+A global project.
+
+200 languages - 22 languages with more than 10000 articles.
+
+Multilingual
+
+h2. Projects
+
+* Wikipedia
+* Wiktionary
+* Wikibooks
+* Wikisource
+* Wikiquote - Famous quotes
+* Wikimedia commons - collection of media uploads
+* Wikinews
+
+h2. Why does Wikipedia work?
+
+Due to the community of thoughtful users.
+
+Peer judgement. Community model. Reputation comes from actions and human judgements, instead of from ratings. 
+
+Users are powerful, have to be respected.
+
+Small core (0.7% - 524 people) does more than 50% than the edits.
+
+h2. How does the community ensure quality?
+
+Software provides easy way to view changes.
+
+Let the community decide how it wants to interact. ie deletion votes, which arent really votes, but merely a wiki page where people put down "delete"/"keep". More like a discussion.
+
+The human factor!
+
+h3. Free knowledge
+
+* Remains non-proprietary
+* Decreases individual sense of ownership
+* Increases a sense of shared ownership - "it is *our* article"
+* Enhances the popularity of Wikipedia - branding, back links, syndication with attribute.
+* Attribution requirement extends name recognition.
+
+h3. Neutral Point of View policy
+
+* Diverse political, religious, cultural backgrounds.
+* NPOV is a social concept of cooperation, avoids some philosophical issues.
+
+h3. Free Software
+
+* GPL
+* LAMP
+
+Allows for ease of extension
+ 
+h2. Wikipedia governance
+
+* Aim for consensus
+* Democracy when consensus can't be achieved => voting.
+* Aristocracy: Some users have more knowledge, experience than others and form an "aristocracy".
+* Monarchy: Benevolent dictator == Jimbo Wales. The decision maker, last resort, a way to move forward.
+** The benevolent dictator role/power is being phased out.
+* Values the results above the anarchy.
+
+Don't solidify social rules early.
+
+h2. How does Wikipedia scale
+
+* Through software features - automating of current manual tasks
+* Through policy (mediation, arbitration)
+* Through an atmosphere of love and respect

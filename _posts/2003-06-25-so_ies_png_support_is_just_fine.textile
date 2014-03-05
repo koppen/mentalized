@@ -1,0 +1,20 @@
+---
+layout: post
+title: So IEs PNG support is just fine?
+date: '2003-06-25 22:56:47 +0200'
+mt_id: 713
+categories:
+- webdesign
+---
+==<blockquote>==
+
+Thank you for taking the time to contact us.
+
+As you may be aware, Internet Explorer on Windows has had support for PNG images since version 4.  A drawback in the current implementation has been support for per-pixel alpha values, which in no way detracts from PNG's value as an alternative to other image formats.  Based on feedback such as yours, we have provided a workaround for this issue.
+
+Once again, thanks for providing feedback on Internet Explorer.
+
+-Pablo Fernicola
+Lead Program Manager
+
+==</blockquote>==

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Interviewed for version2
+date: '2007-01-30 16:53:08 +0100'
+mt_id: 1782
+categories:
+- biq_on_rails
+- life
+---
+Right before christmas I was interviewed by the danish "version2":http://version2.dk. The focus was on "Ruby on Rails":http://rubyonrails.org and our "picking that technology for BiQ":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/.
+
+The interview was published on dead trees Friday, and today "it reached the version2 website":http://www.version2.dk/artikel/1224. This is pretty cool, I've never been interviewed before.

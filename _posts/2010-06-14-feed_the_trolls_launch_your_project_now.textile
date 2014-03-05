@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Feed the trolls: Launch your project now'
+date: '2010-06-14 10:51:44 +0200'
+mt_id: 2043
+categories:
+- business
+- software
+---
+One of the many things I try to make my customers realize, is that their web application is never done. 
+
+There is always something that can be made easier to use, pages that can be made to load faster, new features that can be implemented, existing features that can be made more powerful, or landing pages that can be optimized.
+
+
+<!--more-->
+
+"Pixar":http://pixar.com is a big inspiration to me, so it was pretty cool "seeing":http://www.lettersofnote.com/2010/06/pixar-films-dont-get-finished-they-just.html that John Lasseter has the same approach regarding their movies
+
+bq. Our films don't get finished, they just get released
+
+When you release a movie, that's it, no more changes (unless you later release a Directors Cut or Special Edition or whatever that only a fraction of people will see). It must be hard for perfectionists like the Pixar crew to know that there are scenes being shown that could have improved.
+
+In the software business - at least in the web software business - we don't have that constraint. We can launch a product and continuously improve it after the fact. And we should. 
+
+As Paul Graham "puts it":http://www.paulgraham.com/really.html:
+
+bq. If your first version is so impressive that trolls don't make fun of it, you waited too long to launch
+
+Feed the "trolls":http://techcrunch.com; launch your product now. Make it real, then iterate the crap out of it based on feedback from actual users.

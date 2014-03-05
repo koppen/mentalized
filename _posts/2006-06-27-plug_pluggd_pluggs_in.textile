@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'Plug: Pluggd pluggs in'
+date: '2006-06-27 08:52:16 +0200'
+mt_id: 1638
+categories:
+- projects
+---
+This weekend "Pluggd":http://pluggd.com launched. Pluggd is a podcasting directory/community combining podcast listening with social networking and recommendations built on the belief that many people listen to podcasts online when at work or school, and not just offline while commuting.
+
+Through "Substance Lab":http://substancelab.com I have built most of their AJAX interaction, and done Ruby on Rails work helping their permanent team get ready for public launch. The initial visual design was done by me as well, although it's been somewhat modified over the development process.

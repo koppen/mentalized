@@ -1,0 +1,13 @@
+---
+layout: post
+title: Milestone reached
+date: '2006-03-01 14:07:18 +0100'
+mt_id: 1553
+categories:
+- mentalizednet
+---
+Just spotted this in the Movable Type interface: 
+
+!/files/journal/comments_milestone/comments_milestone.gif!
+
+For the first time ever (I think) mentalized.net has more comments than entries. And all of those are legit comments. That's a long standing milestone reached for me. Thank you those of you who've contributed with comments and emails; You are definitely a big part of what makes writing here fun.

@@ -1,0 +1,33 @@
+---
+layout: post
+title: Another line of defense against comment spam
+date: '2005-01-19 12:21:30 +0100'
+mt_id: 1227
+categories:
+- blogging
+---
+Google has taken "steps against the comment spammers(Google Blog: Preventing comment spam)":http://www.google.com/googleblog/2005/01/preventing-comment-spam.html, making it possible to have GoogleBot (and others) pretty much ignore specific links by adding rel="nofollow" to the link tag. 
+
+And this isn't "just" Google doing it; a multitude of blogging/CMS vendors/providers have voiced their support for this attribute in the future, and "MSN Search(Working Together Against Blog Spam)":http://www.ysearchblog.com/archives/000069.html and "Yahoo!(Yahoo! Search Blog: A Defense Against Comment Spam)":http://www.ysearchblog.com/archives/000069.html support the initiative too.
+
+<!--more-->
+
+h2. The added bonus
+
+A great side effect of this is that it's now possible to link to someone you don't particularly like, without boosting their page rank. I suspect we'll see more links to competitors, ripped off layouts, and generally misbehaving companies in the future because of this.
+
+h2. And there was much rejoicing?
+
+So now comment spam is gone? No more getting hammered with a gazillion irrelevant comments linking to 100 sites all detailing the latest progress in abnormal sexual endavours? No chance in hell. 
+
+Comment spammers are going to keep at it. Sure, they won't have the Google Juice carrot dangling in front of them, but that hasn't stopped the email spammers, has it? Their links and ads will still show up on the web for people to see and click, even if search engines ignore them. Don't uninstall all those other comment-spam countermeasures just yet. This is merely another drop in the ocean of combatting spammers.
+
+Naturally, this gets blogged about all over:
+
+* "Nick Bradbury: United against comment spam(Nick Bradbury: United against comment spam)":http://nick.typepad.com/blog/2005/01/united_against_.html
+* "Movable Type 'nofollow' plugin(Movable Type Publishing Platform)":http://www.movabletype.org/news/2005/01/movable_type_nofollow_p.shtml
+* "Six Log: Support for nofollow(Six Log: Support for nofollow)":http://www.sixapart.com/log/2005/01/support_for_nof.shtml
+* "Ars Technica: Google has fixed the Internet! Google has destroyed the Internet!(Google has fixed the Internet! Google has destroyed the Internet!)":http://arstechnica.com/news.ars/post/20050118-4536.html
+* "CNET News.com: Google aims to outsmart search tricksters(Google aims to outsmart search tricksters)":http://news.com.com/Google+aims+to+outsmart+search+tricksters/2100-1024_3-5540740.html
+* "Scoble: Google adds nofollow to link tags(Scobleizer)":http://radio.weblogs.com/0001011/2005/01/18.html#a9229
+* "Scripting News(Dave Winer)":http://archive.scripting.com/2005/01/18#When:8:59:10PM

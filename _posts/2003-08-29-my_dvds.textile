@@ -1,0 +1,45 @@
+---
+layout: post
+title: My DVDs
+date: '2003-08-29 12:06:21 +0200'
+mt_id: 738
+categories:
+- movies
+---
+And now, for no apparent reason, a list of my DVDs. Anyone know of a good website application for keeping track of such a list?
+
+<!--more-->
+
+* 8 Mile
+* Abyss, The (Special Edition)
+* Aliens (Directors Cut)
+* American Beauty
+* Animatrix, The
+* Army of Darkness (Directors Cut)
+* Articifial Intelligence
+* Basic Instinct
+* Blade
+* Blinkende Lygter (Danish)
+* Blues Brothers
+* Boondock Saints
+* Crouching Tiger, Hidden Dragon
+* Dogma
+* Fifth Element, The
+* Fight Club
+* Gladiator
+* Harry Potter and the Chamber of Secrets
+* Insomnia
+* Interview with a Vampire
+* Jackie Brown
+* Lord of the Rings: Fellowship of the Ring (extended version)
+* Matrix, The
+* Memento
+* Natural Born Killers (Directors Cut)
+* Pusher (Danish)
+* Shrek
+* Snatch
+* Starship Troopers
+* Starwars I: The Phantom Menace
+* Starwars II: Attack of the Clones
+* Thumb Wars
+* Tomb Raider

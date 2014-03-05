@@ -1,0 +1,25 @@
+---
+layout: post
+title: Online comics
+date: '2004-01-07 11:14:00 +0100'
+mt_id: 772
+categories:
+- technology
+---
+First of all, these are the web comics I try to keep updated with:
+
+* "Calvin and Hobbes(Calvin and Hobbes)":http://www.ucomics.com/calvinandhobbes/
+* "Dilbert(Dilbert Comic Strip)":http://www.dilbert.com/
+* "GU Comics(GU Comics by Woody Hearn)":http://www.gucomics.com/
+* "Little Gamers(Little Gamers)":http://www.little-gamers.com/
+* "Penny Arcade(Penny Arcade!)":http://www.penny-arcade.com/
+* "PvPonline(PvPonline)":http://www.pvponline.com/
+* "VG Cats(VG Cats)":http://www.vgcats.com/
+* "WTF Comics(WTF Comics)":http://www.wtfcomics.com/
+* "Wulffmorgenthaler(WULFFMORGENTHALER)":http://www.wulffmorgenthaler.com/
+
+Some of them update daily, some weekly, some whenever they feel like it, which are all fine. However, as far as I can tell, only 3 of them provide a way to notify their readers about an update, and they only do so by email.
+
+Online comics is such an obvious area to apply the push-mimicing technique of RSS feeds. I know a select few comics are available at "Tapestry(Tapestry - Your Favourite Comics by RSS)":http://dwlt.net/tapestry/, but a third party solution like that is somewhat sketchy (as evident by the recent removal of Calvin and Hobbes from the Tapestry feeds).
+
+I wonder why not more comics supply feeds, it would be a great way to keep readers coming back whenever a new strip is released. They don't even have to include the strip in the feed if they want to expose their readers to advertising - a simple link to the updated strip would keep me happy. Perhaps a Tapestry-like service that comic authors could sign up for so they wouldn't have to go through the technical hassles, hmm...

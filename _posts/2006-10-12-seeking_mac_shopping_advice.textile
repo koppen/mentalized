@@ -1,0 +1,19 @@
+---
+layout: post
+title: Seeking Mac shopping advice
+date: '2006-10-12 09:09:25 +0200'
+mt_id: 1717
+categories:
+- hardware_1
+---
+I am pondering buying a "MacBook Pro":http://www.apple.com/macbookpro/. It will be for "the business":http://substancelab.com and as such used primarily for running a couple of databases, a webserver, "TextMate":http://macromates.com, a bunch of "Ruby":http://www.ruby-lang.org processes, and the occasional Photoshop (although that might end up being run under Windows).
+
+I think I'd like to be able to run "Parallels":http://www.parallels.com/ so I figure 2GB is the amount of RAM I'd need? Is the recommended option still buying the machine with 512MB RAM and order 2GB non-Apple RAM elsewhere and install it yourself? 
+
+If it is, what kind of RAM do I actually need to buy (I suck at buying RAM, took me two tries to order the proper RAM for my machine at work), and is it easy enough to install it on my own without voiding warranties and whatnot?
+
+As for the harddrive I am considering the 7200 RPM option. Does this actually give any performance benefits, or will it just suck the life out of the battery? I am not too worried about disk space. I'll get an external disk eventually, or simply use the server at home or some "disk in the sky":http://www.bingodisk.com/ for storage.
+
+I am aiming for the 15" 2.16 GHz configuration. It seems to me that it gives the best compromise of power and portability. The 17", while impressive, doesn't give that much extra benefit and appears slightly too large to lug around.
+
+Any extras I desperately need? Anything I need to be aware of?

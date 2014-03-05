@@ -1,0 +1,11 @@
+---
+layout: post
+title: Oh-so-Cool Web Design
+date: '2003-09-09 19:06:01 +0200'
+mt_id: 743
+categories:
+- webdesign
+---
+I recently came across the "Cool Web Design (Cscreens, music on load and popups. "Clean and simple" indeed...WD.dk)":http://www.cwd.dk website. CWD is seemingly a repository of websites considered cool, which webdesigners can browse through to get inspiration for their own designs.
+
+Someone should create an opposing site called GWD: <em>Good</em> Web Design, since apparently a "cool" site equals Flash, pixelbased layouts, invalid HTML, popups and other trendy features. Even sites in the <a title="CWD" href="http://www.cwd.dk/inspiration.asp?mode=0&amp;c_id=20">"Clean and Simple" category</a> features a plethora of splash-screens, music on load, and heavy graphics. Clean and simple indeed...

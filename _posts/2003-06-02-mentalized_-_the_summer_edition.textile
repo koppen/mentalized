@@ -1,0 +1,18 @@
+---
+layout: post
+title: Mentalized - the summer edition
+date: '2003-06-02 13:13:25 +0200'
+mt_id: 704
+categories:
+- blogging
+---
+I wonder if it is the hot weather and even hotter girls making me a bit frisky, or that my previous Matrix-theme was pretty hideous, that has incited me to (once again) redo the design of the site. 3 things I am sure of though: A new look is upon us, I am still tweaking a bit, and Salma is yummy (I know Michael is going to appreciate this look ;]).
+
+I gotta give props to some people:
+
+* <a href="http://www.squidfingers.com/patterns/" title="SquidFingers">SquidFingers</a> for the backdrop (I feel so retro-hip having one)
+* <a href="http://www.antipixel.com/blog/index.shtml" title="AntiPixel">Antipixel</a> for the br style="clear:both;" trick - I was going insane trying to make columnized CSS based layouts before I found that.
+* Erm, some site I can't find the URL of that inspired the look
+* <a href="http://simon.incutio.com/" title="Simon Willison's Weblog">Simon Willison</a> for his excellent <a href="http://simon.incutio.com/categories/csstutorial/" title="CSS ain't rocket science">CSS tutorial</a>.
+
+Oh, and it probably should be said, that if you are using a legacy browser (like IE6) the site might not render like it was intended, but that's your choice. I can only show you the door, not make you upgrade to a modern browser.

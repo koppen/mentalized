@@ -1,0 +1,9 @@
+---
+layout: post
+title: Buh bye, Pandora
+date: '2007-05-07 08:54:55 +0200'
+mt_id: 1815
+categories:
+- life
+---
+<a href="http://www.flickr.com/photos/jakobs/487886346/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/231/487886346_426091a40a.jpg" width="500" height="432" alt="Buh bye, Pandora :(" /></a>

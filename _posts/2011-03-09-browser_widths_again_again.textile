@@ -1,0 +1,45 @@
+---
+layout: post
+title: Browser widths again again
+date: '2011-03-09 16:56:35 +0100'
+mt_id: 2094
+categories:
+- browsers
+- webdesign
+- usability
+---
+As someone who has been rambling about the "irrelevance of screen resolutions":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/ and the "importance of browser sizes":http://mentalized.net/journal/2009/02/19/size_still_matters/ for years, it is always a pleasure seeing other people get the point.
+
+The other day I was pointed at "Liquid Fold":http://liquidfold.net/, a project that "will provide you a handy set of graphs showing a breakdown of your visitors' browser sizes". Anything that improves visibility of this important metric that most statistics packages fail to report is a Good Thing.
+
+
+<!--more-->
+
+h2. Averages aren't interesting
+
+While the charts provided on "Liquid Fold":http://liquidfold.net/ are nice, I don't really care about the average browser width nor the relation between different browser/OS combinations and browser widths.
+
+I want to know how many visitors do not get a horizontal scrollbar when they view my site.
+
+
+h2. Time to make a new chart
+
+Seeing how it has been a few years since I last visited these numbers and that Liquid Fold has a huge collection of data points, I figured I'd generate a new chart with their numbers included:
+
+!/files/journal/browser_sizes_2011/visitors_without_horizontal_scrollbar.jpg!
+
+The chart definitely supports the trend we also saw back in 2008; browsers are getting wider, although the difference is far from as significant as it was in 2008. I wonder if the rise of smaller devices like phones and tables have anything to do with this?
+
+
+h2. Key takeaways from the chart
+
+Let's look at some key figures. If you make your design 800 pixels wide, only 2% of your visitors will get a horizontal scrollbar. I can live with that. If you make it 960 pixels wide, for example by using the popular "960 Grid System":http://960.gs, 6% of your visitors get the dreaded horizontal scroller. That's getting into iffy territory to me. 
+
+And if you make your design 1010 pixels wide a whooping 20% of your visitors have to scroll horizontally to see all your content. Even wider than that and it's all downhill.
+
+
+h2. Conclusion?
+
+Unfortunately, it still seems extending your design wider than ~800 pixels is still not something you should just do without thinking about your actual visitors.
+
+But it has gotten easier justifying moving to perhaps 940 or 950 pixels and only annoy around 5% of your visitors.

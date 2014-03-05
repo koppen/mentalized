@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Launch: BiQ on Rails'
+date: '2007-04-02 16:35:08 +0200'
+mt_id: 1801
+categories:
+- biq_on_rails
+- webdesign
+- technology
+- software
+- projects
+- programming
+---
+After 6 months of "evangelizing and advocating":http://mentalized.net/journal/2006/05/14/one_day_with_scott_raymond/, followed by "6 more months of rewriting":http://mentalized.net/journal/2007/01/02/after_the_rewrite/, and then 3 more months of building new features and enhancing existing ones, we have finally launched "the new version of BiQ":http://www.biq.dk.
+
+<a href="http://www.biq.dk">!/files/journal/biq_on_rails/biq_homepage_2007.jpg!</a>
+
+Going from ASP/VBScript on Windows 2000 and IIS to Ruby and Rails on Debian served with love by Apache proxy balancing to a Mongrel backend, using memcached for relieving the database of those common queries, with continuous integration provided by Cruise Control and easy deployment through Capistrano sure as heck feels good.
+
+Add to that the fact that the new look is quite delicious and powered by standards compliant XHTML sprinkled with a tiny amount of Ajax and a hint of microformats and Atom feeds, and has a "blog":http://www.biq.dk/blog and some new "killer features":http://www.biq.dk/tour/network and you'll probably understand why I am happy.
+
+Now it is time to make the site even better. ;)
+
+

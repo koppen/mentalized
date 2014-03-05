@@ -1,0 +1,104 @@
+---
+layout: post
+title: 'Webdesign critique: Cooper.com'
+date: '2010-07-15 10:09:15 +0200'
+mt_id: 2049
+categories:
+- webdesign
+- usability
+---
+A problem with companies becoming ever more aware of and adept at social media is the fact that it's become hard to whine about some company without instantly having a representative asking you what's wrong. Some times you just want to whine.
+
+"This":http://twitter.com/cooper_journal/status/18544122925 is roughly what happened after I "tweeted my dissatisfaction":http://twitter.com/mentalizer/status/18501389419 with the new "Cooper":http://cooper.com website.
+
+Okay, fair enough, I'll spend some time going over some of the issues I found. 
+
+
+<!--more-->
+
+h2. Good things first
+
+First of all, I like the style of the site. It's pretty, and while the images might be a bit much on some "pages", in general it looks good.
+
+Also, I love the detail with the sub-navigation state changing as I scroll down a "page". It's a great touch that keeps me updated with what I am currently looking at.
+
+But let's not get too enthusiastic...
+
+
+h2. "Pages"
+
+In the above, I've put pages in quotation marks, as the Cooper site doesn't really have pages per se. All the content is on the same page, and the navigation just takes you to different sections of the page.
+
+This seems like a choice based entirely on style, perhaps in an effort to appear trendy or technically skilled, with no real benefit for the user. Unfortunately, most the issues I have with the site seem to stem from this stylistic choice.
+
+
+h2. The scrollbar is a lie
+
+When navigating a page in a browser, word processor, or any other document based application, the scrollbars are great indicators of the amount/size of the content. Not so on cooper.com.
+
+An obvious example is seen if you navigate to the "Home section":http://www.cooper.com/#home. The vertical scrollbar has a tiny handle in it, signaling that there are a lot of content on this page. However if you actually scroll down the "page" you find nothing but whitespace. The scrollbar basically lied to us.
+
+
+h2. Horizontal scrolling
+
+This one is just baffling. Horizontal scrolling, really? There are certainly "cases":http://www.designmeltdown.com/chapters/Horizontal/ where it can be used for great effect, but generally speaking it's a big usability no-no. At least, it used "to":http://freeusabilityadvice.com/archive/32/horizontal-scrolling "be":http://www.useit.com/alertbox/20050711.html - have things changed since 2006?
+
+!/files/journal/cooper/horizontal_scrolling.png!
+
+The horizontal scrolling unfortunately makes it hard to scroll around each section using the 2-finger gesture of my Macbook Pros touchpad. Apparently I lack the motor skills needed to move my fingers up and down in a straight line, and I continually end up scrolling partially into the sections to the left and right of the one I want to look at.
+
+
+h2. Scrolling and the URL 
+
+Cooper has done really well making sure the URL changes as I use their navigation - even though I don't actually change pages. This ensures my back button works and sections can be linked to, a common oversight of pages like this.
+
+Unfortunately, the horizontal scrolling messes this up. Scrolling horizontally I can easily end up at a section that in no way resembles what I am actually looking at. I risk linking to or bookmarking the wrong section, causing myself or the recipients of my links headaches in the future.
+
+
+h2. Navigation changes on hover
+
+I am not a fan of changing the navigation simply when hovering over an item. It's too easy to accidentally switch to another sub-navigation element when trying to move the pointer over to the far items in the current one. 
+
+It would be much less frustrating if it required a click to change the sub-navigation.
+
+
+h2. Differently sized screens
+
+Ah, screen sizes, a "pet peeve of mine":http://mentalized.net/journal/2009/02/19/size_still_matters/. The Cooper site seems optimized for a very small range of browser sizes. 
+
+!/files/journal/cooper/800_pixels_wide.png!
+
+Looking at the site with a 800 pixels wide browser yields suboptimal and even harder to use results, and using a very wide browser yields a confusing display where you can see parts of the (clipped) content to the left and right.
+
+!/files/journal/cooper/1760_pixels_wide.png!
+
+In a time where we have a multitude of different screen sizes, browsers and devices all accessing our websites and the ability to make our website designs "adapt to the users device/browser":http://www.alistapart.com/articles/responsive-web-design/, relying on the user to use a maximized browser on a 1024 pixels wide screen is, well, nuts.
+
+Disclaimer, I don't know the stats for cooper.com - it might be that all their users use 1024 pixels wide screens and maximize their browser, I don't know. However, it does go against all the statistic I have seen (and "measured":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/).
+
+
+h2. Printing
+
+I know, in a paperless society where we need to control our waste output and save our forests, surely noone would ever think about print a website. However, in the rare case whey they do, they are sure to get more than they bargained for on cooper.com.
+
+As all content is crammed onto the same page, hitting the browsers print button yields a whopping 28 pages of unstyled content. I just wanted to print the list of your (impressive) work to show to my boss so I could persuade her to send me to one of your training seminars, and you give me this?! Okay, I don't have a boss, but you get the point.
+
+
+h2. In page search
+
+While Cooper has gone to great lengths ensuring search engines can crawl an alternate version of the site, in page search is harder to cater for.
+
+Generally speaking, using the in page search in your browser gets you results from the page you're currently looking at. It isn't far fetched for a user to think the same applies at cooper.com, but since they basically only have one page, you search their entire site using the browsers in page search!
+
+Add to that, that the browser doesn't really know about the fake "pages" used on cooper.com it can't reliably position the viewport in a way that's particularly pretty or useful, making the whole search experience very confusing.
+
+
+h2. The vanilla site
+
+It's interesting to note, that Cooper has deemed it necessary to also create a "vanilla" version of the website and add a very prominent, always visible link to use to it should you be experiencing "technical difficulties". 
+
+Ironically, the "vanilla" version solves most the above issues, even though I'd hardly categorize them as technical difficulties. It also looks just as stylish as the "Bells and whistles" version. 
+
+Why not just use the vanilla version as the actual and only site? Users would benefit and development/maintenance costs would be lowered. As it is now, users (and Cooper) are paying for "bells and whistles" with no obvious benefit. 
+
+Is that really worth it? Am I off my rocker? What do you think about "cooper.com":http://cooper.com? 

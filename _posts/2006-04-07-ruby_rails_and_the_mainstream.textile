@@ -1,0 +1,34 @@
+---
+layout: post
+title: Ruby, Rails, and the mainstream
+date: '2006-04-07 13:33:15 +0200'
+mt_id: 1583
+categories:
+- programming
+- technology
+---
+It seems I have stirred quite a pot around the office with my "recent ravings about Rails":http://mentalized.net/journal/2006/03/16/looking_for_a_rails_champion/. Today the tech-head on the board sent me "this article about why Rails won't make it into the mainstream":http://beust.com/weblog/archives/000382.html and asked for my comments. The following is basically a translation of my reply to him (Gee, this is the closest I've ever come to being paid for blogging).
+
+<!--more-->
+
+h2. The right tool etc...
+
+I believe Cedric is somewhat right in concluding that Ruby and Rails will never make it to the mainstream - in particular when you define the mainstream as the regular, average programmer. PHP sits nicely in its niche of being a widely adopted, easily accessible language where you can achieve results with a minimum of fuss.
+
+I am not certain that the battle against PHP for the mainstream market of regular programmers is a battle Rails should or even wants to pick. As Cedric points out, most concepts and ideas behind Ruby and Rails go above the head of the average website and the resident programmer, and in most cases they don't even matter. A project needs a certain complexity before writing it in Rails manifests itself as a benefit. It is no coincidence that the "static" pages on "rubyonrails.org":http://www.rubyonrails.org are written in PHP (well, more like written in HTML and glued together with a bit of PHP to avoid repeating stuff). PHP is an obvious and excellent solution when the problem is simple.
+
+Even creating the simplest of hello world applications in Rails is a "23MB RAM consuming, 5 step process":http://mentalized.net/journal/2006/02/06/hello_ruby_on_rails_world/ - and that doesn't even cover the deployment to a webserver. In PHP it's a simple matter of uploading a file containing &lt;?= "Hello world" ?&gt; to your webserver, and "you're set":playground.redirect.dk/hello.php. Rails won't ever win that battle.
+
+Rather, I see Rails targetting the crowd of developers who build web applications and realize the benefits of design patterns, automated testing, object oriented programming, and consistent, well-structured code. Ruby and Rails try to bring the ease-of-use of PHP to Java while bringing the structure of Java to PHP. The result is a beautiful package; a language and framework with great power and flexibility and with enforced structure where it makes sense.
+
+h2. Chickens and eggs
+
+Returning to "Cedrics article":http://beust.com/weblog/archives/000382.html, it seems ripe with "The chicken and the egg" situations. Half the points he raise are self-fulfilling prophecies that will stay true until someone choose to act against the prophecy. Which is only natural, since that's partly the big issue Ruby and Rails face at the moment:
+
+"The Enterprise" hasn't yet adopted Ruby and Rails, because "The Enterprise" hasn't adopted Rails yet. Rails isn't widely available at hosting companies, because it's not mainstream, and Rails isn't mainstream because it's not widely available at hosting companies. Luckily some hosting companies and bigger companies are at least open to Rails adoption.
+
+h2. Think about the humans
+
+It's interesting to note, that Cedrics "conviction doesn't come from technical grounds". His arguments are based in human values and emotions like security (in the "I feel safe" sense, not the "I'll take stuff Windows is lacking for 500, Alec" sense), fear of change, and why fix it if it's not broken.
+
+It is indeed important to look away from the purely technical side when evaluating Rails. Rails is built on the premise that "code and development must be beautiful":http://headrush.typepad.com/creating_passionate_users/2006/03/code_like_a_gir.html and non-tedious, since "that's what make developers happy":http://media.rubyonrails.org/presentations/pursuitofbeauty.pdf. If Ruby and Rails doesn't make it into the mainstream it will not be due to lacking technical merits. It will be due to human emotions.

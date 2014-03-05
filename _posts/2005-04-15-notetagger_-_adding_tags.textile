@@ -1,0 +1,148 @@
+---
+layout: post
+title: Notetagger - Adding tags
+date: '2005-04-15 14:23:13 +0200'
+mt_id: 1294
+categories:
+- projects
+---
+Onwards to implementing tagging, taking advantage of a whole bunch of Ruby on Rails features: Helpers, assocations, partials, and filters.
+
+I wasn't entirely sure how to go about the whole tagging business, and I initially went for keeping all the tags separated by spaces in a string. While that's a perfectly fine way to display and enter tags, it has a whole bunch of flaws when you actually want to store and use the tags.
+
+(You might want to read "the previous installment(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/ before this one.)
+
+<!--more-->
+
+h2. But then what?
+
+I decided to just go ahead with the most obvious implementation I could think of, where a note has many tags, and a tag has many notes - ie a has_and_belongs_to_many association in ActiveRecord dialect.
+
+First the database table for storing tags:
+
+bc. CREATE TABLE tags (
+    id INT NOT NULL AUTO_INCREMENT ,
+    name VARCHAR(255),
+    PRIMARY KEY ( id )
+);
+
+And the required table to manage the join between notes and tags:
+
+bc. CREATE TABLE notes_tags (
+    note_id INT NOT NULL,
+    tag_id INT NOT NULL,
+    FOREIGN KEY (note_id) REFERENCES notes ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (tag_id) REFERENCES tags ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+I also needed a model for the tags:
+
+bc. > script\generate model Tag
+
+I can now inform the Notes model that it actually has a bunch of tags associated with it (not that any note actually has at the moment, but we'll get around to that):
+
+bc. class Note < ActiveRecord::Base
+  has_and_belongs_to_many :tags
+end
+
+When I create or update a note, I am going to be entering the tags as a long, space separated string. I want to store that string in Note.tag_string, but I also want to update the notes_tags join table. I opted to do this by using an after_save filter in the Note model:
+
+bc. class Note < ActiveRecord::Base
+  ...  
+  after_save :update_tags  
+  # Maintains the tag associations
+  def update_tags    
+    self.tags.clear
+    for tag_name in self.tag_string.split      
+      tag = Tag.new(:name => tag_name) unless (tag = Tag.find_by_name(tag_name))
+      self.tags.push(tag)
+    end
+  end
+end
+
+Basically what this does, is whenever the Note has been saved - ie created or updated - the tag_string is split into individual tagnames. Each tagname is then found in the tags table if it exists - if it doesn't, the tag gets created.
+
+Finally it populates the Note.tags association with the tag we either just created or found. tags.push(tag) inserts and updates the relevant rows in both the tags and the notes_tags tables.
+
+
+h2. Listing them tags
+
+What fun would a bunch of tags be if there was no way to list them? That's right, not much fun at all! So let's list them.
+
+The taglist is basically a list of all the tags in the database. It should be usable from every view, so this sounds like a good match for a partial. Creating a new view, app/views/tags/_list.rhtml, allows me to put
+
+bc. <%= render_partial 'tags/list' %>
+
+wherever I want the list of tags displayed. The view itself is straightforward:
+
+bc. <% @tags = Tag.find_all(nil, 'name') %>
+<% if @tags.size > 0 %>
+<ul>
+	<% for tag in @tags %>
+		<li><%= tag.name %></li>
+	<% end %>
+</ul>
+<% end %>
+
+However, the above isn't quite enough. I want to be able to show how many notes have been tagged with a given tag, and ultimately to render the list as a weighted list. First things first, though:
+
+To get the amount of notes for a given tag, I need to instruct the Tag that it is associated with Notes:
+
+bc. class Tag < ActiveRecord::Base
+  has_and_belongs_to_many :notes
+end
+
+That's it, I can now do tag.notes.size to get the amount.
+
+
+h2. Linking them tags
+
+I now have a mighty fine list of tags and the amount of notes that exist for that tag, but I want to list those notes. Instead of adding a sparkingly new tags controller with a notes action, I am going to add a tag action to the existing notes controller:
+
+bc. class NotesController < ApplicationController
+  ...
+  def tag
+    @tag = Tag.find_by_name(@params[:id])    
+    @notes = @tag.notes
+    render 'notes/list'
+  end
+end
+
+I don't even need to create a new view for this action, since I can simply use the app/views/notes/list.rhtml already created. 
+
+So I have a list of tags, and an URL where I list notes with a given tag. How about linking those? Why Jakob, that's a great idea - back to the app/views/tags/_list.rhtml partial.
+
+Doing the immediate, simple thing first I change the part inside the &lt;li&gt;&lt;/li&gt; to
+
+bc. <%= link_to "#{tag.name} (#{tag.notes.size})", :action => 'tag', :id => tag.name %>
+
+and sure enough, that gives me a link to the tags action. However, looking at my list of notes I notice I am linking to tags in more than one place, and I figure it'd be grand if I didn't have to put the above link_to snippet in every instance. Enter ApplicationHelper.
+
+The above snippet transmogriffed into a helper function in app/helpers/application_helper.rb:
+
+bc. def link_to_tag(tag)
+  return link_to "#{tag.name} (#{tag.notes.size})", :action => 'tag', :id => tag.name
+end
+
+which allows me to do 
+
+bc. link_to_tag TagObject
+
+whenever I want a link to a tag, nice! But not nice enough.
+
+Since I know I am aiming for a weighted list, I want to be able to add CSS classes to the links that indicate their "weight". For now, I define weight as a number from 0 to 9, and calculate it based on the amount of notes a tag has. To do that, I need to know the amount of total tags in the system, so I'll pass that to the helper and have it act accordingly:
+
+bc. def link_to_tag(tag, total_tags = nil)    
+  if total_tags.nil?  
+    return link_to "#{tag.name} (#{tag.notes.size})", :action => 'tag', :id => tag.name
+  else
+    level = ((tag.notes.size * 10) / total_tags).to_i
+    return link_to "#{tag.name}", {:action => 'tag', :id => tag.name}, :class => "level#{level}"
+  end
+end
+
+I am pretty sure I'll end up with some screwy results if there's only one or two tags and a lot of posts, but the above works for my purposes so far. I can always fix screwy results when they actually surface.
+
+But that's it for tags for now: Notes can be tagged and displayed by their tag, and I can add a list of tags wherever I want it.
+
+"Continue to Adding the AJAX":/journal/2005/04/27/notetagger_adding_the_ajax/

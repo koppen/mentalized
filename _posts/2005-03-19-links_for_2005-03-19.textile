@@ -1,0 +1,13 @@
+---
+layout: post
+title: links for 2005-03-19
+date: '2005-03-19 12:21:53 +0100'
+mt_id: 1264
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://remix.kwed.org/">Remix.kwed.org</a></div>
+		<div class="delicious-extended">I am totally tripping on these remixes / remakes of C64 tunes</div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/C64">C64</a> <a href="http://del.icio.us/koppen/music">music</a>)</div>
+	</li>
+</ul>

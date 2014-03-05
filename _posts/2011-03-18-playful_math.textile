@@ -1,0 +1,25 @@
+---
+layout: post
+title: Playful math
+date: '2011-03-18 10:24:50 +0100'
+mt_id: 2096
+categories:
+- games
+- projects
+---
+The team that brought you "Progress Wars":http://progresswars.com now brings you yet another single page browser game.
+
+This time, it might actually be useful. Probably not to you, though, unless you're around 10 years old and learning about negative numbers.
+
+
+<!--more-->
+
+See, my wife is a school teacher. She teaches math and has recently been teaching her pupils about those numbers that exist on the left side of zero. The fact that you can subtract 5 from 3 is a strange concept to a 10 year old.
+
+She wanted them to practice by doing a bunch of simple subtraction tasks. We agreed that doesn't sound like much fun, so I created a small game hoping to inject a little playfulness into the tedious subject of subtraction.
+
+Check it out: "Minus - a game of math":http://tinestimer.dk/matematik/minus/
+
+It turned out to be a big success. Everyone - even the not quite so math savvy pupils  - enjoyed themselves. The most requested feature; a highscore list.
+
+There must be a place for games in education, they seem very effective as motivators.

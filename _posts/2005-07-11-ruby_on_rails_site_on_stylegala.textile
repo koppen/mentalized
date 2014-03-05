@@ -1,0 +1,14 @@
+---
+layout: post
+title: Ruby on Rails site on Stylegala
+date: '2005-07-11 11:26:52 +0200'
+mt_id: 1374
+categories:
+- projects
+- webdesign
+---
+Whoa, the "Ruby on Rails site":http://www.rubyonrails.com got "featured on Stylegala":http://www.stylegala.com/archive/ruby_on_rails.htm. That's pretty cool and the first site of mine (getting ever harder to call it mine, though, read on for more on that) to get featured on any site-gallery. 
+
+The Stylegala entry had an interesting side effect: In the comments, "Mike Rundle":http://phark.typepad.com/ complained about the sites header - which I'll be the first to admit was pretty sucky (insert long-winded excuse here). Constructive criticism is always great ofcourse, but in Mikes case, there wasn't far from words to action and "he created a new header for us to use":http://phark.typepad.com/phark/2005/07/ruby_on_rails_r.html. Very cool stuff! 
+
+Thanks Mike, the header now looks just like it always should've done. 

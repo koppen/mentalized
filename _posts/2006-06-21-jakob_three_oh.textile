@@ -1,0 +1,9 @@
+---
+layout: post
+title: Jakob three oh
+date: '2006-06-21 08:55:51 +0200'
+mt_id: 1634
+categories:
+- life
+---
+Rounding a round corner today. 30 years old, although I feel that should be 30 years young.

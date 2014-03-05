@@ -1,0 +1,21 @@
+---
+layout: post
+title: Announcing WoW Snitch
+date: '2005-12-07 19:14:14 +0100'
+mt_id: 1491
+categories:
+- projects
+- programming
+- games
+---
+WoW Snitch (now disbanded) is a small application of mine that eases the pain of uploading data from your "World of Warcraft":http://www.worldofwarcraft.com AddOns to multiple websites.
+
+If you know what Matt Millers fine "UniUploader":http://www.curse-gaming.com/mod.php?addid=192 is and does, you can think of WoW Snitch as multiple UniUploaders in one application. Each task you create is more or less able to do what UniUploader does. 
+
+I personally use WoW Snitch to upload data to my guilds Guildspace website, Census+ data for "Warcraft Census":http://www.warcraftrealms.com/census.php (mmm, stats), and for keeping my character profiles on "RPG Outfitter":http://www.rpgoutfitter.com/ up to date. Unfortunatly it's currently not possible to upload to Allakhazam, Thottbot, or any of the other sites that employ their own, closed uploading mechanisms.
+
+WoW snitch is the first Windows desktop development I have done for ages. It is a nice break away from the dynamically typed scripting languages I usually work with. There's something soothing about that compile phase (probably because I haven't reached 30 minute builds yet), and I really do like the warnings and errors a compiler can catch. That said, I definatly don't mind giving up that in favor of the things made easy by for example Rubys ducktyping.
+
+Having previously "ranted about Windows applications and raved about OS X ditto":http://mentalized.net/journal/2005/07/26/quality_breeds_quality/, I sure hope I have managed to add some of the sexyness that's so badly missing in many Windows applications to WoW Snitch. ::crosses fingers:: 
+
+Head on over to the WoW Snitch website, download the snitch directly, and drop me some feedback "in a mail":mailto:jakob@mentalized.net or the forums or here, thanks. 

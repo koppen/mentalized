@@ -1,0 +1,19 @@
+---
+layout: post
+title: My wishes for christmas
+date: '2002-12-13 13:39:30 +0100'
+mt_id: 636
+categories:
+- browsers
+---
+Dear Bill, if I could have 2 wishes granted for christmas, I would like to have the following features added to Internet Explorer:
+
+<h2>Cascading Style Sheets, level 2</h2>
+
+The <a href="http://www.w3.org/TR/REC-CSS2/cover.html#minitoc">CSS level 2 recommendation</a> is dated 12th of May, <em>1998</em>. It seriously pains me, that the worlds most used browser does not fully support a 4 year old standard - A standard that adds a lot of benefits over the aging CSS1.
+
+<h2>Proper PNG support</h2>
+
+It is true that IE can display most <a href="http://www.libpng.org/">PNG images</a> just fine, alas it is lacking the part of PNG that makes it really interesting to me: Alpha blending PNG images. It amazes me that a browser like Mozilla renders PNG images with alpha channels perfectly, but the worlds largest software company apparently isn't able to take the step that could rid the web of gif-files.
+
+(Well, I do have more wishes than these, but today these two are the ones I needed)

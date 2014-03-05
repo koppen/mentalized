@@ -1,0 +1,59 @@
+---
+layout: post
+title: Testing HTML emails with Rails and Litmus
+date: '2009-04-08 14:16:50 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  SmFrb2IgbG9va3MgYXQgaG93IHRvIHVzZSBSYWlscyBhbmQgTGl0bXVzIHRv
+  IG1ha2Ugc3VyZSB5b3VyIEhUTUwgZW1haWxzIGxvb2sgZ3JlYXQgdG8gYWxs
+  IHlvdXIgdXNlcnMu
+mt_id: 1999
+categories:
+- webdesign
+- software
+- projects
+---
+Every so often, a client wants their web application to send out emails that could benefit from a bit richer styling than what's provided with your basic text emails. Occasionally, they're right, and you find yourself walking down the path of HTML emails. But beware! That path is perilous and behind every corner lurks the big, all-consuming monsters of HTML emails; Email clients.
+
+
+h2. Thar be monsters in them woods
+
+It quickly turns out that pretty much every email client renders HTML differently than the next. It's sort of like cross-browser issues, but without the comfort of CSS hacks, conditional comments, UserAgent checking, and IE-specific stylesheets. 
+
+Instead, you find yourself facing more email clients than there are browsers, many used by enterprises that don't mind running several year old versions of programs. Realistically speaking, it's only feasible to have access to a fraction of those email clients.
+
+
+
+<!--more-->
+
+On "Lokalebasen":http://www.lokalebasen.dk we are currently going through an iteration of designing a bunch of HTML emails and found ourselves spending too much time guessing how email clients reacted to our HTML emails, only to be proven wrong when we finally sent them to someone using some obscure email client ::Outlook 2007 cough cough::
+
+
+h2. Litmus
+
+This is where "Litmus":http://litmusapp.com/email-testing, a web application for cross-browser testing enters the stage. While Litmus doesn't magically make all email clients render HTML the same way, it allows you to at least see how your email appears in the "most used email clients":http://litmusapp.com/email-testing, ranging from Hotmail (remember that one?) over Mail.app to several versions of Outlook and Lotus Notes.
+
+!/files/journal/litmus/litmus.jpg!
+
+That's all fine and dandy when you're testing "static" emails, which are basically HTML files on your local machine. However, when your email is built dynamically in a web application and you'd like to see how it might appear to your users, it gets a bit tedious.
+
+Sure, you can receive the emails yourself and forward them to your Litmus account. However, don't expect the result to be representative of what your users will actually see. Your email client will probably do stuff to the email it received before fowarding it, so we need to cut the middleman (in this case, ourselves) out of the equation.
+
+
+h2. Rails, Github and plugins save the day
+
+Litmus has a nifty little feature (hidden under "Extras") that gives you a single email address you can send emails to and have them tested in the available email clients. Our task then became getting all emails from the application sent to the same email address.
+
+We dug around, and ended up using the "Sanitize Email plugin":http://github.com/pboling/sanitize_email/tree/master. That allowed us to configure our local machines to send all emails created in development environment directly to our Litmus account, while in test and production environments the application respectively doesn't send emails and sends emails to their actual recipients.
+
+We can then either use the development app as a user would and see the emails in Litmus, or we can trigger individual emails directly from the console.
+
+h3. About the Sanitize Email plugin
+
+We did end up having to modify the plugin ever so slightly to have it work with our application, which is running Rails 2.2.3. Through the wonders of "Git":http://git-scm.com/ and "GitHub":http://github.com forking, you can get the modified version at "http://github.com/koppen/sanitize_email/tree/master":http://github.com/koppen/sanitize_email/tree/master.
+
+
+h2. Eternal bliss?
+
+One thing that would make this workflow a lot better, is if we could somehow get Litmus to not create a new test for each email we send, but rather add new versions to an existing test of that same email. I imagine it might be possible by looking at just the email subject line. 
+
+While the above is not the perfect workflow, and the feedback cycle is still kinda slow (building screenshots for 27 email clients does take some time), it sure is nice to be able to actually see what ones users will see on their screens - without having to invest in superfluous software like Microsoft Office and Lotus Notes.

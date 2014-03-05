@@ -1,0 +1,25 @@
+---
+layout: post
+title: Setting the request content type in Rails
+date: '2005-11-14 15:54:29 +0100'
+mt_id: 1467
+categories:
+- programming
+---
+To set the content type and character set of your responses of your Rails applicaiton, add this to your Application Controller (/app/controllers/application.rb):
+
+bc. class ApplicationController < ActionController::Base
+  before_filter :set_content_type
+  def set_content_type
+    @headers["Content-Type"] = "text/html; charset=utf-8" 
+  end    
+end
+
+This can obviously be set in any other controller if you need special contenttypes, for example for a feeds controller:
+
+bc. class FeedsController < ApplicationController
+  before_filter :set_content_type
+  def set_content_type
+    @headers["Content-Type"] = "text/xml; charset=utf-8"
+  end
+end

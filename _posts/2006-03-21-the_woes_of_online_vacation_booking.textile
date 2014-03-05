@@ -1,0 +1,36 @@
+---
+layout: post
+title: The woes of online vacation booking
+date: '2006-03-21 14:53:52 +0100'
+mt_id: 1566
+categories:
+- business
+- life
+---
+"Rejsefeber":http://www.rejsefeber.dk. I might have "praised your website last year":http://mentalized.net/journal/2004/09/21/congratulations_rejsefeberdk/, but this year you blew it. 
+
+Remembering "our pleasant experience":http://mentalized.net/journal/2004/09/21/congratulations_rejsefeberdk/ from last year we actually went to "your site":http://www.rejsefeber.dk first when trying to book our vacation for the summer. And we had bought from you, if it hadn't been for the fact that your booking system kept changing our room preference to a different - and more expensive - choice. 
+
+Okay, I'm a developer, I know bugs can occur, so you got the benefit of a doubt and a kind email detailing what we did and what error we got. The kind of email that I'd like to receive when bugs occur.
+
+<!--more-->
+
+h2. No response is guaranteed to be the wrong response 
+
+After a week your site is still changing the room preference, and even worse: We have had no response from you, not even a simple "Hey, thanks for the report, we'll look into it". That's simply not good enough, and we went elsewhere.
+
+The story doesn't quite end there, though. We opted for "Star Tour":http://www.startour.dk after our failed attempt at buying stuff through Rejsefeber. Their site isn't quite as nice and eventually it failed for us as well. 
+
+h2. Turning bad to good
+
+Right at the most critical point of the signup; when the credit card credentials had to be filled in, we got a nice (and by that I mean customer-hostile) .NET error page. Sigh. When attempting to recreate the reservation on the "Star Tour website":http://www.startour.dk it became obvious that something was failing hard on their end, so I figured I'd back off and try again later today.
+
+Guess what? I didn't even have to. Today, I received a phone call from a nice Star Tour lady, who could see we had tried to book a travel and had received an error. She just wanted to ensure that we still wanted that travel, and since we did, she went on to book it for us.
+
+h2. The moral of this story
+
+You must be responsive. Customer email cannot go unanswered for a week. You're lucky to have received the email in the first place. Had we not had positive experiences with Rejsefeber before we would have gone elsewhere immediatly. I would have been happy with anything, a "Gee, that's odd" email, whatever - just something else than nothing. You should probably look into "Mailroom":http://www.sproutit.com.
+
+You can recover failed customer experiences by tracking and following up on them. My view of Star Tour is even more postive now than it would've been if I had simply redone my reservation later today and it had worked. They showed me they care and made a sale as the result.
+
+Bottom line for us: We're going to Athens! :)

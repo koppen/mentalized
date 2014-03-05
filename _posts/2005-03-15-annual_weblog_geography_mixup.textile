@@ -1,0 +1,13 @@
+---
+layout: post
+title: Annual weblog geography mixup
+date: '2005-03-15 12:07:06 +0100'
+mt_id: 1257
+categories:
+- blogging
+---
+My geography must be somewhat rusty. Last I checked, both the United Kingdoms and Ireland were part of Europe, and Canada and Latin America was placed on the American continent. 
+
+"The Annual Weblog Awards(Fifth Annual Weblog Awards)":http://2005.bloggies.com/ seems to think otherwise though, with separate categories for "European", "British or Irish", "Latin American", "Canadian", and "American" weblogs. It's a shame that in the online world, where geographical borders have all the opportunity to not be important, we cling to ancient beliefs and award prizes based on geographical separation.
+
+Ah well, more categories means more winners, which is a great thing - big congratulations to them :)

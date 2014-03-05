@@ -1,0 +1,17 @@
+---
+layout: post
+title: Scary contact form?
+date: '2004-11-30 10:32:24 +0100'
+mt_id: 839
+categories:
+- webdesign
+---
+Is it just me, or does "this contact form seem(blindwerk contact form)":http://www.blindwerk.de/content/kontakt/anfrageformular/index.php?section=4&amp;subsection=1 intimidating? I cannot really put my finger on anything in particular, but something about it that makes me go "err, no thanks, I'd rather not fill that out". 
+
+It might be sheer number of fields, it might be the size of the fields, or the justified layout. Whatever it is, it turns me off.
+
+If I were to reconstruct the form, I would trim	the number of fields down to the 3 required ones: Name (combine both "Vorname" and "Nachname" in one field), eMail, and message. I would also move away from the 2-column layout and place all fields below eachother.
+
+If it is necessary to retain the other 9-10 fields, I would place them below the message-textarea, clearly marked as optional data, perhaps even hide them behind some fancy DHTML hidden div.
+
+The rest of the website is quite nice though, no wonder it was featured on "CSSBeauty(CSSBeauty)":cssbeauty.com/archives/permalink/blindwerk.php

@@ -1,0 +1,74 @@
+---
+layout: post
+title: aspTuneTracker
+date: '2003-09-01 12:16:18 +0200'
+mt_id: 1278
+categories:
+- projects
+---
+<p>aspTuneTracker enables you to show to other people what music you are listening to at the moment in Winamp and other players.</p>
+
+<!--more-->
+
+<p>Requires ASP/VBScript, a directory the webserver can write to, and minor knowledge of ASP/VBScript.</p>
+
+<h2>Downloads</h2>
+<ul>
+   <li><a href="files/aspTuneTracker[1.0.0].zip">aspTuneTracker v1.0.0</a></li>
+</ul>
+
+<h2>Installation</h2>
+
+<ol>
+   <li>Create a directory on your webserver to use for storing the logfile. The webserver (IUSR_*) needs to be able to write to this directory.</li>
+   
+   <li>Edit tunetracker.class.asp and set the trackDirectory to the directory you just created. Edit other settings to your liking.</li>
+   
+   <li>Copy the files from the zipfile to somewhere in your webpath (for example a directory called /asptunetracker in the root of your website).</li>
+   
+   <li>
+      <p>Include the DisplayTunes.asp library using SSI on the page where you want to show your current tune: For example</p>
+   
+   <pre><code>&lt;!-- #include virtual="/asptunetracker/DisplayTunes.asp" --&gt;</code></pre></li>
+
+   <li>
+      The following steps assume you're using WinAmp (and is basically <a href="http://a.wholelottanothing.org/archives.blah/006625" title="a.wholelottanothing.org">a copy/paste job</a>)
+      <ol>
+         <li>Get the <a href="http://www.oddsock.org/tools/dosomething/" title="Do Something">Do Something plugin</a>
+         and install it.</li>
+
+         <li>Go into Winamp's preferences (control-P), look under the Plugins - General Purpose, highlight DoSomething, then hit configure (follow the next steps exactly because the DoSomething plugin has a crappy UI).</li>
+
+         <li>Find the "Actions" drop down, change it to "Submit A URL"</li>
+
+         <li>
+            <p>Now you need to find the URL of your RegisterTune.asp script. If you installed the scripts to /asptunetracker it would look like:</p>
+            
+            <p>http://example.com/asptunetracker/RegisterTune.asp</p>
+         </li>
+             
+         <li>        
+            <p>To complete the URL you need to add song info. The Do Something plugin offers artist, song, album, and lots of other info, only a few of those are supported by aspTuneTracker. Your final URL should look like (on a single line):</p>
+            <p>http://example.com/asptunetracker/RegisterTune.asp? song=%%URL_CURRENTSONG%% &amp;LENGTH=%%URL_CURRENTSONGLENGTH%% &amp;title=%%URL_CURRENTSONGTITLE%% &amp;artist=%%URL_CURRENTARTIST%%</p>
+         </li>      
+
+         <li>Be sure to then click the "Add ->" button to save it to DoSomething's list of things to do when playing mp3s.</li>
+      </ol>
+   </li>
+   
+</ol>
+
+<h2>Revision history</h2>
+
+<h4>v1.0.0 (04-07-2003)</h4>
+<ul>
+   <li>Initial release</li>
+</ul>
+
+<h2>Links</h2>
+
+<ul>
+   <li><a href="http://a.wholelottanothing.org/archives.blah/006625" title="Trackbacks in Winamp">Trackbacks in Winamp</a></li>
+
+   <li><a href="http://www.oddsock.org/tools/dosomething/" title="Do Something">Do Something plugin for Winamp</a></li>
+</ul>

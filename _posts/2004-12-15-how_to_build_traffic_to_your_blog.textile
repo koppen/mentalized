@@ -1,0 +1,17 @@
+---
+layout: post
+title: How to build traffic to your blog
+date: '2004-12-15 10:18:41 +0100'
+mt_id: 846
+categories:
+- blogging
+---
+This should probably have gone into a quicklink, but I figured I'd quote this points in it's full:
+
+<blockquote>
+<p>*1. Write Posts That People Will Want To Read*</p>
+
+<p>This should be common sense, but many marketers tend to forget that their readers are real people and that you need to use <the principles of online copywriting to make your headlines and copy interesting to your readers. </p>
+</blockquote>
+
+... and other good points at "WebProNews.com(How To Build Traffic To Your Blog)":http://www.webpronews.com/ebusiness/sitepromotion/wpn-3-20041210HowToBuildTrafficToYourBlog.html

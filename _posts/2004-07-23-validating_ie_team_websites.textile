@@ -1,0 +1,19 @@
+---
+layout: post
+title: Validating IE team websites
+date: '2004-07-23 11:28:51 +0200'
+mt_id: 812
+categories:
+- browsers
+- webdesign
+- technology
+---
+"Scoble assures us(Scobleizer: Nigel says that Microsoft hates the Web)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660 that it is untrue that Microsoft doesn't want to comply with the W3C standards. "Dave Massy(Dave Massy's WebLog)":http://blogs.msdn.com/dmassy/ from the IE team "calls it a myth(IE Team chat transcripts)":http://mentalized.net/journal/2004/07/20/ie_team_chat_transcripts/ that Microsoft doesn't support standards.
+
+Still, the newest addition to Microsofts IE-marketing, "the IEBlog, indicates the opposite(IEBlog validation Results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/ie/. As do "every(Dave Massy's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/dmassy/ "known(jeffdav's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/jeffdav/ "blog(Tony Schreiner's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/tonyschr run by members of the IE team.
+
+I realize validation isn't the end-all, be-all of standards compliance. However I would expect, that the development team that has to struggle with parsing and rendering the bottomless bowls of tag soup making up the WWW today would be a little more concerned about outputting proper HTML. 
+
+To be fair, it seems like they're simply relying on some internal blogging/CMS tool and the real culprit is this tool. 
+
+Here's to hoping that Microsoft will some day put their money where their mouth is, and actual show the world that they understand, know and care about webstandards. Producing a single semantic, validating website would be nice first step.

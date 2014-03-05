@@ -1,0 +1,16 @@
+---
+layout: post
+title: Naming projects
+date: '2005-05-09 14:26:31 +0200'
+mt_id: 1314
+categories:
+- projects
+---
+How the ... do people come up with names for companies and projects. I don't get it. It seems that I can come up with a name in two ways:
+
+# Grab the first that comes into my mind and go with that even though it blows. "Notetagger":http://mentalized.net/journal/2005/04/15/notetagger_the_introduction/ ?! Cmon, Jakob, surely you can do better...
+# Spend forever pondering synonyms, combinations, puns, making endless lists and evaluating, scrapping, thinking, reconsidering, and eventually end up deciding that I can't come up with a name that works. Gah!
+
+To top it all off, I've found a criteria that's perfect for figuring out if the name I've come up with is good enough: The domain name is taken. For all worthwhile top level domains.
+
+Sigh. 

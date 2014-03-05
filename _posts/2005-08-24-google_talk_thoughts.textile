@@ -1,0 +1,13 @@
+---
+layout: post
+title: Google Talk thoughts
+date: '2005-08-24 08:33:06 +0200'
+mt_id: 1400
+categories:
+- technology
+---
+"Jabber-based, Google-sponsored Instant Messaging":http://www.google.com/talk/. Bloody hell, don't I feel silly now for never getting my kickass Jabber client application running. Oh, and "hah" to all of you thought I was crazy when talking about the benefits of Jabber ;)
+
+Could it be the first Jabber client with voice support? Wonder how Skype feels about Google stepping in on their turf.
+
+Update: It seems they feel the need to say "Skype opens IM and Presence to the world. Introducing SkypeWeb and SkypeNet":http://share.skype.com/index.php?option=com_content&task=view&id=162&Itemid=69.

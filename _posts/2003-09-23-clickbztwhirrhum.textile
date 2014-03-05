@@ -1,0 +1,9 @@
+---
+layout: post
+title: '*Click*bzt*whirr*hum*'
+date: '2003-09-23 20:08:03 +0200'
+mt_id: 748
+categories:
+- life
+---
+Aah, the sound of appliances, computers, and fridge starting after a 6 hour blackout soothes my soul.

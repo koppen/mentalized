@@ -1,0 +1,17 @@
+---
+layout: post
+title: BarCamp Copenhagen
+date: '2008-01-18 10:06:04 +0100'
+mt_id: 1911
+categories:
+- life
+- technology
+- copenhagenrb
+---
+I am going to "BarCamp Copenhagen":http://barcamp.org/BarCampCopenhagen on Friday. This being my first encounter with the "BarCamp":http://en.wikipedia.org/wiki/Barcamp concept I have pretty much no clue what I am going into, and I am both excited and a tad nervous - I mean, it's not every day one looses ones BarCamp virginity.
+
+Looking over the list of attendees I can't help but notice that quite a few Ruby developers - many from the jolly "Copenhagen Ruby Brigade":http://copenhagenrb.dk crew - are attending; we're making up 10% of the attendees.
+
+I probably won't be giving a talk there unless I am hit by a massive amount of inspiration particles before then, but seeing that "Casper":http://casperfabricius.com/blog/2008/01/16/talking-at-barcamp-copenhagen/ is presenting I am sure the good word of Ruby will be spread. I will make sure to contribute in some other way at the event, though - in accordance with "the rules of BarCamp":http://barcamp.org/TheRulesOfBarCamp
+
+I am looking forward to it - and it's probably a good idea to read up on the whole concept before Friday.

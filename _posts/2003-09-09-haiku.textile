@@ -1,0 +1,11 @@
+---
+layout: post
+title: Haiku?
+date: '2003-09-09 17:44:27 +0200'
+mt_id: 742
+categories:
+- life
+---
+this is not haiku
+even if syllables match
+or perhaps it is

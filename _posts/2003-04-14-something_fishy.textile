@@ -1,0 +1,14 @@
+---
+layout: post
+title: Something fishy
+date: '2003-04-14 15:44:49 +0200'
+mt_id: 687
+categories:
+- games
+---
+Something fishy, or should I say Blizzard'esque, is happening over at 
+<a title="EverQuest.com" href="http://everquest.station.sony.com/">the official EverQuest site</a>. 
+
+I suppose they are about to announce their coming addition to their everexpanding EverQuest franchise (this one likely being a <a href="http://www.rapideyegames.com/Games.html" title="Pressrelease about EQ RTS">realtime strategy game</a>), and are trying to create some hype by gradually releasing hints about the game.
+
+I really like this kind of thing - I especially like how <a href="http://forums.crgaming.com/eqbb/viewtopic.php?t=85291&postdays=0&postorder=asc&start=0" title="Thread on Casters Realm">the community</a> seems to come together trying to solve the puzzle at hand by gathering and comparing theories and bits of information.

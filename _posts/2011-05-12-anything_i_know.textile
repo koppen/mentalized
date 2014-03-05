@@ -1,0 +1,20 @@
+---
+layout: post
+title: '"Anything I know?"'
+date: '2011-05-12 08:44:56 +0200'
+mt_id: 2106
+categories:
+- life
+- projects
+---
+"Oh, you make websites, have you made anything I know?" he asks, immediately after my telling him I build web applications for a living.
+
+At this point in the conversation, I'd love my next response to be "Perhaps... You know Google? Yeah, I built that. All by myself. With my hands tied."
+
+Instead, I am left fumbling around for something in my portfolio with just a sliver of hope of recognition from the average Joe in front of me. Usually I fail, leaving Joe feeling uninterested, and me feeling unsuccessful.
+
+Thing is, there are a bajillion websites and unless you live and breathe internet, you probably don't know more than a few of those. And while I have been at it for more than a decade, in the grand scheme of things, I have only built a few websites. Guess what, my few are highly unlike to be the few you know.
+
+The irony is that most the projects I've been involved with have been successful in their own right. Most are successful businesses with people making a living from them. All of this without any being a top 10 internet site or even well known.
+
+So no, I haven't built anything you know. By the way, what do you do for a living? Oh, you repair cars - anyone I've owned?

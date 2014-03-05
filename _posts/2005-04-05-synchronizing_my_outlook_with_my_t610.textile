@@ -1,0 +1,47 @@
+---
+layout: post
+title: Synchronizing my Outlook with my T610
+date: '2005-04-05 14:22:21 +0200'
+mt_id: 1281
+categories:
+- technology
+---
+I have a Sony Ericsson T610 cell phone, one Microsoft Outlook 2002 (yeah, I know...), a Bluetooth dongle I've forgotten model and make of, and XTNDCOnnect PC.
+
+Once upon a time, they were all able to communicate with each other and everything was good. Then suddently, a mysterious thing happened, and XTNDConnect PC would no longer talk to the T610. Nothing I did, would make it want to again - until now.
+
+<!--more-->
+
+
+This is how I made my Outlook synchronize tasks and events with my Sony Ericsson T610 over Bluetooth via XTNDConnect PC, and it's here so I can read it next time my computer decides to give me grief over this.
+
+# Make sure Bluetooth is turned on, both in the phone and the dongle
+
+h2. Bluetooh Setup Wizard
+
+# Open Bluetooh Setup Wizard (from the Bluetooth icon in the systray)
+# Select "I want to find a specific..."
+# Select T610
+# Enable Serial Port 1, on COM5
+# Finish
+
+h2. Advanced Configuration
+
+# Open Advanced Configuration (from the Bluetooth icon in the systray)
+# Under Local services:
+## Bluetooh Serial Port on COM6, start up automatically
+# Client applications
+## Add Bluetooh Serial Port on COM5
+
+h2. Control panel
+
+# Open Phone Monitor in Windows XP Control Panel
+# Under COM-ports:
+## Enable COM5, reserved
+## Disable COM6, not reserved
+
+h2. Finito
+
+# "Synchronize now" in Outlook
+
+This worked for me and it might work for you too.

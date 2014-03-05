@@ -1,0 +1,58 @@
+---
+layout: post
+title: Humor driven development
+date: '2010-07-30 10:37:40 +0200'
+mt_id: 2047
+categories:
+- programming
+---
+Happy developers are productive developers. Having fun makes people happy. So sayeth the "Chief Happiness Officer":http://positivesharing.com/2007/03/top-10-reasons-why-happiness-at-work-is-the-ultimate-productivity-booster/.
+
+This should come as no surprise to noone in the Rails community - after all, Rails is "optimized for developer happiness" and "DHH":http://loudthinking.com has "touted this":http://gettingreal.37signals.com/ch10_Optimize_for_Happiness.php on numerous occasions. 
+
+And the Ruby community in general seems to be a life-loving bunch. "_why":http://en.wikipedia.org/wiki/Why_the_lucky_stiff didn't rise to fame solely because he was a good programmer. His code was fun and quirky, his documentation and presentations even more so.
+
+
+<!--more-->
+
+h2. Why is our code so boring then? 
+
+As developers we spend a lot of time reading code and let's be honest, code isn't exactly the most fun text to read. I refuse to believe it has to be that way.
+
+I propose that by investing a little time in making your code more fun to read, you are making your coworkers more happy, increasing productivity of your company in the longer term. 
+
+
+h2. Context and appropriateness?
+
+Bear in mind, that I am not advocating turning your code into a joke - or for that sake, litter actual jokes around your code base. Thing is, people don't expect humor in code, so you can get far with very little means. There's no need for a full stand up routine.
+
+Instead, there are parts of your code that you can write with a smile on your face. And just perhaps, if you do, you might transfer that smile to the next developer who reads your code.
+
+h3. Test cases
+
+Tests provide a great opportunity for getting creative and injecting a bit of humor. I mean, why do we always have to exercise our code using foo, bar, and baz? 
+
+h3. Commit messages
+
+I am sure you can come up with a more interesting commit message than "Fixed this and that, closes #42". Certainly, brevity and clarity is your number one priority, but I dare you to write it with a wink.
+
+h3. Code comments
+
+Is some code relying on a third party component that's acting up in some cases forcing you to document with a comment why your code is jumping through hoops? Dry sarcasm works well in those cases, I bet you've got that skill mastered.
+
+
+h2. "So, have you heard the one about..."
+
+I am not a particularly funny guy (as I am sure "my Twitter followers":http://twitter.com/mentalizer/followers can confirm). However, while writing this blog post, I came to the realization that this idea of making code more fun isn't new.
+
+The first non-me developer we hired at "BiQ":http://biq.dk definitely enjoyed the comments and remarks I had been putting into the code base. Sure, they weren't thigh-smacking-rolling-on-the-floor-laughing-your-lungs-out-funny, but a chuckle every so often goes a long way.
+
+When asked about his impression of the remarks, he had the following to say:
+
+bq. It made it obvious that BiQ is a company that puts well being and happiness above rigid rules; the project and the code presented itself as a labor of love that has been fun and interesting to produce.
+
+Why would you not want other people to get that impression of your project?
+
+<div class="footnotes">
+  <ul><li>Thanks to "Dr. Nic":http://drnicwilliams.com/ for letting me waste some of his time while writing this post.</li></ul>
+</div>

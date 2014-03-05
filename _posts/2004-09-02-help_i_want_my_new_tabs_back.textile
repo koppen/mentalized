@@ -1,0 +1,9 @@
+---
+layout: post
+title: Help, I want my new tabs back
+date: '2004-09-02 10:23:36 +0200'
+mt_id: 818
+categories:
+- browsers
+---
+At some point my Firefox 0.9 stopped opening links in a new tab in an existing window and instead opens them in an entirely new window. I don't recall exactly when this happened, but it has been a while now. I am getting pretty tired of my "taskbar looking like this(28(!) Firefox windows)":/journal/2004/09/02/help_i_want_my_new_tabs_back/28firefox.png after having gone over my feed subscriptions in FeedDemon every morning. I have no idea how to fix this, help!

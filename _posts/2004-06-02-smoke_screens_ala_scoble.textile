@@ -1,0 +1,23 @@
+---
+layout: post
+title: Smoke screens ala Scoble
+date: '2004-06-02 10:40:13 +0200'
+mt_id: 798
+categories:
+- webdesign
+---
+Microsofts Scoble in "an opinion piece(Nigel says that Microsoft hates the Web)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660 titled "Nigel says that Microsoft hates the Web":
+
+bq. I'm running Mozilla's Firefox on Longhorn just fine.
+
+Good for you, Robert, but it's beside the point. You running Firefox does nothing to show what Microsoft plans on doing, neither does it refute that Microsoft would prefer to see standards dying off so proprietary technologies could take over and customers get locked into a monthly subscription cycle.
+
+"Here's a post(Hixie's Natural Log)":http://ln.hixie.ch/?start=1085764602&count=1  about why IE sucks. "Here's another(Sore Eyes: IE Sucks)":http://soreeyes.org/archives/001077.html. A third post is titled "It's not my fault IE sucks - get a real browser(eclecticism: It's not my fault IE sucks)":http://www.michaelhanscom.com/eclecticism/2004/05/its_not_my_faul.html. There are "a few thousand more(Google search: IE sucks)":http://www.google.com/search?hl=en&lr=&ie=UTF-8&c2coff=1&q=%22IE+sucks%22&btnG=Search too.
+
+Finally, there's a "list of things actually implemented in Firefox(Firefox 0.8 release notes)":http://www.mozilla.org/products/firefox/releases/#new. When do we see actual improvements from the IE team? We don't need a list of things that IE can't do. There are plenty of those already.
+
+Oh, and everytime I talk browsers with someone (which is quite often) I suggest that they flee from the legacy application known as IE. That _is_ affecting them, and someday hopefully that will affect browser vendors too.
+
+Personally, Robert, if you want to prove that Microsoft really cares about web standards start nudging the webteam to learn what a doctype is, have the Word- and Frontpage teams learn that HTML is a standard - not just something IE can render, and have the IE team actually produce something.
+
+Without actions it is really hard to not believe that "Nigel McFarlane is spot on (http://www.informit.com/articles/article.asp?p=174156&seqNum=6)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660.

@@ -1,0 +1,16 @@
+---
+layout: post
+title: MacZOT! offering SubEthaEdit for (sort of) free
+date: '2006-04-25 15:52:53 +0200'
+mt_id: 1594
+categories:
+- business
+- blogging
+---
+I've been eyeballing "MacZOT!":http://maczot.com before. Basically they offer you handpicked Mac software for greatly reduced prices, and I learned about them when they offered a "MysteryZOT" - you buy a package of software, but you don't know what you get. Funky stuff.
+
+They are currently offering <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit from CodingMonkeys</a> at a $6 discount, but not only that, for each approved blog entry writing about this, they will lower the price by $0.05. If the collective blogosphere manages to lower the price to $0, MacZOT and CodingMonkeys will simply give out SubEthaEdit registration keys for free to all who participated. 
+
+In other words, MacZOT and TheCodingMonkeys will award $105,000 in Mac software. That's viral marketing with an edge.
+
+Read more or buy SubEthaEdit over at <a href="http://maczot.com/">BLOGZOT 2.0 on MacZOT.com</a>.

@@ -1,0 +1,135 @@
+---
+layout: post
+title: Notetagger - Adding users and subdomains
+date: '2005-05-18 11:43:00 +0200'
+mt_id: 1318
+categories:
+- projects
+---
+Time to take Notetagger up a notch and add support for multiple users. And being the always creative and innovative person I am, I'll naturally be doing what the cool kids are doing; using subdomains as account keys.
+
+You might want to read the "previous installment":http://mentalized.net/journal/2005/04/27/notetagger_summing_up/ before this.
+
+<!--more-->
+
+h2. Login generators
+
+Ruby and Rails is all about not repeating yourself and reusing code, so I'll be a <del>lazy</del> smart developer and reuse what I can. At the moment there are basically two easy ways to go from nothing to user logins: "Tobias Luetkes Login Generator":http://wiki.rubyonrails.com/rails/show/LoginGenerator and "Joe Hostenys Salted Hash Login Generator":http://wiki.rubyonrails.com/rails/show/SaltedHashLoginGenerator.
+
+I've chosen to go with the latter for 2 reasons: 
+
+# I don't have any experience with it and want to expand my horizon
+# It comes with password recovery support.
+
+Getting the Salted Hash Login Generator (and the required localization generator) is a simple matter of getting it from the Gem store:
+
+bc. gem install --source http://gems.rubyforge.org salted_login_generator
+gem install --source http://gems.rubyforge.org localization_generator
+
+We can then use the generator to build a bunch of files needed:
+
+bc. ruby script\generate salted_login User Localization
+
+This gives me a User model, a UserController, a UserNotifier, User views and some localization stuff I don't really need at this point. After generating, a few files need to be changed in accordance with the README_LOGIN_GENERATOR:
+
+The ApplicationController is changed to look like
+
+bc. require 'user_system'
+class ApplicationController < ActionController::Base
+  include UserSystem
+  helper :user
+  model :user
+  before_filter :login_required
+end
+
+The following line is added to the bottom of config/environment.rb:
+
+bc. require 'environments/user_environment'
+
+And the newly required file, config/environments/user_environment.rb, is changed to use my email address and mail server etc.
+
+The last of the code changes that needs to be made is making sure my controller doesn't require a login (yet). This is done by overwriting the protect? method that got included into the ApplicationController above:
+
+bc. class NotesController < ApplicationController
+  def protect?(action)
+    false
+  end
+end
+
+
+h2. Database table
+
+The Salted Hash Login Generator requires a table looking like 
+
+bc.   CREATE TABLE users (
+    id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    login VARCHAR(80) NOT NULL,
+    password VARCHAR(40) NOT NULL,
+    salted_password VARCHAR(40) NOT NULL,
+    email VARCHAR(60) NOT NULL,
+    firstname VARCHAR(40),
+    lastname VARCHAR(40),
+    salt CHAR(40) NOT NULL,
+    verified TINYINT(1) default 0,
+    deleted TINYINT(1) default 0,
+    role VARCHAR(40) default NULL,
+    security_token CHAR(40) default NULL,
+    token_expiry DATETIME default NULL
+  ) TYPE=InnoDB DEFAULT CHARSET=utf8;
+
+So I'll go ahead and create that. 
+
+Note that I've added a deleted column, since it turns out later that the Salted Hash Login expects that column to be present. I've also changed the verified column (and deleted) to TINYINT (1) to let Rails figure out their boolean nature.
+
+
+h2. Time to testdrive
+
+After firing up Webrick, I head to http://127.0.0.1:3000/notes to test out my superfancy user authentication system. And it seems to work, woo! 
+
+But I am not content with it merely working, no siree, I want a user, so I head to /user/signup. And the page fails. It seems that I have forgot to include part of the localization stuff somewhere, probably because I didn't want it in the first place, and that has come back to haunt me now.
+
+At this point I am not really in the mood to figure out how localization stuff I don't want works, so I'll basically strip it out and change the views to use basic Rails helpers. 
+
+With the localization stuff gone (including renaming views in user_notify) the whole shebang actually works! I can register a user account, I get the email about it, I can verify it and log in and everything. So far, so good.
+
+
+h2. Connecting the models
+
+Giving each note a user is a fairly simple, 3 step process. First the database/SQL part:
+
+bc. ALTER TABLE notes ADD COLUMN author_id INT(10) DEFAULT NULL;
+UPDATE notes SET author_id = 7;
+
+The last line is simply giving all notes the id of my user. Then the Rails part in app/models/note.rb
+
+bc. class Note < ActiveRecord::Base
+  belongs_to :author, :class_name => 'User', :foreign_key => 'author_id'
+end
+
+That's it. Each Note now has an author attribute with a User object, so we can for example in a view do 
+
+bc. <%= note.author.first_name %>
+
+
+h2. Subdomains as account keys
+
+Earlier I mentioned I wanted Backpack-style URLs, where ie jakobs.domain.com will show the notes posted by the user with login 'jakobs'. Now I have users associated with Notes I can go ahead and do this.
+
+What I'd like is to have a User object available which holds the User whose notes we're currently looking at. I can get that by adding a before_filter to my ApplicationController:
+
+bc. class ApplicationController < ActionController::Base
+  before_filter :setup_environment
+  def setup_environment
+    @user_account = User.find_by_login(request.subdomains.first)
+  end
+end
+
+To show a Users Notes I can now in the list action of my NotesControllers do:
+
+bc. @notes = Note.find(:all, :conditions => ['author_id = ?', @user_account.id], :order => 'created_at DESC')
+
+There's still a bunch of error handling lacking, particularly for the cases where no user with a login equal to the subdomain exists, but I'll deal with them later. There's also quite a few other issues to fix, like making sure that new Notes get their author_id set, and ensuring the whole User signup/login experience works in a decent way.
+
+But that's for another day. For now I am fairly pleased with having gone from a single user system to a multi-user system in a few hours.
+
+My app directory, including butchered user views, is "available for your perusal":http://mentalized.net/files/journal/notetagger/sources/notetagger_app_20050518.zip.

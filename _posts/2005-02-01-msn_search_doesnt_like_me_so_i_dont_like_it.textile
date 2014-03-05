@@ -1,0 +1,17 @@
+---
+layout: post
+title: MSN Search doesn't like me, so I don't like it
+date: '2005-02-01 11:45:01 +0100'
+mt_id: 1241
+categories:
+- technology
+---
+I put the newly launched MSN Search to the ultimate test: "Searching for my name(MSN Search: Jakob Lange Skjerning)":http://search.msn.dk/results.aspx?q=Jakob+lange+skjerning. Result #34, the last result of the bunch, was my "about page(About | mentalized.net)":http://mentalized.net/about/. It was one of 3 results containing all 3 words from my name, and deemed less relevant than all other results. Result #1 was a list of weblogs, where I was mentioned with a link to mentalized, so they have been able to spider the site.
+
+"Leaving out my middle name(MSN Search: Jakob Skjerning)":http://search.msn.dk/results.aspx?q=Jakob+skjerning from the search doesn't even bring up mentalized as a result.
+
+"Searching for mentalized(MSN Search: mentalized)":http://search.msn.dk/results.aspx?q=mentalized puts actual content from this site at result #15, below a bunch of sites linking to it. Matter of fact, we have to go to page 4 before we start getting results that aren't links to this very site. Apparently links to the domain mentalized are more relevant than the actual website at the domain.
+
+Another odd thing: When searching for my name, the number of results and available pages changed depending on what results page I was currently looking at. On page 1, I had 60 results and 5 pages, on page 2 and 3; 60 results and 6 pages. Then on page 4 I was suddently down to 34 results on 4 pages - how odd.
+
+Sorry Microsoft, you may be trying to be good boy using near-standards, but a Google killer you are not - yet...

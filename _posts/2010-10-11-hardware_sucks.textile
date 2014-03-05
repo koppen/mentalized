@@ -1,0 +1,28 @@
+---
+layout: post
+title: Hardware sucks
+date: '2010-10-11 09:19:26 +0200'
+mt_id: 2068
+categories:
+- hardware_1
+- technology
+---
+Once upon a time I would never dream of buying an assembled computer. I'd spend lots of time finding the right components and the cheapest places to buy them. I'd piece the big puzzle together sitting in my dorm room surrounded by cardboard boxes and bubble-wrap.
+
+Most of the time the resulting machine would even work.
+
+Fast forward some ten years to today. My brother recently asked me what processor was in my MacBook Pro and I honestly didn't know. i-something, perhaps? I can barely remember how much RAM I have. Thing is, I don't really care any longer.
+
+<!--more-->
+
+h2. The wonders of having no hardware
+
+That's why platforms like app hosting platforms like Google App Engine or Heroku are massively interesting. I don't have to care about the hardware. It has been cleverly abstracted away from me by a layer of magic.
+
+All I have to care about is my application, and being an application developer, that's where my affection lies. If the application is running slowly, I push the buttons and an army of elves scramble to sprinkle fairy dust across EC2 and make my application run fast again. It just works. By magic.
+
+h2. With great power blah blah...
+
+This obviously costs some power and flexibility. I can only do what the platform allows me to and it's rarely possible to tweak all the small details to infinity. That is a price I happily pay for convenience of not having to bother with physical servers and their limitations.
+
+And their lack of magic.

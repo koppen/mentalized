@@ -1,0 +1,51 @@
+---
+layout: post
+title: Redefining mentalized
+date: '2005-04-05 11:36:00 +0200'
+mt_id: 1246
+categories:
+- mentalizednet
+---
+It's that redesign time of the year again, and I was getting tired of the old layout and wanted to try out some new ideas and things. So I pretty much tore mentalized apart and put it back together from the scratch.
+
+I had a bunch of goals with the redesign, overall I wanted to make mentalized simpler, more consolidated, a website that I felt I could add things to without feeling restrained by what was already there.
+
+<!--more-->
+
+h2. I wanted to...
+
+h3. ...Get rid of the features section
+
+I myself am not even sure what goes there and what goes in the journal, so how could I expect users to be? All my "features" have been moved to the journal as regular entries, and redirects have been set up to send readers to the proper new URLs.
+
+h3. ...Play with a grid-adhering layout
+
+Being massively impressed with "Khoi Vinh's Substraction 7.0(Subtraction)":http://subtraction.com/ I wanted to do something along the same lines he did. Grids and metadata on the left hand side were my main objectives. 
+
+h3. ...Create a design without a sidebar
+
+I don't think I've ever had a design on mentalized that didn't feature some sort of sidebar. My challenge to myself was to make the site work without one. I am not sure I've succeeded, and it basically means the sidebar has been pushed down below the main content. Neither am I sure this is really a good idea after all, what do you think?
+
+h3. ...Integrate with external sites
+
+Tagging, taxonomies, "del.icio.us":http://del.icio.us, "Technorati":http://technorati.com, "Flickr":http://flickr.com are the hip buzzword du jour, so obviously I wanted to see if I could do something to improve mentalized's integration with these sites.
+
+So far, I am still thinking about how to go about it, but it is my hope that the new layout allows me to better do this.
+
+h3. ...Stop relying on quicklinks
+
+One thing I have done, though, is move my Quicklinks to del.icio.us. They are now posted once a day from del.icio.us to my separate Quicklinks blog. They've also been moved from the main content area, which is now reserved for my actual writings. 
+
+I do worry, though, that they've become invisible down there at their new location, so they might be moved back to the main content area at some point. 
+
+If I could figure out how to make del.icio.us post to a specific category (it just seems to ignore the category id I tell it to post to), I could scrap the Quicklinks blog entirely, I guess. That would require me to take that category out of my feed though, since I really don't want people to receive notification that my site has been updated whenever I post a link to the funny flash movie of the day.
+
+h3. ...Find an excuse to play with linked lists
+
+While I've somewhat aimed at playing with linked lists for category listings and whatnot, I am not quite there yet. Main hurdle is to look into how to get Movable Type to output them, I guess.
+
+h3. Final thoughts
+
+I still have some ideas I want to try out, particularly navigationwise. Neither am I fully content with how the site looks at the moment, so I will be tweaking it in the days to come.
+
+Basically, I am happy having mentalized return as my virtual playground, and I will try to play more with it in the future.

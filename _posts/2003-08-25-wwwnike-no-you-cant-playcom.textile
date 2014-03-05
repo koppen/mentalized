@@ -1,0 +1,17 @@
+---
+layout: post
+title: www.nike-no-you-can't-play.com
+date: '2003-08-25 10:53:12 +0200'
+mt_id: 732
+categories:
+- webdesign
+---
+<p>"www.nikeplay.com(nikeplay.com)":www.nikeplay.com gives me (after looking at a blank page for a while):</p>
+	
+<blockquote><p>For full enjoyment of this website you'll need a newer browser (Internet Explorer or Netscape Navigator, version 5.0 or newer). Click below to download and install a new browser [...]</p></blockquote>
+
+Gee, my browser is a nightly build from August 20th 2003 - less than a week ago. Internet Explorer is from, what, 2001? And they have the nerve to claim that my browser is "outdated"?
+
+Alright, so Nike can't figure out to build standards compliant websites <em>or</em> sniff browsers properly. Fine, at least they provide a "continue without upgrading" link - which takes me to Nike Freestyle, not Nike Play.
+
+Nike, I guess I didn't want to visit your website anyways ::close tab::

@@ -1,0 +1,15 @@
+---
+layout: post
+title: Pricing projects
+date: '2006-04-27 10:38:55 +0200'
+mt_id: 1596
+categories:
+- business
+---
+In "Pricing a Project":http://www.blueflavor.com/ed/tips_tricks/pricing_a_project.php Brian Fling talks in great detail about how "Blue Flavor":http://www.blueflavor.com/ prices their projects (duh). It's a great article, and I find their process strikingly similar to what I do in "Substance Lab":http://substancelab.com.
+
+At a recent project, the client approached me with a set amount of money and said they'd pay me all of them to implement a specific feature. I responded that I would much rather bill them per hour actually spent. They agreed, setting the proposed amount as a max ceiling in the contract. In the end the feature was implemented for around half of what they proposed, making for one pleased customer.
+
+Certainly, I could have made a lot more by accepting the initial proposed amount of money, but it would have felt like cheating. I don't want to get paid for work I don't do, and I guarantee you no client wants to pay for it.
+
+I find billing by the hour meets both ends; protecting the client from paying for more than they get, and the contractor from doing work without getting paid. 

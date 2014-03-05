@@ -1,0 +1,14 @@
+---
+layout: post
+title: How to export CSV data from PostgreSQL
+date: '2011-11-07 10:53:52 +0100'
+mt_id: 2128
+categories:
+- technology
+- software
+---
+Just because I can never remember how to do this:
+
+bc(shell). psql my_database -c "COPY (SELECT stuff FROM my_table) TO STDOUT CSV" > my_file.csv
+
+Works in at least PostgreSQL 8.4.

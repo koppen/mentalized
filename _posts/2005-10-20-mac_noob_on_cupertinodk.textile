@@ -1,0 +1,13 @@
+---
+layout: post
+title: Mac noob on cupertino.dk
+date: '2005-10-20 12:55:21 +0200'
+mt_id: 1449
+categories:
+- blogging
+---
+For some reason I've been invited to contribute to a newly launched Danish Mac user blog, "cupertino.dk":http://cupertino.dk. Due to my Mac-noobness I've been watching from the safety of far away as "bundles of energetic and enthusiastic people":http://cupertino.dk/theteam/ got stuff up and running. 
+
+I'm very much looking forward to try blogging in Danish for a change. By far most of my writing (here, at work, everywhere) is in English even though it is a secondary language to me.
+
+If you're into Macs and understand danish or like guessing, head on over, subscribe to the feed, tell us what you want to hear, and generally consume it.

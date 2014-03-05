@@ -1,0 +1,27 @@
+---
+layout: post
+title: Firefox 4 default stylesheets
+date: '2011-04-04 10:33:27 +0200'
+mt_id: 2102
+categories:
+- webdesign
+- browsers
+---
+If you ever find yourself debugging some odd Firefox only issue, you might be able to find some clues in the default stylesheets of the browser.
+
+If you navigate to "resource://gre-resources/":resource://gre-resources/ in Firefox 4 you'll find a list of various resources used by the browser.
+
+<!--more-->
+
+As far as I can tell, the following stylesheets are the ones used to provide the base styles for all pages:
+
+* "forms.css":resource://gre-resources/forms.css
+* "html.css":resource://gre-resources/html.css
+* "mathml.css":resource://gre-resources/mathml.css
+* "quirk.css":resource://gre-resources/quirk.css
+
+The styles in those files are what CSS reset stylesheets are trying to eliminate. 
+
+If anything, it's interesting digging through those files just to see what kinds of tricks they use internally. There are lots of -moz vendor prefixes in there.
+
+Thanks to "James Oppenheim":http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/ whose instructions for Firefox 3 lead me to the files in Firefox 4.

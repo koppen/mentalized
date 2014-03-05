@@ -1,0 +1,46 @@
+---
+layout: post
+title: 'Idea: fontstack.com'
+date: '2010-05-17 09:12:35 +0200'
+mt_id: 2041
+categories:
+- projects
+- ideas
+---
+Here's an idea I had the other day. I am putting it out to the world because I'd love to see it realized. While I could do it myself, I already have enough on my plate - and knowing myself, I'll never get around to it.
+
++Update: Someone is watching - between me posting this and today (roughly 24 hours later) the domain name has been registered. Sleazy domain-shark register-bot or quick-fire entrepreneur? Your guess is as good as mine.+
+
+
+<!--more-->
+
+h2. Use case
+
+I was recently tasked with "implementing a design":http://bornibyen.dk using the "Rockwell":http://www.fonts.com/FindFonts/detail.htm?pid=201908 font. Rockwell is not a free font, and as far as I could tell, not licensed for embedding. 
+
+That left me with simply relying on users having the font installed, and only "around 60% do":http://www.codestyle.org/css/font-family/sampler-CombinedResultsFull.shtml. That meant I had to come up with some decent alternative fonts, preferably with a similar appearance and size. 
+
+What I would love for someone to build, is a site where I can look at the page for Rockwell and see a list of alternative fonts resembling it - preferably ordered by resemblance. 
+
+For extra credits a pre-made font-stack could be provided, ready for me to copy/paste into my CSS. 
+
+A powerful extra feature would be statistics of font usage, so I can see an estimate of how many people will see what font on my site. 
+
+
+h2. Crowd-sourcing
+
+Surely, building a library of all fonts, their alternatives and how much they look like each other is a huge task and I figure this could be crowd-sourced. Let the community suggest alternatives and vote on the already suggested alternatives. This definitely seems like something where a lot of people have ideas and knowledge they could share.
+
+
+h2. Monetization?
+
+I tend to always fail at coming up with great ways to monetize services - outside of flat out having people pay to use them. I think a different model would be better for a site like this, as the usefulness of the service increase with the amount of users adding their knowledge. 
+
+Affiliate links to font sales is a fairly obvious choice. Ads is always an option, I guess, and the users of the site would be pretty well segmented. 
+
+Anyways, here's hoping someone smarter than me can figure it out and make it work.
+
+
+PS: For reference, here's the font-stack I did end up using:
+
+bc(css). font-family: rockwell, 'rockwell std', Serifa, 'Serifa Std', Glypha, 'Glypha Std', Memphis, 'Memphis Std', 'Museo Slab', arial, sans-serif;

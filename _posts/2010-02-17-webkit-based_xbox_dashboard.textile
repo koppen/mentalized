@@ -1,0 +1,63 @@
+---
+layout: post
+title: Webkit-based Xbox dashboard
+date: '2010-02-17 11:20:00 +0100'
+mt_id: 2025
+categories:
+- webdesign
+- technology
+- browsers
+---
+Webkit - and Safari in particular - have been really aggressive in adding support for upcoming CSS 3 features - and some CSS features not yet part of any spec. 
+
+As much of this is still Webkit-specific it isn't really something I get to use much on client work, but not being one to shy away from new, shiny things, I though it would be fun to dig into this.
+
+I decided to recreate an interface familiar to Xbox players, namely the Xbox Dashboard. It seemed like a good candidate to try out techniques like "CSS animations":http://webkit.org/blog/324/css-animation-2/, "font-face":https://developer.mozilla.org/en/CSS/@font-face, "multiple backgrounds":http://www.w3.org/TR/css3-background/, "gradients":http://webkit.org/blog/175/introducing-css-gradients/, "RGBA colors":http://www.w3.org/TR/css3-color/, "drop shadows":http://www.css3.info/css-drop-shadows/, and "custom scrollbars":http://www.css3.info/styling-scrollbars-the-webkit-way/ to name a few.
+
+
+<!--more-->
+
+h2. The inspiration
+
+The original inspiration for the actual look and feel is the "Braid theme":http://braid-game.com/news/?p=402 released by the great guys behind "Braid":http://braid-game.com/ - I hope they'll forgive me for using their graphics.
+
+The original theme looks like:
+
+!/files/journal/xbox_dashboard/braid_theme.jpg!
+
+My recreated version looks like:
+
+<a href="http://mentalized.net/files/journal/xbox_dashboard/"><img src="/files/journal/xbox_dashboard/experiment.jpg" alt="Screenshot of the experiment"></a>
+
+"See the working demo here":http://mentalized.net/files/journal/xbox_dashboard/ - remember, "Webkit":http://webkit.org-based browsers only, so use "Safari":http://apple.com/safari or "Chrome":http://google.com/chrome.
+
+I have tried to be generous with the comments in the source, feel free to dig in and see how things are made. Hopefully this can serve as inspiration/education for someone as it did for me.
+
+
+h2. Boo, you're using Javascript
+
+I tried briefly to make this work without Javascript using :target pseudo-selectors, but I never got it working. It might be possible to implement that, but my CSS-fu (or patience) wasn't up for the task.
+
+All the Javascript is doing is adding classes to the panels - .frontmost if it's the active panel, .outside if it's a panel that shouldn't be visible. All animations and transformation is done in CSS.
+
+It should be possible to create the behavior in Javascript instead of CSS. It would be interesting to see, if for no other reason then to see it running in browsers outside of Webkit. PDI.
+
+
+h2. Issues
+
+h3. Performance
+
+The framerate in Safari is pretty bad. The framerate in mobile Safari on my iPod Touch is ghastly (and I totally miss not being able to swipe there). Chrome delivers the best performance by far.
+
+h3. Visual artifacts
+
+When navigating between the panels and the animation is in progress, Safari doesn't render the custom scrollbars. Instead it renders a transparent box there for some reason. Chrome handles that correctly.
+
+I tried to add the reflections that's visible on the actual Xbox Dashboard, but it simply caused too many visual artifacts in Safari. I'm guessing the combination of border-radius, scale, and rounding errors was tripping up the "-webkit-reflection":http://webkit.org/blog/182/css-reflections/.
+
+
+h2. Should this ever be used in production?
+
+Features that are only supported by browsers used by "10%":http://en.wikipedia.org/wiki/Usage_share_of_web_browsers of the internet-browsing population? I think not.
+
+It definitely could be interesting to see how well this could be made to work in other browsers. Most modern browsers aren't far behind Safari, and it might be possible to make it degrade gracefully enough in Internet Explorer. That is, however, far outside the scope of my experiment.

@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'NFS: Underground - the online experience'
+date: '2003-12-04 12:12:39 +0100'
+mt_id: 766
+categories:
+- games
+---
+A guide to playing "Need for Speed: Underground(EA GAMES | Need for Speed Underground)":http://www.eagames.com/official/nfs/underground/us/home.jsp in too many easy steps:
+
+# Connect to the online part
+# Choose username
+# Realize you have to accept the terms of usage _again_, accept them
+# Choose username
+# Choose your car
+# Verify that you have chosen the right car
+# Choose the kind of race you want
+# Locate a chatroom with free space in a list of hundreds of chatrooms
+# Find the list of created games
+# Hope you are able to get into a game before it fills the 4 slots
+# Hope the creator of the game actually starts the game before people leave again
+# Hope you don't get the dreaded "cannot connect to the host"-message that noone really know what means. If you do, go to 7
+# Look at a silly textmessage and not the nice looking cars while waiting for all 4 people to connect.
+# Pray that none of the opponents are one of the way too many online cheaters
+# Win the race
+# Pray that you actually won the race and not some other player that you just couldn't see on your screen
+# Wonder why you didn't get the points you just won
+# Go to 7 - alternativly log off, wondering why anyone bothers playing it online
+
+The singleplayer part is kickass though.

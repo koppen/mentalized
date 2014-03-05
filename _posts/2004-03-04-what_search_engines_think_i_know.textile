@@ -1,0 +1,41 @@
+---
+layout: post
+title: What search engines think I know
+date: '2004-03-04 11:51:31 +0100'
+mt_id: 783
+categories:
+- blogging
+---
+I've been looking at some of the phrases that people have used to find mentalized on search engines and much to my surprise I seem to be the #1 hit on Google for a few select things.
+
+* "Velious Custom Helmets(Google)":http://www.google.com/search?q=velious+custom+helmets
+* "movable type dirify individual entries(Google)":http://www.google.com/search?q=movable+type+dirify+individual+entries
+* "google engilsh(Google)":http://www.google.com/search?q=google+engilsh (Kind of funny search actually)
+
+Those examples are somewhat plain, but then it starts getting funny.
+
+h2. Mentalized vs the world
+
+* "Spammer IPs(Google)":http://www.google.com/search?q=Spammer%2Bips - Yup, check out mentalized.net for Spammer IPs
+* "Mining emails(Google)":http://www.google.com/search?q=mining+emails - If only I could use my favorable ranking to stop people from doing it
+* "leech protection(Google)":http://www.google.com/search?q=%22leech+protection%22 and "anti leech protection(Google)":http://www.google.com/search?q=anti%20leech%20protection - I hope at least one person have read those entries and reconsidered their need for bothering their users. That would be a minor victory in the battle against stupidity.
+
+But I don't stop there. No sir, I won't settle for taking on spammers and stupid javascripts, I have to go after multinational corporations:
+
+h2. Mentalized vs Nike
+
+* "www.nike.no(Google)":http://www.google.com/search?q=%22%2Bwww.nike.no%22
+* "www.nike play.com(Google)":http://www.google.com/search?q=www.nike+play.com
+* "www.nike .com(Altavista)":http://www.altavista.com/web/results?kgs=0&kls=1&avkw=xytx&q=www.nike+.com&agentIgnore
+
+My rant about Nike Plays ignorant browser check ranks higher than Nikes actual website, wow.
+
+h2. Mentalized vs Samsung
+
+* "samsung syncmaster 957nf(Google)":http://www.google.com/search?q=samsung+syncmaster+957nf
+* "samsung 957nf monitor(Google)":http://www.google.com/search?q=samsung+957nf+monitor
+* "syncmaster 957NF test(Google)":http://www.google.com/search?q=syncmaster+957NF+test
+
+So a person looking for this very specific monitor is likely to end up reading my semi-rant about Samsungs website usability instead of actually finding the monitor on Samsungs website? 
+
+And I am still the numero uno spot in the world for "female butts in tight leather pants(Google)":http://www.google.com/search?q=%22female+butts+in+tight+leather+pants%22 :)

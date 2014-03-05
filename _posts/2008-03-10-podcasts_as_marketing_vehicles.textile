@@ -1,0 +1,21 @@
+---
+layout: post
+title: Podcasts as marketing vehicles
+date: '2008-03-10 12:35:42 +0100'
+mt_id: 1933
+categories:
+- technology
+- usability
+- business
+---
+Apple, please make it easier for us to consume Steve...
+
+Why is there not a single podcast I can subscribe to, so the HD versions of the most recent Apple keynote, iPhone SDK announcement, or any other reality-distortion-field-spreading event automagically appears on my media center Mac, iPod or iPhone?
+
+As it is now, I have to wait for the video to appear on "the website":http://apple.com, then open iTunes, then find the podcast, then fetch the single episode, and then wait for that to download. And finally I can view it on my TV. If they instead provided a proper podcast, the "iPhone SDK presentation":http://www.apple.com/quicktime/qtv/iphoneroadmap/ would've been waiting for me when I got up this morning.
+
+Apple has probably the biggest podcast aggregator in the world with the iTunes Store. They have near-ultimate dominans on the market for portable audio and/or video players. They have one of the most loyal and fanatic fanbases in the world. They provide high quality videos of their special events and the fanbase is slurping it up. Their marketing machine is highly effective at creating buzz.
+
+They already have all the pieces of the puzzle, they just need to put it together. 
+
+They could even provide a podcast of their ads and people would subscribe. It's free advertising directly to the computer, living room, or pockets of interested customers.

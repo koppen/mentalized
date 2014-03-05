@@ -1,0 +1,47 @@
+---
+layout: post
+title: The software behind Substance Lab
+date: '2010-02-25 21:54:01 +0100'
+mt_id: 2019
+categories:
+- business
+- software
+---
+When I founded "Substance Lab":http://substancelab.com I knew I wanted to build a virtual business - or at least as much as it could be. Why should petty details like physical locations decide whether I can help my clients? 
+
+From the get go, I chose primarily web applications to run my business on. Also, it kind of makes sense because that's what I am building, and there is no better way to learn about good and bad web applications than using them yourself.
+
+Let me give you a rundown of the most important ones.
+
+
+<!--more-->
+
+h2. Source code hosting: "Github":http://github.com
+
+All source code must be version controlled, and I use git for pretty much everything. "Github":http://github.com is a great companion, and various open source projects as well as private and client projects are hosted there.
+
+
+h2. Issue tracking/project management: "Redmine":http://redmine.org
+
+For all Substance Lab run projects I use my own, pimped out installation of "Redmine":http://redmine.org. Redmine is a great open source project management web application and it's a great fit for software projects. It comes with git integration and a ton of plugins makes it possible to customize it to my needs.
+
+
+h2. Invoicing: "Blinksale":http://blinksale.com
+
+Blinksale is a sweet little invoicing app that I've been using ever since I started Substance Lab. I have clients here in Denmark and outside the EU, and I need the ability to invoice in different currencies. I also need fairly flexible VAT settings. Back in the days, Blinksale gave me all of that and I like its focus on invoicing and nothing else.
+
+
+h2. Office apps: "Google Apps for domains":http://www.google.com/apps/index1.html
+
+I've been using Google Apps for email and calendars for a long time and I am pretty happy with it. For some reason, I have never really warmed up to using the Document editor part of the Google Apps and I keep "NeoOffice":http://neooffice.org around for those. I do use the Spreadsheet editor a lot and feel totally business managery when I do.
+
+As an aside, "substancelab.com" is run on "Google App Engine":http://code.google.com/appengine/ (mainly for kicks) and is powered by "Webby":http://webby.rubyforge.org/.
+
+Yes, Google owns me.
+
+
+h2. And then there are the desktop apps
+
+Some stuff is still run locally on my machine, obviously. Code is written in "TextMate":http://macromates.org, documents are backed up and shared via "Dropbox":http://dropbox.com, the full harddrive is backed up locally using "SuperDuper!":http://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html remotely using "Mozy":http://mozy.com, ears are being pleased via "http://last.fm":http://www.last.fm/download and meetings are held via "GoToMeeting":http://gotomeeting.com.
+
+What amazing apps are you using that I absolutely must use?

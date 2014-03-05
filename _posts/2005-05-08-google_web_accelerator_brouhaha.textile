@@ -1,0 +1,53 @@
+---
+layout: post
+title: Google Web Accelerator brouhaha
+date: '2005-05-08 16:15:03 +0200'
+mt_id: 1313
+categories:
+- technology
+---
+The "Google Web Accelerator(GWA)":http://webaccelerator.google.com has been a "wake-up call":http://www.billkatz.com/node/48 for a lot of people (myself included), and it has resulted in a lot of fingerpointing and a lot of "I told you so ages ago, I rock, you suck". Whatever, get over it.
+
+Fact is the Google Web Accelerator has exposed an age-old problem (with age-old solutions) and we have a real problem on our hands. We need a real solution to this - and no, "blocking(How to show Google's Web Accelerator the door)":http://david.backpackit.com/pub/37983 "the(mod_no_prefetch)":http://www.divbyzero.net/code/mod_no_prefetch/ "GWA(fantomTip: How To Block Google
+
+<!--more-->
+
+There are 2 things to consider now - and placing blame is not on that list:
+
+# Non-idempotent GET requests are a bad idea.
+# There are *a lot* of web applications that use non-idempotent GET requests.
+
+
+h2. Web application developers
+
+How do we as web application developers solve this issue, that we've always had, but never really been paying attention to until now?
+
+According to the purists we need to turn all links that result in "side effects" into clunky, ugly forms. Basically we should go from 
+
+bc. <a href="/notes/delete/2">Delete</a>
+
+To
+
+bc. <form action="/notes/delete" method="post">
+  <input type="hidden" name="id" value="2" />
+  <button type="submit">Delete</button>
+</form>
+
+Quite frankly, that's going to be a hard sell. By doing so we de-prettify our interfaces, we break the back button in many cases, and we remove a whole lot of functionality that people have come to expect from links (open in new window/tab, navigate to a link by searching for it, etc).
+
+Another alternative is going the Javascript route doing something like
+
+bc. <a href="#" onclick="request('/notes/delete/2');">Delete</a>
+
+This way at least preserves the illusion that we're still using links. Assuming it's somehow possible to have Javascript submit POST requests, this would work. Unfortunatly, it doesn't degrade at all for users without Javascript. Although in many newer applications I suspect Javascript is a requirement anyways.
+
+
+h2. "Pre-fetching" application developers
+
+On the pre-fetching side it would be nice to see the developers rethink their applications fetching strategy. I am sure the devs of these products might firmly believe that dataloss incured by their application is the fault of the web application, I am not sure their <del>victims</del>users agree entirely with this.
+
+For now, the immediate idea that comes to mind is a simple check if the &lt;a&gt; tag has an onclick handler assigned. If it has, don't prefetch the link, since there's obviously something extra going on that a non-Javascript client can't possible figure out. It seems to me it'd be better to err on the side of overly cautious.
+
+Whatever the outcome of all this is, I truly hope that it results in a win-win situation for both users and web applications. We need to get past the bickering though, and luckily it seems we are.
+
+Update: "Plasmasturm has the best solution":http://plasmasturm.org/log/292/ so far with graceful degrading while preserving style.

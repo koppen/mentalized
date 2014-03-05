@@ -1,0 +1,15 @@
+---
+layout: post
+title: Stupid anti-leech protection
+date: '2003-06-18 13:15:24 +0200'
+mt_id: 709
+categories:
+- webdesign
+---
+I submit to you, the most retarded leech-"protection" script ever: <a title="2 Pinups HQ" href="http://www.fearsquadron.com/2%20Pinups%20HQ.htm">2 Pinups HQ</a>
+
+Dear mr. l337 hax0r webmaster. Your <q>FEAR_SQUADRON ANTI-LEECHING PROTECTION V 2.0</q> does not prevent me from downloading your HTML or images. As a matter of fact, when I am <q>oogling [your pages] at my leasure</q> I have already downloaded all your images. That's the way browsers work, deal with it.
+
+However, your script does prevent me from using my keyboard for scrolling, switching tabs, accessing my menu, accessing my address bar, opening links in a new window, navigating back and forward in my history, bookmarking your site and a multitude of other actions.
+
+Get a grip.

@@ -1,0 +1,23 @@
+---
+layout: post
+title: F5 - The Wonder Key
+date: '2004-01-26 17:22:12 +0100'
+mt_id: 776
+categories:
+- programming
+- browsers
+---
+I've had the pleasure of working on a part of our website that my boss was acceptance testing
+
+We had a session today at work where my boss was acceptance testing part of our website while I was working on it. Whenever I introduced a bug or a premature save caused syntax error he would notice it within a minute. At the point he noticed the error I would usually already have seen and corrected it, so our conversations for half the day went like
+
+==
+<dl class="conversation">
+<dt>Boss:</dt><dd>"Jakob, there's an error!"</dd>
+<dt>Me:</dt>   <dd>"Yeah, press F5"</dd>
+<dt>Boss:</dt><dd>"It's gone!"</dd>
+<dt>Me: </dt>  <dd>"I know"</dd>
+</dl>
+==
+
+I present to you F5 - The wonder key that enables bosses to fix every single bug with a single keypress.

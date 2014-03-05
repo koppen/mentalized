@@ -1,0 +1,16 @@
+---
+layout: post
+title: A few Mac Mini links
+date: '2005-01-28 14:25:02 +0100'
+mt_id: 1237
+categories:
+- technology
+---
+* "Guide to OS X for PC to Mac converts(A mini-guide to Mac OS X for new Mini onwers)":http://arstechnica.com/guides/tweaks/miniguide.ars
+* "Mac Mini benchmarks for different harddrive sizes and speeds(Performance increase in replacing a mini's Hard Drive)":http://eshop.macsales.com/Reviews/Framework.cfm?page=/Benchmarks/12705/minihd.html
+* "How to turn your Mac Mini into a media center(HOW-TO: Turn your Mac Mini into a media center)":http://engadget.com/entry/1234000057028826/
+* "Mac Mini benchmarks compared to other Macs (Mac Mini versus Cube and others)":http://www.barefeats.com/mini01.html
+* "Mac Mini dissected(Mac mini/Mac mini Mainboard)":http://www.macnews.de/gallery/displayimage.php?album=16&pos=18
+* "Anandtech Mac Mini Review(Apple's Mac Mini - Tempting PC users everywhere)":http://anandtech.com/mac/showdoc.aspx?i=2328
+* "Forever Geek Mac Mini review (Mac Mini review at Forever Geek)":http://forevergeek.com/apple/forevergeek_mac_mini_review.php
+* "How to switch to the Mac(The Tao of Mac: How To Switch To The Mac)":http://the.taoofmac.com/space/HOWTO/Switch%20To%20The%20Mac

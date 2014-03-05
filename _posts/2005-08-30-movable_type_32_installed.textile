@@ -1,0 +1,11 @@
+---
+layout: post
+title: Movable Type 3.2 installed
+date: '2005-08-30 13:34:09 +0200'
+mt_id: 1404
+categories:
+- mentalizednet
+---
+Movable Type 3.2 installed, let's see if this still works...
+
+Sure looks like it. Let me know if things are wonky around here, please.

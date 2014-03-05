@@ -1,0 +1,15 @@
+---
+layout: post
+title: Green? Super green
+date: '2003-11-21 12:34:31 +0100'
+mt_id: 762
+categories:
+- mentalizednet
+- webdesign
+- projects
+---
+Well, I wanted to try some things out designwise and ended up creating a new look'n'feel for Mentalized, oops.
+
+Vastly inspired by "Binary Bonsai(Binary Bonsai)":http://binarybonsai.com/ and "Stopdesign(Stopdesign)":http://www.stopdesign.com/also/ and an old layout I had laying about on my HD.
+
+As always, please let me know if something isn't working for you, or looks ... well, odd.

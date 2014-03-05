@@ -1,0 +1,15 @@
+---
+layout: post
+title: Validation on the fly?
+date: '2003-08-28 10:35:43 +0200'
+mt_id: 737
+categories:
+- webdesign
+---
+Sorry Simon, but I couldn't help finding the irony of <a title="Simon Willison: Validation on the fly" href="http://simon.incutio.com/archive/2002/10/21/validationOnTheFly">this error</a> on a page titled "Validation on the Fly" rather funny:
+
+bc. XML Parsing Error: not well-formed
+Location: http://simon.incutio.com/archive/2002/10/21/validationOnTheFly
+Line Number 67, Column 14:
+$entry =~ s/&(?!amp;|#|[\w] ;)/&amp;/g;
+-------------^

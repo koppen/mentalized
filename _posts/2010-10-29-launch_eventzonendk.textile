@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Launch: Eventzonen.dk'
+date: '2010-10-29 09:31:39 +0200'
+mt_id: 2073
+categories:
+- projects
+---
+Some time ago I pressed the big red launch button on another project built by "Substance Lab":http://substancelab.com: "Eventzonen.dk":http://eventzonen.dk
+
+!/files/journal/eventzonen/eventzonen.jpg!
+
+"Eventzonen.dk":http://eventzonen.dk puts event organizers in direct contact with artists and entertainers, effectively cutting out the middle man; the booking-agent. 
+
+The application is a Rails (what else?) application built in cooperation with "erichsen.net":http://erichsen.net/ based on design by "Proff Art":http://proff-art.dk.
+
+
+<!--more-->
+
+h2. And in danish...
+
+"Eventzonen.dk":http://eventzonen.dk sætter dig direkte i kontakt med kunstnere indenfor "musik & sang":http://eventzonen.dk/artists?category_id=1, "underholdning":http://eventzonen.dk/artists?category_id=2 og "foredrag":http://eventzonen.dk/artists?category_id=3 - uden et fordyrende bookingbureau som mellemled.

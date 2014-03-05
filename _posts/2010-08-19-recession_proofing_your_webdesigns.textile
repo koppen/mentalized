@@ -1,0 +1,63 @@
+---
+layout: post
+title: Recession proofing your webdesigns
+date: '2010-08-19 14:26:09 +0200'
+mt_id: 2051
+categories:
+- webdesign
+---
+As part of my work at Substance Lab I occasionally get to chop a design (usually a Photoshop document) into pieces and implement it in squeaky clean markup and CSS. 
+
+Unfortunately some of the designs tend to be more complex and use visual treatments that are hard to use on the web, and as a result the implementation of the design takes longer, costing the client more than what's really necessary.
+
+The following are a few tips that's going to make it easier and cheaper to build a design for the web. Coincidentally, some of them will even make your website design better!
+
+
+<!--more-->
+
+h2. Consistency
+
+If you have a content element on one page and the same content element on another page, they are both cheaper to implement if they are designed consistently. Makes sense, no? 
+
+Browsers understand logic and rules, and exceptions to rules are expensive.  Fewer rules means less logic which in turn means quicker implementation time.
+
+Coincidentally, this might even improve the quality and usability of your design, giving the users visual cues to latch on to and things to recognize. 
+
+
+h2. Use web fonts
+
+Once upon a time, the selection of fonts we could expect our users to actually see online was pretty limited. These days with @font-face support in practically every browser and services like "Typekit":http://typekit.com/, "Font Squirrel":http://www.fontsquirrel.com/, or "Google Font Directory":http://code.google.com/webfonts our choices have once again expanded.
+
+Gone are the days of having to create images for every headline (with subsequent SEO and usability degredation) or fiddling with "Cufon":http://cufon.shoqolate.com/ or "sIFR":http://wiki.novemberborn.net/sifr/.
+
+Pick a web font, use that, and be happy. It's cheaper and better.
+
+
+h2. Forget about pixel perfection
+
+This point cannot be stressed enough. Do websites need to look exactly the same in every browser? The answer is "no":http://dowebsitesneedtolookexactlythesameineverybrowser.com/. 
+
+The sooner you accept and embrace this - and in correlation that your perfect little Photoshop world doesn't translate well to the world of browsers - the sooner you can stop wasting time and money trying to make up for deficiencies in incapable browsers.
+
+
+h2. Exploit the browser for everything you can
+
+Still rounding corners by chopping up circles in Photoshop? How about those gradients, should they really be images? Stop now and start using CSS3, that's what it's here for.
+
+In the early phases of a design things are likely to change. Changing the radius of a rounded corner by changing a CSS rule is so much quicker than messing about with images that it's not even funny. Building for change by using client side effects saves money in the long.
+
+Also, alpha transparent PNGs can save a lot of time. Instead of creating and masking images so they work on top of different shades of backgrounds, just use PNGs with alpha transparency. It'll look better and it's easier to implement.
+
+These days even fairly advanced image processing can be handled by the browser instead of by your hands. A library like "PaintbrushJS":http://mezzoblue.github.com/PaintbrushJS/ can be applied with great time savings.
+
+Isn't your time better spent actually working on important stuff rather than making sure some IE6 user doesn't get a pretty, square box?
+
+
+h2. Don't use Ajax just for the sake of using Ajax
+
+Using Ajax to enhance your interactions can be a great technique, but be vigilant and use it appropriately. I admit to having caved in on occasion and used Ajax because the client wanted it for whatever reason - say for a search page. 
+
+Unfortunately, this invariably leads to issues with browsers, back buttons, caching, missing links, and having to resort to hackery like using the hash-fragment as a querystring replacement, which can take up a lot of time. At least we might get stuff like "this":http://www.spoiledmilk.dk/blog/?p=1922 in HTML5.
+
+Things that pop in, up, under or over, or can be dragged around also tend to be a waste of time. As Guy Kawasaki puts it in "The Art of the Start":http://www.amazon.co.uk/gp/product/1591840562?tag=mentalized-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=1591840562; "If it's 'cool', lose it". Granted, he's talking about presentations and slideshows, but it applies just as well to the web - especially if you want to save time and money.
+

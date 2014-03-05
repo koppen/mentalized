@@ -1,0 +1,11 @@
+---
+layout: post
+title: Hire people, not languages
+date: '2005-08-22 08:58:53 +0200'
+mt_id: 1397
+categories:
+- programming
+---
+Aristotle Pagaltzis of "Plasmasturm":http://plasmasturm.org/ "about hiring people":http://plasmasturm.org/log/320/ with no experience in some specific programming language:
+
+bq. [...] if I was a manager, I

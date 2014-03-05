@@ -1,0 +1,57 @@
+---
+layout: post
+title: Freelance focus
+date: '2010-05-10 10:02:57 +0200'
+mt_id: 2038
+categories:
+- business
+- life
+---
+Being self-employed is hard. Having no one around to tell you what to do brings up a slew of problems, one is that of focus.
+
+Should I start another personal project, learn a new technology, create a (well, "another":http://mentalized.net/journal/2010/03/15/introducing_progress_wars/) small game, start working on a long overdue redesign of mentalized.net, build an iApp (what is the common denominator for iPod Touch, iPhone, and iPad apps?), write a blog post, something else?
+
+And that list doesn't even include the important stuff like relax in front of the X-Box, watch a movie, take a walk through the forest with the wife, play with the dog, or make my son laugh. 
+
+How does one stay focused in that environment?
+
+
+<!--more-->
+
+h2. Strategic focus
+
+Strategic focus is figuring out what to do in the long term. Where do you want to take your business the next year or more. This is where your vision for your company lives.
+
+Arguably this is the most tricky part to get right. If you're "like me":http://mentalized.net/journal/2010/01/31/freelancing_lessons_learned/, you're constantly thinking about your business, where to take it, and how to improve it. Naturally, this generates a ton of long term ideas - unfortunately constraints in time, money, and energy tends to mean you can only execute on a select few.
+
+Unfortunately, I have no golden nuggets of wisdom here, and I would love to hear how you handle this. 
+
+One thing I do is to try to not get too excited about new ideas/projects. I quickly jot them down in my notebook to get them out of my head. This way, I don't feel like I have lost the opportunity, which in return means I can easier let it go for and focus on what's more important here and now.
+
+
+h2. Tactical focus
+
+Tactical focus is what you do on a daily/weekly basis. What do you need to do today? In many cases this has already been decided for you by your strategic focus and your clients and their deadlines. 
+
+One of the things a good boss does for you is to provide you with the focus; make it clear to you what short term goal is most important right now. Luckily, a boss can be replaced with a piece of paper.
+
+
+h2. The printable CEO
+
+I've been using David Seahs excellent "Printable CEO":http://davidseah.com/blog/the-printable-ceo/ to help me focus my daily schedule. The geek in me finds it liberating to assign point values to my tasks, and working my task list from the top down is a great productivity enabler. 
+
+It can be hard to figure out what's more valuable; writing a blog post or replying to an email from a potential new customer. Luckily the choice have already been made as 2 points is far less than 10 points, so the email trumps. 
+
+At least that's the theory. 
+
+It should come as no surprise to any entrepreneur that the real world rarely conforms to rigid rules like this, and in many cases you have to be a bit more loose in the order you complete your tasks. Human evaluation trumps machine ordering any day in this case.
+
+
+h2. It's not just for internal tasks
+
+Lately, I've extended a variant of the printable CEO concept to one of my customers as well. When we discuss new features I and create new user stories I ask them to assign a point value to the story, indicating how important this particular story is to their business goals. 
+
+So far it has been a great tool for focusing our development efforts - and it has been particularly good at weeding out "nice to have"-features that seemed important, but failed to stand up to closer scrutiny.
+
+
+Now, if you'll excuse me, I have to focus on something that's worth 10 points, not just the measly 2 I get from writing this blog post.

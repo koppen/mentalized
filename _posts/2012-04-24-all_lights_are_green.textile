@@ -1,0 +1,18 @@
+---
+layout: post
+title: All lights are green
+date: '2012-04-24 14:44:43 +0200'
+mt_id: 2140
+categories:
+- substance_lab
+- business
+---
+The following are quotes from an actual email conversation with a potential customer.
+
+bq. I'm no fan of bullshit NDAs, so I'm just sending this and I trust you that this'll not end up on Twitter or anything
+
+bq. I know quality has its price. [...] I don't like the wheeling and dealing either. If you say it's your rate, it's your rate
+
+bq. We would certainly not be against contributing back to the [open source] community
+
+I _must_ close this deal.

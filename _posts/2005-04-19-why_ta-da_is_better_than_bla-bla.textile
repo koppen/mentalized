@@ -1,0 +1,32 @@
+---
+layout: post
+title: Why Ta-da is better than Bla-bla
+date: '2005-04-19 09:24:46 +0200'
+mt_id: 1296
+categories:
+- technology
+---
+Having followed the "Ruby on Rails weblog(Ruby on Rails weblog)":http://weblog.rubyonrails.com/ I've known about "Bla-bla List(Bla-bla List)":http://blablalist.com/ for some time now. However it's "appearance on Forever Geek(Bla-bla List at Forever Geek)":http://forevergeek.com/open_source/blabla_list.php made me figure I'd give the application a shot and try it out for size.
+
+Now, I won't get into the "technical side of the arguments(Ruby on Rails weblog: Bla-bla list cloning a Ruby on Rails app in RIFE)":http://weblog.rubyonrails.com/archives/2005/03/19/bla-bla-list-cloning-a-rails-app-in-rife/, but Bla-bla List fails to even come close to competing with the experience of using "Ta-da List(Ta-da List)":http://tadalist.com.
+
+<!--more-->
+
+h2. Reasons Ta-da'ing beats Bla-bla'ing
+
+* My scroll wheel actually scrolls
+* I can copy/paste parts of my lists
+* Newly added items don't appear in seemingly random places on the list
+* Doesn't force new windows on me
+* I can use my back and print buttons
+* Navigating "up" (Shift + Up) gives me the next sensible part of the hierarchy
+* I can go directly to my lists from a bookmark
+* Popup dialogs are actually popup dialogs, not something floating inside the window
+* Confirmation dialog has buttons in a sane order (Yes to the left)
+* My browsers autocompletion and username/password remembering features work
+* I can control my fontsize and colors
+* HTML > Flash
+
+(This list is naturally also available as "a shared list(Why Ta-da List > Bla-bla List)":http://blablalist.com/list/jakob/WhyTa-daIsBetterThanBla-bla.)
+
+By heavy use of Flash Bla-bla List not only fails to create an application that technically isn't comparable to Ta-da List, but also fails to provide a user experience that comes to close the one of Ta-da List.

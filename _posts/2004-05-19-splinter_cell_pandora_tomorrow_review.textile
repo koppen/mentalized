@@ -1,0 +1,58 @@
+---
+layout: post
+title: 'Splinter Cell: Pandora Tomorrow review'
+date: '2004-05-19 14:47:36 +0200'
+mt_id: 1266
+categories:
+- games
+---
+Game review in Danish, originally published at "Daily Rush(Splinter Cell: Pandora Tomorrow (PC))":http://www.dailyrush.dk/features/reviews/821/.
+
+Splinter Cell: Pandora Tomorrow er efterfølgeren til Ubisofts populære third person sneaker af cirka samme navn. Endnu en gang indtager vi rollen som Sam Fischer - en aldrende NSA agent med hang til mørke gummidragter.
+
+<!--more-->
+
+h2. Singleplayer
+
+Sam Fischer er den eneste af sin slags; En hitech cyber-spion-ninja, specialtrænet til i bedste Thief-stil at leve i skyggerne og nå sine mål via en gennemtænkt blanding af snilde, smarte højteknologiske gadgets og en riffel, der kan skyde benene af en flue uden den opdager det.
+
+Og så er han - naturligvis, fristes man til at sige - Amerikas eneste udvej i kampen mod den onde, onde terrorist, Sadono, der truer med at frigive koppe-bakterier i udvalgte nordamerikanske byer.
+
+Hvis det altsammen lyder som noget du har hørt før, er det næppe tilfældigt. Det er begrænset hvor meget nyt der er i SC:PT, og det behøver der heller ikke være. SC:PT følger den afprøvede formular fra det første Splinter Cell spil, og det fungerer fremragende.
+
+Singleplayer delen af SC:PT består af en række missioner, hvori vi følger Sam Fisher og hans NSA venner mens de stille og roligt optrevler Sadonos terror netværk. Missionerne er meget lineære og ikke helt så varierede som man kunne håbe på, men det bliver det hele ikke mindre kedeligt af.
+
+Det er nemligt stadig særdeles spændende at krybe sammen i et hjørne mens vagter med lygter og hunde leder efter én. Ligeledes er der noget specielt over at hoppe lydløst ned bag en vagt, når han mumlende konstanterer "nothing's here", og slå ham i gulvet for derefter at smide hans livløse krop i et mørkt hjørne.
+
+h2. Multiplayer
+
+Den eneste rigtige nyskabelse i SC:PT er multiplayerdelen - en nyskabelse som Ubisoft med rette er stolte af.
+
+En multiplayer kamp består af to hold med hver to personer. Det ene hold er spioner, der svarer til Sam Fisher fra singleplayer delen, mens det andet hold er lejesoldater, der er udstyret med en række anti-spion-gadgets og mest af alt minder om noget fra mere gængse multiplayerspil som Counter-strike og Unreal Tournament.
+
+Der er gjort meget ud af at gøre de 2 hold unikke, og det er lykkedes uden at de samtidigt er blevet ubalancerede. Lejesoldater fungerer stort set som vi er vant til fra normale FPS spil, hvor man ser det fra karakterens øjne med et sigtekorn i midten. Til sammenligning fungerer spionerne som i singeplayerdelen, altså i tredje person, med et kamera der flyttes til at kigge over skulderen for at kunne sigte med diverse våben.
+
+De to hold har forskellige viewmodes, der hver især er beregnet til at gøre det nemmere at lokalisere og nedkæmpe fjenden. Læg dertil at hver hold har et mindre udvalg af gadgets, der strækker fra granater til passive alarmer og der er lagt op til kampe, hvor evnen til at tænke hurtigt og udnytte ens udstyr bedst muligt kan betyde forskellen mellem sejr og nederlag.
+
+Det at der spilles 2 mod 2, og du derfor kun har en enkelt makker til at støtte dig, er både godt og skidt. Det betyder naturligvis at man er meget afhængig af at ens makker er forstår spillet, og især at han forstår at spille sammen og ikke bare kører sololøb. Samtidigt betyder det at kampene bliver meget intense, især hvis det lykkes for modstanderne at adskille din makker og dig.
+
+Alt i alt er multiplayerdelen et vellykket og fremragende supplement til singleplayerdelen.
+
+h2. Grafik og afrunding
+
+Grafikken er flot og varieret med adskillige stemningsfyldte lys/skygge effekter spredt ud over banerne, dog er det hele i sagens natur meget mørkt. Udendørs forkæles vi med styrtende regn og bølgende græs, indendørs med damp og flotte flammer.
+
+Den mest imponerende del af grafikken er de forskellige viewmodes som ens hitech briller er udstyrede med. Det er svært ikke at frydes når man skifter til infrarød og ser varmerør og andre elementer, der ellers bare lignede en del af væggens tekstur, lyse op som små sole. Endnu mere imponerende bliver det, når man i multiplayerdelen får mulighed for at bruge deres elektromagnetiske og bevægelsesfølsomme syn.
+
+Grafikken er ikke revolutionerende, så forvent ikke S.T.A.L.K.E.R eller Halflife 2 kvalitet, men den understøtter spillet fint, og selv min halvaldrende maskine viser langt størstedelen af spillet flot og flydende.
+
+h2. Konklusion
+
+Hånden på hjertet, ud over multiplayerdelen ikke meget nyt i Splinter Cell: Pandora Tomorrow. Ok, mr. Fisher har lært et par nye tricks, men det er ikke nok til at skjule at Pandorra Tomorrow bare er mere af det samme. Og det behøver det heller ikke være. Spillet er solidt håndværk, det fungerer og det er flot, godt og spændende, og multiplayerdelen er en lækker bonus til når singleplayerdelen er overstået.
+
++ Stemningsfuldt
++ Spændende
++ Multiplayer
+
+- Lige lovligt kort
+- Lineære, ensformige missioner

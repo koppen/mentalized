@@ -1,0 +1,9 @@
+---
+layout: post
+title: Don't blog in a hurry
+date: '2003-10-23 10:49:12 +0200'
+mt_id: 756
+categories:
+- blogging
+---
+Gah, my previous post (now gone) should have been saved with draft-status, not actually published. Nice thing that I subscribe to my own feed so I caught it there.

@@ -1,0 +1,33 @@
+---
+layout: post
+title: Quality breeds quality
+date: '2005-07-26 14:48:00 +0200'
+mt_id: 1366
+categories:
+- technology
+---
+For a long time "David":http://www.loudthinking.com/ tried to persuade me that the extra cost of an Apple computer was worth it, by excitedly telling me "It's all about the experience, man!". I didn't believe him until I finally caved in and ordered an iBook.
+
+Getting that iBook and finally experiencing OS X for myself has been an eye-opener. It *is* all about the experience, man! Everything about the OS feels polished and in unity. However, the real eye-opening experience for me didn't come until I started looking at the (mostly indie) software available for the platform. 
+
+<!--more-->
+
+Holy crap! Mac OS X software is in an entirely different league than the software I know from Windows (Sure, there are exceptions to the rule on both platforms, but generally speaking).
+
+I don't think I have ever tried a piece of Windows software that made me go "Yup, these are exactly the features I want, and they work exactly how I'd expect them to, and wow, it looks great at the same time". On OS X it is the rule more than the exception that software provokes that reaction. The OS X application developers seem to have a great sense of quality and a delicate eye for details, which goes hand in hand with their OS.
+
+The platform supports and provides for sexyness.
+
+That eye for detail and sense of quality is lacking in most Windows software. I wonder why that is. Certainly part of it is due to Windows itself being inconsistent and ugly in places (have you seen the default Windows XP theme? Yuck). Another part is probably because there simply is more software for Windows, and therefore also more software of less quality. 
+
+I'm guessing the brunt of Windows application developers are less critical than their OS X counterparts when it comes to stuff like sexyness, usability, and consistency. Can you blame them? They're used to coping with ugly, unusable applications and an OS that doesn't help them improve. It's not like their application is going to loose anything by being ugly and hard to use when every other application is the same.
+
+Living in a world where stuff is of less quality makes you less inclined to produce high quality stuff. 
+
+On the other hand, when you use a platform where every application is of high quality, you will be more inclined to produce high quality applications yourself. You _have_ to or your application will be a blemish, a virtual pimple on the face of your platform, and noone wants pimples. 
+
+Quality breeds quality.
+
+I think there might just be a point to my rambling:
+
+When starting a new project, make sure you have a rock-solid foundation (be it the platform, framework, backend, style guide, whatever) that supports and breeds quality and sexyness. When your foundation is quality, you are so much more inclined to add quality to your project. 

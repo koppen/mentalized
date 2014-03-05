@@ -1,0 +1,21 @@
+---
+layout: post
+title: Browser size awareness at Google
+date: '2009-12-17 14:07:31 +0100'
+mt_id: 2009
+categories:
+- webdesign
+- usability
+---
+I have been preaching the importance of "measuring browser width":http://mentalized.net/journal/2009/02/19/size_still_matters/ rather than screen width for "quite some time now":http://mentalized.net/journal/2006/08/21/size_does_matter/. Unfortunately, people still focus in the size of the users screen when they discuss website design widths.
+
+I don't blame them. Most web analytics packages don't provide us with a metric that tells us the viewport widths of our users, and as humans we are likely to grasp onto the metrics that is available to us, not necessarily those that are important.
+
+A tiny sparkle of hope has now emerged in a sea of ignorance: Someone at Google figured out that people browse the web with differently sized browser windows. 
+
+The result is a "small tool":http://browsersize.googlelabs.com/ to visualize what percentage of users can actually see a given area of your website without having to scroll: "Google Browser Size":http://browsersize.googlelabs.com/
+
+The tool is still pretty crude - as the comments to the "introductory post":http://googlecode.blogspot.com/2009/12/introducing-google-browser-size.html clearly tells - but in time it could get really useful. If nothing else, it can hopefully be used to open the eyes of clients and designers.
+
+All I am waiting for is getting this rolled into Google Analytics, preferably instead of the useless Screen Resolution metric.
+

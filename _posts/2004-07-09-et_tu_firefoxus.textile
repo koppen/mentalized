@@ -1,0 +1,13 @@
+---
+layout: post
+title: Et tu, Firefoxus?
+date: '2004-07-09 13:50:56 +0200'
+mt_id: 807
+categories:
+- browsers
+---
+Could it be real? The impenetrable browser fortress, "Firefox, has a security hole(eWEEK: Mozilla Flaw Lets Links Run Arbitrary Programs)":http://www.eweek.com/article2/0,1759,1621438,00.asp?kc=EWRSS03129TX1K0000614, gasp! 
+
+Sarcasm aside, "the hole has been plugged(What Mozilla users should know about the shell: protocol security issue)":http://www.mozilla.org/security/shell.html - a response time of less than day, I believe.
+
+Now, "it could be argued(eWEEK: IE vs. Mozilla on the Shell hole)":http://www.eweek.com/article2/0,1759,1622074,00.asp?kc=EWRSS03129TX1K0000614 (unreasonably) that this is actually an error in Windows, since Firefox correctly passes unknown schemas along to the OS, and the OS is the culprit that simply executes them, but I digress. Let this be a reminder that no system is completely safe, some are safer than others though.

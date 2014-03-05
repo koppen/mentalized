@@ -1,0 +1,9 @@
+---
+layout: post
+title: When gamers talk
+date: '2003-04-15 11:41:09 +0200'
+mt_id: 688
+categories:
+- games
+---
+Yes, <a title="Penny Arcade!" href="http://www.penny-arcade.com/view.php3?date=2003-04-11&res=l">this has happened to me</a> - and I bet, to most every gamer out there.

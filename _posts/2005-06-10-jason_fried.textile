@@ -1,0 +1,157 @@
+---
+layout: post
+title: Jason Fried
+date: '2005-06-10 17:23:55 +0200'
+mt_id: 1337
+categories:
+- reboot
+---
+Notes from Jason Frieds speech; How to make big things happen with small teams
+
+<!--more-->
+
+4 guys, 3 products, 200000+ users
+
+* Basecamp
+* Backpack
+* Ta-da List
+
+h2. Reducing mass
+
+"The more mass an object has the longer it takes to change direction"
+
+* Many employees
+* Software lockin
+* Longterm contracts
+
+Embrace change
+
+h3. The right people
+
+* Passionate, happy
+* Well rounded - have to be good at most things
+* Quick learners
+* Trustworthy, reliable
+* Good writer
+** Communication is written!
+
+Happy and average > Guru and disgruntled
+
+h3. Being small has advantages
+
+* The customer is closer, less middle
+* Everyone is on the frontline
+* Change is easy
+
+h3. Act your size
+
+You're small, act like it, don't pretend. Let the big guys be confusing.
+
+* Less formalities (procedures)
+* Less mass 
+* Less fear
+* More flexibility
+* More change
+* More freedom
+
+h3. Embrace constraints
+
+The only time you will really come up with the great stuff, is when you have constraints - things you can't do.
+
+h4. Example: Basecamp
+
+* Prior commitments (clients)
+* 7 hour time difference in team
+** Embraced this by turning those extra hours into "alone time".
+* Self funded
+** Spend ressources more wisely.
+* Less people
+** With more people, you're probably trying to do too much anyways. Take stuff out!
+
+h2. Make things manageable
+
+Hard to stay manageable while small
+
+h2. Lowering the cost of change
+
+h2. Build half a product - not a half-assed product
+
+There's unlimited time in the future to add new stuff, and we'll be more experienced
+
+* Say no by default
+* Listen to the product
+** Let the customers remind you what's important
+** The feature requests you get many times are the ones that matter
+* Ignore details early on.
+** You will have plenty of time to polish the product after you launch.
+* Improve what you have
+** Only when you can't improve existing features, add new features
+* Decisions are temporary.
+** You should always be able to come back to revisit a decision
+** Nothing should be final (embrace change)
+
+h2. Build less software
+
+Go for "good enough", not "the biggest and the best"
+
+* Less features
+** Less work
+* Lower cost of change
+** Simple software is easiest to change.
+* Less room for error.
+* Less support required
+* Encourage human solutions
+** Give people just enough to solve their problems their own way, then get out of their way.
+** When features are general enough, they don't lock the user into a certain pattern.
+
+h2. Get real, start with the UI
+
+There's nothing functional about a functional spec. The spec isn't clear, it's hard to describe what you want. Start with the customer experience. Textual specs are illusions of agreement.
+
+# Start designing
+# Start prototyping
+# Start experiencing
+# Start changing
+# Rinse and repeat
+
+h2. Make decisions just in time
+
+Less decisions to adhere to means less mass means easier change.
+
+A problem isn't a problem until it's a problem.
+
+Make decisions when you have real information.
+
+h3. Example: Basecamp
+
+Basecamp couldn't bill people at launchtime, since they had 30 days until the first billings had to happen. Excellent constraint.
+
+h2. Turn big into small
+
+12 week project vs 12 1 week projects.
+
+# Break into small chunks
+# Finish
+# Iterate
+# Celebrate
+
+h2. Feel the hurt
+
+Get the tech guys, builders, dev to support the product. You need to know what frustrates people. Feel the people when people complain. Shared annoyance. Annoyance leads to actions.
+
+h2. Publicity amplifiers
+
+* Feature food
+** Rave about kickass features, feed them to people, let them boast it over the Internet for you.
+** Example: iCal subscriptions in Basecamp was served to Mac sites
+** Example: RSS Feeds in Basecamp was served to blogosphere.
+* Promote through education
+** Tell people how you did things on your blog, on conferences, etc
+** Example: Yellow Fade Technique.
+* 30-day major upgrade
+** Update soon after launch
+** Show there's momentum
+** Make people feel they get extra for their moneys worth
+** Not enough features? Hold something back!
+* Transparency = trust
+** Tell people when you suck, tell people when you rock

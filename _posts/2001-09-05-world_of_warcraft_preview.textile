@@ -1,0 +1,17 @@
+---
+layout: post
+title: World of Warcraft preview
+date: '2001-09-05 15:00:16 +0200'
+mt_id: 1270
+categories:
+- games
+---
+Preview in Danish, originally published at "Daily Rush(World of Warcraft preview)":http://www.dailyrush.dk/features/articles/327/.
+
+Noget af det mest interessante, der skete på dette års ECTS messe i London var Blizzards overraskende annoncering af deres hidtil hemmeligholdte projekt, World of Warcraft. Spillet bliver Blizzards forsøg på at ride med på den bølge af succes, som Verant har fået med EverQuest: Godt 400.000 betalende spillere er noget, der kan få selv det mest succesfulde PC-spilfirma til at kigge sultent på Verants efterhånden gamle MMORPG.
+
+<!--more-->
+
+h2. Hvad er World of Warcraft
+
+World of Warcraft placerer spilleren i Azeroth - den verden som Blizzard har udviklet siden det oprindelige Warcraft-spil udkom i 1994. For første gang, får vi mulighed for selv at blive en del af Warcraft-universet og opleve det fra et første-persons perspektiv, og bedst af alt, vi bliver ikke alene: World of Warcraft er et MMORPG, hvorfor verdenen vil blive befolket med bunker af monstre, NPC

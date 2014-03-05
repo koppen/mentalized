@@ -1,0 +1,31 @@
+---
+layout: post
+title: Size does matter
+date: '2006-08-21 10:56:25 +0200'
+mt_id: 1683
+categories:
+- webdesign
+- usability
+- projects
+- browsers
+---
++I have published "my report and findings on this subject":http://mentalized.net/journal/2006/10/24/size_does_matter_actual_numbers/ .+
+
+In his most recent Alertbox, Jakob Nielsen dived into "screen resolution and page layout":http://www.useit.com/alertbox/screen_resolution.html. His summarized findings are:
+
+bq. Optimize Web pages for 1024x768, but use a liquid layout that stretches well for any resolution, from 800x600 to 1280x1024.
+
+There seems, however, to be one important thing wrong with Jakob Nielsens findings: They are based on the assumption that people run their browser in a maximized window with no added browser chrome. I claim that this is a false assumption in most cases. As does "Jesper over at justaddwater.dk":http://justaddwater.dk/2006/08/17/design-for-browser-size-not-screen-size/.
+
+Guesses and claims are interesting in their own right, but in the long wrong, they are pointless and hard facts needs to take their place. Sadly, I have yet to experience a statistics solution that display this useful piece of information. They usually just track the basically useless screen dimensions. 
+
+
+h2. So I whipped up some quick tracking
+
+Doing beats complaining, so instead of complain about the lack of usable metrics, I whipped up a "quick and dirty browser viewport dimension tracker":http://mentalized.net/stats/howto myself. It's rudimentary, but should work for most browsers. It should also fail silently for the rest, so your visitors hopefully won't notice. 
+
+It currently tracks screen width and height, and browser viewport width and height in addition to the client IP address and a timestamp. I plan on making the collected data freely available.
+
+Feel free to join "my little project":http://mentalized.net/stats/howto if you're interested in these numbers.
+
+Here's hoping my "shared hosting account":http://textdrive.com doesn't croak under this. :)

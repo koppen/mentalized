@@ -1,0 +1,9 @@
+---
+layout: post
+title: Firebird sweetness of the day
+date: '2003-08-27 11:00:12 +0200'
+mt_id: 734
+categories:
+- browsers
+---
+Today is a good Firebird day. <a title="Quadrone's Firebird section" href="http://quadrone.org/phoenix/#graphics">A fancy new Firebird icon</a> and a <a title="Mozilla Firebird: Tips & Tricks" href="http://texturizer.net/firebird/tips.html#beh_reuse">Mozilla tip</a> that'll make my daily RSS reading so much more comfortable. Aah.

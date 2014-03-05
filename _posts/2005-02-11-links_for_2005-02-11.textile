@@ -1,0 +1,16 @@
+---
+layout: post
+title: links for 2005-02-11
+date: '2005-02-11 12:19:16 +0100'
+mt_id: 1247
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://www.xml.com/pub/a/2005/02/09/xml-http-request.html">XML.com: Very Dynamic Web Interfaces</a></div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/development">development</a> <a href="http://del.icio.us/koppen/xmlhttprequest">xmlhttprequest</a> <a href="http://del.icio.us/koppen/web">web</a>)</div>
+	</li>
+	<li>
+		<div class="delicious-link"><a href="http://www.onlinetools.org/articles/unobtrusivejavascript/index.html">Unobtrusive Javascript</a></div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/javascript">javascript</a> <a href="http://del.icio.us/koppen/development">development</a>)</div>
+	</li>
+</ul>

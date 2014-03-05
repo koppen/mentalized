@@ -1,0 +1,54 @@
+---
+layout: post
+title: New server, new Movable Type, same old inactivity
+date: '2005-01-13 13:35:53 +0100'
+mt_id: 1226
+categories:
+- blogging
+- mentalizednet
+- projects
+---
+If you're seeing this, something must've gone right.
+
+I've moved Mentalized.net to a "new host(TextDrive)":http://textdrive.com and upgraded my "Movable Type(Movable Type)":http://movabletype.com installation from v2.661 to the newest v3.14.
+
+I am now away from IIS and crummy ASP/VBScript and onto FreeBSD, Apache and a multitude of scripting languages. Yay!
+
+Luckily the process of migrating Movable Type from one server with v2.661 and Berkley DB to a new server running v3.14 with a newer version of Berkley DB and mySQL was a simple gazillion step process that took days and made me want to strangle a kitten - well, at least give it an not-so-gentle push.
+
+
+<!--more-->
+
+h2. Jakobs step by step "guide" to switching servers, Movable Type installation, data storage method and scripting language
+
+# Upgraded existing MT installation from 2.661 to 3.14
+# Installed MT3 on the new server
+# Set up a clone of the old Journal on the new server, manually cloning all settings, changing asp to php where necessary
+# Copied all template files to new server
+# Manually cloned the Template settings, changing all filenames to their new paths
+# Redid those of my templates which had somehow been changed at some point. Pretty sure I must've copied an old backup or something.
+# Changed old SSI includes to PHP includes since it apparently causes less of a strain on the server
+# Exported all entries from the old journal, using Movable Types built in Export. Did this a few times, noticing that some entries for some reason got cut in the exported file. Beats me why, and it wasn't consistent.
+# Changed textile_1 to textile_2 in the exported file
+# Imported entries to the new journal, using Movable Types built in Import - god, it's slow.
+# Redid my human date formatter in PHP
+# Copied my skins to new server, changed the skinning system from ASP/VBScript to simpler PHP
+# Installed plugins:
+## "Global Listings(Global Listings)":http://www.nonplus.net/software/mt/GlobalListings.htm (I don't understand why the Download link is placed in the metadata section, in a paranthesis, in a small font. Like it's not important ::boggle::).
+## "MTMacro(MTMacro)":http://www.bradchoate.com/weblog/2002/08/12/mtmacro
+## "SmartyPants(SmartyPants)":http://daringfireball.net/projects/smartypants/
+## "Textile(Textile)":http://www.bradchoate.com/mt-plugins/textile
+## "Compare(Compare)":http://www.staggernation.com/mtplugins/#Compare
+## "MTIfEmpty(MTIfEmpty)":http://www.bradchoate.com/weblog/2004/10/20/mtifempty
+## "SimpleComments(SimpleComments)":http://kalsey.com/2003/02/simplecomments/
+# Time to combat spam <http://sixapart.com/pronet/comment_spam.html#commentscript>
+## Changed the name of my comment script
+## Installed "MT-Blacklist(MT-Blacklist)":http://www.jayallen.org/projects/mt-blacklist/
+## Noticed that my "Easier Edit/Remove comment hack(Easier Edit/Removal of new comments)":http://mentalized.net/journal/2003/09/09/movable_type_easier_editremoval_of_new_comments/ is part of MT3, so didn't apply it :)
+# Repeated most of the above for each of the weblogs that make up mentalized.net, yuck...
+# Created a .htaccess to redirect stuff from old URLs to new URLs (".asp to ".php" basically)
+# Wrote this post
+
+h2. The future
+
+Now I pretty much just need to get the domain transferred and keep watching my logfiles for 404s to figure out what files I still need to transfer. There has to be a bunch of images that are broken now, so please let me know, if you come across problems.

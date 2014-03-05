@@ -1,0 +1,32 @@
+---
+layout: post
+title: Say no to non-compete clauses
+date: '2011-02-20 12:06:46 +0100'
+mt_id: 2088
+categories:
+- business
+---
+Running my own "web development shop":http://substancelab.com unfortunately means I have to do contract negotiation and dealing with other legal mumbo jumbo. It is not an aspect I particularly enjoy, especially not when the potential customer tries to restrain my business by sneaking a "non-compete clause":http://en.wikipedia.org/wiki/Non-compete_clause into the contract.
+
+Agreeing to a non-compete limits your ability to do business in the future. If you do this enough, you will run out of customers to work for and that is - not surprisingly - bad for business. As a business owner, you need to fight this.
+
+
+<!--more-->
+
+h2. Contractors aren't employees
+
+Non-compete clauses might make sense for full time employees. In that situation the employer invests time and money on educating and training the employee. They obviously don't want to see the benefit of that investment go directly to a competitor. A contractor on the other hand, is expected to be educating herself on her own time, so there is no investment to protect.
+
+
+h2. You know stuff
+
+Then there is the worry about trade secrets. Generally speaking, a non-disclosure agreement should be sufficient protection against that. With that in place, you can't use any of their secrets or other confidential information even if you do end up working for a competitor. 
+
+On the flip-side, it's easier to prove non-compete violations than a breach of NDA, I guess, which might explain their prevalence.
+
+
+h2. I'd love to say I never sign them
+
+I do get the lure of a non-compete clause, though. And I have occasionally agreed to them, given a narrow enough scope and short enough timespan. A non-compete clause for named companies that run while the contract is effective might be reasonable. 
+
+Start pushing beyond the duration of the contract, and you're intruding on the contractors ability to do business. That is not reasonable.

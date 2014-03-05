@@ -1,0 +1,18 @@
+---
+layout: post
+title: Restart in 10 minutes, resistance is futile!
+date: '2004-10-18 11:31:05 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  SmFrb2IgcmFudHMgYWJvdXQgV2luZG93cyBYUHMgaW5zaXN0YW50IGFuZCBh
+  bm5veWluZyByZXF1ZXN0IGZvciByZWJvb3RpbmcgdGhlIGNvbXB1dGVy
+mt_id: 824
+categories:
+- usability
+---
+Being a good and paranoid user I naturally install any and all security patches that my kind Windows XP installation asks me to. 
+
+Unfortunatly some patches require me to restart my computer after installation. Primitive, but it's the Windows way, I guess. While the patches have been downloaded and installed, I have continued to use my computer and would actually prefer to not have to shut down all my applications. So when the installation asks me to reboot, I click "Reboot later" planning to shut down the machine when I leave work.
+
+!/journal/2004/10/18/restart_in_10_minutes_resistance_is_futile/restart_later.png (Restart later popup)!
+
+Sadly, my now not-so-kind Windows XP installation is quite insistant and continues to ask me to reboot every 15 minutes. I have 15 running applications, 36 running processes, 3 edited and unsaved documents, a gazillion opened webpages, 2 active IM conversations, and a least one active SSH connection going. I have no intention of shutting all that down, and no, I don't want to in 15 minutes either, quit bugging me, gah!

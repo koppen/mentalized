@@ -1,0 +1,102 @@
+---
+layout: post
+title: Putting Debian on Ruby rails
+date: '2004-12-01 18:14:17 +0100'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  SmFrb2IgaW5zdGFsbHMgUnVieSBvbiBSYWlscyBvbiBhIERlYmlhbiBtYWNo
+  aW5lIC0gaXQncyBub3QgYXMgZWFzeSBhcyBvbmUgY291bGQgaG9wZS4=
+mt_id: 842
+categories:
+- technology
+---
+"David(Loud Thinking)":http://loudthinking.com keeps yapping about his "Ruby on Rails(Ruby on Rails)":http://rubyonrails.org framework, and I have to admit it looks interesting.
+
+So I decided to give it a shot, and see what all the fuzz was about. After all I only had to install 3 things:
+
+* Ruby
+* RubyGems
+* Rails
+
+But oh boy, had I known the difficulties I was setting myself up for and I probably wouldn't have...
+
+<!--more-->
+
+h2. The setup
+
+I have a machine running Debian that I use as my playground for this kind of thing. It was originally just running Apache 1.3 and not much else. The goal was to go from a that "blank" Debian installation to running Ruby on Rails (rubygem version) with a PostgreSQL database backend.
+
+From the beginning I insisted on using apt-get as much as possible since I am Linux-n00b and prefer to stay away from configure and make. Blame my Windows heritage.
+
+Even though this is written in guide/howto-form, it probably should not be taken as such. I am much too inexperienced around this (Debian and Ruby) to actually write a guide. This is merely what worked (and in particular, _didn't_ work) for me on my installation, if it turns out to work for you too, great! If not, well, too bad...
+
+
+h2. Initial preparations
+
+The stable Debian packages contains an old distribution of Ruby (v1.6.7) which won't cut it for Gems nor Rails. We have to upgrade to the testing packages:
+
+Edit /etc/apt/sources.list and added the following line:
+
+bc. deb http://http.us.debian.org/debian testing main contrib non-free
+
+Refresh your local package lists:
+
+bc. root@mental$ apt-get update
+
+And you should be about ready to continue. You may have to upgrade a whole bunch of your software at this point.
+
+
+h2. Install Ruby 1.8.2
+
+Consulting the "Rails documentation(Rails on Debian)":http://www.rubyonrails.org/show/RailsOnDebian it turns out installing Ruby-1.8 on it's own isn't enough. Ruby is fragmented into a gazillion different packages, but the following should get and install all that's needed:
+
+bc. apt-get install irb1.8 libbigdecimal-ruby1.8 libcurses-ruby1.8 libdbm-ruby1.8 libdl-ruby1.8 libdrb-ruby1.8 liberb-ruby1.8 libgdbm-ruby1.8 libiconv-ruby1.8 libopenssl-ruby1.8 libpty-ruby1.8 libracc-runtime-ruby1.8 libreadline-ruby1.8 librexml-ruby1.8 libruby1.8 libruby1.8-dbg libsdbm-ruby1.8 libsoap-ruby1.8 libstrscan-ruby1.8 libsyslog-ruby1.8 libtcltk-ruby1.8 libtest-unit-ruby1.8 libtk-ruby1.8 libwebrick-ruby1.8 libxmlrpc-ruby1.8 libyaml-ruby1.8 libzlib-ruby1.8 rdoc1.8 ri1.8 ruby1.8 ruby1.8-dev ruby1.8-elisp ruby1.8-examples libpgsql-ruby1.8
+
+After this, Ruby should work:
+
+bc. jcop@mental$ ruby1.8 -v
+ruby 1.8.2 (2004-11-23) [i386-linux]
+
+... almost work, at least.
+
+h2. Install zlib for Ruby
+
+It turns out the Ruby testing package doesn't contain the zlib library for Ruby, so you have to install this manually. No problem, it's just a matter of "downloading it(ruby-zlib)":http://raa.ruby-lang.org/list.rhtml?name=ruby-zlib followed by
+
+bc. tar -zxvf ruby-zlib-0.6.0.tar.gz<br />
+cd ruby-zlib-0.6.0<br />
+/usr/bin/ruby1.8 extconf.rb<br />
+make install<br />
+
+Assuming you already have zlib installed you are now ready to install RubyGems
+
+h2. Install RubyGems
+
+bc. wget http://rubyforge.org/frs/download.php/1399/rubygems-0.8.1.tgz
+tar -zxvf rubygems-0.8.1.tgz
+cd rubygems-0.8.1
+ruby1.8 install.rb
+
+Simple, huh? Yup, but not quite...
+
+h2. Patch RubyGems
+
+It turns out there is a problem with running RubyGems on Ruby 1.8.2. Basically it'll give you an error ("string contains null byte") or something to that effect whenever you try to install a gem. 
+
+Since apt-get won't give us Ruby 1.8.1 and I want to use apt and RubyGems I was stuck at this point for a while, while trying out different workarounds to no avail and becoming "increasingly frustrated(Breaking the Linux Barrier)":http://mentalized.net/journal/2004/11/05/breaking_the_linux_barrier/.
+
+#rubyonrails to the rescue! Apply "this patch(RubyGems patch)":http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/121702 to RubyGems, and your worries disappear.
+
+
+h2. Install Rails
+
+bc. gem install rails
+
+Voila... almost...
+
+h3. Patch Rails
+
+Due to us running Ruby 1.8.2, which is an unstable CVS checkout as far as I can gather we need to have "this patch(Rails patch)":http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/ruby/lib/cgi/session.rb.diff?r1=1.23.2.9;r2=1.23.2.10;only_with_tag=ruby_1_8  applied.
+
+After this, you should be able to take on the tutorial from around "step 2(Ruby on Rails tutorial Step 2)":http://www.rubyonrails.org/show/TutorialStepTwo. 
+
+See, it wasn't that bad...

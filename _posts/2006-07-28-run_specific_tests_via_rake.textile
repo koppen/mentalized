@@ -1,0 +1,63 @@
+---
+layout: post
+title: Run specific tests via Rake
+date: '2006-07-28 08:53:52 +0200'
+mt_id: 1664
+categories:
+- programming
+---
+"Geoffrey Grosenbach":http://topfunky.com recently discoved what's effectively "method_missing for rake tasks":http://nubyonrails.com/articles/2006/07/28/foscon-and-living-dangerously-with-rake. I've taken his experimental proposed rake task, and changed (I'm reluctant to say "improved") it slighty.
+
+This modified version uses a different syntax (rake test:foo:bar instead rake foo_bar) and regex matching for test names.
+
+
+h2. Usage
+
+bc. $ rake test:blog
+=> Runs the full BlogTest unit test if it exists. If not, looks for BlogControllerTest and runs that.
+
+bc. $ rake test:blog:create
+=> Runs the tests matching /create/ in the BlogTest unit test or BlogController functional test as described above. 
+
+bc. $ rake test:blog_controller
+=> Runs all tests in the BlogControllerTest functional test
+
+bc. $ rake test:blog_controller:create
+=> Runs the tests matching /create/ in the BlogControllerTest functional test	
+
+
+h2. Code
+
+bc(ruby). # Run specific tests or test files
+# 
+# rake test:blog
+# => Runs the full BlogTest unit test
+# 
+# rake test:blog:create
+# => Runs the tests matching /create/ in the BlogTest unit test
+# 
+# rake test:blog_controller
+# => Runs all tests in the BlogControllerTest functional test
+# 
+# rake test:blog_controller
+# => Runs the tests matching /create/ in the BlogControllerTest functional test	
+rule "" do |t|
+  # test:file:method
+  if /test:(.*)(:([^.]+))?$/.match(t.name)
+    arguments = t.name.split(":")[1..-1]
+    file_name = arguments.first
+    test_name = arguments[1..-1] 
+    
+    if File.exist?("test/unit/#{file_name}_test.rb")
+      run_file_name = "unit/#{file_name}_test.rb" 
+    elsif File.exist?("test/functional/#{file_name}_controller_test.rb")
+      run_file_name = "functional/#{file_name}_controller_test.rb" 
+    elsif File.exist?("test/functional/#{file_name}_test.rb")
+      run_file_name = "functional/#{file_name}_test.rb" 
+    end
+    
+    sh "ruby -Ilib:test test/#{run_file_name} -n /#{test_name}/" 
+  end
+end
+
+Do whatever you want with the above code, it's yours now.

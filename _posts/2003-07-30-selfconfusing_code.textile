@@ -1,0 +1,15 @@
+---
+layout: post
+title: Selfconfusing code
+date: '2003-07-30 17:04:58 +0200'
+mt_id: 719
+categories:
+- programming
+---
+Sigh, going through one of our more complex, rarely edited sourcefiles at work, I came across this line:
+
+<code>j=i+19</code>
+
+I have a reasonably good grasp of what i is. j seems to have very little relation to anything, and I have absolutely no clue what the 19 is. 19 what?
+
+Developers out there, for my sake, if you don't already, please start using meaningful variable names, and hey, I wouldn't mind a few constants on occasion.

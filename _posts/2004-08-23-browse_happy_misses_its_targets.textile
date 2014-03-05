@@ -1,0 +1,30 @@
+---
+layout: post
+title: Browse Happy misses it's targets
+date: '2004-08-23 16:12:00 +0200'
+mt_id: 816
+categories:
+- webdesign
+---
+"Browse Happy(Browse Happy)":http://browsehappy.com/ is the new "Internet Explorer is bad, mmmkay" "Apple-inspired(Apple - Switch)":http://apple.com/switch campaign from "The Web Standards Project(WaSP: Action: Campaigns: Browse Happy)":http://webstandards.org/act/campaign/happy/. The website is built "to inform you, the user, that you have a choice". A good idea - however I am worried it misses it's targets.
+
+
+h2. The frontpage
+
+The frontpage of Browse Happy is clean and nice looking, but it seems to be lacking purpose. It contains a huge logo, a statement that "Internet Explorer can make your computer unsafe" and 3 portraits. There is no real indication what the site is about or what I can do here. Were I an impartial user who had followed a link to the site, I suspect my first action would be a confused click on my "back" button.
+
+
+h2. Make it about the people
+
+When creating a campaign where real people try to persuade other real people to switch to another browser (or cable company or hot dog vendor for that matter) you have to make it about the people. If I can find someone to identify with I am more prone to listen. 
+
+I need to be told who these people are. Sure, "Ron(Ron Richards)":http://browsehappy.com/people/ron/ is Ron, but his statement wouldn't have much credibility if he worked as a Sales and Marketing Manager for Opera and I wouldn't bother clicking him. Knowing up front that Ron is a "Project Manager for Starwood Hotels & Resorts" adds a ton of credibility to his statement and makes it more likely that I will click through. It also serves the purpose of making him more "real" to the user.
+
+I won't get suaded by "pretty pictures of happy faces(People)":http://browsehappy.com/people/ - I need to up front see what undoubtly interesting things they have to say to me. A picture of "David(David Catherall)":http://browsehappy.com/people/david saying "its faster, and its free  all in all, much better than IE!" is vastly better at telling me that the link might take me to a page where David explains why he finds "it" better than IE. Currently I am not sure where the picture of David is likely to take me - To a gallery? His profile on a dating website? Something different? I'd like the site to help me out here.
+
+
+h2. Decide on the message
+
+The prominent message on the frontpage seems to be that Internet Explorer is unsafe and that I should switch browser to something that is safe. However when reading the testimonials they seem to focus mainly on stability, browser speed, ease of use and customizability. All of these are good reasons, so why hide them in the stories? Either bring them out in the open alongside the security issue or focus solely on security.
+
+If you want to make people switch due to IE being unsafe, at least make sure the stories you publish follow that angle. If you want to make people switch due to reading the stories of other people having switched, put the people in focus. The latter is by far the most interesting angle in my eyes.

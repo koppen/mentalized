@@ -1,0 +1,49 @@
+---
+layout: post
+title: Tracking the original page 23
+date: '2004-05-12 11:10:24 +0200'
+mt_id: 792
+categories:
+- blogging
+---
+Some days ago the Page 23 concept was infecting the blogosphere on end, including "this very journal(Page 23)":http://mentalized.net/journal/2004/04/15/page_23/. In short people all over the world were posting a set of instructions and a quote from a nearby book.
+
+Inspired by a comment by "J(arcana imperii)":http://arcimperii.blogspot.com/ to my Page 23 meme, claiming the instructions had mutated somewhere along the way, I started clicking back through the history of Page 23, trying to trace the single, original page 23 post.
+
+<!--more-->
+
+Unfortunatly, after nearly 20 blogs/journals/diaries my search ends in a loop. A few people insist they were inspired by each other, and the backtracking trail ends at "a friends only LiveJournal(SeamusD)":http://www.livejournal.com/users/seamusd/.
+
+So the most original instructions I have been able to dig up are from "Cyn's LiveJournal(cynnerth)":http://www.livejournal.com/users/cynnerth/1180966.html and are the exact same ones as I and everybody else have posted: 
+
+# Grab the nearest book.
+# Open the book to page 23.
+# Find the fifth sentence.
+# Post the text of the sentence in your journal along with these instructions.
+
+Yeah, somewhat a waste of time doing this, but kind of interesting trying to trace this, and I sure got to see a lot of different blogs that I'd never have seen otherwise.
+
+The full path that I have been able to trace looks like this:
+
+# "mentalized(mentalized)":http://mentalized.net/journal/2004/04/15/page_23/
+# "Asterisk(Asterisk)":http://www.7nights.com/asterisk/archives/page_23.php
+# "peterme.com(peterme.com)":http://www.peterme.com/archives/000311.html
+# "Caterina.net(Caterina.net)":http://www.caterina.net/archive/000521.html
+# "David Chess(David Chess)":http://www.davidchess.com/words/log.20040409.html
+# "Long Story; Short Pier(Long Story; Short Pier)":http://www.longstoryshortpier.com/vaults/2004/04/08/memery
+# "Notes from the Tundra(Notes From the Tundra)":http://www.livejournal.com/users/skelkins/2243.html
+# "happy_potterer(happy_potterer)":http://www.livejournal.com/users/happy_potterer/9624.html
+# "And Though We Choose Between Reality and Madness(And Though We Choose Between Reality and Madness)":http://www.livejournal.com/users/sternel/161390.html
+# "pegkerr(pegkerr)":http://www.livejournal.com/users/pegkerr/232403.html
+# "kijjohnson(kijjohnson)":http://www.livejournal.com/users/kijjohnson/96878.html
+# "mckitterick(mckitterick)":http://www.livejournal.com/users/mckitterick/45223.html
+# "bobhowe(bobhowe)":http://www.livejournal.com/users/bobhowe/1451.html
+# "Bilmo's Log(Bilmo's Log)":http://www.livejournal.com/users/silvertide/127176.html
+# "the sentimental curmudgeon(the sentimental curmudgeon)":http://www.livejournal.com/users/curmudgeon/226476.html?mode=reply
+# "tully monster's fair and balanced fossil record(tully monster's fair and balanced fossil record)":http://www.livejournal.com/users/kricker/403602.html (the path branches here for a short while)
+## "pbsage(pbsage)":http://www.livejournal.com/users/pbsage/235699.html
+## Merges into main path
+# "Cyn(Cyn)":http://www.livejournal.com/users/cynnerth/1180966.html
+# "Hang the Dee Jay(Hang the Dee Jay)":http://www.livejournal.com/users/seamusd/ 
+
+The latter is a friends only journal, but according to "a comment (Cyn)":http://www.livejournal.com/users/cynnerth/1180966.html?thread=8736038#t8736038 he got it from kricker (#16), and we start looping.

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Getting naked and showing body
+date: '2006-04-05 08:41:51 +0200'
+mt_id: 1580
+categories:
+- mentalizednet
+---
+Some days ago Dustin Diaz proposed April 5th as the "first annual CSS naked day":http://naked.dustindiaz.com/. Basically in an effort to promote semantically correct markup that renders properly even without stylesheets, we should all strip off our styles and show the naked markup. 
+
+I've done just that, so behold mentalized in all it's unstyled glory. I'm not too bad off, if I may say so myself.

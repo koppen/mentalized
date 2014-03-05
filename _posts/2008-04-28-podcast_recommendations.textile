@@ -1,0 +1,54 @@
+---
+layout: post
+title: Podcast recommendations
+date: '2008-04-28 17:56:01 +0200'
+mt_id: 1951
+categories:
+- life
+---
+I am a big fan of podcasts. I have roughly one hour of daily bicycling to and from work, and roughly the same amount of walking the dog, both of which are perfect time to listen to podcasts.
+
+My "brother":http://dualmind.dk recently asked me for podcast recommendations and I figured I might as well share my podcast playlist with him, you, and the rest of the world.
+
+
+h2. Audio only
+
+h3. General tech
+
+* "TWiT":http://twit.tv/twit
+* "MacBreak Weekly":http://twit.tv/mbw
+* "The MacCast":http://maccast.com
+
+h3. Business stuff
+
+* "Freelance Radio":http://freelanceswitch.com/podcasts/
+* "Venture Voice":http://www.venturevoice.com/
+* "The Web 2.0 Show":http://web20show.com
+
+h3. Development/programming
+
+* "The Ruby on Rails Podcast":http://podcast.rubyonrails.org/
+* "Railsenvy":http://www.railsenvy.com/podcast
+* "Hanselminutes":http://hanselminutes.com/
+
+h3. Humour
+
+* "You look nice today":http://www.merlinmann.com/2008/04/07/you-look-nice-today/
+* "Maniacal Rage":http://maniacalragepodcast.com/
+
+
+h2. Video
+
+Some time ago we bought a Mac Mini for our living room, and since then, video podcasts have been one of - if not the - main source of media intake in our daily lives. The stuff we see: 
+
+* "Diggnation":http://diggnation.com - also recommendable in the audio version
+* "Totally Rad Show":http://totallyradshow.com
+* "Tekzilla":http://revision3.com/tekzilla/
+* "Mahalo Daily":http://daily.mahalo.com/
+* "Hound TV":http://houndtv.com/
+* "The Guild":http://watchtheguild.com/
+
+h2. Your recommendations
+
+Please, let me know in the comments if there are any obvious podcasts I am missing.
+

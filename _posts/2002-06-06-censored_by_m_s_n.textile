@@ -1,0 +1,20 @@
+---
+layout: post
+title: Censored by M S N
+date: '2002-06-06 18:17:47 +0200'
+mt_id: 588
+categories:
+- technology
+---
+Apparently Microsoft have decided to put themselves above morals and ethics and decide for the users of the MSN Messenger what they may and may not call themselves. When trying to change your .NET name, some words will simply make your name "invalid". So far I have identified the following, does anybody have a list of these forbidden words?
+
+* Abuse
+* Admin
+* Fuck
+* Microsoft
+* MSN
+* Messenger
+* Spam
+* Tits
+
+Oddly enough, "porn" is accepted...

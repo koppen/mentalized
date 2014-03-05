@@ -1,0 +1,42 @@
+---
+layout: post
+title: 'reboot7: Scoble'
+date: '2005-06-10 09:53:43 +0200'
+mt_id: 1332
+categories:
+- reboot
+---
+Notes from "Robert Scobles":http://www.scobleizer.com/linkblog/ keynote speech at reboot7.
+
+<!--more-->
+
+h2. Why is blogging hot?
+
+* The knowledge cost of publishing is way down thanks to the tools of today.
+* Easy to publish to, easy to change. Self-publishing.
+* Connecting with each other! Comments! Syndication! Two way
+* Blogging is growing faster and faster, and will continue to grow due to Google.
+** Not on results page 1? You don't exist.
+** More content => more inbound links => higher page rank
+* Real time marketing conversation
+* Conversation => human face on products
+* Microsoft sees the value of direct user feedback via blogs/comments
+* If your business opens up you will get feedback. If you listen to your customers you get user loyalty
+
+h2. Blogging pushes the membrane
+
+* Blogging moves cultures. Corporate blogging can push corporate culture too hard, making the culture push back.
+** Corporate blogging needs support from top
+** Fear of negative feedback, fear of lacking control
+
+h2. "Blogging is a tree, not a forest"
+
+* Don't make money *from* blogging, make money *because of* blogging.
+
+* Mapping is the new "thing"
+** With pictures, GPS, localizing
+
+h2. Whats next?
+
+* Ease of publishing!
+* Collaborative publishing

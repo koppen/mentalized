@@ -1,0 +1,64 @@
+---
+layout: post
+title: Startup lessons from Rails Rumble
+date: '2010-11-01 09:56:58 +0100'
+mt_id: 2070
+categories:
+- projects
+- usability
+- business
+---
+"Rails Rumble":http://railsrumble.org is an annual, 48 hour web application programming competion. This year around 300 teams attempted to build and launch a web application over the course of a weekend, 180 succeeded. 
+
+Participating in the Rails Rumble is a lot like being in a startup, just a heck of a lot more focused. A small group of people with nothing but an idea, passion, and a tight deadline. As such. there are some lessons that apply equally well to Rails Rumble as to launching a new startup.
+
+
+<!--more-->
+
+h2. Small Design Up Front
+
+I am not a big believer in Big Design Up Front, nor a proponent of the Waterfall method of project development. However, even if you're doing agile development, you should be planning things before development starts.
+
+The important point is to acknowledge that your initial design is going to be wrong in some aspects and need to be corrected as you learn more about the project. It is also unlikely that you will be able to - or even find it necessary to - implement all the features you originally envisioned.
+
+And remember, your plans and designs aren't gospel.
+
+
+h2. Focus on the user experience
+
+If you don't have someone dedicated to doing your user interface, you're already failing.
+
+As part of the initial planning, wireframes, mockups, page description diagrams, and/or flowcharts are all invaluable tools to communicate the vision internally on a team.
+
+You don't necessarily need fully polished Photoshop images of every page, but having something visual that developers can use as a blueprint is going to reduce the back and forth between designer and developer and make development go a lot smoother.
+
+You should also make sure you get the interface implemented sooner rather than later. Get to "real data in the real environment":http://37signals.com/svn/posts/2149-use-real-content-to-judge-a-design as quickly as possible to catch issues that are masked by the artificial data environment of Photoshop.
+
+
+h2. Kill your darlings and be happy
+
+The best way to meet a deadline is to do less work. When you are under tight constraints, time- or moneywise, you need to be slashing features like Jason Voorhees slashes teenagers. You need to be building only what is absolutely necessary for your project to launch.
+
+Some features aren't integral to the business and can be considered infrastructure. Offload these to a third party if it all possible. These days you can find SaaS for almost everything, from sending emails over analyzing user behavior to handling your subscriptions.
+
+All of this is going to hurt. You know that awesome feature that you've already fallen in love with and can't wait to implement and play with? The one with the happy unicorns, rainbows and magic elves? Yeah, that one. It needs to be put down and you need to pull the trigger. 
+
+
+h2. <del>Constant</del>Regular communication is a must
+
+During the initial planning phase of any project there is good reason to space out meetings. You're dealing with large-scale, strategic ideas at this point, and having some time where you aren't actively thinking about the project gives you time to digest current ideas and "generate new ones":http://www.youtube.com/watch?v=NugRZGDbPFU.
+
+However, come crunch-time, your focus narrows and decisions turn tactical. In this phase you're looking at small and rapid course corrections, and you want to make those based on up-to-date information. You also want those decisions communicated to the entire team so they all move in the same direction.
+
+Set up a low-ceremony and regular way of communicating internally on the team. Make it short and not too frequent to lessen the productivity hit on your developers. 
+
+
+h2. Deadlines can improve focus and productivity
+
+One thing that should be noted when looking through the "Rails Rumble entries":http://railsrumble.com/entries is the quality. These are all pretty, well rounded, working applications. And they were built from the ground up in 48 hours. By a maximum of 4 people. Who probably slept some of those hours.
+
+If productivity could be measured the developers of these projects would be off the charts. 
+
+Sure, the Rumble crunch time is different than a regular workday in that the team is under pressure to meet a tight deadline - and probably high on caffeine and adrenaline. Thing is, it works - at least for a short time frame like Rails Rumble.
+
+Imagine what you could achieve with a team like that under a more humane, but still tight deadline - like a couple of weeks, or a month? If you can manage to instill the same sense of shared vision, urgency and purpose that successful Rails Rumble teams thrive on, you might just have a winner.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: OS X, MacPorts, ImageMagick, and RMagick
+date: '2007-08-05 21:31:32 +0200'
+mt_id: 1852
+categories:
+- software
+- technology
+- programming
+---
+2 hours down the drain, and all I had to do:
+
+bc. sudo port install ImageMagick
+sudo port install rb-rmagick

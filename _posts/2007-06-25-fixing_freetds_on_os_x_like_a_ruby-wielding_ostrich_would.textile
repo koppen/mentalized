@@ -1,0 +1,76 @@
+---
+layout: post
+title: Fixing FreeTDS on OS X like a Ruby-wielding ostrich would
+date: '2007-06-25 14:22:21 +0200'
+mt_id: 1827
+categories:
+- programming
+- biq_on_rails
+---
+<a href="http://flickr.com/photos/jiri/34185693/" title="Photo licensed under Creative Commons by jiri"><img src="/files/journal/ostrich/ostrich_silhouettes.jpg" width="500" height="169" alt="Ostriches by Jiri" /></a>
+
+I am having massive problems connecting my MacBook Pro with the Microsoft SQL Server 2000 we have at work. I've connected to the same SQL Server (more or less) painlessly from Debian a couple of times before, so it bugs me that this is so frigging hard on OS X.
+
+The most aggrevating part of the problem is the fact that I can actually connect. I can even execute queries and get results back. However, when I try to run a select query that returns no results, I get: 
+
+bc. DBI::DatabaseError: 24000 (0) [FreeTDS][SQL Server]Invalid cursor state: SELECT id FROM users WHERE id = 0 (ActiveRecord::StatementInvalid)
+
+Alright, at this point I know it's either FreeTDS, iODBC, the ODBC driver, the Ruby DBI/ODBC libraries, or ActiveRecords SQL Server Adapter that's messing with me. Gee, with all that many unknowns it should be easy, huh?
+
+
+h2. Test ODBC connection over FreeTDS
+
+First order of business is to test the lowest level possible, using the iodbctest utility:
+
+bc. $ iodbctest "dsn=biq_alfred_dsn;uid=<user>;pwd=<password>"
+iODBC Demonstration program
+This program shows an interactive SQL processor
+Driver Manager: 03.52.0001.0928
+Driver: 0.64 (libtdsodbc.so)
+SQL>SELECT id FROM users WHERE id = 0;
+id   
+-----
+result set 1 returned 0 rows.
+
+Excellent, that works, so my issue has to come from higher up the chain, which means the Ruby libraries.
+
+
+h2. Testing the Ruby DBI library
+
+Checking stuff in Ruby is always easy, we just fire up our trusty irb:
+
+bc(ruby). $ irb
+irb(main):001:0> require 'dbi'
+=> true
+irb(main):002:0> dbh = DBI.connect('DBI:odbc:biq_alfred_dsn', '<user>', '<password>')
+=> #<DBI::DatabaseHandle:0x49778 @trace_output=#<IO:0x2b7c8>, @trace_mode=2, @handle=#<DBI::DBD::ODBC::Database:0x496c4 @attr={}, @handle=#<ODBC::Database:0x496ec>>>
+irb(main):005:0> dbh.select_one('SELECT id FROM users WHERE id=0')
+DBI::DatabaseError: 24000 (0) [FreeTDS][SQL Server]Invalid cursor state
+        from /opt/local/lib/ruby/vendor_ruby/1.8/DBD/odbc/odbc.rb:239:in `fetch'
+        from /opt/local/lib/ruby/vendor_ruby/1.8/dbi.rb:668:in `fetch'
+        from /opt/local/lib/ruby/vendor_ruby/1.8/dbi.rb:503:in `select_one'
+        from /opt/local/lib/ruby/vendor_ruby/1.8/dbi.rb:485:in `execute'
+        from /opt/local/lib/ruby/vendor_ruby/1.8/dbi.rb:502:in `select_one'
+        from (irb):5
+        from :0
+
+Aha, the issue can be reproduced at this level, which leaves me with the Ruby DBI/ODBC libraries being the likely culprits. Since the file where the exception is raised is DBD/odbc/odbc.rb, I'll start investigating that. 
+
+It turns out that patching the failing fetch method to simply return nil when this exact error occurs actually fixes the problem. At this point I am more than willing to do as the ostriches do when faced with danger; stick my head in the sand and pretend everything is okay. So at the moment my Rails application overrides the Statement#fetch method with
+
+bc(ruby). module DBI::DBD::ODBC
+  class Statement < DBI::BaseStatement
+    def fetch
+      convert_row(@handle.fetch)
+    rescue ODBCErr => err
+      if err.message == "24000 (0) [FreeTDS][SQL Server]Invalid cursor state"
+        return nil
+      else
+        raise DBI::DatabaseError.new(err.message)
+      end
+    end
+  end # class
+end # module
+
+and my test suite passes, both on Debian and on OS X.
+

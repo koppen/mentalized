@@ -1,0 +1,19 @@
+---
+layout: post
+title: That's not not possible
+date: '2010-09-09 20:12:39 +0200'
+mt_id: 2061
+categories:
+- programming
+---
+When a developer says "I'm sorry, but that's not possible" he's often lying - or at least willingly bending the truth to fit his agenda. For the most part it (whatever it is, often a feature request) _is_ possible, but any number of potential conditions trigger the above answer:
+
+* It doesn't have an apparent clean code solution.
+* It requires a lot more effort than the expected gain.
+* It's a bad idea, and it's easier to sweep it off the board as an impossibility rather than explain why it's a bad idea.
+* It actually isn't possible given the requirements and constraints that are currently in place.
+
+So the next time a developer gives you that answer, you should probably press him for his reasoning. He might very well be right, but at least you know the real reason.
+
+My standard reply these days is "Everything is possible, given enough time and money. How much do you have?" - my next line tends to be "oh, in that case; no, it's not possible".
+

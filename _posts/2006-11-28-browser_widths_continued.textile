@@ -1,0 +1,16 @@
+---
+layout: post
+title: Browser widths continued
+date: '2006-11-28 10:17:12 +0100'
+mt_id: 1749
+categories:
+- usability
+- webdesign
+---
+The whole issue of browser width vs screen width vs line lenght vs fluid layout vs elastic layout vs fixed layout is getting some airtime once again, this time over at "Roger Johansson blog, 456 Berea Street":http://www.456bereastreet.com/archive/200611/resolution_vs_browser_size_vs_fixed_or_adaptive_width/.
+
+Roger Johansson mentions a couple of interesting links, including one study based on browser width figures gathered by "mint":http://haveamint.com ("like I suggested one should":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/). His article bears no mention of "Thomas Baekdals study":http://www.baekdal.com/reports/actual-browser-sizes/, though, which is a shame since that's by far the most comprehensive one I've seen (yes, way more comprehensive than "my own":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/).
+
+One thing I find surprising is how many of the commenters still insist on talking about resolutions and screen sizes. The screen size or resolution is not interesting as has been "pointed":http://www.robertnyman.com/2006/09/28/the-ridiculous-discussion-about-monitor-sizes-and-screen-resolutions/ "out":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/ "numerous":http://www.colly.com/?/comments/the-importance-of-browser-window-width/ "places":http://justaddwater.dk/2006/08/17/design-for-browser-size-not-screen-size/ "by now":http://www.baekdal.com/reports/actual-browser-sizes/. 
+
+Please quit thinking it is.

@@ -1,0 +1,21 @@
+---
+layout: post
+title: Poor mans Javascript console
+date: '2008-05-26 12:34:47 +0200'
+mt_id: 1964
+categories:
+- technology
+---
+Quick and dirty way of testing Javascript live on a website in browsers without Firebug:
+
+bc(html). <form onsubmit="try {
+    $('output').innerHTML = $F('input') + ' => ' + eval($F('input'));
+  } catch (e) {
+    alert(e)
+  }
+  return false">
+  <div id="output"></div>
+  <input id="input" name="input" value="" on="" />
+</form>
+
+Requires Prototype, but could probably be rewritten as pure Javascript pretty easily. Could also be turned into a bookmarklet, I guess.

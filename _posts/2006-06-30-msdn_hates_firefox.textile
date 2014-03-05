@@ -1,0 +1,20 @@
+---
+layout: post
+title: MSDN hates Firefox
+date: '2006-06-30 12:42:56 +0200'
+mt_id: 1642
+categories:
+- programming
+- webdesign
+---
+"Microsoft":http://microsoft.com, a company that "proclaims to be devoted to web standards":http://mentalized.net/journal/2004/07/23/validating_ie_team_websites/, has updated parts of their "MSDN Library VBScript Language Reference":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/ddfa5183-d458-41bc-a489-070296ced968.asp. They've hidden the most valuable details of each funtion behind some pointless click-to-expand links. Apart from being a usability blunder, Microsoft once again fails to prove that they care for or have even heard of standards or other browsers than Internet Explorer. 
+
+Here's my Firebug log from simply opening "the reference page for the DateAdd function":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/ddfa5183-d458-41bc-a489-070296ced968.asp.
+
+!http://static.flickr.com/75/178309365_c52daae45c.jpg?v=0!
+
+The MSDN site is now worthless in Firefox since the expand details links does not work. I for one cannot be told what the arguments mean, since this is what my Firebug log tells me when I click the link:
+
+!http://static.flickr.com/53/178309366_2644f39b5d.jpg?v=0!
+
+Microsoft, I can't wait until I no longer have to developer using your shoddy products. It looks like you don't want me around, anyways. Whatever happened to "Developers, developers, developers":http://www.ntk.net/ballmer/mirrors.html or was that just Ballmer blowing smoke as usual?

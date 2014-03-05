@@ -1,0 +1,15 @@
+---
+layout: post
+title: Copenhagen.rb meeting tomorrow
+date: '2006-08-15 08:41:54 +0200'
+mt_id: 1677
+categories:
+- copenhagenrb
+---
+Doh, I though I had posted this here already:
+
+Next meeting for the Copenhagen Ruby Brigade is Wednesday 16th (yup, that's tomorrow, I apologize) at 17:00. 
+
+The venue is provided by "Nordija":http://www.nordija.com/ and is located at "Nørgaardsvej 7, 2800 Kgs. Lyngby":http://www.findvej.dk/n%c3%b8rgaardsvej,2800 - a few minutes walk from Lyngby S-train station.
+
+See you there?

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Heard around the office
+date: '2005-04-15 09:39:33 +0200'
+mt_id: 1290
+categories:
+- technology
+---
+bq. Open source is for people who don't want to make money
+
+Note this wasn't in reference to creating open source solutions, but about using open source to power your business (specifically at the database level).
+
+Who wants to prove the above wrong?

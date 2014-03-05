@@ -1,0 +1,47 @@
+---
+layout: post
+title: Plantronics Savi Go on Mac OS X
+date: '2011-01-27 10:00:57 +0100'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  R2V0dGluZyBhIFBsYW50cm9uaWNzIFNhdmkgR28gV0cxMDAvQiB0byB3b3Jr
+  IHdpdGggT1MgWCBpcyBoYXJkLCBidXQgbm90IGltcG9zc2libGU=
+mt_id: 2086
+categories:
+- hardware_1
+---
+Being a "remote freelancer":http://substancelab.com, I regularly take part in "Skype":http://skype.com and phone calls. Up until now, I've been using the internal microphone of my "MacBook Pro":http://apple.com/macbookpro, but let's be honest, that sucks. So I went hunting for a headset to use. 
+
+I ended up buying the "Plantronics Savi Go WG100":http://www.plantronics.com/us/product/savi-go. So far, it seems like a pretty good headset, but getting it to work with my Mac running Snow Leopard proved to be harder than I'd have liked. 
+
+Primarily because I thought I knew what I was doing.
+
+
+<!--more-->
+
+h2. It's there for a reason
+
+The headset comes with a "USB":http://en.wikipedia.org/wiki/Universal_Serial_Bus/<a href="http://en.wikipedia.org/wiki/Bluetooth" title="Read about Bluetooth on Wikipedia">Bluetooth</a> dongle. That's nice, I thought, especially for those poor computers that don't already have Bluetooth built in. Luckily, MacBook Pros do, so I went ahead and paired the headset with the laptop. It worked fine and the headset was found and set up as audio input/output no problem.
+
+
+h2. Oh, you wanted audio in your headset?
+
+Until I tried to actually use the headset, that is. No audio was sent to or from the headset, and audio applications like iTunes would just hang when I tried to play something.
+
+I had almost wrapped up the headset and sent it back when I figured I'd try the Bluetooth dongle. Lo and behold, it worked flawlessly with the dongle.
+
+
+h2. How to get it running
+
+So here are a few notes for anyone else having issues with the "Plantronics Savi Go WG100/B":http://www.plantronics.com/us/product/savi-go?skuId=sku5280016 on OS X 10.6:
+
+* Don't use the builtin Bluetooth for connecting the headset, use the accompanying Bluetooth dongle. You can turn the internal Bluetooth off entirely, and probably should to avoid pairing with that.
+* Pairing the dongle with the headset can take a very, very long time (I am talking several minutes here). Don't get impatient and abort.
+* Oh yeah, and remember to hit the answer button on the headset to actually turn the headset on and put it in speech mode when testing... ::cough::
+
+And all this because I thought I knew what I was doing. Next time I'll read the effin manual... or not.
+
+h2. Update december 7, 2011
+
+It seems that at least on Mac OS X Snow Leopard 10.6.8 it _is_ possible to pair directly with the Mac - ie not using the BUA200 Bluetooth dongle. My dongle suddenly lost pairing with the headset, and when I tried pairing with regular Bluetooth it worked just fine and I've even managed a Skype call using it.
+
+So there is that.

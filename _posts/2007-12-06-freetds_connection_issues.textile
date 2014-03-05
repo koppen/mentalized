@@ -1,0 +1,23 @@
+---
+layout: post
+title: FreeTDS connection issues
+date: '2007-12-06 10:03:44 +0100'
+mt_id: 1897
+categories:
+- software
+---
+Mental note to self (and everyone reading here): If using "FreeTDS":http://www.freetds.org/ on "OS X":http://www.apple.com/macosx/ and you cannot connect to your "MS SQL Server":http://www.microsoft.com/sql/default.mspx using iodbctest , but you can con using tsql, and your TDSDUMP logfile contains 
+
+bc. tds_iconv_info_init: client charset name "" unrecognized
+
+make sure you have put
+
+bc. client charset = UTF-8 
+
+into your freetds.conf - _not_
+
+bc. client charset = utf-8
+
+Note the case difference.
+
+I can't believe the amount of hours I have wasted setting up FreeTDS and ODBC connectivity on various systems by now - and still I get bit by crap like the above.

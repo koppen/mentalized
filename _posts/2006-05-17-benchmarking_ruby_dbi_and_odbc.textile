@@ -1,0 +1,52 @@
+---
+layout: post
+title: Benchmarking Ruby, DBI, and ODBC
+date: '2006-05-17 14:17:59 +0200'
+mt_id: 1612
+categories:
+- programming
+---
+Also known as "The blog post where Jakob publically ridicules himself pretending to know squat about benchmarking"
+
+As part of "our":http://www.biq.dk investigation into changing platforms, we'll be looking for ways to make Rails or Ruby break down and cry. We'll be kicking groins, pinching nipples and generally be meanies. Todays target is Rubys DBI/DBD connection to a remote Microsoft SQL Server.
+
+
+<!--more-->
+
+h2. The software
+
+SQL Server 2000
+Debian Sarge Stable with Ruby 1.8.2, FreeTDS, and unixODBC
+Windows 2000 with VBScript, running through CScript.
+
+
+h2. The procedure
+
+I've been sending different queries, reading a result from a returned row, and measuring the time it takes. All numbers are the average time in seconds used to process the specific method. Both the VBScript and Ruby were querying the same remote SQL Server.
+
+
+h2. Simple queries
+
+First off, I wanted to see how it'd handle simple queries:
+
+|Query                          |VBScript|Ruby  |
+|<code>SELECT COUNT(*) FROM tblEntity</code> |0.1608  |0.1641|
+|<code>SELECT TOP 1 * FROM tblEntity</code>  |0.0013  |0.0018|
+|<code>SELECT TOP 1000 FROM tblEntity</code> |0.0359  |0.1863|
+
+The Ruby and VBScript implementations are comparable in the simpler cases. However, when we try to get more data from the database, it seems VBScript starts pulling ahead. Continuing the table from above:
+
+|Query                           |VBScript|Ruby  |
+|<code>SELECT TOP 2000 FROM tblEntity</code>  |0.0750  |0.2065|
+|<code>SELECT TOP 10000 FROM tblEntity</code> |0.3672  |1.1540|
+|<code>SELECT TOP 16000 FROM tblEntity</code> |0.5531  |1.8649|
+
+At least the time spent is linear, but there's a huge difference when the amount of data increases.
+
+h2. Does it really mean anything
+
+It's hard to say wether this really matters. The above numbers worries me a bit, and I would've liked to see Ruby perform on par with ASP/VBScript ADODB. It's still hypothetical. though, and the difference is probably not going to matter at all (at least not for low amounts of data). I'd rarely have to retrieve more than 1000 rows from the database anyways.
+
+These numbers are probably too low level. I guess I'll have to wait until I can get some stuff set up that massages the whole stack, including building HTML. I am guessing the difference will even out into the hardly measurable category. 
+
+I'm also hoping I've made a mistake somewhere.

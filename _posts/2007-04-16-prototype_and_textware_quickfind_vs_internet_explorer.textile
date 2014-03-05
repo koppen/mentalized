@@ -1,0 +1,58 @@
+---
+layout: post
+title: Prototype and TEXTware QUICKfind vs Internet Explorer
+date: '2007-04-16 11:15:22 +0200'
+mt_id: 1805
+categories:
+- technology
+- software
+- projects
+- programming
+- browsers
+- biq_on_rails
+---
+bq. You know we're sitting on four million pounds of fuel, one nuclear weapon and a thing that has 270,000 moving parts built by the lowest bidder. Makes you feel good, doesn't it? 
+
+After launching the "rewritten and redesigned BiQ":http://www.biq.dk I got word of seemingly random IE installations crashing within seconds of opening BiQ. I could not find a way to reproduce this and it only occured on a tiny minority of client installations, so I shrugged it off as yet another reason to upgrade to Firefox.
+
+However, this weekend I talked to "a friend of mine":http://netego.dk who told me that he had experienced this IE crash himself and that the IT guys at his office knew what was causing the problem. 
+
+It turns out that the combination of "Prototype":http://www.prototypejs.org/ and certain Internet Explorer add-ons (in particular one called QUICKfind BHO) is lethal and causes Internet Explorer to raise a Kernel error and crash when the mouse is moved.
+
+This crash occurs in a fully patched IE6 on Windows XP SP2, I have not verified Internet Explorer 7 or other versions of IE.
+
+
+h2. Fixing it
+
+h3. The patching way
+
+Changing the <code>Event</code> references in Prototype presumable fixes this. I haven't really dug into Prototype to know how much work is involved in this but a quick count reveals 14 occurrences of <code>Event</code> in prototype.js. A quick replacing all of those with <code>PrototypeEvent</code> made "biq.dk":http://www.biq.dk load with no errors and no crashes. That said, it probably breaks everything everywhere else, I didn't check.
+
+I wouldn't count on getting a patch like this committed to Prototype, though. It would probably break a ton of code already in the wild, and the Prototype folks can easily (and rightfully) claim that "the bug should be fixed in QUICKfind":http://www.ruby-forum.com/topic/89266 (and "it has been":http://www.support.gyldendal.dk/Gyldendal/GyldenSupport.nsf/0/9DADFD7A6D1B64A3C1256FB00053E29C?opendocument)
+
+Keeping your local version of Prototype patched with these changes and up to date with new releases might be a bit cumbersome as well.
+
+
+h3. The disabling way
+
+Have people simply disable the malfunctioning add-on. It's a simple matter of going into Tools > Manage Add-ons, selecting the QUICKfind BHO Object and clicking "Disable". That's how "Audi.dk":http://audi.dk deals with it.
+
+!/files/journal/quickfind_bho/how_to_disable_quickfind.jpg 500x489!
+
+
+h3. The upgrading way
+
+If your users actually use the features of the add-on (I am not quite sure exactly what it does - as far as I can tell the only feature it adds to my IE is the crash), you should have people update their QUICKfind add-on. 
+
+"An updated version of the add-on":http://www.support.gyldendal.dk/Gyldendal/GyldenSupport.nsf/0/9DADFD7A6D1B64A3C1256FB00053E29C?opendocument can be downloaded and installed from Gyldendal, a danish provider of dictionaries and one of the distributors of the faulty add-on.
+
+
+h2. In conclusion
+
+Once in a while being a web developer is just tons of fun, huh? With a myriad of independent pieces of software between you and your customer there are so many things that can break in unpredictable ways it's impossible to prevent or even detect all of it.
+
+I initially had a section of this blog entry titled "The blame game" where I attempted to figure out who to blame for this. While fingers can be pointed at Prototype, QUICKfind, and Internet Explorer I scrapped the section since it didn't provide anything useful. I do want to keep the following paragraph, though:
+
+While the crash in this case is caused by a combination of two third-party pieces of software, Internet Explorer holds a large part of the blame. A website should never ever be able to crash the user agent - ever. An add-on should never be able to crash the host environment (but I realize that's mainly an idealistic and unrealistic idea on my behalf).
+
+But enough of that. The crash has been fixed by (at least) one of the responsible parties and I am content with that.

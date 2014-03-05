@@ -1,0 +1,27 @@
+---
+layout: post
+title: Arrival of the MacBook Pro
+date: '2006-11-23 13:04:40 +0100'
+mt_id: 1743
+categories:
+- hardware_1
+---
+I received "the MacBook Pro":http://mentalized.net/journal/2006/10/30/apple_helps_me_out_by_limiting_options/ some time ago. My impression so far: It's a friggin' sweet machine! It is just the perfect size for a laptop and doesn't weigh as much as I feared. And boy, is it fast. The difference in running a test suite on the MBP compared to my old iBook is staggering.
+
+The built-in camera is a nice gadget and makes me wish I had more people I could video chat with. I love how the camera turned on automatically to take a picture for my user account, very nice touch. Photo Booth also makes for tons of fun :)
+
+The remote and Front Row is a cool combo, but I have yet to find a single, actual use for it. I can't buy movies or TV series from iTunes, and generally serving media from a machine that I am supposed to lug around doesn't make that much sense. I should probably start doing more presentations.
+
+As for the rumoured heat problems, so far I haven't had any real issues. I am not even sure it gets all that much hotter than the iBook, but certainly, both of them do get fairly warm after longer periods of use - especially when running on the power adapter.
+
+h2. Packaging
+
+One thing that needs to be mentioned is Apples packaging. They somehow manage to get cardboard boxes to shout out, "I bring you quality". The sheer look and feel of the box is impressive and you can't help but unbox it in awe. There's no rattling or any loose parts, the position of everything has been thought through. It's simply a nice experience.
+
+There's even a "weblog dedicated to the experience of unboxing items":http://www.unboxing.com/ - not just Apple products.
+
+h2. The destiny of my Windows PC
+
+Parallels is going to be a life saver, and my Windows PC should start worrying. I can't remember the last time I sat down at it and did something I can't do on the MBP. Actually, I am not sure when I last sat down at it at all. 
+
+It is being used as our media center currently, since it's the only machine actually connected to the TV and amplifier. I have a feeling the machine might end up in the attic acting as a file server some time soon, though.

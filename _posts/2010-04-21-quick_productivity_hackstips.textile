@@ -1,0 +1,37 @@
+---
+layout: post
+title: Quick productivity hacks/tips
+date: '2010-04-21 14:30:20 +0200'
+mt_id: 2037
+categories:
+- life
+---
+Over the last weeks or so, I've implemented a few productivity hacks in my daily workflow. While I don't actually /know/ if any of them improved my productivity, they sure made me feel more productive. In my book, that's enough.
+
+
+
+<!--more-->
+
+h2. Disable your Mail.app unread count badge
+
+I originally spotted this tip over on "Signals vs Noise":http://37signals.com/svn/posts/2213-turn-off-that-dock-unread-count. It is such a small change, but it has seriously minimized the amount of time I waste on checking email. 
+
+Not having that attention-grabbing, little red badge with a number means I can make a deliberate decision to process my inbox when I want to - not when some sender want me to.
+
+
+h2. SizeUp
+
+"SizeUp":http://www.irradiatedsoftware.com/sizeup/ is a nifty little application that allows you to quickly position windows using the keyboard. Now, I know you probably don't spend all that much time moving your windows around on your screen, and neither did I. 
+
+Still, when I did move or resize a window I was spending that extra seconds getting the position/size just right. It had to align with the other windows, or stack up against the screen edge or whatever. OCD much?
+
+Using SizeUp, those choices are made for me. All I need to decide is left or right monitor, half or quarter screen, and press the keys accordingly. No more fiddling around with the mouse.
+
+
+h2. Hazel
+
+"Hazel":http://www.noodlesoft.com/hazel.php is a nifty little tool that monitors folders and reacts to changes in them - somewhat like the rules/filters you are familiar with from your email client.
+
+It can likely help you with anything you do to file(s) on a regular basis and when it does, it pretty much feels like magic.
+
+For example, you can configure it to keep your trash folder to a limited size so you don't have to worry about wasting too much precious HD space on it. Or how about having it delete your old, unused downloads?

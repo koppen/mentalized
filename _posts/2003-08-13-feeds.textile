@@ -1,0 +1,20 @@
+---
+layout: post
+title: Feeds
+date: '2003-08-13 11:43:24 +0200'
+mt_id: 852
+categories:
+- about
+---
+I provide the following feeds for your syndication pleasure:
+
+* <a href="/journal/entries_excerpts.xml" title="Excerpt of entries (RSS 2.0)">Journal: Entry excerpts only</a>
+* <a href="/journal/entries.xml" title="Full entries (RSS 2.0)">Journal: Full entries</a>
+* <a href="/journal/quicklinks/quicklinks_rss.xml" title="Quicklinks (RSS 2.0)">Quicklinks</a>
+* <a href="/journal/comments_atom.xml" title="Most recent comments (RSS 2.0)">Recent comments</a>
+
+h2. What the heck is "a feed"?
+
+Syndication feeds like the ones above are a way to keep up to date with the things posted on a website without having to visit the site every day to check if there is new content.
+
+The newly posted content automagically appears in your feedreader/newsaggregator of choice. If you don't yet have a program for reading feeds or want to know more about feeds, heading to "Lockergnome's RSS Resource(Lockergnome's RSS Resource)":http://rss.lockergnome.com/resources/ should give you a good start.

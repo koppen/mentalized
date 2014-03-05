@@ -1,0 +1,53 @@
+---
+layout: post
+title: To AutoLink or not, that's the question
+date: '2005-03-01 15:18:26 +0100'
+mt_id: 1248
+categories:
+- technology
+---
+I don't get the big outcry surrounding the Google Toolbars upcoming AutoLink feature. People are crying foul, apparently because Google "changes their content(Loud Thinking)":http://www.loudthinking.com/arc/000413.html, that they can no longer be sure what readers see on their website, and that "this is just the beginning(Dave Winer)":http://archive.scripting.com/2005/02/26#When:1:59:24PM of "a slippery slope(maurus.net)":http://maurus.net/archives/2005/02/26/every-bad-idea/ ending with tools freely roaming the Internet, changing links here and there while eating babies.
+
+It seems to me people are overreacting.
+
+
+<!--more-->
+
+h2. Slippery slope
+
+The slippery slope argument is plain silly. I guess an AutoLink-resembling feature could eventually be misused by an omnious someone to add a horrible link to a website in a not too distant future. To combat this, I recommend we go to the root of the problem, pointing our fingers at the W3C for supporting link tags, then. Surely, they could eventually be misused and seems like the true origin of the slippery slope.
+
+I could probably buy into the slippery slope argument if it wasn't for the fact that Google actively displays they don't want to go down that path:
+
+The Google Toolbar lets users choose which map provider - including Google competitors - to use for AutoLinks. It even let's uses choose to AutoLink or not. And this is just the beta of the feature, I am sure more customizability and power will be given the user. If not, fair enough, users can start crying foul, until then, let's deal with real problems.
+
+
+h2. Google doesn't change your content
+
+Website owners and content publisher worries that Google changes their content. As a content creator this naturally worries me too, but I am also technically inclined enough to realize that it simply is not true. The actual content doesn't change, not a single bit is changed. Trust me, I've clicked the AutoLink buttons many times, and the links are gone whenever I return to the page. I've even checked the source files, and they haven't changed. What may change is how a single end-user sees your content after having actively chosen to see it differently. 
+
+Isn't this just like "My browser(Firefox)":http://getfirefox.com enabling me to highlight words on your website - words you might not find highlight-worthy at all. Other evil tools even allow me to download your website, edit it and see those changes in my browser! It all happens without you knowing - and without your content ever changing. 
+
+Your content doesn't actually change.
+
+
+h2. So AutoLink is just peachy?
+
+AutoLink isn't without its flaws though, being beta and all. I'd prefer the added links to be more visually different from the existing links. The cursor change on hovering is a good start, but not really enough. 
+
+More user customizability in respect to which services to AutoLink to for given links needs to be added too.
+
+I'd also like to see Google supporting some sort of opt-out meta tag, like Microsoft did with their smart tags. I imagine it could get a bit cumbersome trying to keep up with the AutoLink features, adding real links to my preferred providers wherever possible to avoid AutoLink adding links.
+
+I suspect though, that Google ends up pulling this feature to preserve their image as a netiquettically correct player - even though the outcry seems way exaggerated.
+
+h2. Go read elsewhere
+
+I couldn't figure out how to link seamlessly to all the stuff that's been written about this by more clever people than me, so here is the linkdump for this entry:
+
+* "More on Google's AutoLink Beta Toolbar Feature(Brainstorms and Raves)":http://brainstormsandraves.com/archives/2005/02/25/moreautolink/
+* "Some thought-tools(Phil Ringnalda)":http://philringnalda.com/blog/2005/02/some_thoughttools.php
+* "Scripting News(Dave Winer)":http://archive.scripting.com/2005/02/26#When:1:59:24PM
+* "Google wants to change your content(David Heinemeier Hansson)":http://www.loudthinking.com/arc/000413.html
+* "Want a line? Here's a line(Yoz Grahame)":http://cheerleader.yoz.com/archives/001930.html
+* "Every Bad Idea(Jonas Maurus)":http://maurus.net/archives/2005/02/26/every-bad-idea/

@@ -1,0 +1,21 @@
+---
+layout: post
+title: !binary |-
+  TGF1bmNoOiBC+HJuIGkgYnllbg==
+date: '2008-03-10 10:13:11 +0100'
+mt_id: 1932
+categories:
+- projects
+---
+This is probably one of those posts, that I ought to in Danish, oh well...
+
+The recent weekend marked the launch of "Børn i byen":http://bornibyen.dk (that's "Children in the city" for you danishly-challenged readers) - a user-driven guide to Copenhagen focusing solely on parents and their children.
+
+<a href="http://bornibyen.dk" title="Børn i byen - find sjove ting at lave med dine børn i København og del dine favoritter med andre forældre"><img src="/files/journal/bornibyen/bornibyen.jpg" alt="Børn i byen frontpage" /></a>
+
+People "are":http://pinds.com/2008/3/9/dk-launch-brnibyen-dk "already":http://blog.overskrift.dk/2008/03/09/b%C3%B8rn-i-byen-ny-bruger-drevet-byguide/ "blogging":http://mitkbh.wordpress.com/2008/03/09/det-for-born/ "about":http://trinetrine.dk/2008/03/09/b%C3%B8rn-i-byen/ "it":http://andreasjohannsen.dk/2008/03/10/har-du-b%C3%B8rn-i-k%C3%B8benhavn/ and judging by the comments, people are liking it.
+
+Since December I have been part of "the Børn i byen team":http://bornibyen.dk/about/. Even though I have no kids, I was added to the project - on recommendation from "Lars":http://pinds.com to assist the "original developer":http://makingmachinesfolloworders.com/ and the rest of the team get a launchable product out the virtual door.
+
+On the technical side of things, it's all "Ruby on Rails":http://rubyonrails.org, using "Blueprint":http://code.google.com/p/blueprintcss/ for the CSS, "Capistrano":http://www.capify.org/ for deployment, "Comatose":http://code.google.com/p/comatose-plugin/ for a lightweight CMS, "Geokit":http://geokit.rubyforge.org/ for the Google Map stuff, and "Carolines":http://www.linkedin.com/pub/0/3B/9A2 espresso machine for fuel.
+

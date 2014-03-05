@@ -1,0 +1,13 @@
+---
+layout: post
+title: If your WM/Picture describes a fish
+date: '2005-04-25 10:21:44 +0200'
+mt_id: 1301
+categories:
+- programming
+---
+I had this sent in a mail today, and frankly am not quite sure what to make of it.
+
+According to MSDNs documentation for the <a title="Structures" href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wmform95/htm/wm_picture.asp">WM_PICTURE structure</a>, if your structure ever needs to contain "A bright colored fish", you need to set bPictureType to 17...
+
+

@@ -1,0 +1,24 @@
+---
+layout: post
+title: Reinstalling at work
+date: '2003-02-21 12:13:20 +0100'
+mt_id: 663
+categories:
+- technology
+---
+At last my new computer arrived at work, and I could start installing all the software-goodies I claim to need. For some reason I decided to write down what I installed and in which order, and for some even more obscure reason I am going to share that list with you - aren't you thrilled?
+
+* Windows XP
+* Outlook 2000
+* <a href="http://classic.winamp.com" title="Winamp 2">Winamp 2</a>
+* <a href="http://www.mozilla.org/projects/phoenix/phoenix-release-notes.html" title="Phoenix 5.0">Phoenix</a>
+* <a href="http://www.rhymbox.com/" title="Rhymbox">Rhymbox</a> (Jabber client)
+* <a href="http://www.openoffice.org" title="Free, opensource office package">OpenOffice</a> (beats MS Office)
+* <a href="http://www.apple.com/quicktime/" title="QuickTime at Apple">QuickTime</a> (word of the new <a href="http://www.apple.com/trailers/fox/x2/02/" title="X-Men 2 trailer">X-Men 2 trailer</a> arrived)
+* <a href="http://www.ultraedit.com" title="UltraEdit">UltraEdit</a>
+* SQL Server Client Tools
+* <a href="http://www.vandyke.com/products/securecrt/index.html" title="Van Dyke Tecnologies SecureCRT">SecureCRT</a> and <a href="http://www.vandyke.com/products/securefx/index.html" title="Van Dyke Tecnologies SecureFX">SecureFX</a>
+
+I will most likely be adding small tools and utilities to the machine during the next many months, but the above should enable me to get my work done (now I only need to install a motivator in myself then I'm settled).
+
+One notable thing I have deliberatly skipped installing so far are the various programs I use for my own pleasure - ie. <a href="http://www.ritlabs.com/the_bat/" title="Ritlabs' The Bat">The Bat</a> for checking my mentalized-mail and <a href="http://www.mirc.com" title="mIRC">mIRC</a> for general chatting purposes. In some vague way I hope this will improve my efficiency a bit, although I have always been under the delusion that it didn't decrease by having those programs installed (and running). I guess time will tell.

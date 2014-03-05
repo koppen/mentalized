@@ -1,0 +1,31 @@
+---
+layout: post
+title: Your browser wants its back button back
+date: '2010-07-14 09:27:06 +0200'
+mt_id: 2048
+categories:
+- webdesign
+- usability
+---
+The other day I was playing around with a potential design for "a little something":http://objectpush.com I'm working on. After messing about in Photoshop drawing a button that would take the user back to the previous screen, I had to stop and ask myself the million dollar question: "Why?"
+
+
+
+<!--more-->
+
+bq. Why are you wasting time building something that all browsers already do?
+
+All browsers come with a back button. All users know where it is and how to use it (at least partially). Why would I spend even a single minute adding complexity to my interface when the browser gives me the same functionality for free? So I ditched it.
+
+
+h2. Goes for print as well
+
+But the back button isn't the only button that's often recreated. Another common culprit is the print button. 
+
+Now, in the case of printing, I might begrudgingly have to admit that in some cases it makes sense to create a specific printer-friendly view. If you are spreading your content over multiple pages<sup><a href="#footnote1">1</a></sup> offering a print option that prints everything can be a good idea. Perhaps.
+
+However, if all your print button does is invoke the browsers built-in print functionality, you're wasting your time and needlessly increasing the complexity of your UI. Why?
+
+<ol class="footnotes">
+  <li id="footnote1">If you are doing this to increase ad impressions, you suck.</li>
+</ol>

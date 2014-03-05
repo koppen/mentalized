@@ -1,0 +1,55 @@
+---
+layout: post
+title: The tyranny of software updates
+date: '2010-01-08 16:59:11 +0100'
+mt_id: 2015
+categories:
+- software
+---
+There you are, sitting at your desk. Your thoughts are coming alive on the glowing display in front of you, brought into existence by your fingers effortlessly running across the keyboard. The outside world has become a distant memory - even the music flowing into your ears from your headphones has grown muffled and removed. 
+
+You are in flow.
+
+Suddenly an unexpected idea spawns in your head. This idea must be preserved and dealt with, but you can't risk losing your flow, so you quickly launch your favorite notes application to jot the idea down before it escapes the grasp of your mind.
+
+bq. A new version of UberNotesMaster is available, would you like to download it now?
+
+Stumped, you try to gauge whether the update is quick enough that you won't lose your flow, but you have already lost. Your flow is interrupted, the idea is escaping, and your application is still not updated.
+
+
+h2. Do you prefer the plague or cholera? 
+
+Typically, when an application announces that it has a new version available, you have two options: 
+
+* Upgrade now and generally disrupt what you are doing
+* Ignore and continue to run outdated, potentially buggy and insecure software, and get annoyed the next time you launch the application.
+
+While I like upgrading my software as much as the next person, I launch an application for a reason; to use it - instead the application forces me to choose between performing the task at hand or get the latest version of the software. You know what, I want both!
+
+
+h2. Possible solutions
+
+h3. Update after use
+
+Instead of asking me to update an application when I am actually trying to use it, how about dealing with the update after I am is done using the application?
+
+This way, the upgrade dialog could appear when I quit the application, and the update would take place while I am doing my work in another application. A much smoother experience whose only interruption is easily dealt with. 
+
+It might, however, prove to be quite frustrating when you attempt to shut down your computer and all running applications want to update themselves. Also, OS X users are known to never actually shut down applications and also never restart their machines, so they would end up never updating.
+
+
+h3. Background update
+
+A variation of the above would be to still ask me, the user, when I launch the application, but allow me to say "Yes, I want to update, please download and update in the background while I continue with my task at hand". The actual update then happens after I quit the application, making the entire process almost invisible to me.
+
+
+h3. Out of band updates
+
+We could also move the application update process out of the actual applications themselves. This strategy is known from the iTunes App store, where updates to all installed applications happen in the background while you're doing other stuff. Smooth and seamless and allows you to maintain your installed software when /you/ are ready for it.
+
+The process in itself is probably the smoothest offered, but it also bears the penalty of centralization. This software updater application somehow needs to know about all independent and unique applications you have installed and be able to update them.
+
+Larger software vendors like Adobe have taken this approach and created their own - usually pretty crappy - updater applications. I would love to see something kickass here - preferably from the ISV community, but it could also be interesting seeing Apple build this into their own Software Updater app (or in the Windows equivalent if one exists).
+
+
+Now, excuse me, I have to update my blogging application...

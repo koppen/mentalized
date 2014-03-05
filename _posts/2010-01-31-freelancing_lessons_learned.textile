@@ -1,0 +1,56 @@
+---
+layout: post
+title: Freelancing lessons learned
+date: '2010-01-31 20:21:00 +0100'
+mt_id: 2014
+categories:
+- business
+---
+A long long time ago, "I quit my great job":http://mentalized.net/journal/2008/11/20/side_job_versus_dayjob/ at "BiQ":http://biq.dk to live primarily of my "freelance Ruby on Rails development work":http://substancelab.com.
+
+It's one of the best decisions I've ever made.
+
+Being directly responsible for my own income has been fun, empowering, fulfilling, and pretty damn scary. I've met lots of great people, worked with "great customers on great projects":http://substancelab.com/work, and I've learned a lot of lessons in the process. Allow me to share a few of those lessons with you.
+
+
+h2. Your network is important
+
+I am a geek. I am not particularly outgoing. Small talk is not a forté of mine. 
+
+However, as a freelancer, entrepreneur, or anyone running a business you cannot isolate yourself in a dark basement producing high quality work. You need to get out of your chair and meet people - partly in order to stay sane and get outside influences, but definitely also because your network is very important to your business.
+
+I have gotten the majority of my customers through my network. If you provide a great service, your previous customers will happily recommend you and your coworkers will happily refer clients you. If you're a great person, your friends are going to talk about you. 
+
+Leverage your network, and don't forget to make yourself available for them as well.
+
+
+h2. Running a business will consume you
+
+One of the things I have been most surprised by, is how much I think about the company. 
+
+There are always a ton of things to think about; processes that could be improved, ideas that might be worth pursuing, people to get in touch with.
+
+Whenever I have some downtime; doing the dishes, walking the dog, watching television or in some other way allow my mind to wander, it tends to wander towards Substance Lab.
+
+
+h2. You won't bill out as many hours as you think
+
+Many other people have written about this point in length, but it is important enough to bear repeating. 
+
+If you plan on working reasonable hours - and you should - you cannot expect to work 8 billable hours per day. There are so many other tasks that you need to take care of, that a part of running the business. Admin, taxes, sales, marketing - "Jon Hicks have a longer list":http://hicksdesign.co.uk/journal/why-you-can-never-work-full-time-.
+
+I have, on rare occasions been able to work 6-7 billable hours in a day, but more realistically, I count on around 3-4 billable hours on any given day.
+
+
+h2. Scheduling is really hard
+
+Things will take longer than you think. Period. Couple that with the fact that you probably won't be able to work as many hours as you figure, and you have a scheduling problem on your hands.
+
+You want to minimize the amount of time without client work. But at the same time you need to leave buffers in place for when your estimates are flat out wrong or when something goes wrong and needs to be dealt with.
+
+I wish I had any words of wisdom to dish out that would instantly transform you - well, myself - into a scheduling demi-god. Unfortunately, I don't. For now, I am relying on optimism and a lot of running really fast when things get tight - hardly optimal.
+
+
+h2. I've shown you mine...
+
+That's just a few of the lessons I've learned over the last years of freelancing. If you do any freelancing or run your own business, what have you learned? What would you tell someone who's thinking about starting out on their own?

@@ -1,0 +1,32 @@
+---
+layout: post
+title: Introducing Progress Wars
+date: '2010-03-15 13:36:48 +0100'
+mt_id: 2030
+categories:
+- projects
+- games
+---
+Today, I am stoked to bring you "Progress Wars":http://progresswars.com - the ultimate game of progression.
+
+If you enjoy spending time on "Facebook":http://facebook.com "games" like Mafia/Pirate/Ninja/Viking Wars/Clan/whatever you'll most certainly be thrilled by "Progress Wars":http://progresswars.com!
+
+* Unique gameplay experience
+* Unlimited amount of missions
+* Play as much as you want, when you want
+* No need to invest time you don't have
+* Super simple learning curve - anyone can join
+* Advanced algorithms tailors missions to your playing style (patent pending)
+* It is absolutely free to play
+* Progressive, automated difficulty levels
+
+I have analyzed popular Facebook games and distilled their enticing gameplay into their core game mechanics. What's left is only the stuff that makes a game like Mafia Wars tick - none of the fluff. The result is "Progress Wars":http://progresswars.com.
+
+
+<!--more-->
+
+h2. Aside
+
+Progress Wars is the result of a lazy Sunday and a desire to point out the pointlessness of many casual games. I've had this idea ruminating in my head for a while, but "this Penny Arcade strip":http://www.penny-arcade.com/comic/2010/3/12/ finally triggered me to actually implement it.
+
+On the techno-babble side of things, it's "Rails 3":http://rubyonrails.org with "Haml":http://haml-lang.com, "Sass":http://sass-lang.com/ running on a free "Heroku":http://heroku.com plan. Client-side it's "HTML5'ish":http://en.wikipedia.org/wiki/HTML5 with liberal use of "CSS3":http://www.css3.info/ aided by "jQuery":http://jquery.org/.

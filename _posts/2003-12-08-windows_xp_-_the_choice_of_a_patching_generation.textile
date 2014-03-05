@@ -1,0 +1,9 @@
+---
+layout: post
+title: Windows XP - The choice of a patching generation
+date: '2003-12-08 11:48:32 +0100'
+mt_id: 767
+categories:
+- technology
+---
+<img src="/journal/2003/12/08/windows_xp_the_choice_of_a_patching_generation/hotfixes.png" alt="A few hotfixes for XP..." />

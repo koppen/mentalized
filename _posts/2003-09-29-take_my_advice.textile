@@ -1,0 +1,9 @@
+---
+layout: post
+title: Take my advice
+date: '2003-09-29 17:31:19 +0200'
+mt_id: 751
+categories:
+- technology
+---
+Do not take anything for granted. Verify your backup routines work as intended.

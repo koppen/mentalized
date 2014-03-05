@@ -1,0 +1,9 @@
+---
+layout: post
+title: Mozilla search plug-ins
+date: '2005-06-11 23:39:44 +0200'
+mt_id: 1339
+categories:
+- projects
+---
+Cool, I've gotten 3 search plug-ins in the "Mycroft project":http://mycroft.mozdev.org/: "2 for EverQuest database Lucy":http://mycroft.mozdev.org/download.html?name=lucy&submitform=Find+search+plugins, and "one for BiQ":http://mycroft.mozdev.org/download.html?name=biq&submitform=Find+search+plugins . 

@@ -1,0 +1,21 @@
+---
+layout: post
+title: Acid2 test is live.
+date: '2005-04-14 09:07:58 +0200'
+mt_id: 1289
+categories:
+- webdesign
+- technology
+---
+A month ago Opera CTO, Håkon Wium Lie, and WaSP "publically challenged Microsoft(The Acid2 Challenge to Microsoft)":http://news.com.com/The%20Acid2%20challenge%20to%20Microsoft/2010-1032_3-5618723.html?tag=nefd.ac and all other browser vendors to get their asses in gear and their browsers CSS support up to snuff. Now the goal line has been unveiled.
+
+
+<!--more-->
+
+The barrier that new versions of browsers will be held against is called "the Acid2 test(Acid2 test)":http://webstandards.org/act/acid2/test.html and it was "published yesterday(WaSP Press Release)":http://webstandards.org/press/releases/archive/2005/04/13/.
+
+Every browser I've thrown at it so far has failed. IE6 horribly so, Firefox 1 got fairly close, and Opera 7 was somewhere in between. Safari apparently comes reasonably close too.
+
+Already now, the test has netted improvements to Safari (talk about commitment!) as "reported by Dave Hyatt(Surfin' Safari)":http://weblogs.mozillazine.org/hyatt/archives/2005_04.html#007932. It will be interesting to follow the various browser developer blogs to see how they react and how much progress they make.
+
+Who will be first to release a browser with full Acid 2 support? Any bets?

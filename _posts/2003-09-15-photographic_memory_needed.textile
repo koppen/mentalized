@@ -1,0 +1,18 @@
+---
+layout: post
+title: Photographic memory needed
+date: '2003-09-15 14:42:57 +0200'
+mt_id: 744
+categories:
+- browsers
+- usability
+---
+Uninstalling the Tabbrowser Extension from Firebird gave me "a popup(Screenshot)":/journal/archives/2003/09/15/photographic_memory_needed/firebird_popup.png with the following message:
+
+bq. Unregistration succeed.
+Please close the browser, and remove the following file:
+"C:\Documents and Settings\Jakob\Application Data\Phoenix\Profiles\default\hqway7db.slt\chrome\tabextentions.jar"
+
+First of all, I shouldn't have to close my browser for this. Second, I shouldn't have to remove the file manually. And third, if I do close the browser the popup will disappear and there's no way in hell I can remember that filepath.
+
+I hope this procedure will get a lot easier in the final Firebird. How about at least being able to copy the path to the clipboard? Or even better, a button that opens the folder for me.

@@ -1,0 +1,85 @@
+---
+layout: post
+title: Ssraeshza Temple notes
+date: '2004-03-05 11:30:39 +0100'
+mt_id: 1267
+categories:
+- games
+---
+Collection of notes about Ssraeshza Temple, gathered in preparation of moving into Ssra
+
+<!--more-->
+
+BRING A ROGUE if you're doing ssra - there's mana suck traps galore that need to be disarmed and they're very nasty and unresistable.
+
+
+h2. Important mobs 
+
+Ordered roughly by strength
+
+h4. "Rhag'Zhezum(Rhag 1)":http://eqbeastiary.allakhazam.com/search.shtml?id=7828 (Rhag 1) 
+
+* Hits 150-250s, flurries, not slowable 
+* No keys needed
+
+The easiest raid mobs in Ssra. No keys needed. Killing Rhag 1 immediatly spawns Rhag 2.
+
+
+h4. "Rhag'Mozdezh(Rhag 2)":http://eqbeastiary.allakhazam.com/search.shtml?id=7829 (Rhag 2)
+
+* Hits 300-400s, rampages, slowable 
+* No keys needed
+* Located on the 2nd floor
+
+The easiest raid mobs in Ssra. No keys needed. Killing Rhag 2 spawns the Arch Lich.
+
+
+h4. "A Glyphed Covered Serpent(Glyphed)":http://eqbeastiary.allakhazam.com/search.shtml?id=7601 (Glyphed)
+
+* Hits 300s, slowable 
+* AE: feign death, resistable at 500 MR, single target knockback/spin, dmf the MA 
+* No keys needed
+* Located in the basement
+
+Just kill the basement named (Rhags and Rhozths) in under an hour to spawn Glyphed. Kill Glyphed to spawn Exiled. Glyphed and Exiled are both pretty easy. 
+
+
+h4. "Vyzh'dra the Exiled(Exiled)":http://eqbeastiary.allakhazam.com/search.shtml?id=7604 (Exiled)
+
+* Hits 400s, slowable
+* AE: fire based fear, has single target 20k HT, resistable with high FR 
+* Death touches with 2 minute interval
+* No keys needed.
+* Located in the basement
+
+kill Exiled to spawn Cursed. Glyphed and Exiled are both pretty easy. 
+
+
+h4. "Vyzh`dra the Cursed(Cursed)":http://eqbeastiary.allakhazam.com/search.shtml?id=7830 (Cursed)
+
+* Hits 500s, slowable
+* AE: DR based Dot for 4k or so over a period of 20 seconds. MR based ae charm. 
+* No keys needed
+* Located in the basement
+
+Glyphed and Exiled are both pretty easy. Cursed is much harder but once you know how to kill him he's also really easy.
+
+I might add Cursed guy's charm spell is Disease based so be sure to buff that up on the entire raid but as for the AE Dot spell don't even bother trying to resist rather once he is all snug in a corner being tanked all the range nukers come from behind the wall and nuke at max range. The AE DoT will never hit at max range, you hardly need max range to avoid it, and with DR buffed up the charm should never hit either seeing as how I resist it most times with like 180 DR. This has got to be one of the best encounters they've made so far cus it's right there in the basement where anyone can wander in late and join the fun and the loot is insane if you get a good drop table. One time my guild killed it we got a double drop of the FT3 Geomancy stones off of Exiled then we got double drops of the range book that has FT4 from Cursed, plus bout 4 bloodfrenzys in all the times we've killed...
+
+1 tank 1 bard 1 shaman 3 clerics is best tank group make up, if you can make 2 of those groups you've won the fight. 400mr/dr is adequate, 500mr/dr renders the MA virtually impervious to all of cursed's AE's.
+
+Have someone call the AE dot, it goes off every 18 seconds, using a call button with /pause 140 should give your raiders enough time to run out of the fight and avoid the dot. Once dot is fired call them back in.
+
+As a rule of thumb, no pets. And if anyone gets charmed, kill them, they are obviously asking for death by letting themselves get charmed. It makes the long dull fight a little more fun when you get to take periodic breaks to kill your charmed friends off   
+
+
+
+h4. "Arch Lich Rhag`Zadune (AL/Arch Lich)":http://eqbeastiary.allakhazam.com/search.shtml?id=7827 (AL/Arch Lich)
+
+* Hits 500s, rampages a lot, not slowable 
+* AE: 100hp/tick dot. GRC fixes, use pillars in room to hide casters 
+* Permarooted
+* Need "Zhazuzh's key(Item: Zhazuzh's Key)":http://everquest.allakhazam.com/db/item.html?item=22932 - one for the entire raid
+* Located on the third floor
+
+Takes a single key to open his door and let an entire raid through. Key is dropped off of one of the Commanders (I want

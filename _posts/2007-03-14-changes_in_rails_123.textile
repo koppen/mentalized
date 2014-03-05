@@ -1,0 +1,50 @@
+---
+layout: post
+title: Changes in Rails 1.2.3
+date: '2007-03-14 09:42:51 +0100'
+mt_id: 1797
+categories:
+- programming
+- technology
+---
+"Rails 1.2.3 was released today":http://weblog.rubyonrails.com/2007/3/14/rails-1-2-3-compatible-with-ruby-1-8-6-and-other-fixes, primarily to fix a few bugs and compatibility issues with the recently released Ruby 1.8.6. 
+
+Since the Rails team doesn't provide an aggregate changelog and I was going through the individual changelogs to see what had changed, I figured I might as well post the changes for y'all to see.
+
+h2. ActionMailer
+
+* Depend on Action Pack 1.13.3
+
+
+h2. ActionPack
+
+* Fix a bug in Routing where a parameter taken from the path of the current request could not be used as a query parameter for the next. Closes #6752. [Nicholas Seckar] 
+* session_enabled? works with session :off.  #6680 [Catfish]
+* Performance: patch cgi/session to require digest/md5 once rather than per #create_new_id.  [Stefan Kaes]
+
+
+h2. ActionWebservice
+
+* Depend on Action Pack 1.13.3
+
+
+h2. ActiveRecord
+
+* Allow a polymorphic :source for has_many :through associations. Closes #7143 [protocool]
+* Consistently quote primary key column names.  #7763 [toolmantim]
+* Fixtures: fix YAML ordered map support.  #2665 [Manuel Holtgrewe, nfbuckley]
+* Fix has_many :through << with custom foreign keys.  #6466, #7153 [naffis, Rich Collins]
+
+
+h2. ActiveSupport
+
+* Ruby 1.8.6 and 1.9 define private Time#to_date and #to_datetime; make them public for compatibility.  [Jeremy Kemper]
+* Deprecation: warn on stderr if RAILS_DEFAULT_LOGGER isn't set yet.  [Jeremy Kemper]
+
+
+h2. RailTies
+
+* Ruby 1.8.6 compatibility
+* Windows: include MinGW in RUBY_PLATFORM check.  #2982 [okkez000@gmail.com, Kaspar Schiess]
+* Stop swallowing errors during rake test [Koz]	
+

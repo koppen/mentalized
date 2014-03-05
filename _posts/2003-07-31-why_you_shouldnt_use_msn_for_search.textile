@@ -1,0 +1,21 @@
+---
+layout: post
+title: Why you shouldn't use MSN for search
+date: '2003-07-31 15:25:52 +0200'
+mt_id: 721
+categories:
+- technology
+---
+Going through my referrerlogs I noticed a person coming from an <a href="http://search.msn.dk/results.aspx?cp=1252&PI=9542&DI=62&FORM=MSNH&q=tastatur" title="MSN Search for 'tastatur'">MSN search for "keyboard"</a> ("tastatur" in danish). Investigating a bit, I found out that MSN Search ranks me as number 4(!) using that searchterm. To be fair, <a href="http://www.mentalized.net/mt/mt-search.cgi?IncludeBlogs=1&search=keyboard" title="Search Mentalized for 'keyboard'">I have mentioned keyboards</a> on occasion, so I can see why my site might be relevant, but I place higher than many manufacturers and retailers of keyboards.
+
+However, the fun will reach no end. The description on MSN Search of my website is (translated - <a href="http://www.mentalized.net/journal/archives/technology/why_you_shouldnt_use_msn_for_search/msnsearch.gif" title="Screenshot of the result from MSN">original here</a>):
+
+bq. Jakob Skjerning invites you inside and presents his weblog. Among other things, you can read about his experiences with his new keyboard or see how you can wash your clothes via the Internet.
+
+Oh yeah, that description is spot on, keyboards and online washing machines, that's what Mentalized is all about. Whoever has written that? It certainly isn't me. Does MSN have people sitting around writing descriptions for every website in their index?
+
+Anyways, ignoring the irrelevance of my website for that search and the out-of-sync description of my website, MSN Search makes yet another mistake; The link takes the user to <a href="http://www.mentalized.net/journal/" title="Mentalized/Journal">my journal index</a>. Not to <a href="http://www.mentalized.net/journal/archives/technology/adjusting_ergonomically/" title="Adjusting Ergonomically">the post</a> I wrote about a keyboard, not even to a page containing the word that was searched for. 
+
+Three strikes for MSN Search, you're out. Since Microsoft wants to become a major player on the searchengine market, they better shape up and create an engine that can deliver some proper results. I am guessing the major reason any people use MSN Search is because it will per default be invoked from the addressbar of IE, not because it is the better choice.
+
+In semi-related news, Google thinks I am authorative on <a href="http://www.google.com/search?hl=en&lr=&ie=UTF-8&oe=utf-8&safe=off&q=%22butts+in+tight+leather+pants%22&btnG=Google+Search" title="Google search: butts in tight leather">"butts in tight leather"</a>, hehe.

@@ -1,0 +1,33 @@
+---
+layout: post
+title: In defense of the scrollbar
+date: '2011-06-09 09:07:46 +0200'
+mt_id: 2109
+categories:
+- usability
+- software
+---
+I don't get Apples insistence on getting rid of scrollbars in OS X. What have they got against them?
+
+They take up screen estate, sure, but seeing how the smallest Mac display has a resolution of 1280 by 800 (on the 13" Macbook) a scrollbar really doesn't take up that large a piece of the total pixels. And with the new Lion/iOS style they are practically invisible unless you look for them.
+
+
+<!--more-->
+
+h2. You need scrollbars
+
+Without a visible scrollbar you have no clue that scrolling is possible and you lose any sense of what and how big a part of a document you're looking at (these are pretty much my objections to "endless scrolling":http://patternry.com/p=endless-scrolling/ as well). 
+
+I appreciate the tradeoff on the iPhone. Perhaps even on the iPad. There, screen real estate is precious, and we're used to manipulating the content directly. Not so on the desk-/laptop.
+
+
+h2. Consistency isn't a goal in itself
+
+I get it, Apple wants to make their OS's more consistent. Using one device should be like using the other. This seems like change for the sake of change, not actually solving any problems. 
+
+
+h2. Options become defaults become The One Way
+
+At least it's an option for now; a subtle indication that Apple knows the case isn't clear cut. I just wish the default was to show scrollbars so people who don't like the looks of them can turn them off.
+
+On the plus side, this is going to make the illusion of looping websites like "unfold.no":http://unfold.no totally impressive.

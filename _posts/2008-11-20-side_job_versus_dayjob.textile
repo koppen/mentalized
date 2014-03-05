@@ -1,0 +1,26 @@
+---
+layout: post
+title: Side job versus dayjob
+date: '2008-11-20 15:56:27 +0100'
+mt_id: 1997
+categories:
+- life
+- webdesign
+- usability
+- software
+- projects
+- programming
+- business
+---
+I have been moonlighting as a "freelance webdeveloper":http://substancelab.com for the last couple of years. The first year, I was using my spare evenings and weekends until I began having trouble finding enough time to dedicate to new projects. 
+
+My reaction was to cut down on "my dayjob":http://biq.dk, leaving me with more time to focus on "my own clients":http://substancelab.com/work/ (and less time to focus on BiQ, forcing us to "hire another developer":http://mentalized.net/journal/2007/09/27/biq_is_hiring/).
+
+However, it was only a matter of time before I'd run into that luxury problem again. Once again, having to turn down cool new projects due to lack of time left me with the same choice I took roughly a year ago. And once again, I decided to cut down on my dayjob.
+
+
+h2. Half a dayjob minus half a day job equals...?
+
+Do the math and you'll notice that it leaves me no time to work for BiQ. And you'd be correct. Starting this December, I will be a full time "independent web application developer":http://substancelab.com. I am super excited (and slightly scared) about this change. 
+
+If you have a great idea for a website, why don't you "drop me a line":mailto:jakob@mentalized.net and we'll talk about it - I love giving good ideas the execution they deserve.

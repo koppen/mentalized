@@ -1,0 +1,33 @@
+---
+layout: post
+title: Firefox 2 dot oh
+date: '2006-10-25 09:14:13 +0200'
+mt_id: 1724
+categories:
+- browsers
+---
+"Firefox 2.0 has been released. Go get it. Now":http://getfirefox.com. 
+
+h2. First impressions
+
+h3. Subscribing to feeds
+
+Looks like subscribing to feeds got a whole lot friendlier. This is what it looks like for my feed:
+
+!http://mentalized.net/files/journal/firefox2/subscribe_to_feed.gif!
+
+Sure beats the more or less raw XML you used to get in most cases.
+
+h3. New access key modifier keys
+
+Access keys are no longer activated by using the alt key alone (on Windows at least). You now need to use both alt and shift, which should mean a whole lot less of the usual browser shortcuts get hijacked by websites using access keys.
+
+h3. Yellow fade technique
+
+Firefox 2.0 uses a yellow fade technique - or orange fade technique in this case - to illustrate the fact that you have opened a new tab that isn't currently visible in the tab bar. It fades the tab bar navigation arrow from orange to it's regular state:
+
+!http://mentalized.net/files/journal/firefox2/yft.gif!
+
+Will post more good stuff as I discover it.
+
+Oh, yeah, a new version of "some other browser":http://www.microsoft.com/windows/ie/ also got released recently.

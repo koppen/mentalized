@@ -1,0 +1,22 @@
+---
+layout: post
+title: Accepting online subscriptions is a mess
+date: '2006-12-07 16:56:09 +0100'
+mt_id: 1755
+categories:
+- business
+- programming
+- projects
+- technology
+---
+Payment gateways, merchant accounts, transaction fees, statements, grraaaah, it's driving me bonkers.
+
+Here's the deal: I have a client wanting to sell subscriptions for his web application. Nothing fancy, everyone's doing it. It should be easy finding a payment gateway supporting that, right? I imagine it is once you manage to wrap your brain around the confusion that is payment gateways and merchant accounts. 
+
+But then you have to fight the websites of the payment gateway provider to figure out their pricing. Most payment gateway sites suck. They're confusing and in no way makes it easy for a regular person to figure out what options to pick. They're a maze of add-ons and options, and rarely makes it easy for regular Eddie the Entrepreneur figuring out what to buy.
+
+Pay in mind that a lot of these payment providers take a fair chunk of a startups cash. Setup fees, monthly fees, statement fees, transaction fees, you name it. It feels like shopping for a cellphone provider.
+
+With all the startups popping up all over the place there has got to be a massive market opportunity for someone who manages to make getting started taking payments dead easy. And if the only fees were a setup fee and a percentage of each transaction, I bet startups would be crawling all over the service.
+
+Until then, we have to settle for the confusing mess that's online automated recurring payments.

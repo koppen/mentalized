@@ -1,0 +1,17 @@
+---
+layout: post
+title: Looking for printer-shopping advice
+date: '2005-11-23 16:43:05 +0100'
+mt_id: 1474
+categories:
+- technology
+---
+The girlfriend and I are looking at buying a new printer. Our main criteria is that the printer must be usable from both Windows and OS X (and deliver nice quality prints, obviously). Things that would be nice in addition to that:
+
+* Network connectivity, so we don't have to have one of the PCs turned on to print from the iBook
+* Color printing. Needs to have separate color/black cartridges in that case.
+* Scanning ability
+
+Any recommendations?
+
+*Update:* "We bought a Brother":http://mentalized.net/journal/2006/01/24/printer_followup/

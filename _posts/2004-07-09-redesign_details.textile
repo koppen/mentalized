@@ -1,0 +1,29 @@
+---
+layout: post
+title: Redesign details
+date: '2004-07-09 16:23:29 +0200'
+mt_id: 808
+categories:
+- webdesign
+- projects
+- mentalizednet
+---
+Yesterdays redesign post was a bit short since I was lazy and in a hurry. Today I bring you a bit more details about the new layout. Easy now, try to control your excitement.
+
+<!--more-->
+
+h2. Header image
+
+The (current) header image is a shot from the movie, Eternal Sunshine of the Spotless Mind. I liked the movie and I really like the shot for it's simplicity and quiet harmony. So there it is.
+
+
+h2. Link styles
+
+Traditionally I have been using one color for non-visited links, and a less contrasty variant of the same color for visited links. For this design I wanted to move away from this. Aside from using different colors (which it appears might be a bit _too_ different) to distinquish between a links visited-state, visited links use a dashed underline instead of the solid underline of non-visited links. 
+
+I considered using strikethrough or checkmarks or something like it to indicate a visited link, however none of those really suits me. Strikethrough tends to visually conflict with the &lt;del&gt; tag and I plain don't like the look, and checkmarks make links look like something that's part of a To-Do list, which they hardly are.
+
+
+h2. Inspiration nodes
+
+Credit should go where credit is due. The current incarnation of this website has been vastly inspired by "Binary Bonsai(Binary Bonsai)":http://binarybonsai.com, "Senior PGA Championship(The 66th Annual Senior PGA Championship)":http://www.pga.com/seniorpga/2005/, and "JustWatchTheSky(Justwatchthesky)":http://justwatchthesky.com/. Some ideas lifted from "Mezzoblue(Mezzoblue)":http://mezzoblue.com and "Asterisk(Asterisk)":http://7nights.com/asterisk/. When I grow up I want to be like you guys.

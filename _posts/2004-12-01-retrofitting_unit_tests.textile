@@ -1,0 +1,17 @@
+---
+layout: post
+title: Retrofitting unit tests
+date: '2004-12-01 13:54:38 +0100'
+mt_id: 841
+categories:
+- programming
+---
+I spent a good deal of yesterday adding testcases to the recently added unittests on "BiQ(BiQ)":http://biq.dk. 
+
+I really like the way unit testing invites me to break my code by coming up with unhandled cases. I basically went through my functions, reading the descriptions I made ages ago, followed by me hatching evil plans for torturing my code ("How about I pass you an object instead of a string, you pesky function, how'd you like that, eh? EH?").
+
+And it worked. 
+
+I found and fixed a bunch of minor bugs that simply didn't get exposed in our current codebase. It's likely they would never have been until we decide to use the function in some obscure, unexpected way months from now when I've forgot how the function was supposed to work. 
+
+I still have ways to go before I get into a real "test-driven development(Amazon)":http://www.amazon.com/exec/obidos/ASIN/0321146530/mentalized-20 state of mind, though. I guess I should re-read the book now I've actually got some hands-on experience with this.

@@ -1,0 +1,128 @@
+---
+layout: post
+title: Simplifying my Rails views
+date: '2006-12-08 15:46:52 +0100'
+mt_id: 1757
+categories:
+- programming
+---
+"Rails":http://www.rubyonrails.org views are powerful creatures. You have the full power of "Ruby":http://ruby-lang.org right at your fingertips, which makes it easy to write too much Ruby code in your view making them become cluttered and hard to read. 
+
+The following is the tale of how I cleaned up a small part of a single view in "BiQ":http://www.biq.dk after having made a dirty mess of it. 
+
++Updated: For some reason my blogging setup made it impossible to read the code in Safari. I apologize for that, and I have hacked a solution by adding spaces in certain places. Unfortunately that makes the code invalid Ruby, but at least it can be read by you.+
+
+h2. Short description of the domain. 
+
+BiQ has a bunch of Entities (which can be either people or companies). Each Entity is potentially connected to other Entities through a bunch of Relations. 
+
+Each Relation is of a specific type that describes what kind of relationship the Relation models (for example it can be "Bob is a board member of MegaCorp Inc"). A relation is also considered to active or inactive depending on the value of it's end date.
+
+
+h2. The problem at hand
+
+In one of my views, I need to display a list of relations of a few specific types for an entity. In my view this looks like (roughly, some danish translated):
+
+bc(ruby). < % unless @company.find_relations(:active, :incoming, :only => :boardmember).empty? %&gt;
+  <h2>Directors</h2>
+  <table>
+    < % for relation in @company.find_relations(:active, :incoming, :only => :boarddirectors) %>
+      <tr>
+        <td>< %= link_to h(relation.other_entity.name), :controller => 'entities', :id => relation.other_entity.id %></td>
+        <td>< %= h(relation.value.capitalize) rescue nil %></td>
+        <td>< %= h(relation.started_on) %></td>
+      </tr>
+    < % end %>
+  </table>
+< % end %>
+< % unless @company.find_relations(:active, :incoming, :only => :boardmember).empty? %>
+  <h2>Board members</h2>
+  <table>
+    < % for relation in @company.find_relations(:active, :incoming, :only => :boardmember) %>
+      <tr>
+        <td>< %= link_to h(relation.other_entity.name), :controller => 'entities', :id => relation.other_entity.id %></td>
+        <td>< %= h(relation.value.capitalize) rescue nil %></td>
+	<td>< %= h(relation.started_on) %></td>
+      </tr>
+    < % end %>
+  </table>
+< % end %>
+
+Looking at the above code it is hard to look past the fact that it's extremely repetitive. The above shows only 2 tables, I have 2 more in the view looking exactly like the rest.
+
+
+h2. Time to extract to a partial
+
+Seeing how the above code was a part of a view, I start by extracting it into a partial. The process is simple:
+
+# Write the render(:partial) line above the partial you're about to extract.
+# Cut and paste the code and HTML to a newly created partial.
+
+This gives me a partial looking like: 
+
+bc(ruby). < % unless @company.find_relations(:active, :incoming, :only => :boardmember).empty? %>
+  <h2>Board members</h2>
+  <table>
+    < % for relation in @company.find_relations(:active, :incoming, :only => :boardmember) %>
+      <tr>
+        <td>< %= link_to h(relation.other_entity.name), :controller => 'entities', :id => relation.other_entity.id %></td>
+        <td>< %= h(relation.value.capitalize) rescue nil %></td>
+        <td>< %= h(relation.started_on) %></td>
+      </tr>
+    < % end %>
+  </table>
+< % end %>
+
+In the above, I have two calls to @company.find_relations which are identical. Those two calls also happen to be different for each table I need to render, so it makes a lot of sense moving them into the calling view, passing the result to partial as a local.
+
+The other non-repeating element is the headline (&lt;h2&gt;Board members&lt;/h2&gt; in the above). My initial thought was to pass the value of the headline to the partial, however thinking through my models  I realized I could get the value from the list of relations.
+
+Applying these changes leaves me with a partial looking like this: 
+
+bc(ruby html). < % unless relations.empty? %>
+  <h2>< %= relations.collect {|relation| relation.relation_type.title}.uniq.sort.to_sentence %></h2>
+  <table>
+    < % for relation in relations) %>
+      <tr>
+        <td>< %= link_to h(relation.other_entity.name), :controller => 'entities', :id => relation.other_entity.id %></td>
+        <td>< %= h(relation.value.capitalize) rescue nil %></td>
+        <td>< %= h(relation.started_on) %></td>
+      </tr>
+    < % end %>
+  </table>
+< % end %>
+
+And a view that now looks like this:
+
+bc(ruby html). < %= render(:partial => 'relations', :locals => {:relations => @company.find_relations(:active, :incoming, :only => :boarddirector)}) %>
+< %= render(:partial => 'relations', :locals => {:relations => @company.find_relations(:active, :incoming, :only => :boardmember)}) %>
+
+
+h2. Ooh, I get by with a little help...
+
+While the view is now a lot better there's still a lot of repeated stuff. Comparing the above, the only thing that actually changes is the value passed to the :only option.
+
+To me, that makes each line a perfect candidate for extracting into a helper methd, which I can call like this:
+
+bc(ruby html). < %= relations_for(@company, :boarddirector) %>
+< %= relations_for(@company, :boardmember) %>
+
+(For some reason my Movable Type + Textilize setup is adding semicolons at the end of the lines above. They're not really needed there, trust me)
+
+Yes, now we're talking! I just need to create that helper. Luckily it almost writes itself, since I have already defined the interface for it by writing out how I want to call it:
+
+bc(ruby). def relations_for(entity, entity_type)
+  relations = entity.find_relations(:active, :incoming, :only => entity_type)
+  render(:partial => 'relations', :locals => {:relations => relations})
+end
+
+Voila, everything works. How do I know? Simple; All the while refactoring as described above, ZenTest have been running my test suite automatically testing every single change I've made.
+
+
+h2. Issues best left for the future
+
+There is one issue with the above helper (well, there are likely quite a few), that's bound to hit me in the near future: It can only show active and incoming relations. 
+
+While it is tempting to go in and rewrite the helper to have it accept those extra parameters, the fact at this point is that I don't need that functionality.
+
+I can rewrite the helper when I have an actual need for it, and instead spend the time writing a blog entry detailing how I refactored my view from oodles of repetitive code to an ultraclean, readable view.

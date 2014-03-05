@@ -1,0 +1,34 @@
+---
+layout: post
+title: Monitor hunting, written out loud
+date: '2003-11-11 19:51:55 +0100'
+mt_id: 760
+categories:
+- webdesign
+---
+Unfortunatly I've found myself hunting for a new monitor. The old one decided to no longer function. I had pretty much already decided on a 19" CRT (suits my needs just fine and is affordable), and I had been recommended a Samsung.
+
+A quick look at a "danish hardware price index(EDBpriser)":http://www.edbpriser.dk/ gave me the name of one that fit my price range, the SyncMaster 959NF. The price might be right, but I wanted some more details, in particular what refresh rates it could display 1280x1024 in. 
+
+And where would it be better to look than at "Samsungs website(Samsung)":http://www.samsung.com website. Or so I thought...
+
+For some reason (previously lousy experiences with sites like that), I decided to write down my thoughts and actions in regards to finding this info. I basically conducted a "Writing out loud user test" with myself as subject.
+
+Samsung, this is my gift to you: A free user test of your website, performed by an actual user with an actual goal.
+
+<!--more-->
+
+h2. My notes.
+
+# Went to samsung.com. I am looking for a product ::click Products in the top menu::
+# ::Click monitors on that page::
+# Hm, 959NF isn't mentioned in their product list. Oh, there's a models dropdown list, it might be in that.
+# Hm, no, those models there are exactly the same as in the other list.
+# Perhaps "More Models on the Global Site" is a link (funny, I thought I was on the global site...)? Nope, not a link, even though the color might suggest it.
+# Ah, there's a "Product finder" box in the left side, looks like a search box with an arrow and everything. Hm, no, it was a link. ::Click::
+# Oops, that gave me a popup window. An empty one, odd ::close window::
+# Nothing in the leftside menu looks interesting, neither in the top menu.
+# Perhaps the model is special for Denmark, let's check the danish site in the "See products for your country" listing. Hm, no "Denmark" in that listing. 
+# Oops, what happened there, some other site loaded when I closed the dropdown list.
+# Err, I am now on samsung.se, funny. I am still looking at monitors though. Might as well look here, that previous site didn't have my info.
+# Alright, here's another "Chose model/V

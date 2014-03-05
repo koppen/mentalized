@@ -1,0 +1,15 @@
+---
+layout: post
+title: Tearing down and building up again
+date: '2004-07-08 17:56:32 +0200'
+mt_id: 806
+categories:
+- webdesign
+- mentalizednet
+- projects
+---
+For a long time I have been contemplating redesigning this website. Not because it really needed it (I actually quite liked the old look), however I had to redesign _something_. So I did.
+
+There are still a few quirks to iron out, obviously, including making IE render the site as I want it to. I might get around to that eventually.
+
+Anyways, enjoy, and let me know if something has turned out to be crap.

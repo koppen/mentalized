@@ -1,0 +1,22 @@
+---
+layout: post
+title: The small change that wasn't
+date: '2010-08-10 08:05:14 +0200'
+mt_id: 2053
+categories:
+- programming
+---
+The other day a client of mine asked me to make a small improvement to their application. This was no big deal and only required a single string column with some data being added to a table. An hour development time tops, so I said sure.
+
+But then the all-seeing eye of our system administrator caught my little change. Turns out those normalization forms I once learned about actually matter - who'd have thunk?
+
+
+<!--more-->
+
+I won't pretend to be a database wizard, but let's run some numbers that might be valid. The table had 6+ million rows. Worst case we'd be adding 256 bytes of data to each row. That's 1.5GB of data right there. 
+
+Now, the table is growing with roughly 750K rows every month. That's another 192MB every month. Assuming linear growth, which doesn't look likely, I'd be adding 2GB extra data every year to the database for what was a very insignificant addition.
+
+Add to that the extra storage for backup servers, database slaves, and we've not even considered what would happen to index sizes and query times. Not to mention the downtime we'd incur adding the column.
+
+Sure, 2GB extra isn't all that much in the grand scheme of things, but this was a nice reminder that after a certain point changes to an application becomes harder and more expensive. 

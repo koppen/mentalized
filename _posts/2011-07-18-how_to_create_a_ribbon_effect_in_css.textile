@@ -1,0 +1,73 @@
+---
+layout: post
+title: How to create a ribbon effect in CSS
+date: '2011-07-18 15:14:44 +0200'
+mt_id: 2118
+categories:
+- webdesign
+- technology
+- projects
+- browsers
+---
+When I was implementing the design for "Hvad Bruges Pengene Til ( Hvad bruges dine skattekroner til?)":http://hvadbrugespengenetil.dk I figured it would be interesting to create the ribbon effect using pure CSS.
+
+Turns out it was fairly easy as well, using "CSS generated content (CSS 2.1: Generated content, automatic numbering, and lists)":http://www.w3.org/TR/CSS2/generate.html.
+
+Taking advantage of :before and :after pseudo elements, we can turn squeaky clean markup like
+
+bc(html). <h1 class="ribbon">Ribbon Rocks!</h1>
+
+into
+
+!(This is how the ribbon effect appears)/files/journal/ribbon/ribbon.png!
+
+<!--more-->
+
+"Check out the demo page":/files/journal/ribbon/ribbon.html
+
+h2. Show me the codes
+
+The heavily commented CSS needed for this is:
+
+bc(css). .ribbon {
+  background: #DD8888;
+  /* This allows us to use absolute positioning inside the element */
+  position: relative;
+  /* Setting a width plus padding makes this element expand past the width of the containing element. */
+  width: 100%;
+  padding-left: 50px; /* 50px equals ribbon widths of 30px and article padding of 20px */
+  padding-right: 50px;
+  /* Negative margin positions the ribbon element outside the containing element, creating the illusion of wrapping around it. */
+  margin-left: -50px;
+}
+/* These are the two ribbon "curls". The :before curl is placed to the left, :after to the right */
+.ribbon:before, .ribbon:after {
+  border-color: #444444;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 15px; /* This sets the height of the curls, making it half the width to angle the curls more. */
+  content: ''; /* Tells the browser to actually generate the pseudo element */
+  position: absolute;
+}
+.ribbon:before {
+  /* Position the :before element to the left and below the ribbon element */
+  left: 0;
+  bottom: -15px; /* Equal to the height of the curl */
+  border-left: 30px solid transparent; /* Makes the curl slant right */
+}
+.ribbon:after {
+  /* Position the :after element to the right and below the ribbon element */
+  right: 0;
+  bottom: -15px; /* Equal to the height of the curl */
+  border-right: 30px solid transparent; /* Makes the curl slant left */
+}
+
+h2. How it works
+
+We basically turn the pseudo elements into two new block level elements, absolutely positioning them where we want the ribbon "curls" to show. 
+
+We then draw the curls "using the borders (Border Slants)":http://www.infimum.dk/HTML/slantinfo.html of each element.
+
+Browser support seems pretty good for this and it degrades nicely.
+
+This isn't a revolution by any stretch, neither am I the first to do it. But it is a pretty cool indication of what's possible with generated content.

@@ -1,0 +1,23 @@
+---
+layout: post
+title: My stages of Ruby on Rails acceptance
+date: '2005-10-14 09:21:02 +0200'
+mt_id: 1447
+categories:
+- programming
+---
+Andy Budd has posted a about "the stages of technological acceptance":http://www.andybudd.com/archives/2005/10/the_six_stages_of_technological_acceptance/. They seem to mirror my acceptance of "Ruby":http://ruby-lang.org and "Rails":http://www.rubyonrails.com quite well.
+
+I remember back when "David":http://loudthinking.com showed me Ruby for the first time. Come to think of it, he was probably showing me Rails, but I was blissfully unaware of this. David was as excited and enthusiastic as a kid in a candystore, going "Look! You can do this! Open declarations! Ducktyping! Full Object Orientation! Blocks!". 
+
+I looked at him going "Yes, that's all very fine, but I can do websites in PHP or ASP too, what's the big deal?". Heh, kinda fun thinking about that. Obvious denial, eh?
+
+Next phase is supposed to be anger. I don't recall actually going through anything close to that. My anger phase came as part of my acceptance phase, while "trying to install Ruby and Rails on Debian":/journal/2004/12/01/putting_debian_on_ruby_rails/...
+
+My acceptance phase came when I kept hearing David rave about Rails and seeing him and everybody else release one kickass application after the other. I figured I'd look into it. It was about time to learn a new language anyways, and it couldn't hurt.
+
+From that point, understanding wasn't far away. I think my Point of Understanding was right after Routes was added to Rails. I changed a route around and *blam* - all my links changed accordingly. I swear, I was clapping my hands with glee.
+
+Leading to enthusiasm, which is definatly the phase I am still in. I am sure everyone in my nearest surroundings can attest to this. And I imagine this very weblog shows proof of this too.
+
+I do wonder, though, what's the next stage? Saturation? Boredom? Ignorant Bliss?

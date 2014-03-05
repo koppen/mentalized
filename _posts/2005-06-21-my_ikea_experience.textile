@@ -1,0 +1,29 @@
+---
+layout: post
+title: My IKEA experience
+date: '2005-06-21 15:04:28 +0200'
+mt_id: 1355
+categories:
+- life
+---
+This Saturday was spent mulling around the local IKEA store, picking out the furniture that'll transform my bachelor pad into a couples home. Monday the furniture was delivered and carried (under much complaining and whining by yours truly) the 2 stories up to my flat.
+
+Alas, it turns out the dining table is the wrong color. Now this shouldn't be a problem, since we obviously know we ordered the table we wanted, the guy who took our order simply must've entered the wrong number in their system.
+
+
+<!--more-->
+
+However 2 worries crept into the back of my head:
+
+# Do we have to lug the table through busses and trains to get it back to IKEA or pay bundles for delivery people?
+# Will IKEA even replace the table, seeing how we've opened the boxes, and that we should probably have verified that our order was actually what we wanted?
+
+First thing next morning I head on to the "IKEA website":http://www.ikea.dk, locate a contact form and submit it. Within half an hour I have a reply from a real person (or a very well implemented email bot) asking for some details about the purchase, which I provide him.
+
+With an hour from initial contact I have confirmation that they will replace my table, and that they will call me later the same day to arrange the specifics.
+
+Thumbs up to IKEA for turning what could've easily become a really crappy experience into a surprisingly pleasant minor issue for me.
+
+I hope, however, that I won't have to carry the old table down again, and the new one back up...
+
+Update: The delivery crew has just left. 2 people delivered our new table to the flat and took the faulty, opened packages with them again. I am still left with a pleasant memory of this issue - very nice.

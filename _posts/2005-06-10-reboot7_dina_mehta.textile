@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'reboot7: Dina Mehta'
+date: '2005-06-10 11:36:02 +0200'
+mt_id: 1334
+categories:
+- reboot
+---
+Notes from "Dina Methas":http://dinametha.com speech; Social tools for research & collaboration
+
+<!--more-->
+
+* We need tools that enable us to forget physical borders
+* Social tools foster collaboration and community
+* The tools allowed the Internet community to broadcast real voices, real stories, real emotions in realtime from the Tsunami areas.
+** Cooperation
+** Interdependence on each other
+** A decentralized self-organizing system
+* Social tools is the natural extension of rapid adoptation to chaotic conditions.
+
+h2. Communication and information flows
+
+* Skype
+* Yahoo Messenger
+* Blogger
+* Flickr
+
+h2. You dont need researchers anymore
+
+* The subject is the research 
+* The users provide data themselves
+* Let them do the talking, be a fly on the wall and observe
+
+Pitching corporate blogs
+
+* More dialogue: more jazz
+* learning journey
+
+=> "We just forget boundaries exist"
+
+Summing up
+
+* Social tools melt cultural boundaries
+* People pick up tools to meet human needs.
+* It's all about creating empathies!

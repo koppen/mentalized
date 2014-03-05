@@ -1,0 +1,74 @@
+---
+layout: post
+title: How to make a crappy API
+date: '2011-06-24 15:32:51 +0200'
+mt_id: 2113
+categories:
+- programming
+- technology
+---
+So you want to add a web service API to your web application. Because, you know, that's what cool startups do (when they are not busy pivoting).
+
+Unfortunately creating a useful API is hard work and you'd have to maintain it and support it and that's even more hard work and look at the time and the wife is waiting...
+
+So what does a <del>lazy</del>smart developer do? You make your API so terrible that no one wants to consume it. Just follow these simple tips.
+
+
+<!--more-->
+
+h2. SOAP
+
+This is almost a given: Use SOAP. The more XML and repetitive stuff you can force people to deal with, the more likely it is their soul dies a little and quits. Bonus points for auto generating your service.
+
+Another great benefit is the fact that you can make the order of elements matter. Just imagine the frustration when developers try to figure out that the phone number must be placed before the email address for no reason at all other than "it's in the schema".
+
+
+h2. Inconsistent naming
+
+Using inconsistent names is a great to throw API consumers off. For example, if your objects have an id (and they probably do) try naming them something other than id - but only in some cases. For example the invoice id could be named @Id@, but the id of companies could be named @Number@. 
+
+To make it even better make sure you don't always use the same capitalization across names. Leave them wondering why @Number@ isn't working, when they really want @number@.
+
+
+h2. Unhelpful error messages
+
+You should also make sure that it's not too easy to figure out what's going wrong. Just use uninformative error messages like  
+
+bc(xml). <soap:Fault>
+  <faultcode>soap:Server</faultcode>
+  <faultstring>Api.Exceptions.ServerException(E00000): An internal error has occurred. {id=1578514321}</faultstring>
+  <detail />
+</soap:Fault>
+
+And no one will have a clue how to fix the error.
+
+Also make sure you only return one error at a time. Say, if you require a bunch of different fields to be present in the data (and you should, see below), only validate one field at a time. That way the suckers have to send a request every time they think they've fixed a problem.
+
+Bonus points for not referring to what property is throwing the error to really leave them guessing.
+
+
+h2. Require as much data as possible
+
+Now we all know that your application can easily create records with only the name field filled out. Whatever you do, do not make it that easy for your API consumers! Instead, force them to enter all the data, all the time.
+
+Heck, if you have some fields that can be calculated, force the API consumers to do the calculation manually. Say, if you have an amount field and a VAT percentage, also require the user to supply a VAT amount instead of calculating it server side. You'll save precious CPU cycles too.
+
+Bonus points if any of the required fields are totally pointless and not actually used for anything.
+
+
+h2. Produce data you won't accept
+
+Now this is a tip that not many know about, so keep it between you and me, okay? 
+
+The basic gist of this, is to make it so that some data that you accept in your application and provide to API consumers should not be valid when they try to send it back to you.
+
+It is going to lead to tons of hair pulling debugging when they discover that a record they've loaded from the API cannot be saved unchanged back. It's perfect.
+
+Bonus points for rejecting values in user editable fields. Force those poor API using schmucks to change their users data for no apparent reason. And if you do it in fields that can't reliably be algorithmically reconstructed, you're golden.
+
+
+h2. Now, my young apprentice, go forth and die in a fire
+
+With the above simple tips in place, you're practically guaranteed that your service will be such a frustrating experience to develop against that you'll never have to waste money on servers, documentation or support.
+
+Good job.

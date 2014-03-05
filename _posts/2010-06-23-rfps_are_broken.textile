@@ -1,0 +1,44 @@
+---
+layout: post
+title: RFPs are broken
+date: '2010-06-23 12:37:50 +0200'
+mt_id: 2045
+categories:
+- business
+---
+Last week I did something I very rarely do. I - together with visual designers, "barq":http://barq.dk - replied to a Request For Proposal. The experience confirmed my suspicion that RFPs are indeed a broken concept.
+
+
+<!--more-->
+
+h2. Too much detail
+
+When you receive an RFP, way too many choices have already been made. Most RFPs I have read tend to read like the customer telling the chef how to cook the food. That's not how you get a great meal.
+
+Great projects are built in cooperation between someone who knows how to detect and define their problems and someone who can come up with and craft great solutions to solve those problems.
+
+In our specific case, the customer had already done internal stakeholder and user interviews, and from our one meeting with them, I am certain they already knew exactly how they wanted their site to look and feel and what features it should have.
+
+Quite frankly, that means we entered the process too late. The opportunity to challenge concepts and ideas is long gone and the solution has already been worked out - if not on paper, the definitely in the minds of the client.
+
+
+h2. Not enough detail
+
+Many RFPs also include an expectation that the resulting proposal contains a price. Usually a fixed price, but in some cases a price-range is considered acceptable. That's fine, having some sense of the price of a project is obviously a fairly important part of making a decision between multiple vendors. 
+
+I don't think, however, that I have ever seen an RFP that contained enough information for me to realistically estimate the cost of a project - or at least not very accurately. At the point of the development process where RFPs appear, there are bound to be a ton of questions and uncertain elements. Sure, you could add those extra details to the RFP, but that's a terrible idea - they are already too detailed, remember?
+
+As a respondent, your safe bet is to create an estimate with a huge price range due to the uncertainties and risks inherent in a RFP. That's unfortunately going to increase the perceived project costs significantly.
+
+Alternatively, you can start dissecting the RFP, questioning the so-called requirements and generally come off as critical, hard to work with, and non-accepting of the work your potential client has put into the RFP. Not exactly a positive way to start off a relationship.
+
+
+h2. RFPs could work
+
+I guess RFPs can work in some cases. If you're shopping for off-the-self solutions a RFP will likely work just fine as you're basically comparing a list of "requirements" to the feature list of a product. When you're shopping for commodities.
+
+Design and development projects aren't commodities however. There is always a lot of things you'll learn, decisions that will be reverted, and ideas that will appear as part of the development process. 
+
+That is to be expected. Those are the things that make your product even better than what you intended. When you and your vendor adapt and improve as you learn more about the actual product you're building. 
+
+Sending out a RFP is in direct opposition to that - why would you want that?

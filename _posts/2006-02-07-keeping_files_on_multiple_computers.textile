@@ -1,0 +1,21 @@
+---
+layout: post
+title: Keeping files on multiple computers
+date: '2006-02-07 09:33:52 +0100'
+mt_id: 1530
+categories:
+- technology
+---
+I switch between a few different computers on a daily basis; a Windows machine at work, a Windows machine at home, and an iBook on the couch. This does cause some difficulties, one of those being about having access to the same files would be nice. 
+
+<!--more-->
+
+I've been using "FolderShare":http://www.foldershare.com to solve that problem for some weeks now, and I have been quite pleased with it. 
+
+It's a small, free (with restrictions) application available for both Windows and OS X. It synchronizes folders between the machines you install the application on, and so far does a great job. 
+
+You need two machines to be online at the same time for the synchronization to happen, since there is no central storage server involved. For me, that's a non-issue, since my work machine is pretty much always online. 
+
+FolderShare doesn't handle conflicts automatically, ie where the same file is changed on multiple machines. To me, the risk of that happening is fairly low however, since I am rarely present at two machines at once. In any case it beats FTPing or mailing stuff back and forth by a long shot.
+
+"This post is also available in Danish":http://cupertino.dk/archives/2006/02/06/del-dine-filer-mellem-flere-maskiner/.

@@ -1,0 +1,20 @@
+---
+layout: post
+title: Announcing aspTuneTracker
+date: '2003-04-07 14:52:24 +0200'
+mt_id: 678
+categories:
+- projects
+- technology
+---
+Inspired by a post at <a href="http://a.wholelottanothing.org/archives.blah/006625" title="A Whole Lotta Nothing">A Whole Lotta Nothing</a> I decided to create my own version of his Movable Type "hack", using ASP/VBScript (yuck) instead of Movable Type.
+
+<!--more-->
+
+Since I am not interested in what I was listening to yesterday and currently only want display the song playing at this very moment, using Movable Type to display a single line of text seems a bit overkill for me.
+
+<a href="/docs/projects/asptunetracker/" title="aspTuneTracker project page">aspTuneTracker</a> is invoked by calling an URL with data about the tune (I am using <a href="http://www.oddsock.org/tools/dosomething/" title="DoNothing plugin">the DoSomething Winamp plugin</a> for this). The data is stored in a file using simple CSV for the time being.
+
+Displaying the tune data can be achieved by instantiating the class and calling the methods manually, or by simply including the DisplayTune-script which does the above for you automagically.
+
+Download and more information available at the <a href="http://www.mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.

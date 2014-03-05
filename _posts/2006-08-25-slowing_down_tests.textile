@@ -1,0 +1,19 @@
+---
+layout: post
+title: Slowing down tests
+date: '2006-08-25 07:20:43 +0200'
+mt_id: 1688
+categories:
+- programming
+---
+There I go again, trying to be too clever for my own good. In an attempt to do less I tossed the fixtures loading into test_helper. I figured it'd be a lot easier to just add to that single fixtures line whenever I added a new model, instead of having to potentially add to a bunch of test files.
+
+And it was easier, but it came at a price.
+
+| 				| Units				| Functionals |
+| All fixtures in test_helper	| Finished in 27.274751 seconds	| Finished in 19.175251 seconds |
+| Relevant fixtures in each test	| Finished in 12.018364 seconds | Finished in 10.118103 seconds |
+
+Do note that I am running tests without transactional fixtures, since the SQL Server adapter seems to cause false negatives in the test results, when it tries to roll back a transaction that has had no data modification occur.
+
+Suffice to say, I just spent some time moving fixtures loading into the individual test files again.

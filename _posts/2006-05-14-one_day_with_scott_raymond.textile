@@ -1,0 +1,25 @@
+---
+layout: post
+title: One day with Scott Raymond
+date: '2006-05-14 20:01:50 +0200'
+mt_id: 1607
+categories:
+- business
+- projects
+- programming
+- biq_on_rails
+- technology
+---
+Thursday marked a major step on the path to exploring Rails as an alternative for "BiQ":http://www.biq.dk. "As I've mentioned earlier":http://mentalized.net/journal/2006/03/16/looking_for_a_rails_champion/ I've been looking for someone to come and present Rails for us. We found Scott Raymond of "Blinksale":http://www.blinksale.com and "IconBuffet":http://www.iconbuffet.com fame and spent all of Thursday picking his brain.
+
+<!--more-->
+
+From where I'm sitting, the day was a resounding success. Scott gave a nice introduction to Ruby and Rails followed by an hour long discussion group where he pretty much said what I have been trying to persuade the stakeholders: That Rails is totally worth it. 
+
+Scott managed to tell the tale without the fanboy'ism I might be prone to, so his words carry that more weight. He also provided ideas on how to progress, and even practical, concrete advise in relation to specific parts of our application. 
+
+The advice that in particular struck a chord with me was a pragmatic "fail fast" advice. Dig into the meaty parts, get your fears out of the way, or fail now, before you've spent months with nothing to show for it.
+
+Monday will hear the decision of wether we'll move ahead. Currently, I have no reason to believe otherwise.
+
+

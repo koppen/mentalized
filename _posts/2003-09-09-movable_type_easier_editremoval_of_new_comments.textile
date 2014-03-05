@@ -1,0 +1,60 @@
+---
+layout: post
+title: 'Movable Type: Easier edit/removal of new comments'
+date: '2003-09-09 12:09:16 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  QSBzbWFsbCBNb3ZhYmxlIFR5cGUgaGFjayB0byBhZGQgYSBsaW5rIHRvIHRo
+  ZSBlZGl0IGNvbW1lbnRzIHBhZ2UgaW4gdGhlIHRoZSBlbWFpbCBNVCBzZW5k
+  cyB3aGVuIGEgbmV3IGNvbW1lbnQgaXMgcG9zdGVkLg==
+mt_id: 741
+categories:
+- blogging
+---
+Apparently "some(Kalsey Consulting Group: Comment Spam)":http://kalsey.com/2003/09/comment_spam/ "people(Simon Willison: Blacklisting Comment Spam)":http://simon.incutio.com/archive/2003/09/02/blacklisting are receiving a good deal of spam comments on their blogs. In an effort to do something about this Kalsey "brings up the idea(Comment spam)":http://kalsey.com/2003/09/comment_spam/#comments of making it easier to delete comments:
+
+bq. When someone posts a comment, MT automatically sends me an email. That email should include a link to delete the comment and rebuild the entry. Then when a comment does slip through, its a simple matter to remove it.
+
+This small hack doesn't quite do this (no automatic rebuilding), but it certainly makes it easier to edit or remove new comments.
+
+<!--more-->
+
+In order for this to work, you need to get down and dirty in the Movable Type perl files. This is naturally at your own risk, I have no responsibility even if cheese falls from the sky and reality shows are taken off the air because of any changes you make to your MT source files yadda yadda. Hint: Backup.
+
+Follow these steps:
+
+<ol>
+<li>In your MT cgi directory, open the file /lib/MT/app/Comments.pm - for example /home/example/cgi-bin/mt/lib/MT/app/Comments.pm .</li>
+
+<li>Go to line 152. Near that you should find a line looking like:
+
+<ins>UPDATE: With version 2.661 of Movable Type, the line you're looking for is 236. It still looks the same, and the rest of the instructions still work.</ins>
+
+bc. MT::Mail->send(\%head, $body);
+
+</li>
+
+<li>Above that line add the following 2 lines 
+
+bc. my $cfg = MT::ConfigMgr->instance;
+$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath . 
+"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id. 
+"&amp;blog_id=" . $blog->id . "\n" ;
+
+so the entire section looks like
+
+bc. $body = Text::Wrap::wrap('', '', $body) . "\n$link_url\n\n" .
+  $app->translate('IP Address:') . ' ' . $comment->ip . "\n" .
+  $app->translate('Name:') . ' ' . $comment->author . "\n" .
+  $app->translate('Email Address:') . ' ' . $comment->email . "\n" .
+  $app->translate('URL:') . ' ' . $comment->url . "\n\n" .
+  $app->translate('Comments:') . "\n\n" . $comment->text . "\n\n";             
+my $cfg = MT::ConfigMgr->instance;
+$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath . 
+"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id. 
+"&amp;blog_id=" . $blog->id . "\n" ;
+MT::Mail->send(\%head, $body);
+
+</li>
+
+<li>Voila, you should now get a link in the email taking you to the edit comments page, where you can edit (duh) or delete the comment.</li>
+</ol>

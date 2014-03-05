@@ -1,0 +1,57 @@
+---
+layout: post
+title: Making CodeHighlighter play nice
+date: '2006-02-27 15:40:44 +0100'
+mt_id: 1549
+categories:
+- programming
+- mentalizednet
+---
+I want snippets of code that I publish here on Mentalized to have fancy colors and syntax highlighting. It makes reading code easier in my editors and it should make it easier here as well. Enter "CodeHighlighter":http://www.danwebb.net/workspace/CodeHighlighter/.
+
+bq. a lightweight, unobstrusive and fully configurable script for displaying code examples highlighted in a way similar to the way many text editors highlight code.
+
+Sure sounds good, too bad it sent my "Firefox":http://getfirefox.com spinning into a dark grave of recursion whenever it was run on a document that also included Prototype - like, oh say, this weblog. Time to roll up those sleeves and get with the javascript.debugging.
+
+
+
+<!--more-->
+
+h2. Fixing it
+
+It turns out that CodeHighlighter iterates over the available stylesets by doing
+
+bc(javascript). // run highlighter on all stylesets
+for (var i in this.styleSets) highlightCode(this.styleSets[i]);
+
+However, Prototype apparently changes the way arrays work, and the above method will send Firefox into what looks like an infinite loop (I'm guessing here, since I didn't have the patience to test the inifinity claim). Fixing the issue is a matter of changing the loop to:
+
+bc(javascript). // run highlighter on all stylesets
+for (var i = 0; i < this.styleSets.length; i++) highlightCode(this.styleSets[i]);
+
+Note that this fix should be safe, even when you do not have Prototype included.
+
+
+h2. Call oldonload on onload
+
+Also the setEvent() function doesn't seem to work when there's an existing onload event attached. It fails saying oldonload isn't a function (or something to that effect), which is no wonder, since it isn't actually defined before called. The setEvent() function should look like:
+
+bc(javascript). function setEvent() {
+	// set highlighter to run on load
+	var oldonload = window.onload;	
+	if (typeof window.onload != 'function') {
+		window.onload = function() { CodeHighlighter.init() }
+	} else {
+		window.onload = function() {
+			oldonload();
+			CodeHighlighter.init();
+		}
+	}
+}
+
+Note that the line below "// set highlighter to run on load" has changed.
+
+
+h2. It actually works
+
+As you can tell by the - hopefully - nicely colored pieces of code above, it is working (assuming you use a supported browser, that is). The colors are loosely inspired by the "TextMate":http://macromates.com SunBurst theme.

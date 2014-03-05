@@ -1,0 +1,11 @@
+---
+layout: post
+title: family.members << Puppy.find
+date: '2006-05-08 22:08:29 +0200'
+mt_id: 1602
+categories:
+- life
+---
+!http://mentalized.net/files/journal/bella/bella_puppy.jpg!
+
+In a few weeks time this beauty will be moving in with us :)

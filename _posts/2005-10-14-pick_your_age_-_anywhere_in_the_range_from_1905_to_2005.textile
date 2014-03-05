@@ -1,0 +1,13 @@
+---
+layout: post
+title: Pick your age - anywhere in the range from 1905 to 2005
+date: '2005-10-14 08:32:13 +0200'
+mt_id: 1445
+categories:
+- usability
+---
+Todays usability blunder found on "MailingList.dk":http://www.mailinglist.dk/:
+
+!/files/journal/pick_your_age/anywhere_from_1905_to_2005.png!
+
+Dang, that's an old target group.

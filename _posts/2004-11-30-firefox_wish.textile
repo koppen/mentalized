@@ -1,0 +1,9 @@
+---
+layout: post
+title: Firefox wish
+date: '2004-11-30 11:19:19 +0100'
+mt_id: 840
+categories:
+- browsers
+---
+I wish I knew how to make Firefox preserve the document history when opening a new tab, so I could use the back-button in the new tab.

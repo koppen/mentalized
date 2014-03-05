@@ -1,0 +1,11 @@
+---
+layout: post
+title: Selling out
+date: '2004-11-01 15:26:08 +0100'
+mt_id: 828
+categories:
+- blogging
+---
+Yup, it had to happen sooner or later. I've sold out. Soon the vastly popular "Mentalized.net(mentalized.net)":http://mentalized.net/ will consist of nothing but graphical and noisy ads popping up and over and under, you'll be spammed, offered to install spywayre and you'll be harassed by Viagra vendors.
+
+Or perhaps I've added a single "Google AdSense(AdSense)":http://www.google.com/adsense ad in the sidebar on my entries. It's not something I expect to get rich on, truth be told I'll be surprised if I ever see any money from this, but I wanted to get some hands-on experience, and that's (partly) what mentalized.net is for.

@@ -1,0 +1,39 @@
+---
+layout: post
+title: style type="xml/css"
+date: '2003-08-21 11:50:34 +0200'
+mt_id: 729
+categories:
+- webdesign
+---
+I wonder if we'll ever see CSS in XML-format. Imagine creating styles like:
+
+bc. <style type="xml/css" media="screen">
+   <rule>
+      <selector>body</selector>    
+      <attributes>
+         <background>
+            <color>white</color>
+         </background>
+      </attributes>
+   </rule>  
+   <rule>
+      <selector>div.header</selector>
+      <selector>div.something + div.another</selector>  
+      <attributes>
+         <border>1px solid black</border>
+         <border>
+            <bottom>2px dotted red</bottom>
+         </border>
+         <border>
+            <left>
+               <size units="px">1</size>
+               <linestyle>dashed</linestyle>
+               <color>#FF0000</color>
+            </left>
+         </border>
+      </attributes>
+   </rule>
+</style>
+
+I doubt there's any real benefit to it, just an odd thought.

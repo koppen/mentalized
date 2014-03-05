@@ -1,0 +1,103 @@
+---
+layout: post
+title: Using YSlow to optimize websites
+date: '2007-07-26 14:39:20 +0200'
+mt_id: 1843
+categories:
+- biq_on_rails
+- webdesign
+- programming
+---
+Yahoo! has released a great Firefox addon - or rather, an addon for "a Firefox addon":http://www.getfirebug.com/ - called "YSlow":http://developer.yahoo.com/yslow/. YSlow allows you to analyze and suggest improvements to various performance metrics on the website you're currently visiting.  
+
+For kicks I decided to let it loose on "biq.dk":biq.dk. Unfortunately it gave me a disheartening grade of F:
+
+bq. Performance grade: F (46)
+
+Ah well, sounds like a perfect opportunity to improve, and the rest of this entry contains the areas where the biq.dk frontpage did not receive an A-grade, and a description of the modifications I had to perform on our setup to satisfy the addon.
+
+
+h2. Make fewer HTTP requests (F)
+
+bq. This page has 9 external JavaScript files.
+This page has 12 CSS background images.
+
+This is probably a place where I could squeeze a bit of extra performance out of the page. I should consider setting up an asset server for our static assets. This can easily be the same machine with a different hostname - say one for each type of asset - which will "trick" the browser into fetching more assets simultaneously.
+
+In Rails something like this is fairly easily achieved. Rails 1.2 the notion of a single asset host, which can be configured in your environment:
+
+bc(ruby). # Enable serving of images, stylesheets, and javascripts from an asset server
+# config.action_controller.asset_host                  = "http://assets.example.com"
+
+If that's not enough for you, Edge Rails introduces "the ability to have multiple asset hosts":http://dev.rubyonrails.org/changeset/6161 simply by using a numbered naming scheme.
+
+And if that is not enough either, there's a "plugin that allows you to use a specific asset host for each type of asset":http://agilewebdevelopment.com/plugins/multi_asset_locations. Don't come complaining about no options, here. 
+
+To make this even simpler to implement for me, I have to do almost nothing. We already serve up the same content regardless of what you put in front of biq.dk (well, almost), so http://assets.biq.dk/images/rails.png already exits and I just have to tell Rails to use an asset server in production mode.
+
+Another approach to this - that I can still use - would be to use the "AssetPackager plugin":http://agilewebdevelopment.com/plugins/assetpackager to minimize the amount of separate JS and/or CSS files I send over the pipe, but that's a task for another day.
+
+
+h2. Use a CDN (F)
+
+This is overkill for us. With the vast majority of our users located in Denmark we don't need a geographically widespread Content Delivery Network. The above-mentioned asset server is content delivery network enough for us.
+
+
+h2. Add an Expires header (F)
+
+A bunch (20 or so) of our files didn't even have an Expires header. Basically this means that browsers may (should?) request the file on every request, which is stupid. Stuff like Javascripts, images, and stylesheets rarely change so it makes a lot of sense caching them for a long while.
+
+Rails even makes it even easier for us: It puts the timestamp of each files last modification at the end of each asset request (that's why images in Rails applications are usually addressed as /images/foo.png?74734234). 
+
+This means the browser will not request an asset unitl the last modified timestamp changes (in which case the asset is considered a new asset by the browser), or until the cached version expires.
+
+With Apache 2.2 we can use the "mod_expires":http://httpd.apache.org/docs/2.2/mod/mod_expires.html module to set a default Expiry header ages into the future. Note that we only want to do this for our assets, which are all kept in the public/ directory:
+
+bc. <Directory /var/www/applications/biq/current/public/>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 year"
+</Directory>
+
+And voila, YSlow now gives us a C grade here instead of the F. The last 2 components to not have an expires header are unfortunately external Javascript files outside of our control.
+
+
+h2. Gzip components (F)
+
+Nothing got gzipped initialize. Gzipping textual content is a great way to minimize bandwidth consumption since text like HTML, CSS, and JavaScript compresses very well. It does cause your server - and your users browser - to do a bit more legwork but the cost of that is - at least that's the theory - nothing to worry about.
+
+Using mod_deflate and a modified version of "Coda Hales Apache 2 config":http://blog.codahale.com/2006/06/19/time-for-a-grown-up-server-rails-mongrel-apache-capistrano-and-you/ we tell Apache 2 to compress all our text based contents for browsers that support it:
+
+bc. # Deflate
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+
+With one external Javascript file left uncompressed, our grade here transformed into a B.
+
++<strong>Update</strong>: If you need to serve your content to Flash and want it to work in Internet Explorer 6, you should check out this post: "Warning: Warning: GZip content, Flash Player, and Internet Explorer 6":http://mentalized.net/journal/2007/07/31/warning_gzip_content_flash_player_and_internet_explorer_6/ .+
+
+h2. Move scripts to the bottom (D)
+
+bq. 7 external scripts were found in the document HEAD. Could they be moved lower in the page?
+
+Hrm, this an interesting question, and one I am not entirely certain about. More experimentation will have to prove if this is a viable option for us, but for now I have to leave it as it is.
+
+
+h2. Minify JS (C)
+
+None of our JavaScript files have been obfuscated or minified. They're simply the generic Prototype and Scriptaculous stuff. While I suppose I could run the javascripts through a processor of sorts when deploying, the benefit of this seems miniscule when the scripts are already being served compressed. 
+
+
+h2. Configure ETags (F)
+
+To be honest, I had never heard of these "ETags" until I ran YSlow. But according to Yahoo!s "thirteen simple rules for speeding up your website":http://developer.yahoo.com/performance/rules.html#etags I don't need to worry about them since we're serving biq.dk from a single webserver, and ETag issues apparently only crop up when serving the same assets from multiple servers.
+
+
+h2. The resulting Performance Grade: C (71)
+
+Not bad, a C grade. There are still things I can improve, obviously, but the above are the quick improvements I could kick out during an hour or so, and they should already have improved the user experience quite a bit.
+
+YSlow is a great little addon, and having it hand out grades is genious. Nothing motivates like being told you suck, and having the possibility of a higher score dangled in front of you.  
+
+

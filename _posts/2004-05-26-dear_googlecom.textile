@@ -1,0 +1,14 @@
+---
+layout: post
+title: Dear google.com
+date: '2004-05-26 15:56:08 +0200'
+mt_id: 797
+categories:
+- technology
+---
+From <a title="Google Information for Webmasters" href="http://www.google.com/webmasters/seo.html">Google Information for Webmasters</a>:
+
+bq. Dear google.com,
+I visited your website and noticed that you are not listed in most of the major search engines and directories...
+
+::snicker::

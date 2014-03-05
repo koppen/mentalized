@@ -1,0 +1,17 @@
+---
+layout: post
+title: Guide to succes in the browser market
+date: '2003-06-17 10:49:59 +0200'
+mt_id: 708
+categories:
+- browsers
+---
+I wonder if Microsofts businessplan for Internet Explorer looks like this:
+
+# Create a browser which is the most lax (some would say wrong) in it's interpretation of standards.
+# Bundle it for free with the most widespread desktop OS on the planet
+# When your browser is the de facto browser on that OS (making it the most widespread browser on the planet) lazy developers will start to look at your browser as the measurement of how their websites should look. After all, most of their users are using your browser.
+# Let the product stagnate and refuse to adhere to new standards. With still more websites being developed specifically with your browser in mind, making them render or work flawlessly only in your browser, your browser will become still more attractive to users on your OS <em>and on competing OS's</em>.
+# Now, when enough lazy developers have done your bidding and made the WWW usable solely in your browser, discontinue the browser and any support for it.
+# Launch your new browser product, which will be the only browser on the face of the planet able to flawlessly render and support the multitude of websites designed for your old browser. This new browser is perhaps not available as a standalone product, and it definatly is not free. 
+# Call this innovation.

@@ -1,0 +1,48 @@
+---
+layout: post
+title: Redesigning Daily Rush
+date: '2004-02-25 20:02:41 +0100'
+mt_id: 780
+categories:
+- webdesign
+- projects
+---
+A few weeks ago we finally launched the new design of danish gaming portal, "Daily Rush(Daily Rush)":http://www.dailyrush.dk. We had been living with the old design for a couple of years, and everybody on the crew were getting tired of it.
+
+Furthermore we wanted to change the way we do some things, mainly to allow for more flexibility in the daily news reporting, plus to open op the page layout for some of the things we've been wanting to implement for a while.
+
+<!--more-->
+
+h2. Behind the design
+
+Our basic thoughts behind the redesign was the always catchy phrases;  "less is more" and "keep it simple, stupid". We wanted to go in a direction not often seen on gaming websites, cutting down on page graphics and letting the content (text formatting and especially screenshots) create the appearance of the site.
+
+The decision to base the new layout on XHTML and CSS was taken pretty early in the project. I wanted to create a standards based layout on a larger scale website than my own small hobby projects, and a content heavy site like Daily Rush seemed like a great opportunity. 
+
+h2. Enter the tag soup
+
+The HTML which made up the previous Daily Rush incarnation was a horrible mixture of non-semantic, presentational, non-valid markup. Gems like 
+
+bc. <b class=h2>Headline</b>
+
+were no rarity. Nested tables were the rule rather than the exception. List structures were mimiced using tables. 
+
+A good deal of time has gone into converting most of the existing pages into proper XHTML and moving presentational elements into a single style sheet. We're not quite there yet, some elements still have inline styles declared and even fewer are using the oldschool nested tables, but we're slowly making progress.
+
+h2. Enter the content writers
+
+Nearly 4 years of content is stored in the database, and a good deal of people are adding to it on a daily basis. The majority of these contributors are volunteers and can't be expected to invest more time than necessary into adding content. Dragging them aside telling them to relearn the way they write markup solely for the sake of satisfying my geeky need for W3C Validator backpatting seemed unrealistic, so I opted for trying to fix their errors behind the scenes, hoping the changes would slowly catch on.
+
+My function for turning their tag soup into valid XHTML is still somewhat sketchy, and especially doesn't handle ampersands and quotation marks as well as it could. All in due time, hopefully.
+
+h2. The result so far
+
+The reception of the redesign has been overwhelmingly optimistic. A lot of people dislike the new, "plain" style, but the majority seems to have taken a liking to the clean and simple look and feel.
+
+Overall, I'd say I am optimistic about having taken the time trying to turn the site into a XHTML/CSS based website. I have no doubts that my efforts now will pay off in the long run, especially when we want to change the looks the next time, but also in daily maintenance.
+
+I am also quite proud of having a website that, to the best of my knowledge, renders quickly and nearly perfect in every major browser as well as catering to screen readers and search engines.
+
+Sure, I cheat in some places and I admit to have used at least one table for layout purposes where I probably could have used pure semantic markup and CSS, however the headaches of getting it to render properly in most browsers were too big to make me feel the need to cater to some desire for perfect semantics.
+
+Just as the site doesn't fully validate because I couldn't be bothered to spend hours working out problems that aren't even visible only to satisfy a picky validator. It's all about the compromises.

@@ -1,0 +1,54 @@
+---
+layout: post
+title: Heroku, Rails 3, and Sass
+date: '2010-04-06 08:58:20 +0200'
+mt_id: 2032
+categories:
+- technology
+---
+"Heroku":http://heroku.com is a great way to host your Rails apps. "Rails 3":http://weblog.rubyonrails.org/2010/4/1/rails-3-0-second-beta-release is the new hotness. "Sass":http://sass-lang.com/ is a decent way to write your stylesheets. Unfortunately combining the three isn't as straight forward as it could be, but it can be done.
+
+<ins>*Update*: While these instructions are still correct, you should use the "Hassle fork from jasoncodes":https://github.com/jasoncodes/hassle instead of my fork. Alternatively, you can roll your own following "Herokus instructions":http://devcenter.heroku.com/articles/using-compass.</ins>
+
+<!--more-->
+
+h2. Rails 3 on Heroku
+
+Getting Rails 3 running on Heroku is pretty easy and fairly well documented. Just create an app on their "Bamboo stack":http://docs.heroku.com/bamboo and you're pretty much set:
+
+bc. $ heroku create --stack bamboo-ree-1.8.7 mysuperapp
+
+One detail that is "documented":http://docs.heroku.com/rails3, but I had missed, is the fact that Rails 3 by default isn't configured to serve up static assets. Heroku will fix this for you when you push your code to them, but if you want to debug production mode issues locally, you want to change the setting in your production.rb:
+
+bc(ruby). config.serve_static_assets = true
+
+Failing to set this caused me a bunch of grey hairs.
+
+
+h2. Headaches, thy name is Sass
+
+Sass on the other hand is a pain to get running. When Sass compiles templates into actual CSS files that can be served to browsers, it writes them to disk. Heroku features a mostly read only filesystem. Those things don't really go together.
+
+Luckily there is a loophole. The tmp folder is writable, so some smart folks have created "a plugin":http://github.com/pedro/hassle that compiles your Sass templates into the tmp folder and serves them from there using the magic that is Rack middleware.
+
+
+h2. Hassle doesn't remove all hassles
+
+This works great if you can live with the default locations. Alas, I am picky and I want my Sass templates in app/stylesheets (I believe this is the case if you use "Compass":http://compass-style.org/ as well). I definitely don't want them - or any of my other source files - in public. 
+
+Unfortunately the Hassle plugin doesn't work with that configuration, as people have "found":http://groups.google.com/group/heroku/browse_thread/thread/a7e66155a4ae82f3 "out":http://github.com/pedro/hassle/issues#issue/1. 
+
+So I set out to fix that, and after a few detours - one involving weird issues with Rack::File - I think I might have finally nailed it. If you install "my Hassle fork":http://github.com/koppen/hassle 
+
+bc. $ rails plugin install git://github.com/koppen/hassle.git
+
+and configure your Sass options like so:
+
+bc(ruby). Sass::Plugin.options[:template_location] = { 'app/stylesheets' => 'public/stylesheets' }
+
+It should just work on Heroku, using your Sass templates from app/stylesheets and serving them at domain.com/stylesheets/ with a roundtrip through your tmp folder.
+
+
+h2. Your mileage may vary
+
+I've tested this on Rails 3.0.0.beta2, Heroku Bamboo (REE 1.8.7) and Haml 2.2.20 and it works for me.

@@ -1,0 +1,12 @@
+---
+layout: post
+title: What's with the 2 weeks?
+date: '2005-04-25 10:32:02 +0200'
+mt_id: 1302
+categories:
+- usability
+---
+What's with the "Remember me for 2 weeks" that's appearing on login pages? 37signals is "keen on 2 weeks(Ta-da List login)":http://www.tadalist.com/account/login. "Symphony(Symphony demo)":http://demo.symphony21.com/symphony/ uses 2 weeks too, I seem to recall "GMail(Gmail)":http://www.gmail.com doing the same, but there is no specified time now, so I might be mistaken.
+
+I know about login cookies and all that, but I wonder why exactly 2 weeks? Why not longer?
+

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Copenhagen Ruby/Rails Brigade
+date: '2006-07-03 08:51:21 +0200'
+mt_id: 1644
+categories:
+- copenhagenrb
+---
+Thursday marked the first, casual gathering of what is hopefully going to become the Copenhagen Rails User Group or something like it. We had a great evening with great people, and spent most the time presenting ourselves and discussing what came to mind. 
+
+As promised, I've set up "a mailing list":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb so we can figure out where we go from here, and generally keep in touch etc. "Head over here to sign up":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb.
+
+"Jesper":http://justaddwater.dk has posted "images from the evening":http://flickr.com/photos/jesper/tags/copenhagenonrails/, "Olle":http://olle.ter.dk "live-blogged the event":http://olle.ter.dk/blog/?p=276, and "Kasper":http://weibelmedia.com/ has posted "his thoughts on the evening and the format":http://www.weibelmedia.dk/articles/2006/06/30/the-chp-rails-meetup.
+

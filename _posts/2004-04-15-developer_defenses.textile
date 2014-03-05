@@ -1,0 +1,13 @@
+---
+layout: post
+title: Developer defenses
+date: '2004-04-15 10:19:18 +0200'
+mt_id: 788
+categories:
+- programming
+---
+Being a wee, humble programmer working on a comparativly small project like "BiQ(BiQ)":http://www.biq.dk, it is somehow comforting to read a Blizzard programmer "publically state(WoW beta gameplay discussion)":http://www.worldofwarcraft.com/thread.aspx?fn=wow-general&t=21552#post21552 about a feature he did on World of Warcraft:
+
+bq. [...]I had to implement that. I probably screwed it up somehow[...]
+
+Makes me feel not so bad for introducing the bugs I do, and it's an archtypical example of the defenses developers usually set up when talking about their works.

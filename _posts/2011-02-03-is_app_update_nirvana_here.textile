@@ -1,0 +1,39 @@
+---
+layout: post
+title: Is app update nirvana here?
+date: '2011-02-03 09:25:59 +0100'
+mt_id: 2085
+categories:
+- software
+- usability
+---
+When I previously wrote about "the tyranny of software updates":http://mentalized.net/journal/2010/01/08/the_tyranny_of_software_updates/, one of the takeaways were that it would be nice if someone were to create a centralized, out of band, update mechanism for installed applications.
+
+Lo and behold, with the invent of the Mac App Store, Apple has done just that for us OS X users. Applications you buy in the store are also upgraded in the store. Fantastic! software updating bliss is here! We've finally reached application update nirvana.
+
+Not quite. Unfortunately the app store update process has a few drawbacks:
+
+
+h2. Manually quitting and restarting applications
+
+The experience of updating comes to a grinding halt when I am told that X applications are running and I need to quit them. I have to command-tab around and manually search my dock and menu bar to find applications that I happen to have running.
+
+And that's not even the end of it. When the applications have been updated, I have to launch them again manually. At least, in-application-updates have the ability to upgrade and relaunch on their own.
+
+Certainly this is escalated by the fact that I have primarily bought applications that launch on login and are running all the time, so having to find and start them is something I only do when updating.
+
+
+h2. A separate application to find updates
+
+Despite what Apple would like, I don't have the Mac App Store running all the time. I don't even have it in my dock as that's reserved for stuff I use. As a matter of fact, I only launch the app store when I want to find new software. Updates at that point is nothing but an inconvenient distraction - especially as I have to go through the search-and-destroy-and-revive process mentioned above.
+
+I still think that there would be value in having application updates bundled with my system software updates. At least that is checking for updates ever so often and notifying me when there are some - I don't have to do anything but click the "Upgrade now" button.
+
+
+h2. Two steps back
+
+The Mac App Store application update progress is one step forward and two steps back. I am hoping both of the backwards steps can be fixed in software.
+
+Certainly. a software update API that applications can hook into could be added, so applications can relaunch themselves when updated. Making the update check an automated, regular event should be easy as well - the infrastructure is there already.
+
+I am still hoping we'll get something equivalent of Debians apt, wrapped in a nice Cocoa UI.

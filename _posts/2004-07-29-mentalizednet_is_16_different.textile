@@ -1,0 +1,27 @@
+---
+layout: post
+title: mentalized.net is 16% different
+date: '2004-07-29 14:03:37 +0200'
+mt_id: 813
+categories:
+- webdesign
+- mentalizednet
+---
+I didn't qualify for Fran?ois Briattes survey of "how 10 websites differ(These web sites are identical - or are they?)":http://phnk.com/design/survey/ on 25 elements, however I'll pretend I did and examine myself just for kicks. 
+
+It turns out mentalized.net differs from the norm in 4 of the 25 spots putting my dissidence at 16%. Allow me to explain my reasoning behind these differences.
+
+==
+<dl class="conversation">
+  <dt>4: Are hovered links underlined? (80% yes - Me: not really)</dt>
+  <dd>Strictly speaking my :hover style isn't underlined, I change the background-color instead. Visual preference and to make sure the :hover style is more distinquished from the regular link styles.</dd>
+  <dt>19: Does the navigation bar use image rollovers? (60% yes - Me: no)</dt>
+  <dd>No images were harmed in the navigation of this page. Pure text all the way. With limited graphic skills this seemed the easier way to go.</dd>
+  <dt>20: Is the page UTF-8 encoded? (60% yes - Me:   no)</dt>
+  <dd>I am kicking it oldschool with ISO-8859-1. I can't really give a reason for this, I reckon I just haven't seen any compelling reasons to switch to UTF-8. Admittedly, this isn't something I have considered much.</dd>
+  <dt>24: Is there a 404 page? (60% yes - Me: no)</dt>
+  <dd>Yeah yeah, I realize I should have one. Not having one is primarily due to me being a lazy bastard and not daring messing too much with the server this website runs off (which is the same as my work website).</dd>
+</dl>
+==
+
+Man, do I feel like I am part of the in crew now. ;)

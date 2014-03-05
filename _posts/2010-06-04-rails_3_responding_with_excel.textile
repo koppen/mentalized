@@ -1,0 +1,64 @@
+---
+layout: post
+title: 'Rails 3: Responding with Excel'
+date: '2010-06-04 09:29:57 +0200'
+mt_id: 2042
+categories:
+- programming
+---
+The following is a short code snippet from my Rails 3 presentation at "Community Day":http://communityday.in/copenhagen/ last week. I'm putting it here, because it's such a nifty little piece of code.
+
+It answers an feature request I seem to get fairly often; "please make it possible to download an Excel file of data". Traditionally I've relied on good ole CSV for that, but it's a bit tricky to get just right with Excel. Besides, the customer explicitly said Excel file, so let's give her that.
+
+
+<!--more-->
+
+h2. Cheating
+
+We'll cheat and use a few gems to do the heavy lifting for us. Namely the "to_xls gem":http://github.com/splendeo/to_xls that "transforms an Array into a excel file". Internally it relies on the using the "spreadsheet gem":http://spreadsheet.rubyforge.org/ that handles the actual Excel file for us.
+
+In your Gemfile:
+
+bc. gem 'to_xls'
+
+
+h2. The custom renderer
+
+Add the following code to config/initializers/xls_responder.rb
+
+bc(ruby). Mime::Type.register "application/vnd.ms-excel", :xls ActionController::Renderers.add :xls do |object, options|
+  self.send_data object.to_xls_data, :type => :xls
+end
+
+To be honest, I am not entirely sure where it'd make most sense to put this. Well, I do; in a gem of its own, but that's a bit overkill for this article. An initializer will suffice for now.
+
+In short, what that code does is
+
+# Tell Rails about the Excel mimetype
+# Create a Renderer that handles the :xls format by...
+## ... converting the object that we respond_with into xls_data
+## ... sending that data to the user agent using the :xls format
+
+And that's practically all we need.
+
+
+h2. Respond this!
+
+In whatever controller you need to return an Excel document for (in this case, I've added it to users#index to allow me to get an Excel spreadsheet with all my users:
+
+bc(ruby). class UsersController < ApplicationController::Base
+  respond_to :html, :xml, :json
+  respond_to :xls, :only => :index
+  def index
+    respond_with(@users = User.all)
+  end
+end
+
+Visiting /users.xls your browser should ask you to download a Excel file, which then can be doubleclicked and opens in Excel (I guess, I don't actually have Excel. It opens just fine in "NeoOffice":http://www.neooffice.org/ and "Numbers":http://apple.com/iwork/numbers/, though).
+
+
+h2. Customizing
+
+This is obviously more a proof of concept than actually usable production code. In real life we'd probably want some way to customize the rendered document, what columns to include and how to format them and whatnot.
+
+Perhaps there's opportunity for an Excel-builder templating format here? PDI.

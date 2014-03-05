@@ -1,0 +1,62 @@
+---
+layout: post
+title: On Rails 2.0, SQL Server adapter, gems, vendor and load paths
+date: '2007-11-22 16:02:40 +0100'
+mt_id: 1893
+categories:
+- programming
+- projects
+- biq_on_rails
+---
+Over the last few days I have been moving the "BiQ":http://biq.dk application to "Rails 2.0 PR":http://weblog.rubyonrails.org/2007/9/30/rails-2-0-0-preview-release.  I've so far run into a fair deal of issues; one annoying one that I figured I'd share.
+
+The gist of the matter is that creating some of my models failed in some cases. It appeared to be primarily when the save triggered an insert into another table as well.
+
+Digging around a bit, I traced it down to the fact that the newly created model was given an id that didn't match the id in the database. The reason for that turned out to be quite the sneaky little bastard...
+
+h2. First a few important facts
+
+* We're using SQL Server 2000. As of Rails 2.0 the SQLServerAdapter is no longer included in the core Rails distribution and must be installed separately. No biggie, I've put it in /vendor and made sure it gets loaded and used. 
+
+* I have Rails 2.0 installed in /vendor/rails as well.
+
+* SQLServerAdapter uses a separate SQL query to find the id of the last inserted row.
+
+* Rails 2.0 introduces a "funky query cache":http://blog.leetsoft.com/2007/2/14/query-cache that caches results of selects and clears the cache when a DB changing query (inserts, updates, delete) is issued.
+
+All of this is perfectly fine and working in the majority of cases. However looking at the log for the failing test cases, the following line stood out like a pimple on a babys bottom:
+
+bc. CACHE (0.000000) SELECT @@IDENTITY AS Ident
+
+No wonder I am getting wrong ids for my models when ActiveRecord is returning a cached value (ie the id of the first inserted model).
+
+However, it seemed odd that it would even be able to get a cached value, since the query immediately before the cached one is an insert statement. And as mentioned above, the query cache is cleared after an insert, so the cache should be perfectly clear at that point.
+
+h2. Digging vendor
+
+Digging into my vendored Rails directory (much love for /vendor), it slowly became obvious that clear_query_cache was never actually called as part of that insert. Digging a bit further, it appeared insert_sql of my SQLServerAdapter wasn't called at all.
+
+At this point I was highly confuzzled - even more so after verifying that the SQLServerAdapter in /vendor is indeed loaded and used. Getting desperate, I searched the entire application and ruby directory for occurrences of @@IDENTITY, found 2 relevant ones and replaced each with a bogus statement. 
+
+Lo and behold, I got an exception from ActiveRecord with a stack trace clearly telling me that it was raised in my gems directory. Rails was using the SQLServerAdapter from the installed, old ActiveRecord gem for doing the insert - a version of ActiveRecord that naturally has no idea that a query cache even exists. Not only am I confuzzled, Rails is as well.
+
+h2. Resolution
+
+And I don't blame it. My loading of the SQL Server Adapter was highly unorthodox it appears. In the end, all I have to do to make it work is make sure I've added my vendored SQLServerAdapter to my loadpaths:
+
+bc. # Add additional load paths for your own custom dirs
+config.load_paths += %W( #{RAILS_ROOT}/vendor/activerecord-sqlserver-adapter/lib )
+
+h2. Hey, I even learned something
+
+Gotta love these things. I did, however, learn a few things from this debacle:
+
+* Having a staging site/continous integration server is pure gold. I have the Rails 2.0 PR gems installed locally, so the bug was not caught until "CruiseControl.rb":http://cruisecontrolrb.thoughtworks.com/ started spamming me; it only has the Rails gems used in production available.
+
+* I should probably look into a proper solution for vendoring gems - oh say, like "this":http://errtheblog.com/post/2120 from Chris Wanstrath or "this":http://drnicwilliams.com/2007/02/09/railsrally-2007-and-gemsonrails/#railsrally-gemsonrails from Dr. Nic.
+
+* Open Source software is awesome. I was able to investigate all the way down to how gems were loaded in Rails simply because I had the code readily available - and the stack trace with line numbers to tell me where to look.
+
+Back to rewriting my fixtures to go with the "Foxy Fixtures":http://m.onkey.org/2007/10/26/fixtures-go-foxy style, mmmmm.
+
+

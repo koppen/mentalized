@@ -1,0 +1,9 @@
+---
+layout: post
+title: Thank you very much, Poland
+date: '2004-11-18 12:37:35 +0100'
+mt_id: 834
+categories:
+- technology
+---
+Thank you, Poland, for "taking the stand against software patents(Poland does not support council Version)":http://kwiki.ffii.org/PolandDoesNotSupportCouncilVersionEn that "Denmark was (Thank you very much, Denmark)":http://multigraphic.dk/lounge/weblog/weblog.php?id=P1107 "strongarmed(Council Meeting Transcript)":http://wiki.ael.be/index.php/V003.ogg into not taking. One small step away from the US software patent conditions.

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Breaking the Linux barrier
+date: '2004-11-05 17:09:25 +0100'
+mt_id: 829
+categories:
+- technology
+---
+Linux sucks. Or rather; Getting to know Linux sucks if you don't already know Linux.
+
+I don't consider myself a total dimwit in regards to computers or command line processors and the like. As a fact, I tend to believe I am rather good at these things. Nevertheless - or perhaps that's the reason - whenever I dive into Linux I end up going to bed too late and frustrated.
+
+<!--more-->
+
+Ok, so perhaps Linux doesn't suck. In all likelyhood I do. I just don't like being told I suck, especially not by an inanimate bundle of silicon and transistors. Sadly that's often the feeling I am left with when I venture into doing more advanced stuff on my Linux machine.
+
+I am now left with Ruby installed thrice (2 times v1.8, 1 times 1.6), Ruby Gems half installed to one or more of the Ruby installations, and an apt-setup that works on occasion.
+
+Sigh, some day I'll get it right.

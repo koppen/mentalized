@@ -1,0 +1,27 @@
+---
+layout: post
+title: Online payments are still a mess
+date: '2007-01-16 15:07:25 +0100'
+mt_id: 1772
+categories:
+- business
+- technology
+- projects
+- programming
+---
+This is a followup to "my previous rant":http://mentalized.net/journal/2006/12/07/accepting_online_subscriptions_is_a_mess/ about the state of accepting online subscriptions.
+
+A few things happened after my post. Most importantly the client met with a focus group of potential users, and - among other things - talked pricing with them. Every single one stated they'd much rather prefer paying a one-off yearly fee instead of automated monthly subscriptions.
+
+Also, the payment gateway we had been looking into wasn't doing terribly much to help us. Matter of fact, they managed to confuse us further (which wasn't terribly hard, I admit) by giving us vague answers in a ploy to get us to phone them instead of simply emailing them.
+
+All in all, the end result was that we said "screw recurring payments", and went with the PayPal Website Payments Pro account that was already existing. Sure, the per-transaction fees are somewhat high, however with the amount of transactions we projected - especially after going to yearly payments instead of monthly - it proved to be one of the cheaper solutions. 
+
+Add to this the PayPal developer sandbox (which is great for testing stuff) and that implementing it in a Rails application is a breeze using "Active Merchant":http://code.google.com/p/activemerchant/ and the choice was obvious.
+
+
+h2. About that other idea...
+
+As for the other part of my rant (the one where I claim to know anything about business and state that there's money to be made on an easy-to-understand-and-implement payment solution with recurring subscriptions instead of the mess that currently exists), I've talked a bit with a few people who actually knows about this stuff.
+
+Unfortunately it seems the idea of an easy to use payment gateway provider is fighting against policies and general inertia in the banking world. Which is a shame. I still believe there has to be a massive opportunity for a company in this space, and currently PayPal seems to be the only real option.

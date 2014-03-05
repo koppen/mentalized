@@ -1,0 +1,17 @@
+---
+layout: post
+title: When numbers aren't numbers
+date: '2006-02-27 15:35:09 +0100'
+mt_id: 1548
+categories:
+- programming
+---
+Today, on #rubyonrails, a stubborn developer insisted on storing phone numbers as integers. The rest of the channel tried to persuade him/her that this was a really, really bad idea. Part of the conversation went:
+
+bq. &lt;Cyanshade&gt; you assume that all phones are in the US?
+&lt;stubborn_dev_02&gt; yes
+&lt;Cyanshade&gt; my phone number is in the form +358 44 123 4567
+&lt;stubborn_dev_02&gt; then i'd ban you
+
+(Name has been changed to protect the innocent)
+

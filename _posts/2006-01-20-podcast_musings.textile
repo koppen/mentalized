@@ -1,0 +1,48 @@
+---
+layout: post
+title: Podcast musings
+date: '2006-01-20 10:21:44 +0100'
+mt_id: 1511
+categories:
+- technology
+- blogging
+---
+I've been getting into podcasts recently, for various reasons. The concept of podcasts is great. Listening to smart and funny people is always interesting, and someones voice has a way of getting to you that letters on a screen rarely can.
+
+I don't, however, see podcasts or videocasts or shoutcasts getting anywhere near as popular as, say, weblogs or wikis. Audio and video as an online information-delivery vehicle carries a bunch of inherent problems.
+
+
+<!--more-->
+
+h2. No linkability
+
+I cannot link to that fabulous quote I heard on the way home yesterday. I can only link to the podcast file, tell people to download it, and fast forward until roughly 36:12, and hear this person say that quote. I want to be able to do 
+
+bc. <a href="podcast://domain.com/ubercast.mp3#58:32">
+
+Linking is a huge part of what made the web so powerful. Podcasts shouldn't live in a space seperate from their text-cousins.
+
+
+h2. No scanability
+
+There are no headlines to easily judge content by, so I can't immediatly find the piece of information that interests me. I can't immediately judge wether an actual episode is interesting. I can't easily skip over the current, boring-as-hell part to the next part which might interest me.
+
+DVD movies has the concept of chapters, and DVD players allow you to skip directly to that fantastic scene in Matrix where Neo goes "Whoa" - assuming you know the chapter. Podcast players need something equivalent.
+
+
+h2. Keep those podcasts short
+
+This morning I finished listening to an episode of TWiT. The episode ran longer than an hour and would have taken me 3 commutes to finish under normal circumstances. That sucks. It's like reading half of an article then returning to it a day later; I'll have forgotten wherever I got to and the previous context and mood of the article is lost.
+
+It must be possible to break down an hour of audio into smaller, more focused chunks. A 30 minute podcast is pushing the limits here. 15 is better, 10 even more so. I'd much rather have 2 15 minute podcasts than one 30 minute. 
+
+Besides the fact that it would alleviate some of the above issues, it would also mean that podcasts are interesting for people who only have a 20 minute commute. Or 15 minutes to spare. Or a 10 minute toilet visit. 
+
+
+h2. It's all in the technology
+
+Most of the above problems seem to stem more from issues in the current technologies than in the podcasts themselves. Just like we have specialized content presentation software called browsers for textbased content, most of these issues could be solved by specialized podcast players. 
+
+We've got the podcasts. We've got the listeners. Let's hope the software and hardware vendors figure out how to make it all work together in a way that shoves audio content up where text content currently is.
+
+We've got hypertext pretty much down to a science, time to start on hyperaudio.

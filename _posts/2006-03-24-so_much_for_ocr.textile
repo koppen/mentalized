@@ -1,0 +1,10 @@
+---
+layout: post
+title: So much for OCR
+date: '2006-03-24 10:46:13 +0100'
+mt_id: 1569
+categories:
+- technology
+- business
+---
+Heh, even when filling out the provided PDF on a computer and printing it, the OCR at "SKAT":http://skat.dk (Danish IRS) manages to misread stuff. "Substance Lab":http://substancelab.com turns into "Sunstance Lab":http://www.cvr.dk/Site/Forms/PublicService/DisplayCompany.aspx?cvrnr=29351988.

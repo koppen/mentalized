@@ -1,0 +1,9 @@
+---
+layout: post
+title: Isn't it ironic?
+date: '2003-03-21 00:21:15 +0100'
+mt_id: 671
+categories:
+- life
+---
+People demonstrating against war ending up attacking the police...

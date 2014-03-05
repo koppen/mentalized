@@ -1,0 +1,46 @@
+---
+layout: post
+title: Hello Rails 3 World
+date: '2010-02-05 11:09:30 +0100'
+mt_id: 2024
+categories:
+- programming
+---
+A long time ago (one day short of exactly 4 years) I posted a super simple - and to be honest - pointless "Hello World example using Ruby on Rails":http://mentalized.net/journal/2006/02/06/hello_ruby_on_rails_world/. Back then the "Rails":http://rubyonrails.org version was 1.0. 
+
+Today marks the first beta release of the coming version of "Rails, version 3.0":http://weblog.rubyonrails.org/2010/2/5/rails-3-0-beta-release and I figured it'd be fun revisiting that post.
+
+
+<!--more-->
+
+<p>So, this is a step by step tutorial to getting over the first hurdle: Creating a "hello world" application in Ruby on Rails. This should work assuming you already have Rails 3 installed and running on your system:</p>
+
+<ol>
+  <li><pre><code class="shell">$ rails hello</code></pre></li>
+
+  <li><pre><code class="shell">$ cd hello</code></pre></li>
+  <li><pre><code class="shell">$ rails generate controller hello</code></pre></li>
+  <li>
+    <p>Open the file config/routes.rb. Almost at the bottom (line #57) is this line:</p>
+    <pre><code class="ruby"># match ':controller(/:action(/:id(.:format)))'</code></pre>
+    <p>Remove the # in front so the line looks like:</p>
+
+    <pre><code class="ruby">match ':controller(/:action(/:id(.:format)))'</code></pre>
+  </li>
+  <li>Create a file named index.html.erb in app/views/hello containing the text &#8216;Hello world&#8217;.</li>
+  <li><pre><code class="shell">$ rails server</code></pre></li>
+  <li>Navigate to <a href="http://localhost:3000/hello">http://localhost:3000/hello</a> in your browser and be greeted by your friendly application: &#8220;Hello world&#8221;.</li>
+
+</ol>
+
+<p>PS: <a href="http://localhost:3000/">http://localhost:3000/</a> is (still) a lot prettier "Hello world"-ish page.</p>
+
+<p><span class="caps">PPS</span>: Note that the Rails 3 example above actually has a step more than the Rails 1 ditto. This comes from the fact that Rails 3 doesn&#8217;t build a default route for you.</p>
+
+<div class="aside versions">
+  The code in this article has been verified with:<br />
+  <ul>
+    <li>Ruby: 1.8.7</li>
+    <li>Rails: 3.0.0.beta</li>
+  </ul>
+</div>

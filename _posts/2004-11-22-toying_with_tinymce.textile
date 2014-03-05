@@ -1,0 +1,13 @@
+---
+layout: post
+title: Toying with TinyMCE
+date: '2004-11-22 18:35:01 +0100'
+mt_id: 837
+categories:
+- webdesign
+---
+I have for experimental reasons installed "TinyMCE(TinyMCE)":http://tinymce.moxiecode.com/. TinyMCE is a "platform independent web based Javascript HTML WYSIWYG editor control" (nothing less).
+
+Installation is pretty easy, it hooks seamlessly into existing textareas, turning them into WYSIWYG HTML editing areas in supported browsers. The HTML output is not perfect, but seems acceptable for this purpose.
+
+Feel free to try it out and let me know how it works, especially if it doesn't. I am especially interested in hearing from non-Windows users.

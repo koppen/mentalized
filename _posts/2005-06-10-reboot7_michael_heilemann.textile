@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'reboot7: Michael Heilemann'
+date: '2005-06-10 10:49:04 +0200'
+mt_id: 1333
+categories:
+- reboot
+---
+Notes from "Michael Heilemanns":http://binarybonsai.com speech: Open Source Design
+
+<!--more-->
+
+h2. Kubrick
+
+* Arised from a need: To stop people from asking to use MHs design=> Creation of Open Source design; Kubrick
+* Downloaded a gazillion times
+* 20+ ports to different systems
+
+h2. Why Open Source?
+
+* Wordpress is OSS - giving back to the community
+* Sharing
+
+h2. Pitfalls and trapdoors
+
+* Support requests from the gazillion people led to forum - Open Source Support?
+* Users will expect you to take responsibility for what you've put out there.
+* All blogs end up looking the same
+
+h2. Rewards
+
+* Community support/network building/social
+* Increased traffic from Google
+* You are not going to get rich from Kubrick, but you might be able to make money from support. When you do something that gets out there, you get known, you get contacts, it might pay off in the long run.
+* Career starter

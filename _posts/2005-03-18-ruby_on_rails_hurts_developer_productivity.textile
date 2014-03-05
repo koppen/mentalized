@@ -1,0 +1,17 @@
+---
+layout: post
+title: Ruby on Rails hurts developer productivity
+date: '2005-03-18 14:05:47 +0100'
+mt_id: 1263
+categories:
+- programming
+---
+Gah, using "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com is seriously influencing my productivity at work in a negative way. I take longer doing simple stuff, my code has more errors and never works the first time anymore.
+
+"Why? How? Everybody else praise Rails to the skies, why are you different, Jakob?", I hear the masses cry out. I'll tell you why! 
+
+After having gotten used to RoR for a private project or 2, all the web development stuff I do at work feels ugly, clunky and unproductive, simply because I am *not* using Ruby on Rails for it.
+
+Now my if statements are all wrong, I try to create objects that don't exist, I think in terms of before- and after-filters, I expect everything handed to me on a gold platter, but it just doesn't happen like it does in RoR!
+
+So take my advice: If you are stuck doing legacy work on a legacy system, don't think about learning RoR - you might never want to go back to work if you do.

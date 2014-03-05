@@ -1,0 +1,17 @@
+---
+layout: post
+title: Stray thought about my computers
+date: '2006-07-06 13:47:12 +0200'
+mt_id: 1649
+categories:
+- life
+---
+Over the last month I have turned on my Windows PC a minimal amount of times. And every time it has been for one of three reasons:
+
+* Playing World of Warcraft
+* Listening to music
+* The Girl is using the iBook
+
+Last I checked, Mac OS X was able to handle all of the above scenarios just fine. Can it really be that I no longer have a reason to own a Windows PC for personal use?
+
+"The company":http://substancelab.com obviously needs to be able to check websites in IE still, so I won't get rid of the PC, but I'm finding it hard to come up with an argument for upgrading it instead of buying a new Mac. Hmm...

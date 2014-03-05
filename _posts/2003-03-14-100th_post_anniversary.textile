@@ -1,0 +1,9 @@
+---
+layout: post
+title: 100th post anniversary
+date: '2003-03-14 11:01:36 +0100'
+mt_id: 665
+categories:
+- life
+---
+This post is number 100. Considering I originally didn't want to have a blog, that is quite an accomplishment. Next milestone: When the amount of comments exceeds the amount of posts.

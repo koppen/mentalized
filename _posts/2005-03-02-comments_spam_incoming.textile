@@ -1,0 +1,13 @@
+---
+layout: post
+title: Comments spam incoming
+date: '2005-03-02 10:24:16 +0100'
+mt_id: 1251
+categories:
+- mentalizednet
+---
+Gah! I've been living nearly without comment spam the last many months due to the bundle of preventive measures I've employed. 
+
+However for some reason Movable Type messed my templates up yesterday, overwriting them with an old template, meaning some of the stuff I had done disappeared in a rebuild. During the night I paid the price in terms of commentspam received.
+
+Luckily most just ended up in my pending approval queue, so they never saw the light of day. Another good thing is that this pretty much proved to me that my spam countermeasures were working - better get them back up. Still pisses me off though.

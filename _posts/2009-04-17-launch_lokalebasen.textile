@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Launch: Lokalebasen'
+date: '2009-04-17 12:46:44 +0200'
+mt_id: 2000
+categories:
+- projects
+---
+It's not like this has been a secret until now, but <a href="http://www.lokalebasen.dk" title="Lokalebasen: Find ledige kontorlokaler til leje og salg">Lokalebasen</a>, the most recent <a href="http://substancelab.com" title="Freelance web application development">client work built by me</a> (in collaboration with <a href="http://casperfabricius.com">Casper Fabricius</a>) has launched.
+
+<a href="http://www.lokalebasen.dk" title="Uvildig portal for erhvervslejemål">Lokalebasen</a> allows realtors and other providers of offices, warehouses and production facilities to connect with companies looking for a location to buy or rent in Denmark. And so far, the site has been successful.
+
+!/files/journal/lokalebasen/lokalebasen.jpg!
+
+<!--more-->
+
+We quietly launched a version of <a href="http://www.lokalebasen.dk" title="Uafhængig portal for ledige kontorlokaler, produktionslokaler og lagerlokaler i Danmark">Lokalebasen</a> in January and have been continuously improving the site and experience since then. When we launched, the site was functional, but far from complete. Nevertheless, people looking for offices etc. still managed to find it, and the first deals have already been closed thanks to <a href="http://www.lokalebasen.dk" title="Lokalebasen: Kontorlokaler til leje">Lokalebasen</a>. 
+
+This is really a testament to agile and test driven development (well, actually BDD to be specific). It basically means <a href="http://www.lokalebasen.dk" title="Lokalebasen">Lokalebasen</a> have been able to fund part of the development of the site with actual revenue from the site itself. 
+
+That sure beats waiting for income for a few more months while we perfect the site. A big win for releasing early, releasing often - and in particular for the client.

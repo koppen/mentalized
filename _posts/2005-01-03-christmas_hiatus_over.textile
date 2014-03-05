@@ -1,0 +1,9 @@
+---
+layout: post
+title: Christmas hiatus over
+date: '2005-01-03 12:59:55 +0100'
+mt_id: 848
+categories:
+- life
+---
+So... Merry christmas! Happy new year!

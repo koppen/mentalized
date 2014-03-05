@@ -1,0 +1,64 @@
+---
+layout: post
+title: Using SQL Server views as Rails "tables"
+date: '2006-03-27 15:02:39 +0200'
+mt_id: 1574
+categories:
+- programming
+- biq_on_rails
+---
+In an effort to get a feel for the effort it'll take to rewrite "BiQ":http://www.biq.dk, I've been rewriting a vertical slice of our functionality. As part of that I've been setting up a test "Ruby on Rails":http://www.rubyonrails.org application and building a test suite for it.
+
+One pretty important piece of the puzzle is our database. Over the years it has changed from the realm of an application database into being an integration database. Part of the rewrite is my desire to revert that.
+
+I really want to change our database structure around so it matches the conventions of Rails. I believe the cost of doing so is by far outweighed by the benefits, especially since I'd have to map everything to some other name in our models otherwise. 
+
+tblUser.strUserFirstname is probably one of the worst naming schemes I've ever come up with. Having to create attribute accessors for everything isn't going to make me like it a single bit more.
+
+For now, while we're exploring and testing, it will probably be most beneficial to preserve the old naming scheme. That way we can run tests and compare results on both the ASP/VBScript and the Rails application. Also we have scripts and stored procedures outside the ASP/VBScript application expecting the old structure that won't be part of the initial rewrite.
+
+
+h2. SQL Server saves
+
+My initial idea was to create simple views that create a 1-1 mapping of each table, renaming the columns as I see ie: 
+
+bc(sql). CREATE VIEW users AS SELECT intUserId AS id FROM tblUser). 
+
+This idea is great in all it's simplicity because SQL Server makes this kind of views updatable. "Jakob", I thought to myself, "you're a genious". Then I ran my tests and errors were everywhere.
+
+
+h2. ActiveRecord objects to my idea
+
+For test fixtures to work in a predictable way you need to be able to insert into their id columns. To enable that on a table in SQL Server you do <code>set identity_insert tableName on</code>. However, Rails expects my table to be named users, but the database object by that name is really a view, hence I get the error:
+
+bq. ActiveRecord::ActiveRecordError: IDENTITY_INSERT could not be turned ON
+
+Which in reality masks this error:
+
+bq. 'users' is not a user table. Cannot perform SET operation.
+
+Bummer. It was a good idea, though.
+
+
+h2. Create a trigger on the view to turn identity insert on
+
+Creating an Instead-Of-Trigger that turns identity insert on is a fairly clean solution. It doesn't work, though. The SQL Adapter always check if the insertion has an id column and if it has tries to turn identity insertion on. This results in the above error, since it uses the view name. 
+
+
+h2. Hacking Fixtures
+
+The above behaviour turned me onto something, though. There is a single method that handles turning identity insertion on and off: ActiveRecord::ConnectionAdapters::SQLServerAdapter.enable_identity_insert. Bingo! There's my attack vector. I added the following ugly-as-heck-hack to test/test_helper and everything works:
+
+bc(ruby). module ActiveRecord
+  module ConnectionAdapters
+    class SQLServerAdapter < AbstractAdapter
+      def enable_identity_insert(table_name, enable = true)
+        if has_identity_column(table_name)
+          "SET IDENTITY_INSERT tbl#{table_name.singularize} #{enable ? 'ON' : 'OFF'}"
+        end
+      end
+    end
+  end
+end
+
+At least our current database conventions are consistent enough for the above to work. I should probably reconsider my choice of not wanting to change the tables around, but this hack will serve me well until we move ahead with the actual rewrite.

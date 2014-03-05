@@ -1,0 +1,29 @@
+---
+layout: post
+title: Copenhagen.rb August meeting
+date: '2006-08-21 11:30:43 +0200'
+mt_id: 1684
+categories:
+- copenhagenrb
+---
+Last Wednesday the Copenhagen Ruby Brigade crowd got together for our first "real" meeting. Approximately 22 people showed up, proving that it wasn't only the "sponsor beer":http://flickr.com/photos/jakobs/185424170/ that lured people last time.
+
+h2. Stuff that happened
+
+"Jesper":http://justaddwater.dk introduced his "Localization Simplified":http://rubyforge.org/projects/l10n-simplified/ plugin, which aims to be a dead easy way to alter the default English messages that Rails uses pretty much everywhere. It has since then been added to RubyForge, and support for pirate talk has been added. :)
+
+I gave a brief presentation titled "Legacy stinks" in which I more or less concluded that while it can be tedious and timeconsuming to put legacy database schemas on Rails, it is not as impossible as it used to be.
+
+Finally "Casper":http://casperfabricius.com/ gave a quick rundown of his experiences and the major topics from "RailsConf in Chicago":http://railsconf.org.
+
+The whole shebang took place in the offices of "Nordija":http://www.nordija.dk/da/Forside.html, who (I think?) also kindly sponsored the pizza for the evening.
+
+
+h2. About the website
+
+At the meeting I more than alluded that I'd try and get a website up and running last week. Unfortunately the place I registered the domain with apparently hadn't seen my order until I emailed them to get them to cancel it. Here's hoping the new registrar has a better sales system. Basically I guess this means the website will be there eventually.
+
+
+h2. Next meeting
+
+Next meeting of Copenhagen.rb is going to take place September 19th at 17:30. We still need a venue and preferably some topics/demos/presentations, so do "sound off on the mailing list":lists.substancelab.com/mailman/copenhagen.rb if you can provide either.

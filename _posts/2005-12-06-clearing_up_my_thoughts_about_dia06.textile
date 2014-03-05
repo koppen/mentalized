@@ -1,0 +1,39 @@
+---
+layout: post
+title: Clearing up my thoughts about DIA06
+date: '2005-12-06 09:00:00 +0100'
+mt_id: 1483
+categories:
+- blogging
+- webdesign
+- usability
+- technology
+---
+In a "previous post":http://mentalized.net/journal/2005/11/30/judging_the_judges_of_danish_internet_award_2006/ I took a few easy and cheap shots at some danish web development agencies. I did this since their websites irked a pet peeve of mine. Unfortunatly, in my eagerness to rant I ended up writing a post, that was utterly confused, drawing conclusions that were "only partly cool":http://mentalized.net/journal/2005/11/30/judging_the_judges_of_danish_internet_award_2006/#comment001262. I apologize for the hodgepodge of that post.
+
+I never meant to imply anything about the abilities of the individual jury members. I am sure they'll do just fine awarding the Danish Internet. Also, I am sure they "get it" (some of them are even blogging) even though they work for companies that after a cursory glance appear not to. After all, I work for "BiQ":http://www.biq.dk - a company with no weblog, no newsfeeds, and with validation warnings, and I still like to think I "get it".
+
+Also, thumbs up to "Jon Lund":http://newmediatrends.fdim.dk/, one of the DIA06 organizers, for noticing and replying to my post. Keeping up to date with the blogosphere and replying to negative posts is a sure sign of someone getting it. 
+
+Now, I am still pretty sceptical about DIA06 for various reasons.
+
+
+<!--more-->
+
+h2. Name and purpose mismatch
+
+What initially threw me off was the name. "Danish Internet Award" signals awarding the best of the Internet. To me, that means websites, -services, and -applications. Let's get this straight; that's not what DIA06 is about. It's about awarding the marketing campaigns which "fully takes advantage of the Internets creative and technical opportunities" (translation mine). My previusly suggested Danish Online Marketing Campaign Award (the DOMCA) would have been more accurate.
+
+
+h2. Still, it's an award show...
+
+The main thing that irks me, and others, about the pretentious grandiosity of DIA06, is that the mere concept of an Internet centered award show reeks of 5 years ago ("Pollas dates it even further back":http://pollas.dk/2005/11/29/diy-06/). Pre bubble1.0. Egocentrical backpatting, BigCos, funds heading down the drain, and flashbacks of one of the early Reboot conferences awarding a WAP site the "Technology award".
+
+This impression is reinforced by the "DIA06 website":http://www.dia06.dk featuring - of all things - a Flash intro (with no skip button). The first entry on their "weblog": also gives weight to my notion that DIA06 is more aptly numbered DIA01; Running a "Call for entries" advertisment in a paperbased newspaper. I dunno; online ads, links from the weblogs of jury members and organizers, or perhaps a small viral marketing campaign would have made more sense. Eating ones own medication and all that. At least, two of the three organizers mention DIA06 on their "website":http://fdim.dk/ "frontpages":http://www.markedsforing.dk/, so some effort is made in that regard.
+
+Nevertheless, I wish the organizers good luck. I assume this is a new initiative, so obviously kinks have to ironed out and sour grapes like me only deserves half an ear listening. And I definatly agree with the notion, that online marketing needs a lot of help since quite frankly, most of it suck. Not knowing the advertising industry intimately, it might just be that an award show is the carrot they need.
+
+
+h2. Validation! Rant about validation!
+
+As for markup validation as a sign of quality? Well, that's for another rant another day. ;)

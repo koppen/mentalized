@@ -1,0 +1,35 @@
+---
+layout: post
+title: On Flash, layers, and HTML5
+date: '2010-11-11 13:47:33 +0100'
+mt_id: 2075
+categories:
+- projects
+- webdesign
+- technology
+---
+A common problem when embedding "Flash":http://da.wikipedia.org/wiki/Adobe_Flash elements on a website is where the Flash content insist on being shown on top of all other overlapping layers of content. For example if you want to show photos in a "lightbox":http://www.google.dk/search?q=lightbox on a page with Flash ads, you see the ads bleed through the lightbox and photo.
+
+This is "a known problem":http://www.google.dk/search?q=flash+z-index+wmode and the fix is generally to set <code>wmode</code> to <code>opaque</code> or <code>transparent</code> depending on your needs. Problem solved.
+
+That's what I though when I ran into the problem on "eventzonen.dk":http://eventzonen.dk. It turned out to be not that easy.
+
+
+<!--more-->
+
+h2. Webkit, I love you, but...
+
+Sure, setting wmode let the Flash player obey the specified z-indexes, in all but Webkit based browsers (I presume Webkit was to blame, but to be honest, I only verified in "Google Chrome":http://www.google.com/chrome).
+
+"eventzonen.dk":http://eventzonen.dk is marked up in HTML5, and we're using pretty standard object/embed tags to bring in YouTube movies on artist profile pages. According to HTML5 validator the <code>object</code> tag must have either a <code>type</code> *or* a <code>data</code> attribute. 
+
+We were using the data attribute only. And that apparently makes Chrome layer the Flash element on top of everything. 
+
+
+h2. The fix
+
+Simply adding a
+
+bc. type="application/x-shockwave-flash"
+
+to the <code>object</code> tag fixed the problem and our photo lightbox now happily overlays YouTube videos - even in Chrome.

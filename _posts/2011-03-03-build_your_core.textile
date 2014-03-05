@@ -1,0 +1,31 @@
+---
+layout: post
+title: Build your core
+date: '2011-03-03 15:13:57 +0100'
+mt_id: 2091
+categories:
+- business
+- software
+- projects
+---
+When building a new software project, you should focus on building your core functionality - usually the magic sauce that makes your company money.
+
+This might seem obvious, but many people don't realize just how much extra work is needed to support the money making part. Not only are there many supporting features, it can also be hard distinguishing them from your core features; after all, they are all needed to run the business, so they must be important, right?
+
+Unless you have unlimited funds, your success is going to be dependent on your ability to figure out the correct set of core features to work on.
+
+<!--more-->
+
+h2. The case of the project management tool
+
+I recently talked to another developer, who had inherited a project. Digging through the administration interface, he came across something curious: A project management tool.
+
+The original developers had built a scrum project management tool into the administration interface. Certainly, project management is required for the project to be a success, but the actual project had nothing to do with project management. That's probably the clearest case I've ever encountered of building outside your core features.
+
+h2. Are you still building your own recurring billing?
+
+I've previously implemented recurring billing in a client projects. I tried to persuade the customer that building it ourselves was a waste of time and money. At the time, services like "Chargify":http://chargify.com, "Recurly":http://recurly.com and "Spreedly":http://spreedly.com unfortunately either weren't around or weren't fully featured enough for us to use. Nowadays, you're practically throwing away money building your own recurring billing.
+
+Other examples could be building your own issue tracker or newsletter delivery mechanisms.
+
+Spend your time and energy where it matters, where you can deliver the most value to your customers. Outsource everything else to a third party if possible.

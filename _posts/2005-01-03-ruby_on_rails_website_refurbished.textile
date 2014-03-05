@@ -1,0 +1,16 @@
+---
+layout: post
+title: Ruby on Rails website refurbished
+date: '2005-01-03 14:25:40 +0100'
+mt_id: 849
+categories:
+- projects
+- webdesign
+---
+It's been a long time since I've added anything to my portfolio. But just before leaving the online world for christmas, I worked with "David(Loud Thinking: Broadcasting Brain)":http://loudthinking.com (and indirectly "Marten Veldthuis(StandardBehaviour.com)":http://www.standardbehaviour.com/log/index and "Jon Hicks(//hicksdesign)":http://hicksdesign.co.uk/ - kudos for coming up with initial ideas to work from) to redesign/rebrand/refurbish the "web presence of Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com/.
+
+<!--more-->
+
+"Reactions(Ruby on Rails has its web presence overhauled)":http://weblog.rubyonrails.com/archives/2004/12/27/hello-world/ have been mainly positive, which is great naturally, with a bunch of not-so-positive reactions intertwined, which is also graet naturally. We're still ironing out the remainding few issues, and since launching "even the logo has undergone refinement(Rails logo remixed by Olivier Hericord)":http://weblog.rubyonrails.com/archives/2004/12/31/rails-logo-remixed-by-olivier-hericord/ for the better (behold the power of open sourcing).
+
+The project was pretty interesting since we wanted to give the existing parts of the Rails web presence a uniform look'n'feel, mixing Instiki with Trac with RDoc with new additions WordPress and Hierarki. That's 3 different scripting languages and 5 different ways of templating. We "cheated" using iframes to include the headers where needed, but the valid (well, nearly valid at least), semantic (X)HTML really came through for us, enabling us to use a common CSS file for all areas.

@@ -1,0 +1,22 @@
+---
+layout: post
+title: ActiveRecord oddity of the day
+date: '2010-01-22 09:52:45 +0100'
+mt_id: 2020
+categories:
+- programming
+---
+Yesterday I got bit by this fairly obscure behavior in "ActiveRecord":http://api.rubyonrails.org/classes/ActiveRecord/Base.html: 
+
+bc(ruby). >> person = Person.first
+=> #<Person id: 1, name: "Jakob", height: 170, created_at: "2010-01-22 08:57:02", updated_at: "2010-01-22 08:58:57">
+>> person.height = 169,5
+=> [169, 5]
+>> person.height
+=> 1
+
+Uhm, huh? The above is from "Rails":http://rubyonrails.org 2.3.5 using "SQLite":http://sqlite.org/, but I originally saw the issue running on "PostgreSQL":http://postgresql.org. 
+
+It turns out, that if the object you assign to an integer attribute/column does not respond to <code>to_i</code>, the attribute will be set to 1 - unless the object evaluates to <code>false</code> in which case the attribute will be set to 0.
+
+My best guess is that ActiveRecord is trying to work around the lack of boolean columns in MySQL with this. So even though I am not using MySQL I still have to suffer its ineptitude. One just can't win.

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Cool light-weight nerd
+date: '2007-09-26 12:39:03 +0200'
+mt_id: 1873
+categories:
+- verdens_vide_web
+---
+I går faldt jeg over en <a href="http://www.nerdtests.com/ft_nt2.php?score">nørd-test</a> på <a href="http://digg.com/">digg</a> (et amerikansk site hvor man kan linke til nyheder, billeder og meget andet -og som jeg egentlig synes ret godt om). 
+
+Her er min score i testen:
+
+<a href="http://www.nerdtests.com/nt2ref.html">
+<img src="http://www.nerdtests.com/images/badge/nt2/ecd79fc85d426647.png" alt="NerdTests.com says I'm a Cool Light-Weight Nerd.  What are you?  Click here!">
+</a>
+
+Der var ikke mange spørgsmål omkring internet og computerprogrammer, men om decideret programering - derfor den "dårlige" score under computer ;).
+
+Det er først efter, jeg lærte min kæreste at kende, at jeg fandt ud af, at jeg faktisk er lidt nørdet - og denne test "beviser" det bare. 

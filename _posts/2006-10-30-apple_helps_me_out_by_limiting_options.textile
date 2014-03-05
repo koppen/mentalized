@@ -1,0 +1,16 @@
+---
+layout: post
+title: Apple helps me out by limiting options
+date: '2006-10-30 10:31:16 +0100'
+mt_id: 1727
+categories:
+- hardware_1
+---
+Looks like "Apples":http://www.apple.com recent upgrade of the "MacBook Pro line":http://www.apple.com/macbookpro/ helped answer "the questions I had in regards to buying a MBP":http://mentalized.net/journal/2006/10/12/seeking_mac_shopping_advice/ :
+
+* The 7200 RPM drive is no longer an option.
+* MacBook Pro now ships with a minimum of 2GB RAM (which kinda sucks, since there was a fair amount of cash to save here).
+
+Now, the purchase is pretty much a no-brainer, and a 2.33GHz 15" MBP should be heading my way the coming weeks. 
+
+Huge thanks to all those who took the time advising me about what options to get.

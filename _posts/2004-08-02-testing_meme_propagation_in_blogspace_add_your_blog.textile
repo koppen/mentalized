@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'Testing Meme Propagation In Blogspace: Add Your Blog!'
+date: '2004-08-02 11:17:15 +0200'
+mt_id: 815
+categories:
+- blogging
+---
+<p>This posting is a community experiment started by <a href="http://novaspivack.typepad.com/nova_spivacks_weblog/2004/08/a_sonar_ping_of.html">Minding the Planet</a> to see how a meme represented by a blog posting spreads across blogspace, physical space and time. It will help to show how ideas travel across blogs in space and time and how blogs are connected. It may also help to show which blogs are most influential in the propagation of memes. The original posting for this experiment is located at: Minding the Planet; results and commentary will appear there in the future.</p>
+
+<p>Please join the test by adding your blog (see instructions, below) and inviting your friends to participate &#8212; the more the better. The data from this test will be public and open; others may use it to visualize and study the connectedness of blogspace and the propagation of memes across blogs.</p>
+
+<!--more-->
+
+<p>The GUID for this experiment is: as098398298250swg9e98929872525389t9987898tq98wteqtgaq62010920352598gawstw98qwrt189849813907azq4 (this GUID enables anyone to easily search Google for all results of this experiment). Anyone is free to analyze the data of this experiment. Please publicize your analysis of the data, and/or any comments by adding comments onto the <a href="http://novaspivack.typepad.com/nova_spivacks_weblog/2004/08/a_sonar_ping_of.html">original post at Minding the Planet</a>; Note: it would be interesting to see a geographic map or a temporal animation, as well as a social network map of the propagation of this meme.</p>
+
+<h2>Instructions</h2>
+
+<p>To add your blog to this experiment, copy this entire posting to your blog, and fill out the info below, substituting your own information in your posting, where appropriate.</p>
+
+<h2>Required Fields </h2>
+
+<p>(Note: Replace the answers below with your own answers)</p>
+
+
+<ol>
+<li>I found this experiment at URL: http://kalsey.com/blog/</li>
+<li>I found it via &#8220;Newsreader Software&#8221; or &#8220;Browsing or Searching the Web&#8221; or &#8220;An E-Mail Message&#8221;: Newsreader</li>
+
+<li>I posted this experiment at <span class="caps">URL</span>: http://mentalized.net/journal/</li>
+<li>I posted this on date (day, month, year): 02 August 2004</li>
+<li>I posted this at time (24 hour time): 11:20:00</li>
+<li>My posting location is (city, state, country): Copenhagen, N/A, Denmark</li>
+</ol>
+
+
+<h2>Optional Survey Fields</h2>
+
+<p>(Replace the answers below with your own answers):</p>
+
+
+<ol>
+<li>My blog is hosted by: My work</li>
+<li>My age is: 28</li>
+<li>My gender is: Male</li>
+<li>My occupation is: Web developer</li>
+<li>I use the following RSS/Atom reader software: FeedDemon</li>
+
+<li>I use the following software to post to my blog: Movable Type, various plugins</li>
+<li>I have been blogging since (day, month, year): 18, February, 2002</li>
+<li>My web browser is: Firefox</li>
+</ol>

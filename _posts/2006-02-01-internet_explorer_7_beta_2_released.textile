@@ -1,0 +1,11 @@
+---
+layout: post
+title: Internet Explorer 7 beta 2 released
+date: '2006-02-01 13:14:22 +0100'
+mt_id: 1522
+categories:
+- browsers
+---
+It's "somewhere over here hidden by a hideous Flash animation":http://www.microsoft.com/windows/ie/ie7/default.mspx.
+
+bq. Microsoft have released a public beta of IE7. The homepage is a staggeringly fucking awful flash animation, promising 

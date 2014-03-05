@@ -1,0 +1,13 @@
+---
+layout: post
+title: What's the definition of definition list?
+date: '2007-12-06 14:03:19 +0100'
+mt_id: 1899
+categories:
+- technology
+- browsers
+- webdesign
+---
+According to "the HTML 4 specification":http://www.w3.org/TR/html401/struct/lists.html#h-10.3 a definition list can be used to mark up dialogues. Mark Norman Francis objects to this, and in "his article on 24 ways" he goes on to claiming that using definition lists for anything but glossaries, lexicons and dictionaries is a crime against markup:
+
+bq. Living by the specification, a definition list should be used for term definitions 

@@ -1,0 +1,32 @@
+---
+layout: post
+title: Baruco 2013
+date: '2013-09-17 21:28:42 +0200'
+mt_id: 2170
+categories:
+- life
+- technology
+- software
+---
+I don't go to many conferences - I am pleased that [Baruco](http://baruco.org) is one of them.
+
+I really enjoyed the conference. It was well organized with a stellar lineup of speakers. I've returned home from Barcelona with things to ponder, things to try out, and a list of books to read.
+
+
+<!--more-->
+
+## Topics
+
+The topics were a good mix of nitty-gritty technical talks and more fluffy topics like higher level design, community building, and how do we build better software.
+
+I was somewhat surprised with how little Rails was a topic. Sure, it was mentioned, but none of the talks were specifically about Rails even though that's what the majority of us makes our money from. I think this might be a good sign.
+
+## One track
+
+Baruco only has one track. For a conference, that's a fairly bold move - when attendees cannot chose what to experience, the experience that has been chosen for them, must be great.
+
+Luckily, the impressive roster of speakers did deliver and it worked very well. This meant everybody had the same reference points and hallway discussions are centered around the same ideas.
+
+## Summing up
+
+My main takeaway from the conference has so far been that Ruby is still going strong with some of the best yet to come - and that we have a great community of friendly, approachable and curious people.

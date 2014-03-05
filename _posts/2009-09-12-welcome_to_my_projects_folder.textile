@@ -1,0 +1,31 @@
+---
+layout: post
+title: Welcome to my Projects folder
+date: '2009-09-12 16:34:30 +0200'
+mt_id: 2006
+categories:
+- business
+- projects
+---
+Whenever I launch a Terminal window, it starts up in a very important folder on my harddrive; my Projects folder. This is where I store the projects I work on - both for clients, but also internal projects and experiments and whatnot.
+
+The Projects folder contains a bunch of other folders, one for each client. Each of those folders contain a folder for each project I am working on for that client. This keeps everything grouped nicely together in my eyes.
+
+And then my neat structure breaks down. The only fairly constant element inside each project is a folder where the actual code of the project is stored. This is usually a clone of the Git repository named, but a projects have Subversion checkouts inside them.
+
+Outside of that, the folder for a single project can contain any number of different folders, usually for design ideas, requirements documents, specs, prototypes, and all the other bit and pieces that exist around the process of building a project.
+
+
+h2. Archived projects
+
+In the Projects folder is also an Archived folder where I put zipfiles of the projects I no longer work on. The archive folder follows the same structure as the Projects folder, with a folder for each client, containing the zipped projects I've built for them. 
+
+
+h2. Contracts and documents
+
+I currently keep my contracts and proposals and documents like that in a separate structure, keeping everything under Projects focused on actually producing the project. 
+
+
+h2. I've showed you mine...
+
+I'm kind of curious as to how you organize your projects. Are there any applications I should be using, any important metadata I'm missing out on, or any other tricks you employ?

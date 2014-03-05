@@ -1,0 +1,41 @@
+---
+layout: post
+title: 7 days on OS X
+date: '2005-05-30 13:28:04 +0200'
+mt_id: 1323
+categories:
+- technology
+---
+A few stray impressions, thoughts, and notes for myself regarding my first days as a Mac user. Some of these could probably be solved be reading the manual, but if OS X is intuitive I shouldn't have to, dammit! ;)
+
+<!--more-->
+
+* Where the heck is the @ symbol when using danish input?
+* How do I navigate back and forward from the keyboard in System preferences (and probably elsewhere). The command + arrow keys only seem to work in Finder / Safari.
+* How do I navigate the menu bar from keyboard? (Yeah, I'm not really that much of a trackpad/mouse fan - nor really a RTFM kinda guy).
+* Can't TextMate in-/outdent entire blocks of text at a time? :o/
+* I had just gotten over my dropshadow phase when doing website design - I reckon I'll be falling right back into that pit after using OS X.
+* The brushed metal is a whole lot less annoying/obvious than I had feared.
+* How do I open/run a document/application from the keyboard in Finder? I can navigate to it using arrow keys, but Enter just starts renaming it, not executing it. :(
+* Dang, things look smooth.
+* iTunes is going to cost me money...
+
+h2. Software I still have to try out
+
+* "Proteus":http://www.defaultware.com/proteus/ - while iChat is close to the IM application I once started creating for Windows/Jabber, Proteus looks like it is exactly what I want. "Adium":http://www.adiumx.com/ could be a (free!) alternative.
+* "NewsFire":http://www.newsfirerss.com/
+* "NetNewsWire":http://ranchero.com/netnewswire/
+* Some sort of backup method, not sure which to go with.
+* "Quicksilver":http://quicksilver.blacktree.com/ - I still haven't quite grokked what it is, but people are raving about it.
+* "Growl":http://growl.info/ - looks interesting too.
+
+h2. Articles
+
+A few articles I've found useful:
+
+* "Garrett Dimon: My Favorite Software":http://www.garrettdimon.com/archives/my_favorite_software
+* "http://maczealots.com/articles/applications/":http://maczealots.com/articles/applications/
+* "http://maczealots.com/articles/backup/":http://maczealots.com/articles/backup/
+* "http://maczealots.com/articles/hiddenfiles/":http://maczealots.com/articles/hiddenfiles/
+
+Hm, I could've just linked to MacZealots article archive, I guess.

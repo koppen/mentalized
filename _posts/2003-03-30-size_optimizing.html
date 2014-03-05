@@ -1,0 +1,85 @@
+---
+layout: post
+title: Size optimizing
+date: '2003-03-30 00:55:34 +0100'
+mt_id: 675
+categories:
+- webdesign
+- mentalizednet
+---
+<p>With Mark Pilgrim <a href="http://diveintomark.org/archives/2003/03/25/web_site_optimization_review.html" title="Web Site Optimization review">diving into website optimization</a> I decided to run this site
+through a <a title="Web site analysis report - WebSiteOptimization.com"
+href="http://www.websiteoptimization.com/services/analyze/">size
+analysis tool</a>. The verdict:</p>
+
+<blockquote
+cite="http://www.websiteoptimization.com/cgi-bin/wso/wso.pl">
+  <ul>
+    <li>TOTAL_OBJECTS - Congratulations, the total objects on this page
+(including the HTML) is 4 which most browsers can multithread.
+Minimizing HTTP requests is key for web site optimization.</li>
+    <li>TOTAL_IMAGES - Congratulations, the total number of images on
+this page is 2. Most browsers can send multiple requests, which can
+speed display of multiple images.</li>
+    <li>TOTAL_CSS - Congratulations, the total number of external CSS
+files on this page is 1. Because external CSS files must be in the HEAD
+of your HTML document, they must load first before any BODY content
+displays. Although they are cached, CSS files slow down the initial
+display of your page.</li>
+    <li>TOTAL_SIZE - Caution. The total size of this page is 71995
+bytes, which will load in over 8 seconds on a 56Kbps modem. Consider
+reducing total page size to less than 30K to achive sub eight second
+response times on 56K connections. Be sure to provide feedback for pages
+over 30K by layering your design to display useful content within the
+first two seconds.</li>
+    <li>HTML_SIZE - Caution. The total size of this HTML file is 30437
+bytes, which is above 20K but below 100K. With a 10K ad and a logo this
+means that your page will load in over 8.6 seconds. Consider optimizing
+your HTML and eliminating unnecessary features. To give your users
+feedback, consider layering your page to display useful content within
+the first two seconds. Consider using HTTP compression (otherwise known
+as "content encoding") to reduce the size of your HTML.</li>
+    <li>IMAGES_SIZE - Warning! Danger Will Robinson! The total size of
+your images is 32673 bytes, which is over 30K. Consider optimizing your
+images for size, combining them, and replacing graphic rollovers with
+CSS.</li>
+    <li>SCRIPT_SIZE - Congratulations, the total size of all your
+scripts is 1133 bytes, which is less than 1160 bytes. This will fit into
+one higher-speed TCP/IP packet.</li>
+    <li>CSS_SIZE - Warning! Danger Will Robinson! The total size of your
+external CSS is 8885 bytes, which is over 4K. Consider optimizing your
+CSS for size, and combining them. </li>
+  </ul>
+</blockquote>
+
+<p>Ouch, total size: 72KB!</p>
+
+<!--more-->
+
+<p>It's not like this page is particularly complex, but living the last
+few years with phat pipes to the Internet has made me not worry about
+file sizes.</p>
+
+<p>The header graphic weighs at 31KB and could probably reduced quite a
+bit, but I have never bothered. Time to load up Photoshop again.</p>
+
+<p>The most surprising result was my HTML weighing around 30KB - almost
+as much as the image. I am not sure what to do about this, I am not even
+sure if I want to do anything about it.</p>
+
+<p>Sure, I could create classes with smaller names (which would reduce
+CSS size too), but I prefer my sources to be readable. I do have a lot
+of needless linebreaks that could be removed though. Perhaps I should
+reconsider using extended entries more than I already do (consider it
+done).</p>
+
+<p>But is it really worth messing with? Do users really care that a
+website loads in 5 seconds instead of 6? I somehow doubt it, unless
+we're talking minute long waits. I'd dare guessing, that people have
+become used to long waits on the web and tend to get pleasantly
+surprised when a page loads in less than 2 seconds, instead of getting
+pissed when it takes 12.</p>
+
+<p>For a site like <a href="http://www.google.com" title="Go to Google">Google</a> shaving a few bytes off their frontpage would probably result in a noticably lowered bandwidth bill. 
+
+<p>For me, the results are only mildly interesting. It isn't something I am going to do a lot about, but at least I know I may have a problem the day I get several thousand visitors a day - as in never.</p>

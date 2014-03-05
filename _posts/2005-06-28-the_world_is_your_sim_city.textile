@@ -1,0 +1,11 @@
+---
+layout: post
+title: The world is your sim city
+date: '2005-06-28 11:41:20 +0200'
+mt_id: 1362
+categories:
+- technology
+---
+I thought "Google Maps":http://maps.google.com were cool. Now Google has bridged the gap between desktop and server app and "brings you the world":http://earth.google.com in it's full, texture mapped 3D glory with buildings and terrain raising out of the 2D surface making the world look like a game of Sim City. And the basic editions is free. 
+
+I still haven't found my jaw.

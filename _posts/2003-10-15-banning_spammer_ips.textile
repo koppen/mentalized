@@ -1,0 +1,11 @@
+---
+layout: post
+title: Banning spammer IPs
+date: '2003-10-15 11:42:04 +0200'
+mt_id: 754
+categories:
+- blogging
+---
+Jason from "izzy|wizzy(izzy|wizzy)":http://izzywizzy.org has extended my Movable Type "Edit Comment hack(Easier edit/removal of new comments)":http://www.mentalized.net/journal/2003/09/09/movable_type_easier_editremoval_of_new_comments/ so the notification mail now contains a <a title="izzy|wizzy : Ban Those Spam Comment IPs" href="http://izzywizzy.org/blah.old/2003/10/ban_those_spam_comment_ips.php">Ban This Spam Comment IP</a> link. Great job.
+
+In related news, Jay Allen has released his "MT-Blacklist plugin( MT-Blacklist: Stop Spam Now)":http://www.jayallen.org/journey/2003/10/mtblacklist_stop_spam_now - the plugin to end all spam ;)

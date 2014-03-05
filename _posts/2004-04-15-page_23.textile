@@ -1,0 +1,18 @@
+---
+layout: post
+title: Page 23
+date: '2004-04-15 16:01:23 +0200'
+mt_id: 789
+categories:
+- life
+---
+"Keith(Asteriks: Page 23)":http://www.7nights.com/asterisk/archives/page_23.php told me to:
+
+# Grab the nearest book.
+# Open the book to page 23.
+# Find the fifth sentence.
+# Post the text of the sentence in your journal along with these instructions.
+
+From <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0789723107/qid=1082037945/sr=8-1/ref=pd_ka_1/102-4144512-2040964?v=glance&s=books&n=507846" title="Amazon">"Don't make me think"</a> by Steve Krug:
+
+bq. But from the dog's point of view, all he's saying is "blah blah GINGER blah blah blah blah GINGER blah blah blah."

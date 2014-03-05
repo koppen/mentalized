@@ -1,0 +1,9 @@
+---
+layout: post
+title: Online comic strips in RSS
+date: '2003-08-11 10:39:52 +0200'
+mt_id: 725
+categories:
+- technology
+---
+Oh yeah, I am all over this; <a title="dwlt.net | tapestry" href="http://dwlt.net/tapestry/">Tapestry - Comics delivered by RSS</a>. Strips from <a href="http://www.dilbert.com/" title="Dilbert">Dilbert</a>, <a href="http://www.pvponline.com/" title="PvPonline.com">PvP Online</a>, <a href="http://www.ucomics.com/calvinandhobbes/" title="Calvin and Hobbes">Calvin and Hobbes</a>, and <a href="http://dwlt.net/tapestry/" title="Tapestry">more</a> delivered straight to your aggregator. I suppose I can stop building my own comic-scraper now :)

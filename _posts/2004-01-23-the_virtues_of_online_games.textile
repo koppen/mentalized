@@ -1,0 +1,23 @@
+---
+layout: post
+title: The virtues of online games
+date: '2004-01-23 18:04:40 +0100'
+mt_id: 775
+categories:
+- games
+---
+I tried out "Star Wars: Knights of the Old Republic(Star Wars: Knights of the Old Republic)":http://www.lucasarts.com/products/swkotor/ the other day. The game seems decent, but has a number of annoyances - in particular one I found to odd.
+
+The game "lags(UrbanDictionary.com/lag)":http://www.urbandictionary.com/define.php?term=lag&f=1.
+
+Now, SW:KotOR is a singleplayer game with no network functionality and no packets to lose, so it can't be lag, period. Still, on occasion I lose control of the character, it freezes and starts warping all over the level. The emulation of actual, online packetloss is near perfect and my initial thought was "so this is what Star Wars Galaxies is like".
+
+Then it dawned on me: This is the first step in a money making scheme. Game developers must have noticed how online games retain their popularity for years on end, while singleplayer games falter and is put back in the closet after a few weeks.	So they started adding online game characteristica to single player games.
+
+Soon, we'll be able to launch the newest action game in singleplayer mode, fight against idiot bots that cheat and spew worthless insults at you while we all lag around and lose the connection. 
+
+Other bots will add you to their ICQ list with the splendind reason of "omg u r teh best!!11!", while the losing bots will send you e-mails detailing your mothers escapades last night. They will post messages to your favorite boards "proving" you have no life and live with your incestious parents in a trailerpark, and create accounts with other names to agree with themselves.
+
+The game will launch flood attacks against itself all while it connects to your IRC channels and spams "BIAOTCH!!" until it is banned, whereafter it will get you G-lined by complaining to the network admins that you are distributing pirated, homo-erotic images of naked children.
+
+Ah yes, singleplayer games sure lack the virtues of online games.

@@ -1,0 +1,37 @@
+---
+layout: post
+title: Bogus referrers
+date: '2003-03-19 14:29:35 +0100'
+mt_id: 669
+categories:
+- technology
+---
+<p>
+My referrerlogs are being polluted. <a href="http://www.popdex.com">Popdex</a>, <a href="http://organica.us">Organica</a>, <a href="http://www.technorati.com/">Technorati</a> and others seem to not care about the HTTP specification and are reporting bogus referrer headers from their spiders. 
+</p>
+
+<p>
+From the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html" title="HTTP1.1">HTTP specs</a> regarding the referrer headerfield (emphasis mine): 
+</p>
+
+<blockquote cite="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html">
+<p>
+The Referer[sic] request-header field allows the client to specify, for the server's benefit, the address (URI) of the resource from which the Request-URI was obtained [...] <em>The Referer field MUST NOT be sent if the Request-URI was obtained from a source that does not have its own URI</em>, such as input from the user keyboard.
+</p>
+</blockquote>
+
+<p>
+The above-mentioned sites all have spiders crawling websites, and in violation of the specs they all pass an URL to their own website in the referer-field although none of them has obtained the URI to my site from the URI they are passing (do you see a link to me at <a href="http://organica.us/r" title="About Organica">http://organica.us/r</a>? Didn't think so).
+</p>
+
+<p>
+My initial guess was that the misuse is a failed attempt to explain what their spider is and where it is coming from (conceptually the spider <em>is</em> coming from ie <a href="http://www.popdex.com/" title="Popdex">http://www.popdex.com/</a> but it sure didn't obtain my URI there). However another field exists that can rightfully be used for this purpose; The <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43" title="HTTP1.1: User-agent-header-field">user-agent</a> field - put links to your website there.
+</p>
+
+<p>
+It turns out that at least Popdex and Organica already utilize the useragent field for this, so I am left to wonder why they're messing with the referer field. Ignorance comes to mind, luckily that can be remedied.
+</p>
+
+<p>
+It annoys me that people opt to pollute my referrerlogs with fake data. I am especially surprised by the 3 above-mentioned sites doing it, seeing how they all rely heavily on the blogging community, that generally doesn't look mildy on <a href="http://www.kottke.org/03/01/030130rss_readers_.html" title="R S S readers misusing the referer field?">misuses</a> like this. News aggregators have been <a href="http://philringnalda.com/blog/2003/01/end_aggregator_referrer_abuse.php" title="End aggregator referrer abuse">taught</a> <a href="http://www.decafbad.com/blog/tech/old/ooodoe.phtml" title="0xDECAFBAD: An end to my referrer abuse">to</a> <a href="http://kalsey.com/blog/2003/01/patching_aggies_referrer/index.html" title="Patching Aggie's referrer">behave</a>, hopefully the spiders are next.
+</p>

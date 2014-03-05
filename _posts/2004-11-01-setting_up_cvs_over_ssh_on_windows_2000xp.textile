@@ -1,0 +1,28 @@
+---
+layout: post
+title: Setting up CVS over SSH on Windows 2000/XP
+date: '2004-11-01 13:19:23 +0100'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  SmFrb2IgZXhwbGFpbnMgaG93IGhlIHNldCB1cCBDVlMgb3ZlciBTU0gyIG9u
+  IGEgV2luZG93cyAyMDAwIG1hY2hpbmUu
+mt_id: 827
+categories:
+- technology
+---
+The last month I've had to setup CVS clients on a few different machines and each time I have cursed under my breath over how annoying Windows is for this. 
+
+Basically I wanted command line CVS access over SSH2 using public/private key authentication and I wanted to install as few tools as possible (read: preferably no Cygwin). I ended up using PuTTY's Plink application for the SSH part and the "official" Win32 CVS client port.
+
+What follows is my guide to installing CVS. Note, this is what worked for me, nothing else. This might work for you, it might not, and it might blow up your computer, so use at your own risk.
+
+<!--more-->
+
+# Get the latest, stable WIN32 commandline CVS client from "CVSHome.org(Download CVS releases)":https://ccvs.cvshome.org/servlets/ProjectDocumentList?folderID=83
+# Unpack cvs.exe to your C:\WINDOWS\System32\ (or another directory in your path-variable)
+# Get "PuTTY and Plink (Download PuTTY tools)":http://www.chiark.greenend.org.uk/~sgtatham/putty/ and install them. I installed both to my C:\Program Files\PuTTY\ and added this to the path variable.
+# Use PuTTY to establish a SSH connection to the CVS server. Set it up like you want to, using your private key and username, and save the session in PuTTY. If you're lazy like me make sure the connection doesn't require any interactivity to login, ie doesn't ask for username and/or password.
+# Test the SSH connection from command line using <code>Plink sessionname</code>, where sessionname is the name you saved the PuTTY session as. If this works you're good to go for the next steps.
+# Create a new global enviroment variable called CVS_RSH with the value "plink.exe". Note this will only exist in Command Line windows opened subsequently.
+# You should now be able to test the CVS connection using <code>cvs -d :ext:user@session:/home/cvs/ version</code>. If this works, you're good to go. 
+
+Happy committing.

@@ -1,0 +1,59 @@
+---
+layout: post
+title: Judging the judges of Danish Internet Award 2006
+date: '2005-11-30 14:06:30 +0100'
+mt_id: 1482
+categories:
+- technology
+- webdesign
+- usability
+- blogging
+---
+This post is inspired by the announcement of the "Danish Internet Award 2006":http://www.dia06.dk, sporting a 1999-style website complete with Flash intro and invalid markup (They do have a weblog, though).
+
+I looked at the list of people from the "grand jury":http://www.dia06.dk/intsite/jur.html and figured it'd be interesting to see if their companies "get it". After all, there they are, trying to give out "danish internet awards". Obviously these are people that has an excellent feel for what's moving on the international scene in regards to Web 2.0, the web in general, syndication, blogging, folksonomies and what have we.
+
+To make it fair, I only considered the websites of companies that should obviously have a clue, ie the web development agencies. For spice, I added a viral marketing agency to see how they'd stack up.
+
+<!--more-->
+
+h2. The contestants
+
+These are the contestants, whose websites I had to guess since the DIA website for some reason doesn't care to link to them. But hey, it's not like the DIA is about marketing on the web, so we'll forgive them.
+
+* "Dwarf":http://dwarf.dk	
+* "Framfab":http://framfab.dk	
+* "GoViral":http://goviral.dk/
+* "Magnetix":http://magnetix.dk	
+* "Netpeople":http://netpeople.dk	
+
+h2. The measurement
+
+On each website I checked for the presence of a weblog and a newsfeed. I also checked how well their markup validated on the frontpage, and 2 subpages chosen as "About" and "References" (or whatever seemed closest on each site). Points were awarded like this:
+
+|The website has a weblog:|1 point|
+|The website has a newsfeed:|1 point|
+|Each page without validation errors:|1 point|
+|Each page without validation warnings:|	1 point|
+|Each page with more than 100 warnings: | -1 point|
+
+
+h2. The results
+
+| *Company* | 				"Framfab":http://framfab.dk |	"Magnetix":http://magnetix.dk | "GoViral":http://goviral.dk | "Dwarf":http://dwarf.dk	|	"Netpeople":http://netpeople.dk | 
+| *Frontpage* | 			63 warnings | 								13 warnings | 									8 warnings | 									3 errors, 17 warnings |		127 warnings | 
+| *About page* | 			48 warnings | 								9 warnings | 										8 warnings | 									12 warnings | 						116 warnings | 
+| *References page* | 50 warnings | 								9 warnings | 										29 warnings | 								10 warnings | 							73 warnings | 
+| *Has a weblog?* | 	No | 													No |														No | 													No | 											No | 
+| *Has a feed?* | 		No	| 												No | 														No | 													No | 											No | 
+| *Score* | 					*3* |													*3* |														*3* |													*2* |											*1* |
+
+h2. The verdict
+
+Wow... The website development business in Denmark must be in a bad state when 4 of the bigger agencies fail to produce valid markup. Also none of the contestants have a weblog or any way for me to keep up to date with their launches or business that doesn't involve me giving out my email address (and not even all of them has this option). 
+
+Do remember that all those companies have representatives on the grand jury of Danish Internet Award 2006. How you can be expected to award a prize like that in 2006 when you have hardly entered the new millenia in terms of online marketing, presence, and technological skill is beyond me.
+
+Congratulations Netpeople on having the lowest score of the bunch. With a website featuring popup windows, javascript-only navigation, terrible tagsoup-markup, frames, and itsy pixelized text whose size cannot be changed, you have earned that spot. 
+
+But don't linger on your laurels, you were not that far away from the rest...

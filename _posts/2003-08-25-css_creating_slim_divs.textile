@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'CSS: Creating slim div''s'
+date: '2003-08-25 10:00:38 +0200'
+mt_id: 731
+categories:
+- webdesign
+---
+Creating slim, cross-browser div's with a height of only a few pixels proves to be not as simple as one would think when you add Internet Explorer to the mix of browsers (gee, don't you just love that browser).
+
+Gecko-browsers renders this piece of code
+
+bc. <div style="height: 2px;"></div>
+
+as a div with a height of exactly 2 pixels, while IE decides to make it 12+ pixels tall. It turns out that IE sets the height of the div to exactly 1em (it even scales when you change font-size). It seems IE always inserts a character into a div.
+
+To create a 2 pixels tall div in IE, use the overflow attribute:
+
+bc. div {
+   height: 2px;
+   overflow: hidden;
+}
+
+Voila, 2 pixels tall div in IE and better. An example can be found "here(CSS: Slim div's)":http://www.mentalized.net/playground/css/slimbar.html .

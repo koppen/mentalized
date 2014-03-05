@@ -1,0 +1,15 @@
+---
+layout: post
+title: Google rocks my world
+date: '2003-08-12 17:46:21 +0200'
+mt_id: 726
+categories:
+- technology
+---
+As if Google wasn't absolutely amazing already, it now features a <a title="Google Web Search Features" href="http://www.google.com/help/features.html#calculator">calculator</a>. Apart from doing basic calculations, it also converts various physical units, ie what is <a href="http://www.google.com/search?ie=UTF-8&amp;oe=UTF-8&amp;q=45+degrees+celsius+in+fahrenheit&amp;btnG=Google-s%C3%B8gning&amp;meta=" title="Google online conversions">45 degrees Celsius in Fahrenheit</a>. How cool is that?
+
++Oh, and shameless Firebird plug: I just realized how Firebird and other browsers make this addition to Google so much cooler. I always have a "Search in Google" textfield in the corner of my browser. A simple keyboard shortcut and I can convert and calculate. Good job.+
+
++Now, patiently waiting for "currency conversions (XE.com - The Universal Currency Converter)":http://www.xe.com/ucc/ to appear.+
+
++Sorry for my continued adding to this entry, but "this search (Google search: answerto life the universe and everything)":http://www.google.com/search?q=answer+to+life+the+universe+and+everything in the calculator is too funny. (Via, "Mark Pilgrim (Dive Into Mark: Google Calculator)":http://diveintomark.org/archives/2003/08/14/calculator)+

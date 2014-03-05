@@ -1,0 +1,21 @@
+---
+layout: post
+title: has_and_belongs_to_one_self
+date: '2005-10-04 20:47:58 +0200'
+mt_id: 1437
+categories:
+- programming
+---
+This little Ruby on Rails snippet solves a problem I've seen some people get confused by. I figured I'd share my way of doing it.
+
+The trick to behind creating a has_and_belongs_to_many association that associates rows in the same table is to specify more options than you're used to. Rails can't figure out how to work it's magic when associationg 2 classes named the same, so you have to guide it by hand. From a current project in the works:
+
+bc. class ClassDescription < Description
+  has_and_belongs_to_many :included_modules, :class_name => 'ModuleDescription', :join_table => 'includes_modules', :foreign_key => 'description_id', :association_foreign_key => 'module_id'
+end
+
+Note that this also adds Single Table Inheritance (STI) into the mix, which makes the above less clear. The simplest thing you have to do is:
+
+bc. has_and_belongs_to_many :models, :association_foreign_key => 'other_model_id'
+
+You may want to specify more options to make your tables more readable. The above assumes a table called model_model with the fields model_id and other_model_id.

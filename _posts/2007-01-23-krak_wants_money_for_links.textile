@@ -1,0 +1,24 @@
+---
+layout: post
+title: Krak wants money for links
+date: '2007-01-23 14:20:42 +0100'
+mt_id: 1777
+categories:
+- business
+- blogging
+---
+"So you want to link to our free, advertisting supported website? Sure, that'll be 4500 DKK + VAT (around 979 USD)"
+
+This might sound absurd to you, but it's the reality "this blogger":http://kennelkaarup.dk/2007/01/22/krak-forlanger-penge-for-et-link-3/ (in danish) faced when he linked to danish mapping service, Krak.
+
+According to the (well hidden Terms of Use) for Kraks website (I'm reluctant to link here, who knows what bills they might send me?) linking to maps on Krak is forbidden without written consent for commercial entities. 
+
+Read that again, then try to grasp the fact that a company like Krak, whose website is plastered with ads,  willingly says no to free traffic and Google juice. 
+
+Now, the case of "Krak vs. Kennel Kaarup":http://kennelkaarup.dk/2007/01/22/krak-forlanger-penge-for-et-link-3/ (in danish) from above have been resolved with Krak backtracking and issuing a formal apology ("Oops, we figured you were a business entity"), however it's probably too late by now. 
+
+"The Digg hordes already picked up on the story":http://digg.com/tech_news/Krak_demands_money_because_blogger_linked_to_them/, and the entry on Digg is closing in on the actual Krak entry when "searching for Krak on Google":http://www.google.com/search?q=krak. 
+
+"The":http://blog.oflaherty.dk/2007/01/23/final-follow-up-on-krak-a-coward-weighs-in/ "story":http://www.computerworld.dk/art/37544?cid=1&a=cid&i=1&pos=5 "is":http://www.classy.dk/log/archive/002572.html "also":http://hartvig.com/2007/1/22/%5Bdk%5D_pas_pa_med_at_linke_til_krak.aspx "making":http://www.mortenbrunbjerg.dk/blog/archives/2007/01/21/er-krak-pa-crack/ "its":http://blog.oflaherty.dk/2007/01/20/krak-demands-money-because-site-linked-to-them/ "rounds":http://fischlein.wordpress.com/2007/01/21/krak-kr%C3%A6ver-penge-af-blogger/ "in":http://www.hovedetpaabloggen.dk/2007/01/21/krak-er-faret-vild/ "the":http://andybeard.eu/2007/01/how-to-destroy-your-company-reputation-deep-linking-tax.html danish (and international) blogosphere and more mainstream media.
+
+It sure seems to me, that Krak doesn't want the traffic from you or your website visitors. I am sure both "Google Maps":http://maps.google.com and -mashup, "Find Vej":http://findvej.dk, does though, so do link to those excellent map services if you wan't to show people where you live.

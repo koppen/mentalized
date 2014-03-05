@@ -1,0 +1,15 @@
+---
+layout: post
+title: MOSe hits bullseye
+date: '2003-06-27 02:16:59 +0200'
+mt_id: 714
+categories:
+- webdesign
+---
+<a href="http://www.mezzoblue.com/cgi-bin/mt/mezzo/archives/000171.asp" title="mezzoblue: MOSe">Dave Shea</a> notes:
+
+<blockquote cite="http://www.mezzoblue.com/cgi-bin/mt/mezzo/archives/000171.asp"><p>Were stuck with Internet Explorer for the next 3 years bare minimum, most likely 6. Lets start thinking about how we can move forward.</p></blockquote>
+
+His suggestion: We keep developing websites that work and look right in IE - after all we need to please our bosses and clients everywhere. In addition to that, we start toying with the advanced stuff like CSS3 selectors that IE simply cannot grasp to make the websites even better in modern browsers.
+
+We give websites that work to users who are stuck in yesteryear, while rewarding the people who have taken the time to upgrade their browser. Bullseye!

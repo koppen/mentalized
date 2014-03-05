@@ -1,0 +1,13 @@
+---
+layout: post
+title: Ruby on Rails 1.0 released
+date: '2005-12-14 10:17:12 +0100'
+mt_id: 1494
+categories:
+- programming
+---
+Woo, "Ruby on Rails":http://weblog.rubyonrails.org/articles/2005/12/13/rails-1-0-party-like-its-one-oh-oh finally gets that mythical 1 point oh label. Congratulations "core team":http://www.rubyonrails.org/core. And with a great-looking "new website":http://www.rubyonrails.com designed by Jason Fried, "37signals":http://37signals.com is making sure noone misses the link between the signals and Rails.
+
+Good things are coming in Ruby and Rails land.
+
++Heh, and #rubyonrails is running wild+

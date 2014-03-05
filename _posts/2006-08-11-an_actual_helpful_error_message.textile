@@ -1,0 +1,14 @@
+---
+layout: post
+title: An actual helpful error message
+date: '2006-08-11 10:58:08 +0200'
+mt_id: 1674
+categories:
+- programming
+- usability
+---
+Wow, an exception error message that actually suggests a fix for the error, and the fix is correct. How great is that?
+
+bq. ActionController::RedirectBackError: No HTTP_REFERER was set in the request to this action, so redirect_to :back could not be called successfully. If this is a test, make sure to specify @request.env["HTTP_REFERER"].
+
+That sure beats "Unspecified error 0x0057867".

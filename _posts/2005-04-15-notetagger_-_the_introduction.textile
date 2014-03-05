@@ -1,0 +1,35 @@
+---
+layout: post
+title: Notetagger - The introduction
+date: '2005-04-15 11:14:41 +0200'
+mt_id: 1291
+categories:
+- projects
+---
+I want to get into using "Ajax(Adaptive Path)":http://www.adaptivepath.com/publications/essays/archives/000385.php. I want to get more "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com/ experience. I want an online place to post my thoughts and notes since my memory isn't quite reliable. 
+
+If you think the above sounds like something that should be combined into a project, you are right, and I did just that. To make it even more interesting, I've decided to share my progress with you and the rest of the world.
+
+
+<!--more-->
+
+h2. The idea and goals
+
+I've named the project Notetagger, since that's what it is. I want to be able to add notes and categorize them notes by tagging. Fear my creative naming skills.
+
+Notetagger is primarily meant to be a way for me to get into Ajax and generally polish my Ruby on Rails skills, secondarily I'd like it to become an application I wouldn't mind using.
+
+
+h2. You call this planning?
+
+Being a project for myself only, and one I have a pretty good grasp of what I want to do, the initial discovery and design phase was pretty easily covered. I set the following feature list for the application:
+
+* Simple, lightweight
+* Write notes
+* Read notes
+* Tag notes
+* Manage notes
+
+I also cooked up a simple HTML mockup of how I imagined the application to look and behave, and then I started digging into the code. 
+
+"Read the next part(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/index.php

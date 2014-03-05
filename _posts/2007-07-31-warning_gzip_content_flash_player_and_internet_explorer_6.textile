@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Warning: GZip content, Flash Player, and Internet Explorer 6'
+date: '2007-07-31 13:11:29 +0200'
+mt_id: 1849
+categories:
+- technology
+- biq_on_rails
+- browsers
+---
+This is a followup to "my post about using YSlow to optimize websites":http://mentalized.net/journal/2007/07/26/using_yslow_to_optimize_websites/ with a warning.
+
+In that post I mention using mod_deflate to GZip encode all our text based content before delivering it to user agents supporting this. However, I've hit an issue with a specific browser. Yup, you guessed it, off course Internet Explorer doesn't behave properly.
+
+It seems there is an issue when Flash Player 9 running in Internet Explorer receives GZip-encoded content from the server. While IE has no problem with GZipped content on it's own, "it apparently fails to unpack and deliver the content to the Flash player":http://blog.jasonnussbaum.com/?p=155. 
+
+This took our "network mapper":http://www.biq.dk/tour/network offline until we were alerted to the issue. This means we have to remove GZip encoding for all the content that the Flash player requests. Unfortunately I have not been able to find an easy way to do this just for the Flash player, so I've opted for turning off GZip encoding for all the requests to network.xml:
+
+bc. SetEnvIf Request_URI "/network\.xml" no-gzip
+
+Sigh, why can't things just work out of the box in this business.
+

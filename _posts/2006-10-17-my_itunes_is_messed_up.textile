@@ -1,0 +1,19 @@
+---
+layout: post
+title: My iTunes is messed up
+date: '2006-10-17 08:08:40 +0200'
+mt_id: 1720
+categories:
+- software
+- hardware_1
+- life
+---
+Podcast syncing in my iTunes Jukebox (or whatever the name Apple wants us to use for it) is broken.
+
+I've it set to "Sync all unplayed episodes of all podcasts". iTunes reports that I currently have 11 unplayed podcasts in my iTunes library. However, the iPod holds only 5 podcasts after updating.
+
+At least it's better now. After the first update today my iPod held only one podcast.
+
+There's plenty of free space on the iPod, and I can't tell if there's some switch somewhere that I need to flick. Piece of buggy software.
+
+What other, easy to use podcasting clients are available? I'm also missing the ability to add non-podcast files to my podcast queue, say in the case of presentations where I don't have a feed, but only the direct download.

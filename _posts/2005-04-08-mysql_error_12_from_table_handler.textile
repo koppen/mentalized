@@ -1,0 +1,21 @@
+---
+layout: post
+title: MySQL Error 12 from table handler
+date: '2005-04-08 09:48:05 +0200'
+mt_id: 1285
+categories:
+- programming
+---
+Lately I've been getting the occasional "Error 12 from table handler" from the MySQL server on my latest pet project. It's only certain queries that fail, but when it has failed once it seemingly keeps failing until the MySQL server is bounced.
+
+Apparently for a query to fail, all it needs is to be a join with two tables with the result ordered. Ie
+
+bc. SELECT * FROM a, b WHERE a.id = b.join_id ORDER BY a.id
+
+Removing the "order by" clause makes the error go away. 
+
+I have no idea what the error means, apart from that it apparently has something to do with memory. The two tables in question have 5 and 40 rows respectivly, so it's not like it's a big resultset to order.
+
+Switching my table type from MyISAM to INNO DB seemed to make the errors go away - at least for now...
+
++Update:+ It seems that this might've been a bug in MySQL v4.0something, at least that's what my host have informed me. Here's hoping for a repair/upgrade soon'ish.

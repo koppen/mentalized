@@ -1,0 +1,11 @@
+---
+layout: post
+title: All I want for <del>christmas</del>my birthday...
+date: '2006-01-11 12:20:25 +0100'
+mt_id: 1505
+categories:
+- technology
+---
+<a href="http://store.apple.com/1-800-MY-APPLE/WebObjects/AppleStore?family=MacBookPro"><img src="/files/journal/macbook/macbook.jpg" alt="MacBook Pro" /></a>
+
+Looks like my birthday wishlist has been filled already. And hey, I turn 30, just like Apple, so I really deserve it!

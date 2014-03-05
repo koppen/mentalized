@@ -1,0 +1,26 @@
+---
+layout: post
+title: Hello Ruby on Rails world
+date: '2006-02-06 11:34:37 +0100'
+mt_id: 1528
+categories:
+- programming
+---
++There is "a newer version of this article":http://mentalized.net/journal/2010/02/05/hello_rails_3_world/ updated for Rails 3+
+
+To some people Rails have a fairly high learning curve. And certainly, it's somewhat higher than, say, PHP. However, in the longer run learning Rails definitely pays off. 
+
+This is a step by step tutorial to getting over the first hurdle: Creating a "hello world" application in Ruby on Rails. 
+
+<!--more-->
+
+It works in Rails 1.0 assuming you have ruby and rails already installed and working on your system:
+
+# @rails hello@
+# @cd hello@
+# @ruby script\generate controller hello@
+# Create a file called index.rhtml in app/views/hello, containing "Hello world".
+# @ruby script\server@
+# Navigate to "http://localhost:3000/hello":http://localhost:3000/hello in your browser and be greeted with your friendly application: "Hello world"
+
+PS: "http://localhost:3000/":http://localhost:3000/ is a lot prettier "Hello world"-ish page.

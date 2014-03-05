@@ -1,0 +1,51 @@
+---
+layout: post
+title: mentalized.net in 2009
+date: '2010-01-02 15:07:41 +0100'
+mt_id: 2011
+categories:
+- blogging
+- mentalizednet
+---
+A new year has arrived -- what better time is there to look back at the year that passed? 
+
+
+h2. The decline of blog readers
+
+The number of visitors to "mentalized.net":http://mentalized.net keeps declining. This is hardly surprising; I don't write as much as I used to here (I have a feeling "Twitter":http://twitter.com/mentalizer is eating up a bunch of potential articles), and a lot of content is probably being consumed off the site in news readers and other aggregators. 
+
+Still, I am quite happy having more than 125000 people visit my humble website and I owe each one of you my thanks.
+
+
+h2. What people came for
+
+My collection of "totally free, animated GIFs for showing Ajax activity":http://mentalized.net/activity-indicators continues to reign supreme as the most popular content on mentalized.net. It is followed by my "satirical web 2.0 webdesign tutorial":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/. 
+
+Both of those were published back in 2005 over 4 years ago, yet they still continue to draw readers to the website. The only article on the content top 10 that's actually published in 2009 is "my response to a Java developer spreading some FUD":http://mentalized.net/journal/2009/05/19/java_kicks_ruby_in_the_what_now/ (which unfortunately detoriated into more FUD and mud-slinging).
+
+h3. Top content on mentalized.net in 2009
+
+# "AJAX Activity indicators":http://mentalized.net/activity-indicators/
+# "Building your very own web 2.0 layout":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/
+# "No such file to load -- mkmf":http://mentalized.net/journal/2006/01/24/no_such_file_to_load_mkmf/
+# "Java kicks Ruby in the what now?":http://mentalized.net/journal/2009/05/19/java_kicks_ruby_in_the_what_now/
+# "Hello Ruby on Rails World":http://mentalized.net/journal/2006/02/06/hello_ruby_on_rails_world/
+# "Rails 2.0 deprecations":http://mentalized.net/journal/2007/03/13/rails_20_deprecations/
+# "Browser size does matter - Actual numbers":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/
+# "Hunting down VBScript error codes":http://mentalized.net/journal/2004/12/09/hunting_down_vbscript_error_codes/
+# "Setting the request content type in Rails":http://mentalized.net/journal/2005/11/14/setting_the_request_content_type_in_rails/
+# "AJAX activity indicators ":http://mentalized.net/journal/2005/11/29/ajax_activity_indicators/
+
+
+h2. How people got here
+
+"Google":http://google.com is still, hands down, the biggest source of traffic for mentalized.net. Almost half of all visits have been referred by Google. For comparison, the next search engine on the list is "Bing":http://bing.com with less than 1% of Googles referrals.
+
+Social media sites like "Digg":http://digg.com, "Twitter":http://twitter.com, and "Facebook":http://facebook still aren't providing me with a lot of traffic. I must be "old media" - or perhaps my content simply isn't the kind of content that cries out for immediate attention. 
+
+The only post I've made in 2009 that was in relation to "current events" ("link":http://mentalized.net/journal/2009/05/19/java_kicks_ruby_in_the_what_now/) did in fact get some traction on the social sites with roughly half the visitors coming from various social sites.
+
+
+h2. 2010?
+
+I am looking forward to redoing the above stats for mentalized.net when 2010 is over. I signed up for "Project52":http://project52.info/ fully intent on accomplishing the goal ("to write at least 1 new article per week for 1 year"). Hopefully, getting back into the thrill of writing regular content should provide for better content that can at least break the decline of visits. Time will tell.

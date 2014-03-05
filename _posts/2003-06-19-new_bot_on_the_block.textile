@@ -1,0 +1,14 @@
+---
+layout: post
+title: New bot on the block
+date: '2003-06-19 13:49:53 +0200'
+mt_id: 711
+categories:
+- technology
+---
+I too have been visited by MSNBOT, Microsofts newest weapon in the battle for search supremacy:
+
+<code>2003-06-19 07:24:42 131.107.163.58 GET /robots.txt - 404 270 MSNBOT/0.1+(http://search.msn.com/msnbot.htm) -
+2003-06-19 07:24:42 131.107.163.58 GET /index.asp - 200 0 MSNBOT/0.1+(http://search.msn.com/msnbot.htm) -</code>
+
+For more information about the bot, check out Microsofts <a href="http://search.msn.com/msnbot.htm" title="MSNBOT">page about it</a> and an <a href="http://scriptingnews.userland.com/stories/storyReader$2071" title="Anonymous Source on MSNBot">anonymous source description</a> of what it is all about.

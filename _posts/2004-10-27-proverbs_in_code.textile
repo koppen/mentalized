@@ -1,0 +1,39 @@
+---
+layout: post
+title: Proverbs in code
+date: '2004-10-27 17:28:32 +0200'
+mt_id: 826
+categories:
+- programming
+---
+English proverbs represented as code. If you can guess what they are, I must have made them at least somewhat correct:
+
+bc. if (book.page != book.cover) {
+  judge(book);
+}
+
+bc. if chickens.state == "hatched" {
+  return chickens.count;
+}
+
+bc. if (bodyPart.isClass(Hand)) {
+  if (bodyPart != self.feeder) {
+    self.bite(bodyPart)
+  }
+}
+
+bc. while true {
+};
+echo("die");
+
+bc. def understandRecursion():
+  understandRecursion()
+
+bc. while (self.proficiency(skill) < masterLevel) {
+  self.practice(skill);
+}
+
+bc. if count = 2 then
+  result := "company"
+else if count = 3
+  result := "crowd";

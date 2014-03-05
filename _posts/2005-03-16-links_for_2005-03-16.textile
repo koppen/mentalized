@@ -1,0 +1,18 @@
+---
+layout: post
+title: links for 2005-03-16
+date: '2005-03-16 12:21:48 +0100'
+mt_id: 1259
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://labs.google.com/googlex/">Google X</a></div>
+		<div class="delicious-extended">Google with a dock</div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/Google">Google</a> <a href="http://del.icio.us/koppen/osx">osx</a>)</div>
+	</li>
+	<li>
+		<div class="delicious-link"><a href="http://pro.html.it/esempio/nifty/">Nifty Corners</a></div>
+		<div class="delicious-extended">Crossbrowser rounded corners without using images</div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/CSS">CSS</a> <a href="http://del.icio.us/koppen/webdesign">webdesign</a> <a href="http://del.icio.us/koppen/javascript">javascript</a>)</div>
+	</li>
+</ul>

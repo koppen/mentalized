@@ -1,0 +1,24 @@
+---
+layout: post
+title: My comic feeds
+date: '2010-06-15 13:18:20 +0200'
+mt_id: 2044
+categories:
+- life
+---
+I was asked on Twitter what feeds I have in my Comics/Humor category in my feed reader. Since 140 characters isn't enough, the list goes here instead:
+
+
+<!--more-->
+
+* "The Brads":http://bradcolbow.com/
+* "Ctrl+Alt+Del":http://cad-comic.com/
+* "Dilbert":http://dilbert.com
+* "The noob":http://thenoobcomic.com/
+* "Penny Arcade":http://penny-arcade.com/comic/
+* "PvPonline":http://pvponline.com
+* "Savage Chickens":http://savagechickens.com/
+* "wulffmorgenthaler":http://wulffmorgenthaler.com/
+* "xkcd":http://xkcd.com
+
+If you sense a slight geek/gamer direction in those, you would be correct.

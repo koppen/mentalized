@@ -1,0 +1,29 @@
+---
+layout: post
+title: Don't notify me again, dammit!
+date: '2005-06-15 14:23:48 +0200'
+mt_id: 1346
+categories:
+- usability
+---
+"Don't notify me again" is Microsoft-speak for "notify me again whenever you feel like it, please".
+
+Case in question: The Microsoft Malicious Software Removal Tool (MMSRT) or whatever it's called. I don't have it, I don't need it, I don't want it.
+
+But Microsoft really wants me to have it.
+
+<!--more-->
+
+The first time the Microsoft Malicious Software Removal Tool appeared in my list of Windows Updates, I unchecked it, and when the ever so kind Windows Updater asked if I wanted to download the unchecked upgrades at some later point in time, I replied; "Don't notify me about these upgrades again".
+
+Silly me thought that meant it wouldn't notify me about those upgrades again.
+
+Oh no, in reality it means that every time there is an upgrade available for anything - even completely unrelated things like Bluetooth stuff - Windows Update tries to trick me into downloading their MMSRT. 
+
+And every time I tell it not to. Again.
+
+Fine, I realize Microsoft thinks it important that I am able to remove the spyware I get when using their browser (as if I am), but for crying out loud, I have plenty of malicious software removal tools at my disposal. None of them has "Microsoft" in their name, however.
+
+This practice of tricking your existing customers into using your products is appalling, and coming from a company that's known for using their monopoly-like status to spread their products, it's a sign they are either too stupid or too ruthless to care. I am not sure which it is in this case.
+
+Next time I'll have to look for the "Sod off" button. Which I am sure will be interpreted as "Oh, you want to order Windows 2006 Server Enterprise Edition with clustering and 2500 licenses? Sure thing, Bob, it's in the mail and a gang of thugs with leadpipes has been dispatched to make sure you pay". 

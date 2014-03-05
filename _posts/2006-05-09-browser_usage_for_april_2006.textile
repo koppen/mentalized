@@ -1,0 +1,20 @@
+---
+layout: post
+title: Browser usage for April 2006
+date: '2006-05-09 11:17:21 +0200'
+mt_id: 1603
+categories:
+- mentalizednet
+- browsers
+---
+h2. mentalized.net
+
+Things are looking great for Firefox - at least on this page:
+
+!http://mentalized.net/files/journal/statistics/browsers_april2006(mentalized.net browser statistics for April 2006)!
+
+h2. BiQ.dk
+
+!http://mentalized.net/files/journal/statistics/biq_browsers_april2006(biq.dk browser statistics for April 2006)!
+
+It looks a lot worse on a business-to-business website like "BiQ":http://www.biq.dk, unfortunately. Such a shame.

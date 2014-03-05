@@ -1,0 +1,84 @@
+---
+layout: post
+title: Find missing translations in your Rails application
+date: '2009-08-10 10:39:40 +0200'
+mt_id: 2004
+categories:
+- programming
+---
+I am currently wrapping up a client-project where I am preparing a "Rails":http://rubyonrails.org application for "internationalization":http://guides.rubyonrails.org/i18n.html. The application is currently in English and I am translating it to Danish as a proof of concept. 
+
+I am using the I18n::Simple backend and the resulting Danish locale file is now at 2100 lines. That's a bit much for me to keep in my head at once, so I created a small Rake task that takes all locales in your Rails application and reports back all the keys that are missing from one or more locales. Works wonders for finding those typos or oversights that would otherwise result in 'missing translation data' messages.
+
+h2. Example output
+
+bc. $ rake i18n:missing_keys 
+2 locales available: en and da
+1474 unique keys found.
+139 keys are missing from one or more locales:
+'activerecord.attributes.category.description': Missing from en
+'activerecord.attributes.person.last_name': Missing from en
+'countries.Albania': Missing from en
+'countries.Algeria': Missing from en
+
+h2. The Rake task
+
+Just put the following in a .rake file in your lib/tasks directory and Rake should pick it up automagically:
+
+<pre><code class="ruby">namespace :i18n do
+
+  desc "Find and list translation keys that do not exist in all locales"
+  task :missing_keys => :environment do
+
+    def collect_keys(scope, translations)
+      full_keys = []
+      translations.to_a.each do |key, translations|
+        new_scope = scope.dup << key
+        if translations.is_a?(Hash)
+          full_keys += collect_keys(new_scope, translations)
+        else
+          full_keys << new_scope.join('.')
+        end
+      end
+      return full_keys
+    end
+
+    # Make sure we've loaded the translations
+    I18n.backend.send(:init_translations)
+    puts "#{I18n.available_locales.size} #{I18n.available_locales.size == 1 ? 'locale' : 'locales'} available: #{I18n.available_locales.to_sentence}"
+
+    # Get all keys from all locales
+    all_keys = I18n.backend.send(:translations).collect do |check_locale, translations|
+      collect_keys([], translations).sort
+    end.flatten.uniq
+    puts "#{all_keys.size} #{all_keys.size == 1 ? 'unique key' : 'unique keys'} found."
+
+    missing_keys = {}
+    all_keys.each do |key|
+
+      I18n.available_locales.each do |locale|
+        I18n.locale = locale
+        begin
+          result = I18n.translate(key, :raise => true)
+        rescue I18n::MissingInterpolationArgument
+          # noop
+        rescue I18n::MissingTranslationData
+          if missing_keys[key]
+            missing_keys[key] << locale
+          else
+            missing_keys[key] = [locale]
+          end
+        end
+      end
+    end
+
+    puts "#{missing_keys.size} #{missing_keys.size == 1 ? 'key is missing' : 'keys are missing'} from one or more locales:"
+    missing_keys.keys.sort.each do |key|
+      puts "'#{key}': Missing from #{missing_keys[key].join(', ')}"
+    end
+
+  end
+end
+</code></pre>
+
+<ins>Update: This is now available on Github at <a href="http://github.com/koppen/i18n_missing_keys">http://github.com/koppen/i18n_missing_keys</a></ins>.

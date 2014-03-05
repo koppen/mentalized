@@ -1,0 +1,96 @@
+---
+layout: post
+title: Power your website with Movable Type
+date: '2003-08-01 15:08:17 +0200'
+mt_id: 1273
+categories:
+- blogging
+---
+Using Movable Type as the backbone for my entire website is something I had been pondering for a while, I just never really got around to doing it. But Matt Haughneys and Brad Choates posts about doing just that lured me into taking the last step and actually do it. This explains how.
+
+<!--more-->
+
+h2. Why?
+
+Why use Movable Type (MT), a blogging tool, for something that isn't a blog? Movable Type with its plugins and templates is a highly flexible and extensible tool, that with a some knowledge and a few hacks can be made to do a lot of the things you'd want from a CMS.
+
+h3. Advantages
+
+* Custom text formatting for every page (yay, Textile)
+* Sitewide search engine
+* RSS feeds for all your content
+* Comments for all your content
+* Posting new and editing old content using MT is much easier than using an editor and a FTP client.
+* You can have separate users manage their own part of the site
+
+h2. Getting started
+
+I am going to assume that you have at least a decent idea how you want to structure your site. Usually you'll want to divide it into some seperate areas - for Mentalized I decided on 3 main areas: Journal, Features, and About. I will use those 3 areas as my main examples for this feature.
+
+h2. Create a blog for each website area
+
+The first thing to do, is create an individual blog for each individual area of your website. You want to do this to ensure maximum flexibility and to be able to extend your website later on as you get more funky ideas. In my case, I created 3 blogs called "Journal", "Features", and "Static Pages".
+
+h2. Journal
+
+The journal-part of my website is my blog. This is a pretty basic Movable Type setup, which you can find instructions for "all(Movable Type installation manual)":http://www.movabletype.org/docs/mtinstall.html "over(Movable Type Installation Help)":http://www.love-productions.com/graphics/help/mt.html "the(Anders Jacobsens Movable Type installation)":http://www.jacobsen.no/anders/blog/archives/2002/08/06/my_movable_type_installation.html web.
+
+h2. Features
+
+Features are meant for my longer essays, writings, and project descriptions that would normally not go into my blog. Structure wise this is pretty similar to your run of the mill blog, with all entries having a title, a body, an excerpt etc.
+
+h3. Archiving setup
+
+I wanted the index listings for each category placed in category-specific directories, ie http://www.mentalized.net/features/movable_type/ to mimic how I do it on my blog. This is done by setting the category Archive File Template to 
+
+<code><$MTArchiveCategory dirify="1"$>/index.asp</code> 
+
+The Archive File Template for Individual archives is then set to
+
+bc. <$MTEntryCategory dirify="1"$>/<$MTEntryTitle dirify="1"$>/index.asp
+
+to place the individual entries inside their respective category directory. This makes for readable and hackable URLs like http://www.mentalized.net/features/movable_type/powering_your_website_with_movable_type/. Unfortunatly URls like this often get too long, but you can use "this trick from Mark Pilgrim(Cruft-free URLs in Movable Type)":http://diveintomark.org/archives/2003/08/15/slugs to remedy that.
+
+h2. Creating static pages
+
+"Static Pages" means the pages on the website that aren't likely to change often and doesn't need things like archives and indexes. For me, this currently means my about-page, resume, and portfolio, all of which I want to go in http://www.mentalized.net/about/.
+
+I also wanted to make sure that I have the option of adding static pages more or less everywhere in the site structure. Since I don't need to place the static pages into categories, I decided to use the category field to indicate what directory to put the entries in. 
+
+h3. Archiving configuration
+
+For the purpose of static pages, I only needed the Individual archive type, so I deleted the rest. 
+
+Initially I used the individual archive file template mentioned above, alas this gave me an URL of http://www.mentalized.net/about/about/ for my about page, which I'd like give both category and title of "about".
+
+Instead I downloaded <a href="http://mt-plugins.org/archives/entry/compare.php" title="MT Plugins: Compare">Kevin Shays Compare plugin</a>. Using that I am able to tell MT to not create a subdirectory for the entry if its title is the same as its category by setting the archive file template to:
+
+<code><$MTEntryCategory dirify="1"$><MTIfNotEqual a="[MTEntryCategory]" b="[MTEntryTitle]">/<$MTEntryTitle dirify="1"$></MTIfNotEqual>/index.asp</code>
+
+This places my About page at http://www.mentalized.net/about/, and my other entries from the about category at ie http://www.mentalized.net/about/resume/, which is exactly what I want.
+
+h2. Getting the search right
+
+If you want to employ a search that searches your entire website, you need to change MTs default search template a bit. In the template you will find a line much like
+
+<code><input type="hidden" name="IncludeBlogs" value="1" /></code>
+
+Basically you need to add a line like that for every area/blog to include in your search, changing only the value-field. To get the value needed for the value-field, go to your MT main menu and find the blog you want to include in the search.
+
+To get the id of a blog, either hover your mouse pointer over the blogs name and look in your statusbar, or rightclick and copy the link location/shortcut and paste it into a texteditor (notepad works). You will get an URL of the form 
+
+<code>http://domain/directory/mt.cgi?__mode=menu&blog_id=12</code>
+
+The number after blog_id= (12 in the example) is the id of the blog.
+
+h2. What about the future
+
+At some point in the future I may want to change my portfolio from being a static page to instead using "some (Rebuilding a Portfolio)":http://www.stopdesign.com/log/2003/07/16/rebuilding_a_portfolio.html "way (Beyond the Blog)":http://a.wholelottanothing.org/features.blah/entry/007162 of managing a portfolio from MT. The way my current setup works, this should be no problem, as I just create yet another blog and have it output its files to http://www.mentalized.net/about/portfolio/.
+
+Generally extending my website with new areas should pose no difficulties, even if I wan't to do some manually created parts that do not rely on Movable Type.
+
+h2. Read elsewhere
+
+* "Matt Haughney: Beyond the Blog(Beyond the Blog)":http://a.wholelottanothing.org/features.blah/entry/007162
+* "Brad Choate: Doing your whole site with MT(Doing your whole site with MT)":http://www.bradchoate.com/past/001656.php
+* "StopDesign: Adaptive Path's MT setup(Adaptive Path's MT setup)":http://www.stopdesign.com/log/2003/07/11/adaptive_paths_mt_setup.html

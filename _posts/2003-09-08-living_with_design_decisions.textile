@@ -1,0 +1,13 @@
+---
+layout: post
+title: Living with design decisions
+date: '2003-09-08 14:40:13 +0200'
+mt_id: 740
+categories:
+- programming
+---
+Once in a while on a project design phase, you make a decision based on all the right reasons which later turns out to be a stupid decision. In some cases you won't realize the decision was stupid until it has hooked its claws into every aspect of your design and code. By that time it is often too much work trying to unhook it.
+
+That's the situation I am in. So do I start doing things the proper way, thereby introducing inconsistencies in the naming policy, or do I suck it up and stick to the bad design decision made months ago, keeping the names consistent throughout the program?
+
+I decided to go the inconsistent way in a new feature as an experiment. I figure this is the only way to ever figure out if the original decision actually was as stupid as I think. Besides it should be relatively easy to revert just this single, new part of the code if it turns out that I don't like the way this experiment goes.

@@ -1,0 +1,4 @@
+name: mentalized.net
+markdown: redcarpet
+pygments: true
+permalink: "/journal/:year/:month/:day/:title"

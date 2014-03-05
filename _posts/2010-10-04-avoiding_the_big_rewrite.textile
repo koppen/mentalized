@@ -1,0 +1,66 @@
+---
+layout: post
+title: Avoiding The Big Rewrite
+date: '2010-10-04 08:37:08 +0200'
+mt_id: 2056
+categories:
+- programming
+- business
+---
+All software projects trend towards "The Big Rewrite":http://chadfowler.com/2006/12/27/the-big-rewrite. 
+
+Inevitable, at some point one of your developers is going to put forth the absolute truth: "This sucks, we need to rewrite it". This is "not a great situation":http://www.joelonsoftware.com/articles/fog0000000069.html to be in, and if you're unlucky, he is actually right.
+
+h2. Technical bankruptcy
+
+The Big Rewrite is like declaring bankruptcy. You've accrued so much debt that there's no way you'll be able to climb out of the hole you've dug for yourself. At least not in this lifetime. So you declare bankruptcy. Effectively this voids all your debt, but it's a permanent blemish on your track record.
+
+This is pretty much how The Big Rewrite works. Your "technical debt":http://measuringmeasures.com/blog/2010/9/21/startup-technical-debt.html has grown to a size where it's unmanageable, and the only (perceived) way of the hole is to rewrite. This is not a dream scenario. Rewrites are expensive, tends to grind product development to a halt, and even more importantly; many of them fail. 
+
+You should attempt to fight The Big Rewrite for as long as possible.
+
+
+<!--more-->
+
+h2. How to avoid getting into that situation?
+
+As a product owner you need to realize and accept the fact that your software needs to be tended and groomed. An application that isn't regularly maintained and cleaned up will deteriorate over time.
+
+
+h3. Schedule time for continuous improvements
+
+If you are exclusively focused on adding new features, you will eventually find yourself facing the big rewrite. So set aside some time, perhaps a day every week (which is what we've experimented with on the "Wildfire":http://wildfireapp.com "team":http://github.com/wildfireapp) where your developers aren't expected to work on new features.
+
+Alternatively, this can happen as part of the daily workflow. Done implementing a feature? Then improve some code in some manner. Then back to the next story of the iteration. Rinse and repeat. 
+
+
+h3. Keep up with software updates
+
+If you're using standard, off-the-shelf components - and if you're not, you should be - you want to keep them reasonably up to date. This doesn't necessarily mean tracking the newest, unstable beta version, but if you let them fall too far behind you risk finding yourself in a situation where you unable to react as quickly as you'd like to - for example when a security vulnerability is found in one of the components.
+
+Falling behind also impedes on developer motivation, working with legacy software is never as interesting as working with a shiny, new thing.
+
+
+h3. Write less code
+
+The more code you have, the more likely it is that you've got the Beast of Technical Debt lurking about. Conversely, the smaller your codebase, the easier it is to keep your technical debt in check. In other words, writing only the code you need helps reduce your technical debt over time.
+
+This also means that you probably shouldn't be writing code that you can rent from someone else. One example is recurring billing; Instead of writing tons of code (and you will) to handle this yourself, use one of the many services that offer this. Another example would be your email list software; don't write it yourself.
+
+Not only do you make it to market quicker, you'll have less code to maintain and less technical debt - you've effectively moved your risk of debt to the provider. And if you do end up rewriting, you have one less piece of the puzzle to worry about.
+
+
+h3. Divide and conquer
+
+One thing better than The Big Rewrite is the small rewrite. If you've failed to keep your code base pristine and sparkly as part of your daily work, your best option may be to rewrite a tiny part of the code at a time.
+
+This allows you to change your project from the inside out, hopefully without your customers noticing any detrimental effects and without you having to halt product development for the entire duration.
+
+Unfortunately knowing what pieces of your project to rewrite and actually being able to do it in a manner that doesn't require the entire project to be rewritten is far from trivial.
+
+
+h2. It's all downhill from here
+
+Whatever strategy you take, the "decision to rewrite":http://chadfowler.com/2010/9/30/software-developers-how-do-you-know-when-it-s-the-right-time-to-do-a-big-software-rewrite#comments is never easy and should not be taken lightly.
+
+Do what you can to delay the big rewrite, but get it done before your top developers start to leave because your code base is dragging them down.

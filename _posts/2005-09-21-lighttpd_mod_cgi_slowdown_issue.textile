@@ -1,0 +1,20 @@
+---
+layout: post
+title: Lighttpd mod_cgi slowdown issue
+date: '2005-09-21 17:31:05 +0200'
+mt_id: 1421
+categories:
+- technology
+- projects
+---
+My first "Ruby on Rails project":http://www.guildspace.net is currently being tested by some friends. Today one of them told me that it was running REAL slow for him; around 15 seconds per request! Needless to say, that's bad (and weird, since I saw nothing of the kind). Thus began the hunt.
+
+The application is running "Ruby on Rails":http://www.rubyonrails.com on "MySQL":http://www.mysql.org on "Lighttpd":http://www.lighttpd.net with FastCGI proxypassed behind "Apache":http://httpd.apache.org, which frankly makes it kinda hard to pinpoint a problem like this.
+
+After a bunch of debugging back and forth it became clear that Lighttpd was screwing something up, even Webrick was serving pages quicker to him. However, I had no clue exactly what was going on, so I started trimming the config. 
+
+One item removed at a time, restarting Lighttpd, trying to access a bunch of pages, rinse and repeat.
+
+Heureka! Turns out that removing mod_cgi from the list of loaded modules completely removed the problems. Why? Beats me, but there is no doubt that the entire application is running faster now. Even the logfile shows improvement (4-8 times increase in the amount of guesstimated requests per second). Apparently I wasn't even using mod_cgi for anything except slowing Lighttpd down.
+
+In the future I should probably configure servers using the same policy as when designing websites: Only include the necessary elements, simple, with less cruft. Lesson learned.

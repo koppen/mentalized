@@ -1,0 +1,23 @@
+---
+layout: post
+title: Firefox 1.0 release stuff
+date: '2004-11-10 10:51:10 +0100'
+mt_id: 830
+categories:
+- browsers
+---
+As you probably know, the Mozilla Firefox browser hit 1.0 yesterday and was released under high traffic-pressure and much attention.
+
+Some stuff written around the net:
+
+* "Post-release wrap up by Ben Goodger, Lead Engineer(Inside Firefox: Firefox 1.0 - Signed, Sealed, Delivered)":http://weblogs.mozillazine.org/ben/archives/006866.html
+* "IEBlog uses Firefox to show why Windows is great(IEBlog: Why I Like Windows)":http://blogs.msdn.com/ie/archive/2004/11/09/254596.aspx
+* "Microsoft director of product Management for Windows felt the need to tell CNET News.com that IE is still a player(Microsoft getting nervous about Firefox?)":http://news.com.com/2061-1012-5445529.html?tag=rsspr.5445724
+* "All over the world, geeks celebrated the Firefox birthday(FireFox Birthday Bash)":http://www.andybudd.com/archives/2004/11/firefox_birthday_bash/index.php
+* "Bloglines adds a Firefox center with Firefox-specific instructions and extensions(Bloglines | Firefox Center)":http://www.bloglines.com/help/firefox
+* "Clusty.com releases a Firefox toolbar that does pretty much what Firefox can do without the toolbar?(Clusty Toolbar for Firefox)":http://clusty.com/toolbar/firefox
+* "Even danish national TV reported the release(TV2 Nyhederne Finans klip)":http://konsol.tv2.dk/konsol2/flad/kanal/607106/udsendelse/1561353/klip/1561415.asx
+* "Firefox is Basecamp's official browser(Everything Basecamp: Firefox is Basecamp's official browser)":http://everything.basecamphq.com/archives/000283.php
+* "Microsoft says Firefox not a threat to IE(Denial?)":http://news.com.com/Microsoft+says+Firefox+not+a+threat+to+IE/2100-1032_3-5448719.html?part=rss&amp;tag=5448719&amp;subj=news.1032.10
+
+And it seems my tab settings has once again become messed up, sigh. +Update: Seems having the Tabbrowser Extensions extension installed caused some undesirable effects with the tab bar. Once removed everything works smoothly, and Firefox 1.0 can do on it's own what I wanted Tabbrowser Extensions for anyways.+

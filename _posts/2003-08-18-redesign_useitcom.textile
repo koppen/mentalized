@@ -1,0 +1,13 @@
+---
+layout: post
+title: Redesign useit.com
+date: '2003-08-18 11:22:51 +0200'
+mt_id: 727
+categories:
+- webdesign
+---
+One thing that usability "guru", Jakob Nielsen, is often bashed for is "his website, useit.com (useit.com)":http://www.useit.com, which is, hmm, less aesthetically pleasing than it could be. And by that, I mean it's ugly.
+
+Now, Bob from "Built For The Future (Built for the future)":http://www.builtforthefuture.com/ has launched a "competition to redesign Jakob Nielsens website (ReUSEIT)":http://www.builtforthefuture.com/reuseit/. The competition even has prizes (omg) and is endorsed by mr. Nielsen himself. Sadly, or naturally, he won't promise that he will use any of the entries.
+
+It's going to be interesting to see what the frothing community of webdesigners will come up with when given the challenge of redesigning an actual live website. Heck, if I can find the time, I might even give it a shot myself but we'll see about that.

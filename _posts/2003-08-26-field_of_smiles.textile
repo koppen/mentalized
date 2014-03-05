@@ -1,0 +1,11 @@
+---
+layout: post
+title: Field of smiles
+date: '2003-08-26 10:32:42 +0200'
+mt_id: 733
+categories:
+- webdesign
+---
+Hooray, I never realized the depth of the service that Microsoft offers it's Frontpage users. They even provide "Easy to use template[s] for Frontpage", where all you have to do is "add in your own content and pictures" for <a title="Download details: Field of Smiles Template for FrontPage" href="http://www.microsoft.com/downloads/details.aspx?familyid=9e77f26b-0c72-42d7-8212-2b177e6482c1&displaylang=en">free download</a>.
+
+Webdesign made easy. Yes, that's right, now you too can create non-validating and bloated websites without activiting more than a stunning low percentage of braincells. All thanks to Microsoft and "Sheeze Graphics(Sheeze Graphics)":http://www.sheezegraphics.com/templates.htm - your choice for yesterdays World Wide Web.

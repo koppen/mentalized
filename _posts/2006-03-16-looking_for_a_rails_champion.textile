@@ -1,0 +1,23 @@
+---
+layout: post
+title: Looking for a Rails champion
+date: '2006-03-16 16:05:13 +0100'
+mt_id: 1563
+categories:
+- projects
+- technology
+- programming
+- business
+- biq_on_rails
+---
+At the day job I'm the sole developer and maintainer of a legacy ASP/VBScript system. Yes, ASP/VBScript. No, not .NET. And yes, it's driving me insane. The code contains around 42000 lines of VBSCript drivel and 30000 lines of supporting Python code. 
+
+The other day I told my boss that I thought we should really, really consider rewriting the application. The existing one is getting cumbersome, hard to maintain, and let's face it; it's sucking my soul dry. My suggestion for a new platform is, for a lot of reasons, Ruby on Rails. 
+
+My boss was, not unexpectedly, hesitant to say "Sure Jakob, we'll halt development while you use the next 6 months to rewrite what we already have". However he was openminded enough to have me try and persuade one of the owners of the company who is a (or at least used to be) techie. Today I met with that owner, prepared to answers question ranging from "but does it scale" over "but what about the performance" to "but how will we ever be able to hire new developers". It went pretty well. 
+
+The bottom line is that I am now looking for an outsider to champion our rewrite. Basically some expert with multiple, deployed Ruby on Rails applicaitons under their belt, who we can fly into Copenhagen, hold a one day seminar/discussion and tell me, my boss, and the owner, why this rewrite is a good idea, what issues we need to be wary of, and perhaps even guide us in a direction that'll lead to eternal Rails bliss.
+
++Update:+ I've finally managed to pry at least a single specific requirement from the owner: Whoever we get in here to persuade us, must have deployed real, live, revenue-creating production sites in both PHP and Rails. We're apparently interested in hearing about the differences and benefits of those two approaches.
+
+If you're up for this, do get in touch with at jakob@mentalized.net or jakob@biq.dk.

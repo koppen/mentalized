@@ -1,0 +1,17 @@
+---
+layout: post
+title: BiQ is hiring
+date: '2007-09-27 11:48:14 +0200'
+mt_id: 1874
+categories:
+- biq_on_rails
+---
++Update: This position has been filled. Thanks a lot to all of you who applied.+
+
+Do you want to do Ruby for a living, and are you located in Copenhagen (or willing to travel/relocate)? "We're":http://www.biq.dk looking a for a solid developer who can do a bit of all things web, who isn't afraid of neither Windows nor Linux, and who wants to make a difference for one of Denmarks first public facing Rails applications. 
+
+"Official position description (in danish) is over here.":http://www.it-jobbank.dk/ShowProfile.aspx?ProfileId=50153038
+
+You'll be part of a small team and you'll be working closely with me (gee, what else can you ask for? :P). I am probably biased, but I find BiQ to be a great place to work - I probably wouldn't have lasted 6 years in this position otherwise.
+
+Anyways, get in touch with me or "my boss":mailto:rpr@biq.dk if you're interested in hearing more.

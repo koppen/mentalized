@@ -1,0 +1,27 @@
+---
+layout: post
+title: !binary |-
+  UmVkZXNpZ246IEL4cm4gaSBCeWVu
+date: '2010-04-15 09:33:17 +0200'
+mt_id: 2036
+categories:
+- projects
+- webdesign
+- technology
+---
+!/files/journal/bornibyen/bornibyen-2010.jpg!
+
+I totally forgot to mention this when it actually went live a few weeks back. At "Børn i byen":http://bornibyen.dk we've been busy redesigning and changing things around, and the result is now live at "bornibyen.dk":http://bornibyen.dk
+
+
+<!--more-->
+
+
+h2. New look and feel
+
+I can't claim credit for the actual design itself, though, I only chopped it into clean markup and implemented it in the application. The design was made modern and spiffy by "11design":http://11design.dk/ and the information architecture was hammered into place by Ingrid Haug from "Usable Machine":http://usablemachine.com/.
+
+We are still cleaning up the corners of the site, removing remnants of the old site design, which - to be honest - I am pleased to see go. It served us well, but looks real dated by now.
+
+
+h2. 

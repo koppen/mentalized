@@ -1,0 +1,48 @@
+---
+layout: post
+title: '&lt;a target="bad idea"&gt;'
+date: '2003-03-17 13:47:12 +0100'
+mt_id: 668
+categories:
+- programming
+- browsers
+- programming
+- usability
+- webdesign
+---
+h2. Or "Why forcing links into a new window is bad"
+
+I realize the topic of opening links in new windows has been <a href="http://diveintoaccessibility.org/day_16_not_opening_new_windows.html" title="What Mark Pilgrim says">covered</a> <a href="http://www.useit.com/alertbox/990530.html" title="What Jakob Nielsen says">countless</a> <a href="http://www.w3.org/WAI/wcag-curric/sam77-0.htm" title="What the WWW consortium says">times</a>, but the dead horse has shown its ugly head and I am intent on beating it down - using this blog and your valuable time to organize my thoughts, my apologies.
+
+The major bad issues with opening links in a new window as I see them:
+
+* Removes control from the user
+* Breaks standard behaviour
+* Breaks the backbutton
+* There is no reason
+
+(Note, this is directed at people creating websites, not you as a surfing user. If you feel like opening a link in a new window, by all means do - that's pretty much the point.)
+
+<!--more-->
+
+h2. Removes control from the user
+
+All major browsers default to opening links in the current window (which is how links are <a href="http://lists.w3.org/Archives/Public/www-validator/2002Apr/0100.html">meant to be</a>). Using the context-menu on links or easy to use keyboard shortcuts (shift+click in Internet Explorer) allows Agnes the Accountant to decide for herself if she wants the link to spawn a new window or not. If the link has been designed to open in a new window, she has no way to prevent that window from opening, and the designer of the website has effectivly taken away her power over her computer.
+
+h2. Breaks the back button
+
+The internet today presents a huge, scary amount of information: Google has indexed more than 2 billion (!) pages and that figure keeps rising. One thing the user can always rely on in this vast jungle of information is the ability to return to her point of origin. Agnes may not know where she is going, but she damn well know where she has been.
+
+When a website forces a link to open in a new window this point of certainty is removed. In all major browsers the back-button will cease to function and will no longer take the user back, leaving her stranded with no apparent way of returning to your website.
+
+h2. Breaks standard behaviour
+
+Users are used to links opening in the current window. Especially inexperienced users will be thrown off by seemingly new programs starting to show yet another website. If they are like most users and are running their browser in fullscreen, they won't even notice a new window has opened until they close the topmost window, at which point they'll be left wondering where that mysterious extra window containing a website they visited 15 minutes ago comes from.
+
+Other users who don't browse like you do, will probably not like your way of making assumptions about their browsing enviroment. Personally, I use tabbed browsing. In my browser new windows open in the background where I don't see them. If a link opens in a new window, I am left wondering why my clicking the link didn't seem to work. People using cellphones for browsing or people with disabilities using browsers where multiple windows doesn't make sense may experience problems too - simply because it isn't standard behaviour (the W3C even recognizes this by <a href="http://lists.w3.org/Archives/Public/www-validator/2002Apr/0100.html" title="Re: Opening a link in a new window...">removing the target-attribute</a> from links in their recommendations).
+
+h2. There is no reason to
+
+The common excuse for forcing links into a new window is that you want to make sure the user is not going to leave your site. Welcome to the World Wide Web - if your users aren't returning to your website, you have issues bigger than what can be solved by opening new browser windows. 
+
+If you absolutely and without any other option must open a link in a new window, warn the user. See the W3C's <a href="http://www.w3.org/WAI/wcag-curric/sam77-0.htm" title="Example for Checkpoint 10.1">Web Content Accessibility guidelines</a> for an example of how to do this. Even better, avoid doing it altogether - for the sake of your users.

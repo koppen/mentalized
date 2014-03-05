@@ -1,0 +1,17 @@
+---
+layout: post
+title: Inbox Zero - two months later
+date: '2007-10-23 21:15:42 +0200'
+mt_id: 1877
+categories:
+- life
+---
+A few months ago I made a "public commitment":http://mentalized.net/journal/2007/08/27/a_month_of_inbox_zero/ to practicing "Inbox Zero":http://www.43folders.com/izero for a month. I cleaned out my inbox daily for a month, I still am, and I intend to continue doing so.
+
+It has made my inbox a happy place instead of a guilt-inducer. I feel I am more responsive - and I hope people who have emailed feel that way as well - and in particular no people should be slipping through the cracks and be ignored.
+
+Now, I must admit that I do cheat on occassion. A few times an email that I simply couldn't be bothered dealing with at the time - or that I knew I would be dealing with in a short while - have been allowed to stay in my inbox. But other than those few times I have gone to sleep with an empty email inbox.
+
+An empty, non-work inbox, that is. I still haven't tackled my email inbox at work. The primary reason for this, is the fact that I haven't yet set up a to do list that I can forward my emails to. For my personal and freelance stuff, I use "GooToDo":http://gootodo.com, but that unfortunately throws everything into one huge list, meaning my work tasks would be mixed with my private stuff which I don't want.
+
+I hearthily recommend you read "Merlin Manns introduction to Inbox Zero":http://www.43folders.com/izero and try it out for a while if you feel opening your email client has become a burden. Email is meant to make communication easier, not to bog you down.

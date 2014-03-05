@@ -1,0 +1,30 @@
+---
+layout: post
+title: Rails project launcher
+date: '2008-04-25 09:36:30 +0200'
+mt_id: 1948
+categories:
+- programming
+- copenhagenrb
+---
+"Jesper":http://justaddwater.dk asked on the "Copenhagen Ruby Brigade":http://copenhagenrb.dk "mailing list":http://groups.google.com/group/copenhagen-ruby-user-group what scripts and tricks use to launch their environment when developing "Rails":http://rubyonrails.org projects on OS X.
+
+
+h2. iTerm shell script
+
+A bunch of people pointed to "this handy iTerm shortcut":http://railstips.org/2008/2/22/handy-iterm-shortcut, which uses Applescript invoked from a shell script to start the environment. I use roughly the same approach, however it's wrapped in "an Automator workflow":http://mentalized.net/files/journal/rails_project_launcher/EditRailsProjectWorkflow.zip, which I launch using "Quicksilver":http://docs.blacktree.com/quicksilver/what_is_quicksilver. 
+
+
+h2. Automator workflow
+
+Basically what the workflow does is ask me to pick a project, then it fetches the most recent version of the application, runs any missing migrations, starts script/server and "autotest":http://www.zenspider.com/ZSS/Products/ZenTest/, launches "TextMate":http://macromates.com/ with the project source, and iTerm with the most recent commit messages, the test log and the development log. This saves me so many keypresses.
+
+It's a modified version of a workflow I found somewhere on the net. Unfortunately I cannot find the original source now, so I cannot even give credit where it's due. "Download it here":http://mentalized.net/files/journal/rails_project_launcher/EditRailsProjectWorkflow.zip.
+
+
+h2. View it in action
+
+You can see it in action below (the text is terribly hard to read unfortunately, but it shows how the process looks at least):
+
+<object type="application/x-shockwave-flash" width="512" height="321" data="http://www.vimeo.com/moogaloop.swf?clip_id=939444&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF">	<param name="quality" value="best" />	<param name="allowfullscreen" value="true" />	<param name="scale" value="showAll" />	<param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=939444&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF" /></object><br /><a href="http://www.vimeo.com/939444/l:embed_939444">Launch Rails project</a> from <a href="http://www.vimeo.com/user455409/l:embed_939444">Jakob Skjerning</a> on <a href="http://vimeo.com/l:embed_939444">Vimeo</a>.
+

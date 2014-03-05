@@ -1,0 +1,44 @@
+---
+layout: post
+title: Indentation intents
+date: '2003-04-09 15:27:20 +0200'
+mt_id: 683
+categories:
+- programming
+---
+Gah, I just spent the last hour on the phone with a developer trying to debug a Python script, that had to run in our enviroment and couldn't be debugged by him locally. Long distance eXtreme Programming I suppose.
+
+We found the bug after nearly tearing eachothers hair out. He had indented a line using 2  tabs instead the one tab and 4 spaces the rest of the block was indented with. Unfortunatly this hits me right in the What-I-Don't-Like-About-Python area (and Python-style indentation is probably the first thing that new users stumble over).
+
+<!--more-->
+
+h2. Cosmetics influence flow
+
+Having (some) whitespace characters control the flow and structure of a script is plain confusing. Whitespaces are traditionally used for cosmetics and to separate words, anything else will end up causing confusion - especially when it isn't consistent; Python doesn't care how many tabs you put in between your code. If you wanted to, you could separate all words using tabs and 100 spaces without the scriptengine throwing a fit. But put a single tab too far left on the line and the flow of your script may have been altered drastically, or if you're lucky, the scriptengine will report an indentation error.
+
+
+h2. Indent is not intend
+
+Whitespace indentation does not show intend. Consider the following piece of code
+
+==<code>
+if (a > 1):<br />
+&nbsp;&nbsp;&nbsp;&nbsp;doSomething( a )<br />
+&nbsp;&nbsp;&nbsp;&nbsp;if (b > 10):<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doSomethingDifferent( a )<br />
+else:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;doYourThing( a )<br />
+</code>==
+
+This code is syntactically correct but we have no way of knowing what the developer intended. There is nothing showing us if the last 2 lines should have been indented a block - or perhaps line 3 and 4 are indented too far? 
+
+Using a block-delimiter (begin/end, {/} or whatever makes your heart tick) the developer has a way of showing his readers (both human and electroncial) what flow he intended. If he feels like further catering to his human readers (like any developer should) he can then use indentation to display the intend in a visually pleasing manner. For wha
+
+
+h2. It's not all bad
+
+I bet the above issues have been addressed thousand of times before, but it is still my biggest pet peeve with Python. It is also the only pet peeve I can think of at the moment.
+
+Don't get me wrong, I may rant, but I like using Python. Its syntax is clear and the indentation rules force developers to indent the code in a sensible manner (although it would've been nice if not both spaces and tabs could be used for indentation).
+
+To be perfectly fair, I think the lack of block-delimiters makes writing Python code a good deal faster than other languages where you can end up balancing delimiters. No language is perfect for everything, but some come closer than others.

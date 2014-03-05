@@ -1,0 +1,15 @@
+---
+layout: post
+title: change:healthcare on CNN
+date: '2008-09-26 09:29:07 +0200'
+mt_id: 1993
+categories:
+- projects
+---
+My longest running client, "change:healthcare":https://changehealthcare.com, has been "featured on the CNN website":http://edition.cnn.com/2008/HEALTH/09/25/ep.cutting.health.costs/index.html and is "scheduled to appear on air":http://company.changehealthcare.com/blog/cnn-thanks/ this weekend - what a great achievement.
+
+I've worked with Christopher, one of the founders, and the rest of "the team":http://company.changehealthcare.com/company-bios/ for the last few years, going from a static website with just 5 pages to an increasingly complex Ruby on Rails application helping people make sense of their medical bills and providers.
+
+These guys (and gals) are the real deal. They are in this to change healthcare for the better - "publishing a free PDF book":http://www.myhealthcareiskillingme.com/ and getting on CNN are just a few of the steps on the way.
+
+Congratulations.

@@ -1,0 +1,15 @@
+---
+layout: post
+title: David Heinemeier Hansson
+date: '2005-06-10 19:04:35 +0200'
+mt_id: 1338
+categories:
+- reboot
+---
+Notes from David Heinemeier Hanssons speech; Ruby on Rails: Tech, Necessity, and Passion
+
+<!--more-->
+
+"Ruby on Rails makes me happy"
+
+Sorry David, but that was the gist of it, wasn't it? ;)

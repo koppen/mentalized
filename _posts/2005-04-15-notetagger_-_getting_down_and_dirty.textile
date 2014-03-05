@@ -1,0 +1,55 @@
+---
+layout: post
+title: Notetagger - Getting down and dirty
+date: '2005-04-15 14:00:24 +0200'
+mt_id: 1293
+categories:
+- projects
+---
+In this installment of Project Notetagger I dig into the gritty, technical details and start writing real code. The database and model is created, the first HTML output and I even get around to adding Ajax. All in a few hours of development.
+
+<!--more-->
+
+h2. Model and database
+
+Notes are the central part of Notetagger, obviously, so it seems like a good place to start. In my world, a note can consist of a title and some content, and be tagged with some tags. This leaves me with a table looking like:
+
+bc. CREATE TABLE notes (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255),
+    content TEXT,
+    tag_string VARCHAR(255),
+    created_at DATETIME,
+    updated_at DATETIME,
+    PRIMARY KEY (id)
+);
+
+But first things first, I needed a Rails application and some database to work on, so I fired up MySQL, created 2 databases, notetagger_test and notetagger_development (yeah, no production, I'm being sceptic here) and added the notes table as above.
+
+
+h2. Putting stuff on rails
+
+I now have a database with a table, I needed to add the Rails part of the application. That's easily done:
+
+bc. > rails notetagger
+
+All I needed then is to change the config/database.yml to use my newly generated database and I am ready to start using rails. 
+
+A good way to start out is by using Rails' scaffold feature which creates an initial model, controller and some views to base further development on:
+
+bc. > script\generate scaffold Note
+
+This creates nearly all the basic stuff I need. To check it out I launched Webrick and pointed my browser at http://localhost:3000/notes/ and my oh my, I got the scaffolded pages showing me all the notes in my database - which means none.
+
+To have a little sample data I entered a couple of notes via the scaffold, and I saw it was good.
+
+
+h2. Making it look better
+
+To be honest I could probably have stopped here. I had an application that could serve me well for storing notes. But nuh uh, it didn't look good - and besides, I really wanted to mess around with Ajax. Time to dive into the views.
+
+The first view to suffer was views/notes/list.rhtml. Trivial use of DateHelper, "TextHelper":http://rails.rubyonrails.com/classes/ActionView/Helpers/TextHelper.html#M000385, and some changes to the view/controller/notes_controller.rb transformed the list into a rough sketch of what I was aiming for.
+
+For good measure, I also dug into the views/notes/_form.rhtml partial to change it into something more usable (Basically removing the internal date fields). Now it's starting to look like a real application.
+
+Continue to "Adding tags(Adding tags)":http://mentalized.net/journal/2005/04/15/notetagger_adding_tags/index.php

@@ -1,0 +1,72 @@
+---
+layout: post
+title: Rails Rumble 2010
+date: '2010-10-17 08:18:08 +0200'
+mt_id: 2069
+categories:
+- projects
+- programming
+---
+Rails Rumble 2010 has kicked off. "Rails Rumble":http://railsrumble.com is a 48 hour Rails development contest, and I have - "once again":http://mentalized.net/journal/2008/10/18/rails_rumble_2008/ - entered the competition. This time around, I've joined forces with "Casper":http://casperfabricius.com and "Laust":http://personal-it.dk
+
+<!--more-->
+
+h2. 45 minutes to go
+
+And that's a wrap. Tiredness sure makes these beers kick harder... "SpaceShippers":http://spaceshippers.com is as good as it gets. Not too shabby for 48 hours, if I must say so myself.
+
+h2. 1.5 hours to go
+
+We're done - at least for some definition of "done" that means we've built what we wanted and are now tweaking minor things, polishing sharp edge cases.
+
+It's funny how some issues only crop up right around now.
+
+We're now down to primarily checking up on and tweaking gameplay related issues. Some people are insanely good at weeding out exploits and holes :)
+
+
+h2. 3 hours to go
+
+The clock is ticking... It's pretty awesome hearing Laust and Caspers fingers frantically dancing across their laptop keyboards. At this point, we all feel the pressure of the looming deadline. Adrenalin is keeping us awake at this point, well, and caffeine. And sugar.
+
+We're pretty happy with what we've built so far. The overall vision is pretty much complete, although we've thrown out a bunch of features that turned out to be not worth the hassle.
+
+Testers have given us great feedback so far, and the application is running reasonably well. Not as performant as it could be, but eh, that's what we get for our free Linode VPS :)
+
+
+h2. 6 hours to go
+
+We're now entering the final stretch of the competition. Fatigue has definitely become noticeable - tests would definitely have been nice to have at this point.
+
+The focus for the next few hours is basically to not mess things up, which also means small, incremental improvements, no huge new features, and definitely no messing with the core game mechanics.
+
+Initial play tests revealed a bunch of issues - at least one pretty serious, that we hadn't seen coming. Here's hoping we've figured out how to fix it without messing the game up too much.
+
+h2. 13 hours to go - day 2
+
+Whoa, where did those 12 hours go? Damn, sleeping, eating and planning takes a while, but we're ready and eager for the final sprint.
+
+Our initial 3 person playtest this morning did reveal a bunch of issues - primarily in the UI. It also resulted in a ton of new feature ideas, so we're faced with some tough choices now about what we can realistically implement and what's needed.
+
+
+h2. 25 hours to go
+
+I guess there is a reason why 13 hour workdays are a terrible idea. While we've managed to crank out practically all the functionality we'd planned for today, the error rate has definitely gone up over the last hours.
+
+That said, we've got the basic game mechanics running, the server running, and something is live on "spaceshippers.com":http://spaceshippers.com.
+
+Focusing has gotten too hard, and I think we'll call it a day... as soon as we fix these critical issues...
+
+
+h2. 31 hours to go
+
+To the surprise of all of us, our plan for the first quarter of the competition seems to hold pretty much true.
+
+The basic design has been implemented (yay for CSS3), a bunch of infrastructure is in place, and the core game mechanics are in place and somewhat working.
+
+We're definitely still going strong and are looking forward to coding the rest of the day away.
+
+h2. 38 hours to go
+
+With 38 hours we've finally gotten off to an actual start. We decided that beers, Rock Band and sleep was a better way to start off the competition, than coding through the night. So we're off to a fresh start, the app repository has been created, and the first lines of code has been written.
+
+It'll be interesting to see if our careful planning pays off.

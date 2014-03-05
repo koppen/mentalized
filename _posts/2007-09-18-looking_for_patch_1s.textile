@@ -1,0 +1,18 @@
+---
+layout: post
+title: Looking for patch +1's
+date: '2007-09-18 14:57:09 +0200'
+mt_id: 1868
+categories:
+- programming
+---
+During his keynote today, and now on the Rails blog, "David":http://www.loudthinking.com explained "the new policy for getting patches into Rails":http://weblog.rubyonrails.com/2007/9/15/how-to-get-a-patch-into-rails.
+
+Basically the new policy requires every patch to have documentation, tests and 3 supporters. It's a welcome change, especially if it means the core team have to do less legwork and apply higher quality patches.
+
+Therefore, I am now looking for a few supporters for some of my patches. If there's anything of the below you'd like to see included in Rails, please comment on the patch, saying +1.
+
+* "#6000: CSS-Class not assigned":http://dev.rubyonrails.org/ticket/6000 - for some reason you cannot pass html_options to date_select tags and its kin. With this patch, you can.
+* "#7054: db:test:purge shouldn't rely on SQL Server command line tools":http://dev.rubyonrails.org/ticket/7054 - using SQL Server and want to run your tests on something other than Windows? With this patch, you can.
+
+I have a few other patches sitting idle, but they might need a bit more work (read: tests) before getting supporters.

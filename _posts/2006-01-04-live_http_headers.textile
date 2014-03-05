@@ -1,0 +1,11 @@
+---
+layout: post
+title: Live HTTP Headers
+date: '2006-01-04 09:39:38 +0100'
+mt_id: 1500
+categories:
+- browsers
+---
+I've been sorely missing my Live HTTP Headers extension ever since upgrading to Firefox 1.5 rendered it unusable. Turns out there actually is a new version out which is compatible with Firefox 1.5 - something the extension upgrading system failed to tell me. 
+
+If you like me failed to discover this new version, "head over to mozdev and grab it":http://livehttpheaders.mozdev.org/

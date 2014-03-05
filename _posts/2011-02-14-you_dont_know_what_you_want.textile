@@ -1,0 +1,29 @@
+---
+layout: post
+title: You don't know what you want
+date: '2011-02-14 09:33:05 +0100'
+mt_id: 2087
+categories:
+- projects
+- software
+---
+There is an old saying; "You never miss the water till the well runs dry". The meaning is that it's easy to not realize what you have until it is no longer there.
+
+The opposite is also true - possibly in life, but definitely in software development: You don't know what you need until you have it - even if it's just a sliver of it. 
+
+
+<!--more-->
+
+h2. From email to web
+
+We recently launched a new feature on one of "my client projects":http://substancelab.com/work. We used to send an email to an administrator whenever something happened in the application that might need action or attention. 
+
+This was turning into a _lot_ of emails, so we moved this into the administration interface instead, moving the inbox from her email client into the application in her browser.
+
+Her workflow was basically the same as it had always been, but seeing this new environment triggered something and she realized that she had the option to change and improve it. The number of feature requests exploded.
+
+h2. Prototype it
+
+What we built her was basically a prototype of a system she didn't know she needed. We opened the door for improvements ever so slightly and gave her a glimpse of what's possible. Over the coming months we'll be iterating and perfecting the system and save her a bunch of time.
+
+This is a great example why prototypes are great and iterative development is imperative. Get something real on the table, and take it from there.

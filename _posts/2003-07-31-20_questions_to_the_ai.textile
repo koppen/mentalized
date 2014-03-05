@@ -1,0 +1,28 @@
+---
+layout: post
+title: 20 questions to the AI
+date: '2003-07-31 11:55:19 +0200'
+mt_id: 720
+categories:
+- technology
+---
+Artificial Intelligences are brown, dangerous, hunts for food at night and are generally pleasurable. At least according to <a href="http://y.20q.net:8095/" title="20Q">this AI</a> which challenges you to a game of 20 questions. You think of an object and the program tries to guess what it is in less than 20 questions.
+
+It is pretty good at it actually, and since the program is learning all the time, it will become better as more people play the game. So far it has beat me in most common objects like "a video game" or "a ceiling fan". More obscure objects like "a dragon" took more than 20 tries, having the AI guess at a bunch of different dinosaurs first. Furthermore, the AI seems to believe that a formula 1 car is similar to a dragon, oh well...
+
+It's impression of itself could do with a reality check though:
+
+bq. Uncommon Knowledge about artificial intelligence
+Is it dangerous? I say Probably.
+Does it have fur? I say Probably.
+Does it usually hunt for food at night? I say Probably.
+Is it brown? I say Probably.
+Can it swim? I say Yes.
+Is it a domesticated animal? I say Yes.
+Does it exist in other dimensions? I say Probably.
+Does it have arms? I say Yes.
+Does it have feet? I say Yes.
+Does it have a sense of smell? I say Probably.
+Is it pleasurable? I say Yes.
+
+<a title="Uncommon knowledge about a computer game (kottke.org)" href="http://www.kottke.org/03/07/030730uncommon_kno.html">Via Kottke</a>.

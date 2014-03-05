@@ -1,0 +1,55 @@
+---
+layout: post
+title: How to silence PostgreSQL in Rails
+date: '2011-05-24 10:33:14 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  UG9zdGdyZVNRTCBhbmQgUmFpbHMgYXJlIHRlcnJpYmx5IGNoYXR0eSwgc3Bl
+  d2luZyBub3RpY2VzIGFuZCBpbnRlcm5hbCBxdWVyaWVzIGFsbCBvdmVyIHlv
+  dXIgdGVybWluYWwgYW5kIGxvZyBmaWxlcy4gTHVja2lseSwgdGhlcmUgYXJl
+  IGEgZmV3IHNpbXBsZSBzdGVwcyB0byBtYWtlIFBvc3RncmVTUUwgYSBiaXQg
+  bW9yZSBiZWFyYWJsZSB0byB3b3JrIHdpdGguCg==
+mt_id: 2108
+categories:
+- technology
+- programming
+---
+Using "PostgreSQL":http://postgresql.org for your "Rails":http://rubyonrails.org applications is great, but it tends to be terribly chatty, spewing notices and internal queries all over your terminal and log files.
+
+Luckily, there are a few simple steps to make PostgreSQL a bit more bearable to work with.
+
+
+<!--more-->
+
+h2. Notices when running tests
+
+The most obvious noise from PostgreSQL is when running your tests. For a large'ish application a simple <code>rake</code> will cause pages of
+
+bc. NOTICE:  CREATE TABLE will create implicit sequence "inboxes_id_seq" for serial column "inboxes.id"
+NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "inboxes_pkey" for table "inboxes"
+
+to be output. 
+
+To get rid of those, simply add
+
+bc(yaml). min_messages: warning
+
+to your database.yml test environment ("ActiveRecord documentation":http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter.html, "PostgreSQL documentation":http://www.postgresql.org/docs/8.4/static/runtime-config-logging.html).
+
+
+h2. ActiveRecord attribute queries
+
+The first time Rails (well, ActiveRecord) loads a model it fetches the columns/attributes from the table. This is fine, but it can leave a lot of pointless and quite verbose output in your log files:
+
+bc. Inbox Load (3.7ms)  SELECT "inboxes".* FROM "inboxes" ORDER BY created_at LIMIT 1
+  SQL (0.9ms)   SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+ FROM pg_attribute a LEFT JOIN pg_attrdef d
+ ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+ WHERE a.attrelid = '"inboxes"'::regclass
+ AND a.attnum > 0 AND NOT a.attisdropped
+ ORDER BY a.attnum
+
+Getting rid of those is as simple as installing the "silent-postgres":https://github.com/dolzenko/silent-postgres gem, which 
+
+bq. "Silences internal diagnostic messages from postgresql connection adapter."
+
+Ah, silence is golden...

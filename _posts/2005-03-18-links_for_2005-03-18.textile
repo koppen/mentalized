@@ -1,0 +1,12 @@
+---
+layout: post
+title: links for 2005-03-18
+date: '2005-03-18 12:21:46 +0100'
+mt_id: 1262
+---
+<ul class="delicious">
+	<li>
+		<div class="delicious-link"><a href="http://www.newscientist.com/channel/space/mg18524911.600">New Scientist: 13 things that do not make sense</a></div>
+		<div class="delicious-categories">(categories: <a href="http://del.icio.us/koppen/science">science</a>)</div>
+	</li>
+</ul>

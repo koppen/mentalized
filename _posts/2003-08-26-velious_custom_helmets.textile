@@ -1,0 +1,127 @@
+---
+layout: post
+title: Velious custom helmets
+date: '2003-08-26 15:07:41 +0200'
+excerpt: !ruby/string:Sequel::SQL::Blob |-
+  RmFzaGlvbiBnYWxsZXJ5IG9mIHRoZSBjdXN0b20gVmVsaW91cyBoZWxtZXRz
+  IGdyYXBoaWNzLg==
+mt_id: 1276
+categories:
+- games
+---
+<p>The velium helmets have the possibility to be customized via a quest, making for a very unique look. I will try to continually
+update this page when I locate better images.</p>
+
+<!--more-->
+
+<p>Please note, that these images are with pre-Luclin graphics. The new Luclin-graphics uses these helmet models for many of their helmets.
+I am not entirely certain how customized helmets look with Luclin-graphics enabled.</p>
+
+<table>
+  <tr>
+    <td>
+      <h3>Barbarian</h3>
+      <img src="images/barbarian_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/barbarian_female.jpg" width="100" height="115" alt="Female" />
+
+    </td>
+    <td></td>
+    <td>
+      <h3>Dark elf</h3>
+      <img src="images/darkelf_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/darkelf_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+  </tr>
+
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+    <td>
+      <h3>Dwarf</h3>
+      <img src="images/dwarf_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/dwarf_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+    <td></td>
+
+    <td>
+      <h3>Erudite</h3>
+      <img src="images/erudite_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/erudite_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+
+    <td>
+      <h3>Gnome</h3>
+      <img src="images/gnome_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/gnome_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+    <td></td>
+    <td>
+      <h3>Half elf</h3>
+
+      <img src="images/halfelf_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/halfelf_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+    <td>
+      <h3>Halfling</h3>
+
+      <img src="images/halfling_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/halfling_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+    <td></td>
+    <td>
+      <h3>High elf</h3>
+      <img src="images/highelf_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/highelf_female.jpg" width="100" height="115" alt="Female" />
+
+    </td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+    <td>
+      <h3>Human</h3>
+      <img src="images/human_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/human_female.jpg" width="100" height="115" alt="Female" />
+
+    </td>
+    <td></td>
+    <td>
+      <h3>Iksar</h3>
+      <img src="images/iksar_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/iksar_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+  </tr>
+
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+    <td>
+      <h3>Ogre</h3>
+      <img src="images/ogre_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/ogre_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+    <td></td>
+
+    <td>
+      <h3>Troll</h3>
+      <img src="images/troll_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/troll_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+
+    <td>
+      <h3>Wood elf</h3>
+      <img src="images/woodelf_male.jpg" width="100" height="115" alt="Male" />
+      <img src="images/woodelf_female.jpg" width="100" height="115" alt="Female" />
+    </td>
+    <td></td>
+    <td>
+    </td>
+
+  </tr>
+</table>

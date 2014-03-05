@@ -1,0 +1,13 @@
+---
+layout: post
+title: Things I learned from the Microsoft ads
+date: '2008-09-23 13:38:36 +0200'
+mt_id: 1992
+categories:
+- software
+---
+# Windows is confusing and all about nothing - just like any episode of the Seinfeld show.
+# "Microsoft needs to piggyback":http://daringfireball.net/linked/2008/09/17/msft-advertising on Apples creativity.
+# Even though everyone and their brother use Windows, "group pressure":http://www.youtube.com/watch?v=kkZdkHylJ3w isn't going to make me switch away from OS X.
+
+Ah well, at least the "Gates/Seinfeld episodes":http://www.youtube.com/watch?v=afR5J7eskno were somewhat amusing.

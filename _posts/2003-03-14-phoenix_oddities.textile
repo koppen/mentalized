@@ -1,0 +1,15 @@
+---
+layout: post
+title: Phoenix oddities
+date: '2003-03-14 11:37:34 +0100'
+mt_id: 667
+categories:
+- browsers
+---
+I seem to have messed something up with my  installation of <a href="http://www.mozilla.org/projects/phoenix/" title="Phoenix Project Page">Phoenix</a>. On some sites I can't POST data. Notably <a href="http://www.imdb.com" title="the Internet Movie Database">IMDb</a> and <a href="http://www.ezboard.com" title="EZBoard">EZBoards</a> just load and load and end up returning a popup with "The document contains no data" when I submit forms. Others sites work just fine.
+
+Oh yeah, and my <a href="http://www.movabletype.org" title="Movable Type">Movable Type</a> blog bookmarklet seems to have suddently stopped working too.
+
+I wonder what I have done to make this stop working, what annoying little setting have I changed? Hm, I probably should never have installed the <a href="http://preferential.mozdev.org/" title="Preferential">advanced preferences extension</a>.
+
+<ins datetime="2003-03-17"><strong>Update:</strong> Uh, seems like I must have installed a new version of Phoenix and simply have forgotten about it when I started discovering these problems. Bottomline is, the <a href="http://ftp.mozilla.org/pub/phoenix/nightly/2003-03-16-08-trunk/" title="Phoenix nightly build 2003-03-16">latest build of Phoenix</a> solved the problems - and is looking mighty fine I might add.</ins>

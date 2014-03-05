@@ -1,0 +1,47 @@
+---
+layout: post
+title: Removing focus outlines
+date: '2011-03-30 10:41:53 +0200'
+mt_id: 2100
+categories:
+- webdesign
+- usability
+- browsers
+---
+In order to make it possible to navigate a website using the keyboard, browsers put an outline around the currently focused interactive elements, like links, buttons and form fields.
+
+Firefox uses a dotted outline for links, and a blue glow for input elements. Chrome and Safari on OS X use a blue glow for everything. Many people don't like those.
+
+
+<!--more-->
+
+h2. Don't blindly remove focus outlines
+
+Google returns 20 millions hits on "how to remove dotted outline":http://www.google.com/search?q=how+to+remove+dotted+outline. Unfortunately many people remove them because they are ugly, but forget to provide an alternative, leaving keyboard users in the dark. Please don't.
+
+If you want to remove the outline for whatever reason, make sure you provide an alternative that is at least as usable. In other words, it must be clearly visible even for users with impaired eyesight.
+
+All that said, it's fairly easy to remove the outlines.
+
+
+h2. How to remove focus outlines
+
+For links the recipe is simple:
+
+bc(css). :focus {
+  outline: 0;
+}
+
+While the above also removes the glow on input elements in Webkit-based browsers, Firefox is a bit more tricky. 
+
+h2. Focus glow in Firefox
+
+So far the only options I've found for Firefox is to remove Firefox's styling completely (or set your own border):
+
+bc(css). input {
+  -moz-appearance: none;
+}
+
+Unfortunately this puts you entirely in charge of styling the elements, but if you're already going that route it might be worthwhile.
+
+But above all, whatever you, make sure users can still navigate your site using the keyboard.

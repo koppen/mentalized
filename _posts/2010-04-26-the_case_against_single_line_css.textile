@@ -1,0 +1,54 @@
+---
+layout: post
+title: The case against single line CSS
+date: '2010-04-26 08:45:02 +0200'
+mt_id: 2039
+categories:
+- technology
+- webdesign
+---
+More is better - at least when it comes to lines of CSS. I personally prefer putting each CSS rule on their own line in my CSS files, but some people have advocated the use of putting each of your CSS rules on a single line, like so:
+
+bc(css). #wrapper            {width:800px; margin:0 auto;}
+#header             {height:100px; position:relative;}
+#feature .post      {width:490px; float:left;}
+#feature .link      {width:195px; display:inline; margin:0 10px 0 0; float:right;}
+#footer             {clear:both; font-size:93%; float:none;}
+
+This single line approach makes it easy to scan through a stylesheet and find the selector you want to modify. But that's also about as far as the benefits go for this approach. 
+
+
+<!--more-->
+
+
+h2. Indecipherable rules
+
+Finding a particular attribute in that list is hard, and it can get really hard to quickly grasp what a rule is doing. For example, this actual rule from "substancelab.com":http://substancelab.com is not all that easy scan, is it?
+
+bc(css). .more { color: #ffffff; background-color: #326880; display: block; font-weight: bold; padding: 5px 10px; text-align: center; text-decoration: none; color: #326880; text-shadow: #163440 1px 1px 2px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+
+
+h2. Makes refactoring harder
+
+The order of attributes in a CSS rule matters. While jumbling them all together in one big pile does preserve the order, it also makes it harder to change the order. Instead of cutting an entire line and moving it up and down, you now need to slice out the bits from the middle of some long line, and try to find the proper position in that same, hard to scan line. Not optimal.
+
+
+h2. Messes up your source control
+
+Source control management software is generally speaking line-based. If you change one little thing in a single line rule, for example the mistake in the .more rule above (you did see that, right?), the entire line will register as having been changed. 
+
+While not a big deal initially, it makes a huge difference when you want to merge changes with another branch or someone elses changes. Two individual lines that has been changed can easily be merged, while two changes to the same line will cause a conflict. Conflicts are bad, mmkay?
+
+
+h2. Who scans anyways?
+
+Seriously, who scans through a CSS file anyways? Even when put into single lines, the stylesheet from "bornibyen.dk":http://bornibyen.dk contains 600+ lines - that's too many to comfortably scan through. 
+
+And why would I scan through it when I can reliably jump to the rule I want using "TextMates":http://macromates.org "Go to Symbol" - your editor does support something like that, right?
+
+
+h2. Why manually fold code?
+
+Speaking of editor support, here's how a multiline stylesheet looks in my editor:
+
+bc(ruby). .header .gradient {

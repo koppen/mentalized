@@ -1,0 +1,13 @@
+---
+layout: post
+title: Congratulations, Rejsefeber.dk
+date: '2004-09-21 13:04:30 +0200'
+mt_id: 821
+categories:
+- webdesign
+---
+Congratulations, <a title="Rejsefeber.dk" href="http://www.rejsefeber.dk/">Rejsefeber.dk</a>. You just made a sale because your website was nicely looking, easy to use, and Firefox friendly - unlike your rivals.
+
+<a href="http://www.mytravel.dk/" title="MyTravel">MyTravel</a> came close to making a sale too for the same reasons, unfortunatly they had no travels that met our requirements.
+
+Your competitors should consider going through your websites to see how such a thing should be built.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Scrap those pixels
+date: '2003-08-08 13:26:29 +0200'
+mt_id: 724
+categories:
+- webdesign
+---
+Max Design's piece about <a title="Max Design - Ideal line length for content" href="http://www.maxdesign.com.au/presentation/em/">using ems to achieve an ideal line length for content</a> gave me an idea. Why not use em's for everything? 
+
+Traditional fluid- and fixed-width designs often suffer from being garbled when the user in- or decreases the font-size. If you instead base your design on em's, your website will scale according to the users font setting, maintaining whitespace, linelengths, and the general feel you have chosen for your design.
+
+In theory at least.
+
+Apart from the obvious possible browser-compatibility issues and the fact that most image formats are pixelbased and will not scale in a decent way, there are likely to be some problems I am not seeing.
+
+Perhaps I should just go ahead and make the change to my stylesheet and see how it works out; be an early adopter for once.

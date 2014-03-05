@@ -1,0 +1,28 @@
+---
+layout: post
+title: Printer followup
+date: '2006-01-24 09:54:11 +0100'
+mt_id: 1515
+categories:
+- technology
+---
+As posted previously we've been looking to "buy a printer for the home office":http://mentalized.net/journal/2005/11/23/looking_for_printershopping_advice/. We ended up buying a "Brother DCP-340CW":http://www.brother.com/europe/fax/info/dcp340cw/dcp340cw_ove.html from "enavia.com":http://enavia.com. It arrived yesterday and these are my initial impressions.
+
+
+<!--more-->
+
+The DCP-340CW is one of those multifunction types of gizmos: It -cooks, stirs, and fries-prints, scans, and copies. It does suffer from being a jack of all trades, master of none, and seems to be a clear tribute to the fact that you can only get two, not all of quality, good price, and many features.
+
+h2. Downsides
+
+* The prints are slighty fuzzy around the edges. 
+* The scans have slighty visible vertical lines.
+* It isn't - as far as I can tell - terribly fast (20 pages per minute in black'n'white prints).
+
+
+h2. Upsides
+
+* It connects to cabled or wireless ethernet. Being able to put it anywhere in the apartment without having to worry about anything but power cables is going to be a blessing.
+* Works without issues with both the Windows machines and the iBook.
+* It's cheap.
+

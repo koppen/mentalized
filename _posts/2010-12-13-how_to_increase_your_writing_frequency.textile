@@ -1,0 +1,57 @@
+---
+layout: post
+title: How to increase your writing frequency
+date: '2010-12-13 09:40:58 +0100'
+mt_id: 2013
+categories:
+- blogging
+- mentalizednet
+---
+Around this time last year, I gave myself a challenge: Write at least 52 blog entries throughout 2010. I signed up for "Project 52":http://project52.info:
+
+bq. a personal challenge geared toward getting fresh content on your website.
+
+I haven't completely risen to the challenge, but I am still hanging in there and it has massively improved my blogging efforts and how I deal with them.
+
+
+<!--more-->
+
+
+h2. It's all the mind
+
+The mere act of signing up for and publicly committing to Project52 changed how I think about blogging.
+
+I used to have a perpetual task in my "todo-list":http://flowtodo.com simply saying "Blog!". Whenever it appeared in my list of tasks, I'd happily ignore it for weeks until I got annoyed by it and sent the task into the future. A week later the story would repeat and I still wouldn't have the divine touch of inspiration for something to write.
+
+Writing became a chore. I felt I was always behind.
+
+Now, I am thinking ahead. I am continuously thinking of things to write because I know I have to publish something next week - and the week after. And I am actually writing (almost) every day.
+
+
+h2. Allocate time for it
+
+Inspired by "Noded":http://www.noded.biz/book I set aside 15 minutes per day for writing, immediately after checking feeds and news every morning. This way I don't have to miraculously find the time to write, which in freelancer-speak means "never"; there is always something more urgent, and profitable, to do.
+
+Certainly, this is an investment, but by spending only a quarter of an hour per day it doesn't feel like a huge burden - neither on my time or energy.
+
+Unfortunately, this fixed planning doesn't always pan out. If I am terribly busy, I'll skip my allotted time-slot. You can almost tell when I have been busy by going back over the entries and find the weeks where nothing got posted.
+
+But on the up-side, if I am on a roll and the words just flow I'll keep writing after the 15 minute timer-bell rings.
+
+
+h2. Dump your brain in the right place
+
+Even though only 11 posts made it to "mentalized.net":http://mentalized.net in 2009, don't think I didn't have things on my mind, thoughts that wanted to get out. Some of those ended in "my Twitter stream":http://twitter.com/mentalizer and some ended in my notebook. Where they died.
+
+An unintended side-effect of putting words in my notebook was that it gave me a feeling of being "done". The thoughts had been formulated and written down, my mind had been dumped. Done.
+
+Unfortunately the task of bringing the post from notebook-draft to published blog post was too tedious with too little gain, so most posts never made it out of there.
+
+Now, I write all my drafts directly in the blog interface. This way, only a single click of a button is keeping me from publishing and if I am only a few minutes away from having something publishable, I'll just do it.
+
+
+h2. Bring it on
+
+While I won't quite reach the full 52 entries in 2010 - this is post #44 and we're in week 50, the mere choice of committing to the project has made me write more.
+
+Considering the fact that I only wrote 11 blog posts in 2009 and have written 4 times that in 2010, I'd say Project 52 has been a success for me this year and I've already committed to "the 2011 season":http://project52.info/blog/project_52_in_2011/.
