@@ -1,44 +1,126 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>{{ page.title }}</title>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <link href='http://fonts.googleapis.com/css?family=Neucha|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+    <link href="/includes/google-code-prettify/sunburst.css" rel="stylesheet" type="text/css" />
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/includes/google-code-prettify/prettify.js"></script>
 
-    </head>
-    <body>
+    <meta name="robots" content="<?php echo $robotsMeta; ?>" />
+    <meta name="author" content="Jakob Skjerning" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="readability-verification" content="ARcrm7nvAgDuPAdXFG9AgwxgE9AweU3WrbpaAbv3" />
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+    <!-- OpenID -->
+    <link rel="openid.server" href="http://www.myopenid.com/server" />
+    <link rel="openid.delegate" href="http://jakob.skjerning.myopenid.com/" />
+    <meta http-equiv="X-XRDS-Location" content="http://jakob.skjerning.myopenid.com/xrds" />
 
-          {{ content }}
+    <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" />
+    <link rel="openid2.local_id" href="https://plus.google.com/101947935873921831191" />
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="alternate" type="application/rss+xml" title="Full entries (RSS 2.0)" href="http://mentalized.net/journal/entries.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Comments (Atom)" href="http://mentalized.net/journal/comments_atom.xml" />
+
+    <link rel="Start" title="Home" href="http://mentalized.net/journal/" />
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div id="branding">
+          <a href="http://mentalized.net" title="mentalized.net - the virtual home of Jakob Skjerning">
+            mentalized.net
+          </a>
         </div>
 
-    </body>
+        <nav>
+          <ul>
+            <li><a href="/journal/archives" title="View all articles and content">Archives</a></li>
+            <li><a href="/about/" title="Some background information about Jakob">About</a></li>
+          </ul>
+        </nav>
+
+        <div id="search">
+          <form method="get" action="/search/">
+            <div>
+              <span id="search_status"></span>
+              <input type="search" id="search_input" name="search" placeholder="Search mentalized.net..." onkeyup="delaySearch(this.value);"/>
+            </div>
+          </form>
+
+        </div>
+      </header>
+
+      {{ content }}
+
+      <footer class="quad columns">
+        <ul class="column">
+          <li><a href="/" title="mentalized.net">mentalized.net</a></li>
+          <li>&copy;2003-<?php echo date('Y'); ?> <a href="http://mentalized.net/about/" title="About Jakob">Jakob Skjerning</a></li>
+          <li><a href="/about/feeds/" title="RSS feeds">Subscribe to mentalized feeds</a></li>
+        </ul>
+
+        <ul class="column">
+          <li><a href="http://twitter.com/mentalizer" title="Jakob is on Twitter - you should totally follow him">@mentalizer</a></li>
+          <li><a href="/about/contact/" title="Get in touch, looking forward to hearing from you">Contact</a></li>
+          <li><a href="http://substancelab.com" title="Freelance Ruby on Rails application development">Hire Jakob</a></li>
+        </ul>
+
+        <ul class="column">
+          <li><a href="http://substancelab.com" title="Freelance Ruby on Rails application development">Substance Lab</a></li>
+          <li><a href="http://objectpush.com" title="Receive emails from your customers in your web application">Objectpush</a></li>
+          <li><a href="http://flowtodo.com" title="Stay effective and productive">FlowToDo</a></li>
+        </ul>
+
+        <ul class="column">
+          <li><a href="http://progresswars.com" title="Filling progress bars has never been this much fun before">Progress Wars</a></li>
+          <li><a href="http://mentalized.net/activity-indicators" title="Totally free animated gif spinners to show them that your site is doing something">Activity Indicators</a></li>
+          <li><a href="http://hvadbrugespengenetil.dk" title="See what your tax payer money is used for - if you pay taxes in Denmark">Hvad Bruges Pengene Til</a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $('article pre').addClass('prettyprint');
+        prettyPrint();
+      })
+      // Fix issue with Chrome and vw sizing.
+      // See http://css-tricks.com/viewport-sized-typography/
+      $(window).resize(function() {
+        $(".container").css("z-index", 1);
+      });
+
+      // Google Analytics
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-54854-1']);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackPageLoadTime']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+
+      // Track outgoing links to Substance Lab
+      $("a[href*='substancelab.com']").click(function() {
+        _gaq.push(['_trackPageview', '/link_to_substance_lab'])
+      });
+    </script>
+    <script async src="http://liquidfold.net/js/mentalized" type="text/javascript"></script>
+  </body>
+
 </html>

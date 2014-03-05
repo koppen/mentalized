@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article>
+  <h1>{{ page.title }}</h1>
 
-<div class="post">
-{{ content }}
-</div>
+  <aside>
+    <p>
+      Posted
+      <span class="timestamp">{{ page.date | date_to_string }}</span>
+      in
+      {{ page.categories | array_to_sentence_string }}
+    </p>
+  </aside>
+
+  {{ content }}
+</article>
+
