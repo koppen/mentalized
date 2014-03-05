@@ -333,25 +333,6 @@ nav a:hover {
   font-weight: normal;
 }
 
-#search {
-  float: right;
-  margin-top: .9em;
-  width: 33%;
-}
-
-#search input {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 1px solid #ddd;
-  border-radius: 2em;
-  box-shadow: inset rgba(0,0,0,0.2) .1em .1em .2em;
-  float: right;
-  font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif;
-  font-size: 1em;
-  padding: .2em .8em;
-  width: 100%;
-}
-
 .container {
   font-size: 1em;
   line-height: 1.8em;
@@ -728,18 +709,6 @@ nav li:first-child,.columns .column:first-child {
   nav,#branding {
     float: none;
     width: auto;
-  }
-}
-
-@media max-width(860px) {
-  #search {
-    width: 33%;
-  }
-}
-
-@media max-width(575px) {
-  #search {
-    width: 100%;
   }
 }
 
