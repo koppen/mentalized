@@ -8,7 +8,8 @@ categories:
 ---
 While checking out "Scott Baron":http://lunchroom.lunchboxsoftware.com/'s coverage-tool for Ruby, "insurance":http://rubyforge.org/projects/insurance/, I ran into a minor issue on my - by now - fairly beat up Debian installation.
 
-bc. jcop@mental:~$ sudo gem install insurance
+{% highlight console %}
+jcop@mental:~$ sudo gem install insurance
 Attempting local installation of 'insurance'
 Local gem file not found: insurance*.gem
 Attempting remote installation of 'insurance'
@@ -16,6 +17,7 @@ Updating Gem source index for: http://gems.rubyforge.org
 Building native extensions.  This could take a while...
 extconf.rb:1:in `require': no such file to load -- mkmf (LoadError)
         from extconf.rb:1
+{% endhighlight %}
 
 Thankfully, Google led me to "the answer on RubyForge":http://rubyforge.org/forum/forum.php?thread_id=4161&forum_id=4050. For some reason, mkmf.rb is part of the ruby1.8-dev package, and initially I hadn't installed that since it is described as
 
@@ -23,6 +25,8 @@ bq. Header files for compiling extension modules for the Ruby 1.8
 
 Ah well. A quick
 
-bc. sudo apt-get install ruby1.8-dev
+{% highlight console %}
+sudo apt-get install ruby1.8-dev
+{% endhighlight %}
 
 and everything trotted along happily after that.

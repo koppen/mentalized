@@ -13,25 +13,28 @@ This post is primarily a brain dump to aid my failing memory, and it was trigger
 
 The goal of this exercise is basically to figure out how to run a command and capture all its output - both STDOUT and STDERR - so that the output can be used in the calling script.
 
-
 <!--more-->
 
 h2. err.rb
 
 The test script I'll be running basically outputs two lines, one on STDOUT, the other on STDERR:
 
-bc. #!/usr/bin/env ruby
+{% highlight ruby %}
+#!/usr/bin/env ruby
 puts "out"
 STDERR.puts "error"
+{% endhighlight %}
 
 
 h2. <a href="http://ruby-doc.org/core/classes/Kernel.html#M005960">Kernel#`</a> (backticks)
 
 bq. Returns the standard output of running cmd in a subshell. The built-in syntax %x{...} uses this method. Sets $? to the process status.
 
-bc. >> `./err.rb`
+{% highlight ruby %}
+>> `./err.rb`
 err
 => "out\n"
+{% endhighlight %}
 
 * STDERR is output, but not captured
 * STDOUT is captured
@@ -41,9 +44,11 @@ h2. <a href="http://ruby-doc.org/core/classes/Kernel.html#M005968">Kernel#exec</
 
 bq. Replaces the current process by running the given external command.
 
-bc. >> exec('./err.rb')
+{% highlight ruby %}
+>> exec('./err.rb')
 out
 err
+{% endhighlight %}
 
 * Both STDERR and STDOUT is output. They aren't captured as your process has been replaced so there is nothing to capture the output to.
 
@@ -52,10 +57,12 @@ h2. <a href="http://ruby-doc.org/core/classes/Kernel.html#M005971">Kernel#system
 
 bq. Executes cmd in a subshell, returning true if the command was found and ran successfully, false otherwise. An error status is available in $?. The arguments are processed in the same way as for Kernel::exec.
 
-bc. >> system('./err.rb')
+{% highlight ruby %}
+>> system('./err.rb')
 out
 err
 => true
+{% endhighlight %}
 
 * Both STDERR and STDOUT is output, but not captured.
 
@@ -64,11 +71,13 @@ h2. <a href="http://ruby-doc.org/core/classes/IO.html#M002242">IO#popen</a>
 
 bq. Runs the specified command string as a subprocess; the subprocess's standard input and output will be connected to the returned IO object.
 
-bc. >> output = IO.popen('./err.rb')
+{% highlight ruby %}
+>> output = IO.popen('./err.rb')
 => #<IO:0x1017511b8>
 >> err
 output.readlines
 => ["out\n"]
+{% endhighlight %}
 
 * STDOUT is captured in a nice IO object
 * STDERR is output
@@ -78,7 +87,8 @@ h2. <a href="http://ruby-doc.org/core/classes/Open3.html">Open3#popen3</a>
 
 bq. Open stdin, stdout, and stderr streams and start external executable.
 
-bc. >> require 'open3'
+{% highlight ruby %}
+>> require 'open3'
 => true
 >> stdin, stdout, stderr = Open3.popen3('./err.rb')
 => [#<IO:0x101769da8>, #<IO:0x101769d30>, #<IO:0x101769c68>]
@@ -86,6 +96,7 @@ bc. >> require 'open3'
 => ["out\n"]
 >> stderr.readlines
 => ["err\n"]
+{% endhighlight %}
 
 * Both STDOUT and STDERR are captured into nice IO objects.
 
@@ -94,8 +105,10 @@ h2. Alternative: Using 'nix redirection
 
 An alternative to Open#popen3 (terrible name) is using <a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html">standard output redirection</a>:
 
-bc. >> `./err.rb 2>&amp;1`
+{% highlight ruby %}
+>> `./err.rb 2>&amp;1`
 => "err\nout\n"
+{% endhighlight %}
 
 This gives you both STDOUT and STDERR in one big string, which might be perfectly fine if you don't require the granular control that popen3 brings to the table. 
 
