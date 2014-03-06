@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Experiment: Xbox Dashboard in Webkit</title>
+    <meta name="description" content="An experiment into the world of CSS 3 and Webkit rendering" />
+
+    <link rel="stylesheet" href="dejavu_sans.css" type="text/css" />
+    <style type="text/css">
+      body {
+        color: #ffffff;
+        font-family: 'DejaVuSansBook', Arial, sans-serif;
+        letter-spacing: -0.1em;
+
+        background-color: #533e2d;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+
+        /* Layer a gradient on top of the background image on top of blackness */
+        background-image:
+          -webkit-gradient(linear, left top, left bottom, from(transparent), to(#533e2d), color-stop(0.495, transparent), color-stop(0.5, #7d593c), color-stop(0.51, #7f7168), color-stop(0.9, #5a4534)),
+          url(titlescreen-panorama01.jpg),
+          -webkit-gradient(linear, left top, left bottom, from(black), to(black))
+        ;
+
+        /* The height here decides the height of the background gradients. Optimally, something like
+        height: 100% could be used, but that doesn't work on the body element at least */
+        height: 500px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      h1, h2 {
+        margin: 0 0 0.5em 0;
+        padding: 0;
+        text-transform: capitalize;
+      }
+
+      h1 {
+        position: absolute;
+        left: 50px;
+        top: 70px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+      }
+      
+      h2 {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin: 0 0 1em 0;
+      }
+
+      .panels {
+        /* Allow for absolute positioning inside */
+        position: relative;
+        top: 100px;
+
+        /* Panels are 250 pixels high, the panel outside the display on the left is scaled by 1.25. 250*1.25 ~ 313 */
+        /* Also adds 70px of spacing for shadows and extras */
+        height: 383px;
+
+        /* Don't show overflow content or add scrollbars */
+        overflow: hidden;
+      }
+
+      .panel {
+        text-shadow: 1px 1px 1px rgba(0,50,0,0.4);
+        line-height: 1.6em;
+        overflow: auto;
+        position: absolute;
+        padding: 15px;
+
+        top: 45px;
+        height: 220px;
+        width: 300px;
+
+        /* Layer to gradients on top of each other */
+        background-image:
+          -webkit-gradient(radial, 50% -10, 1, 50% 0%, 200, from(rgba(241, 242, 139, 1)), to(rgba(228, 222, 125, 0))),
+          -webkit-gradient(linear, left top, left bottom, from(#9fc80c), to(#3e431c), color-stop(0.5, #89bf00))
+        ;
+        color: #ffffff;
+
+        -webkit-box-shadow: rgba(0,0,0,0.5) 0 0 20px;
+        -webkit-border-radius: 5px;
+                   
+        -webkit-transition: all 0.5s ease-out;
+      }
+
+      .panel a {
+        color: inherit;
+      }
+
+      .panel a:hover {
+        color: inherit;
+
+        /* Slightly opaque background-color to get a hint of the panel color behind it */
+        background-image: -webkit-gradient(linear, 0 50%, 0 100%, from(rgba(255,255,255,0.9)), to(rgba(150,150,150,0.9)), color-stop(0.1, rgba(220,220,220,0.9)));
+
+        color: #333333;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #ffffff;
+
+        /* When hovering over a link, make the link slightly larger than the regular link and offset
+        it accordingly. Also remove the bottom border */
+        margin-left: -4px;
+        padding: 2px 4px;
+        -webkit-border-radius: 4px;
+      }
+
+      .panel a.image {
+        background-color: rgba(255,255,255,0.5);
+        display: block;
+        padding: 0;
+        margin: 0;
+      }
+
+      .panel a:hover.image {
+        background-color: rgba(255,255,255,1);
+        -webkit-border-radius: 0;
+      }
+
+      .panel a.image img {
+        margin: 10px;
+        vertical-align: bottom;
+      }
+
+      /* Scrollbar Styles */
+
+      .panel::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      .panel::-webkit-scrollbar-thumb {
+        border-width: 6px;
+        /* http://www.lrbabe.com/sdoms/borderImage/index.html */
+        -webkit-border-image: url(scrollbar_inactive.png) 7 7 7 7 round round;
+      }
+
+      .panel::-webkit-scrollbar-thumb:hover {
+        -webkit-border-image: url(scrollbar_active.png) 7 7 7 7 round round;
+      }
+
+      .panel::-webkit-scrollbar-button {
+        /* Remove the arrow buttons */
+        display: none;
+      }
+
+      .panels .outside {
+        opacity: 0;
+        left: -250px;
+        z-index: 105;
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+      }
+      
+      .panels .frontmost {
+        left: 50px;
+        z-index: 104;
+        -webkit-transform: scale(1);
+      }
+
+      .panels .frontmost + .panel {
+        left: 325px;
+        z-index: 103;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+      }
+      
+      .panels .frontmost + .panel + .panel {
+        left: 540px;
+        z-index: 102;
+
+        -webkit-transform: scale(0.64);
+        -moz-transform: scale(0.64);
+      }
+      
+      .panels .frontmost + .panel + .panel + .panel {
+        left: 695px;
+        z-index: 101;
+        -webkit-transform: scale(0.512);
+        -moz-transform: scale(0.512);
+      }
+
+      .panels .frontmost + .panel + .panel + .panel ~ .panel {
+        left: 810px;
+        z-index: 100;
+
+        -webkit-transform: scale(0.4096);
+        -moz-transform: scale(0.4096);
+      }
+
+      .panels .frontmost + .panel + .panel + .panel + .panel ~ .panel {
+        left: 870px;
+        z-index: 99;
+        opacity: 0;
+        -webkit-transform: scale(0.32768);
+        -moz-transform: scale(0.32768);
+      }
+
+      /* Style the navigation list inside a panel */
+      .panel ul.navigation {
+        border-top: 1px solid rgba(255,255,255,0.5);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .panel .navigation li {
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+      }
+
+      .panel .navigation li a {
+        /* Adding the border to the link itself so we can modify it when the user hovers on the link */
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        color: #ffffff;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        width: 280px;
+      }
+
+      .panel .navigation li a:hover,
+      .panel .navigation li a:active {
+        /* Slightly opaque background-color to get a hint of the panel color behind it */
+        background-image: -webkit-gradient(linear, 0 50%, 0 100%, from(rgba(255,255,255,0.9)), to(rgba(150,150,150,0.9)), color-stop(0.1, rgba(220,220,220,0.9)));
+
+        color: #333333;
+        text-shadow: 1px 1px 1px #ffffff;
+
+        /* When hovering over a link, make the link slightly larger than the regular link and offset
+        it accordingly. Also remove the bottom border */
+        border-bottom: 0;
+        margin-left: -4px;
+        padding: 10px 14px 11px;
+
+        -webkit-border-radius: 4px;
+      }
+
+      /* Style the tweets */
+      .tweet .tweet_list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .tweet .tweet_list li {
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        overflow: auto;
+        padding: 10px 0;
+      }
+      
+      .tweet .tweet_list .tweet_avatar {
+        padding-right: .5em;
+        float: left; 
+      }
+
+      .tweet .tweet_list .tweet_avatar img {
+        vertical-align: middle; 
+      }
+
+      /* Style the arrow navigation */
+      .input {
+        overflow: hidden;
+        position: absolute;
+        left: 500px;
+        bottom: 0;
+        text-align: center;
+      }
+
+      .input a {
+        text-decoration: none;
+        font-size: 32px;
+        color: #89bf00;
+        -webkit-transition: all 0.2s ease-out;
+      }
+
+      .input a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 5px #89bf00;
+      }
+
+      /* The hovering orb */
+      .orb {
+        position: absolute;
+        width: 55px;
+        height: 65px;
+        right: 75px;
+        bottom: 50px;
+      }
+
+    </style>
+
+    <meta name="viewport" content="width=1000" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Bring in Tweet jQuery plugin <http://tweet.seaofclouds.com/> and configure it -->
+    <script src="tweet/jquery.tweet.js" type="text/javascript"></script>
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            $(".jakobs_tweets").tweet({
+                username: "mentalizer",
+                join_text: "auto",
+                avatar_size: 32,
+                count: 3,
+                auto_join_text_ed: "Jakob",
+                auto_join_text_ing: "Jakob",
+                auto_join_text_reply: "Jakob replied to",
+                auto_join_text_url: "Jakob were checking out",
+                loading_text: "loading tweets..."
+            });
+        });
+    </script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-54854-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        ga.setAttribute('async', 'true');
+        document.documentElement.firstChild.appendChild(ga);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <h1>Xbox Dashboard in Webkit</h1>
+
+    <div class="panels">
+      <div class="panel frontmost">
+        <h2>What is this?</h2>
+
+        <p>You are looking at an experiment into the world of CSS 3 and Webkit rendering by <a href="http://mentalized.net" title="Freelance Ruby on Rails developer">Jakob Skjerning</a>.</p>
+        
+        <p>Feel free to peruse the source or read more about it at the <a href="http://mentalized.net/journal/2010/02/17/webkitbased_xbox_dashboard/" title="Webkit-based Xbox Dashboard | mentalized.net">accompanying blog post</a>.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Inspiration</h2>
+
+        <a href="http://braid-game.com/news/wp-content/uploads/2009/01/braidtheme01.jpg" title="Screenshot of the original Braid theme" class="image"><img src="inspiration.jpg" width="280" height="158" alt="Screenshot of the original Braid theme" /></a>
+      </div>
+
+      <div class="panel">
+        <h2>Navigation List</h2>
+
+        <ul class="navigation">
+          <li><a href="http://mentalized.net/journal/2010/02/17/webkitbased_xbox_dashboard/" title="Webkit-based Xbox Dashboard">The blog post</a></li>
+          <li><a href="http://braid-game.com/news/?p=402" title="Braid Blog: There’s now a Braid dashboard theme on the Xbox 360 Game Marketplace.">Original theme</a></li>
+          <li><a href="http://mentalized.net" title="Jakobs blog about the web, tech, entrepreneurship and other stuff">mentalized.net</a></li>
+          <li><a href="http://substancelab.com" title="Carefully crafting usable web applications">Hire Jakob</a></li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h2>Filler text</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus, sem non bibendum placerat, urna augue bibendum lectus, id fringilla ligula turpis semper quam. Mauris malesuada gravida viverra. Sed quis turpis neque, eu posuere dolor. Integer risus nulla, molestie sit amet convallis eu, vulputate eget ligula. Aenean aliquet euismod magna, convallis ultrices diam tristique in.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Jakob is on Twitter</h2>
+
+        <div class="tweet jakobs_tweets"></div>
+      </div>
+
+      <div class="panel">
+        <h2>about:blank</h2>
+
+        <p>This space intentionally left blank.</p>
+      </div>
+
+      <div class="input">
+        <a href="#" onclick="previousPanel(); return false">&larr;</a>
+        <a href="#" onclick="nextPanel(); return false">&rarr;</a>
+      </div>
+
+    </div>
+
+    <div class="orb">
+      <a href="http://mentalized.net" title="Visit Jakobs website"><img src="orb.png" width="55" height="65" alt="mentalized.net" /></a>
+    </div>
+
+    <script type="text/javascript">
+      $('.panels .panel').each(function(index, panel) {
+        $(panel).addClass('panel' + index)
+
+        if (0 == index) {
+          $(panel).addClass('frontmost')
+          frontmostPanel = index
+        }
+      })
+
+      function previousPanel() {
+        previousPanelIndex = frontmostPanel - 1
+        if (previousPanelIndex < 0) {
+          return false
+        }
+        
+        $('.panels .panel').removeClass('frontmost').removeClass('outside').each(function(index, panel) {
+          if (index < previousPanelIndex) {
+            $(panel).addClass('outside')
+          }
+        })
+        $('.panel' + previousPanelIndex).addClass('frontmost')
+        
+        frontmostPanel = previousPanelIndex
+      }
+
+      function nextPanel() {
+        nextPanelIndex = frontmostPanel + 1
+        if (nextPanelIndex >= $('.panels .panel').length) {
+          return false
+        }
+
+        $('.panels .panel').removeClass('frontmost').removeClass('outside').each(function(index, panel) {
+          if (index < nextPanelIndex) {
+            $(panel).addClass('outside')
+          }
+        })
+        $('.panel' + nextPanelIndex).addClass('frontmost')
+
+        frontmostPanel = nextPanelIndex
+      }
+    </script>
+  </body>
+</html>
+
+
+  

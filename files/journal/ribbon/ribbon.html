@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Ribbon demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=770" />
+
+    <style>
+      body {
+        background: #aaaaaa;
+      }
+
+      article {
+        background: #ffffff;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        width: 50%;
+      }
+
+      h1, h2, h3 {
+        background: #88dd88;
+        color: #ffffff;
+        font-size: 3em;
+        padding: 0.5em;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2em;
+      }
+
+      h3 {
+        font-size: 1em;
+      }
+
+      .ribbon {
+        /* 50px equals ribbon widths of 30px and article padding of 20px */
+        margin-left: -50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: relative;
+        width: 100%;
+      }
+
+      .ribbon:before, .ribbon:after {
+        border-color: #444444;
+        border-style: solid;
+        border-width: 0;
+        content: '';
+        position: absolute;
+      }
+
+      .top:before, .top:after {
+        border-bottom-width: 15px;
+      }
+
+      .top:before {
+        left: 0;
+        top: -15px;
+        border-left: 30px solid transparent;
+      }
+
+      .top:after {
+        right: 0;
+        top: -15px;
+        border-right: 30px solid transparent;
+      }
+
+      .bottom {
+        background: #dd8888;
+      }
+
+      .bottom:before, .bottom:after {
+        bottom: -15px;
+        border-top: 15px solid #444444;
+        border-bottom: 0;
+      }
+
+      .bottom:before {
+        border-right: 0;
+        border-left: 30px solid transparent;
+        left: 0;
+      }
+
+      .bottom:after {
+        border-left: 0;
+        border-right: 30px solid transparent;
+        right: 0;
+      }
+
+      .left {
+        background: #8888dd;
+      }
+
+      .left:before, .left:after {
+        top: -15px;
+        border-bottom: 15px solid #444444;
+        border-top: 0;
+      }
+
+      .left:before {
+        border-right: 0;
+        border-left: 30px solid transparent;
+        left: 0;
+      }
+
+      .right {
+        background: #cccccc;
+      }
+
+      .rigth:before, .right:after {
+        top: -15px;
+        border-bottom: 15px solid #444444;
+        border-top: 0;
+      }
+
+      .right:after {
+        border-left: 0;
+        border-right: 30px solid transparent;
+        right: 0;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <article>
+      <h1 class="ribbon bottom">Ribbon Rocks!</h1>
+
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+      <h2 class="ribbon top">More ribbons rock more</h2>
+
+      <div>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      </div>
+
+      <h3 class="ribbon left">One side only</h3>
+
+      <ul>
+         <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+         <li>Aliquam tincidunt mauris eu risus.</li>
+         <li>Vestibulum auctor dapibus neque.</li>
+      </ul>
+
+      <h3 class="ribbon right">And the other side</h3>
+
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+    </article>
+  </body>
+</html>
+
+

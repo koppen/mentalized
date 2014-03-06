@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>PileUp Carousel/Slider/Slideshow Demo</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=770" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Play:regular,bold' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Judson' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        background: #eef;
+        font-family: 'Judson', serif;
+        overflow-x: hidden;
+        text-align: center;
+      }
+
+      h1, h2 {
+        font-family: 'Play', arial, sans-serif;
+        text-shadow: #ffffff 1px 1px 1px;
+      }
+
+      .legalmumbojumbo {
+        font-size: 0.8em;
+      }
+
+      #carousel {
+        height: 350px;
+        position: relative;
+      }
+
+      #carousel nav {
+        display: block;
+        bottom: 1em;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        z-index: 100;
+      }
+
+      #carousel nav a {
+        background: #f9fcf7; /* Old browsers */
+        background: -moz-linear-gradient(top, #f9fcf7 0%, #eeeeee 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcf7), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #f9fcf7 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+        -moz-border-radius: 2em;
+        -webkit-border-radius: 2em;
+        -moz-box-shadow: rgba(0,0,0,0.2) 0 0 0.5em;
+        -webkit-box-shadow: rgba(0,0,0,0.2) 0 0 0.5em;
+        border: 2px solid #ffffff;
+        font-weight: bold;
+        padding: 0.2em;
+        text-decoration: none;
+      }
+
+      #carousel div {
+        -moz-box-shadow: rgba(0,0,0,0.5) 0 0 1em;
+        -webkit-box-shadow: rgba(0,0,0,0.5) 0 0 1em;
+
+        /* These values are used to center the photos horizontally and vertically */
+        margin-left: -240px;
+        margin-top: -160px;
+        top: 175px;
+
+        opacity: 0; /* Start out with invisible photos, then fade them in */
+        position: absolute;
+
+        -moz-transition-duration: 1s;
+        -moz-transition-property: left, -moz-transform, opacity;
+        -moz-transition-timing-function: ease-in;
+
+        -webkit-transition-duration: 1s;
+        -webkit-transition-property: left, -webkit-transform, opacity;
+        -webkit-transition-timing-function: ease-in;
+      }
+
+      #carousel div img {
+        border: 5px solid #fff;
+        display: block
+      }
+
+      #carousel div.current {
+        opacity: 1;
+        left: 50%;
+        -webkit-transition-timing-function: ease-in-out;
+      }
+
+      #carousel div.previous {
+        opacity: 1;
+        left: 0%;
+      }
+
+      #carousel div.next {
+        opacity: 1;
+        left: 100%;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h1>PileUp Carousel/Slider/Slideshow Demo</h1>
+
+    <div id="carousel">
+      <div><img src="images/a-bugs-life.jpg" alt="A Bug's Life" /></div>
+      <div><img src="images/finding-nemo.jpg" alt="Finding Nemo" /></div>
+      <div><img src="images/monsters-inc.jpg" alt="Monsters Inc" /></div>
+      <div><img src="images/ratatouille.jpg" alt="Ratatouille" /></div>
+      <div><img src="images/up.jpg" alt="Up" /></div>
+      <div><img src="images/wall-e.jpg" alt="WALL·E" /></div>
+
+      <nav>
+        <a href="#" title="Previous" class="previous">&larr;</a>
+        <a href="#" title="Next" class="next">&rarr;</a>
+      </nav>
+    </div>
+
+    <h2><a href="http://mentalized.net/journal/2011/05/18/pileup_carousel" title="Experiment: PileUp Carousel">Read the accompanying blogpost here</a></h2>
+
+    <div class="legalmumbojumbo"><p>
+      All code &copy;2011 Jakob Skjerning, licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT license">MIT license</a>.
+      All images probably &copy; Pixar, it's also their trademarks and whatnot oh god please don't sue me.
+    </p></div>
+
+    <script>
+      function PileUpCarousel(domElement) {
+        var carousel = $(domElement);
+        var photos = carousel.find('div');
+
+        // Displays the photo with the given index
+        carousel.showPhoto = function(index) {
+          photos.each(function(index, photo) {
+            var photo = $(photo);
+
+            // Rotates photo. If angle isn't given, a random value from -10 to 10 degrees is used
+            photo.rotate = function(angle) {
+              if (typeof(angle) == 'undefined') {
+                angle = Math.random() * 20 - 10;
+              };
+              var degrees = angle + 'deg';
+              this
+                .css('transform', 'rotate(' + degrees + ')')
+                .css('transform', 'rotate3d(0, 0, 0, ' + degrees +')')
+                .css('-o-transform', 'rotate(' + degrees + ')')
+                .css('-moz-transform', 'rotate(' + degrees + ')')
+                .css('-ms-transform', 'rotate(' + degrees + ')')
+                .css('-webkit-transform', 'rotate3d(0, 0, 0, ' + degrees +')')
+              ;
+            };
+
+            if (index == currentPhotoIndex) {
+              photo.removeClass('next previous').addClass('current').rotate(0);
+            } else if (index < currentPhotoIndex && !photo.hasClass('previous')) {
+              photo.removeClass('next current').addClass('previous').rotate();
+            } else if (index > currentPhotoIndex && !photo.hasClass('next')) {
+              photo.removeClass('previous current').addClass('next').rotate();
+            }
+          });
+        };
+
+        // Navigates to the next photo
+        carousel.next = function() {
+          if (currentPhotoIndex < photos.size() - 1) {
+            carousel.showPhoto(++currentPhotoIndex);
+          };
+        };
+
+        // Navigates to the previous photo
+        carousel.previous = function() {
+          if (currentPhotoIndex > 0) {
+            carousel.showPhoto(--currentPhotoIndex);
+          };
+        };
+
+        // Initialize the photos
+        photos.each(function(index, photo) {
+          // This ensures we take the next photo from the top of the pile, rather than the bottom
+          $(photo).css('z-index', photos.size() - index);
+        });
+
+        var currentPhotoIndex = 0;
+        carousel.showPhoto(currentPhotoIndex);
+
+        // Bind navigation events
+        var navigation = carousel.find('nav');
+        navigation.find('.previous').click(function() {
+          carousel.previous();
+          return false;
+        });
+        navigation.find('.next').click(function() {
+          carousel.next();
+          return false;
+        });
+      };
+
+      $(function() {
+        PileUpCarousel('#carousel');
+      });
+    </script>
+
+  </body>
+</html>
+
+  
