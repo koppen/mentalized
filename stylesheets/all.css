@@ -103,7 +103,7 @@ pre {
   text-shadow: rgba(200,255,0,0.5) 0 0 .2em;
 }
 
-pre,article pre.prettyprint {
+pre {
   padding: .9em 1.6em;
   width: auto;
 }

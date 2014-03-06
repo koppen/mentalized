@@ -5,22 +5,25 @@ date: '2014-02-20 13:11:49 +0100'
 mt_id: 2173
 categories:
 - programming
-- webdesign
 - technology
+- webdesign
 ---
 I have been using [Sass](http://sass-lang.com/) for ages and I never realized I could do:
 
-    margin:
-      top: 1em
-      bottom: 2em
+{% highlight sass %}
+margin:
+  top: 1em
+  bottom: 2em
+{% endhighlight %}
 
 and have it compile to:
 
-    margin-top: 1em;
-    margin-bottom: 2em;
+{% highlight css %}
+margin-top: 1em;
+margin-bottom: 2em;
+{% endhighlight %}
 
 This is a great timesaver for all those `background-image`, `margin`, `padding`, `border` declarations.
-
 
 <!--more-->
 
@@ -28,15 +31,19 @@ This is a great timesaver for all those `background-image`, `margin`, `padding`,
 
 It even allows deeper levels of nesting, so you can do:
 
-    border:
-      top:
-        style: dashed
-        left:
-          radius: 1em
+{% highlight sass %}
+border:
+  top:
+    style: dashed
+    left:
+      radius: 1em
+{% endhighlight %}
 
 to get:
 
-    border-top-style: dashed;
-    border-top-left-radius: 1em;
+{% highlight css %}
+border-top-style: dashed;
+border-top-left-radius: 1em;
+{% endhighlight %}
 
 I guess that'll teach me to [RTFM](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#nested_properties).

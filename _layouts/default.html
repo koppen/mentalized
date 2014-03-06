@@ -7,10 +7,9 @@
     <link href='http://fonts.googleapis.com/css?family=Neucha|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
-    <link href="/includes/google-code-prettify/sunburst.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/zenburn.css" rel="stylesheet" type="text/css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/includes/google-code-prettify/prettify.js"></script>
 
     <meta name="robots" content="<?php echo $robotsMeta; ?>" />
     <meta name="author" content="Jakob Skjerning" />
@@ -75,10 +74,6 @@
     </div>
 
     <script>
-      $(document).ready(function() {
-        $('article pre').addClass('prettyprint');
-        prettyPrint();
-      })
       // Fix issue with Chrome and vw sizing.
       // See http://css-tricks.com/viewport-sized-typography/
       $(window).resize(function() {
