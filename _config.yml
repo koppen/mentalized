@@ -2,6 +2,7 @@ excerpt_separator: "<!--more-->"
 markdown: redcarpet
 pygments: true
 permalink: "/journal/:year/:month/:day/:title"
+source: source
 
 name: mentalized.net
 description: The virtual home of Jakob Skjerning
