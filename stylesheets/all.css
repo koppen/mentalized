@@ -624,7 +624,7 @@ nav li:first-child,.columns .column:first-child {
   margin-left: 0;
 }
 
-@media max-width(575px) {
+@media (max-width: 575px) {
   article p {
     max-width: 100%;
   }
@@ -676,7 +676,7 @@ nav li:first-child,.columns .column:first-child {
   }
 }
 
-@media max-width(850px) {
+@media (max-width: 850px) {
   nav li {
     width: 45%;
   }
@@ -696,7 +696,7 @@ nav li:first-child,.columns .column:first-child {
   }
 }
 
-@media max-width(420px) {
+@media (max-width: 420px) {
   .quad .column {
     width: 44%;
   }
@@ -712,7 +712,7 @@ nav li:first-child,.columns .column:first-child {
   }
 }
 
-@media min-width(960px) {
+@media (min-width: 960px) {
   .container {
     font-size: 1.6vw;
   }
