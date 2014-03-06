@@ -13,7 +13,7 @@
 
     <meta name="robots" content="<?php echo $robotsMeta; ?>" />
     <meta name="author" content="Jakob Skjerning" />
-    <meta name="description" content="{{ page.description }}" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:25 }}{% else %}{{ site.description | escape }}{% endif %}" />
     <meta name="readability-verification" content="ARcrm7nvAgDuPAdXFG9AgwxgE9AweU3WrbpaAbv3" />
 
     <!-- OpenID -->
@@ -26,8 +26,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="alternate" type="application/rss+xml" title="Full entries (RSS 2.0)" href="http://mentalized.net/journal/entries.xml" />
-    <link rel="alternate" type="application/rss+xml" title="Comments (Atom)" href="http://mentalized.net/journal/comments_atom.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Full entries" href="http://mentalized.net/journal/entries.xml" />
 
     <link rel="Start" title="Home" href="http://mentalized.net/journal/" />
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
@@ -49,7 +48,7 @@
         <ul class="column">
           <li><a href="/" title="mentalized.net">mentalized.net</a></li>
           <li>&copy;2003-{{ site.time | date: '%Y' }} <a href="http://mentalized.net/about/" title="About Jakob">Jakob Skjerning</a></li>
-          <li><a href="/about/feeds/" title="RSS feeds">Subscribe to mentalized feeds</a></li>
+          <li><a href="/journal/entries.xml" title="RSS feed" class="rss">Subscribe to feed</a></li>
         </ul>
 
         <ul class="column">

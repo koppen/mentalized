@@ -1,5 +1,8 @@
 excerpt_separator: "<!--more-->"
-name: mentalized.net
 markdown: redcarpet
 pygments: true
 permalink: "/journal/:year/:month/:day/:title"
+
+name: mentalized.net
+description: The virtual home of Jakob Skjerning
+url: http://mentalized.net
