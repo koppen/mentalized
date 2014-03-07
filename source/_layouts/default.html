@@ -11,7 +11,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-    <meta name="robots" content="<?php echo $robotsMeta; ?>" />
+    <meta name="robots" content="{{ page.robots }}" />
     <meta name="author" content="Jakob Skjerning" />
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:25 }}{% else %}{{ site.description | escape }}{% endif %}" />
     <meta name="readability-verification" content="ARcrm7nvAgDuPAdXFG9AgwxgE9AweU3WrbpaAbv3" />
