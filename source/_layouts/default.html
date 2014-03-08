@@ -74,7 +74,7 @@
       // Fix issue with Chrome and vw sizing.
       // See http://css-tricks.com/viewport-sized-typography/
       window.onresize = function(event) {
-        if (document.getElementByClassname)
+        if (document.getElementByClassname) {
           var container = document.getElementsByClassName('.container')[0];
           if (container) {
             container.style.zIndex = 1;
