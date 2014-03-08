@@ -1,0 +1,112 @@
+a:link {
+	color:					#00CC00;
+}
+
+a:visited {
+	color:					#00AA00;
+}
+
+a:hover {
+	color:					#00FF00;
+}
+
+a img {
+	border:					none;
+}
+
+body {
+	background-color:		#000000;
+	color:					#FFFFFF;
+	font-family:			verdana, arial, tahoma, sans;
+	line-height:			1.6em;
+	margin:					0 1em 1em 1em;
+	padding:				0 1em 1em 1em;
+}
+
+h1 {
+	background-image:		url(../images/activity_indicators.gif);
+	background-position:	50% 0;
+	background-repeat:		no-repeat;
+	font-family:			'trebuchet ms', arial;
+	font-size:				1.96em;
+	height:					140px;
+	letter-spacing:			-0.02em;
+	margin:					0;
+	padding:				0;
+	text-align:				center;
+	text-indent:			-500em;
+}
+
+h2 {
+	font-size:				1.6em;
+	font-weight:			normal;
+	letter-spacing:			-0.02em;
+	margin-bottom:			0em;
+}
+
+#ColourMod {
+	font-size:				0.8em;
+	left:					0;
+	top:					0;
+}
+
+img {
+	vertical-align:			middle;
+}
+
+.indicators {
+	background-color:		#FFFFFF;
+	color:					#333333;
+	border:					2px solid #999999;
+	font-size:				0.8em;
+	overflow:				hidden;
+	padding:				5px;
+	text-align:				center;
+
+	-moz-border-radius:		10px;
+	_height;				1%;
+}
+
+
+.backgroundColorPicker {
+	background-color:	#999999;
+	clear:					both;
+	color:					#FFFFFF;
+	line-height:			1.4em;
+	margin-top:				1em;
+	padding:				5px;
+	-moz-border-radius:		5px;	
+}
+
+.backgroundColorPicker a:link {
+	color:					#FFFFFF;
+	padding:				0 0.5em;
+}
+
+.backgroundColorPicker a:visited {
+	color:					#FFFFFF;
+	padding:				0 0.5em;
+}
+
+.backgroundColorPicker a:hover {
+	background-color:		#FFFFFF;
+	color:					#000000;
+	padding:				0 0.5em;
+	-moz-border-radius:		2px;
+}
+
+.ads {
+  border-top: 1px solid #666666;
+  margin-top: 1em;  
+  padding-top: 1em;
+}
+
+#footer {
+	background-image:	url(../images/footer.gif);
+	background-repeat:	repeat-x;
+	border-top:			1px solid #333;
+	font-size:			0.8em;
+	padding:			0.5em 1em;
+}
+
+
