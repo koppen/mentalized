@@ -21,7 +21,7 @@ With help from the Ruby user groups in [Copenhagen](http://copenhagenrb.dk) and 
 * <h2>[holdsport.dk](http://holdsport.dk/)</h2> Online SaaS tool for sports team coaches.
 * <h2>[iBikeCph](http://ibikecph.dk/)</h2> Find your way around Copenhagen by bike.
 * <h2>[Marselis Tværvej 4](http://www.marselistvaervej4.dk)</h2> Backend for booking meeting rooms in this shared office space.
-* <h2>[Milestone Selling](www.milestoneselling.dk)</h2> Pipeline tool that helps sales staff sell more, and managers manage sales staff better.
+* <h2>[Milestone Selling](http://www.milestoneselling.dk)</h2> Pipeline tool that helps sales staff sell more, and managers manage sales staff better.
 * <h2>[Misstoro](http://misstoro.com/)</h2> Company selling stainless steel pet-tags worldwide.
 * <h2>[MyPhoner](http://www.myphoner.com)</h2> Increases efficiency and adds delight for cold canvas phoners, super early stage under the radar experimental startup.
 * <h2>[NettoPower](http://www.nettopower.dk/)</h2> Power company challenging the old monopolies providing electricity to danish consumers.
@@ -29,7 +29,7 @@ With help from the Ruby user groups in [Copenhagen](http://copenhagenrb.dk) and 
 * <h2>[Pixels on Rails](http://www.pixelsonrails.com)</h2> Website for a design and development shop.
 * <h2>[Proftag](http://www.proftag.dk/hundetegn/)</h2> Shop selling a wide variety of dog tags.
 * <h2>[Region Syddanmarks Fundingguide](http://fundingguiden.dk/)</h2> Database of funding options for public/commercial partnership projects in the southern region of Denmark.
-* <h2>[shapp.ly](www.shapp.ly)</h2> Shopping apps - the smarter way to learn what shoppers need to turn into buyers."
+* <h2>[shapp.ly](http://www.shapp.ly)</h2> Shopping apps - the smarter way to learn what shoppers need to turn into buyers."
 * <h2>[Single.dk](http://single.dk)</h2> Dating site for singles. Single.dk helps you discover, flirt with and date singles near you.
 * <h2>[Soundtracktor](http://www.soundtracktor.com/)</h2> Soundtracktor offers you a unique search and test feature. Making it easy for you to find the best possible soundtrack, share it with your clients and buy a broadcast license right away!
 * <h2>[Tue Keramik Galleri](http://www.tuekeramik.dk/)</h2> Catalog and galleries of pieces made by ceramic artist, Tue Poulsen.

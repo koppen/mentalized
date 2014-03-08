@@ -23,7 +23,7 @@ For this exercise, I used:
 * PostGIS 1.5.8
 * Data from [OpenStreetMap](http://www.openstreetmap.org)
 
-Check out my [instructions for getting PostGIS running on OS X]([Setup database](http://mentalized.net/journal/2013/04/05/how_to_install_postgis_on_mountain_lion/).
+Check out my [instructions for getting PostGIS running on OS X](http://mentalized.net/journal/2013/04/05/how_to_install_postgis_on_mountain_lion/).
 
 ## OpenStreetMap
 

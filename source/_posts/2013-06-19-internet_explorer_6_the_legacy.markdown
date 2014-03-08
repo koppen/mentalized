@@ -55,7 +55,7 @@ These days, [SVG](http://www.w3.org/TR/SVG11/) is the format to use. SVG is [bas
 
 XMLHttpRequest puts the X in AJAX and pretty much enables the current breed of highly responsive interactions in websites and -applications. 
 
-While IE6 didn't introduce XMLHttpRequest - it was actually introduced in IE5 as part of the MSXML ActiveX component - [IE6 did support it]((http://en.wikipedia.org/wiki/XMLHttpRequest#Support_in_Internet_Explorer_versions_5.2C_5.5.2C_and_6) and was around when AJAX started getting popular.
+While IE6 didn't introduce XMLHttpRequest - it was actually introduced in IE5 as part of the MSXML ActiveX component - [IE6 did support it](http://en.wikipedia.org/wiki/XMLHttpRequest#Support_in_Internet_Explorer_versions_5.2C_5.5.2C_and_6) and was around when AJAX started getting popular.
 
 
 ## RIP
