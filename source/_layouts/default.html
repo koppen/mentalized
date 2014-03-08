@@ -91,11 +91,6 @@
         ga.setAttribute('async', 'true');
         document.documentElement.firstChild.appendChild(ga);
       })();
-
-      // Track outgoing links to Substance Lab
-      $("a[href*='substancelab.com']").click(function() {
-        _gaq.push(['_trackPageview', '/link_to_substance_lab'])
-      });
     </script>
   </body>
 
