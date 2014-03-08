@@ -9,8 +9,6 @@
     <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
     <link href="/stylesheets/zenburn.css" rel="stylesheet" type="text/css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
     <meta name="robots" content="{{ page.robots }}" />
     <meta name="author" content="Jakob Skjerning" />
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:25 }}{% else %}{{ site.description | escape }}{% endif %}" />
@@ -75,9 +73,14 @@
     <script>
       // Fix issue with Chrome and vw sizing.
       // See http://css-tricks.com/viewport-sized-typography/
-      $(window).resize(function() {
-        $(".container").css("z-index", 1);
-      });
+      window.onresize = function(event) {
+        if (document.getElementByClassname)
+          var container = document.getElementsByClassName('.container')[0];
+          if (container) {
+            container.style.zIndex = 1;
+          };
+        };
+      };
 
       // Google Analytics
       var _gaq = _gaq || [];
