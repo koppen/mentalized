@@ -11,7 +11,7 @@ I have 2 displays and it annoys me that I have to change the desktop background 
 
 So I wrote a small Ruby script to set the same desktop background image on all connected displays.
 
-<!-- more -->
+<!--more-->
 
 ## Usage
 
