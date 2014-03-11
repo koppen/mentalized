@@ -27,7 +27,7 @@ $ set_desktop ~/Pictures/DesktopImages
 
 ## Plays well with Desktoppr
 
-I have set it up to set a random wallpaper image from my [Desktoppr](https://www.desktoppr.co/) folder when I arrive at work. This keeps my desktop background fresh and inspiring (nevermind the fact that I rarely actually see it).
+I have my machine configured to set a random wallpaper image from my [Desktoppr](https://www.desktoppr.co/) folder when I arrive at work. This keeps my desktop background fresh and inspiring (nevermind the fact that I rarely actually see it).
 
 ## The script
 
