@@ -1,6 +1,6 @@
 excerpt_separator: "<!--more-->"
 markdown: redcarpet
-pygments: true
+highligher: pygments
 permalink: "/journal/:year/:month/:day/:title"
 source: source
 
