@@ -1,5 +1,4 @@
 ---
-layout: post
 title: SSL certificate woes with Ruby 1.9 and OS X
 date: '2012-08-10 10:53:38 +0200'
 mt_id: 2145

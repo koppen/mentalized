@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Blogger season
 date: '2002-02-28 17:38:23 +0100'
 mt_id: 569

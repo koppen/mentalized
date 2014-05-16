@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A thought experiment
 date: '2012-10-19 13:11:16 +0200'
 mt_id: 2152

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Chat tidbits
 date: '2003-07-01 17:25:29 +0200'
 mt_id: 715

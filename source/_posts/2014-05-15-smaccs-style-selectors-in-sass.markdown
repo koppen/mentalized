@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "SMACSS-style selectors in Sass"
 date: '2015-05-15 09:05:32 +0100'
 categories:

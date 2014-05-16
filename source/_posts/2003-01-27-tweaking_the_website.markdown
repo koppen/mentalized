@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tweaking the website
 date: '2003-01-27 15:23:08 +0100'
 mt_id: 655

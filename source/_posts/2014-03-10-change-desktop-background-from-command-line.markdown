@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How to change desktop background from OS X command line"
 date: '2014-03-10 11:11:49 +0100'
 categories:

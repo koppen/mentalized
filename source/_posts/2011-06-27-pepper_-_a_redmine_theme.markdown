@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Pepper - a Redmine theme
 date: '2011-06-27 09:27:59 +0200'
 mt_id: 2114

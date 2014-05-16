@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The state of Ruby in Denmark
 date: '2011-08-11 16:24:25 +0200'
 mt_id: 2120

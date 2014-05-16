@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Movable Type 2.6
 date: '2003-02-14 15:03:56 +0100'
 mt_id: 662

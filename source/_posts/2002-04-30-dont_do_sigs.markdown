@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Don't do sigs
 date: '2002-04-30 15:20:16 +0200'
 mt_id: 584

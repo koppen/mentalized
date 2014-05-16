@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Internet Explorer 6: The legacy'
 date: '2013-06-19 07:40:52 +0200'
 mt_id: 2165

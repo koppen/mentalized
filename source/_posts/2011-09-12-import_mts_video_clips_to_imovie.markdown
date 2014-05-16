@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Import MTS video clips to iMovie
 date: '2011-09-12 09:43:45 +0200'
 mt_id: 2124

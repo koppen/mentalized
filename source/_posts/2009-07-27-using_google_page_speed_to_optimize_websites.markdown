@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using Google Page Speed to optimize websites
 date: '2009-07-27 11:02:44 +0200'
 mt_id: 2002

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dear Open Source Software
 date: '2011-12-18 15:56:46 +0100'
 mt_id: 2127

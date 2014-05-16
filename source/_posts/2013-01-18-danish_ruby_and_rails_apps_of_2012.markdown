@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Danish Ruby and Rails apps of 2012
 date: '2013-01-18 13:04:38 +0100'
 mt_id: 2158

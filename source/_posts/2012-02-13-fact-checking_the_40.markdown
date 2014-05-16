@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Fact-checking the 40%
 date: '2012-02-13 20:49:43 +0100'
 mt_id: 2134

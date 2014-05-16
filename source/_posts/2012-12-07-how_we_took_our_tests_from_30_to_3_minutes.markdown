@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How we took our tests from 30 to 3 minutes
 date: '2012-12-07 07:59:35 +0100'
 mt_id: 2155

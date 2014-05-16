@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Calculating distances between swedish municipalities
 date: '2013-09-24 16:15:37 +0200'
 mt_id: 2171

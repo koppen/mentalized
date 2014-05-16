@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Running MacRuby and HotCocoa on Snow Leopard
 date: '2011-08-15 09:03:10 +0200'
 mt_id: 2121

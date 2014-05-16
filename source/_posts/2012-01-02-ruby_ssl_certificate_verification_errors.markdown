@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Ruby SSL certificate verification errors
 date: '2012-01-02 09:52:24 +0100'
 mt_id: 2131

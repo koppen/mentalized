@@ -11,3 +11,10 @@ url: http://mentalized.net
 ftp_host: "linux41.unoeuro.com"
 ftp_dir: "mentalized.net"
 ftp_passive: false
+
+defaults:
+  -
+    scope:
+      path: "post" # All blog posts
+    values:
+      layout: "post"

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Honest schedules
 date: '2002-03-11 19:30:35 +0100'
 mt_id: 571

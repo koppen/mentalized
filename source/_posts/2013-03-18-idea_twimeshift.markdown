@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Idea: Twimeshift'
 date: '2013-03-18 09:48:07 +0100'
 mt_id: 2161

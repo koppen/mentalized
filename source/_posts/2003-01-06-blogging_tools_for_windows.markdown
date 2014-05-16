@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Blogging tools for Windows
 date: '2003-01-06 16:23:37 +0100'
 mt_id: 647

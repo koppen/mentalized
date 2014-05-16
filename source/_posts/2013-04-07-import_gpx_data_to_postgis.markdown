@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Import GPX data to PostGIS
 date: '2013-04-07 14:45:46 +0200'
 mt_id: 2163

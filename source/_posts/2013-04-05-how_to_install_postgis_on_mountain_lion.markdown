@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to install PostGIS on Mountain Lion
 date: '2013-04-05 10:14:44 +0200'
 mt_id: 2162

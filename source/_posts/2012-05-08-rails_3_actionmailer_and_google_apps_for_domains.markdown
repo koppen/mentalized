@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Rails 3, ActionMailer, and Google Apps for Domains
 date: '2012-05-08 18:08:43 +0200'
 mt_id: 2141

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: One RSpec stub, many return values
 date: '2013-03-13 11:02:47 +0100'
 mt_id: 2160

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Challenge the deadline
 date: '2011-11-30 09:06:49 +0100'
 mt_id: 2129

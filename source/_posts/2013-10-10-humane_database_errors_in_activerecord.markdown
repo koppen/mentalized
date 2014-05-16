@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Humane database errors in ActiveRecord
 date: '2013-10-10 13:48:23 +0200'
 mt_id: 2172

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I've taken up Exercising
 date: '2013-07-23 14:40:05 +0200'
 mt_id: 2166

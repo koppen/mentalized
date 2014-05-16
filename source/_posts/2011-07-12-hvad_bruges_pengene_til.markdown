@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hvad bruges pengene til?
 date: '2011-07-12 12:39:06 +0200'
 mt_id: 2116

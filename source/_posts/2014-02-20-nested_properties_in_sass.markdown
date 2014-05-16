@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Nested properties in Sass
 date: '2014-02-20 13:11:49 +0100'
 mt_id: 2173

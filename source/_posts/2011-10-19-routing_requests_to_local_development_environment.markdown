@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Routing requests to local development environment
 date: '2011-10-19 09:58:33 +0200'
 mt_id: 2125

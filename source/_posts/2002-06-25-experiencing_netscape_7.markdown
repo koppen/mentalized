@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Experiencing Netscape 7
 date: '2002-06-25 17:22:40 +0200'
 mt_id: 590

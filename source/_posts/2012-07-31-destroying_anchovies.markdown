@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Destroying anchovies
 date: '2012-07-31 13:45:39 +0200'
 mt_id: 2135

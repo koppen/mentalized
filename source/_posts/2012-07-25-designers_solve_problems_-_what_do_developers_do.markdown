@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Designers solve problems - what do developers do?
 date: '2012-07-25 13:26:32 +0200'
 mt_id: 2142

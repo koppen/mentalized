@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Announcing J-ReferrerTracker
 date: '2003-01-27 14:51:24 +0100'
 mt_id: 654

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to keep your subscribers
 date: '2002-10-31 23:10:42 +0100'
 mt_id: 612

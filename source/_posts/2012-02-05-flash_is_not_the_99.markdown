@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Flash is not the 99%
 date: '2012-02-05 14:17:23 +0100'
 excerpt: !ruby/string:Sequel::SQL::Blob |-

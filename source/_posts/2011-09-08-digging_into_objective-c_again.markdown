@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Digging into Objective-C (again)
 date: '2011-09-08 09:03:00 +0200'
 mt_id: 2123

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: CSS, links, gradients, rounded corners, and IE
 date: '2012-04-13 12:39:18 +0200'
 mt_id: 2139
