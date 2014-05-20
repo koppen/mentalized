@@ -14,7 +14,8 @@ ftp_passive: false
 
 defaults:
   -
-    scope:
-      path: "post" # All blog posts
+    scope: # All blog posts
+      path: ""
+      type: "post"
     values:
       layout: "post"
