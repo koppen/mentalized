@@ -717,3 +717,24 @@ nav li:first-child,.columns .column:first-child {
     font-size: 1.6vw;
   }
 }
+
+.mailchimp-signup {
+  background: #ffffff;
+  border-radius: 0.2em;
+  box-shadow: rgba(0,0,0,0.1) 0 0 0.3em;
+  margin-top: 1em;
+  overflow: hidden;
+  width: 66%;
+}
+
+.mailchimp-signup-monkey-rewards {
+  font-size: 0.8em;
+  float: right;
+  max-width: 100%;
+  width: auto;
+}
+
+#mc_embed_signup form {
+  font: inherit;
+  padding: 0.5em 1em !important;
+}
