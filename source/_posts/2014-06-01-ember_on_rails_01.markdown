@@ -138,7 +138,7 @@ Now, if you visit [http://0.0.0.0:3000](http://0.0.0.0:3000) to see your masterp
 
 This happens because we have yet to tell Ember what we mean by the `'books'` part of `{% raw %}{{link-to 'List books' 'books'}}{% endraw %}`.
 
-This is done in the router, which ember-rails has handily placed in `app/assets/javascripts/routes.js`. Change that file to look like
+This is done in the router, which ember-rails has handily placed in `app/assets/javascripts/router.js`. Change that file to look like
 
 ```javascript
 Library.Router.map(function() {
@@ -158,26 +158,13 @@ Sigh, we just can't catch a break here.
 
 When we created a resource route above, we asked Ember to route requests for `'books'` to a `BooksController`. We never did write that controller, though, so Ember went ahead and generated one for us.
 
-That's great, but for everything to work, we need some more pieces of the puzzle - namely a model and some way of telling the controller that we want to display that model.
-
-### A model
-
-First up, the model. Create a `app/assets/javascripts/models/book.js` with:
-
-```javascript
-Library.Book = DS.Model.extend({
-  title: DS.attr('string'),
-  authorName: DS.attr('string')
-});
-```
-
-This is our book representation on the client side.
+That's great, but for everything to work, we need some way of telling the controller what we want it to control, and subsequently the template to display.
 
 ### A route
 
-And finally, we need a route. "Wait," you say, "didn't we already create routes?"
+We do that using a route. "Wait," you say, "didn't we already create routes?"
 
-Why yes, we did create a router, but in Ember we both have the concept of a [router](http://emberjs.com/guides/concepts/core-concepts/#toc_router) and a [route](http://emberjs.com/guides/concepts/core-concepts/#toc_route). The router knows what templates to show given a specific URL, whereas a route
+Why yes, we did create a *router*, but in Ember we both have the concept of a [router](http://emberjs.com/guides/concepts/core-concepts/#toc_router) and a [route](http://emberjs.com/guides/concepts/core-concepts/#toc_route). The router knows what templates to show given a specific URL, whereas a route
 
 > "is an object that tells the template which model it should display"
 > - http://emberjs.com/guides/concepts/core-concepts/#toc_route.
@@ -189,18 +176,22 @@ Anyways, create `app/assets/javascripts/routes/books_route.js`:
 ```javascript
 Library.BooksRoute = Ember.Route.extend({
   model: function() {
-    return this.get('store').find('book');
+    return [{
+      title: "Dummy data for dummies",
+      authorName: "Me"
+    }];
   }
 });
 ```
 
-This is our way of saying "when displaying data in the Books templates, use the data we've store in our data store under the name 'book'".
+This is our way of saying "when displaying data in the Books templates, please pretend this is the real data".
+
+Eventually, we'll hook up a model and a data store and show some real data here, but for now we'll cope with dummy data.
+
 
 ## Look! No errors!
 
-When you refresh the books page at [http://0.0.0.0:3000/#/books](http://0.0.0.0:3000/#/books) you should now see a list of absolutely nothing - but most importantly you should get no errors.
-
-The lack of errors is because our ultra-simple clientside Ember.js app is actually working, which is a great first step, I think. The lack of books is because the backend doesn't actually respond with any data yet.
+When you refresh the books page at [http://0.0.0.0:3000/#/books](http://0.0.0.0:3000/#/books) you should now see a list of your one book. More importantly; you should get no errors.
 
 
 ## Coming up
