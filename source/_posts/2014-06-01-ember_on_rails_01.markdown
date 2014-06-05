@@ -164,14 +164,12 @@ That's great, but for everything to work, we need some way of telling the contro
 
 We do that using a route. "Wait," you say, "didn't we already create routes?"
 
-Why yes, we did create a *router*, but in Ember we both have the concept of a [router](http://emberjs.com/guides/concepts/core-concepts/#toc_router) and a [route](http://emberjs.com/guides/concepts/core-concepts/#toc_route). The router knows what templates to show given a specific URL, whereas a route
+Why yes, we did create a *router*, but Ember has both the concept of a [router](http://emberjs.com/guides/concepts/core-concepts/#toc_router) and a [route](http://emberjs.com/guides/concepts/core-concepts/#toc_route). The router knows what templates to show given a specific URL, whereas a route
 
 > "is an object that tells the template which model it should display"
 > - http://emberjs.com/guides/concepts/core-concepts/#toc_route.
 
-So that's not confusing at all...
-
-Anyways, create `app/assets/javascripts/routes/books_route.js`:
+If you ask me, that's kind of confusing, but nevertheless, create `app/assets/javascripts/routes/books_route.js`:
 
 ```javascript
 Library.BooksRoute = Ember.Route.extend({
