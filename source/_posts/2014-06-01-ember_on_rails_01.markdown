@@ -198,4 +198,4 @@ In the next parts of the series we'll look into showing actual data returned by 
 
 [Continue to part 2: Reading data from the backend](/journal/2014/06/01/ember_on_rails_02/)
 
-{% include mailchimp_signup.html %}
+{% include ember_on_rails.html %}
