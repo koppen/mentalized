@@ -10,7 +10,7 @@ url: http://mentalized.net
 
 ftp_host: "linux41.unoeuro.com"
 ftp_dir: "mentalized.net"
-ftp_passive: false
+ftp_passive: true
 
 defaults:
   -
