@@ -5,7 +5,7 @@ date: '2004-07-29 14:03:37 +0200'
 mt_id: 813
 categories:
 - webdesign
-- mentalizednet
+- mentalized.net
 ---
 I didn't qualify for Fran?ois Briattes survey of "how 10 websites differ(These web sites are identical - or are they?)":http://phnk.com/design/survey/ on 25 elements, however I'll pretend I did and examine myself just for kicks. 
 

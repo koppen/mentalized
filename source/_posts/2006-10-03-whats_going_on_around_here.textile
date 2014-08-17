@@ -6,11 +6,11 @@ mt_id: 1713
 categories:
 - life
 - projects
-- mentalizednet
-- copenhagenrb
+- mentalized.net
+- Copenhagen.rb
 - business
 - blogging
-- biq_on_rails
+- BiQ on Rails
 ---
 It's been pretty quiet around these parts lately - if you ignore the posts about Copenhagen.rb meetings at least. That's primarily because I am having "tons of fun at work":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/, which for some reason doesn't leave me much time for blogging. Not that I would ever think of blogging at work, no siree...
 

@@ -6,7 +6,7 @@ mt_id: 1911
 categories:
 - life
 - technology
-- copenhagenrb
+- Copenhagen.rb
 ---
 I am going to "BarCamp Copenhagen":http://barcamp.org/BarCampCopenhagen on Friday. This being my first encounter with the "BarCamp":http://en.wikipedia.org/wiki/Barcamp concept I have pretty much no clue what I am going into, and I am both excited and a tad nervous - I mean, it's not every day one looses ones BarCamp virginity.
 

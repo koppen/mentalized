@@ -4,7 +4,7 @@ title: Comments are off
 date: '2006-03-23 20:51:46 +0100'
 mt_id: 1568
 categories:
-- mentalizednet
+- mentalized.net
 ---
 "This is Juliet Lima Sierra. We're under heavy spam attack. Requesting backup. We're turning off comments for the duration. Over"
 

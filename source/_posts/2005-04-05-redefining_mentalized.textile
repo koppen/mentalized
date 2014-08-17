@@ -4,7 +4,7 @@ title: Redefining mentalized
 date: '2005-04-05 11:36:00 +0200'
 mt_id: 1246
 categories:
-- mentalizednet
+- mentalized.net
 ---
 It's that redesign time of the year again, and I was getting tired of the old layout and wanted to try out some new ideas and things. So I pretty much tore mentalized apart and put it back together from the scratch.
 

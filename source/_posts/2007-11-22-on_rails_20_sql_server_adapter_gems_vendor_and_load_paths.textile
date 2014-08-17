@@ -6,7 +6,7 @@ mt_id: 1893
 categories:
 - programming
 - projects
-- biq_on_rails
+- BiQ on Rails
 ---
 Over the last few days I have been moving the "BiQ":http://biq.dk application to "Rails 2.0 PR":http://weblog.rubyonrails.org/2007/9/30/rails-2-0-0-preview-release.  I've so far run into a fair deal of issues; one annoying one that I figured I'd share.
 

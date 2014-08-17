@@ -4,7 +4,7 @@ title: Apple helps me out by limiting options
 date: '2006-10-30 10:31:16 +0100'
 mt_id: 1727
 categories:
-- hardware_1
+- hardware
 ---
 Looks like "Apples":http://www.apple.com recent upgrade of the "MacBook Pro line":http://www.apple.com/macbookpro/ helped answer "the questions I had in regards to buying a MBP":http://mentalized.net/journal/2006/10/12/seeking_mac_shopping_advice/ :
 

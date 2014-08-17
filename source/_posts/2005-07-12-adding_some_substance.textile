@@ -4,7 +4,7 @@ title: Adding some substance
 date: '2005-07-12 09:45:16 +0200'
 mt_id: 1375
 categories:
-- mentalizednet
+- mentalized.net
 - webdesign
 ---
 In anticipation of things to come, I've redone the style of the site. This isn't a redesign per se, merely take the old things and restyling them - hopefully adding a bit more style and personality, which the former look was lacking.

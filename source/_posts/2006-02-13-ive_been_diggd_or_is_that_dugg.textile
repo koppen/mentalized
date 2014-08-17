@@ -4,7 +4,7 @@ title: I've been digg'd (or is that dugg)?
 date: '2006-02-13 16:13:06 +0100'
 mt_id: 1538
 categories:
-- mentalizednet
+- mentalized.net
 ---
 I've been digg'd (or is that dugg)?
 

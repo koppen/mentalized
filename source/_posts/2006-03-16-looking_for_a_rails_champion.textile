@@ -8,7 +8,7 @@ categories:
 - technology
 - programming
 - business
-- biq_on_rails
+- BiQ on Rails
 ---
 At the day job I'm the sole developer and maintainer of a legacy ASP/VBScript system. Yes, ASP/VBScript. No, not .NET. And yes, it's driving me insane. The code contains around 42000 lines of VBSCript drivel and 30000 lines of supporting Python code. 
 

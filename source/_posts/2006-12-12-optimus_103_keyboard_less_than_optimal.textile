@@ -4,7 +4,7 @@ title: Optimus 103 keyboard less than optimal?
 date: '2006-12-12 15:40:00 +0100'
 mt_id: 1758
 categories:
-- hardware_1
+- hardware
 - blogging
 ---
 "Art. Lebedev Studio":http://www.artlebedev.com/ should now have been taking pre-orders for their Optimus-103 keyboard, which is based on what used to be the probably coolest keyboard ever; "the Optimus concept keyboard":http://www.artlebedev.com/everything/optimus/.

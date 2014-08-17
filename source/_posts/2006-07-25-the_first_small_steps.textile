@@ -6,7 +6,7 @@ mt_id: 1661
 categories:
 - programming
 - business
-- biq_on_rails
+- BiQ on Rails
 - projects
 ---
 I am now well over a week into "putting BiQ on Rails":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/, and I've been having so much fun. The fact that I actually getting paid for writing code that's pretty and well tested means so much to the enjoyment of my work.

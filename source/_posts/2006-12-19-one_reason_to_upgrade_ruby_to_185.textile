@@ -6,7 +6,7 @@ mt_id: 1762
 categories:
 - programming
 - software
-- biq_on_rails
+- BiQ on Rails
 ---
 Last week I took a quick executive decision to deploy BiQ on Debian Etch instead of Sarge as initially planned. Mainly so we could take advantage of Ruby 1.8.5 (let me hear you scream "Mongrel") and Subversion 1.4.something.
 

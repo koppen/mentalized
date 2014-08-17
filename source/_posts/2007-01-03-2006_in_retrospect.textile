@@ -5,10 +5,10 @@ date: '2007-01-03 09:57:00 +0100'
 mt_id: 1766
 categories:
 - projects
-- mentalizednet
-- copenhagenrb
+- mentalized.net
+- Copenhagen.rb
 - blogging
-- biq_on_rails
+- BiQ on Rails
 - life
 ---
 It's a new year, and of course, this calls for looking back at the year that passed. The short version: 2006 has been a great year for me on several levels. 

@@ -4,7 +4,7 @@ title: Milestone reached
 date: '2006-03-01 14:07:18 +0100'
 mt_id: 1553
 categories:
-- mentalizednet
+- mentalized.net
 ---
 Just spotted this in the Movable Type interface: 
 

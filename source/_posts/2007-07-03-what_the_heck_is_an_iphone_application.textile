@@ -5,7 +5,7 @@ date: '2007-07-03 16:03:01 +0200'
 mt_id: 1833
 categories:
 - software
-- hardware_1
+- hardware
 ---
 As you've undoubtedly noticed, assuming you follow at least a few blogs, listen to podcasts, or otherwise read the press, Apples iPhone has been released.
 

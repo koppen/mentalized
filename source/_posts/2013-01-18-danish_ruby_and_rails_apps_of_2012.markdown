@@ -3,8 +3,8 @@ title: Danish Ruby and Rails apps of 2012
 date: '2013-01-18 13:04:38 +0100'
 mt_id: 2158
 categories:
-- copenhagenrb
-- substance_lab
+- Copenhagen.rb
+- Substance Lab
 - projects
 ---
 While the danish Ruby on Rails community [isn't as big as it should be](http://mentalized.net/journal/2011/08/11/the_state_of_ruby_in_denmark/), we're far from an inactive bunch.

@@ -4,7 +4,7 @@ title: Live comment previews are back
 date: '2005-07-06 15:54:23 +0200'
 mt_id: 1371
 categories:
-- mentalizednet
+- mentalized.net
 - webdesign
 - projects
 ---

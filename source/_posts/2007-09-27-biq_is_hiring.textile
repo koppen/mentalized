@@ -4,7 +4,7 @@ title: BiQ is hiring
 date: '2007-09-27 11:48:14 +0200'
 mt_id: 1874
 categories:
-- biq_on_rails
+- BiQ on Rails
 ---
 +Update: This position has been filled. Thanks a lot to all of you who applied.+
 

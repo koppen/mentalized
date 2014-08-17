@@ -4,7 +4,7 @@ title: Hardware sucks
 date: '2010-10-11 09:19:26 +0200'
 mt_id: 2068
 categories:
-- hardware_1
+- hardware
 - technology
 ---
 Once upon a time I would never dream of buying an assembled computer. I'd spend lots of time finding the right components and the cheapest places to buy them. I'd piece the big puzzle together sitting in my dorm room surrounded by cardboard boxes and bubble-wrap.

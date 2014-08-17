@@ -5,7 +5,7 @@ date: '2006-04-21 12:40:32 +0200'
 mt_id: 1591
 categories:
 - programming
-- biq_on_rails
+- BiQ on Rails
 - projects
 ---
 At the recent "Canada on Rails conference":http://www.canadaonrails.org/ Robby Russel introduced his upcoming plugin, "Acts as legacy":http://www.robbyonrails.com/articles/2006/04/14/sneaking-rails-through-the-legacy-system. Facing a 60+ table legacy system, I will definitely be watching that space. Acts_as_legacy would allow me to not worry about our existing scripts and jobs, while still rolling BiQ onto the rails. 

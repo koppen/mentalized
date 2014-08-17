@@ -5,7 +5,7 @@ date: '2006-02-27 15:40:44 +0100'
 mt_id: 1549
 categories:
 - programming
-- mentalizednet
+- mentalized.net
 ---
 I want snippets of code that I publish here on Mentalized to have fancy colors and syntax highlighting. It makes reading code easier in my editors and it should make it easier here as well. Enter "CodeHighlighter":http://www.danwebb.net/workspace/CodeHighlighter/.
 

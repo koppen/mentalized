@@ -5,7 +5,7 @@ date: '2004-07-20 14:25:25 +0200'
 mt_id: 810
 categories:
 - webdesign
-- mentalizednet
+- mentalized.net
 - projects
 ---
 Messed around with the new layout a bit today, fixing some issues and likely creating some new ones:

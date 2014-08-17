@@ -5,7 +5,7 @@ date: '2007-07-31 13:11:29 +0200'
 mt_id: 1849
 categories:
 - technology
-- biq_on_rails
+- BiQ on Rails
 - browsers
 ---
 This is a followup to "my post about using YSlow to optimize websites":http://mentalized.net/journal/2007/07/26/using_yslow_to_optimize_websites/ with a warning.

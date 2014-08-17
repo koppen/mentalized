@@ -5,7 +5,7 @@ mt_id: 2114
 categories:
 - projects
 - webdesign
-- substance_lab
+- Substance Lab
 ---
 You develop great software. You use [Redmine](http://www.redmine.org) to manage your projects. Your Redmine instance should look at least as high tech and sleek as the software you develop.
 

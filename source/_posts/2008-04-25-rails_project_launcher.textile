@@ -5,7 +5,7 @@ date: '2008-04-25 09:36:30 +0200'
 mt_id: 1948
 categories:
 - programming
-- copenhagenrb
+- Copenhagen.rb
 ---
 "Jesper":http://justaddwater.dk asked on the "Copenhagen Ruby Brigade":http://copenhagenrb.dk "mailing list":http://groups.google.com/group/copenhagen-ruby-user-group what scripts and tricks use to launch their environment when developing "Rails":http://rubyonrails.org projects on OS X.
 

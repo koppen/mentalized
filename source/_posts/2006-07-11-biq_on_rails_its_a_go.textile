@@ -5,7 +5,7 @@ date: '2006-07-11 13:04:54 +0200'
 mt_id: 1654
 categories:
 - projects
-- biq_on_rails
+- BiQ on Rails
 - programming
 ---
 At long last! I got the final commitment from my boss. We'll be moving down the path of rebuilding "BiQ":http://www.biq.dk using "Ruby on Rails":http://www.rubyonrails.org. Goodbye stupid ASP, hello sweet Ruby.

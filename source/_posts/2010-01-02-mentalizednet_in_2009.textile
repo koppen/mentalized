@@ -5,7 +5,7 @@ date: '2010-01-02 15:07:41 +0100'
 mt_id: 2011
 categories:
 - blogging
-- mentalizednet
+- mentalized.net
 ---
 A new year has arrived -- what better time is there to look back at the year that passed? 
 

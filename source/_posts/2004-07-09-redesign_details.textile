@@ -6,7 +6,7 @@ mt_id: 808
 categories:
 - webdesign
 - projects
-- mentalizednet
+- mentalized.net
 ---
 Yesterdays redesign post was a bit short since I was lazy and in a hurry. Today I bring you a bit more details about the new layout. Easy now, try to control your excitement.
 

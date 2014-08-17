@@ -5,7 +5,7 @@ date: '2004-07-08 17:56:32 +0200'
 mt_id: 806
 categories:
 - webdesign
-- mentalizednet
+- mentalized.net
 - projects
 ---
 For a long time I have been contemplating redesigning this website. Not because it really needed it (I actually quite liked the old look), however I had to redesign _something_. So I did.

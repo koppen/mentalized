@@ -4,7 +4,7 @@ title: Most recent comments feed
 date: '2006-02-06 12:19:39 +0100'
 mt_id: 1529
 categories:
-- mentalizednet
+- mentalized.net
 ---
 I've just now noticed that a few spam comments have been slipping through the countermeasures I have. Sadly, I didn't even notice it, since the emails notifying me of those comments got caught in my email spam filter. Ah, the irony.
 

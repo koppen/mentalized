@@ -4,7 +4,7 @@ title: Browser usage for April 2006
 date: '2006-05-09 11:17:21 +0200'
 mt_id: 1603
 categories:
-- mentalizednet
+- mentalized.net
 - browsers
 ---
 h2. mentalized.net

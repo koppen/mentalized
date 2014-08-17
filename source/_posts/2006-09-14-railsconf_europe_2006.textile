@@ -6,7 +6,7 @@ mt_id: 1704
 categories:
 - blogging
 - programming
-- copenhagenrb
+- Copenhagen.rb
 ---
 "Railsconf Europe 2006":http://europe.railsconf.com/ opened today and is now well underway. Unfortunately, I did not get to go there, however "Jesper":http://justaddwater.dk and other members of "Copenhagen.rb":http://copenhagenrb.dk are there, and "Jesper is liveblogging the event":http://copenhagenrb.dk/2006/9/14/railsconf-europe-session-overviews on "copenhagenrb.dk":http://copenhagenrb.dk.
 

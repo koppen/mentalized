@@ -4,7 +4,7 @@ title: Mentalized visualized
 date: '2006-06-08 11:02:51 +0200'
 mt_id: 1623
 categories:
-- mentalizednet
+- mentalized.net
 ---
 <a href="http://www.flickr.com/photos/jakobs/162906797/" title="photo sharing"><img src="http://static.flickr.com/68/162906797_606637a9da.jpg" class="flickr-photo" alt="" /></a>
 				

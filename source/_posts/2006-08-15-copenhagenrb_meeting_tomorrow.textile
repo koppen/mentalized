@@ -4,7 +4,7 @@ title: Copenhagen.rb meeting tomorrow
 date: '2006-08-15 08:41:54 +0200'
 mt_id: 1677
 categories:
-- copenhagenrb
+- Copenhagen.rb
 ---
 Doh, I though I had posted this here already:
 

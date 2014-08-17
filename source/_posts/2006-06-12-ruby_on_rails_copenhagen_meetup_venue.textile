@@ -5,7 +5,7 @@ date: '2006-06-12 09:33:04 +0200'
 mt_id: 1625
 categories:
 - programming
-- copenhagenrb
+- Copenhagen.rb
 - life
 ---
 The venue for the "Ruby on Rails Copenhagen meetup":http://justaddwater.dk/2006/05/31/ruby-on-rails-copenhagen-meetup/ has been found: Café Selina (top floor), Skindergade 43, Copenhagen. "Jesper has the details and links":http://justaddwater.dk/2006/05/31/ruby-on-rails-copenhagen-meetup/.

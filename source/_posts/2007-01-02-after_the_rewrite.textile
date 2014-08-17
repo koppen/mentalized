@@ -4,7 +4,7 @@ title: After the rewrite
 date: '2007-01-02 12:28:34 +0100'
 mt_id: 1765
 categories:
-- biq_on_rails
+- BiQ on Rails
 - technology
 - projects
 - programming

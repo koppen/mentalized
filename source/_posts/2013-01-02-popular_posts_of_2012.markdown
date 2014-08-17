@@ -5,7 +5,7 @@ mt_id: 2157
 categories:
 - blogging
 - browsers
-- mentalizednet
+- mentalized.net
 ---
 I know you've all been waiting for this, and this is in absolutely no shape or form an attempt at bolstering my Google juice, no sir, so here it is, the definitive list of the most popular content on [mentalized.net](/) in 2012.
 

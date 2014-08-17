@@ -4,7 +4,7 @@ title: Live search
 date: '2005-01-24 17:46:06 +0100'
 mt_id: 1233
 categories:
-- mentalizednet
+- mentalized.net
 ---
 Since XMLHTTPRequest is damn sexy - in that way only geeks can find things sexy - I figured I'd mess around a bit with my search field. 
 

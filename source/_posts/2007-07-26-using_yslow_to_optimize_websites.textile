@@ -4,7 +4,7 @@ title: Using YSlow to optimize websites
 date: '2007-07-26 14:39:20 +0200'
 mt_id: 1843
 categories:
-- biq_on_rails
+- BiQ on Rails
 - webdesign
 - programming
 ---

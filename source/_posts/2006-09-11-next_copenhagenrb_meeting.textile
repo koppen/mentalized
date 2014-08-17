@@ -4,7 +4,7 @@ title: Next Copenhagen.rb meeting
 date: '2006-09-11 08:25:25 +0200'
 mt_id: 1700
 categories:
-- copenhagenrb
+- Copenhagen.rb
 - projects
 ---
 The next meeting of the "Copenhagen Ruby Brigade":http://copenhagen.rb will be on Tuesday 19th, at 17:30. "Kraftvaerk":http://www.kraftvaerk.net is hosting the event at their offices at "Vesterbrogade 74, 4. sal, 1620 København":http://www.findvej.dk/Vesterbrogade74,1620.

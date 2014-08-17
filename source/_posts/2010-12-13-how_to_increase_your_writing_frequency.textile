@@ -5,7 +5,7 @@ date: '2010-12-13 09:40:58 +0100'
 mt_id: 2013
 categories:
 - blogging
-- mentalizednet
+- mentalized.net
 ---
 Around this time last year, I gave myself a challenge: Write at least 52 blog entries throughout 2010. I signed up for "Project 52":http://project52.info:
 

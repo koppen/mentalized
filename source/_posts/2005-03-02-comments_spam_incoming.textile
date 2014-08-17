@@ -4,7 +4,7 @@ title: Comments spam incoming
 date: '2005-03-02 10:24:16 +0100'
 mt_id: 1251
 categories:
-- mentalizednet
+- mentalized.net
 ---
 Gah! I've been living nearly without comment spam the last many months due to the bundle of preventive measures I've employed. 
 

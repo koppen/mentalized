@@ -4,7 +4,7 @@ date: '2013-08-08 21:18:41 +0200'
 mt_id: 2169
 categories:
 - technology
-- hardware_1
+- hardware
 - ideas
 - movies
 - software

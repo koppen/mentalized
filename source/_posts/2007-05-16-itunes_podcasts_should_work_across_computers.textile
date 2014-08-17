@@ -5,7 +5,7 @@ date: '2007-05-16 09:33:27 +0200'
 mt_id: 1818
 categories:
 - usability
-- hardware_1
+- hardware
 - software
 ---
 Imagine this: I'm at work when someone tells me: "Hey, you need to check out this podcast". "Sure", I say, "I'd love to". So I fire up my iTunes, add the podcast to my subscriptions, and forget all about it. Then when I get back home to my podcast-syncing machine, the podcast is downloaded and put on my iPod without me having to do a thing.

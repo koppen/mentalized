@@ -7,7 +7,7 @@ excerpt: !ruby/string:Sequel::SQL::Blob |-
   IHdpdGggT1MgWCBpcyBoYXJkLCBidXQgbm90IGltcG9zc2libGU=
 mt_id: 2086
 categories:
-- hardware_1
+- hardware
 ---
 Being a "remote freelancer":http://substancelab.com, I regularly take part in "Skype":http://skype.com and phone calls. Up until now, I've been using the internal microphone of my "MacBook Pro":http://apple.com/macbookpro, but let's be honest, that sucks. So I went hunting for a headset to use. 
 

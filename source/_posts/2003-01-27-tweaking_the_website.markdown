@@ -3,7 +3,7 @@ title: Tweaking the website
 date: '2003-01-27 15:23:08 +0100'
 mt_id: 655
 categories:
-- mentalizednet
+- mentalized.net
 ---
 During the recent weeks I have been fiddling with the internals of this weblog. It appears to be a good place to experiment with ideas and technologies before I move them to bigger projects.
 

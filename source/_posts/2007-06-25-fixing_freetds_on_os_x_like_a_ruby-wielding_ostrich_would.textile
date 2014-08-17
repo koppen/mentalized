@@ -5,7 +5,7 @@ date: '2007-06-25 14:22:21 +0200'
 mt_id: 1827
 categories:
 - programming
-- biq_on_rails
+- BiQ on Rails
 ---
 <a href="http://flickr.com/photos/jiri/34185693/" title="Photo licensed under Creative Commons by jiri"><img src="/files/journal/ostrich/ostrich_silhouettes.jpg" width="500" height="169" alt="Ostriches by Jiri" /></a>
 

@@ -4,7 +4,7 @@ title: 'Launch: BiQ on Rails'
 date: '2007-04-02 16:35:08 +0200'
 mt_id: 1801
 categories:
-- biq_on_rails
+- BiQ on Rails
 - webdesign
 - technology
 - software

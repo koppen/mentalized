@@ -4,7 +4,7 @@ title: Tidbits
 date: '2006-06-06 13:22:50 +0200'
 mt_id: 1621
 categories:
-- mentalizednet
+- mentalized.net
 - projects
 ---
 * I've received my first "Google AdSense":http://www.google.com/adsense payment. Woo, I'm a filthy rich pro-blogger!

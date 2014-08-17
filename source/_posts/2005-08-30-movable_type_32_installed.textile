@@ -4,7 +4,7 @@ title: Movable Type 3.2 installed
 date: '2005-08-30 13:34:09 +0200'
 mt_id: 1404
 categories:
-- mentalizednet
+- mentalized.net
 ---
 Movable Type 3.2 installed, let's see if this still works...
 

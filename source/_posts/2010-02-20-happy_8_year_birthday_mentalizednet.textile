@@ -4,7 +4,7 @@ title: Happy 8 year birthday, mentalized.net
 date: '2010-02-20 12:32:00 +0100'
 mt_id: 2028
 categories:
-- mentalizednet
+- mentalized.net
 ---
 8 years ago, I posted "this":http://mentalized.net/journal/2002/02/20/this_is_a_weblog/ to mentalized.net:
 

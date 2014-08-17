@@ -5,7 +5,7 @@ date: '2006-03-27 15:02:39 +0200'
 mt_id: 1574
 categories:
 - programming
-- biq_on_rails
+- BiQ on Rails
 ---
 In an effort to get a feel for the effort it'll take to rewrite "BiQ":http://www.biq.dk, I've been rewriting a vertical slice of our functionality. As part of that I've been setting up a test "Ruby on Rails":http://www.rubyonrails.org application and building a test suite for it.
 
