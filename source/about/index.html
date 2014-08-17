@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article>
+  <h1>Jakob Skjerning</h1>
+
+  <p>
+    Hello. My name is Jakob Skjerning, and you have stumbled across my online
+    home.
+  </p>
+
+  <p>
+    I tweet as <a href="https://twitter.com/mentalizer">@mentalizer</a> and
+    email from <a href="mailto:jakob@mentalized.net">jakob@mentalized.net</a>.
+  </p>
+
+  <h2>Blogger</h2>
+
+  <p>
+    Over the years, I have written about
+    {% for category in site.categories | sort:'created_at' %}
+      {{category | first}},
+    {% endfor %}
+    and a few other tidbits.
+  </p>
+
+  <h2>Digital agency owner</h2>
+
+  <p>
+    I am the CEO and founder of <a href="http://substancelab.com">Substance
+    Lab</a> &mdash; a digital agency building successful web applications for
+    startups and small businesses.
+  </p>
+
+  <p>
+    I have worked professionally with the web since 2000, and I am particularly
+    interested in user centric websites and beautiful code.
+  </p>
+
+  <h2>Open source contributor</h2>
+
+  <p>
+    I have written a few, and contributed to more, open source projects,
+    primarily ones written in Ruby. My open source contributions are all on <a
+    href="https://github.com/koppen" title="Jakob Skjerning on GitHub"
+    rel="me">my GitHub profile</a>.
+  </p>
+
+  <h2>Hobbyist photographer</h2>
+
+  <p>
+    I like to pretend I'm a photographer and occasionally post <a href="http://flickr.com/jakobs" title="Jakob Skjernings photostream on Flickr">photos on Flickr</a>:
+  </p>
+
+  <figure class="wide">
+    <a href="https://www.flickr.com/photos/jakobs/9365045364" title="Tropical feelings in Givskud by Jakob Skjerning, on Flickr"><img src="https://farm3.staticflickr.com/2835/9365045364_27f1c002f5_c.jpg" width="800" height="532" alt="Tropical feelings in Givskud"></a>
+  </figure>
+
+  <figure class="wide">
+    <a href="https://www.flickr.com/photos/jakobs/14477582404" title="DSC02533 by Jakob Skjerning, on Flickr"><img src="https://farm4.staticflickr.com/3879/14477582404_9907e118df_c.jpg" width="800" height="531" alt="DSC02533"></a>
+  </figure>
+</article>
