@@ -19,6 +19,8 @@ RewriteRule ^(.*)\.asp       $1.php
 # Strip index.php from URLs
 RewriteRule (.*)/index.php  /$1/ [R=301]
 
+# Yearly archives are no more, redirect to the first montly archive of the year
+RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 
 # Redirect stuff that shows up as 404s
 RewriteRule ^docs/projects/j-referrertracker(/.*)$                            /journal/2003/01/27/announcing_jreferrertracker$1 [R=301]

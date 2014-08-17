@@ -12,6 +12,9 @@ ftp_host: "linux41.unoeuro.com"
 ftp_dir: "mentalized.net"
 ftp_passive: true
 
+monthly_archive:
+  path: "journal"
+
 defaults:
   -
     scope: # All blog posts
