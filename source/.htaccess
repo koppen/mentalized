@@ -24,6 +24,7 @@ RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 # Redirect stuff that shows up as 404s
 RewriteRule ^about/contact/?$                                                 /about [R=301]
 RewriteRule ^docs/projects/j-referrertracker(/.*)$                            /journal/2003/01/27/announcing_jreferrertracker$1 [R=301]
+RewriteRule ^journal(/?)$                                                     /journal/archives/
 RewriteRule ^journal/2003/06/18/stupid_antileech_protection(/*)               /journal/2003/06/18/stupid_anti-leech_protection/ [R=301]
 RewriteRule ^journal/2003/08/25/wwwnikenoyoucantplaycom(/*)                   /journal/2003/08/25/wwwnike-no-you-cant-playcom/ [R=301]
 RewriteRule ^journal/2005/04/15/notetagger_the_introduction(/*)               /journal/2005/04/15/notetagger_-_the_introduction/ [R=301]
