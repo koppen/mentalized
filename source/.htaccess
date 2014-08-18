@@ -40,10 +40,14 @@ RewriteRule ^journal/archives/technology/bogus_referrers(/*)                  /j
 RewriteRule ^journal/archives/movielink(/*)                                   /journal/2002/11/11/us_customers_only_please/ [R=301]
 RewriteRule ^journal/archives/technology/musical_dinosaurs/                   /journal/2002/10/23/musical_dinosaurs/ [R=301]
 RewriteRule ^journal/archives/technology/tweaking_the_website/                /journal/2003/01/27/tweaking_the_website/ [R=301]
+RewriteRule ^journal/2005/04/15/notetagger_the_introduction(/*)               /journal/2005/04/15/notetagger_-_the_introduction/ [R=301]
+RewriteRule ^journal/2005/05/18/notetagger_adding_users_and_subdomains(/*)    /journal/2005/05/18/notetagger_-_adding_users_and_subdomains/ [R=301]
+RewriteRule ^journal/2005/04/27/notetagger_adding_the_ajax(/*)                /journal/2005/04/27/notetagger_adding_the_ajax/ [R=301]
 RewriteRule ^journal/2005/10/building_your_very_own_web20_layout(/.*)?        /journal/2005/10/10/building_your_very_own_web20_layout/ [R=301]
 RewriteRule ^journal/2005/10/10/building_your_very_own_web20_layou\.\.        /journal/2005/10/10/building_your_very_own_web20_layout/ [R=301]
 RewriteRule ^journal/2006/07/28/run_specific_(/.*)?$                          /journal/2006/07/28/run_specific_tests_via_rake/ [R=301]
 RewriteRule ^journal/2008/05/27/stikipad_when_software_in_th(\.\.\.)?         /journal/2008/05/27/stikipad_-_when_software_in_the_cloud_goes_sour/ [R=301]
+RewriteRule ^journal/2010/02/17/webkitbased_xbox_dashboard(/*)                /journal/2010/02/17/webkit-based_xbox_dashboard/ [R=301]
 RewriteRule ^journal/2010/10/16/rails_rumble_2010/                            /journal/2010/10/17/rails_rumble_2010/ [R=301]
 RewriteRule ^journal/2011/05/18/pileup_carousel(/.*)?                         /journal/2011/05/18/experiment_pileup_carousel/ [R=301]
 RewriteRule ^journal/2011/05/24/silencing_postgresql/                         /journal/2011/05/24/how_to_silence_postgresql_in_rails/ [R=301]
@@ -54,7 +58,7 @@ RewriteRule ^journal/2007/06/25/fixing_freetds_on_os_x_like_a_rubywielding_ostri
 RewriteRule ^journal/2003/06/18/stupid_antileech_protection(/*)               /journal/2003/06/18/stupid_anti-leech_protection/ [R=301]
 RewriteRule ^journal/2006/10/24/browser_size_does_matter_actual_numbers(/*)   /journal/2006/10/24/browser_size_does_matter_-_actual_numbers/ [R=301]
 RewriteRule ^journal/2006/10/24/size_does_matter_actual_numbers(/*)           /journal/2006/10/24/browser_size_does_matter_-_actual_numbers/ [R=301]
-RewriteRule ^journal/2006/01/24/no_such_file_to_load_--_mkmf(/*)              /journal/2006/01/24/no_such_file_to_load_mkmf(/*) [R=301]
+RewriteRule ^journal/2006/01/24/no_such_file_to_load_--_mkmf(/*)              /journal/2006/01/24/no_such_file_to_load_mkmf/ [R=301]
 
 # Process requests to the defunct CSS Depot
 RewriteRule cssdepot/layouts(.*)  /cssdepot/index.html
