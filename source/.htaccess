@@ -14,8 +14,8 @@ RewriteRule ^journal/.*\.(gif|GIF|png|PNG|jpg|JPG)$ - [F]
 
 
 # Send all requests to .html
-RewriteRule ^(.*)\.asp       $1.html
-RewriteRule ^(.*)\.php       $1.html
+RewriteRule ^(.*)\.asp $1.html [R=301]
+RewriteRule ^(.*)\.php $1.html [R=301]
 
 # Strip index.html from URLs
 RewriteRule (.*)/index.html  /$1/ [R=301]
