@@ -23,6 +23,8 @@ RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 
 # Redirect stuff that shows up as 404s
 RewriteRule ^about/contact/?$                                                 /about [R=301]
+RewriteRule ^about/resume/?$                                                  /about [R=301]
+RewriteRule ^activity-indicators/indicators(/*)                               /activity-indicators/ [R=301]
 RewriteRule ^docs/projects/j-referrertracker(/.*)$                            /journal/2003/01/27/announcing_jreferrertracker$1 [R=301]
 RewriteRule ^journal(/?)$                                                     /journal/archives/
 RewriteRule ^journal/2003/06/18/stupid_antileech_protection(/*)               /journal/2003/06/18/stupid_anti-leech_protection/ [R=301]
@@ -32,11 +34,13 @@ RewriteRule ^journal/2005/04/27/notetagger_adding_the_ajax(/*)                /j
 RewriteRule ^journal/2005/05/18/notetagger_adding_users_and_subdomains(/*)    /journal/2005/05/18/notetagger_-_adding_users_and_subdomains/ [R=301]
 RewriteRule ^journal/2005/10/10/building_your_very_own_web20_layou\.\.        /journal/2005/10/10/building_your_very_own_web20_layout/ [R=301]
 RewriteRule ^journal/2005/10/building_your_very_own_web20_layout(/.*)?        /journal/2005/10/10/building_your_very_own_web20_layout/ [R=301]
+RewriteRule ^journal/2005/10/14/pick_your_age_(.+)                            /journal/2005/10/14/pick_your_age/ [R=301]
 RewriteRule ^journal/2006/01/24/no_such_file_to_load_--_mkmf(/*)              /journal/2006/01/24/no_such_file_to_load_mkmf/ [R=301]
 RewriteRule ^journal/2006/07/28/run_specific_(/.*)?$                          /journal/2006/07/28/run_specific_tests_via_rake/ [R=301]
 RewriteRule ^journal/2006/10/24/browser_size_does_matter_actual_numbers(/*)   /journal/2006/10/24/browser_size_does_matter_-_actual_numbers/ [R=301]
 RewriteRule ^journal/2006/10/24/size_does_matter_actual_numbers(/*)           /journal/2006/10/24/browser_size_does_matter_-_actual_numbers/ [R=301]
 RewriteRule ^journal/2007/06/25/fixing_freetds_on_os_x_like_a_rubywielding_ostrich_would(/*)    /journal/2007/06/25/fixing_freetds_on_os_x_like_a_ruby-wielding_ostrich_would/ [R=301]
+RewriteRule ^journal/2007/07/03/what_the_heck_is_an_iphone_application(/*)    /journal/2007/07/03/what_the_heck_is_an_iphone_application/ [R=301]
 RewriteRule ^journal/2008/05/27/stikipad_when_software_in_th(\.\.\.)?         /journal/2008/05/27/stikipad_-_when_software_in_the_cloud_goes_sour/ [R=301]
 RewriteRule ^journal/2008/10/16/immediatefeedbackformatter_better_formatted_rspec_output(/*)    /journal/2008/10/16/immediatefeedbackformatter_-_better_formatted_rspec_output/ [R=301]
 RewriteRule ^journal/2009/08/03/redmine(/.*)?$                                /journal/2009/08/03/redmine_plugin_github_hook/ [R=301]
