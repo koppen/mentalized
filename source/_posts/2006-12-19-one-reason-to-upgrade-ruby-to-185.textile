@@ -12,6 +12,8 @@ Last week I took a quick executive decision to deploy BiQ on Debian Etch instead
 
 Today, yet another reason for going with Etch just bit me in the behind while using our development machine:
 
+<!--more-->
+
 bc. $ ruby -v
 ruby 1.8.2 (2005-04-11) [i386-linux]
 $ irb

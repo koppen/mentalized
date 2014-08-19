@@ -12,6 +12,8 @@ Some months ago, the "people I share offices with":http://www.houseofdesign.biz/
 
 I turned down being part of the exhibition, primarily because I couldn't figure out what to showcase. 
 
+<!--more-->
+
 h2. What is a coder to do?
 
 Sure, I could've created printouts of pages from the many "sites I've built":http://substancelab.com/work, but that' s not really showing off my work. A screenshot is fine for showing the visuals of a website, but that's not what I (usually) do.
@@ -22,7 +24,6 @@ Music is art, but show me a book of sheet music and I won't be able to appreciat
 
 Can we - and if so, how - exhibit our code in a way that becomes interesting to the casual observer?
 
-<!--more-->
 
 h2. The project over time
 

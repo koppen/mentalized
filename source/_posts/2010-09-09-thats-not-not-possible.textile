@@ -6,7 +6,11 @@ mt_id: 2061
 categories:
 - programming
 ---
-When a developer says "I'm sorry, but that's not possible" he's often lying - or at least willingly bending the truth to fit his agenda. For the most part it (whatever it is, often a feature request) _is_ possible, but any number of potential conditions trigger the above answer:
+When a developer says "I'm sorry, but that's not possible" he's often lying - or at least willingly bending the truth to fit his agenda.
+
+<!--more-->
+
+For the most part it (whatever it is, often a feature request) _is_ possible, but any number of potential conditions trigger the above answer:
 
 * It doesn't have an apparent clean code solution.
 * It requires a lot more effort than the expected gain.

@@ -9,6 +9,7 @@ categories:
 ---
 "Jesper":http://justaddwater.dk asked on the "Copenhagen Ruby Brigade":http://copenhagenrb.dk "mailing list":http://groups.google.com/group/copenhagen-ruby-user-group what scripts and tricks use to launch their environment when developing "Rails":http://rubyonrails.org projects on OS X.
 
+<!--more-->
 
 h2. iTerm shell script
 

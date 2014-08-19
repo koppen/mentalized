@@ -15,6 +15,8 @@ bq. You know we're sitting on four million pounds of fuel, one nuclear weapon an
 
 After launching the "rewritten and redesigned BiQ":http://www.biq.dk I got word of seemingly random IE installations crashing within seconds of opening BiQ. I could not find a way to reproduce this and it only occured on a tiny minority of client installations, so I shrugged it off as yet another reason to upgrade to Firefox.
 
+<!--more-->
+
 However, this weekend I talked to "a friend of mine":http://netego.dk who told me that he had experienced this IE crash himself and that the IT guys at his office knew what was causing the problem. 
 
 It turns out that the combination of "Prototype":http://www.prototypejs.org/ and certain Internet Explorer add-ons (in particular one called QUICKfind BHO) is lethal and causes Internet Explorer to raise a Kernel error and crash when the mouse is moved.

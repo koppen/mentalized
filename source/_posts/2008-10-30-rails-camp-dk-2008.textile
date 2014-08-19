@@ -2,21 +2,6 @@
 layout: post
 title: Rails Camp DK 2008
 date: '2008-10-30 12:05:36 +0100'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  VGFrZSAxMiBhdHRlbmRlZXMgKG9uZSBmcm9tIEl0YWx5LCB3YXkgdG8gZ28s
-  IEZyYW5zZXNjbyEpLCAxMSBBcHBsZSBsYXB0b3BzIChhbmQgb25lIFdpbmRv
-  d3Mgb25lLCBJIGJlbGlldmUpLCAxIHdpZmkgaG90c3BvdCwgbWl4IGl0IGFs
-  bCB0b2dldGhlciBpbiAiYSBjb3R0YWdlIjpodHRwOi8vZmxpY2tyLmNvbS9w
-  aG90b3Mvd2E3c29uLzI5ODE4OTU1MjIvIGluICJ0aGUgbWlkZGxlIG9mIG5v
-  d2hlcmUiOmh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcz9mPXEmaGw9ZW4m
-  Z2VvY29kZT0mcT1sYW5nZWd5ZGUrNzUsK2Rlbm1hcmsmc2xsPTU1LjA1NjI1
-  MSwxMC40NTMxNDgmc3Nwbj0wLjA2MTM1MywwLjEyOTA4OSZpZT1VVEY4JnQ9
-  aCZsbD01NS4wNDU2MTgsMTAuNDYyODI1JnNwbj0wLjAwNzMwMiwwLjAxNjk1
-  MiZ6PTE2Jml3bG9jPWFkZHIsIHNwcmlua2xlIGl0IHdpdGggYSB0YWQgb2Yg
-  IlJ1YnkiOmh0dHBMLy9ydWJ5LWxhbmcub3JnLCAiR2l0IjpodHRwOi8vZ2l0
-  Lm9yLmN6LywgYW5kICIqam91ciI6aHR0cDovL2Rybmljd2lsbGlhbXMuY29t
-  LzIwMDgvMDYvMTgvd2hhdC1pcy1naXRqb3VyLWdlbWpvdXItc3RhcmpvdXIv
-  IGFuZCBsZXQgaXMgc3RldyBmb3IgMiBkYXlzIGFuZCAyIG5pZ2h0cy4gCg==
 mt_id: 1996
 categories:
 - life
@@ -26,6 +11,8 @@ categories:
 Take 12 attendees (one from Italy, way to go, Fransesco!), 11 Apple laptops (and one Windows one, I believe), 1 wifi hotspot, mix it all together in "a cottage":http://flickr.com/photos/wa7son/2981895522/ in "the middle of nowhere":http://maps.google.com/maps?f=q&hl=en&geocode=&q=langegyde+75,+denmark&sll=55.056251,10.453148&sspn=0.061353,0.129089&ie=UTF8&t=h&ll=55.045618,10.462825&spn=0.007302,0.016952&z=16&iwloc=addr, sprinkle it with a tad of "Ruby":http://ruby-lang.org, "Git":http://git.or.cz/, and "*jour":http://drnicwilliams.com/2008/06/18/what-is-gitjour-gemjour-starjour/ and let is stew for 2 days and 2 nights. 
 
 What you get is a "Rails Camp":http://railscamp08.org/#dk_october_2008, and the above recipe was cooked with great success last weekend. Thomas Watson has "a bunch of pictures from the event":http://flickr.com/photos/wa7son/sets/72157608360965512/.
+
+<!--more-->
 
 h2. Retrospect
 

@@ -13,6 +13,8 @@ Payment gateways, merchant accounts, transaction fees, statements, grraaaah, it'
 
 Here's the deal: I have a client wanting to sell subscriptions for his web application. Nothing fancy, everyone's doing it. It should be easy finding a payment gateway supporting that, right? I imagine it is once you manage to wrap your brain around the confusion that is payment gateways and merchant accounts. 
 
+<!--more-->
+
 But then you have to fight the websites of the payment gateway provider to figure out their pricing. Most payment gateway sites suck. They're confusing and in no way makes it easy for a regular person to figure out what options to pick. They're a maze of add-ons and options, and rarely makes it easy for regular Eddie the Entrepreneur figuring out what to buy.
 
 Pay in mind that a lot of these payment providers take a fair chunk of a startups cash. Setup fees, monthly fees, statement fees, transaction fees, you name it. It feels like shopping for a cellphone provider.

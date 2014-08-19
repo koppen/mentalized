@@ -11,6 +11,8 @@ categories:
 
 Since the Rails team doesn't provide an aggregate changelog and I was going through the individual changelogs to see what had changed, I figured I might as well post the changes for y'all to see.
 
+<!--more-->
+
 h2. ActionMailer
 
 * Depend on Action Pack 1.13.3

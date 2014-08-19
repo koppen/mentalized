@@ -14,6 +14,8 @@ The gist of the matter is that creating some of my models failed in some cases. 
 
 Digging around a bit, I traced it down to the fact that the newly created model was given an id that didn't match the id in the database. The reason for that turned out to be quite the sneaky little bastard...
 
+<!--more-->
+
 h2. First a few important facts
 
 * We're using SQL Server 2000. As of Rails 2.0 the SQLServerAdapter is no longer included in the core Rails distribution and must be installed separately. No biggie, I've put it in /vendor and made sure it gets loaded and used. 

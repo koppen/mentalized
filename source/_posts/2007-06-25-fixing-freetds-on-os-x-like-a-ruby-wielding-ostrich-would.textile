@@ -11,6 +11,8 @@ categories:
 
 I am having massive problems connecting my MacBook Pro with the Microsoft SQL Server 2000 we have at work. I've connected to the same SQL Server (more or less) painlessly from Debian a couple of times before, so it bugs me that this is so frigging hard on OS X.
 
+<!--more-->
+
 The most aggrevating part of the problem is the fact that I can actually connect. I can even execute queries and get results back. However, when I try to run a select query that returns no results, I get: 
 
 bc. DBI::DatabaseError: 24000 (0) [FreeTDS][SQL Server]Invalid cursor state: SELECT id FROM users WHERE id = 0 (ActiveRecord::StatementInvalid)

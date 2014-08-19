@@ -10,6 +10,8 @@ categories:
 
 The following is the tale of how I cleaned up a small part of a single view in "BiQ":http://www.biq.dk after having made a dirty mess of it. 
 
+<!--more-->
+
 +Updated: For some reason my blogging setup made it impossible to read the code in Safari. I apologize for that, and I have hacked a solution by adding spaces in certain places. Unfortunately that makes the code invalid Ruby, but at least it can be read by you.+
 
 h2. Short description of the domain. 

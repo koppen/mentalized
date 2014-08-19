@@ -10,6 +10,7 @@ categories:
 
 This modified version uses a different syntax (rake test:foo:bar instead rake foo_bar) and regex matching for test names.
 
+<!--more-->
 
 h2. Usage
 

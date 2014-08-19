@@ -16,6 +16,8 @@ I have been moonlighting as a "freelance webdeveloper":http://substancelab.com f
 
 My reaction was to cut down on "my dayjob":http://biq.dk, leaving me with more time to focus on "my own clients":http://substancelab.com/work/ (and less time to focus on BiQ, forcing us to "hire another developer":http://mentalized.net/journal/2007/09/27/biq_is_hiring/).
 
+<!--more-->
+
 However, it was only a matter of time before I'd run into that luxury problem again. Once again, having to turn down cool new projects due to lack of time left me with the same choice I took roughly a year ago. And once again, I decided to cut down on my dayjob.
 
 

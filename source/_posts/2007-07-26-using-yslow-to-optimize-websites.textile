@@ -16,6 +16,7 @@ bq. Performance grade: F (46)
 
 Ah well, sounds like a perfect opportunity to improve, and the rest of this entry contains the areas where the biq.dk frontpage did not receive an A-grade, and a description of the modifications I had to perform on our setup to satisfy the addon.
 
+<!--more-->
 
 h2. Make fewer HTTP requests (F)
 

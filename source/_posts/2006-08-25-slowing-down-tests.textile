@@ -10,6 +10,8 @@ There I go again, trying to be too clever for my own good. In an attempt to do l
 
 And it was easier, but it came at a price.
 
+<!--more-->
+
 | 				| Units				| Functionals |
 | All fixtures in test_helper	| Finished in 27.274751 seconds	| Finished in 19.175251 seconds |
 | Relevant fixtures in each test	| Finished in 12.018364 seconds | Finished in 10.118103 seconds |

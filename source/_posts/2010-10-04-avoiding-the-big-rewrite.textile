@@ -4,10 +4,13 @@ title: Avoiding The Big Rewrite
 date: '2010-10-04 08:37:08 +0200'
 mt_id: 2056
 categories:
-- programming
 - business
+- development
+- programming
 ---
 All software projects trend towards "The Big Rewrite":http://chadfowler.com/2006/12/27/the-big-rewrite. 
+
+<!--more-->
 
 Inevitable, at some point one of your developers is going to put forth the absolute truth: "This sucks, we need to rewrite it". This is "not a great situation":http://www.joelonsoftware.com/articles/fog0000000069.html to be in, and if you're unlucky, he is actually right.
 

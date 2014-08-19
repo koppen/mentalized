@@ -8,6 +8,8 @@ categories:
 ---
 I recently found myself with the need to have a stubbed method return different values depending on the order it was called in. So that the first time the method is called, it returns one thing and the next time it returns another.
 
+<!--more-->
+
 With Mocha this is neatly done using "Exception#then":http://mocha.rubyforge.org/classes/Mocha/Expectation.html#M000047:
 
 bc(ruby). object.stubs(:expected_method).returns(1, 2).then.returns(3)

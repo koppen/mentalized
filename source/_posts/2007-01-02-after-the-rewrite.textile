@@ -13,6 +13,8 @@ categories:
 
 A week or two before christmas the rewrite went feature complete. That is; all the features we want and need in the next, "Ruby":http://ruby-lang.org based version of BiQ have been rewritten.
 
+<!--more-->
+
 Let me unload some numbers on you.
 
 I started out looking at roughly 18000 lines of ASP3.0/VBScript code. That's not counting the HTML and (very little) logic in our templates. The database contained around 60 tables.

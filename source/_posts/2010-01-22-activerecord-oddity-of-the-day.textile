@@ -15,7 +15,11 @@ bc(ruby). >> person = Person.first
 >> person.height
 => 1
 
-Uhm, huh? The above is from "Rails":http://rubyonrails.org 2.3.5 using "SQLite":http://sqlite.org/, but I originally saw the issue running on "PostgreSQL":http://postgresql.org. 
+Uhm, huh?
+
+<!--more-->
+
+The above is from "Rails":http://rubyonrails.org 2.3.5 using "SQLite":http://sqlite.org/, but I originally saw the issue running on "PostgreSQL":http://postgresql.org. 
 
 It turns out, that if the object you assign to an integer attribute/column does not respond to <code>to_i</code>, the attribute will be set to 1 - unless the object evaluates to <code>false</code> in which case the attribute will be set to 0.
 

@@ -6,9 +6,11 @@ mt_id: 1991
 categories:
 - programming
 ---
-During development of a small Ruby application today I ran into a minor issue with "RSpec":http://rspec.info/ and "Mocha":http://mocha.rubyforge.org/. Earlier today, I was developing a small "Ruby":http://www.ruby-lang.org/en/ application, trying out RSpec instead of the usual "Test::Unit":http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/, using Mocha for my stubbing and mocking needs.
+During development of a small Ruby application today I ran into a minor issue with "RSpec":http://rspec.info/ and "Mocha":http://mocha.rubyforge.org/. Earlier today, I was developing a small "Ruby":http://www.ruby-lang.org/en/ application, trying out RSpec instead of the usual "Test::Unit":http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/, using Mocha for my stubbing and mocking needs. Unfortunately, things didn't go as I expected them to today.
 
-Unfortunately, things didn't go as I expected them to today. Imagine starting out with the following (contrived) examples:
+<!--more-->
+
+Imagine starting out with the following (contrived) examples:
 
 bc(ruby). describe 'Car' do
   describe "when starting" do

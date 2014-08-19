@@ -10,6 +10,8 @@ I am currently wrapping up a client-project where I am preparing a "Rails":http:
 
 I am using the I18n::Simple backend and the resulting Danish locale file is now at 2100 lines. That's a bit much for me to keep in my head at once, so I created a small Rake task that takes all locales in your Rails application and reports back all the keys that are missing from one or more locales. Works wonders for finding those typos or oversights that would otherwise result in 'missing translation data' messages.
 
+<!--more-->
+
 h2. Example output
 
 bc. $ rake i18n:missing_keys 
