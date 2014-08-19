@@ -2,11 +2,14 @@
 layout: default
 robots: noindex, follow
 ---
+
 <article class="category-archive">
   <h1>Articles about {{page.category}}</h1>
   <div>
-    <ul>
-      {{content}}
+    <ul class="posts">
+      {% for post in page.posts reversed %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 </article>

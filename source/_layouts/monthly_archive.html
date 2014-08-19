@@ -5,8 +5,10 @@ robots: noindex, follow
 <article class="monthly-archive">
   <h1>Articles from {{page.year}}/{{page.month}}</h1>
   <div>
-    <ul>
-  {{ content }}
+    <ul class="posts">
+      {% for post in page.posts reversed %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 </article>
