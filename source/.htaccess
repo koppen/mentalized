@@ -22,7 +22,8 @@ RewriteRule (.*)/index.html  /$1/ [R=301]
 RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 
 # The GOOG recommends dashes instead of underscores
-RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*)$       /$1-$2 [R=301]
+RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*_.*)$  /$1-$2 [N]
+RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*)$     /$1-$2 [R=301]
 
 # Redirect stuff that shows up as 404s
 RewriteRule ^about/contact/?$                                                 /about [R=301]
@@ -89,4 +90,3 @@ RewriteRule ^features/elsewhere(/?)                                           /j
 RewriteRule ^features/everquest(/?)                                           /journal/games/ [R=301]
 RewriteRule ^features/projects(/?)                                            /journal/projects/ [R=301]
 RewriteRule ^features(/?)                                                     /journal/ [R=301]
-
