@@ -2,9 +2,6 @@
 layout: post
 title: Setting up CVS over SSH on Windows 2000/XP
 date: '2004-11-01 13:19:23 +0100'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  SmFrb2IgZXhwbGFpbnMgaG93IGhlIHNldCB1cCBDVlMgb3ZlciBTU0gyIG9u
-  IGEgV2luZG93cyAyMDAwIG1hY2hpbmUu
 mt_id: 827
 categories:
 - technology

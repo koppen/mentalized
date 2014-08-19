@@ -1,10 +1,6 @@
 ---
 title: Flash is not the 99%
 date: '2012-02-05 14:17:23 +0100'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  SW4gd2hpY2ggSmFrb2IgLSB1bnN1Y2Nlc3NmdWxseSAtIHRyaWVzIHRvIGZp
-  Z3VyZSBvdXQgaG93IEZsYXNoIHN1cHBvcnQgY2FuIGJlIHBsYWNlZCBhdCA5
-  OSU=
 mt_id: 2133
 categories:
 - technology

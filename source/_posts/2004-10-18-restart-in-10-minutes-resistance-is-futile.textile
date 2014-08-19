@@ -2,14 +2,13 @@
 layout: post
 title: Restart in 10 minutes, resistance is futile!
 date: '2004-10-18 11:31:05 +0200'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  SmFrb2IgcmFudHMgYWJvdXQgV2luZG93cyBYUHMgaW5zaXN0YW50IGFuZCBh
-  bm5veWluZyByZXF1ZXN0IGZvciByZWJvb3RpbmcgdGhlIGNvbXB1dGVy
 mt_id: 824
 categories:
 - usability
 ---
 Being a good and paranoid user I naturally install any and all security patches that my kind Windows XP installation asks me to. 
+
+<!--more-->
 
 Unfortunatly some patches require me to restart my computer after installation. Primitive, but it's the Windows way, I guess. While the patches have been downloaded and installed, I have continued to use my computer and would actually prefer to not have to shut down all my applications. So when the installation asks me to reboot, I click "Reboot later" planning to shut down the machine when I leave work.
 

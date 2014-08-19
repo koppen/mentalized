@@ -2,9 +2,6 @@
 layout: post
 title: Putting Debian on Ruby rails
 date: '2004-12-01 18:14:17 +0100'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  SmFrb2IgaW5zdGFsbHMgUnVieSBvbiBSYWlscyBvbiBhIERlYmlhbiBtYWNo
-  aW5lIC0gaXQncyBub3QgYXMgZWFzeSBhcyBvbmUgY291bGQgaG9wZS4=
 mt_id: 842
 categories:
 - technology

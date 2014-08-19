@@ -2,9 +2,6 @@
 layout: post
 title: Velious custom helmets
 date: '2003-08-26 15:07:41 +0200'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  RmFzaGlvbiBnYWxsZXJ5IG9mIHRoZSBjdXN0b20gVmVsaW91cyBoZWxtZXRz
-  IGdyYXBoaWNzLg==
 mt_id: 1276
 categories:
 - games

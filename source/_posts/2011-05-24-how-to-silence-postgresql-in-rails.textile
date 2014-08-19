@@ -2,12 +2,6 @@
 layout: post
 title: How to silence PostgreSQL in Rails
 date: '2011-05-24 10:33:14 +0200'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  UG9zdGdyZVNRTCBhbmQgUmFpbHMgYXJlIHRlcnJpYmx5IGNoYXR0eSwgc3Bl
-  d2luZyBub3RpY2VzIGFuZCBpbnRlcm5hbCBxdWVyaWVzIGFsbCBvdmVyIHlv
-  dXIgdGVybWluYWwgYW5kIGxvZyBmaWxlcy4gTHVja2lseSwgdGhlcmUgYXJl
-  IGEgZmV3IHNpbXBsZSBzdGVwcyB0byBtYWtlIFBvc3RncmVTUUwgYSBiaXQg
-  bW9yZSBiZWFyYWJsZSB0byB3b3JrIHdpdGguCg==
 mt_id: 2108
 categories:
 - technology
@@ -16,7 +10,6 @@ categories:
 Using "PostgreSQL":http://postgresql.org for your "Rails":http://rubyonrails.org applications is great, but it tends to be terribly chatty, spewing notices and internal queries all over your terminal and log files.
 
 Luckily, there are a few simple steps to make PostgreSQL a bit more bearable to work with.
-
 
 <!--more-->
 

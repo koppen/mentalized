@@ -2,10 +2,6 @@
 layout: post
 title: 'Movable Type: Easier edit/removal of new comments'
 date: '2003-09-09 12:09:16 +0200'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  QSBzbWFsbCBNb3ZhYmxlIFR5cGUgaGFjayB0byBhZGQgYSBsaW5rIHRvIHRo
-  ZSBlZGl0IGNvbW1lbnRzIHBhZ2UgaW4gdGhlIHRoZSBlbWFpbCBNVCBzZW5k
-  cyB3aGVuIGEgbmV3IGNvbW1lbnQgaXMgcG9zdGVkLg==
 mt_id: 741
 categories:
 - blogging

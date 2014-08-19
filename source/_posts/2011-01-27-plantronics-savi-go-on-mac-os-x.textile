@@ -2,9 +2,6 @@
 layout: post
 title: Plantronics Savi Go on Mac OS X
 date: '2011-01-27 10:00:57 +0100'
-excerpt: !ruby/string:Sequel::SQL::Blob |-
-  R2V0dGluZyBhIFBsYW50cm9uaWNzIFNhdmkgR28gV0cxMDAvQiB0byB3b3Jr
-  IHdpdGggT1MgWCBpcyBoYXJkLCBidXQgbm90IGltcG9zc2libGU=
 mt_id: 2086
 categories:
 - hardware
@@ -14,7 +11,6 @@ Being a "remote freelancer":http://substancelab.com, I regularly take part in "S
 I ended up buying the "Plantronics Savi Go WG100":http://www.plantronics.com/us/product/savi-go. So far, it seems like a pretty good headset, but getting it to work with my Mac running Snow Leopard proved to be harder than I'd have liked. 
 
 Primarily because I thought I knew what I was doing.
-
 
 <!--more-->
 
