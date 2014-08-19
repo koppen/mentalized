@@ -19,8 +19,8 @@ layout: default
 
   <p>
     Over the years, I have written about
-    {% for category in site.categories | sort:'created_at' %}
-      {{category | first}},
+    {% for category in site.categories | sort:'title' %}
+      {% categorylink category.first %}{{category | first}}{% endcategorylink %},
     {% endfor %}
     and a few other tidbits.
   </p>

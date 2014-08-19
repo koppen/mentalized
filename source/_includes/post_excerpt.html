@@ -9,7 +9,9 @@
     Posted
     <span class="timestamp">{{ post.date | date_to_long_string }}</span>
     in
-    {{ post.categories | array_to_sentence_string }}
+    {% for category in post.categories %}
+      {% categorylink category %}{{category}}{% endcategorylink %},
+    {% endfor %}
   </p>
 </aside>
 

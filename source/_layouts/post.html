@@ -9,7 +9,9 @@ layout: default
       Posted
       <span class="timestamp">{{ page.date | date_to_long_string }}</span>
       in
-      {{ page.categories | array_to_sentence_string }}
+      {% for category in page.categories %}
+        {% categorylink category %}{{category}}{% endcategorylink %},
+      {% endfor %}
     </p>
   </aside>
 
