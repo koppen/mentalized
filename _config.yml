@@ -12,6 +12,8 @@ ftp_host: "linux41.unoeuro.com"
 ftp_dir: "mentalized.net"
 ftp_passive: true
 
+category_archive:
+  path: "journal"
 monthly_archive:
   path: "journal"
 
