@@ -1,7 +1,6 @@
 ---
 layout: post
-title: !binary |-
-  TGF1bmNoOiBC+HJuIGkgYnllbg==
+title: "Launch: Børn i byen"
 date: '2008-03-10 10:13:11 +0100'
 mt_id: 1932
 categories:
