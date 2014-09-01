@@ -11,9 +11,9 @@ RewriteCond %{HTTP_REFERER}                         !^http://(www\.)?mentalized.
 RewriteCond %{HTTP_REFERER}                         !^http://mentalized.net/.*$ [NC]
 RewriteRule ^journal/.*\.(gif|GIF|png|PNG|jpg|JPG)$ - [F]
 
-# Send all requests to .html
-RewriteRule ^(.*)\.asp $1.html [R=301]
-RewriteRule ^(.*)\.php $1.html [R=301]
+# Send all requests to the static index.html pages
+RewriteRule ^(.*)\/index\.asp /$1/ [R=301]
+RewriteRule ^(.*)\/index\.php /$1/ [R=301]
 
 # Strip index.html from URLs
 RewriteRule (.*)/index.html  /$1/ [R=301]
@@ -25,17 +25,25 @@ RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*_.*)$  /$1-$2 [N]
 RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*)$     /$1-$2 [R=301]
 
+# Remove multiple dashes after each other
+RewriteRule ^(journal/.+?)--+(.+)$                  /$1-$2 [R=301]
+
 # Redirect stuff that shows up as 404s
 RewriteRule ^about/contact/?$                                                 /about [R=301]
 RewriteRule ^about/resume/?$                                                  /about [R=301]
 RewriteRule ^activity-indicators/indicators(/*)                               /activity-indicators/ [R=301]
+RewriteRule ^docs/projects/asptunetracker(/*)                                 /journal/2003/09/01/asptunetracker/ [R=301]
 RewriteRule ^docs/projects/j-referrertracker(/.*)$                            /journal/2003/01/27/announcing-jreferrertracker$1 [R=301]
 RewriteRule ^journal(/?)$                                                     /journal/archives/
+RewriteRule ^journal/2003/01/27/announcing-jreferrertracker(/*)               /journal/2003/01/27/announcing-j-referrertracker/ [R=301]
 RewriteRule ^journal/2003/06/18/stupid-antileech-protection(/*)               /journal/2003/06/18/stupid-anti-leech-protection/ [R=301]
 RewriteRule ^journal/2003/08/25/wwwnikenoyoucantplaycom(/*)                   /journal/2003/08/25/wwwnike-no-you-cant-playcom/ [R=301]
+RewriteRule ^journal/2003/09/09/ohsocool-web-design(/*)                       /journal/2003/09/09/oh-so-cool-web-design/ [R=301]
+RewriteRule ^journal/2003/12/11/humanrights-violations(/*)                    /journal/2003/12/11/human-rights-violations/ [R=301]
 RewriteRule ^journal/2005/04/15/notetagger-the-introduction(/*)               /journal/2005/04/15/notetagger-the-introduction/ [R=301]
 RewriteRule ^journal/2005/04/27/notetagger-adding-the-ajax(/*)                /journal/2005/04/27/notetagger-adding-the-ajax/ [R=301]
 RewriteRule ^journal/2005/05/18/notetagger-adding-users-and-subdomains(/*)    /journal/2005/05/18/notetagger-adding-users-and-subdomains/ [R=301]
+RewriteRule ^journal/2005/06/11/mozilla-search-plugins(/*)                    /journal/2005/06/11/mozilla-search-plug-ins/ [R=301]
 RewriteRule ^journal/2005/10/10/building-your-very-own-web20-layou\.\.        /journal/2005/10/10/building-your-very-own-web20-layout/ [R=301]
 RewriteRule ^journal/2005/10/building-your-very-own-web20-layout(/.*)?        /journal/2005/10/10/building-your-very-own-web20-layout/ [R=301]
 RewriteRule ^journal/2005/10/14/pick-your-age-(.+)                            /journal/2005/10/14/pick-your-age/ [R=301]
@@ -45,13 +53,17 @@ RewriteRule ^journal/2006/10/24/browser-size-does-matter-actual-numbers(/*)   /j
 RewriteRule ^journal/2006/10/24/size-does-matter-actual-numbers(/*)           /journal/2006/10/24/browser-size-does-matter-actual-numbers/ [R=301]
 RewriteRule ^journal/2007/06/25/fixing-freetds-on-os-x-like-a-rubywielding-ostrich-would(/*)    /journal/2007/06/25/fixing-freetds-on-os-x-like-a-ruby-wielding-ostrich-would/ [R=301]
 RewriteRule ^journal/2007/07/03/what-the-heck-is-an-iphone-application(/*)    /journal/2007/07/03/what-the-heck-is-an-iphone-application/ [R=301]
+RewriteRule ^journal/2008/03/10/launch-brn-i-byen(/*)                         /journal/2008/03/10/launch-born-i-byen/ [R=301]
 RewriteRule ^journal/2008/05/27/stikipad-when-software-in-th(\.\.\.)?         /journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ [R=301]
+RewriteRule ^journal/2008/05/27/stikipad---when-software-in-the-cloud-goes-sour /journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ [R=301]
 RewriteRule ^journal/2008/10/16/immediatefeedbackformatter-better-formatted-rspec-output(/*)    /journal/2008/10/16/immediatefeedbackformatter-better-formatted-rspec-output/ [R=301]
 RewriteRule ^journal/2009/08/03/redmine(/.*)?$                                /journal/2009/08/03/redmine-plugin-github-hook/ [R=301]
 RewriteRule ^journal/2010/02/17/webkitbased-xbox-dashboard(/*)                /journal/2010/02/17/webkit-based-xbox-dashboard/ [R=301]
 RewriteRule ^journal/2010/10/16/rails-rumble-2010/                            /journal/2010/10/17/rails-rumble-2010/ [R=301]
 RewriteRule ^journal/2011/05/18/pileup-carousel(/.*)?                         /journal/2011/05/18/experiment-pileup-carousel/ [R=301]
 RewriteRule ^journal/2011/05/24/silencing-postgresql/                         /journal/2011/05/24/how-to-silence-postgresql-in-rails/ [R=301]
+RewriteRule ^journal/2014/07/24/ember-on-rails-05(/*)                         /journal/2014/08/07/ember-on-rails-05/
+RewriteRule ^journal/2015/05/15/smaccs-style-selectors-in-sass(/*)            /journal/2015/05/15/smaccs-style-selectors-in-sass/ [R=301]
 RewriteRule ^journal/archives/movielink(/*)                                   /journal/2002/11/11/us-customers-only-please/ [R=301]
 RewriteRule ^journal/archives/technology/bogus-referrers(/*)                  /journal/2003/03/19/bogus-referrers$1 [R=301]
 RewriteRule ^journal/archives/technology/musical-dinosaurs/                   /journal/2002/10/23/musical-dinosaurs/ [R=301]
@@ -64,6 +76,7 @@ RewriteRule ^journal/technology/bogus-referrers(/.*)$                         /j
 RewriteRule ^journal/technology/creating-color-schemes(/*)                    /journal/2003/08/08/creating-color-schemes$1 [R=301]
 RewriteRule ^journal/technology/google-rocks-my-world(/.*)$                   /journal/2003/08/12/google-rocks-my-world$1 [R=301]
 RewriteRule ^journal/technology/i-wonder-what-all-the-rss-fuss-is-about(/.*)  /journal/2003/05/05/i-wonder-what-all-the-rss-fuss-is-about$1 [R=301]
+RewriteRule ^journal/technology/i_wonder_what_all_the_rss_fuss_is_about(/.*)  /journal/2003/05/05/i-wonder-what-all-the-rss-fuss-is-about/ [R=301]
 RewriteRule ^journal/technology/phonecam-to-blog-in-7-keypresses(/*)          /journal/2003/04/01/phonecam-to-blog-in-7-keypresses$1 [R=301]
 RewriteRule ^journal/technology/scrap-those-pixels(/*)                        /journal/2003/08/08/scrap-those-pixels$1 [R=301]
 

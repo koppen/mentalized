@@ -14,4 +14,4 @@ If I were to reconstruct the form, I would trim	the number of fields down to the
 
 If it is necessary to retain the other 9-10 fields, I would place them below the message-textarea, clearly marked as optional data, perhaps even hide them behind some fancy DHTML hidden div.
 
-The rest of the website is quite nice though, no wonder it was featured on "CSSBeauty(CSSBeauty)":cssbeauty.com/archives/permalink/blindwerk.php
+The rest of the website is quite nice though, no wonder it was featured on "CSSBeauty(CSSBeauty)":http://cssbeauty.com/archives/permalink/blindwerk.php
