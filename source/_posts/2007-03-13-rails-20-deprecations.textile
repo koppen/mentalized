@@ -8,7 +8,7 @@ categories:
 - technology
 ---
 The Rails core team is cleaning up. That's obviously a good thing, however it does leave us facing a kabillion deprecation warnings when running tests and whatnot.
-
+	
 Unfortunately "the official deprecations page":http://rubyonrails.org/deprecation appears to have been thrown together quickly after someone noticed that Rails 1.2 had been pushed out without anyone finishing the page that all deprecation warnings were referring to.
 
 So what does a smart Rails developer who wants to be ready for Rails 2.0 when that time comes around do? She reads on...
@@ -122,6 +122,3 @@ end</code></pre></td>
 			<td><pre><code class="ruby">model_or_association.count(:conditions => ['field = ?', value])</code></pre></td>
 		</tr>
 	</table>
-  
-
-	<h2>You
