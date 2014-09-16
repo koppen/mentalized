@@ -26,4 +26,4 @@ At the meeting I more than alluded that I'd try and get a website up and running
 
 h2. Next meeting
 
-Next meeting of Copenhagen.rb is going to take place September 19th at 17:30. We still need a venue and preferably some topics/demos/presentations, so do "sound off on the mailing list":lists.substancelab.com/mailman/copenhagen.rb if you can provide either.
+Next meeting of Copenhagen.rb is going to take place September 19th at 17:30. We still need a venue and preferably some topics/demos/presentations, so do "sound off on the mailing list":http://lists.substancelab.com/mailman/copenhagen.rb if you can provide either.

@@ -10,7 +10,7 @@ categories:
 ---
 Yahoo! has released a great Firefox addon - or rather, an addon for "a Firefox addon":http://www.getfirebug.com/ - called "YSlow":http://developer.yahoo.com/yslow/. YSlow allows you to analyze and suggest improvements to various performance metrics on the website you're currently visiting.  
 
-For kicks I decided to let it loose on "biq.dk":biq.dk. Unfortunately it gave me a disheartening grade of F:
+For kicks I decided to let it loose on "biq.dk":http://biq.dk. Unfortunately it gave me a disheartening grade of F:
 
 bq. Performance grade: F (46)
 

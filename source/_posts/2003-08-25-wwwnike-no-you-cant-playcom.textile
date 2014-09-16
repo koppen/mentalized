@@ -6,7 +6,7 @@ mt_id: 732
 categories:
 - webdesign
 ---
-<p>"www.nikeplay.com(nikeplay.com)":www.nikeplay.com gives me (after looking at a blank page for a while):</p>
+<p>"www.nikeplay.com(nikeplay.com)":http://www.nikeplay.com gives me (after looking at a blank page for a while):</p>
 	
 <blockquote><p>For full enjoyment of this website you'll need a newer browser (Internet Explorer or Netscape Navigator, version 5.0 or newer). Click below to download and install a new browser [...]</p></blockquote>
 
