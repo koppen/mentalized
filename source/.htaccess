@@ -55,6 +55,7 @@ RewriteRule ^journal/2006/10/24/browser-size-does-matter-actual-numbers(/*)   /j
 RewriteRule ^journal/2006/10/24/size-does-matter-actual-numbers(/*)           /journal/2006/10/24/browser-size-does-matter-actual-numbers/ [R=301]
 RewriteRule ^journal/2007/06/25/fixing-freetds-on-os-x-like-a-rubywielding-ostrich-would(/*)    /journal/2007/06/25/fixing-freetds-on-os-x-like-a-ruby-wielding-ostrich-would/ [R=301]
 RewriteRule ^journal/2007/07/03/what-the-heck-is-an-iphone-application(/*)    /journal/2007/07/03/what-the-heck-is-an-iphone-application/ [R=301]
+RewriteRule ^journal/2007/07/31/warning-gzip-content-flash-p.$                /journal/2007/07/31/warning-gzip-content-flash-player-and-internet-explorer-6/ [R=301]
 RewriteRule ^journal/2008/03/10/launch-brn-i-byen(/*)                         /journal/2008/03/10/launch-born-i-byen/ [R=301]
 RewriteRule ^journal/2008/05/27/stikipad-when-software-in-th(\.\.\.)?         /journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ [R=301]
 RewriteRule ^journal/2008/05/27/stikipad---when-software-in-the-cloud-goes-sour /journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ [R=301]
