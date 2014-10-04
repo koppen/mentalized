@@ -88,6 +88,8 @@ RewriteRule cssdepot/layouts(.*)  /cssdepot/index.html
 # Strip archives from oldstyle links to the journal archives
 RewriteRule ^journal/archives/(.+)$                           /journal/$1 [R=301]
 RewriteRule ^journal/quicklinks/archives/(\d+/\d+/\d+)/(.*)/  /journal/quicklinks/$1/link/ [R=301]
+# All quicklinks are gone now, just send people to the homepage
+RewriteRule ^journal/quicklinks/(.*)/?$                       / [R=301]
 
 # Send requests for the deprecated features section to the relevant pages in the journal
 RewriteRule ^features/everquest/omens-of-war-armor-quests(/.*)                /journal/2004/11/03/omens-of-war-armor-quests$1 [R=301]
