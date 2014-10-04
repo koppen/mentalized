@@ -82,8 +82,8 @@ RewriteRule ^journal/technology/i_wonder_what_all_the_rss_fuss_is_about(/.*)  /j
 RewriteRule ^journal/technology/phonecam-to-blog-in-7-keypresses(/*)          /journal/2003/04/01/phonecam-to-blog-in-7-keypresses$1 [R=301]
 RewriteRule ^journal/technology/scrap-those-pixels(/*)                        /journal/2003/08/08/scrap-those-pixels$1 [R=301]
 
-# Process requests to the defunct CSS Depot
-RewriteRule cssdepot/layouts(.*)  /cssdepot/index.html
+# CSS Depot is defunct, just go the homepage
+RewriteRule cssdepot/(.*) /
 
 # Strip archives from oldstyle links to the journal archives
 RewriteRule ^journal/archives/(.+)$                           /journal/$1 [R=301]
