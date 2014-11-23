@@ -42,6 +42,7 @@ RewriteRule ^journal/2003/08/25/wwwnikenoyoucantplaycom(/*)                   /j
 RewriteRule ^journal/2003/09/09/ohsocool-web-design(/*)                       /journal/2003/09/09/oh-so-cool-web-design/ [R=301]
 RewriteRule ^journal/2003/12/11/humanrights-violations(/*)                    /journal/2003/12/11/human-rights-violations/ [R=301]
 RewriteRule ^journal/2005/04/15/notetagger-the-introduction(/*)               /journal/2005/04/15/notetagger-the-introduction/ [R=301]
+RewriteRule ^journal/2005/04/19/why-tada-is-better-than-blabla(/*)            /journal/2005/04/19/why-ta-da-is-better-than-blabla/ [R=301]
 RewriteRule ^journal/2005/04/27/notetagger-adding-the-ajax(/*)                /journal/2005/04/27/notetagger-adding-the-ajax/ [R=301]
 RewriteRule ^journal/2005/05/18/notetagger-adding-users-and-subdomains(/*)    /journal/2005/05/18/notetagger-adding-users-and-subdomains/ [R=301]
 RewriteRule ^journal/2005/06/11/mozilla-search-plugins(/*)                    /journal/2005/06/11/mozilla-search-plug-ins/ [R=301]
@@ -75,13 +76,17 @@ RewriteRule ^journal/life/and-so-my-birthday-came-to-pass(/.*)                /j
 RewriteRule ^journal/movabletype/index.xml                                    /journal/entries.xml [R=301]
 RewriteRule ^journal/movies/us-customers-only-please(/*)                      /journal/2002/11/11/us-customers-only-please$1 [R=301]
 RewriteRule ^journal/technology/adjusting-ergonomically(/*)                   /journal/2002/08/22/adjusting-ergonomically$1 [R=301]
+RewriteRule ^journal/technology/adjusting_ergonomically(/*)                   /journal/2002/08/22/adjusting-ergonomically$1 [R=301]
 RewriteRule ^journal/technology/bogus-referrers(/.*)$                         /journal/2003/03/19/bogus-referrers$1 [R=301]
 RewriteRule ^journal/technology/creating-color-schemes(/*)                    /journal/2003/08/08/creating-color-schemes$1 [R=301]
 RewriteRule ^journal/technology/google-rocks-my-world(/.*)$                   /journal/2003/08/12/google-rocks-my-world$1 [R=301]
+RewriteRule ^journal/technology/google_rocks_my_world(/*)                     /journal/2003/08/12/google-rocks-my-world/ [R=301]
 RewriteRule ^journal/technology/i-wonder-what-all-the-rss-fuss-is-about(/.*)  /journal/2003/05/05/i-wonder-what-all-the-rss-fuss-is-about$1 [R=301]
 RewriteRule ^journal/technology/i_wonder_what_all_the_rss_fuss_is_about(/.*)  /journal/2003/05/05/i-wonder-what-all-the-rss-fuss-is-about/ [R=301]
 RewriteRule ^journal/technology/phonecam-to-blog-in-7-keypresses(/*)          /journal/2003/04/01/phonecam-to-blog-in-7-keypresses$1 [R=301]
 RewriteRule ^journal/technology/scrap-those-pixels(/*)                        /journal/2003/08/08/scrap-those-pixels$1 [R=301]
+RewriteRule ^journal/technology/scrap_those_pixels(/*)                        /journal/2003/08/08/scrap-those-pixels$1 [R=301]
+RewriteRule ^journal/thats_not_worthless_this_is(/*)                          /journal/2003/04/08/thats-not-worthless-this-is/ [R=301]
 
 # CSS Depot is defunct, just go the homepage
 RewriteRule cssdepot/(.*) /
