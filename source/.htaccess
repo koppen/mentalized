@@ -88,8 +88,13 @@ RewriteRule ^journal/technology/scrap-those-pixels(/*)                        /j
 RewriteRule ^journal/technology/scrap_those_pixels(/*)                        /journal/2003/08/08/scrap-those-pixels$1 [R=301]
 RewriteRule ^journal/thats_not_worthless_this_is(/*)                          /journal/2003/04/08/thats-not-worthless-this-is/ [R=301]
 
-# CSS Depot is defunct, just go the homepage
-RewriteRule cssdepot/(.*) /
+# Defunct projects are defunct, just go the homepage
+RewriteRule ^adsl(/*) /
+RewriteRule ^comments_atom\.xml /
+RewriteRule ^cssdepot(/?.*) /
+RewriteRule ^docs/projects/j-uptime(/*) /
+RewriteRule ^stats/howto(/*) /
+RewriteRule ^tinytales(/?.*) /
 
 # Strip archives from oldstyle links to the journal archives
 RewriteRule ^journal/archives/(.+)$                           /journal/$1 [R=301]
