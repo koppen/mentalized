@@ -89,12 +89,12 @@ RewriteRule ^journal/technology/scrap_those_pixels(/*)                        /j
 RewriteRule ^journal/thats_not_worthless_this_is(/*)                          /journal/2003/04/08/thats-not-worthless-this-is/ [R=301]
 
 # Defunct projects are defunct, just go the homepage
-RewriteRule ^adsl(/*) /
-RewriteRule ^comments_atom\.xml /
-RewriteRule ^cssdepot(/?.*) /
-RewriteRule ^docs/projects/j-uptime(/*) /
-RewriteRule ^stats/howto(/*) /
-RewriteRule ^tinytales(/?.*) /
+RewriteRule ^adsl(/*) / [R=301]
+RewriteRule ^comments_atom\.xml / [R=301]
+RewriteRule ^cssdepot(/?.*) / [R=301]
+RewriteRule ^docs/projects/j-uptime(/*) / [R=301]
+RewriteRule ^stats/howto(/*) / [R=301]
+RewriteRule ^tinytales(/?.*) / [R=301]
 
 # Strip archives from oldstyle links to the journal archives
 RewriteRule ^journal/archives/(.+)$                           /journal/$1 [R=301]
