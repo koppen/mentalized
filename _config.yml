@@ -21,6 +21,6 @@ defaults:
   -
     scope: # All blog posts
       path: ""
-      type: "post"
+      type: "posts"
     values:
       layout: "post"
