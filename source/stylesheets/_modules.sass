@@ -77,46 +77,6 @@
     max-width: 100% // Override generic .article p { max-width }
     padding: 0
 
-// Social links
-.social 
-  // Contains pixel sized images - keep this sized in pixels
-  margin-bottom: 2em
-  margin-top: 2em
-  ul
-    +pie-clearfix
-    margin-left: auto
-    margin-right: auto
-    width: 205px
-  li
-    background-color: #cccccc
-    background-position: 0 0
-    background-repeat: no-repeat
-    float: left
-    margin-right: 1px
-    a
-      background-position: 0 -50px
-      border: none
-      display: block
-      height: 50px
-      opacity: 0
-      padding: 0
-      text-indent: -9999em
-      transition: all ease 1s
-      width: 50px
-      &:hover
-        background-color: #cccccc
-        opacity: 1
-        transition: all ease-in 0.25s
-
-  .github, .github a
-    background-image: url(../images/social/github.png)
-  .linked_in, .linked_in a
-    background-image: url(../images/social/linked_in.png)
-  .twitter, .twitter a
-    background-image: url(../images/social/twitter.png)
-  .working_with_rails, .working_with_rails a
-    background-image: url(../images/social/working_with_rails.png)
-
 // Responsive video embedding from YouTube, etc.
 .video
   clear: both
