@@ -1,0 +1,136 @@
+// Module Rules
+//
+// Modules are more discrete components of the page. This is the meat of the page.
+//
+// http://smacss.com/book/type-module
+
+@import "shared/clearfix"
+
+// Comments
+// ----------------
+.comments
+  +pie-clearfix
+  .comments
+    clear: left
+    float: left
+    margin-right: 10%
+    width: 45%
+    @media (max-width:575px)
+      margin-right: 0
+      float: none
+      width: auto
+  .comment
+    border-top: 1px solid #cccccc
+    margin-top: -1px // Preserves vertical rythm otherwise messed up by the border
+    .author
+      font-weight: bold
+    .timestamp
+      color: #aaa
+      float: right
+      font-weight: normal
+      letter-spacing: -0.05em
+  .form
+    float: left
+    width: 45%
+    @media (max-width:575px)
+      float: none
+      width: auto
+  form .comment
+    float: none
+    width: auto
+
+// Category listing
+.category
+  article
+    clear: none
+    float: left
+    margin-bottom: 2em
+    margin-left: 6%
+    margin-top: 0
+    width: 47%
+    &:nth-child(2n-1)
+      clear: left
+      margin-left: 0
+    p
+      max-width: none
+    @media (max-width:850px)
+      max-width: 100%
+      margin-left: 0
+      width: auto
+
+// Entries listing
+.entries
+  +separator
+  h1
+    margin-top: 0
+
+// Pullquote
+.pull
+  float: right
+  margin: 0
+  padding: 0
+  width: $content_width
+  p
+    font-size: 1.6em
+    line-height: 1.125em
+    margin: 0.5em 0 0.5em 1.5em
+    max-width: 100% // Override generic .article p { max-width }
+    padding: 0
+
+// Social links
+.social 
+  // Contains pixel sized images - keep this sized in pixels
+  margin-bottom: 2em
+  margin-top: 2em
+  ul
+    +pie-clearfix
+    margin-left: auto
+    margin-right: auto
+    width: 205px
+  li
+    background-color: #cccccc
+    background-position: 0 0
+    background-repeat: no-repeat
+    float: left
+    margin-right: 1px
+    a
+      background-position: 0 -50px
+      border: none
+      display: block
+      height: 50px
+      opacity: 0
+      padding: 0
+      text-indent: -9999em
+      transition: all ease 1s
+      width: 50px
+      &:hover
+        background-color: #cccccc
+        opacity: 1
+        transition: all ease-in 0.25s
+
+  .github, .github a
+    background-image: url(../images/social/github.png)
+  .linked_in, .linked_in a
+    background-image: url(../images/social/linked_in.png)
+  .twitter, .twitter a
+    background-image: url(../images/social/twitter.png)
+  .working_with_rails, .working_with_rails a
+    background-image: url(../images/social/working_with_rails.png)
+
+// Responsive video embedding from YouTube, etc.
+.video
+  clear: both
+  height: 0
+  overflow: hidden
+  padding-bottom: 56.25% // 16/9 ratio
+  padding-top: 30px // IE6 workaround
+  position: relative
+
+  iframe,
+  object,
+  embed
+    height: 100%
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%

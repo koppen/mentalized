@@ -1,0 +1,231 @@
+// Layout Rules
+//
+// elements that are common across all components of the page
+//
+// http://smacss.com/book/type-layout
+
+@import 'shared/separator'
+
+article
+  clear: both
+  margin-bottom: 2em
+  margin-top: 4em
+  width: 100%
+  p
+    max-width: $content_width
+    @media (max-width:575px)
+      max-width: 100%
+  img
+    // Center and scale down images in articles, usually leftovers from legacy content
+    display: block
+    height: auto
+    margin-left: auto
+    margin-right: auto
+    max-width: 100%
+
+aside
+  border-left: 2px groove #fff
+  float: right
+  font-size: 0.8em
+  margin-left: 1em
+  opacity: 0.5
+  transition: opacity 1s ease
+  width: 25%
+  @media (max-width:575px)
+    display: none
+  &:hover
+    opacity: 1
+    transition: opacity 0.1s ease
+  p
+    margin: 0.2em 0 0.2em 1.5em
+
+
+// Figures
+// ------------------------------
+figure
+  background-color: #ffffff
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 1em
+  margin-left: 0
+  max-width: $content_width // Centers the image if it's smaller than the width
+  overflow: auto
+  text-align: center
+  @media (max-width:575px)
+    margin-left: auto
+    margin-right: auto
+    max-width: 100%
+  .columns
+    margin-left: 0
+    overflow: hidden
+    padding: 0.25em
+    .column
+      box-sizing: border-box
+      float: left
+      margin-bottom: 0
+      margin-left: 0
+      padding: 0.25em
+      width: 100%
+  a
+    display: block
+    margin: 0
+    overflow: hidden
+    &:link
+      border: none
+  img
+    display: block
+    vertical-align: bottom
+    width: 100%
+  &.wide
+    max-width: 100%
+    width: 100%
+  &.double .column
+    width: 50%
+  &.tripple .column
+    width: 33.333333333333333%
+
+figcaption
+  // Description of the figure
+  font-family: Neucha, serif
+  margin: 0 0.5em 0.5em 0.5em
+
+
+footer
+  +separator
+  clear: both
+  display: block
+  font-size: 0.8em
+
+header
+  margin-bottom: 1em
+  overflow: hidden
+
+nav
+  float: left
+  @media (max-width:850px)
+    width: 33%
+  @media (max-width:575px)
+    width: 50%
+  @media (max-width:420px)
+    float: none
+    width: auto
+  ul
+    margin: 0.5em 0 0.5em 0.5em
+    list-style-type: none
+  li
+    float: left
+    margin-left: 0.5em
+    width: 7.5em
+    &:first-child
+      margin-left: 0
+    @media (max-width:850px)
+      width: 45%
+    @media (max-width:575px)
+      width: 47%
+  a
+    display: block
+    &:link
+      border-color: #666666
+    &:hover
+      border-color: #b80004
+
+#branding
+  color: #FFFFFF
+  float: left
+  @media (max-width:850px)
+    width: 33%
+  @media (max-width:575px)
+    width: 50%
+  @media (max-width:420px)
+    float: none
+    width: auto
+  &:after
+    $_rounded_edge_height: 0.5em // How high should the rounded edge be.
+    background: #7F8D3E
+    border-bottom-left-radius: 100%
+    border-bottom-right-radius: 100%
+    display: block
+    content: '.' // We need this to make the generated content block show up
+    height: $_rounded_edge_height * 2
+    text-indent: -9999em
+    margin-top: -$_rounded_edge_height
+  a
+    background-color: #7F8D3E
+    border: 0
+    color: #FFFFFF
+    display: block
+    padding: 0.5em
+    text-align: center
+    width: 15em
+    font-weight: bold
+    text-shadow: rgba(0, 0, 0, 0.7) 0 0 0.1em
+    @media (max-width:850px)
+      width: auto
+    @media (max-width:575px)
+      float: none
+    &:hover .description
+      border-color: rgba(255, 255, 255, 0.5)
+    .description
+      border-top: 0.2em solid transparent
+      font-size: 0.7em
+      font-weight: normal
+
+#search
+  float: right
+  margin-top: 0.9em
+  width: 33%
+  @media (max-width:860px)
+    width: 33%
+  @media (max-width: 575px)
+    width: 100%
+  input
+    border: 1px solid #ddd
+    border-radius: 2em
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0.1em 0.1em 0.2em
+    float: right
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-serif
+    font-size: 1em
+    padding: 0.2em 0.8em
+    width: 100%
+    // TODO: Compass
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+
+// The primary wrapper of content - keeps content at a reasonable width
+.container
+  font-size: 1em
+  line-height: 1.8em
+  margin-left: auto
+  margin-right: auto
+  width: 90%
+  @media (min-width: 960px)
+    font-size: 1.6vw // Scale text with the viewport width
+
+// Columns
+// -------
+.columns
+  overflow: hidden
+  .column
+    box-sizing: border-box
+    float: left
+    margin-bottom: 2em
+    &:first-child
+      margin-left: 0
+
+.double .column
+  margin-left: 4%
+  width: 48%
+  @media (max-width:575px)
+    float: none
+    margin-left: 0
+    width: auto
+    &:last-child
+      +separator
+
+.quad .column
+  margin-left: 4%
+  width: 22%
+  @media (max-width:420px)
+    width: 44%
+    &:nth-child(2n+1)
+      clear: left
+      margin-left: 0
+

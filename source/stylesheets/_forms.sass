@@ -1,0 +1,64 @@
+// Form Rules
+
+button
+  $_highlight_color: mix(#ffffff, lighten($link_color, 10%), 50%)
+  $_shadow_color: darken($link_color, 10%)
+  background: $link_color
+  background: linear-gradient(top, lighten($link_color, 10%), $link_color)
+  border-radius: 0.4em
+  border: 0.1em solid $_highlight_color
+  border-bottom-color: $_shadow_color
+  border-right-color: $_shadow_color
+  color: #ffffff
+  font-size: inherit
+  margin-top: 0
+  padding: 0.5em 1em
+  cursor: pointer
+  text-shadow: rgba(0,0,0,0.5) 0.1em 0.1em 0.1em
+  &:active
+    margin-top: 0.1em
+    padding-bottom: 0.4em
+
+form
+  .field
+    margin-bottom: 1.75em
+    margin-top: 0.9em
+  .hint
+    color: #aaaaaa
+    float: right
+    font-weight: normal
+    &:before
+      content: '('
+    &:after
+      content: ')'
+    a
+      color: #aaaaaa
+
+label
+  cursor: pointer
+  display: block
+  font-weight: bold
+
+textarea
+  height: 19.3em
+
+input
+  margin-top: -0.2em
+
+.text
+  input, textarea
+    border: 1px solid #cccccc
+    box-sizing: border-box
+    font-size: 1em
+    padding: 0.2em
+    width: 100%
+
+.checkbox input
+  float: left
+  height: 1.8em
+  // Equal to line-height
+  margin-right: 0.5em
+  margin-top: 0.2em
+  padding: 0
+  + label
+    padding-left: 1em

@@ -1,0 +1,117 @@
+// Base Rules
+//
+// Default styling for how elements should look in all occurrences on the page
+//
+// http://smacss.com/book/type-base
+
+blockquote, figure, p, pre
+  margin-bottom: 0.9em
+  margin-top: 0.9em
+
+blockquote
+  font-family: georgia
+  padding-left: 1.6em
+  padding-right: 1.6em
+
+body
+  background: $background_color
+  border-top: 1em solid #7F8D3E
+  color: $text_color
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-serif
+  line-height: 1.8em
+
+h1, h2, h3
+  color: #3a3a3a
+  font-family: 'Open Sans', 'arial'
+  font-weight: bold
+  margin-bottom: 0.4em
+  margin-top: 1em
+  letter-spacing: -0.01em
+  line-height: 1em
+
+h1
+  font-size: 2.56em
+  letter-spacing: -0.04em
+  margin-bottom: 1em
+
+h2
+  font-size: 1.6em
+  letter-spacing: -0.06em
+  margin-bottom: 1em
+  margin-top: 1.8em
+
+// Links
+// ------------------------------
+
+a
+  &:link
+    color: $text_color
+    text-decoration: none
+    border-bottom: 0.18em solid $link_color
+  &:hover
+    color: $link_color
+    border-bottom: 0.18em solid $link_color
+
+// Code examples
+// ------------------------------
+
+code, pre
+  font-family: 'anonymous pro', 'courier new', 'courier'
+
+pre
+  background: #334433
+  background: linear-gradient(top, rgba(75,90,75,0.5), rgba(50,60,50,0.5)), url('../images/scanlines.gif') repeat 0 0
+  border-radius: 0.5em
+  box-shadow: inset rgba(0, 0, 0, 1) 0 0 1em
+  color: #eeffee
+  overflow: auto
+  text-shadow: rgba(200, 255, 0, 0.5) 0 0 0.2em
+
+// Override the styles from prettyprint
+pre,
+article pre.prettyprint
+  padding: 0.9em 1.6em
+  width: auto
+
+// Lists
+// ------------------------------
+
+article
+  h1
+    a
+      &:link,
+      &:visited,
+      &:hover
+        border-bottom: none
+        color: $text_color
+        text-decoration: none
+      &:hover
+        color: $link_color
+
+  ol, ul
+    margin: 0.9em 0 0.9em 1.5em
+  ol
+    list-style-type: decimal
+  ul
+    list-style-type: square
+
+// Tables
+// ------------------------------
+
+table
+  border-collapse: collapse
+  margin: 1em 0
+  max-width: $content_width
+  tr
+    border-bottom: 1px solid darken($background_color, 10%)
+  td, th
+    background: #ffffff
+    padding: 0.45em 0.9em
+    text-align: center
+    &:first-child
+      text-align: left
+    &:last-child
+      text-align: right
+  th
+    background: darken($background_color, 10%)
+    font-weight: bold

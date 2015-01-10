@@ -17,6 +17,9 @@ category_archive:
 monthly_archive:
   path: "journal"
 
+sass:
+  sass_dir: stylesheets
+
 defaults:
   -
     scope: # All blog posts
