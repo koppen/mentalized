@@ -11,7 +11,7 @@
 
     <meta name="robots" content="{{ page.robots }}" />
     <meta name="author" content="Jakob Skjerning" />
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:25 }}{% else %}{{ site.description | escape }}{% endif %}" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate:156 }}{% else %}{{ site.description | escape }}{% endif %}" />
 
     <link rel="author" href="https://plus.google.com/+JakobSkjerning?rel=author" />
 
