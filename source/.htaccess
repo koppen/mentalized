@@ -22,8 +22,8 @@ RewriteRule (.*)/index.html  /$1/ [R=301]
 RewriteRule ^journal/(\d\d\d\d)/?$  /journal/$1/01
 
 # The GOOG recommends dashes instead of underscores
-RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*_.*)$  /$1-$2 [N]
-RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*)$     /$1-$2 [R=301]
+RewriteRule ^(journal/.*?/[^/]*?)_(.*_.*)$  /$1-$2 [N]
+RewriteRule ^(journal/.*?/[^/]*?)_(.*)$     /$1-$2 [R=301]
 
 # Remove multiple dashes after each other
 RewriteRule ^(journal/.+?)--+(.+)$                  /$1-$2 [R=301]
