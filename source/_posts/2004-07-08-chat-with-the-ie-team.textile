@@ -8,8 +8,6 @@ categories:
 ---
 This could be somewhat interesting: "Windows XP Expert Zone Chat about Internet Explorer(Microsoft Community Chat)":http://communities2.microsoft.com/home/chatroom.aspx?siteid=34000077, today (Thursday, JUly 8th) at 10AM PST/19 CET. I don't think I will be able to attend, but it could be interesting reading the transcript seeing if the IE team is actually getting the hint these days.
 
-Update: Heh, when trying to access the chatroom using Firefox I am prompted to download a plugin. When installing that plugin I am faced with "this dialog(View the dialog box)":/journal/2004/07/08/chat_with_the_ie_team/activex_portability_container.gif:
-
-<a href="/journal/2004/07/08/chat_with_the_ie_team/activex_portability_container.gif" title="View full size"><img src="/journal/2004/07/08/chat_with_the_ie_team/activex_portability_container.gif" alt="Do you wish to install Potential Security Holes for Netscape?" /></a>
+Update: Heh, when trying to access the chatroom using Firefox I am prompted to download a plugin. When installing that plugin I am faced with a dialog warning me about installing ActiveX components.
 
 With the recent flaws in IE/ActiveX, I am not quite sure I want to add anything "Active" nor "X" to my browser. Ah well, time to fire up IE I guess.
