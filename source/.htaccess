@@ -28,6 +28,10 @@ RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)_(.*)$     /$1-$2 [R=301]
 # Remove multiple dashes after each other
 RewriteRule ^(journal/.+?)--+(.+)$                  /$1-$2 [R=301]
 
+# Remove whitespace
+RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)%20(.*_.*)$  /$1$2 [N]
+RewriteRule ^(journal/\d*/\d*/\d*/[^/]*?)%20(.*)$     /$1$2 [R=301]
+
 # Redirect stuff that shows up as 404s
 RewriteRule ^about/contact/?$                                                 /about [R=301]
 RewriteRule ^about/resume/?$                                                  /about [R=301]
@@ -108,7 +112,7 @@ RewriteRule ^features/elsewhere/splinter-cell-pandora-tomorrow-review(/.*)    /j
 RewriteRule ^features/everquest/ssraeshza-temple-notes(/.*)                   /journal/2004/03/05/ssraeshza-temple-notes$1 [R=301]
 RewriteRule ^features/everquest/alternate-advancement-aa-titles(/.*)          /journal/2004/02/04/alternate-advancement-aa-titles$1 [R=301]
 RewriteRule ^features/everquest/10th-ring-war-overview(/.*)                   /journal/2003/10/04/10th-ring-war-overview$1 [R=301]
-RewriteRule ^features/elsewhere/world-of-warcraft-preview(/.*)                /journal/2001/09/05/world-of-warcract-preview$1 [R=301]
+RewriteRule ^features/elsewhere/world-of-warcraft-preview(/.*)                /journal/2001/09/05/world-of-warcraft-preview$1 [R=301]
 RewriteRule ^features/everquest/class-titles(/.*)                             /journal/2003/07/30/everquest-class-titles$1 [R=301]
 RewriteRule ^features/everquest/the-iksar-handbook-of-infiltration(/.*)       /journal/2003/07/30/the-iksar-handbook-of-infiltration$1 [R=301]
 RewriteRule ^features/movable-type/power-your-website-with-movable-type(/.*)  /journal/2003/08/01/power-your-website-with-movable-type$1 [R=301]
