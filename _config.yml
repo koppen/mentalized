@@ -8,8 +8,8 @@ name: mentalized.net
 description: The virtual home of Jakob Skjerning
 url: http://mentalized.net
 
-ftp_host: "linux41.unoeuro.com"
-ftp_dir: "mentalized.net"
+ftp_host: "linux78.unoeuro.com"
+ftp_dir: "public_html"
 ftp_passive: true
 
 category_archive:
