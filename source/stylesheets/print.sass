@@ -1,6 +1,44 @@
-/*
-  Welcome to Compass. Use this file to define print styles.
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
+@import "settings"
+@import "layout"
+
+h1, h2, h3
+  color: #3a3a3a
+  font-family: 'Open Sans', 'arial'
+  font-weight: bold
+  margin-bottom: 0.4em
+  margin-top: 1em
+  letter-spacing: -0.01em
+  line-height: 1em
+
+h1
+  border-bottom: 1px solid #cccccc
+  font-size: 2.56em
+  letter-spacing: -0.04em
+  margin-bottom: 1rem
+  padding-bottom: 1rem
+
+h2
+  font-size: 1.6em
+  letter-spacing: -0.06em
+  margin-bottom: 1em
+  margin-top: 1.8em
+
+footer,
+header
+  display: none
+
+aside
+  border: 0
+  display: block
+  float: none
+  margin: 0
+  margin-bottom: 1rem
+  padding: 0
+  width: auto
+  p
+    margin: 0
+    max-width: 100%
