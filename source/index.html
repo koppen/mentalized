@@ -30,13 +30,16 @@ layout: default
     <h1>Recent entries</h1>
 
     <ul>
-      {% for post in site.posts limit: 5 %}
+      {% for post in site.posts limit: 4 %}
         <li>
           <a href="{{ post.url }}" title="Read '{{ post.title }}'">
             {{ post.title }}
           </a>
         </li>
       {% endfor %}
+      <li>
+        <a href="/journal/archives/" title="View everything Jakob has written">More&hellip;</a>
+      </li>
     </ul>
   </section>
 
