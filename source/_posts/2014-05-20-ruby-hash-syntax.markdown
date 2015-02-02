@@ -45,24 +45,46 @@ It really is a very special case; nothing but Symbols can use `:` as a key/value
 
 > "Only some symbol keys can be used in this fashion; for example, {:$set => 'b'} is valid whereas {$set: 'b'} is not. AFAIK, only symbols that are also valid labels can be used with the JavaScript-ish syntax." – [mu is too short](http://stackoverflow.com/questions/19352914/did-ruby-ever-support-this#comment28675727_19352928)
 
+### Except in Ruby 2.2 (Updated 2015-02-02)
+
+With the recent release of Ruby 2.2, the above is no longer accurate. With Ruby 2.2 you can indeed do
+
+{% highlight ruby %}
+h = {"foo": :bar}
+{% endhighlight %}
+
+Ruby still really wants you to use a `Symbol`, though, so the key will stealthily (no warnings, nothing) be changed from a `String` to a `Symbol` behind your back:
+
+{% highlight ruby %}
+h = {"foo": :bar} #=> {:foo=>:bar}
+h["foo"] #=> nil
+{% endhighlight %}
 
 ## It looks like keyword arguments, but isn't
 
 Even though they appear exactly the same, the `foo: "bar"` in
 
-    h = {foo: "bar"}
+{% highlight ruby %}
+h = {foo: "bar"}
+{% endhighlight %}
 
 is vastly different from the `foo: "bar"` in
 
-    def method(foo: "bar")
+{% highlight ruby %}
+def method(foo: "bar")
+{% endhighlight %}
 
 For example, as of Ruby 2.1 you can do
 
-    def method(foo:)
+{% highlight ruby %}
+def method(foo:)
+{% endhighlight %}
 
 You can't do
 
-    h = {foo:}
+{% highlight ruby %}
+h = {foo:}
+{% endhighlight %}
 
 It's special cases all the way down!
 
@@ -71,8 +93,10 @@ It's special cases all the way down!
 
 Ruby doesn't even believe in the new syntax and returns hash-rocket style output:
 
-    h = { foo: 'bar' }
-    #=> {:foo=>"bar"}
+{% highlight ruby %}
+h = { foo: 'bar' }
+#=> {:foo=>"bar"}
+{% endhighlight %}
 
 
 ## Get off mah lawn!
