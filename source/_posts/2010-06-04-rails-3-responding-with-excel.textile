@@ -26,7 +26,8 @@ h2. The custom renderer
 
 Add the following code to config/initializers/xls_responder.rb
 
-bc(ruby). Mime::Type.register "application/vnd.ms-excel", :xls ActionController::Renderers.add :xls do |object, options|
+bc(ruby). Mime::Type.register "application/vnd.ms-excel", :xls
+ActionController::Renderers.add :xls do |object, options|
   self.send_data object.to_xls_data, :type => :xls
 end
 
