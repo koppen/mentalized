@@ -1,3 +1,7 @@
+# Disable UnoEuros Security Filter. It is filtering out requests from IFTTT, and
+# support seems unwilling to care about this being a false positive.
+SecFilterEngine off
+
 RewriteEngine on
 
 # Remove www
