@@ -61,7 +61,7 @@ While IE9 does support most the CSS that's needed for this button style, it nota
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fec848', endColorstr='#f87d1a');
     }
 
-![Button with IE filter rendered in IE9](/files/journal/arrow_button/IE9_css_and_filter.png)
+![Button with IE filter rendered in IE9](/files/journal/arrow_button/ie9_css_and_filter.png)
 
 Unfortunately, the IE filter doesn't work with border radius, thus the gradient isn't rounded as it should be (note the square corners above). IE will not even clip the background gradient if we add `overflow: hidden`.
 
