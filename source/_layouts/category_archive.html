@@ -4,9 +4,9 @@ robots: noindex, follow
 ---
 
 <article class="category-archive">
-  <h1>Articles about {{page.category}}</h1>
+  <h1>Articles about {{page.title}}</h1>
   <div class="article-list">
-    {% for post in page.posts reversed %}
+    {% for post in page.posts %}
       <article>
         {% include post_excerpt.html %}
       </article>

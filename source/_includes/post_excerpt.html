@@ -10,7 +10,7 @@
     <span class="timestamp">{{ post.date | date_to_long_string }}</span>
     in
     {% for category in post.categories %}
-      {% categorylink category %}{{category}}{% endcategorylink %},
+      <a href="/journal/{{category}}">{{category}}</a>,
     {% endfor %}
   </p>
 </aside>

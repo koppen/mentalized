@@ -3,10 +3,13 @@ layout: default
 robots: noindex, follow
 ---
 <div class="monthly-archive">
-  <h1>Articles from {{page.year}}/{{page.month}}</h1>
-
+  {% if page.type == "month" %}
+    <h1>Articles from {{ page.date | date: "%B %Y" }}</h1>
+  {% elsif page.type == "year" %}
+    <h1>Articles from {{ page.date | date: "%Y" }}</h1>
+  {% endif %}
   <div class="article-list">
-    {% for post in page.posts reversed %}
+    {% for post in page.posts %}
       <article>
         {% include post_excerpt.html %}
       </article>

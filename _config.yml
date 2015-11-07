@@ -1,3 +1,6 @@
+gems:
+  - jekyll-archives
+
 excerpt_separator: "<!--more-->"
 markdown: redcarpet
 highligher: pygments
@@ -12,10 +15,19 @@ ftp_host: "linux78.unoeuro.com"
 ftp_dir: "public_html"
 ftp_passive: true
 
-category_archive:
-  path: "journal"
-monthly_archive:
-  path: "journal"
+jekyll-archives:
+  enabled:
+    - categories
+    - month
+    - year
+  layouts:
+    category: 'category_archive'
+    month: 'monthly_archive'
+    year: 'monthly_archive'
+  permalinks:
+    category: '/journal/:name/'
+    month: '/journal/:year/:month/'
+    year: '/journal/:year/'
 
 sass:
   sass_dir: stylesheets
