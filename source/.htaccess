@@ -2,6 +2,10 @@
 # support seems unwilling to care about this being a false positive.
 SecFilterEngine off
 
+# Support Jekylls "pretty" permalink format (ie without .html nor trailing slash
+# in the URL).
+Options +MultiViews
+
 RewriteEngine on
 
 # Remove www
