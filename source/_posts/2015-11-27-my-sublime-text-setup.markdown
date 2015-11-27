@@ -2,7 +2,6 @@
 title: My Sublime Text setup
 categories:
 - programming
-- projects
 - technology
 ---
 

@@ -3,6 +3,7 @@ title: Announcing Capistrano-Remote
 layout: post
 categories:
 - programming
+- projects
 - technology
 ---
 
