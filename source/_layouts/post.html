@@ -9,7 +9,7 @@ layout: default
       Posted
       <span class="timestamp">{{ page.date | date_to_long_string }}</span>
       in
-      {% for category in post.categories %}
+      {% for category in page.categories %}
         <a href="/journal/{{category}}">{{category}}</a>,
       {% endfor %}
     </p>
