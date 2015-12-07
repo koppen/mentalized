@@ -1,5 +1,6 @@
 gems:
   - jekyll-archives
+  - jekyll-textile-converter
 
 excerpt_separator: "<!--more-->"
 markdown: redcarpet
