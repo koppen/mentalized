@@ -10,7 +10,7 @@ layout: default
       <span class="timestamp">{{ page.date | date_to_long_string }}</span>
       in
       {% for category in page.categories %}
-        <a href="/journal/{{category}}">{{category}}</a>,
+        <a href="/journal/{{category | slugify}}">{{category}}</a>,
       {% endfor %}
     </p>
   </aside>
