@@ -86,5 +86,4 @@ few notable alternatives to `update_attribute`:
   which is lower level, doesn't run validations, and only updates what it's been told to.
 
 And do check out David Verhasselts excellent overview of [different ways to set
-attributes in ActiveRecord](http://www.davidverhasselt.com/set-attributes-in-
-activerecord/).
+attributes in ActiveRecord](http://www.davidverhasselt.com/set-attributes-in-activerecord/).
