@@ -7,15 +7,15 @@ categories:
 - webdesign
 - programming
 ---
-MSDN's documentation sucks. Wanting to raise a runtime error in VBScript, I looked up the appropriate method; "err.raise on MSDN(Raise Method)":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/vsmthraise.asp. The description there is pretty straightforward, until you get to the part where you want to decide on an error number.
+MSDN's documentation sucks. Wanting to raise a runtime error in VBScript, I looked up the appropriate method; "err.raise on MSDN(Raise Method)":https://msdn.microsoft.com/en-us/library/h1hea41c(v=vs.84).aspx. The description there is pretty straightforward, until you get to the part where you want to decide on an error number.
 
 <!--more-->
 
-bq. number: A Long integer subtype that identifies the nature of the error. VBScript errors (both VBScript-defined and user-defined errors) are in the range 0?65535.
+bq. number: A Long integer subtype that identifies the nature of the error. VBScript errors (both VBScript-defined and user-defined errors) are in the range 0-65535.
 
 bq. When setting the number property to your own error code in an Automation object, you add your error code number to the constant vbObjectError. For example, to generate the error number 1050, assign vbObjectError + 1050 to the number property.
 
-Aha, I see, but how about the regular errors, what numbers do they have? Luckily there are "See also"-links at the bottom of the page, unfortunatly none of them links to a list of error numbers. Hm, ok, perhaps I have to look up the "Number property(Number Property)":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/vspronumber.asp:
+Aha, I see, but how about the regular errors, what numbers do they have? Luckily there are "See also"-links at the bottom of the page, unfortunatly none of them links to a list of error numbers. Hm, ok, perhaps I have to look up the "Number property(Number Property)":https://msdn.microsoft.com/en-us/library/5t7981hw(v=vs.84).aspx:
 
 bq. Returns or sets a numeric value specifying an error. 
 
@@ -23,7 +23,7 @@ Well duh, that didn't make me much more informed, and this page doesn't include 
 
 Time to turn to the lost users' last resort: The search engine. Inputting "vbscript error numbers" yields me "an unknown number of results(Search Results)":http://search.microsoft.com/search/results.aspx?qu=vbscript+error+numbers&View=msdn&st=b&c=4&s=1&swc=4 that does me no good. At least none of the page titles indicates the documents contain a list of error numbers, and I can't be bothered to check every document. The next 3 pages are equally unhelpful.
 
-Now frustrated and lost, I decide to start over. And here we go. The "VBScript Language Reference(VB Script Language Reference)":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/vbscripttoc.asp has a link to "Errors(Errors)":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/vtorierrors.asp, which in return links to a list of "VBScript Run-time Errors(Errors)":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/vsmscruntimeerrors.asp.
+Now frustrated and lost, I decide to start over. And here we go. The "VBScript Language Reference(VB Script Language Reference)":https://msdn.microsoft.com/en-us/library/3ca8tfek(v=vs.84).aspx has a link to "Errors(Errors)":https://msdn.microsoft.com/en-us/library/5ta518cw(v=vs.84).aspx, which in return links to a list of "VBScript Run-time Errors(Errors)":https://msdn.microsoft.com/en-us/library/xe43cc8d(v=vs.84).aspx.
 
 Piece of cake! Silly me for trying to look in the logical, related place; The documentation about handling and raising errors. Who'd have thunk a list of errors could've been interesting there?
 
