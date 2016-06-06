@@ -1,6 +1,12 @@
 # Disable UnoEuros Security Filter. It is filtering out requests from IFTTT, and
 # support seems unwilling to care about this being a false positive.
-SecFilterEngine off
+<IfModule security_module>
+    SecFilterEngine Off
+</IfModule>
+<IfModule security2_module>
+    SecRuleRemoveByID 1-99999
+    SecRuleRemoveByTag unoeuro
+</IfModule>
 
 # Support Jekylls "pretty" permalink format (ie without .html nor trailing slash
 # in the URL).
