@@ -5,7 +5,7 @@ gems:
 excerpt_separator: "<!--more-->"
 markdown: redcarpet
 highligher: pygments
-permalink: "/journal/:year/:month/:day/:title"
+permalink: "/journal/:year/:month/:day/:title/"
 source: source
 
 name: mentalized.net
