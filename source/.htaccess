@@ -30,6 +30,22 @@
   Header append Vary User-Agent
 </IfModule>
 
+# Cache things for a bit
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault A0
+
+  # Images
+  <filesMatch ".(jpg|jpeg|png|gif|ico)$">
+    ExpiresDefault A3600
+  </filesMatch>
+
+  # CSS and Javascripts
+  <filesMatch ".(css|js)$">
+    ExpiresDefault A3600
+  </filesMatch>
+</IfModule>
+
 # Support Jekylls "pretty" permalink format (ie without .html nor trailing slash
 # in the URL).
 Options +MultiViews
