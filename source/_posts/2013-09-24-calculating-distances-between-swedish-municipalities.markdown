@@ -38,7 +38,7 @@ Importing an OSM PBF file into PostGIS is remarkably easy - once you know how to
 
 I've chosen to use [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) and after [installing it](http://wiki.openstreetmap.org/wiki/Osmosis/Installation), the entire process looks roughly like (creating a database named osm):
 
-{% highlight console %}
+``` console
 # Setting up the geo-spatial database
 createdb osm
 createlang plpgsql osm
@@ -50,15 +50,15 @@ psql -d osm -f $OSMOSIS_PATH/script/pgsnapshot_load_0.6.sql
 psql -d osm -f $OSMOSIS_PATH/script/pgsnapshot_schema_0.6_action.sql
 psql -d osm -f $OSMOSIS_PATH/script/pgsnapshot_schema_0.6_bbox.sql
 psql -d osm -f $OSMOSIS_PATH/script/pgsnapshot_schema_0.6_linestring.sql
-{% endhighlight %}
+```
 
 (I can't help but think there must be some easy-to-use, prepackaged script for this, but I didn't find one).
 
 All of that, so we can actually import the data:
 
-{% highlight console %}
+``` console
 osmosis --read-pbf file=sweden-latest.osm.pbf --write-pgsql database=osm
-{% endhighlight %}
+```
 
 Now, go grab a cup of coffee. And drink it. And go brew another cup. Actually, go buy a new coffee machine. And perhaps start a coffee farm. In other words, it takes a while.
 
@@ -68,13 +68,13 @@ Now the import of the raw data is done and you've made a solid career as a coffe
 
 OpenStreetMap saves the municipalities as administrative relations with names ending with " kommun":
 
-{% highlight sql %}
+``` sql
 osm=# select count(*) from relations where tags->'boundary'='administrative' AND tags->'name' LIKE '% kommun';
  count
 -------
    290
 (1 row)
-{% endhighlight %}
+```
 
 Luckily, 290 is exactly how many municipalities [Wikipedia claims Sweden has](http://en.wikipedia.org/wiki/Municipalities_of_Sweden). Bingo.
 
@@ -90,18 +90,18 @@ We need to merge all those lines into a polygon we can use.
 
 Using [`ST_Union`](http://postgis.refractions.net/documentation/manual-2.0/ST_Union.html) we can merge line strings together. For example, combining all the lines making up Ale municipality:
 
-{% highlight sql %}
+``` sql
 SELECT ST_Union(linestring)
 FROM relations, relation_members, ways
 WHERE relations.tags->'name' = 'Ale kommun'
   AND relations.id=relation_id
   AND member_id=ways.id
 GROUP BY relation_id;
-{% endhighlight %}
+```
 
 We can use all of the above to create a table with the geometries for every municipality in Sweden:
 
-{% highlight sql %}
+``` sql
 SELECT relations.tags->'name' AS name, ST_Union(linestring) AS polygon
 INTO municipalities
 FROM relations, relation_members, ways
@@ -110,13 +110,13 @@ WHERE relations.id=relation_id
   AND relations.tags->'boundary'='administrative'
   AND relations.tags->'name' LIKE '% kommun'
 GROUP BY relations.tags->'name';
-{% endhighlight %}
+```
 
 ## Once again, the distance between two municipalities
 
 With that in place, we can find the distance between two municipalities:
 
-{% highlight sql %}
+``` sql
 SELECT ST_Distance(
   (SELECT polygon FROM municipalities WHERE name='Jönköpings kommun'),
   (SELECT polygon FROM municipalities WHERE name='Halmstads kommun'),
@@ -124,7 +124,7 @@ SELECT ST_Distance(
    st_distance
 ------------------
  81165.4329007982
-{% endhighlight %}
+```
 
 That last `true` is important as it makes `ST_Distance` give us the result in understandable meters. In other words, there is roughly 81 km between Ale and Jönköping municipalities. Now I know that.
 
@@ -134,13 +134,13 @@ Phew, finally, the last piece of the puzzle: Actually building the resulting tab
 
 Time to make one of those cartesian products queries that your DBAs always scolds you for:
 
-{% highlight sql %}
+``` sql
 SELECT source.name source_name,
        destination.name destination_name,
        ST_Distance(source.polygon, destination.polygon, true)
 FROM municipalities source,
      municipalities destination;
-{% endhighlight %}
+```
 
 This could clearly be optimized (it calculates the distance between each municipality twice (one for each direction)), but you could just run it and make sure to store the output somewhere (perhaps [in CSV format](http://mentalized.net/journal/2011/11/07/how_to_export_csv_data_from_postgresql/).
 

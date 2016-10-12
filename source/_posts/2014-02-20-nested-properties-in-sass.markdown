@@ -9,18 +9,18 @@ categories:
 ---
 I have been using [Sass](http://sass-lang.com/) for ages and I never realized I could do:
 
-{% highlight sass %}
+``` sass
 margin:
   top: 1em
   bottom: 2em
-{% endhighlight %}
+```
 
 and have it compile to:
 
-{% highlight css %}
+``` css
 margin-top: 1em;
 margin-bottom: 2em;
-{% endhighlight %}
+```
 
 This is a great timesaver for all those `background-image`, `margin`, `padding`, `border` declarations.
 
@@ -30,19 +30,19 @@ This is a great timesaver for all those `background-image`, `margin`, `padding`,
 
 It even allows deeper levels of nesting, so you can do:
 
-{% highlight sass %}
+``` sass
 border:
   top:
     style: dashed
     left:
       radius: 1em
-{% endhighlight %}
+```
 
 to get:
 
-{% highlight css %}
+``` css
 border-top-style: dashed;
 border-top-left-radius: 1em;
-{% endhighlight %}
+```
 
 I guess that'll teach me to [RTFM](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#nested_properties).

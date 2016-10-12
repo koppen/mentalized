@@ -20,9 +20,9 @@ So I wrote a small Ruby script to set the same desktop background image on all c
 
 You should now be able to run the script. Simply give it a path to an image file - or the path to a folder, in which case the script picks a random image file from inside that:
 
-{% highlight console %}
+``` console
 $ set_desktop ~/Pictures/DesktopImages
-{% endhighlight %}
+```
 
 ## Plays well with Desktoppr
 
@@ -30,7 +30,7 @@ I have my machine configured to set a random wallpaper image from my [Desktoppr]
 
 ## The script
 
-{% highlight ruby %}
+``` ruby
 #!/usr/bin/env ruby
 abort "Usage: #{__FILE__} [image]" if ARGV.empty?
 
@@ -60,4 +60,4 @@ end
 wallpaper_path = File.expand_path(ARGV.first)
 wallpaper_path = get_wallpaper(wallpaper_path)
 set_wallpaper(wallpaper_path)
-{% endhighlight %}
+```

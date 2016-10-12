@@ -16,28 +16,28 @@ It comes with its own mechanisms for ensuring consistency, but it can be coerced
 
 Imagine you've implemented an [`ActiveRecord`](http://api.rubyonrails.org/classes/ActiveRecord/Base.html) model named `User`, with the following schema:
 
-{% highlight ruby %}
+``` ruby
 create_table "users", force: true do |t|
   t.string "name"
 end
-{% endhighlight %}
+```
 
 Names need to be unique across users, so you've also added a unique constrain on the `name` column:
 
-{% highlight ruby %}
+``` ruby
 add_index "users", ["name"], unique: true
-{% endhighlight %}
+```
 
 This way we know we'll never get two rows with the same name value in the database:
 
-{% highlight ruby %}
+``` ruby
 >> User.create!(:name => "Bob")
 => #<User id: 1, name: "Bob">
 >> User.create!(:name => "Bob")
 ActiveRecord::RecordNotUnique: PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_name"
 DETAIL:  Key (name)=(Bob) already exists.
 : INSERT INTO "users" ("name") VALUES ($1) RETURNING "id"
-{% endhighlight %}
+```
 
 Not the cleanest of results but pretty much as expected: We hit the unique constraint, the database refuses to store the data, and ActiveRecord raises an exception.
 
@@ -57,7 +57,7 @@ But how do we handle those cases where the validation won't suffice and we don't
 
 If we create our `save` method, we can actually catch the database error before it bubbles up to the user interface and - hopefully - do something better with it:
 
-{% highlight ruby %}
+``` ruby
 class User < ActiveRecord::Base
   def save(*args)
     super
@@ -66,7 +66,7 @@ class User < ActiveRecord::Base
     false
   end
 end
-{% endhighlight %}
+```
 
 Now, at least the user gets a clue as to what has happened, but perhaps not in the most user friendly fashion:
 

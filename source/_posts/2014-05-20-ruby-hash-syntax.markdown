@@ -49,42 +49,42 @@ It really is a very special case; nothing but Symbols can use `:` as a key/value
 
 With the recent release of Ruby 2.2, the above is no longer accurate. With Ruby 2.2 you can indeed do
 
-{% highlight ruby %}
+``` ruby
 h = {"foo": :bar}
-{% endhighlight %}
+```
 
 Ruby still really wants you to use a `Symbol`, though, so the key will stealthily (no warnings, nothing) be changed from a `String` to a `Symbol` behind your back:
 
-{% highlight ruby %}
+``` ruby
 h = {"foo": :bar} #=> {:foo=>:bar}
 h["foo"] #=> nil
-{% endhighlight %}
+```
 
 ## It looks like keyword arguments, but isn't
 
 Even though they appear exactly the same, the `foo: "bar"` in
 
-{% highlight ruby %}
+``` ruby
 h = {foo: "bar"}
-{% endhighlight %}
+```
 
 is vastly different from the `foo: "bar"` in
 
-{% highlight ruby %}
+``` ruby
 def method(foo: "bar")
-{% endhighlight %}
+```
 
 For example, as of Ruby 2.1 you can do
 
-{% highlight ruby %}
+``` ruby
 def method(foo:)
-{% endhighlight %}
+```
 
 You can't do
 
-{% highlight ruby %}
+``` ruby
 h = {foo:}
-{% endhighlight %}
+```
 
 It's special cases all the way down!
 
@@ -93,10 +93,10 @@ It's special cases all the way down!
 
 Ruby doesn't even believe in the new syntax and returns hash-rocket style output:
 
-{% highlight ruby %}
+``` ruby
 h = { foo: 'bar' }
 #=> {:foo=>"bar"}
-{% endhighlight %}
+```
 
 
 ## Get off mah lawn!
