@@ -1,9 +1,12 @@
 GIT
   remote: git://github.com/dmathieu/glynn.git
-  revision: f3fb495f98b30edcb0d635197f50c9cca3039b22
+  revision: aa7fe3fde377c8cc7550b1d27be828b778341b39
   specs:
-    glynn (1.0.11)
+    glynn (1.3.0)
+      double-bag-ftps (~> 0.1.2)
+      highline (>= 1.5)
       jekyll
+      netrc
 
 GEM
   remote: https://rubygems.org/
@@ -12,8 +15,10 @@ GEM
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
+    double-bag-ftps (0.1.3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
+    highline (1.7.8)
     jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -42,6 +47,7 @@ GEM
       nokogiri (>= 1.5.9)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
+    netrc (0.11.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
@@ -50,7 +56,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    redcarpet (3.2.2)
+    redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
