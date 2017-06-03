@@ -35,7 +35,7 @@ GEM
       nokogiri (>= 1.5.9)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    nokogiri (1.7.1)
+    nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -46,7 +46,7 @@ GEM
     redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.24)
 
 PLATFORMS
   ruby
