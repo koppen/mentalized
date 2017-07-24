@@ -28,7 +28,7 @@ STDERR.puts "error"
 
 ## <a href="http://ruby-doc.org/core/classes/Kernel.html#M005960">Kernel#`</a> (backticks)
 
-bq. Returns the standard output of running cmd in a subshell. The built-in syntax %x{...} uses this method. Sets $? to the process status.
+> Returns the standard output of running cmd in a subshell. The built-in syntax %x{...} uses this method. Sets $? to the process status.
 
 ``` ruby
 >> `./err.rb`
@@ -42,7 +42,7 @@ err
 
 ## <a href="http://ruby-doc.org/core/classes/Kernel.html#M005968">Kernel#exec</a>
 
-bq. Replaces the current process by running the given external command.
+> Replaces the current process by running the given external command.
 
 ``` ruby
 >> exec('./err.rb')
@@ -55,7 +55,7 @@ err
 
 ## <a href="http://ruby-doc.org/core/classes/Kernel.html#M005971">Kernel#system</a>
 
-bq. Executes cmd in a subshell, returning true if the command was found and ran successfully, false otherwise. An error status is available in $?. The arguments are processed in the same way as for Kernel::exec.
+> Executes cmd in a subshell, returning true if the command was found and ran successfully, false otherwise. An error status is available in $?. The arguments are processed in the same way as for Kernel::exec.
 
 ``` ruby
 >> system('./err.rb')
@@ -69,7 +69,7 @@ err
 
 ## <a href="http://ruby-doc.org/core/classes/IO.html#M002242">IO#popen</a>
 
-bq. Runs the specified command string as a subprocess; the subprocess's standard input and output will be connected to the returned IO object.
+> Runs the specified command string as a subprocess; the subprocess's standard input and output will be connected to the returned IO object.
 
 ``` ruby
 >> output = IO.popen('./err.rb')
@@ -85,7 +85,7 @@ output.readlines
 
 ## <a href="http://ruby-doc.org/core/classes/Open3.html">Open3#popen3</a>
 
-bq. Open stdin, stdout, and stderr streams and start external executable.
+> Open stdin, stdout, and stderr streams and start external executable.
 
 ``` ruby
 >> require 'open3'
