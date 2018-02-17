@@ -32,7 +32,7 @@ As a product owner you need to realize and accept the fact that your software ne
 
 h3. Schedule time for continuous improvements
 
-If you are exclusively focused on adding new features, you will eventually find yourself facing the big rewrite. So set aside some time, perhaps a day every week (which is what we've experimented with on the "Wildfire":http://wildfireapp.com "team":http://github.com/wildfireapp) where your developers aren't expected to work on new features.
+If you are exclusively focused on adding new features, you will eventually find yourself facing the big rewrite. So set aside some time, perhaps a day every week where your developers aren't expected to work on new features.
 
 Alternatively, this can happen as part of the daily workflow. Done implementing a feature? Then improve some code in some manner. Then back to the next story of the iteration. Rinse and repeat. 
 
