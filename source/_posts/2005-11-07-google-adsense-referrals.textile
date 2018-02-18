@@ -8,7 +8,7 @@ categories:
 ---
 Google announced a new way for you to make a bit of cash from your website; "Earn money by making other people sign up for AdSense":https://www.google.com/support/adsense/bin/answer.py?answer=27406. 
 
-This makes a whole lot of sense for Google. AdSense is obviously their cash cow so the more sites publishing their ads the better. And they're probably trying to get as many publishers as possible before "Yahoo":http://publisher.yahoo.com/ comes around snatching them all.
+This makes a whole lot of sense for Google. AdSense is obviously their cash cow so the more sites publishing their ads the better. And they're probably trying to get as many publishers as possible before Yahoo comes around snatching them all.
 
 What I do wonder, though, is what is the deal with those huge, clunky graphical banners: <script type="text/javascript"><!--
 google_ad_client = "pub-7407278311558118";
