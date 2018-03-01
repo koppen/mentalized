@@ -1,5 +1,5 @@
 ---
-title: "How to add avatar to your emails"
+title: "How to add an avatar to your emails"
 categories:
 - technology
 ---
