@@ -1,0 +1,52 @@
+https://keybase.io/mentalizer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mentalized.net
+  * I am mentalizer (https://keybase.io/mentalizer) on keybase.
+  * I have a public key ASBxX56wLfFNIwlMO32ULXxUdgYmMjp2aLKCWCqciQon_go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010146b7f02ae1e5046692630e215b69685fc6d8af13cb6ff8f45801c27b5bb554900a",
+      "host": "keybase.io",
+      "kid": "0120715f9eb02df14d23094c3b7d942d7c54760626323a7668b282582a9c890a27fe0a",
+      "uid": "490cc31b1210b9920e56388565b03d19",
+      "username": "mentalizer"
+    },
+    "merkle_root": {
+      "ctime": 1519977043,
+      "hash": "d6c213b90c22c30310e3b4a55489718776f248dfde9039f3452b003f2bea9371d7de70264f95c7d4187251ac557f041660c2d3ac4619904d74f53ef4a877e528",
+      "hash_meta": "5939f4061a7e7dad6c356e4135a859683e6fee0fa1885550c7bdf4224a4f0e55",
+      "seqno": 2174754
+    },
+    "service": {
+      "hostname": "mentalized.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1519977144,
+  "expire_in": 504576000,
+  "prev": "e01cd1c95ffc4bd0585c78a3ce648d99abedfb103265b9772220a28fbb05244b",
+  "seqno": 36,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcV+esC3xTSMJTDt9lC18VHYGJjI6dmiyglgqnIkKJ/4Kp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDZiN2YwMmFlMWU1MDQ2NjkyNjMwZTIxNWI2OTY4NWZjNmQ4YWYxM2NiNmZmOGY0NTgwMWMyN2I1YmI1NTQ5MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzE1ZjllYjAyZGYxNGQyMzA5NGMzYjdkOTQyZDdjNTQ3NjA2MjYzMjNhNzY2OGIyODI1ODJhOWM4OTBhMjdmZTBhIiwidWlkIjoiNDkwY2MzMWIxMjEwYjk5MjBlNTYzODg1NjViMDNkMTkiLCJ1c2VybmFtZSI6Im1lbnRhbGl6ZXIifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTk5NzcwNDMsImhhc2giOiJkNmMyMTNiOTBjMjJjMzAzMTBlM2I0YTU1NDg5NzE4Nzc2ZjI0OGRmZGU5MDM5ZjM0NTJiMDAzZjJiZWE5MzcxZDdkZTcwMjY0Zjk1YzdkNDE4NzI1MWFjNTU3ZjA0MTY2MGMyZDNhYzQ2MTk5MDRkNzRmNTNlZjRhODc3ZTUyOCIsImhhc2hfbWV0YSI6IjU5MzlmNDA2MWE3ZTdkYWQ2YzM1NmU0MTM1YTg1OTY4M2U2ZmVlMGZhMTg4NTU1MGM3YmRmNDIyNGE0ZjBlNTUiLCJzZXFubyI6MjE3NDc1NH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtZW50YWxpemVkLm5ldCIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQwIn0sImN0aW1lIjoxNTE5OTc3MTQ0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImUwMWNkMWM5NWZmYzRiZDA1ODVjNzhhM2NlNjQ4ZDk5YWJlZGZiMTAzMjY1Yjk3NzIyMjBhMjhmYmIwNTI0NGIiLCJzZXFubyI6MzYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RApOiyMFos2xz8r6hO/8XevFAfr2l8S5tQecGxYQsAfYNeJcY4dC+evs8KHQ1YBBFjHkwwPxWroN+p6kQZiLuBCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDvJ6VBrwfdIUuqsV2GgIkkLytOFjpHhD4gtXfb+Dh8ro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mentalizer
