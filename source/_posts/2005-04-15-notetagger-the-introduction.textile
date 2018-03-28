@@ -32,4 +32,4 @@ Being a project for myself only, and one I have a pretty good grasp of what I wa
 
 I also cooked up a simple HTML mockup of how I imagined the application to look and behave, and then I started digging into the code. 
 
-"Read the next part(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/index.php
+"Read the next part(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/index.php

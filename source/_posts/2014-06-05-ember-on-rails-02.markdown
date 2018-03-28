@@ -8,7 +8,7 @@ published: true
 series: "Ember on Rails"
 ---
 
-When we left our [Ember application in part 1](http://mentalized.net/journal/2014/06/01/ember_on_rails_01/), it was functional but only capable of showing hardcoded dummy data. It is time to remedy that.
+When we left our [Ember application in part 1](http://mentalized.net/journal/2014/06/01/ember-on-rails-01/), it was functional but only capable of showing hardcoded dummy data. It is time to remedy that.
 
 In this part 2 of my learning [Ember](http://emberjs.com) in public, we'll hook our Ember frontend to our [Rails](http://rubyonrails.org) backend.
 

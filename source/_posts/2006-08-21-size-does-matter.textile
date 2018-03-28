@@ -9,7 +9,7 @@ categories:
 - projects
 - browsers
 ---
-+I have published "my report and findings on this subject":http://mentalized.net/journal/2006/10/24/size_does_matter_actual_numbers/ .+
++I have published "my report and findings on this subject":http://mentalized.net/journal/2006/10/24/size-does-matter-actual-numbers/ .+
 
 In his most recent Alertbox, Jakob Nielsen dived into "screen resolution and page layout":http://www.useit.com/alertbox/screen_resolution.html. His summarized findings are:
 

@@ -6,7 +6,7 @@ mt_id: 1518
 categories:
 - projects
 ---
-Cool, Someone built "Notetagger":http://www.notetagger.com. Seems like someone either took "my tutorial":http://mentalized.net/journal/2005/04/15/notetagger_the_introduction/ and ran with it, or had the same idea and came up with the same name, which isn't unlikely at all.
+Cool, Someone built "Notetagger":http://www.notetagger.com. Seems like someone either took "my tutorial":http://mentalized.net/journal/2005/04/15/notetagger-the-introduction/ and ran with it, or had the same idea and came up with the same name, which isn't unlikely at all.
 
 I have no reason to believe one way or the other, and it doesn't really matter to me. I just think it's cool that an idea of mine is being brought alive by someone not me - even if that someone might not know it.
 

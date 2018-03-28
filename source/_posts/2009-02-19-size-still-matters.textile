@@ -6,7 +6,7 @@ mt_id: 1998
 categories:
 - webdesign
 ---
-A couple of years ago (wow, has it been that long already?) I posted the results from my research into browser viewport widths, "Size Does Matter":http://mentalized.net/journal/2006/10/24/browser_size_does_matter_actual_numbers/.
+A couple of years ago (wow, has it been that long already?) I posted the results from my research into browser viewport widths, "Size Does Matter":http://mentalized.net/journal/2006/10/24/browser-size-does-matter-actual-numbers/.
 
 Back then, I pointed out that basing your designs on the width of the screen was pointless. Far from every visitor would actually use the full width of their screen for their browser - only 66% on average. The wider your screen, the less likely you were to maximize your browser.
 

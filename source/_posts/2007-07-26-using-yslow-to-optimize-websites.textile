@@ -76,7 +76,7 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 
 With one external Javascript file left uncompressed, our grade here transformed into a B.
 
-+<strong>Update</strong>: If you need to serve your content to Flash and want it to work in Internet Explorer 6, you should check out this post: "Warning: Warning: GZip content, Flash Player, and Internet Explorer 6":http://mentalized.net/journal/2007/07/31/warning_gzip_content_flash_player_and_internet_explorer_6/ .+
++<strong>Update</strong>: If you need to serve your content to Flash and want it to work in Internet Explorer 6, you should check out this post: "Warning: Warning: GZip content, Flash Player, and Internet Explorer 6":http://mentalized.net/journal/2007/07/31/warning-gzip-content-flash-player-and-internet-explorer-6/ .+
 
 h2. Move scripts to the bottom (D)
 

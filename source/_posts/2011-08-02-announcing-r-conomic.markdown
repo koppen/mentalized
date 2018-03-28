@@ -7,7 +7,7 @@ categories:
 - software
 - programming
 ---
-If you have ever tried to integrate with [e-conomic](http://e-conomic.dk) you'll likely recognize that their API comes out pretty high on the [How to make a crappy API checklist](http://mentalized.net/journal/2011/06/24/how_to_make_a_crappy_api/).
+If you have ever tried to integrate with [e-conomic](http://e-conomic.dk) you'll likely recognize that their API comes out pretty high on the [How to make a crappy API checklist](http://mentalized.net/journal/2011/06/24/how-to-make-a-crappy-api/).
 
 Luckily, if you're using Ruby, you can now use the [r-conomic gem](http://rubygems.org/gems/rconomic) to handle SOAP and the other tedious bits for you.
 

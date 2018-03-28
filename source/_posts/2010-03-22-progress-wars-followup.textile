@@ -7,7 +7,7 @@ categories:
 - projects
 - games
 ---
-Roughly one week ago I posted a "blog post":http://mentalized.net/journal/2010/03/15/introducing_progress_wars/ and a single, innocent "tweet":http://twitter.com/mentalizer/status/10515974760 announcing the launch of "Progress Wars":http://progresswars.com.
+Roughly one week ago I posted a "blog post":http://mentalized.net/journal/2010/03/15/introducing-progress-wars/ and a single, innocent "tweet":http://twitter.com/mentalizer/status/10515974760 announcing the launch of "Progress Wars":http://progresswars.com.
 
 The morning after I fired up Google Analytics to see if anyone had visited the site, expecting perhaps 100 visits or so and my jaw instantly hit the floor. 
 

@@ -18,7 +18,7 @@ Here's how I imported geo data from a bunch of files containing GPS traces in [G
 
 ## Install PostGIS
 
-Golly, I recently wrote [a tutorial how to install PostGIS](http://mentalized.net/journal/2013/04/05/how_to_install_postgis_on_mountain_lion/) - what a coincidence.
+Golly, I recently wrote [a tutorial how to install PostGIS](http://mentalized.net/journal/2013/04/05/how-to-install-postgis-on-mountain-lion/) - what a coincidence.
 
 ## Install GDAL
 

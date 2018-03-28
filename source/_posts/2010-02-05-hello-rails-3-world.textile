@@ -6,7 +6,7 @@ mt_id: 2024
 categories:
 - programming
 ---
-A long time ago (one day short of exactly 4 years) I posted a super simple - and to be honest - pointless "Hello World example using Ruby on Rails":http://mentalized.net/journal/2006/02/06/hello_ruby_on_rails_world/. Back then the "Rails":http://rubyonrails.org version was 1.0. 
+A long time ago (one day short of exactly 4 years) I posted a super simple - and to be honest - pointless "Hello World example using Ruby on Rails":http://mentalized.net/journal/2006/02/06/hello-ruby-on-rails-world/. Back then the "Rails":http://rubyonrails.org version was 1.0. 
 
 Today marks the first beta release of the coming version of "Rails, version 3.0":http://weblog.rubyonrails.org/2010/2/5/rails-3-0-beta-release and I figured it'd be fun revisiting that post.
 

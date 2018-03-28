@@ -7,7 +7,7 @@ categories:
 - games
 - browsers
 ---
-Last week I riffed on an [infographic](http://www.onemorelevel.com/html-5-vs-flash-games/) which [erroneously claimed](http://mentalized.net/journal/2012/02/05/flash_is_not_the_99/) that Flash is "supported on 99% of web browsers".
+Last week I riffed on an [infographic](http://www.onemorelevel.com/html-5-vs-flash-games/) which [erroneously claimed](http://mentalized.net/journal/2012/02/05/flash-is-not-the-99/) that Flash is "supported on 99% of web browsers".
 
 They compared that number to 40%, which is supposedly the amount of web browsers that "HTML5 is supported by".
 
@@ -33,7 +33,7 @@ According to that table, 69% of browsers support the canvas element.
 
 ## 40 != 69 && 99 != 96 && 69 < 96
 
-The claimed 40% is a long shot from the actual 69%. Sure, it's way less than the [96%](http://mentalized.net/journal/2012/02/05/flash_is_not_the_99/) potential market penetration Flash can achieve.
+The claimed 40% is a long shot from the actual 69%. Sure, it's way less than the [96%](http://mentalized.net/journal/2012/02/05/flash-is-not-the-99/) potential market penetration Flash can achieve.
 
 As I wrote in my last post, I don't really care whether Flash is better than HTML5 for whatever you want to use it for. All the more power to you - as long as you don't claim to be making websites with Flash.
 

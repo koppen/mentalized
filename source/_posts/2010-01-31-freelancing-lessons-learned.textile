@@ -6,7 +6,7 @@ mt_id: 2014
 categories:
 - business
 ---
-A long long time ago, "I quit my great job":http://mentalized.net/journal/2008/11/20/side_job_versus_dayjob/ at "BiQ":http://biq.dk to live primarily of my "freelance Ruby on Rails development work":http://substancelab.com.
+A long long time ago, "I quit my great job":http://mentalized.net/journal/2008/11/20/side-job-versus-dayjob/ at "BiQ":http://biq.dk to live primarily of my "freelance Ruby on Rails development work":http://substancelab.com.
 
 It's one of the best decisions I've ever made.
 

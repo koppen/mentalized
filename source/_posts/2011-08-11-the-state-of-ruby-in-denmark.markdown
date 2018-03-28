@@ -16,7 +16,7 @@ Back then, you could have heard me claim I knew all the [Ruby developers in Denm
 
 ## Yeah, I know 'em all
 
-At the [founding meeting](http://mentalized.net/journal/2006/07/03/copenhagen_rubyrails_brigade/), we asked how many were working with Ruby and how many just wanted to be. The majority were stuck with some language or another, trying to squeeze in as much Ruby as they could on their own time. Today, most of us are making a living writing Rails apps and enjoying every bit of it. And when we finally look up from our screens, we meet with other Ruby developers and thrive on Ruby success stories from all over the world. It feels like we've won.
+At the [founding meeting](http://mentalized.net/journal/2006/07/03/copenhagen-rubyrails-brigade/), we asked how many were working with Ruby and how many just wanted to be. The majority were stuck with some language or another, trying to squeeze in as much Ruby as they could on their own time. Today, most of us are making a living writing Rails apps and enjoying every bit of it. And when we finally look up from our screens, we meet with other Ruby developers and thrive on Ruby success stories from all over the world. It feels like we've won.
 
 ## Winning
 

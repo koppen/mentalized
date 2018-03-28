@@ -8,7 +8,7 @@ categories:
 ---
 Time to take Notetagger up a notch and add support for multiple users. And being the always creative and innovative person I am, I'll naturally be doing what the cool kids are doing; using subdomains as account keys.
 
-You might want to read the "previous installment":http://mentalized.net/journal/2005/04/27/notetagger_summing_up/ before this.
+You might want to read the "previous installment":http://mentalized.net/journal/2005/04/27/notetagger-summing-up/ before this.
 
 <!--more-->
 
@@ -132,4 +132,4 @@ There's still a bunch of error handling lacking, particularly for the cases wher
 
 But that's for another day. For now I am fairly pleased with having gone from a single user system to a multi-user system in a few hours.
 
-My app directory, including butchered user views, is "available for your perusal":http://mentalized.net/files/journal/notetagger/sources/notetagger_app_20050518.zip.
+My app directory, including butchered user views, is "available for your perusal":http://mentalized.net/files/journal/notetagger/sources/notetagger-app-20050518.zip.

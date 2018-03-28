@@ -43,6 +43,6 @@ This new formatter will print full error details as soon as they are found. Succ
 
 h2. Download it
 
-For now, you can get the basic formatter "here":http://mentalized.net/files/rspec/rspec_immediate_feedback_formatter.rb - hopefully it'll sneak into RSpec proper or end up somewhere more accessible (and with tests and whatnot).
+For now, you can get the basic formatter "here":http://mentalized.net/files/rspec/rspec-immediate-feedback-formatter.rb - hopefully it'll sneak into RSpec proper or end up somewhere more accessible (and with tests and whatnot).
 
 Install it by putting it somewhere in your project (spec/ for example), and require it in your spec.opts as shown above.

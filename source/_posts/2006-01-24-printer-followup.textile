@@ -6,7 +6,7 @@ mt_id: 1515
 categories:
 - technology
 ---
-As posted previously we've been looking to "buy a printer for the home office":http://mentalized.net/journal/2005/11/23/looking_for_printershopping_advice/. We ended up buying a "Brother DCP-340CW":http://www.brother.com/europe/fax/info/dcp340cw/dcp340cw_ove.html from "enavia.com":http://enavia.com. It arrived yesterday and these are my initial impressions.
+As posted previously we've been looking to "buy a printer for the home office":http://mentalized.net/journal/2005/11/23/looking-for-printershopping-advice/. We ended up buying a "Brother DCP-340CW":http://www.brother.com/europe/fax/info/dcp340cw/dcp340cw-ove.html from "enavia.com":http://enavia.com. It arrived yesterday and these are my initial impressions.
 
 
 <!--more-->

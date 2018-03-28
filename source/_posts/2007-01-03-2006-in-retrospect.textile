@@ -30,12 +30,12 @@ h2. Virtually
 
 The life of "mentalized":http://mentalized.net has been a exciting ride throughout 2006 as well. 
 
-The year was kickstarted when my satirical "Building your very own web2.0 layout":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/ reached the "Digg":http://digg.com hordes in February and became the most visited page on mentalized in 2006 with 175K pageviews.
+The year was kickstarted when my satirical "Building your very own web2.0 layout":http://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/ reached the "Digg":http://digg.com hordes in February and became the most visited page on mentalized in 2006 with 175K pageviews.
 
 The runner ups in the category "top content of 2006" are my "free AJAX progress indicator images":http://mentalized.net/activity-indicators/ with 107K pageviews. These are still going strong and getting a fair amount of hits every day.
 
-Third place goes to "this entry":http://mentalized.net/journal/2004/06/30/salma_hayek_summer_edition/ - wonder why...
+Third place goes to "this entry":http://mentalized.net/journal/2004/06/30/salma-hayek-summer-edition/ - wonder why...
 
-Honorable mentions go to some of my Rails related tutorials: "No such file to load -- mkmf":http://mentalized.net/journal/2006/01/24/no_such_file_to_load_mkmf/ and "Putting Debian on Ruby rails":http://mentalized.net/journal/2004/12/01/putting_debian_on_ruby_rails/.
+Honorable mentions go to some of my Rails related tutorials: "No such file to load -- mkmf":http://mentalized.net/journal/2006/01/24/no-such-file-to-load-mkmf/ and "Putting Debian on Ruby rails":http://mentalized.net/journal/2004/12/01/putting-debian-on-ruby-rails/.
 
 It looks like the advice I can take away from 2006 is that writing jokes, giving stuff away for free, and posting images of scantily clad women are great ways to increase your pageview statistics...

@@ -8,7 +8,7 @@ categories:
 ---
 I've been digg'd (or is that dugg)?
 
-Looks like my 4 month old "tutorial"/satire, "how to build your own Web2.0 layout":http://mentalized.net/journal/2005/10/10/building_your_very_own_web20_layout/ has reached the masses of "digg":http://digg.com for some reason.
+Looks like my 4 month old "tutorial"/satire, "how to build your own Web2.0 layout":http://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/ has reached the masses of "digg":http://digg.com for some reason.
 
 This is what "945 diggs":http://digg.com/design/How_to_build_your_own_Web_2.0_layout can do to your meager stats:
 

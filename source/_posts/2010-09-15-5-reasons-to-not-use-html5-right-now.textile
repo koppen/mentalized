@@ -49,7 +49,7 @@ See this excellent article about "detecting support for HTML5 features":http://d
 
 h2. You think websites need to look exactly the same in every browser
 
-If you still haven't bought in to notion of "progressive enhancement":http://mentalized.net/journal/2010/05/03/explaining_progressive_enhancement/, get with the program. Your users are numerous and varied, targeting a lowest common denominator that works exactly the same for everyone is hurting those that could be getting a richer experience.
+If you still haven't bought in to notion of "progressive enhancement":http://mentalized.net/journal/2010/05/03/explaining-progressive-enhancement/, get with the program. Your users are numerous and varied, targeting a lowest common denominator that works exactly the same for everyone is hurting those that could be getting a richer experience.
 
 And besides, I read it on the internets: "http://dowebsitesneedtolookexactlythesameineverybrowser.com/":http://dowebsitesneedtolookexactlythesameineverybrowser.com/
 

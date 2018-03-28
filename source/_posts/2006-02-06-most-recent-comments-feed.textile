@@ -10,4 +10,4 @@ I've just now noticed that a few spam comments have been slipping through the co
 
 Inspired by "Jeremy Zawodny":http://jeremy.zawodny.com/blog/archives/002836.html I now have a feed of the most recent comments on "Mentalized":http://mentalized.net. At least I know that entries from feeds I subscribe to won't get lost in Spam Assassin.
 
-An interesting side note about the spam that got through, is that it was on "an entry":http://mentalized.net/journal/2005/11/02/kameo_websites_of_sour/ for which commenting has been closed for a while now. It looks like the spam bots aren't even bothering to check for the existance of an actual comment form any longer, but just post stuff directly to the commenting script.
+An interesting side note about the spam that got through, is that it was on "an entry":http://mentalized.net/journal/2005/11/02/kameo-websites-of-sour/ for which commenting has been closed for a while now. It looks like the spam bots aren't even bothering to check for the existance of an actual comment form any longer, but just post stuff directly to the commenting script.

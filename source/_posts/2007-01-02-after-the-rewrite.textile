@@ -9,7 +9,7 @@ categories:
 - projects
 - programming
 ---
-"Around 6 months ago":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
+"Around 6 months ago":http://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
 
 A week or two before christmas the rewrite went feature complete. That is; all the features we want and need in the next, "Ruby":http://ruby-lang.org based version of BiQ have been rewritten.
 

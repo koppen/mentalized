@@ -13,16 +13,16 @@ I know you've all been waiting for this, and this is in absolutely no shape or f
 
 ## Most popular posts
 
-1. [5 ways to run commands from Ruby](/journal/2010/03/08/5_ways_to_run_commands_from_ruby/)
-2. [Pepper - A Redmine theme](/journal/2011/06/27/pepper_-_a_redmine_theme/)
-3. [no such file to load -- mkmf](/journal/2006/01/24/no_such_file_to_load_mkmf/)
-4. [Redmine plugin: Github Hook](/journal/2009/08/03/redmine_plugin_github_hook/)
-5. [Hello Ruby on Rails World](/journal/2006/02/06/hello_ruby_on_rails_world/)
-6. [Using Google Page Speed to optimize websites](/journal/2009/07/27/using_google_page_speed_to_optimize_websites/)
-7. [CSS, links, gradients, rounded corners, and IE](/journal/2012/04/13/css_links_gradients_rounded_corners_and_ie/)
-8. [Hello Rails 3 world](/journal/2010/02/05/hello_rails_3_world/)
-9. [Rails 3: Responding with Excel](/journal/2010/06/04/rails_3_responding_with_excel/)
-10. [Ruby: How to check if a String is numeric](/journal/2011/04/14/ruby_how_to_check_if_a_string_is_numeric/)
+1. [5 ways to run commands from Ruby](/journal/2010/03/08/5-ways-to-run-commands-from-ruby/)
+2. [Pepper - A Redmine theme](/journal/2011/06/27/pepper-a-redmine-theme/)
+3. [no such file to load -- mkmf](/journal/2006/01/24/no-such-file-to-load-mkmf/)
+4. [Redmine plugin: Github Hook](/journal/2009/08/03/redmine-plugin-github-hook/)
+5. [Hello Ruby on Rails World](/journal/2006/02/06/hello-ruby-on-rails-world/)
+6. [Using Google Page Speed to optimize websites](/journal/2009/07/27/using-google-page-speed-to-optimize-websites/)
+7. [CSS, links, gradients, rounded corners, and IE](/journal/2012/04/13/css-links-gradients-rounded-corners-and-ie/)
+8. [Hello Rails 3 world](/journal/2010/02/05/hello-rails-3-world/)
+9. [Rails 3: Responding with Excel](/journal/2010/06/04/rails-3-responding-with-excel/)
+10. [Ruby: How to check if a String is numeric](/journal/2011/04/14/ruby-how-to-check-if-a-string-is-numeric/)
 
 As always, the list is dominated by posts written before 2012. Not surprisingly, but it's always funny seeing this long tail of old content.
 
@@ -30,16 +30,16 @@ As always, the list is dominated by posts written before 2012. Not surprisingly,
 
 Looking at only stuff written in 2012, the list looks like:
 
-1. [CSS, links, gradients, rounded corners, and IE](/journal/2012/04/13/css_links_gradients_rounded_corners_and_ie/)
-2. [Rails 3, ActionMailer, and Google Apps for Domains](/journal/2012/05/08/rails_3_actionmailer_and_google_apps_for_domains/)
-3. [Ruby SSL certificate verification woes](/journal/2012/01/02/ruby_ssl_certificate_verification_errors/)
-4. [Flash is not the 99%](/journal/2012/02/05/flash_is_not_the_99/)
-5. [All lights are green](/journal/2012/04/24/all_lights_are_green/)
-6. [Designers solve problems - what do developers do?](/journal/2012/07/25/designers_solve_problems_-_what_do_developers_do/)
-7. [How we took our tests from 30 to 3 minutes](/journal/2012/12/07/how_we_took_our_tests_from_30_to_3_minutes/)
-8. [48 hours of commits visualized](/journal/2012/10/16/48_hours_of_commits_visualized/)
-9. [Fact-checking the 40%](/journal/2012/02/13/fact-checking_the_40/)
-10. [SSL certificate woes with Ruby 1.9 and OS X](/journal/2012/08/10/ssl_certificate_woes_with_ruby_19_and_os_x/)
+1. [CSS, links, gradients, rounded corners, and IE](/journal/2012/04/13/css-links-gradients-rounded-corners-and-ie/)
+2. [Rails 3, ActionMailer, and Google Apps for Domains](/journal/2012/05/08/rails-3-actionmailer-and-google-apps-for-domains/)
+3. [Ruby SSL certificate verification woes](/journal/2012/01/02/ruby-ssl-certificate-verification-errors/)
+4. [Flash is not the 99%](/journal/2012/02/05/flash-is-not-the-99/)
+5. [All lights are green](/journal/2012/04/24/all-lights-are-green/)
+6. [Designers solve problems - what do developers do?](/journal/2012/07/25/designers-solve-problems---what-do-developers-do/)
+7. [How we took our tests from 30 to 3 minutes](/journal/2012/12/07/how-we-took-our-tests-from-30-to-3-minutes/)
+8. [48 hours of commits visualized](/journal/2012/10/16/48-hours-of-commits-visualized/)
+9. [Fact-checking the 40%](/journal/2012/02/13/fact-checking-the-40/)
+10. [SSL certificate woes with Ruby 1.9 and OS X](/journal/2012/08/10/ssl-certificate-woes-with-ruby-19-and-os-x/)
 
 
 ## Referring sites

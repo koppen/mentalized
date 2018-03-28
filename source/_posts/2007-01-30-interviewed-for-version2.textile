@@ -7,6 +7,6 @@ categories:
 - BiQ on Rails
 - life
 ---
-Right before christmas I was interviewed by the danish "version2":http://version2.dk. The focus was on "Ruby on Rails":http://rubyonrails.org and our "picking that technology for BiQ":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/.
+Right before christmas I was interviewed by the danish "version2":http://version2.dk. The focus was on "Ruby on Rails":http://rubyonrails.org and our "picking that technology for BiQ":http://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/.
 
 The interview was published on dead trees Friday, and today "it reached the version2 website":http://www.version2.dk/artikel/1224. This is pretty cool, I've never been interviewed before.

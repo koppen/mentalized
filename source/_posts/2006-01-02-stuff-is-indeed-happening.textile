@@ -6,7 +6,7 @@ mt_id: 1497
 categories:
 - projects
 ---
-"Progress indicators, activity indicators, spinners, throbbers":http://mentalized.net/activity-indicators/. Call them what you want, but "giving some away for free":http://mentalized.net/journal/2005/11/29/ajax_activity_indicators/ sure seems to have been a good idea.
+"Progress indicators, activity indicators, spinners, throbbers":http://mentalized.net/activity-indicators/. Call them what you want, but "giving some away for free":http://mentalized.net/journal/2005/11/29/ajax-activity-indicators/ sure seems to have been a good idea.
 
 Thanks to those of you who let me know you appreciated the images, and especially to those of you who sent me your own collections. Unfortunately I really can't be bothered to check on ownership and rights of every single image, so I need to be told that what you send me is indeed yours to release into the wild wastes of the public domain. "Virgin Radio":http://www.virginradio.co.uk gets credit for being the first contributor to the collection who isn't me.
 

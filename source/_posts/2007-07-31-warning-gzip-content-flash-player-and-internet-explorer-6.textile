@@ -8,7 +8,7 @@ categories:
 - BiQ on Rails
 - browsers
 ---
-This is a followup to "my post about using YSlow to optimize websites":http://mentalized.net/journal/2007/07/26/using_yslow_to_optimize_websites/ with a warning.
+This is a followup to "my post about using YSlow to optimize websites":http://mentalized.net/journal/2007/07/26/using-yslow-to-optimize-websites/ with a warning.
 
 In that post I mention using mod_deflate to GZip encode all our text based content before delivering it to user agents supporting this. However, I've hit an issue with a specific browser. Yup, you guessed it, off course Internet Explorer doesn't behave properly.
 

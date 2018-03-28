@@ -6,6 +6,6 @@ mt_id: 1453
 categories:
 - technology
 ---
-<a title="Quotes about the replaying Google Web Accelerator fiasco // plasmasturm.org" href="http://plasmasturm.org/log/347/">Whoa, deja vu</a>. "They're":http://webaccelerator.google.com/ messing with the matrix "again":http://mentalized.net/journal/2005/05/08/google_web_accelerator_brouhaha/.
+<a title="Quotes about the replaying Google Web Accelerator fiasco // plasmasturm.org" href="http://plasmasturm.org/log/347/">Whoa, deja vu</a>. "They're":http://webaccelerator.google.com/ messing with the matrix "again":http://mentalized.net/journal/2005/05/08/google-web-accelerator-brouhaha/.
 
 And guess what? Seems noone has learned a lesson from the last glitch.

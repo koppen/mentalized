@@ -8,7 +8,7 @@ categories:
 - webdesign
 - technology
 ---
-"Scoble assures us(Scobleizer: Nigel says that Microsoft hates the Web)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660 that it is untrue that Microsoft doesn't want to comply with the W3C standards. "Dave Massy(Dave Massy's WebLog)":http://blogs.msdn.com/dmassy/ from the IE team "calls it a myth(IE Team chat transcripts)":http://mentalized.net/journal/2004/07/20/ie_team_chat_transcripts/ that Microsoft doesn't support standards.
+"Scoble assures us(Scobleizer: Nigel says that Microsoft hates the Web)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660 that it is untrue that Microsoft doesn't want to comply with the W3C standards. "Dave Massy(Dave Massy's WebLog)":http://blogs.msdn.com/dmassy/ from the IE team "calls it a myth(IE Team chat transcripts)":http://mentalized.net/journal/2004/07/20/ie-team-chat-transcripts/ that Microsoft doesn't support standards.
 
 Still, the newest addition to Microsofts IE-marketing, "the IEBlog, indicates the opposite(IEBlog validation Results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/ie/. As do "every(Dave Massy's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/dmassy/ "known(jeffdav's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/jeffdav/ "blog(Tony Schreiner's WebLog validation results)":http://validator.w3.org/check?uri=http%3A//blogs.msdn.com/tonyschr run by members of the IE team.
 

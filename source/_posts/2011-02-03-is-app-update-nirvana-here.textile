@@ -7,7 +7,7 @@ categories:
 - software
 - usability
 ---
-When I previously wrote about "the tyranny of software updates":http://mentalized.net/journal/2010/01/08/the_tyranny_of_software_updates/, one of the takeaways were that it would be nice if someone were to create a centralized, out of band, update mechanism for installed applications.
+When I previously wrote about "the tyranny of software updates":http://mentalized.net/journal/2010/01/08/the-tyranny-of-software-updates/, one of the takeaways were that it would be nice if someone were to create a centralized, out of band, update mechanism for installed applications.
 
 Lo and behold, with the invent of the Mac App Store, Apple has done just that for us OS X users. Applications you buy in the store are also upgraded in the store. Fantastic! software updating bliss is here! We've finally reached application update nirvana.
 
