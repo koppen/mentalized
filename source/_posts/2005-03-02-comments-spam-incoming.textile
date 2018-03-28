@@ -6,7 +6,7 @@ mt_id: 1251
 categories:
 - mentalized.net
 ---
-Gah! I've been living nearly without comment spam the last many months due to the bundle of preventive measures I've employed. 
+Gah! I've been living nearly without comment spam the last many months due to the bundle of preventive measures I've employed.
 
 However for some reason Movable Type messed my templates up yesterday, overwriting them with an old template, meaning some of the stuff I had done disappeared in a rebuild. During the night I paid the price in terms of commentspam received.
 

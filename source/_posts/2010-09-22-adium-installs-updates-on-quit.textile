@@ -11,4 +11,4 @@ Adium has moved one step closer to the approach "I've suggested":http://mentaliz
 
 !/files/journal/adium/adium_install_on_quit.png!
 
-"Install on Quit" is a great option and sure beats the "install now and interrupt what I wanted to do". I would prefer that the upgrade dialog only popped up when I quit the application, but I'll take any incremental improvement. 
+"Install on Quit" is a great option and sure beats the "install now and interrupt what I wanted to do". I would prefer that the upgrade dialog only popped up when I quit the application, but I'll take any incremental improvement.

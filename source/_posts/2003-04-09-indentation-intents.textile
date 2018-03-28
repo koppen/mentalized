@@ -30,7 +30,7 @@ else:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;doYourThing( a )<br />
 </code>==
 
-This code is syntactically correct but we have no way of knowing what the developer intended. There is nothing showing us if the last 2 lines should have been indented a block - or perhaps line 3 and 4 are indented too far? 
+This code is syntactically correct but we have no way of knowing what the developer intended. There is nothing showing us if the last 2 lines should have been indented a block - or perhaps line 3 and 4 are indented too far?
 
 Using a block-delimiter (begin/end, {/} or whatever makes your heart tick) the developer has a way of showing his readers (both human and electroncial) what flow he intended. If he feels like further catering to his human readers (like any developer should) he can then use indentation to display the intend in a visually pleasing manner. For wha
 

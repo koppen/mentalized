@@ -6,6 +6,6 @@ mt_id: 753
 categories:
 - webdesign
 ---
-Actual conversation, managing director of one company to another: 
+Actual conversation, managing director of one company to another:
 
 bq. "Listen, if first you start getting those usability people in on the project, there's no way you will be able to launch in reasonable time. What you need to do is just make some decisions to get rolling no matter what they say"...

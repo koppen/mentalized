@@ -6,7 +6,7 @@ mt_id: 1587
 categories:
 - projects
 ---
-I carry a Moleskine notebook with me pretty much wherever I go. I use it to jot down ideas and thoughts, usually for websites and -services. At the time of writing I have 10-12 different ideas floating around in my head and/or notebook. 
+I carry a Moleskine notebook with me pretty much wherever I go. I use it to jot down ideas and thoughts, usually for websites and -services. At the time of writing I have 10-12 different ideas floating around in my head and/or notebook.
 
 My problem: I have no clue how to monetize these, nor do I know if they are actually good ideas - most probably aren't.
 
@@ -14,4 +14,4 @@ I could build the core of most of those ideas easily enough. I should probably f
 
 Come to think of it, I'll probably have a bunch of time over Easter to hack away on something. And seeing how I have no pressing "client work":http://substancelab.com/projects/ at the moment, I should probably pick an idea and just go with it.
 
-Hm, it actually sounds like a plan. 
+Hm, it actually sounds like a plan.

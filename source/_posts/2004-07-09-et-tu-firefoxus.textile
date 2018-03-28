@@ -6,7 +6,7 @@ mt_id: 807
 categories:
 - browsers
 ---
-Could it be real? The impenetrable browser fortress, "Firefox, has a security hole(eWEEK: Mozilla Flaw Lets Links Run Arbitrary Programs)":http://www.eweek.com/article2/0,1759,1621438,00.asp?kc=EWRSS03129TX1K0000614, gasp! 
+Could it be real? The impenetrable browser fortress, "Firefox, has a security hole(eWEEK: Mozilla Flaw Lets Links Run Arbitrary Programs)":http://www.eweek.com/article2/0,1759,1621438,00.asp?kc=EWRSS03129TX1K0000614, gasp!
 
 Sarcasm aside, "the hole has been plugged(What Mozilla users should know about the shell: protocol security issue)":http://www.mozilla.org/security/shell.html - a response time of less than day, I believe.
 

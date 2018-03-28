@@ -6,12 +6,12 @@ mt_id: 672
 categories:
 - programming
 ---
-While developing a template parser to replace our existing template-object at work, it finally dawned on me how insanely slow ASP/VBScripts standard string concatenation actually is. It isn't something you'd notice in everyday development, but when you have to concatenate big strings VBScript almost grinds to a halt. 
+While developing a template parser to replace our existing template-object at work, it finally dawned on me how insanely slow ASP/VBScripts standard string concatenation actually is. It isn't something you'd notice in everyday development, but when you have to concatenate big strings VBScript almost grinds to a halt.
 
 When generating HTML pages from existing templatefiles, you do a lot of putting strings together and the initial revision of my class was extremly slow when compared to our existing template-object. Investigating the execution times of individual parts of my parser revealed that the culprit was a single line concatenating 2 strings which gradually increase in size.
 
 When in distress it's a good thing to be able to rely on ones friends, so I turned to my old pal, <a href="http://www.google.com/search?hl=en&lr=&ie=UTF-8&oe=UTF-8&q=asp+fast+string&btnG=Google+Search" title="Search Google for asp fast string">Google</a>. He pointed me to 2 classes dealing with this exact problem: <a href="http://www.15seconds.com/howto/pg000929.htm" title="15 Seconds: StringBuilder">StringBuilder</a> and <a href="http://www.eggheadcafe.com/articles/20011227.asp" title="A Fast String Class for ASP">FastString</a>.
 
-Both classes use arrays to speed up the process of concatenating strings and boy, do they go faster than VBScript does on its own. The speed increase is massive (some of my tests ran 50 times quicker). The two implementations are very alike in use and speedwise they are nearly similar, with StringBuilder being vaguely faster (a few tenths of a second when doing 50000 concatenations). The end result is that my template parser now runs with nearly the same speed as our old template COM object, Sumatra Templates, and when parsing big templates it's noticable faster. 
+Both classes use arrays to speed up the process of concatenating strings and boy, do they go faster than VBScript does on its own. The speed increase is massive (some of my tests ran 50 times quicker). The two implementations are very alike in use and speedwise they are nearly similar, with StringBuilder being vaguely faster (a few tenths of a second when doing 50000 concatenations). The end result is that my template parser now runs with nearly the same speed as our old template COM object, Sumatra Templates, and when parsing big templates it's noticable faster.
 
 I think I will consider twice the next time I'm about to do a standard VBScript concatenation.

@@ -14,4 +14,4 @@ Their new "World of Warcraft game stats":http://www.wow-europe.com/en/info/games
 
 "Blizzards spinning ball":http://www.wow-europe.com/shared/wow-com/images/info/gamestats/indicator_circle_ball2.gif is clearly "the same as mine":http://mentalized.net/activity-indicators/indicators/circling-ball-3-frame-fade-transparent-back-dark-antialiased.gif, and has most likely been lifted from "Napyfabs collection":http://www.napyfab.com/ajax-indicators/.
 
-Putting stuff into the public domain and seeing it pop up in unexpected places like this is extremely cool and has so far been my favorite thing about putting together the "collection of animated GIF progress indicators":http://mentalized.net/activity-indicators/. 
+Putting stuff into the public domain and seeing it pop up in unexpected places like this is extremely cool and has so far been my favorite thing about putting together the "collection of animated GIF progress indicators":http://mentalized.net/activity-indicators/.

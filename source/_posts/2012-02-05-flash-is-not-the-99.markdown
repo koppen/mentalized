@@ -26,7 +26,7 @@ So that 99% figure should really be a flat 0%...
 
 ## 1 in 5 is 20%
 
-Okay, fine, most browsers do support a method of displaying Flash content, namely the Flash Player plugin which is available as an optional download. However, only one of the major browsers - Chrome - actually [ships with the plugin installed][1]. 
+Okay, fine, most browsers do support a method of displaying Flash content, namely the Flash Player plugin which is available as an optional download. However, only one of the major browsers - Chrome - actually [ships with the plugin installed][1].
 
 If we accept third party extensions as part of what a browser supports, the correct number here then becomes 20% - ie 1 of the 5 major browsers (Internet Explorer, Firefox, Chrome, Safari, and Opera) support Flash out of the box.
 
@@ -52,7 +52,7 @@ According to the [numbers from W3Counter][4], iOS devices accounted for 4.5% of 
 
 So there we have it, this must be the number they're thinking of. If we assume that every internet user actually installs the optional Flash Player - and I suspect this is a stretch, but I am not sure where to get reliable numbers on this - 96% of all internet traffic could come from a browser that is able to display Flash content.
 
-That's a huge, potential user base. 
+That's a huge, potential user base.
 
 However, seeing that the 99% figure of the infographic is incorrect, I wonder which of the other numbers are misleading as well.
 

@@ -6,7 +6,7 @@ mt_id: 2035
 categories:
 - programming
 ---
-We Ruby programmers routinely do things that other programmers frown upon, and - in many cases - won't even be allowed to do by their interpreter/compiler. 
+We Ruby programmers routinely do things that other programmers frown upon, and - in many cases - won't even be allowed to do by their interpreter/compiler.
 
 Case in point for this article, is redefining constants. In Ruby a constant isn't constant. Creating a constant is merely a way for the programmer to indicate a value that really isn't supposed to be changed - but if you do anyways, you're on your own.
 
@@ -18,7 +18,7 @@ To that effect, Ruby by default outputs a warning if you try to redefine a const
 
 bq. warning: already initialized constant FLAGS
 
-Occasionally you are perfectly aware of what you're doing and redefining a constant in ie third party code might be the best way to achieve the results you need. When that's the case, looking at that warning gets tiresome pretty quickly. 
+Occasionally you are perfectly aware of what you're doing and redefining a constant in ie third party code might be the best way to achieve the results you need. When that's the case, looking at that warning gets tiresome pretty quickly.
 
 You could run your ruby scripts with -W0 to not see any warnings at all, but that's a bit too ostrich-like a behavior. What you want is to on a case by case basis silence specific warnings.
 

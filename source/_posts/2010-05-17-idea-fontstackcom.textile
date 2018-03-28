@@ -16,15 +16,15 @@ Here's an idea I had the other day. I am putting it out to the world because I'd
 
 h2. Use case
 
-I was recently tasked with "implementing a design":http://bornibyen.dk using the "Rockwell":http://www.fonts.com/FindFonts/detail.htm?pid=201908 font. Rockwell is not a free font, and as far as I could tell, not licensed for embedding. 
+I was recently tasked with "implementing a design":http://bornibyen.dk using the "Rockwell":http://www.fonts.com/FindFonts/detail.htm?pid=201908 font. Rockwell is not a free font, and as far as I could tell, not licensed for embedding.
 
-That left me with simply relying on users having the font installed, and only "around 60% do":http://www.codestyle.org/css/font-family/sampler-CombinedResultsFull.shtml. That meant I had to come up with some decent alternative fonts, preferably with a similar appearance and size. 
+That left me with simply relying on users having the font installed, and only "around 60% do":http://www.codestyle.org/css/font-family/sampler-CombinedResultsFull.shtml. That meant I had to come up with some decent alternative fonts, preferably with a similar appearance and size.
 
-What I would love for someone to build, is a site where I can look at the page for Rockwell and see a list of alternative fonts resembling it - preferably ordered by resemblance. 
+What I would love for someone to build, is a site where I can look at the page for Rockwell and see a list of alternative fonts resembling it - preferably ordered by resemblance.
 
-For extra credits a pre-made font-stack could be provided, ready for me to copy/paste into my CSS. 
+For extra credits a pre-made font-stack could be provided, ready for me to copy/paste into my CSS.
 
-A powerful extra feature would be statistics of font usage, so I can see an estimate of how many people will see what font on my site. 
+A powerful extra feature would be statistics of font usage, so I can see an estimate of how many people will see what font on my site.
 
 
 h2. Crowd-sourcing
@@ -34,9 +34,9 @@ Surely, building a library of all fonts, their alternatives and how much they lo
 
 h2. Monetization?
 
-I tend to always fail at coming up with great ways to monetize services - outside of flat out having people pay to use them. I think a different model would be better for a site like this, as the usefulness of the service increase with the amount of users adding their knowledge. 
+I tend to always fail at coming up with great ways to monetize services - outside of flat out having people pay to use them. I think a different model would be better for a site like this, as the usefulness of the service increase with the amount of users adding their knowledge.
 
-Affiliate links to font sales is a fairly obvious choice. Ads is always an option, I guess, and the users of the site would be pretty well segmented. 
+Affiliate links to font sales is a fairly obvious choice. Ads is always an option, I guess, and the users of the site would be pretty well segmented.
 
 Anyways, here's hoping someone smarter than me can figure it out and make it work.
 

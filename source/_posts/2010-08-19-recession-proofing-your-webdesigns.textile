@@ -6,7 +6,7 @@ mt_id: 2051
 categories:
 - webdesign
 ---
-As part of my work at Substance Lab I occasionally get to chop a design (usually a Photoshop document) into pieces and implement it in squeaky clean markup and CSS. 
+As part of my work at Substance Lab I occasionally get to chop a design (usually a Photoshop document) into pieces and implement it in squeaky clean markup and CSS.
 
 Unfortunately some of the designs tend to be more complex and use visual treatments that are hard to use on the web, and as a result the implementation of the design takes longer, costing the client more than what's really necessary.
 
@@ -17,11 +17,11 @@ The following are a few tips that's going to make it easier and cheaper to build
 
 h2. Consistency
 
-If you have a content element on one page and the same content element on another page, they are both cheaper to implement if they are designed consistently. Makes sense, no? 
+If you have a content element on one page and the same content element on another page, they are both cheaper to implement if they are designed consistently. Makes sense, no?
 
 Browsers understand logic and rules, and exceptions to rules are expensive.  Fewer rules means less logic which in turn means quicker implementation time.
 
-Coincidentally, this might even improve the quality and usability of your design, giving the users visual cues to latch on to and things to recognize. 
+Coincidentally, this might even improve the quality and usability of your design, giving the users visual cues to latch on to and things to recognize.
 
 
 h2. Use web fonts
@@ -35,7 +35,7 @@ Pick a web font, use that, and be happy. It's cheaper and better.
 
 h2. Forget about pixel perfection
 
-This point cannot be stressed enough. Do websites need to look exactly the same in every browser? The answer is "no":http://dowebsitesneedtolookexactlythesameineverybrowser.com/. 
+This point cannot be stressed enough. Do websites need to look exactly the same in every browser? The answer is "no":http://dowebsitesneedtolookexactlythesameineverybrowser.com/.
 
 The sooner you accept and embrace this - and in correlation that your perfect little Photoshop world doesn't translate well to the world of browsers - the sooner you can stop wasting time and money trying to make up for deficiencies in incapable browsers.
 
@@ -55,7 +55,7 @@ Isn't your time better spent actually working on important stuff rather than mak
 
 h2. Don't use Ajax just for the sake of using Ajax
 
-Using Ajax to enhance your interactions can be a great technique, but be vigilant and use it appropriately. I admit to having caved in on occasion and used Ajax because the client wanted it for whatever reason - say for a search page. 
+Using Ajax to enhance your interactions can be a great technique, but be vigilant and use it appropriately. I admit to having caved in on occasion and used Ajax because the client wanted it for whatever reason - say for a search page.
 
 Unfortunately, this invariably leads to issues with browsers, back buttons, caching, missing links, and having to resort to hackery like using the hash-fragment as a querystring replacement, which can take up a lot of time. At least we might get stuff like "this":http://www.spoiledmilk.dk/blog/?p=1922 in HTML5.
 

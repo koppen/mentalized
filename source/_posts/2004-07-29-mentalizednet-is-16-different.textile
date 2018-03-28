@@ -7,7 +7,7 @@ categories:
 - webdesign
 - mentalized.net
 ---
-I didn't qualify for Fran?ois Briattes survey of "how 10 websites differ(These web sites are identical - or are they?)":http://phnk.com/design/survey/ on 25 elements, however I'll pretend I did and examine myself just for kicks. 
+I didn't qualify for Fran?ois Briattes survey of "how 10 websites differ(These web sites are identical - or are they?)":http://phnk.com/design/survey/ on 25 elements, however I'll pretend I did and examine myself just for kicks.
 
 It turns out mentalized.net differs from the norm in 4 of the 25 spots putting my dissidence at 16%. Allow me to explain my reasoning behind these differences.
 

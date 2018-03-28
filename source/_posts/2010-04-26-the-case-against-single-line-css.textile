@@ -15,7 +15,7 @@ bc(css). #wrapper            {width:800px; margin:0 auto;}
 #feature .link      {width:195px; display:inline; margin:0 10px 0 0; float:right;}
 #footer             {clear:both; font-size:93%; float:none;}
 
-This single line approach makes it easy to scan through a stylesheet and find the selector you want to modify. But that's also about as far as the benefits go for this approach. 
+This single line approach makes it easy to scan through a stylesheet and find the selector you want to modify. But that's also about as far as the benefits go for this approach.
 
 
 <!--more-->
@@ -35,14 +35,14 @@ The order of attributes in a CSS rule matters. While jumbling them all together 
 
 h2. Messes up your source control
 
-Source control management software is generally speaking line-based. If you change one little thing in a single line rule, for example the mistake in the .more rule above (you did see that, right?), the entire line will register as having been changed. 
+Source control management software is generally speaking line-based. If you change one little thing in a single line rule, for example the mistake in the .more rule above (you did see that, right?), the entire line will register as having been changed.
 
 While not a big deal initially, it makes a huge difference when you want to merge changes with another branch or someone elses changes. Two individual lines that has been changed can easily be merged, while two changes to the same line will cause a conflict. Conflicts are bad, mmkay?
 
 
 h2. Who scans anyways?
 
-Seriously, who scans through a CSS file anyways? Even when put into single lines, the stylesheet from "bornibyen.dk":http://bornibyen.dk contains 600+ lines - that's too many to comfortably scan through. 
+Seriously, who scans through a CSS file anyways? Even when put into single lines, the stylesheet from "bornibyen.dk":http://bornibyen.dk contains 600+ lines - that's too many to comfortably scan through.
 
 And why would I scan through it when I can reliably jump to the rule I want using "TextMates":http://macromates.org "Go to Symbol" - your editor does support something like that, right?
 

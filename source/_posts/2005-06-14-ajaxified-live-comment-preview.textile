@@ -8,9 +8,9 @@ categories:
 - projects
 - technology
 ---
-Update: Ah well, it was a fun experiment, but I've decided to scrap it again, possible in favor of something pure Javascript'ish. The AJAX preview is either too unresponsive to be worthwhile or I send way too many requests against MT/MySQL that I am comfortable with on a shared server. 
+Update: Ah well, it was a fun experiment, but I've decided to scrap it again, possible in favor of something pure Javascript'ish. The AJAX preview is either too unresponsive to be worthwhile or I send way too many requests against MT/MySQL that I am comfortable with on a shared server.
 
-Thanks to the wonders of "Sam Stephensons Prototype":http://prototype.conio.net/, "Movable Types":http://movabletype.org comment preview template and AJAX, I am now sporting live comment previews. 
+Thanks to the wonders of "Sam Stephensons Prototype":http://prototype.conio.net/, "Movable Types":http://movabletype.org comment preview template and AJAX, I am now sporting live comment previews.
 
 "Go check it out":/journal/2005/06/14/ajaxified_live_comment_preview/#comments.
 

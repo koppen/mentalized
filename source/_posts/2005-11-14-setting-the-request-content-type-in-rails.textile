@@ -11,8 +11,8 @@ To set the content type and character set of your responses of your Rails applic
 bc. class ApplicationController < ActionController::Base
   before_filter :set_content_type
   def set_content_type
-    @headers["Content-Type"] = "text/html; charset=utf-8" 
-  end    
+    @headers["Content-Type"] = "text/html; charset=utf-8"
+  en
 end
 
 This can obviously be set in any other controller if you need special contenttypes, for example for a feeds controller:

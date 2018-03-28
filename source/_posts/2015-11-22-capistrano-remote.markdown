@@ -31,7 +31,7 @@ There is even a
     psql (9.3.5)
     SSL connection (cipher: DHE-RSA-AES256-SHA, bits: 256)
     Type "help" for help.
-    
+
     example_production=>
 
 ## Getting started

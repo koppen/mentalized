@@ -6,7 +6,7 @@ mt_id: 2015
 categories:
 - software
 ---
-There you are, sitting at your desk. Your thoughts are coming alive on the glowing display in front of you, brought into existence by your fingers effortlessly running across the keyboard. The outside world has become a distant memory - even the music flowing into your ears from your headphones has grown muffled and removed. 
+There you are, sitting at your desk. Your thoughts are coming alive on the glowing display in front of you, brought into existence by your fingers effortlessly running across the keyboard. The outside world has become a distant memory - even the music flowing into your ears from your headphones has grown muffled and removed.
 
 You are in flow.
 
@@ -17,9 +17,9 @@ bq. A new version of UberNotesMaster is available, would you like to download it
 Stumped, you try to gauge whether the update is quick enough that you won't lose your flow, but you have already lost. Your flow is interrupted, the idea is escaping, and your application is still not updated.
 
 
-h2. Do you prefer the plague or cholera? 
+h2. Do you prefer the plague or cholera?
 
-Typically, when an application announces that it has a new version available, you have two options: 
+Typically, when an application announces that it has a new version available, you have two options:
 
 * Upgrade now and generally disrupt what you are doing
 * Ignore and continue to run outdated, potentially buggy and insecure software, and get annoyed the next time you launch the application.
@@ -33,7 +33,7 @@ h3. Update after use
 
 Instead of asking me to update an application when I am actually trying to use it, how about dealing with the update after I am is done using the application?
 
-This way, the upgrade dialog could appear when I quit the application, and the update would take place while I am doing my work in another application. A much smoother experience whose only interruption is easily dealt with. 
+This way, the upgrade dialog could appear when I quit the application, and the update would take place while I am doing my work in another application. A much smoother experience whose only interruption is easily dealt with.
 
 It might, however, prove to be quite frustrating when you attempt to shut down your computer and all running applications want to update themselves. Also, OS X users are known to never actually shut down applications and also never restart their machines, so they would end up never updating.
 

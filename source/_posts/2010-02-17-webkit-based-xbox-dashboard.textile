@@ -8,7 +8,7 @@ categories:
 - technology
 - browsers
 ---
-Webkit - and Safari in particular - have been really aggressive in adding support for upcoming CSS 3 features - and some CSS features not yet part of any spec. 
+Webkit - and Safari in particular - have been really aggressive in adding support for upcoming CSS 3 features - and some CSS features not yet part of any spec.
 
 As much of this is still Webkit-specific it isn't really something I get to use much on client work, but not being one to shy away from new, shiny things, I though it would be fun to dig into this.
 

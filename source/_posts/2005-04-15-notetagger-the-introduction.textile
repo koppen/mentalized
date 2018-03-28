@@ -6,7 +6,7 @@ mt_id: 1291
 categories:
 - projects
 ---
-I want to get into using "Ajax(Adaptive Path)":http://www.adaptivepath.com/publications/essays/archives/000385.php. I want to get more "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com/ experience. I want an online place to post my thoughts and notes since my memory isn't quite reliable. 
+I want to get into using "Ajax(Adaptive Path)":http://www.adaptivepath.com/publications/essays/archives/000385.php. I want to get more "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com/ experience. I want an online place to post my thoughts and notes since my memory isn't quite reliable.
 
 If you think the above sounds like something that should be combined into a project, you are right, and I did just that. To make it even more interesting, I've decided to share my progress with you and the rest of the world.
 
@@ -30,6 +30,6 @@ Being a project for myself only, and one I have a pretty good grasp of what I wa
 * Tag notes
 * Manage notes
 
-I also cooked up a simple HTML mockup of how I imagined the application to look and behave, and then I started digging into the code. 
+I also cooked up a simple HTML mockup of how I imagined the application to look and behave, and then I started digging into the code.
 
 "Read the next part(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/index.php

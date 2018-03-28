@@ -20,7 +20,7 @@ All browsers come with a back button. All users know where it is and how to use 
 
 h2. Goes for print as well
 
-But the back button isn't the only button that's often recreated. Another common culprit is the print button. 
+But the back button isn't the only button that's often recreated. Another common culprit is the print button.
 
 Now, in the case of printing, I might begrudgingly have to admit that in some cases it makes sense to create a specific printer-friendly view. If you are spreading your content over multiple pages<sup><a href="#footnote1">1</a></sup> offering a print option that prints everything can be a good idea. Perhaps.
 

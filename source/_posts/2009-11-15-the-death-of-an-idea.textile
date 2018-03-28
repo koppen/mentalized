@@ -7,9 +7,9 @@ categories:
 - business
 - projects
 ---
-I pulled the plug on a project today. The project was the first Rails project I ever built, and my first, feeble attempt at getting some of all those free money I've heard is floating around the internet. 
+I pulled the plug on a project today. The project was the first Rails project I ever built, and my first, feeble attempt at getting some of all those free money I've heard is floating around the internet.
 
-4 years ago, when I was still thinking PHP was a great language, I needed a real project to use for my experiments into Rails. At the time, I was getting into playing World of Warcraft along with a bunch of friends, and we needed a website where we could discuss tactics, organize events, and all the other small tidbits that go into running  a guild. 
+4 years ago, when I was still thinking PHP was a great language, I needed a real project to use for my experiments into Rails. At the time, I was getting into playing World of Warcraft along with a bunch of friends, and we needed a website where we could discuss tactics, organize events, and all the other small tidbits that go into running  a guild.
 
 I figured I could use Rails for that website, and hey, I might even be able to make a little money on the side by letting other guilds use the same application on a pay-per-month basis. Step 1: Build it - Step 2: ? - Step 3: Profit! As it turns out, step 2 is actually pretty important and harder than I thought.
 
@@ -23,9 +23,9 @@ Perhaps someone else might even learn from my mistakes.
 
 h3. I was not passionate enough
 
-Probably the number one reason for the failure of Guildspace, was the fact that I did not take the project seriously enough. All the other problems can be traced back to this. 
+Probably the number one reason for the failure of Guildspace, was the fact that I did not take the project seriously enough. All the other problems can be traced back to this.
 
-I built the application for myself and some friends, and the business part was just a stray idea. As long as we used the application, I was motivated to improve it. Consequently, when we stopped using the application, I lost the motivation to build the application. 
+I built the application for myself and some friends, and the business part was just a stray idea. As long as we used the application, I was motivated to improve it. Consequently, when we stopped using the application, I lost the motivation to build the application.
 
 Certainly, if the application had customers and was generating revenue at that point, I might have been motivated enough to keep it running, but the reality was different. Which isn't surprising, because no one knew about Guildspace.
 
@@ -43,7 +43,7 @@ My lackluster attitude towards the project also resulted in my not wanting to in
 
 Hosting wasn't the only piece of infrastructure I skimped on. I didn't want to spend money on proper payment processing. I figured, as soon as the customers start flowing in and I actually have some payments to process, I can just use PayPal. They only charge a transaction fee, so if I don't make money, I don't pay them anything. Big mistake!
 
-In order for PayPal subscription payments to work, the customer needs to create an account on PayPal - or if they already have one, log in there. This totally messed up the signup process, but I was too much of a scrooge to care. Not only would a potential customer have to sign up for Guildspace, she'd also have to sign up on a seemingly unrelated website. 
+In order for PayPal subscription payments to work, the customer needs to create an account on PayPal - or if they already have one, log in there. This totally messed up the signup process, but I was too much of a scrooge to care. Not only would a potential customer have to sign up for Guildspace, she'd also have to sign up on a seemingly unrelated website.
 
 Not surprisingly, the majority of new signups never got past the PayPal step.
 

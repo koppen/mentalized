@@ -21,14 +21,14 @@ categories:
 
 <ol>
    <li>Create a directory on your webserver to use for storing the logfile. The webserver (IUSR_*) needs to be able to write to this directory.</li>
-   
+
    <li>Edit tunetracker.class.asp and set the trackDirectory to the directory you just created. Edit other settings to your liking.</li>
-   
+
    <li>Copy the files from the zipfile to somewhere in your webpath (for example a directory called /asptunetracker in the root of your website).</li>
-   
+
    <li>
       <p>Include the DisplayTunes.asp library using SSI on the page where you want to show your current tune: For example</p>
-   
+
    <pre><code>&lt;!-- #include virtual="/asptunetracker/DisplayTunes.asp" --&gt;</code></pre></li>
 
    <li>
@@ -43,19 +43,19 @@ categories:
 
          <li>
             <p>Now you need to find the URL of your RegisterTune.asp script. If you installed the scripts to /asptunetracker it would look like:</p>
-            
+
             <p>http://example.com/asptunetracker/RegisterTune.asp</p>
          </li>
-             
-         <li>        
+
+         <li>
             <p>To complete the URL you need to add song info. The Do Something plugin offers artist, song, album, and lots of other info, only a few of those are supported by aspTuneTracker. Your final URL should look like (on a single line):</p>
             <p>http://example.com/asptunetracker/RegisterTune.asp? song=%%URL_CURRENTSONG%% &amp;LENGTH=%%URL_CURRENTSONGLENGTH%% &amp;title=%%URL_CURRENTSONGTITLE%% &amp;artist=%%URL_CURRENTARTIST%%</p>
-         </li>      
+         </li>
 
          <li>Be sure to then click the "Add ->" button to save it to DoSomething's list of things to do when playing mp3s.</li>
       </ol>
    </li>
-   
+
 </ol>
 
 <h2>Revision history</h2>

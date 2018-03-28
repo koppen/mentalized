@@ -19,9 +19,9 @@ h2. First time around
 # Uh, "United Kingdom" or "Ireland"? None of those are really a good match for me. I wonder if I am not allowed to visit the site if I am from another country. No worries, I'll commit a bit of fraud and pretend I am from England.
 # Waiting for some kind of navigation to appear...
 # This music doesn't really mix well with Korn coming out of iTunes. I better kill the Kameo sounds. At least the button to do that is reasonably easy to find.
-# Hm, no navigation seems to be available. Running my mouse over every element of the screen to see if anything appears clickable. 
+# Hm, no navigation seems to be available. Running my mouse over every element of the screen to see if anything appears clickable.
 # Oh, I can click the Kameo logo in the bottom left corner, that might reveal some navigation. ::Click::
-# Uh, no, that just reloaded everything. 
+# Uh, no, that just reloaded everything.
 # Screw this, this site has nothing but a pretty picture and sound. ::Close tab::
 
 Then I thought, "Hey, this stuff will make for a good rant"...
@@ -37,11 +37,11 @@ h2. Here we go again
 
 h2. A minute is an infinity
 
-A minute later, a navigation menu appears at the bottom. One minute! That's more than 60 seconds of doing nothing. 60! Without an incentive I have an attention span somewhere below 10 seconds. The target audience of the game probably has even less. Why would anyone force anyone to wait that long? It gets even better: I have to wait 60 goddamn seconds each and every time I revisit the page. 
+A minute later, a navigation menu appears at the bottom. One minute! That's more than 60 seconds of doing nothing. 60! Without an incentive I have an attention span somewhere below 10 seconds. The target audience of the game probably has even less. Why would anyone force anyone to wait that long? It gets even better: I have to wait 60 goddamn seconds each and every time I revisit the page.
 
 h2. Navigational pains
 
-The navigation gives me these options: "Anger management", "Kameo Lore", and "Characters". Where would you click to find screenshots? Release information? Supported platforms? Price range? Retailers? The hard cold facts that you might actually be interested in? 
+The navigation gives me these options: "Anger management", "Kameo Lore", and "Characters". Where would you click to find screenshots? Release information? Supported platforms? Price range? Retailers? The hard cold facts that you might actually be interested in?
 
 You better choose wisely, since you're in for at least 20-30 seconds of penalty time after each click. Oh, and make sure you don't follow one of the most common website interactions: Clicking back to the frontpage to start over. That is the full minute of waiting. Again.
 

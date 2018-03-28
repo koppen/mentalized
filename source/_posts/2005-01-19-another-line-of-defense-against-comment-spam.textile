@@ -6,7 +6,7 @@ mt_id: 1227
 categories:
 - blogging
 ---
-Google has taken "steps against the comment spammers(Google Blog: Preventing comment spam)":http://www.google.com/googleblog/2005/01/preventing-comment-spam.html, making it possible to have GoogleBot (and others) pretty much ignore specific links by adding rel="nofollow" to the link tag. 
+Google has taken "steps against the comment spammers(Google Blog: Preventing comment spam)":http://www.google.com/googleblog/2005/01/preventing-comment-spam.html, making it possible to have GoogleBot (and others) pretty much ignore specific links by adding rel="nofollow" to the link tag.
 
 And this isn't "just" Google doing it; a multitude of blogging/CMS vendors/providers have voiced their support for this attribute in the future, and "MSN Search(Working Together Against Blog Spam)":http://www.ysearchblog.com/archives/000069.html and "Yahoo!(Yahoo! Search Blog: A Defense Against Comment Spam)":http://www.ysearchblog.com/archives/000069.html support the initiative too.
 
@@ -18,7 +18,7 @@ A great side effect of this is that it's now possible to link to someone you don
 
 h2. And there was much rejoicing?
 
-So now comment spam is gone? No more getting hammered with a gazillion irrelevant comments linking to 100 sites all detailing the latest progress in abnormal sexual endavours? No chance in hell. 
+So now comment spam is gone? No more getting hammered with a gazillion irrelevant comments linking to 100 sites all detailing the latest progress in abnormal sexual endavours? No chance in hell.
 
 Comment spammers are going to keep at it. Sure, they won't have the Google Juice carrot dangling in front of them, but that hasn't stopped the email spammers, has it? Their links and ads will still show up on the web for people to see and click, even if search engines ignore them. Don't uninstall all those other comment-spam countermeasures just yet. This is merely another drop in the ocean of combatting spammers.
 

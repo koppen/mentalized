@@ -8,7 +8,7 @@ categories:
 ---
 Andy Budd has posted a about "the stages of technological acceptance":http://www.andybudd.com/archives/2005/10/the_six_stages_of_technological_acceptance/. They seem to mirror my acceptance of "Ruby":http://ruby-lang.org and "Rails":http://www.rubyonrails.com quite well.
 
-I remember back when "David":http://loudthinking.com showed me Ruby for the first time. Come to think of it, he was probably showing me Rails, but I was blissfully unaware of this. David was as excited and enthusiastic as a kid in a candystore, going "Look! You can do this! Open declarations! Ducktyping! Full Object Orientation! Blocks!". 
+I remember back when "David":http://loudthinking.com showed me Ruby for the first time. Come to think of it, he was probably showing me Rails, but I was blissfully unaware of this. David was as excited and enthusiastic as a kid in a candystore, going "Look! You can do this! Open declarations! Ducktyping! Full Object Orientation! Blocks!".
 
 I looked at him going "Yes, that's all very fine, but I can do websites in PHP or ASP too, what's the big deal?". Heh, kinda fun thinking about that. Obvious denial, eh?
 

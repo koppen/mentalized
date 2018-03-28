@@ -7,9 +7,9 @@ categories:
 - usability
 - webdesign
 ---
-There it is. Your marvel of an interface. Clean, de-cluttered, easy to use. Steve Jobs would hire you if he saw this. Nah, he would be too gobsmacked to hire you. Yeah, that's right. You're the master of simpl... 
+There it is. Your marvel of an interface. Clean, de-cluttered, easy to use. Steve Jobs would hire you if he saw this. Nah, he would be too gobsmacked to hire you. Yeah, that's right. You're the master of simpl...
 
-The sound of your ringing phone pulls you out of your self-congratulatory bubble. 
+The sound of your ringing phone pulls you out of your self-congratulatory bubble.
 
 It's the boss. He's loving the interface, but wondering if it would be possible to add just a tiny element, it's not much, just an link to like the page on Facebook, no big deal.
 

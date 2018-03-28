@@ -6,7 +6,7 @@ mt_id: 1552
 categories:
 - life
 ---
-I loathe the "High importance" flag in Outlook. I especially loathe that the sender can set it: "My email is much, much more important than whatever other puny stuff you've received". How arrogant is that? 
+I loathe the "High importance" flag in Outlook. I especially loathe that the sender can set it: "My email is much, much more important than whatever other puny stuff you've received". How arrogant is that?
 
 "This message was sent with High Importance". Oh really? Guess what, I couldn't care less. I prioritize my email and tasks myself, thank you very much.
 

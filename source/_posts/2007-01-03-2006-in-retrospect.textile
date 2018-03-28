@@ -11,24 +11,24 @@ categories:
 - BiQ on Rails
 - life
 ---
-It's a new year, and of course, this calls for looking back at the year that passed. The short version: 2006 has been a great year for me on several levels. 
+It's a new year, and of course, this calls for looking back at the year that passed. The short version: 2006 has been a great year for me on several levels.
 
-h2. Professionally 
+h2. Professionally
 
-Career wise 2006 has been coloured primarily by "Ruby on Rails":http://rubyonrails.org. 
+Career wise 2006 has been coloured primarily by "Ruby on Rails":http://rubyonrails.org.
 
-I founded my "freelance web application development shop":http://substancelab.com in January and started having fun building Rails stuff for clients (with the launches of "Pluggd":http://mentalized.net/journal/2006/06/27/plug_pluggd_pluggs_in/ and "MedBillManager":http://mentalized.net/journal/2006/12/20/launch_medbillmanager/ being the highlights).
+I founded my "freelance web application development shop":http://substancelab.com in January and started having fun building Rails stuff for clients (with the launches of "Pluggd":http://mentalized.net/journal/2006/06/27/plug-pluggd-pluggs-in/ and "MedBillManager":http://mentalized.net/journal/2006/12/20/launch-medbillmanager/ being the highlights).
 
-On the day job, my boss finally caved in after hearing me evangelize and rave about Ruby, and "in March we started":http://mentalized.net/journal/2006/03/16/looking_for_a_rails_champion/ looking at the possibility of Rails as our new platform.
+On the day job, my boss finally caved in after hearing me evangelize and rave about Ruby, and "in March we started":http://mentalized.net/journal/2006/03/16/looking-for-a-rails-champion/ looking at the possibility of Rails as our new platform.
 
-The final decision, which was luckily a go, "came in July":http://mentalized.net/journal/2006/07/11/biq_on_rails_its_a_go/ and the actual rewrite began making my dayjob ever so more interesting. 
+The final decision, which was luckily a go, "came in July":http://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/ and the actual rewrite began making my dayjob ever so more interesting.
 
 On the more social side of Ruby and Rails, 2006 also became the birth year of the "Copenhagen Ruby Brigade":http://copenhagenrb.dk. By now we hold (almost) montly meetings usually with around 20 smart and fun participants, healthy discussions and unhealthy fast food.
 
 
 h2. Virtually
 
-The life of "mentalized":http://mentalized.net has been a exciting ride throughout 2006 as well. 
+The life of "mentalized":http://mentalized.net has been a exciting ride throughout 2006 as well.
 
 The year was kickstarted when my satirical "Building your very own web2.0 layout":http://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/ reached the "Digg":http://digg.com hordes in February and became the most visited page on mentalized in 2006 with 175K pageviews.
 

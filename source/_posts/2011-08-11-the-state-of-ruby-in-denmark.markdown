@@ -26,7 +26,7 @@ In many ways we have. Plenty companies use Ruby as their primary programming lan
 
 But we've become too contented. We're still a small community in Denmark, so there is plenty of room for us to grow.
 
-We are the birthplace of Rails. Ruby should be like a second language to all developers. We've climbed the first part of the mountain and gained acceptance. Now it is up to us to reach the summit and prove staying power. 
+We are the birthplace of Rails. Ruby should be like a second language to all developers. We've climbed the first part of the mountain and gained acceptance. Now it is up to us to reach the summit and prove staying power.
 
 ## It's up to you
 

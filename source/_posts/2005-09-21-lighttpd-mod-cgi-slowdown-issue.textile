@@ -11,7 +11,7 @@ My first "Ruby on Rails project":http://www.guildspace.net is currently being te
 
 The application is running "Ruby on Rails":http://www.rubyonrails.com on "MySQL":http://www.mysql.org on "Lighttpd":http://www.lighttpd.net with FastCGI proxypassed behind "Apache":http://httpd.apache.org, which frankly makes it kinda hard to pinpoint a problem like this.
 
-After a bunch of debugging back and forth it became clear that Lighttpd was screwing something up, even Webrick was serving pages quicker to him. However, I had no clue exactly what was going on, so I started trimming the config. 
+After a bunch of debugging back and forth it became clear that Lighttpd was screwing something up, even Webrick was serving pages quicker to him. However, I had no clue exactly what was going on, so I started trimming the config.
 
 One item removed at a time, restarting Lighttpd, trying to access a bunch of pages, rinse and repeat.
 

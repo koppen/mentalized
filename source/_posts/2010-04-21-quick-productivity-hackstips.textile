@@ -14,14 +14,14 @@ Over the last weeks or so, I've implemented a few productivity hacks in my daily
 
 h2. Disable your Mail.app unread count badge
 
-I originally spotted this tip over on "Signals vs Noise":http://37signals.com/svn/posts/2213-turn-off-that-dock-unread-count. It is such a small change, but it has seriously minimized the amount of time I waste on checking email. 
+I originally spotted this tip over on "Signals vs Noise":http://37signals.com/svn/posts/2213-turn-off-that-dock-unread-count. It is such a small change, but it has seriously minimized the amount of time I waste on checking email.
 
 Not having that attention-grabbing, little red badge with a number means I can make a deliberate decision to process my inbox when I want to - not when some sender want me to.
 
 
 h2. SizeUp
 
-"SizeUp":http://www.irradiatedsoftware.com/sizeup/ is a nifty little application that allows you to quickly position windows using the keyboard. Now, I know you probably don't spend all that much time moving your windows around on your screen, and neither did I. 
+"SizeUp":http://www.irradiatedsoftware.com/sizeup/ is a nifty little application that allows you to quickly position windows using the keyboard. Now, I know you probably don't spend all that much time moving your windows around on your screen, and neither did I.
 
 Still, when I did move or resize a window I was spending that extra seconds getting the position/size just right. It had to align with the other windows, or stack up against the screen edge or whatever. OCD much?
 

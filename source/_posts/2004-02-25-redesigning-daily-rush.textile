@@ -17,15 +17,15 @@ h2. Behind the design
 
 Our basic thoughts behind the redesign was the always catchy phrases;  "less is more" and "keep it simple, stupid". We wanted to go in a direction not often seen on gaming websites, cutting down on page graphics and letting the content (text formatting and especially screenshots) create the appearance of the site.
 
-The decision to base the new layout on XHTML and CSS was taken pretty early in the project. I wanted to create a standards based layout on a larger scale website than my own small hobby projects, and a content heavy site like Daily Rush seemed like a great opportunity. 
+The decision to base the new layout on XHTML and CSS was taken pretty early in the project. I wanted to create a standards based layout on a larger scale website than my own small hobby projects, and a content heavy site like Daily Rush seemed like a great opportunity.
 
 h2. Enter the tag soup
 
-The HTML which made up the previous Daily Rush incarnation was a horrible mixture of non-semantic, presentational, non-valid markup. Gems like 
+The HTML which made up the previous Daily Rush incarnation was a horrible mixture of non-semantic, presentational, non-valid markup. Gems like
 
 bc. <b class=h2>Headline</b>
 
-were no rarity. Nested tables were the rule rather than the exception. List structures were mimiced using tables. 
+were no rarity. Nested tables were the rule rather than the exception. List structures were mimiced using tables.
 
 A good deal of time has gone into converting most of the existing pages into proper XHTML and moving presentational elements into a single style sheet. We're not quite there yet, some elements still have inline styles declared and even fewer are using the oldschool nested tables, but we're slowly making progress.
 

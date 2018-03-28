@@ -34,11 +34,11 @@ Luckily there is a loophole. The tmp folder is writable, so some smart folks hav
 
 h2. Hassle doesn't remove all hassles
 
-This works great if you can live with the default locations. Alas, I am picky and I want my Sass templates in app/stylesheets (I believe this is the case if you use "Compass":http://compass-style.org/ as well). I definitely don't want them - or any of my other source files - in public. 
+This works great if you can live with the default locations. Alas, I am picky and I want my Sass templates in app/stylesheets (I believe this is the case if you use "Compass":http://compass-style.org/ as well). I definitely don't want them - or any of my other source files - in public.
 
-Unfortunately the Hassle plugin doesn't work with that configuration, as people have "found":http://groups.google.com/group/heroku/browse_thread/thread/a7e66155a4ae82f3 "out":http://github.com/pedro/hassle/issues#issue/1. 
+Unfortunately the Hassle plugin doesn't work with that configuration, as people have "found":http://groups.google.com/group/heroku/browse_thread/thread/a7e66155a4ae82f3 "out":http://github.com/pedro/hassle/issues#issue/1.
 
-So I set out to fix that, and after a few detours - one involving weird issues with Rack::File - I think I might have finally nailed it. If you install "my Hassle fork":http://github.com/koppen/hassle 
+So I set out to fix that, and after a few detours - one involving weird issues with Rack::File - I think I might have finally nailed it. If you install "my Hassle fork":http://github.com/koppen/hassle
 
 bc. $ rails plugin install git://github.com/koppen/hassle.git
 

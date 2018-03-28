@@ -12,18 +12,18 @@ Unfortunately Stikipad has looked like this the last 2 weeks or so:
 
 <a href="http://www.flickr.com/photos/jakobs/2527867080/" title="Stikipad silence by JakobS, on Flickr"><img src="http://farm3.static.flickr.com/2006/2527867080_141acc2c26.jpg" width="500" height="420" alt="Stikipad silence" /></a>
 
-This essentially means I cannot get at my data and have not been able to for weeks now. As if that isn't bad enough in itself, I don't know squat about what is happening, why a data center move is taking weeks to complete, or when I might see my data again. 
+This essentially means I cannot get at my data and have not been able to for weeks now. As if that isn't bad enough in itself, I don't know squat about what is happening, why a data center move is taking weeks to complete, or when I might see my data again.
 
 
 h2. The sound of silence
 
-The owners of Stikipad, "Jonathan George":http://www.linkedin.com/in/jonathandavidgeorge and "Matthew DeWaal":http://www.linkedin.com/in/matthewdewaal, "appear to have hid themselves":http://zaissianlogic.com/design/2008/03/what-happened-to-stikipad/ behind a wall of silence which is even scarier - not to mention disrespectful to their customers. 
+The owners of Stikipad, "Jonathan George":http://www.linkedin.com/in/jonathandavidgeorge and "Matthew DeWaal":http://www.linkedin.com/in/matthewdewaal, "appear to have hid themselves":http://zaissianlogic.com/design/2008/03/what-happened-to-stikipad/ behind a wall of silence which is even scarier - not to mention disrespectful to their customers.
 
-While I can understand the sticky situation they might be finding themselves in, they need to pull their heads out their butts for a second and provide information to their customers. They haven't answered emails, they "don't reply to comments":http://jdg.net/post/34244694/just-like-to-show-some-appreciation#disqus_thread, and their "support site":http://support.stikipad.com is down. 
+While I can understand the sticky situation they might be finding themselves in, they need to pull their heads out their butts for a second and provide information to their customers. They haven't answered emails, they "don't reply to comments":http://jdg.net/post/34244694/just-like-to-show-some-appreciation#disqus_thread, and their "support site":http://support.stikipad.com is down.
 
-At least "a thousand people":http://www.google.com/search?client=safari&rls=en&q=%22Powered+by+Stikipad%22&ie=UTF-8&oe=UTF-8 used to have public wikis hosted with Stikipad and are now left with only a non-informative "We are moving data centers". Fine, move data centers all you want, I really don't care. But I do care about my data, which you are currently keeping away from me. 
+At least "a thousand people":http://www.google.com/search?client=safari&rls=en&q=%22Powered+by+Stikipad%22&ie=UTF-8&oe=UTF-8 used to have public wikis hosted with Stikipad and are now left with only a non-informative "We are moving data centers". Fine, move data centers all you want, I really don't care. But I do care about my data, which you are currently keeping away from me.
 
-And to add insult to injury, Stikipad is apparently "charging their customers for a non existant service":http://zaissianlogic.com/design/2008/03/what-happened-to-stikipad/. 
+And to add insult to injury, Stikipad is apparently "charging their customers for a non existant service":http://zaissianlogic.com/design/2008/03/what-happened-to-stikipad/.
 
 
 h2. If you're using web applications...
@@ -36,6 +36,6 @@ There a couple of lessons to be learned here - both as a consumer and a producer
 
 h2. If you're producing web applications...
 
-The most important lesson for producers of web applications that deal with other peoples data - and I sure hope the Stikipad guys are taking notes here so they don't end up accidentally screwing more people over - is that you need to always communicate. Especially in times of trouble. Set up a blog on one of the numerous blogging services or hook your company up with "Get Satisfaction":http://getsatisfaction.com. 
+The most important lesson for producers of web applications that deal with other peoples data - and I sure hope the Stikipad guys are taking notes here so they don't end up accidentally screwing more people over - is that you need to always communicate. Especially in times of trouble. Set up a blog on one of the numerous blogging services or hook your company up with "Get Satisfaction":http://getsatisfaction.com.
 
 I don't care how you do it, just don't shut the fuck up.

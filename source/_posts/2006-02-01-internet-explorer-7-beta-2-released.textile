@@ -8,4 +8,4 @@ categories:
 ---
 It's "somewhere over here hidden by a hideous Flash animation":http://www.microsoft.com/windows/ie/ie7/default.mspx.
 
-bq. Microsoft have released a public beta of IE7. The homepage is a staggeringly fucking awful flash animation, promising 
+bq. Microsoft have released a public beta of IE7. The homepage is a staggeringly fucking awful flash animation, promising

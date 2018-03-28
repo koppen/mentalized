@@ -21,9 +21,9 @@ h2. Webkit, I love you, but...
 
 Sure, setting wmode let the Flash player obey the specified z-indexes, in all but Webkit based browsers (I presume Webkit was to blame, but to be honest, I only verified in "Google Chrome":http://www.google.com/chrome).
 
-"eventzonen.dk":http://eventzonen.dk is marked up in HTML5, and we're using pretty standard object/embed tags to bring in YouTube movies on artist profile pages. According to HTML5 validator the <code>object</code> tag must have either a <code>type</code> *or* a <code>data</code> attribute. 
+"eventzonen.dk":http://eventzonen.dk is marked up in HTML5, and we're using pretty standard object/embed tags to bring in YouTube movies on artist profile pages. According to HTML5 validator the <code>object</code> tag must have either a <code>type</code> *or* a <code>data</code> attribute.
 
-We were using the data attribute only. And that apparently makes Chrome layer the Flash element on top of everything. 
+We were using the data attribute only. And that apparently makes Chrome layer the Flash element on top of everything.
 
 
 h2. The fix

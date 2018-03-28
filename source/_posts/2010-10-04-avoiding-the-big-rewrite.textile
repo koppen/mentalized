@@ -8,7 +8,7 @@ categories:
 - development
 - programming
 ---
-All software projects trend towards "The Big Rewrite":http://chadfowler.com/2006/12/27/the-big-rewrite. 
+All software projects trend towards "The Big Rewrite":http://chadfowler.com/2006/12/27/the-big-rewrite.
 
 <!--more-->
 
@@ -18,7 +18,7 @@ h2. Technical bankruptcy
 
 The Big Rewrite is like declaring bankruptcy. You've accrued so much debt that there's no way you'll be able to climb out of the hole you've dug for yourself. At least not in this lifetime. So you declare bankruptcy. Effectively this voids all your debt, but it's a permanent blemish on your track record.
 
-This is pretty much how The Big Rewrite works. Your "technical debt":http://measuringmeasures.com/blog/2010/9/21/startup-technical-debt.html has grown to a size where it's unmanageable, and the only (perceived) way of the hole is to rewrite. This is not a dream scenario. Rewrites are expensive, tends to grind product development to a halt, and even more importantly; many of them fail. 
+This is pretty much how The Big Rewrite works. Your "technical debt":http://measuringmeasures.com/blog/2010/9/21/startup-technical-debt.html has grown to a size where it's unmanageable, and the only (perceived) way of the hole is to rewrite. This is not a dream scenario. Rewrites are expensive, tends to grind product development to a halt, and even more importantly; many of them fail.
 
 You should attempt to fight The Big Rewrite for as long as possible.
 
@@ -34,7 +34,7 @@ h3. Schedule time for continuous improvements
 
 If you are exclusively focused on adding new features, you will eventually find yourself facing the big rewrite. So set aside some time, perhaps a day every week where your developers aren't expected to work on new features.
 
-Alternatively, this can happen as part of the daily workflow. Done implementing a feature? Then improve some code in some manner. Then back to the next story of the iteration. Rinse and repeat. 
+Alternatively, this can happen as part of the daily workflow. Done implementing a feature? Then improve some code in some manner. Then back to the next story of the iteration. Rinse and repeat.
 
 
 h3. Keep up with software updates

@@ -6,7 +6,7 @@ mt_id: 730
 categories:
 - blogging
 ---
-Creating website designs is fun. So I did it again. Welcome to yet another look of Mentalized. This time the change of look also features some changes under the hood, so except things to break until I get everything worked out. 
+Creating website designs is fun. So I did it again. Welcome to yet another look of Mentalized. This time the change of look also features some changes under the hood, so except things to break until I get everything worked out.
 
 Hm, let's see, what have I changed apart from the look - I probably should've kept a changelog ;)
 

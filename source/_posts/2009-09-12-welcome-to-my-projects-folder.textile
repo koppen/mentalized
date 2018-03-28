@@ -18,12 +18,12 @@ Outside of that, the folder for a single project can contain any number of diffe
 
 h2. Archived projects
 
-In the Projects folder is also an Archived folder where I put zipfiles of the projects I no longer work on. The archive folder follows the same structure as the Projects folder, with a folder for each client, containing the zipped projects I've built for them. 
+In the Projects folder is also an Archived folder where I put zipfiles of the projects I no longer work on. The archive folder follows the same structure as the Projects folder, with a folder for each client, containing the zipped projects I've built for them.
 
 
 h2. Contracts and documents
 
-I currently keep my contracts and proposals and documents like that in a separate structure, keeping everything under Projects focused on actually producing the project. 
+I currently keep my contracts and proposals and documents like that in a separate structure, keeping everything under Projects focused on actually producing the project.
 
 
 h2. I've showed you mine...

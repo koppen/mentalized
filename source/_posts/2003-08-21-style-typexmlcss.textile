@@ -10,16 +10,16 @@ I wonder if we'll ever see CSS in XML-format. Imagine creating styles like:
 
 bc. <style type="xml/css" media="screen">
    <rule>
-      <selector>body</selector>    
+      <selector>body</selector>
       <attributes>
          <background>
             <color>white</color>
          </background>
       </attributes>
-   </rule>  
+   </rule>
    <rule>
       <selector>div.header</selector>
-      <selector>div.something + div.another</selector>  
+      <selector>div.something + div.another</selector>
       <attributes>
          <border>1px solid black</border>
          <border>

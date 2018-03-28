@@ -9,12 +9,12 @@ categories:
 ---
 We Mac users have been blessed with self-contained applications that (for the most part) don't require an installation/setup. This means trying out a new application is a simple matter of downloading and double clicking and the app is running.
 
-However, in many cases people end up having their applications installed to their Downloads folder instead of the "proper" Applications folder, because they don't know or care where their apps are running. 
+However, in many cases people end up having their applications installed to their Downloads folder instead of the "proper" Applications folder, because they don't know or care where their apps are running.
 
 "Stay":http://cordlessdog.com/stay/, a great window helper application with an ungoogleable name, recognizes this antipattern and is able to move itself to the Applications folder if it's running from Downloads.
 
 !/files/journal/stay/MoveToApplications.png!
 
-What a great way to recognize and prevent a potential headache for your customers. 
+What a great way to recognize and prevent a potential headache for your customers.
 
 +Update: Looks like this feature was "originally created":http://www.potionfactory.com/blog/2009/09/17/move-applications-folder by Andy Kim from Potion Factory and released in as "open source":http://github.com/potionfactory/LetsMove/ based on "an idea":http://daringfireball.net/2009/09/how_should_mac_apps_be_distributed by the omnipresent John Gruber.+

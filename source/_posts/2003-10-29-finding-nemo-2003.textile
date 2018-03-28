@@ -6,7 +6,7 @@ mt_id: 757
 categories:
 - movies
 ---
-Pixar strikes again. "Finding Nemo(IMDb: Finding Nemo)":http://www.imdb.com/title/tt0266543/ is a great movie. 
+Pixar strikes again. "Finding Nemo(IMDb: Finding Nemo)":http://www.imdb.com/title/tt0266543/ is a great movie.
 
 The tale of daddy clownfish travelling through the ocean to find his lost son is catching, the characters are all fittingly fishy in their own unique ways, and the voice acting works very well.
 

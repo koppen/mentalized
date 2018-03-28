@@ -10,9 +10,9 @@ categories:
 ---
 It's about time we kill the "www". I don't mean the World Wide Web, obviously, but the three letters that appear at the beginning of a plethora of website addresses.
 
-Seen from a human perspective they serve very little purpose these days. Sure, many people believe they are required - and in some cases they are due to technical oversights - and will happily enter them in the address bar. 
+Seen from a human perspective they serve very little purpose these days. Sure, many people believe they are required - and in some cases they are due to technical oversights - and will happily enter them in the address bar.
 
-It could be argued that they make it easy to recognize a website address. I agree, everybody recognizes "www.example.com" as a website address. However, my guess is that people are just as likely to recognize "example.com". The dot and the 2-4 letters following it are what makes a website address - both on a technical level, but also in peoples minds.  
+It could be argued that they make it easy to recognize a website address. I agree, everybody recognizes "www.example.com" as a website address. However, my guess is that people are just as likely to recognize "example.com". The dot and the 2-4 letters following it are what makes a website address - both on a technical level, but also in peoples minds.
 
 
 h2. Why it's bad

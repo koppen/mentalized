@@ -20,7 +20,7 @@ The most obvious noise from PostgreSQL is when running your tests. For a large'i
 bc. NOTICE:  CREATE TABLE will create implicit sequence "inboxes_id_seq" for serial column "inboxes.id"
 NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "inboxes_pkey" for table "inboxes"
 
-to be output. 
+to be output.
 
 To get rid of those, simply add
 
@@ -41,7 +41,7 @@ bc. Inbox Load (3.7ms)  SELECT "inboxes".* FROM "inboxes" ORDER BY created_at LI
  AND a.attnum > 0 AND NOT a.attisdropped
  ORDER BY a.attnum
 
-Getting rid of those is as simple as installing the "silent-postgres":https://github.com/dolzenko/silent-postgres gem, which 
+Getting rid of those is as simple as installing the "silent-postgres":https://github.com/dolzenko/silent-postgres gem, which
 
 bq. "Silences internal diagnostic messages from postgresql connection adapter."
 

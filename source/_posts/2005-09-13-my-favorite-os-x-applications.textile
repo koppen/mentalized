@@ -14,4 +14,4 @@ Jumping on "the meme bandwagon":http://www.hicksdesign.co.uk/journal/10-mac-apps
 * "Growl":http://growl.info/ - Adds a little extra "oomph"; Consistent eye-candy with support for / supported by a lot of applications.
 * "YourSQL":http://yoursql.ludit.it/ - For all my data access needs.
 
-Oh, it was supposed to be 10? Well, add Terminal, Safari, Mail, iCal and uhm... Finder to that. Yup, looks good. I can't help but think I am missing something crucial, though. 
+Oh, it was supposed to be 10? Well, add Terminal, Safari, Mail, iCal and uhm... Finder to that. Yup, looks good. I can't help but think I am missing something crucial, though.

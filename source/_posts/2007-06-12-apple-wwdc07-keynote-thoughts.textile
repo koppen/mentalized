@@ -6,14 +6,14 @@ mt_id: 1822
 categories:
 - technology
 ---
-Going through my aggregated feeds today was a pain. Everyone were writing about the WWDC07 keynote stuff and I hadn't seen it yet. So I had to stop reading and "start looking":http://www.apple.com/quicktime/qtv/keynote/  . 
+Going through my aggregated feeds today was a pain. Everyone were writing about the WWDC07 keynote stuff and I hadn't seen it yet. So I had to stop reading and "start looking":http://www.apple.com/quicktime/qtv/keynote/  .
 
 And since I blog too little these days, I figured I might as well write down some notes and loosely joined thoughts while watching, so here goes:
 
 
 h2. Games
 
-* With Blizzard and now EA backing the Mac platform and doing simultaneous releases (did EA say this or only John Carmack?), we're pretty well served in the games area. Other companies are bound to follow. 
+* With Blizzard and now EA backing the Mac platform and doing simultaneous releases (did EA say this or only John Carmack?), we're pretty well served in the games area. Other companies are bound to follow.
 * I wonder what the market share of Blizzard and EA combined is like, it has to be big chunk.
 
 
@@ -22,7 +22,7 @@ h2. Leopard
 * Stacks look awesome
 ** The Download stack in particular is great, talk about seeing a need and fulfilling it.
 * New finder - about bloody time
-** Cover Flow? Meh. 
+** Cover Flow? Meh.
 *** Cool, sure - "super useful", doubtful
 *** Although with Quick Look it might be good.
 * Back to my Mac - sounds really interesting, might be reason enough to buy .mac

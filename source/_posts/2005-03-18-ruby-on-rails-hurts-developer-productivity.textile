@@ -8,7 +8,7 @@ categories:
 ---
 Gah, using "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com is seriously influencing my productivity at work in a negative way. I take longer doing simple stuff, my code has more errors and never works the first time anymore.
 
-"Why? How? Everybody else praise Rails to the skies, why are you different, Jakob?", I hear the masses cry out. I'll tell you why! 
+"Why? How? Everybody else praise Rails to the skies, why are you different, Jakob?", I hear the masses cry out. I'll tell you why!
 
 After having gotten used to RoR for a private project or 2, all the web development stuff I do at work feels ugly, clunky and unproductive, simply because I am *not* using Ruby on Rails for it.
 

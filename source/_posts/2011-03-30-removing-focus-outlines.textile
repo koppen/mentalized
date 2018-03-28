@@ -32,7 +32,7 @@ bc(css). :focus {
   outline: 0;
 }
 
-While the above also removes the glow on input elements in Webkit-based browsers, Firefox is a bit more tricky. 
+While the above also removes the glow on input elements in Webkit-based browsers, Firefox is a bit more tricky.
 
 h2. Focus glow in Firefox
 

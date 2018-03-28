@@ -19,7 +19,7 @@ The (current) header image is a shot from the movie, Eternal Sunshine of the Spo
 
 h2. Link styles
 
-Traditionally I have been using one color for non-visited links, and a less contrasty variant of the same color for visited links. For this design I wanted to move away from this. Aside from using different colors (which it appears might be a bit _too_ different) to distinquish between a links visited-state, visited links use a dashed underline instead of the solid underline of non-visited links. 
+Traditionally I have been using one color for non-visited links, and a less contrasty variant of the same color for visited links. For this design I wanted to move away from this. Aside from using different colors (which it appears might be a bit _too_ different) to distinquish between a links visited-state, visited links use a dashed underline instead of the solid underline of non-visited links.
 
 I considered using strikethrough or checkmarks or something like it to indicate a visited link, however none of those really suits me. Strikethrough tends to visually conflict with the &lt;del&gt; tag and I plain don't like the look, and checkmarks make links look like something that's part of a To-Do list, which they hardly are.
 

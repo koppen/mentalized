@@ -24,7 +24,7 @@ They are often employed in a naive attempt to speed up production. The thinking 
 
 But here's the thing about deadlines; they don't make things any easier or faster to implement. No matter the deadline, you still have the same amount of work to do.
 
-If your deadline is fixed, something else has to give; either quality or number of features. The Project Triangle sayeth so. 
+If your deadline is fixed, something else has to give; either quality or number of features. The Project Triangle sayeth so.
 
 Give up on features and the product might not be what you imagined. Give up quality and [you'll pay for it later](http://mentalized.net/journal/2010/10/04/avoiding-the-big-rewrite/) - with interests.
 

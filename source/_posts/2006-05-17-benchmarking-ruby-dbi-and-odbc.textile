@@ -47,6 +47,6 @@ h2. Does it really mean anything
 
 It's hard to say wether this really matters. The above numbers worries me a bit, and I would've liked to see Ruby perform on par with ASP/VBScript ADODB. It's still hypothetical. though, and the difference is probably not going to matter at all (at least not for low amounts of data). I'd rarely have to retrieve more than 1000 rows from the database anyways.
 
-These numbers are probably too low level. I guess I'll have to wait until I can get some stuff set up that massages the whole stack, including building HTML. I am guessing the difference will even out into the hardly measurable category. 
+These numbers are probably too low level. I guess I'll have to wait until I can get some stuff set up that massages the whole stack, including building HTML. I am guessing the difference will even out into the hardly measurable category.
 
 I'm also hoping I've made a mistake somewhere.

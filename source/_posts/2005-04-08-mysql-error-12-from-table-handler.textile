@@ -12,7 +12,7 @@ Apparently for a query to fail, all it needs is to be a join with two tables wit
 
 bc. SELECT * FROM a, b WHERE a.id = b.join_id ORDER BY a.id
 
-Removing the "order by" clause makes the error go away. 
+Removing the "order by" clause makes the error go away.
 
 I have no idea what the error means, apart from that it apparently has something to do with memory. The two tables in question have 5 and 40 rows respectivly, so it's not like it's a big resultset to order.
 

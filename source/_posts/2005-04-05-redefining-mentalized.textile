@@ -20,7 +20,7 @@ I myself am not even sure what goes there and what goes in the journal, so how c
 
 h3. ...Play with a grid-adhering layout
 
-Being massively impressed with "Khoi Vinh's Substraction 7.0(Subtraction)":http://subtraction.com/ I wanted to do something along the same lines he did. Grids and metadata on the left hand side were my main objectives. 
+Being massively impressed with "Khoi Vinh's Substraction 7.0(Subtraction)":http://subtraction.com/ I wanted to do something along the same lines he did. Grids and metadata on the left hand side were my main objectives.
 
 h3. ...Create a design without a sidebar
 
@@ -34,9 +34,9 @@ So far, I am still thinking about how to go about it, but it is my hope that the
 
 h3. ...Stop relying on quicklinks
 
-One thing I have done, though, is move my Quicklinks to del.icio.us. They are now posted once a day from del.icio.us to my separate Quicklinks blog. They've also been moved from the main content area, which is now reserved for my actual writings. 
+One thing I have done, though, is move my Quicklinks to del.icio.us. They are now posted once a day from del.icio.us to my separate Quicklinks blog. They've also been moved from the main content area, which is now reserved for my actual writings.
 
-I do worry, though, that they've become invisible down there at their new location, so they might be moved back to the main content area at some point. 
+I do worry, though, that they've become invisible down there at their new location, so they might be moved back to the main content area at some point.
 
 If I could figure out how to make del.icio.us post to a specific category (it just seems to ignore the category id I tell it to post to), I could scrap the Quicklinks blog entirely, I guess. That would require me to take that category out of my feed though, since I really don't want people to receive notification that my site has been updated whenever I post a link to the funny flash movie of the day.
 

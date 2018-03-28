@@ -16,7 +16,7 @@ The frontpage of Browse Happy is clean and nice looking, but it seems to be lack
 
 h2. Make it about the people
 
-When creating a campaign where real people try to persuade other real people to switch to another browser (or cable company or hot dog vendor for that matter) you have to make it about the people. If I can find someone to identify with I am more prone to listen. 
+When creating a campaign where real people try to persuade other real people to switch to another browser (or cable company or hot dog vendor for that matter) you have to make it about the people. If I can find someone to identify with I am more prone to listen.
 
 I need to be told who these people are. Sure, "Ron(Ron Richards)":http://browsehappy.com/people/ron/ is Ron, but his statement wouldn't have much credibility if he worked as a Sales and Marketing Manager for Opera and I wouldn't bother clicking him. Knowing up front that Ron is a "Project Manager for Starwood Hotels & Resorts" adds a ton of credibility to his statement and makes it more likely that I will click through. It also serves the purpose of making him more "real" to the user.
 

@@ -6,9 +6,9 @@ mt_id: 835
 categories:
 - browsers
 ---
-I received an email today advertising Mozilla in a somewhat subtle way: The X-message-flag of the mail was set to 
+I received an email today advertising Mozilla in a somewhat subtle way: The X-message-flag of the mail was set to
 
-bq. You are using Outlook. May I recommend Mozilla (http://www.mozilla.org)? 
+bq. You are using Outlook. May I recommend Mozilla (http://www.mozilla.org)?
 
 In Outlook XP this results in Outook seemingly recommending me Mozilla:
 

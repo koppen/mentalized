@@ -14,7 +14,7 @@ Inspired by a comment by "J(arcana imperii)":http://arcimperii.blogspot.com/ to 
 
 Unfortunatly, after nearly 20 blogs/journals/diaries my search ends in a loop. A few people insist they were inspired by each other, and the backtracking trail ends at "a friends only LiveJournal(SeamusD)":http://www.livejournal.com/users/seamusd/.
 
-So the most original instructions I have been able to dig up are from "Cyn's LiveJournal(cynnerth)":http://www.livejournal.com/users/cynnerth/1180966.html and are the exact same ones as I and everybody else have posted: 
+So the most original instructions I have been able to dig up are from "Cyn's LiveJournal(cynnerth)":http://www.livejournal.com/users/cynnerth/1180966.html and are the exact same ones as I and everybody else have posted:
 
 # Grab the nearest book.
 # Open the book to page 23.
@@ -44,6 +44,6 @@ The full path that I have been able to trace looks like this:
 ## "pbsage(pbsage)":http://www.livejournal.com/users/pbsage/235699.html
 ## Merges into main path
 # "Cyn(Cyn)":http://www.livejournal.com/users/cynnerth/1180966.html
-# "Hang the Dee Jay(Hang the Dee Jay)":http://www.livejournal.com/users/seamusd/ 
+# "Hang the Dee Jay(Hang the Dee Jay)":http://www.livejournal.com/users/seamusd/
 
 The latter is a friends only journal, but according to "a comment (Cyn)":http://www.livejournal.com/users/cynnerth/1180966.html?thread=8736038#t8736038 he got it from kricker (#16), and we start looping.

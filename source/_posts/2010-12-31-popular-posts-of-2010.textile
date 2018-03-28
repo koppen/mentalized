@@ -6,7 +6,7 @@ mt_id: 2078
 categories:
 - mentalized.net
 ---
-It's the last day of the year 2010. What better time is there to do what everybody else is doing and dive into Google Analytics and pretend statistics matter. 
+It's the last day of the year 2010. What better time is there to do what everybody else is doing and dive into Google Analytics and pretend statistics matter.
 
 
 <!--more-->

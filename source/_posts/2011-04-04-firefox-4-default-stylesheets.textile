@@ -20,7 +20,7 @@ As far as I can tell, the following stylesheets are the ones used to provide the
 * "mathml.css":resource://gre-resources/mathml.css
 * "quirk.css":resource://gre-resources/quirk.css
 
-The styles in those files are what CSS reset stylesheets are trying to eliminate. 
+The styles in those files are what CSS reset stylesheets are trying to eliminate.
 
 If anything, it's interesting digging through those files just to see what kinds of tricks they use internally. There are lots of -moz vendor prefixes in there.
 

@@ -6,7 +6,7 @@ mt_id: 1861
 categories:
 - life
 ---
-Putting this into the open to force myself to follow through: For the next month, I am going to practice "Inbox Zero":http://inboxzero.com. 
+Putting this into the open to force myself to follow through: For the next month, I am going to practice "Inbox Zero":http://inboxzero.com.
 
 Yes, this is (off course) largely inspired by "Merlin Mann's":http://43folders.com "recent talk at Google":http://video.google.com/videoplay?docid=973149761529535925&hl=en, which has caused a fair few ripples around the internet with people realizing the need to keep their inbox clean.
 

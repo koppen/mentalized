@@ -41,9 +41,9 @@ Features are meant for my longer essays, writings, and project descriptions that
 
 h3. Archiving setup
 
-I wanted the index listings for each category placed in category-specific directories, ie http://www.mentalized.net/features/movable_type/ to mimic how I do it on my blog. This is done by setting the category Archive File Template to 
+I wanted the index listings for each category placed in category-specific directories, ie http://www.mentalized.net/features/movable_type/ to mimic how I do it on my blog. This is done by setting the category Archive File Template to
 
-<code><$MTArchiveCategory dirify="1"$>/index.asp</code> 
+<code><$MTArchiveCategory dirify="1"$>/index.asp</code>
 
 The Archive File Template for Individual archives is then set to
 
@@ -55,11 +55,11 @@ h2. Creating static pages
 
 "Static Pages" means the pages on the website that aren't likely to change often and doesn't need things like archives and indexes. For me, this currently means my about-page, resume, and portfolio, all of which I want to go in http://www.mentalized.net/about/.
 
-I also wanted to make sure that I have the option of adding static pages more or less everywhere in the site structure. Since I don't need to place the static pages into categories, I decided to use the category field to indicate what directory to put the entries in. 
+I also wanted to make sure that I have the option of adding static pages more or less everywhere in the site structure. Since I don't need to place the static pages into categories, I decided to use the category field to indicate what directory to put the entries in.
 
 h3. Archiving configuration
 
-For the purpose of static pages, I only needed the Individual archive type, so I deleted the rest. 
+For the purpose of static pages, I only needed the Individual archive type, so I deleted the rest.
 
 Initially I used the individual archive file template mentioned above, alas this gave me an URL of http://www.mentalized.net/about/about/ for my about page, which I'd like give both category and title of "about".
 
@@ -77,7 +77,7 @@ If you want to employ a search that searches your entire website, you need to ch
 
 Basically you need to add a line like that for every area/blog to include in your search, changing only the value-field. To get the value needed for the value-field, go to your MT main menu and find the blog you want to include in the search.
 
-To get the id of a blog, either hover your mouse pointer over the blogs name and look in your statusbar, or rightclick and copy the link location/shortcut and paste it into a texteditor (notepad works). You will get an URL of the form 
+To get the id of a blog, either hover your mouse pointer over the blogs name and look in your statusbar, or rightclick and copy the link location/shortcut and paste it into a texteditor (notepad works). You will get an URL of the form
 
 <code>http://domain/directory/mt.cgi?__mode=menu&blog_id=12</code>
 

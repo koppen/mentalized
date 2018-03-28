@@ -7,10 +7,10 @@ categories:
 - projects
 - webdesign
 ---
-... Well, not really. 
+... Well, not really.
 
 The guy behind <a title="RailFrog - CMS on Rails" href="http://www.railfrog.com/">RailFrog</a> emailed and asked if I was cool with him using the "Ruby on Rails design":http://www.rubyonrails.com.
 
-For a project like Ruby on Rails it makes a whole lot of sense letting users of the framework use the website design, and it's kind of funky seeing your work evolve/mutate/adapt.  
+For a project like Ruby on Rails it makes a whole lot of sense letting users of the framework use the website design, and it's kind of funky seeing your work evolve/mutate/adapt.
 
 So yes, I was cool with it and I wish him the best of luck with the project. Oh, and I dig the frog.

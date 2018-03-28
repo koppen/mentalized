@@ -22,6 +22,6 @@ $20? Now we're talking. I'd be looking at recouping my costs and making a decent
 
 $100? If 200 customers find my something worth that much, why not?
 
-Now, let's assume the number of copies with certainty cannot exceed 1.000 for whatever reason. 
+Now, let's assume the number of copies with certainty cannot exceed 1.000 for whatever reason.
 
 How much would you charge?

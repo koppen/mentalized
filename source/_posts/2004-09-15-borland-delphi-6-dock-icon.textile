@@ -6,7 +6,7 @@ mt_id: 820
 categories:
 - projects
 ---
-I recently found/invented a need for a PNG icon for Borlands Delphi 6 to put in a dock so I went ahead and made one. Feel free to use it for personal use, or mock me for my graphical (in)abilities. 
+I recently found/invented a need for a PNG icon for Borlands Delphi 6 to put in a dock so I went ahead and made one. Feel free to use it for personal use, or mock me for my graphical (in)abilities.
 
 !/journal/2004/09/15/borland_delphi_6_dock_icon/delphi6.png (Borland Delphi 6)!
 

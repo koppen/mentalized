@@ -13,7 +13,7 @@ categories:
 
 h2. iTerm shell script
 
-A bunch of people pointed to "this handy iTerm shortcut":http://railstips.org/2008/2/22/handy-iterm-shortcut, which uses Applescript invoked from a shell script to start the environment. I use roughly the same approach, however it's wrapped in "an Automator workflow":http://mentalized.net/files/journal/rails-project-launcher/EditRailsProjectWorkflow.zip, which I launch using "Quicksilver":http://docs.blacktree.com/quicksilver/what-is-quicksilver. 
+A bunch of people pointed to "this handy iTerm shortcut":http://railstips.org/2008/2/22/handy-iterm-shortcut, which uses Applescript invoked from a shell script to start the environment. I use roughly the same approach, however it's wrapped in "an Automator workflow":http://mentalized.net/files/journal/rails-project-launcher/EditRailsProjectWorkflow.zip, which I launch using "Quicksilver":http://docs.blacktree.com/quicksilver/what-is-quicksilver.
 
 
 h2. Automator workflow

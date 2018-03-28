@@ -9,7 +9,7 @@ categories:
 - movies
 - software
 ---
-So the [Ender movie](http://trailers.apple.com/trailers/summit/endersgame/) is coming out. That's... well, it's coming out.   
+So the [Ender movie](http://trailers.apple.com/trailers/summit/endersgame/) is coming out. That's... well, it's coming out.
 
 This had me thinking about the book series and one thing from there struck me as being more science than fiction nowadays (don't worry, no spoilers):
 

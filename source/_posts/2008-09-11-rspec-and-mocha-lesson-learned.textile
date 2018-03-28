@@ -35,7 +35,7 @@ bc(ruby). class Car
   end
 end
 
-The above is a nice scaffold for our full implementation, but there is one problem. The specs actually pass! Without any actual code, the expectations are apparently being triggered. This is obviously not correct, and it was driving me mildly crazy. Fortunately, a bit of Googling led me to "a blog post":http://www.paperplanes.de/archives/2007/12/14/mocha_and_rspec_dont_play/ who gave me the solution. 
+The above is a nice scaffold for our full implementation, but there is one problem. The specs actually pass! Without any actual code, the expectations are apparently being triggered. This is obviously not correct, and it was driving me mildly crazy. Fortunately, a bit of Googling led me to "a blog post":http://www.paperplanes.de/archives/2007/12/14/mocha_and_rspec_dont_play/ who gave me the solution.
 
 While RSpec has its own, built-in mocking framework it doesn't mind stepping down and leave the mocking to Mocha - but you have to tell it to do so:
 

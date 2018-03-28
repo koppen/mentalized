@@ -13,13 +13,13 @@ Collection of notes about Ssraeshza Temple, gathered in preparation of moving in
 BRING A ROGUE if you're doing ssra - there's mana suck traps galore that need to be disarmed and they're very nasty and unresistable.
 
 
-h2. Important mobs 
+h2. Important mobs
 
 Ordered roughly by strength
 
-h4. "Rhag'Zhezum(Rhag 1)":http://eqbeastiary.allakhazam.com/search.shtml?id=7828 (Rhag 1) 
+h4. "Rhag'Zhezum(Rhag 1)":http://eqbeastiary.allakhazam.com/search.shtml?id=7828 (Rhag 1)
 
-* Hits 150-250s, flurries, not slowable 
+* Hits 150-250s, flurries, not slowable
 * No keys needed
 
 The easiest raid mobs in Ssra. No keys needed. Killing Rhag 1 immediatly spawns Rhag 2.
@@ -27,7 +27,7 @@ The easiest raid mobs in Ssra. No keys needed. Killing Rhag 1 immediatly spawns 
 
 h4. "Rhag'Mozdezh(Rhag 2)":http://eqbeastiary.allakhazam.com/search.shtml?id=7829 (Rhag 2)
 
-* Hits 300-400s, rampages, slowable 
+* Hits 300-400s, rampages, slowable
 * No keys needed
 * Located on the 2nd floor
 
@@ -36,29 +36,29 @@ The easiest raid mobs in Ssra. No keys needed. Killing Rhag 2 spawns the Arch Li
 
 h4. "A Glyphed Covered Serpent(Glyphed)":http://eqbeastiary.allakhazam.com/search.shtml?id=7601 (Glyphed)
 
-* Hits 300s, slowable 
-* AE: feign death, resistable at 500 MR, single target knockback/spin, dmf the MA 
+* Hits 300s, slowable
+* AE: feign death, resistable at 500 MR, single target knockback/spin, dmf the MA
 * No keys needed
 * Located in the basement
 
-Just kill the basement named (Rhags and Rhozths) in under an hour to spawn Glyphed. Kill Glyphed to spawn Exiled. Glyphed and Exiled are both pretty easy. 
+Just kill the basement named (Rhags and Rhozths) in under an hour to spawn Glyphed. Kill Glyphed to spawn Exiled. Glyphed and Exiled are both pretty easy.
 
 
 h4. "Vyzh'dra the Exiled(Exiled)":http://eqbeastiary.allakhazam.com/search.shtml?id=7604 (Exiled)
 
 * Hits 400s, slowable
-* AE: fire based fear, has single target 20k HT, resistable with high FR 
+* AE: fire based fear, has single target 20k HT, resistable with high FR
 * Death touches with 2 minute interval
 * No keys needed.
 * Located in the basement
 
-kill Exiled to spawn Cursed. Glyphed and Exiled are both pretty easy. 
+kill Exiled to spawn Cursed. Glyphed and Exiled are both pretty easy.
 
 
 h4. "Vyzh`dra the Cursed(Cursed)":http://eqbeastiary.allakhazam.com/search.shtml?id=7830 (Cursed)
 
 * Hits 500s, slowable
-* AE: DR based Dot for 4k or so over a period of 20 seconds. MR based ae charm. 
+* AE: DR based Dot for 4k or so over a period of 20 seconds. MR based ae charm.
 * No keys needed
 * Located in the basement
 

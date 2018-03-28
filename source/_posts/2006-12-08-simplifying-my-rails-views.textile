@@ -6,17 +6,17 @@ mt_id: 1757
 categories:
 - programming
 ---
-"Rails":http://www.rubyonrails.org views are powerful creatures. You have the full power of "Ruby":http://ruby-lang.org right at your fingertips, which makes it easy to write too much Ruby code in your view making them become cluttered and hard to read. 
+"Rails":http://www.rubyonrails.org views are powerful creatures. You have the full power of "Ruby":http://ruby-lang.org right at your fingertips, which makes it easy to write too much Ruby code in your view making them become cluttered and hard to read.
 
-The following is the tale of how I cleaned up a small part of a single view in "BiQ":http://www.biq.dk after having made a dirty mess of it. 
+The following is the tale of how I cleaned up a small part of a single view in "BiQ":http://www.biq.dk after having made a dirty mess of it.
 
 <!--more-->
 
 +Updated: For some reason my blogging setup made it impossible to read the code in Safari. I apologize for that, and I have hacked a solution by adding spaces in certain places. Unfortunately that makes the code invalid Ruby, but at least it can be read by you.+
 
-h2. Short description of the domain. 
+h2. Short description of the domain.
 
-BiQ has a bunch of Entities (which can be either people or companies). Each Entity is potentially connected to other Entities through a bunch of Relations. 
+BiQ has a bunch of Entities (which can be either people or companies). Each Entity is potentially connected to other Entities through a bunch of Relations.
 
 Each Relation is of a specific type that describes what kind of relationship the Relation models (for example it can be "Bob is a board member of MegaCorp Inc"). A relation is also considered to active or inactive depending on the value of it's end date.
 
@@ -60,7 +60,7 @@ Seeing how the above code was a part of a view, I start by extracting it into a 
 # Write the render(:partial) line above the partial you're about to extract.
 # Cut and paste the code and HTML to a newly created partial.
 
-This gives me a partial looking like: 
+This gives me a partial looking like:
 
 bc(ruby). < % unless @company.find_relations(:active, :incoming, :only => :boardmember).empty? %>
   <h2>Board members</h2>
@@ -79,7 +79,7 @@ In the above, I have two calls to @company.find_relations which are identical. T
 
 The other non-repeating element is the headline (&lt;h2&gt;Board members&lt;/h2&gt; in the above). My initial thought was to pass the value of the headline to the partial, however thinking through my models  I realized I could get the value from the list of relations.
 
-Applying these changes leaves me with a partial looking like this: 
+Applying these changes leaves me with a partial looking like this:
 
 bc(ruby html). < % unless relations.empty? %>
   <h2>< %= relations.collect {|relation| relation.relation_type.title}.uniq.sort.to_sentence %></h2>
@@ -123,7 +123,7 @@ Voila, everything works. How do I know? Simple; All the while refactoring as des
 
 h2. Issues best left for the future
 
-There is one issue with the above helper (well, there are likely quite a few), that's bound to hit me in the near future: It can only show active and incoming relations. 
+There is one issue with the above helper (well, there are likely quite a few), that's bound to hit me in the near future: It can only show active and incoming relations.
 
 While it is tempting to go in and rewrite the helper to have it accept those extra parameters, the fact at this point is that I don't need that functionality.
 

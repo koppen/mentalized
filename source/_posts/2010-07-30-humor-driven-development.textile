@@ -8,18 +8,18 @@ categories:
 ---
 Happy developers are productive developers. Having fun makes people happy. So sayeth the "Chief Happiness Officer":http://positivesharing.com/2007/03/top-10-reasons-why-happiness-at-work-is-the-ultimate-productivity-booster/.
 
-This should come as no surprise to noone in the Rails community - after all, Rails is "optimized for developer happiness" and "DHH":http://loudthinking.com has "touted this":http://gettingreal.37signals.com/ch10_Optimize_for_Happiness.php on numerous occasions. 
+This should come as no surprise to noone in the Rails community - after all, Rails is "optimized for developer happiness" and "DHH":http://loudthinking.com has "touted this":http://gettingreal.37signals.com/ch10_Optimize_for_Happiness.php on numerous occasions.
 
 And the Ruby community in general seems to be a life-loving bunch. "_why":http://en.wikipedia.org/wiki/Why_the_lucky_stiff didn't rise to fame solely because he was a good programmer. His code was fun and quirky, his documentation and presentations even more so.
 
 
 <!--more-->
 
-h2. Why is our code so boring then? 
+h2. Why is our code so boring then?
 
 As developers we spend a lot of time reading code and let's be honest, code isn't exactly the most fun text to read. I refuse to believe it has to be that way.
 
-I propose that by investing a little time in making your code more fun to read, you are making your coworkers more happy, increasing productivity of your company in the longer term. 
+I propose that by investing a little time in making your code more fun to read, you are making your coworkers more happy, increasing productivity of your company in the longer term.
 
 
 h2. Context and appropriateness?
@@ -30,7 +30,7 @@ Instead, there are parts of your code that you can write with a smile on your fa
 
 h3. Test cases
 
-Tests provide a great opportunity for getting creative and injecting a bit of humor. I mean, why do we always have to exercise our code using foo, bar, and baz? 
+Tests provide a great opportunity for getting creative and injecting a bit of humor. I mean, why do we always have to exercise our code using foo, bar, and baz?
 
 h3. Commit messages
 

@@ -8,7 +8,7 @@ categories:
 - usability
 - business
 ---
-"Rails Rumble":http://railsrumble.org is an annual, 48 hour web application programming competion. This year around 300 teams attempted to build and launch a web application over the course of a weekend, 180 succeeded. 
+"Rails Rumble":http://railsrumble.org is an annual, 48 hour web application programming competion. This year around 300 teams attempted to build and launch a web application over the course of a weekend, 180 succeeded.
 
 Participating in the Rails Rumble is a lot like being in a startup, just a heck of a lot more focused. A small group of people with nothing but an idea, passion, and a tight deadline. As such. there are some lessons that apply equally well to Rails Rumble as to launching a new startup.
 
@@ -41,7 +41,7 @@ The best way to meet a deadline is to do less work. When you are under tight con
 
 Some features aren't integral to the business and can be considered infrastructure. Offload these to a third party if it all possible. These days you can find SaaS for almost everything, from sending emails over analyzing user behavior to handling your subscriptions.
 
-All of this is going to hurt. You know that awesome feature that you've already fallen in love with and can't wait to implement and play with? The one with the happy unicorns, rainbows and magic elves? Yeah, that one. It needs to be put down and you need to pull the trigger. 
+All of this is going to hurt. You know that awesome feature that you've already fallen in love with and can't wait to implement and play with? The one with the happy unicorns, rainbows and magic elves? Yeah, that one. It needs to be put down and you need to pull the trigger.
 
 
 h2. <del>Constant</del>Regular communication is a must
@@ -50,14 +50,14 @@ During the initial planning phase of any project there is good reason to space o
 
 However, come crunch-time, your focus narrows and decisions turn tactical. In this phase you're looking at small and rapid course corrections, and you want to make those based on up-to-date information. You also want those decisions communicated to the entire team so they all move in the same direction.
 
-Set up a low-ceremony and regular way of communicating internally on the team. Make it short and not too frequent to lessen the productivity hit on your developers. 
+Set up a low-ceremony and regular way of communicating internally on the team. Make it short and not too frequent to lessen the productivity hit on your developers.
 
 
 h2. Deadlines can improve focus and productivity
 
 One thing that should be noted when looking through the "Rails Rumble entries":http://railsrumble.com/entries is the quality. These are all pretty, well rounded, working applications. And they were built from the ground up in 48 hours. By a maximum of 4 people. Who probably slept some of those hours.
 
-If productivity could be measured the developers of these projects would be off the charts. 
+If productivity could be measured the developers of these projects would be off the charts.
 
 Sure, the Rumble crunch time is different than a regular workday in that the team is under pressure to meet a tight deadline - and probably high on caffeine and adrenaline. Thing is, it works - at least for a short time frame like Rails Rumble.
 

@@ -25,7 +25,7 @@ The problem is, HTML5 is a complex thing composed of many different parts. Some 
 
 So let's focus.
 
-The infographic purports that Flash is better than HTML5 for games. The [HTML5 canvas](http://en.wikipedia.org/wiki/Canvas_element) is what you'd use for drawing 2D shapes and whatnot for games, so I am going out on limb here and guess that what they're looking at is support for `canvas`. 
+The infographic purports that Flash is better than HTML5 for games. The [HTML5 canvas](http://en.wikipedia.org/wiki/Canvas_element) is what you'd use for drawing 2D shapes and whatnot for games, so I am going out on limb here and guess that what they're looking at is support for `canvas`.
 
 Thankfully, it's fairly easy to get statistics on the market penetration for browsers supporting the HTML5 canvas element. [caniuse.com](http://caniuse.com) has a [nifty table showing exactly that](http://caniuse.com/#feat=canvas).
 

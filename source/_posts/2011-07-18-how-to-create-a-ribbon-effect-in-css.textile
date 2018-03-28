@@ -64,7 +64,7 @@ bc(css). .ribbon {
 
 h2. How it works
 
-We basically turn the pseudo elements into two new block level elements, absolutely positioning them where we want the ribbon "curls" to show. 
+We basically turn the pseudo elements into two new block level elements, absolutely positioning them where we want the ribbon "curls" to show.
 
 We then draw the curls "using the borders (Border Slants)":http://www.infimum.dk/HTML/slantinfo.html of each element.
 

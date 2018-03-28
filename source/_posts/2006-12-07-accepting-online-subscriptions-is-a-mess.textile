@@ -11,7 +11,7 @@ categories:
 ---
 Payment gateways, merchant accounts, transaction fees, statements, grraaaah, it's driving me bonkers.
 
-Here's the deal: I have a client wanting to sell subscriptions for his web application. Nothing fancy, everyone's doing it. It should be easy finding a payment gateway supporting that, right? I imagine it is once you manage to wrap your brain around the confusion that is payment gateways and merchant accounts. 
+Here's the deal: I have a client wanting to sell subscriptions for his web application. Nothing fancy, everyone's doing it. It should be easy finding a payment gateway supporting that, right? I imagine it is once you manage to wrap your brain around the confusion that is payment gateways and merchant accounts.
 
 <!--more-->
 

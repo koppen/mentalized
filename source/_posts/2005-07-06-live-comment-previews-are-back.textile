@@ -12,7 +12,7 @@ My recent experiment with "live comment previews by virtue of AJAX":http://menta
 
 They're back, thanks to a comment by "Nick":http://www.amherst.edu/arc, which led me to a post by "Phil Wilson":http://philwilson.org/blog/2005/03/textile-your-textareas-with.html, which in turn led me to a "Javascript implementation of Textile":http://jrm.cc/extras/live-textile-preview.php originally by "Stuart Langridge":http://www.kryogenix.org/ and with later improvements by "Jeff Minard":http://www.jrm.cc/.
 
-The Javascript is probably a better solution since there's no real need for the round trip to the server on every other inputted character. It makes for better responsiveness and less strain on the server. The downside is the fact, that the preview doesn't necessarily reflect the final appearance of the comment. 
+The Javascript is probably a better solution since there's no real need for the round trip to the server on every other inputted character. It makes for better responsiveness and less strain on the server. The downside is the fact, that the preview doesn't necessarily reflect the final appearance of the comment.
 
 In the coming time I will be tweaking both Javascript and server settings to bring the appearance of the preview and final comment in sync with each other. Starting with me allowing basically all HTML tags in the comment fields.
 

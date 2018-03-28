@@ -6,12 +6,12 @@ mt_id: 1464
 categories:
 - technology
 ---
-I've been wanting to write about the recent SONY BMG Music copy protection fiasco for a while. The whole thing is simply so messed up and I find it hard to keep my mouth shut. 
+I've been wanting to write about the recent SONY BMG Music copy protection fiasco for a while. The whole thing is simply so messed up and I find it hard to keep my mouth shut.
 Short summary:
 
-SONY BMG Music feels legislation alone is not enough to prevent copying of their CDs. They add "copy prevention software":http://www.xcp-aurora.com/ to their CDs, which is installed silently on the customers computer when the CD is inserted in the drive. The software uses a rootkit, that hides the software from the user. 
+SONY BMG Music feels legislation alone is not enough to prevent copying of their CDs. They add "copy prevention software":http://www.xcp-aurora.com/ to their CDs, which is installed silently on the customers computer when the CD is inserted in the drive. The software uses a rootkit, that hides the software from the user.
 
-Sony BMG Music doesn't see anything shady or insecure or untrustworthy in the practice of installing covert software that hides itself on the users computer and "can't be removed by regular people":http://www.sysinternals.com/blog/2005/10/sony-rootkits-and-digital-rights.html. After all, you accepted "a 3000 word legalese document":http://www.sysinternals.com/blog/sony-eula.htm that fails to give the full story, and most "users don't know - and therefore don't care - about the software":http://news.cnet.co.uk/digitalmusic/0,39029666,39194038,00.htm. 
+Sony BMG Music doesn't see anything shady or insecure or untrustworthy in the practice of installing covert software that hides itself on the users computer and "can't be removed by regular people":http://www.sysinternals.com/blog/2005/10/sony-rootkits-and-digital-rights.html. After all, you accepted "a 3000 word legalese document":http://www.sysinternals.com/blog/sony-eula.htm that fails to give the full story, and most "users don't know - and therefore don't care - about the software":http://news.cnet.co.uk/digitalmusic/0,39029666,39194038,00.htm.
 
 However their rootkit is unstable, "terribly hard to get rid of":http://www.sysinternals.com/blog/2005/10/sony-rootkits-and-digital-rights.html, and an easy way for malware to hide itself. "The first worm to take advantage of this has been found":http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=BKDR%5FBREPLIBOT%2EC, "others":http://news.cnet.co.uk/digitalmusic/0,39029666,39194060,00.htm are sure to follow.
 

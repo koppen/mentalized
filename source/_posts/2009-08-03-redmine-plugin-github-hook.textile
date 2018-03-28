@@ -26,7 +26,7 @@ If your shared repository is on a remote machine - for example on Github - this 
 
 h2. Redmine and Github in the future
 
-The cronjob approach works perfectly fine, but is a bit heavy-handed and cumbersome for my taste. So I created the "Github Hook plugin for Redmine":http://github.com/koppen/redmine_github_hook/, which allows your Redmine installation to be notified when changes have been pushed to a Github repository. 
+The cronjob approach works perfectly fine, but is a bit heavy-handed and cumbersome for my taste. So I created the "Github Hook plugin for Redmine":http://github.com/koppen/redmine_github_hook/, which allows your Redmine installation to be notified when changes have been pushed to a Github repository.
 
 
 h2. Installation

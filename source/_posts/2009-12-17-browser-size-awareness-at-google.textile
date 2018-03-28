@@ -11,7 +11,7 @@ I have been preaching the importance of "measuring browser width":http://mentali
 
 I don't blame them. Most web analytics packages don't provide us with a metric that tells us the viewport widths of our users, and as humans we are likely to grasp onto the metrics that is available to us, not necessarily those that are important.
 
-A tiny sparkle of hope has now emerged in a sea of ignorance: Someone at Google figured out that people browse the web with differently sized browser windows. 
+A tiny sparkle of hope has now emerged in a sea of ignorance: Someone at Google figured out that people browse the web with differently sized browser windows.
 
 The result is a "small tool":http://browsersize.googlelabs.com/ to visualize what percentage of users can actually see a given area of your website without having to scroll: "Google Browser Size":http://browsersize.googlelabs.com/
 

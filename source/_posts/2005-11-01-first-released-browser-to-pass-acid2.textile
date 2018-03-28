@@ -6,8 +6,8 @@ mt_id: 1459
 categories:
 - browsers
 ---
-Congratulations, Safari and the Apple/Webkit team. Todays release of Mac OS X 10.4.3 contains a new version of Safari. Thius version contains the patches and updates necessary for making the browser pass "the Acid2 test":http://www.webstandards.org/act/acid2/. 
+Congratulations, Safari and the Apple/Webkit team. Todays release of Mac OS X 10.4.3 contains a new version of Safari. Thius version contains the patches and updates necessary for making the browser pass "the Acid2 test":http://www.webstandards.org/act/acid2/.
 
-Now we're just waiting for the rest of the non-"Webkit":http://webkit.opendarwin.org/blog/ browsers to pick up the slack and catch up. Personally I'm vouching for Firefox as the first runner-up. Opera is a good guess too with "Håkon Wium Lie":http://people.opera.com/howcome/ both issuing the Acid2 challenge and being the CTO of Opera. 
+Now we're just waiting for the rest of the non-"Webkit":http://webkit.opendarwin.org/blog/ browsers to pick up the slack and catch up. Personally I'm vouching for Firefox as the first runner-up. Opera is a good guess too with "Håkon Wium Lie":http://people.opera.com/howcome/ both issuing the Acid2 challenge and being the CTO of Opera.
 
-Internet Explorer 7? Nah, "they've stated":http://blogs.msdn.com/ie/archive/2005/07/29/445242.aspx they let us all know they can't keep up with the niche companies with 5% marketshare or the small opensource fish of the browser pond. 
+Internet Explorer 7? Nah, "they've stated":http://blogs.msdn.com/ie/archive/2005/07/29/445242.aspx they let us all know they can't keep up with the niche companies with 5% marketshare or the small opensource fish of the browser pond.

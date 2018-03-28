@@ -6,13 +6,13 @@ mt_id: 1897
 categories:
 - software
 ---
-Mental note to self (and everyone reading here): If using "FreeTDS":http://www.freetds.org/ on "OS X":http://www.apple.com/macosx/ and you cannot connect to your "MS SQL Server":http://www.microsoft.com/sql/default.mspx using iodbctest , but you can con using tsql, and your TDSDUMP logfile contains 
+Mental note to self (and everyone reading here): If using "FreeTDS":http://www.freetds.org/ on "OS X":http://www.apple.com/macosx/ and you cannot connect to your "MS SQL Server":http://www.microsoft.com/sql/default.mspx using iodbctest , but you can con using tsql, and your TDSDUMP logfile contains
 
 bc. tds_iconv_info_init: client charset name "" unrecognized
 
 make sure you have put
 
-bc. client charset = UTF-8 
+bc. client charset = UTF-8
 
 into your freetds.conf - _not_
 

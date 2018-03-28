@@ -22,6 +22,6 @@ There's even a "weblog dedicated to the experience of unboxing items":http://www
 
 h2. The destiny of my Windows PC
 
-Parallels is going to be a life saver, and my Windows PC should start worrying. I can't remember the last time I sat down at it and did something I can't do on the MBP. Actually, I am not sure when I last sat down at it at all. 
+Parallels is going to be a life saver, and my Windows PC should start worrying. I can't remember the last time I sat down at it and did something I can't do on the MBP. Actually, I am not sure when I last sat down at it at all.
 
 It is being used as our media center currently, since it's the only machine actually connected to the TV and amplifier. I have a feeling the machine might end up in the attic acting as a file server some time soon, though.

@@ -6,7 +6,7 @@ mt_id: 1553
 categories:
 - mentalized.net
 ---
-Just spotted this in the Movable Type interface: 
+Just spotted this in the Movable Type interface:
 
 !/files/journal/comments_milestone/comments_milestone.gif!
 

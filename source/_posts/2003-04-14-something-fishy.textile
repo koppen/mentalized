@@ -6,8 +6,8 @@ mt_id: 687
 categories:
 - games
 ---
-Something fishy, or should I say Blizzard'esque, is happening over at 
-<a title="EverQuest.com" href="http://everquest.station.sony.com/">the official EverQuest site</a>. 
+Something fishy, or should I say Blizzard'esque, is happening over at
+<a title="EverQuest.com" href="http://everquest.station.sony.com/">the official EverQuest site</a>.
 
 I suppose they are about to announce their coming addition to their everexpanding EverQuest franchise (this one likely being a <a href="http://www.rapideyegames.com/Games.html" title="Pressrelease about EQ RTS">realtime strategy game</a>), and are trying to create some hype by gradually releasing hints about the game.
 

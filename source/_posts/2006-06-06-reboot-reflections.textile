@@ -6,12 +6,12 @@ mt_id: 1620
 categories:
 - reboot
 ---
-So "Reboot 8.0":http://www.reboot.dk is over, and I am kinda left with this weird sensation that I somehow didn't get it. 
+So "Reboot 8.0":http://www.reboot.dk is over, and I am kinda left with this weird sensation that I somehow didn't get it.
 
 The speakers were generally very clever and I am sure their presentations were well thought out and interesting. Unfortunately I mostly found myself in a hall listening to some topic that was way too abstract for my hands-on techie mind.
 
 There was slightly too much of "we're on the brink of something very interesting that's coming right around the corner" as compared to "this is where we're at now, and these are good ways to move forward". Ah well, it's me, not you, there's something wrong with, Reboot. I did get around to "releasing a small update":http://weblog.guildspace.net/articles/2006/06/03/you-can-now-sign-up-for-events for "Guildspace":http://www.guildspace.net/.
 
-Meeting people was great, though, and even though I suck bigtime at networking, mingling, and smalltalking I did get to shake hands with some new people. 
+Meeting people was great, though, and even though I suck bigtime at networking, mingling, and smalltalking I did get to shake hands with some new people.
 
-Nevertheless, I have a strange feeling I'll be there next year. Which gives me around a year to come up with a strategy for detecting the interesting talks. And for "learning to meet people":http://www.43things.com/things/view/44394. 
+Nevertheless, I have a strange feeling I'll be there next year. Which gives me around a year to come up with a strategy for detecting the interesting talks. And for "learning to meet people":http://www.43things.com/things/view/44394.

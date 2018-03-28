@@ -102,13 +102,13 @@ I now have a mighty fine list of tags and the amount of notes that exist for tha
 bc. class NotesController < ApplicationController
   ...
   def tag
-    @tag = Tag.find_by_name(@params[:id])    
+    @tag = Tag.find_by_name(@params[:id])
     @notes = @tag.notes
     render 'notes/list'
   end
 end
 
-I don't even need to create a new view for this action, since I can simply use the app/views/notes/list.rhtml already created. 
+I don't even need to create a new view for this action, since I can simply use the app/views/notes/list.rhtml already created.
 
 So I have a list of tags, and an URL where I list notes with a given tag. How about linking those? Why Jakob, that's a great idea - back to the app/views/tags/_list.rhtml partial.
 
@@ -124,7 +124,7 @@ bc. def link_to_tag(tag)
   return link_to "#{tag.name} (#{tag.notes.size})", :action => 'tag', :id => tag.name
 end
 
-which allows me to do 
+which allows me to do
 
 bc. link_to_tag TagObject
 
@@ -132,8 +132,8 @@ whenever I want a link to a tag, nice! But not nice enough.
 
 Since I know I am aiming for a weighted list, I want to be able to add CSS classes to the links that indicate their "weight". For now, I define weight as a number from 0 to 9, and calculate it based on the amount of notes a tag has. To do that, I need to know the amount of total tags in the system, so I'll pass that to the helper and have it act accordingly:
 
-bc. def link_to_tag(tag, total_tags = nil)    
-  if total_tags.nil?  
+bc. def link_to_tag(tag, total_tags = nil)
+  if total_tags.nil?
     return link_to "#{tag.name} (#{tag.notes.size})", :action => 'tag', :id => tag.name
   else
     level = ((tag.notes.size * 10) / total_tags).to_i

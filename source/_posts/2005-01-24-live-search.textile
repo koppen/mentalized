@@ -6,9 +6,9 @@ mt_id: 1233
 categories:
 - mentalized.net
 ---
-Since XMLHTTPRequest is damn sexy - in that way only geeks can find things sexy - I figured I'd mess around a bit with my search field. 
+Since XMLHTTPRequest is damn sexy - in that way only geeks can find things sexy - I figured I'd mess around a bit with my search field.
 
-Voila, thanks to Peter Coopers "XMLJS(XMLJS)":http://www.feedfab.com/xmljs/ and inspiration from "Google Suggest(Google Labs)":http://www.google.com/webhp?complete=1&hl=en, "Dunstan Orchard(1976design.com)":http://1976design.com/blog/ (whose LiveSearch blows mine away, hands down) and others, my search is now hyperactive. 
+Voila, thanks to Peter Coopers "XMLJS(XMLJS)":http://www.feedfab.com/xmljs/ and inspiration from "Google Suggest(Google Labs)":http://www.google.com/webhp?complete=1&hl=en, "Dunstan Orchard(1976design.com)":http://1976design.com/blog/ (whose LiveSearch blows mine away, hands down) and others, my search is now hyperactive.
 
 It probably breaks in every browser but Firefox and IE6 (which I've tested in), so let me know how it works for you.
 

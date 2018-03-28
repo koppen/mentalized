@@ -10,7 +10,7 @@ categories:
 - projects
 - browsers
 ---
-Back when Yahoo! released their YSlow add-on for Firebug, [I took it for a spin](http://mentalized.net/journal/2007/07/26/using-yslow-to-optimize-websites/) and optimized [biq.dk](http://biq.dk) using it. 
+Back when Yahoo! released their YSlow add-on for Firebug, [I took it for a spin](http://mentalized.net/journal/2007/07/26/using-yslow-to-optimize-websites/) and optimized [biq.dk](http://biq.dk) using it.
 
 Google recently released their variant of YSlow called [Page Speed](http://code.google.com/speed/page-speed/). Like YSlow, it's an add-on for Firebug and it provides a bunch of recommendations for optimizing the clientside performance of your websites. This time, I'll let it loose on the homepage of [Lokalebasen](http://www.lokalebasen.dk).
 
@@ -122,7 +122,7 @@ The plugin can only analyze the current page, and removing styles based on a sin
 > ...
 > 8.6kB of cookies were sent with the requests for these resources.
 
-This is one piece of advice I haven't stumbled on before. Generally, all responses from the server includes the cookie header, which is definitely not necessary in the cases of static images, JavaScript files, and stylesheets. 
+This is one piece of advice I haven't stumbled on before. Generally, all responses from the server includes the cookie header, which is definitely not necessary in the cases of static images, JavaScript files, and stylesheets.
 
 I will have to look into how to do this, but I imagine very few lines of Apache-fu is required in order to turn off cookies on our asset servers.
 
@@ -131,7 +131,7 @@ I will have to look into how to do this, but I imagine very few lines of Apache-
 
 > /stylesheets/all.css?1248691631 has 63 very inefficient and 95 inefficient rules of 411 total rules.
 
-This is another first for me. I'll have to admit, I had never considered the fact that some CSS selectors are more or less efficient than others. It does makes sense, but unfortunately we're getting into black magic territory now. 
+This is another first for me. I'll have to admit, I had never considered the fact that some CSS selectors are more or less efficient than others. It does makes sense, but unfortunately we're getting into black magic territory now.
 
 
 It would be cool to see a tool that could measure the actual efficiency of given CSS selectors so we had a chance of evaluating what changes are worth making. My gut feeling is that this advice is only for squeezing out those last milliseconds or if you have a very complex stylesheet - I would love to see actual numbers, though.

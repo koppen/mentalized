@@ -8,8 +8,8 @@ categories:
 ---
 Ever since it was made public, Dave Hyatt has been busy working on making Safari pass the Acid2 test. Yesterday "he reached the goal":http://weblogs.mozillazine.org/hyatt/archives/2005_04.html#008042.
 
-Congratulations to Safari for being the first browser to reach this milestone, and huge thumbs up to Dave Hyatt for being quick, focused, and best of all very open and public about his progress. 
+Congratulations to Safari for being the first browser to reach this milestone, and huge thumbs up to Dave Hyatt for being quick, focused, and best of all very open and public about his progress.
 
-However the race isn't over. So far there is no public, stable, released version of any browser that passes the Acid2 test. 
+However the race isn't over. So far there is no public, stable, released version of any browser that passes the Acid2 test.
 
 There is no "victory" until real life users can view the Acid2 test without flaws on their own monitor.

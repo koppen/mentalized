@@ -6,7 +6,7 @@ mt_id: 1306
 categories:
 - projects
 ---
-"The":http://mentalized.net/journal/2005/04/15/notetagger_getting_down_and_dirty/ "previous":http://mentalized.net/journal/2005/04/15/notetagger_adding_tags/ "installments":http://mentalized.net/journal/2005/04/27/notetagger_adding_the_ajax/index.php cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial 
+"The":http://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ "previous":http://mentalized.net/journal/2005/04/15/notetagger-adding-tags/ "installments":http://mentalized.net/journal/2005/04/27/notetagger-adding-the-ajax/index.php cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial
 
 bc. rails notetagger
 

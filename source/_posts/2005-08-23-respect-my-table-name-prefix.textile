@@ -19,7 +19,7 @@ Rails provides an easy way to add table name pre- and suffixes for people who ne
 
 Luckily, Rails also provides you with the tools to not hardcode SQL. Please, start using them. Occasionally raw SQL can be necessary, but for the love of the benevolent god of DRY, don't hardcode table names.
 
-The above line of code isn't agile, it's fragile. You cannot make this assumption about the database. You need to do something like 
+The above line of code isn't agile, it's fragile. You cannot make this assumption about the database. You need to do something like
 
 bc. Car.find(:all, :conditions => ["#{Car.table_name}.year = ?", @year])
 
@@ -27,6 +27,6 @@ and rejoice from having made your application more portable and customizable.
 
 Sidenote: This also applies to the actual Rails codebase. As far as I know fixtures, eager loading, and migrations all fail when you have set a table_name_prefix and/or table_name_suffix.
 
-This message was brought to you by Jacks unbridled frustration with having to fix up numerous files to get "Typo":http://typo.leetsoft.com running with a table_name_prefix. Again. 
+This message was brought to you by Jacks unbridled frustration with having to fix up numerous files to get "Typo":http://typo.leetsoft.com running with a table_name_prefix. Again.
 
 Update: And "just like that":http://typo.leetsoft.com/trac/ticket/342, I became a Typo contributor :)

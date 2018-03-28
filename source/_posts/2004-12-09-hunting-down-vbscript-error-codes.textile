@@ -17,7 +17,7 @@ bq. When setting the number property to your own error code in an Automation obj
 
 Aha, I see, but how about the regular errors, what numbers do they have? Luckily there are "See also"-links at the bottom of the page, unfortunatly none of them links to a list of error numbers. Hm, ok, perhaps I have to look up the "Number property(Number Property)":https://msdn.microsoft.com/en-us/library/5t7981hw(v=vs.84).aspx:
 
-bq. Returns or sets a numeric value specifying an error. 
+bq. Returns or sets a numeric value specifying an error.
 
 Well duh, that didn't make me much more informed, and this page doesn't include a link to existing error numbers anyways. Come on, who would create a page describing error numbers without even trying to list the existing ones?
 

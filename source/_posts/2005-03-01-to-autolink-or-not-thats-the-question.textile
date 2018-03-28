@@ -24,16 +24,16 @@ The Google Toolbar lets users choose which map provider - including Google compe
 
 h2. Google doesn't change your content
 
-Website owners and content publisher worries that Google changes their content. As a content creator this naturally worries me too, but I am also technically inclined enough to realize that it simply is not true. The actual content doesn't change, not a single bit is changed. Trust me, I've clicked the AutoLink buttons many times, and the links are gone whenever I return to the page. I've even checked the source files, and they haven't changed. What may change is how a single end-user sees your content after having actively chosen to see it differently. 
+Website owners and content publisher worries that Google changes their content. As a content creator this naturally worries me too, but I am also technically inclined enough to realize that it simply is not true. The actual content doesn't change, not a single bit is changed. Trust me, I've clicked the AutoLink buttons many times, and the links are gone whenever I return to the page. I've even checked the source files, and they haven't changed. What may change is how a single end-user sees your content after having actively chosen to see it differently.
 
-Isn't this just like "My browser(Firefox)":http://getfirefox.com enabling me to highlight words on your website - words you might not find highlight-worthy at all. Other evil tools even allow me to download your website, edit it and see those changes in my browser! It all happens without you knowing - and without your content ever changing. 
+Isn't this just like "My browser(Firefox)":http://getfirefox.com enabling me to highlight words on your website - words you might not find highlight-worthy at all. Other evil tools even allow me to download your website, edit it and see those changes in my browser! It all happens without you knowing - and without your content ever changing.
 
 Your content doesn't actually change.
 
 
 h2. So AutoLink is just peachy?
 
-AutoLink isn't without its flaws though, being beta and all. I'd prefer the added links to be more visually different from the existing links. The cursor change on hovering is a good start, but not really enough. 
+AutoLink isn't without its flaws though, being beta and all. I'd prefer the added links to be more visually different from the existing links. The cursor change on hovering is a good start, but not really enough.
 
 More user customizability in respect to which services to AutoLink to for given links needs to be added too.
 

@@ -76,7 +76,7 @@ end</code></pre></td>
 			<th>The new, supported way</th>
 		</tr>
 		<tr>
-			<td> <pre><code class="ruby">ActionMailer::Base.server_settings = { 
+			<td> <pre><code class="ruby">ActionMailer::Base.server_settings = {
   :address  => 'my.smtp.srv'
 }</code></pre></td>
 			<td> <pre><code class="ruby">ActionMailer::Base.smtp_settings = {

@@ -20,13 +20,13 @@ Non-compete clauses might make sense for full time employees. In that situation 
 
 h2. You know stuff
 
-Then there is the worry about trade secrets. Generally speaking, a non-disclosure agreement should be sufficient protection against that. With that in place, you can't use any of their secrets or other confidential information even if you do end up working for a competitor. 
+Then there is the worry about trade secrets. Generally speaking, a non-disclosure agreement should be sufficient protection against that. With that in place, you can't use any of their secrets or other confidential information even if you do end up working for a competitor.
 
 On the flip-side, it's easier to prove non-compete violations than a breach of NDA, I guess, which might explain their prevalence.
 
 
 h2. I'd love to say I never sign them
 
-I do get the lure of a non-compete clause, though. And I have occasionally agreed to them, given a narrow enough scope and short enough timespan. A non-compete clause for named companies that run while the contract is effective might be reasonable. 
+I do get the lure of a non-compete clause, though. And I have occasionally agreed to them, given a narrow enough scope and short enough timespan. A non-compete clause for named companies that run while the contract is effective might be reasonable.
 
 Start pushing beyond the duration of the contract, and you're intruding on the contractors ability to do business. That is not reasonable.

@@ -7,7 +7,7 @@ categories:
 - programming
 - Copenhagen.rb
 ---
-Thursday, June 29th, at 20:30 we ("Jesper Rønn-Jensen":http://justaddwater.dk and "I":http://mentalized.net) would very much like to see anyone with a passion for Rails at some unspecified location in Copenhagen. 
+Thursday, June 29th, at 20:30 we ("Jesper Rønn-Jensen":http://justaddwater.dk and "I":http://mentalized.net) would very much like to see anyone with a passion for Rails at some unspecified location in Copenhagen.
 
 It's just going to be a casual and relaxed meetup to see how many people around these parts would be interested in this, perhaps even on a regular'ish basis.
 

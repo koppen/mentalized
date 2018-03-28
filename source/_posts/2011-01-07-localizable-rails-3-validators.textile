@@ -6,17 +6,17 @@ mt_id: 2080
 categories:
 - programming
 ---
-"Rails 3":http://rubyonrails.org introduced a new style of validators that allow us to group validations for each attribute into their own line. It also became easy to "create our own, custom validators":http://www.perfectline.ee/blog/building-ruby-on-rails-3-custom-validators. 
+"Rails 3":http://rubyonrails.org introduced a new style of validators that allow us to group validations for each attribute into their own line. It also became easy to "create our own, custom validators":http://www.perfectline.ee/blog/building-ruby-on-rails-3-custom-validators.
 
 This a small tip, perhaps even a best practice, when doing so.
 
-Most the examples I've seen around the web ends up adding errors to the errors array using something like 
+Most the examples I've seen around the web ends up adding errors to the errors array using something like
 
-bc(ruby). record.errors[attribute] << (options[:message] || "is not valid") 
+bc(ruby). record.errors[attribute] << (options[:message] || "is not valid")
 
-Unfortunately doing it this way means your validator doesn't behave like the standard validators and the error message cannot be localized. 
+Unfortunately doing it this way means your validator doesn't behave like the standard validators and the error message cannot be localized.
 
-Instead, please use 
+Instead, please use
 
 bc(ruby). record.errors.add(attribute, (options[:message] || :invalid))
 

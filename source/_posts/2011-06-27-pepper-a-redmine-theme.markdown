@@ -9,7 +9,7 @@ categories:
 ---
 You develop great software. You use [Redmine](http://www.redmine.org) to manage your projects. Your Redmine instance should look at least as high tech and sleek as the software you develop.
 
-That can now be fixed, using my newly released theme, [Pepper](https://github.com/koppen/redmine-pepper-theme). 
+That can now be fixed, using my newly released theme, [Pepper](https://github.com/koppen/redmine-pepper-theme).
 
 ![Issue page](/files/journal/pepper/pepper-issue.png)
 

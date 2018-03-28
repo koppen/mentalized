@@ -7,7 +7,7 @@ categories:
 - programming
 - webdesign
 ---
-"Microsoft":http://microsoft.com, a company that "proclaims to be devoted to web standards":http://mentalized.net/journal/2004/07/23/validating-ie-team-websites/, has updated parts of their "MSDN Library VBScript Language Reference":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/ddfa5183-d458-41bc-a489-070296ced968.asp. They've hidden the most valuable details of each funtion behind some pointless click-to-expand links. Apart from being a usability blunder, Microsoft once again fails to prove that they care for or have even heard of standards or other browsers than Internet Explorer. 
+"Microsoft":http://microsoft.com, a company that "proclaims to be devoted to web standards":http://mentalized.net/journal/2004/07/23/validating-ie-team-websites/, has updated parts of their "MSDN Library VBScript Language Reference":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/ddfa5183-d458-41bc-a489-070296ced968.asp. They've hidden the most valuable details of each funtion behind some pointless click-to-expand links. Apart from being a usability blunder, Microsoft once again fails to prove that they care for or have even heard of standards or other browsers than Internet Explorer.
 
 Here's my Firebug log from simply opening "the reference page for the DateAdd function":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/ddfa5183-d458-41bc-a489-070296ced968.asp.
 

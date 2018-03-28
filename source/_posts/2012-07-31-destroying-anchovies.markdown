@@ -5,7 +5,7 @@ mt_id: 2135
 categories:
 - programming
 ---
-When ordering pizza from an unknown pizza joint, I used to order a number 7 without anchovies. I didn't know what pizza number 7 was, but I knew I didn't want anchovies. 
+When ordering pizza from an unknown pizza joint, I used to order a number 7 without anchovies. I didn't know what pizza number 7 was, but I knew I didn't want anchovies.
 
 The ensuing dialoge usually went like:
 

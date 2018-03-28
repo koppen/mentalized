@@ -10,7 +10,7 @@ Some time ago I pressed the big red launch button on another project built by "S
 
 !/files/journal/eventzonen/eventzonen.jpg!
 
-"Eventzonen.dk":http://eventzonen.dk puts event organizers in direct contact with artists and entertainers, effectively cutting out the middle man; the booking-agent. 
+"Eventzonen.dk":http://eventzonen.dk puts event organizers in direct contact with artists and entertainers, effectively cutting out the middle man; the booking-agent.
 
 The application is a Rails (what else?) application built in cooperation with "erichsen.net":http://erichsen.net/ based on design by "Proff Art":http://proff-art.dk.
 

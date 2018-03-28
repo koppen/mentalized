@@ -29,11 +29,11 @@ bc. MT::Mail->send(\%head, $body);
 
 </li>
 
-<li>Above that line add the following 2 lines 
+<li>Above that line add the following 2 lines
 
 bc. my $cfg = MT::ConfigMgr->instance;
-$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath . 
-"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id. 
+$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath .
+"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id.
 "&amp;blog_id=" . $blog->id . "\n" ;
 
 so the entire section looks like
@@ -43,10 +43,10 @@ bc. $body = Text::Wrap::wrap('', '', $body) . "\n$link_url\n\n" .
   $app->translate('Name:') . ' ' . $comment->author . "\n" .
   $app->translate('Email Address:') . ' ' . $comment->email . "\n" .
   $app->translate('URL:') . ' ' . $comment->url . "\n\n" .
-  $app->translate('Comments:') . "\n\n" . $comment->text . "\n\n";             
+  $app->translate('Comments:') . "\n\n" . $comment->text . "\n\n";
 my $cfg = MT::ConfigMgr->instance;
-$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath . 
-"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id. 
+$body .= $app->translate('Edit this comment:') . " " . $cfg->CGIPath .
+"mt.cgi?__mode=view&amp;_type=comment&amp;id=" . $comment->id.
 "&amp;blog_id=" . $blog->id . "\n" ;
 MT::Mail->send(\%head, $body);
 

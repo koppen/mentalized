@@ -11,7 +11,7 @@ When I first read the "Java Kicks Ruby on Rails in the Butt article":http://java
 
 I then noticed the date - turns out the article is only a few days old! Color me confused, could that article really have been written in 2009? I thought we had left the FUD-spreading behind us.
 
-In an effort to educate Javier - and hopefully others - I decided to rewrite the Rails part of his article the way he would have written it had he had more knowledge and experience with Rails. 
+In an effort to educate Javier - and hopefully others - I decided to rewrite the Rails part of his article the way he would have written it had he had more knowledge and experience with Rails.
 
 
 <!--more-->
@@ -91,9 +91,9 @@ bc(shell). $ ./script/server
 !/files/journal/cookbook2/recipes.png!
 !/files/journal/cookbook2/export.png!
 
-Wow, look at that. Note that you can filter the entries, sort the columns, export to a variety of formats, and pagination is built in. Looks almost production ready, doesn't it? 
+Wow, look at that. Note that you can filter the entries, sort the columns, export to a variety of formats, and pagination is built in. Looks almost production ready, doesn't it?
 
-Looking back, it looks like I wrote a massive 9 lines of code (3 if you skipped the optional step, 13 if you created the two controllers manually). No unused application code has been generated. 
+Looking back, it looks like I wrote a massive 9 lines of code (3 if you skipped the optional step, 13 if you created the two controllers manually). No unused application code has been generated.
 
 Little work, polished result indeed.
 

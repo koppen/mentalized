@@ -33,7 +33,7 @@ I now have a database with a table, I needed to add the Rails part of the applic
 
 bc. > rails notetagger
 
-All I needed then is to change the config/database.yml to use my newly generated database and I am ready to start using rails. 
+All I needed then is to change the config/database.yml to use my newly generated database and I am ready to start using rails.
 
 A good way to start out is by using Rails' scaffold feature which creates an initial model, controller and some views to base further development on:
 

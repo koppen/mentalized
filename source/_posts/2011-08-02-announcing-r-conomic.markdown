@@ -20,13 +20,13 @@ Usage example
 
     economic = Economic::Session.new(123456, 'API', 'passw0rd')
     economic.connect
-    
+
     # Find a debtor:
     debtor = economic.debtors.find(101)
-    
+
     # Creating a debtor:
     debtor = economic.debtors.build
-    
+
     debtor.number = economic.debtors.next_available_number
     debtor.debtor_group_handle = { :number => 1 }
     debtor.name = 'Bob'
@@ -38,14 +38,14 @@ Usage example
     debtor.term_of_payment_handle = { :id => 1 }
     debtor.layout_handle = { :id => 16 }
     debtor.save
-    
+
     # Create invoice for debtor:
     invoice = economic.current_invoices.build
     invoice.date = Time.now
     invoice.due_date = Time.now + 15
     invoice.exchange_rate = 100
     invoice.is_vat_included = false
-    
+
     invoice_line = Economic::CurrentInvoiceLine.new
     invoice_line.description = 'Line on invoice'
     invoice_line.unit_handle = { :number => 1 }
@@ -53,7 +53,7 @@ Usage example
     invoice_line.quantity = 12
     invoice_line.unit_net_price = 19.95
     invoice.lines << invoice_line
-    
+
     invoice.save
 
 

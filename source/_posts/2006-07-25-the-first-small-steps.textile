@@ -19,16 +19,16 @@ One of the more important decisions I had to make was wether I wanted to change 
 
 I am currently going through our entire model structure, taking a table at a time and renaming fields in it. At the same time I create a view that resembles the table I've just renamed. This is my backwards compatibility guarantee, making sure that all existing scripts should continue to work, but they'll be querying views instead of tables - at least that's the theory. If it turns out some scripts break, I figure they can be fixed by pretty much doing search and replace on the specific field names.
 
-I take care to make sure that every migration is non-destructive, since I need to be able to roll back and have a database that structurally looks exactly like it did when I started. 
+I take care to make sure that every migration is non-destructive, since I need to be able to roll back and have a database that structurally looks exactly like it did when I started.
 
 After adding a new migration I run all migrations from version 0 followed by my test suite to make sure everything still works. Did I mention that migrations are frigging sweet?
 
 
 h2. Migrating the code
 
-During my initial rewrites I took an approach that I didn't want to continue. I basically translated VBScript code to Ruby code line for line, which led to ASP on Rails or something. It definitely didn't have the niceness of proper Rails or Ruby code. 
+During my initial rewrites I took an approach that I didn't want to continue. I basically translated VBScript code to Ruby code line for line, which led to ASP on Rails or something. It definitely didn't have the niceness of proper Rails or Ruby code.
 
-For the rewrite proper, I've taken a more behaviour driven approach. Until now I've been going through the existing lowerlevel libraries, which roughly resembles the Rails models. For each function in the VBScript library I've written unit tests, that test the behaviour I read from the VBScript code. When the tests are written, I start writing the Ruby code that satisfies those tests. 
+For the rewrite proper, I've taken a more behaviour driven approach. Until now I've been going through the existing lowerlevel libraries, which roughly resembles the Rails models. For each function in the VBScript library I've written unit tests, that test the behaviour I read from the VBScript code. When the tests are written, I start writing the Ruby code that satisfies those tests.
 
 This decoupling is important as it allows me to mentally break free from the structure and decisions I made when building the VBScript application, and allows me to take advantage of Rails proper (especially callbacks have proven extremely useful).
 
@@ -55,7 +55,7 @@ bc. +----------------------+-------+-------+---------+---------+-----+-------+
 +----------------------+-------+-------+---------+---------+-----+-------+
   Code LOC: 713     Test LOC: 693     Code to Test Ratio: 1:1.0
 
-I don't have a figure ready how many lines of ASP/VBScript code I've converted, so you'll have to wait for another post for those. 
+I don't have a figure ready how many lines of ASP/VBScript code I've converted, so you'll have to wait for another post for those.
 
 Timewise, I am not quite on track, unfortunately. Primarily because there's a lot of plumbing occuring at the moment - like the database migrations mentioned above. This is stuff that needs to be done only once, and later on I will hopefully be able to reap the benefits of those in form of meeting my milestones.
 

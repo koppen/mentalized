@@ -17,7 +17,7 @@ A few things happened after my post. Most importantly the client met with a focu
 
 Also, the payment gateway we had been looking into wasn't doing terribly much to help us. Matter of fact, they managed to confuse us further (which wasn't terribly hard, I admit) by giving us vague answers in a ploy to get us to phone them instead of simply emailing them.
 
-All in all, the end result was that we said "screw recurring payments", and went with the PayPal Website Payments Pro account that was already existing. Sure, the per-transaction fees are somewhat high, however with the amount of transactions we projected - especially after going to yearly payments instead of monthly - it proved to be one of the cheaper solutions. 
+All in all, the end result was that we said "screw recurring payments", and went with the PayPal Website Payments Pro account that was already existing. Sure, the per-transaction fees are somewhat high, however with the amount of transactions we projected - especially after going to yearly payments instead of monthly - it proved to be one of the cheaper solutions.
 
 Add to this the PayPal developer sandbox (which is great for testing stuff) and that implementing it in a Rails application is a breeze using "Active Merchant":http://code.google.com/p/activemerchant/ and the choice was obvious.
 

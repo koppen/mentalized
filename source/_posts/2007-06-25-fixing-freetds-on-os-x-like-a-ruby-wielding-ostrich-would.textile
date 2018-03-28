@@ -13,7 +13,7 @@ I am having massive problems connecting my MacBook Pro with the Microsoft SQL Se
 
 <!--more-->
 
-The most aggrevating part of the problem is the fact that I can actually connect. I can even execute queries and get results back. However, when I try to run a select query that returns no results, I get: 
+The most aggrevating part of the problem is the fact that I can actually connect. I can even execute queries and get results back. However, when I try to run a select query that returns no results, I get:
 
 bc. DBI::DatabaseError: 24000 (0) [FreeTDS][SQL Server]Invalid cursor state: SELECT id FROM users WHERE id = 0 (ActiveRecord::StatementInvalid)
 
@@ -56,7 +56,7 @@ DBI::DatabaseError: 24000 (0) [FreeTDS][SQL Server]Invalid cursor state
         from (irb):5
         from :0
 
-Aha, the issue can be reproduced at this level, which leaves me with the Ruby DBI/ODBC libraries being the likely culprits. Since the file where the exception is raised is DBD/odbc/odbc.rb, I'll start investigating that. 
+Aha, the issue can be reproduced at this level, which leaves me with the Ruby DBI/ODBC libraries being the likely culprits. Since the file where the exception is raised is DBD/odbc/odbc.rb, I'll start investigating that.
 
 It turns out that patching the failing fetch method to simply return nil when this exact error occurs actually fixes the problem. At this point I am more than willing to do as the ostriches do when faced with danger; stick my head in the sand and pretend everything is okay. So at the moment my Rails application overrides the Statement#fetch method with
 

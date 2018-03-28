@@ -24,7 +24,7 @@ Quite frankly, that means we entered the process too late. The opportunity to ch
 
 h2. Not enough detail
 
-Many RFPs also include an expectation that the resulting proposal contains a price. Usually a fixed price, but in some cases a price-range is considered acceptable. That's fine, having some sense of the price of a project is obviously a fairly important part of making a decision between multiple vendors. 
+Many RFPs also include an expectation that the resulting proposal contains a price. Usually a fixed price, but in some cases a price-range is considered acceptable. That's fine, having some sense of the price of a project is obviously a fairly important part of making a decision between multiple vendors.
 
 I don't think, however, that I have ever seen an RFP that contained enough information for me to realistically estimate the cost of a project - or at least not very accurately. At the point of the development process where RFPs appear, there are bound to be a ton of questions and uncertain elements. Sure, you could add those extra details to the RFP, but that's a terrible idea - they are already too detailed, remember?
 
@@ -37,8 +37,8 @@ h2. RFPs could work
 
 I guess RFPs can work in some cases. If you're shopping for off-the-self solutions a RFP will likely work just fine as you're basically comparing a list of "requirements" to the feature list of a product. When you're shopping for commodities.
 
-Design and development projects aren't commodities however. There is always a lot of things you'll learn, decisions that will be reverted, and ideas that will appear as part of the development process. 
+Design and development projects aren't commodities however. There is always a lot of things you'll learn, decisions that will be reverted, and ideas that will appear as part of the development process.
 
-That is to be expected. Those are the things that make your product even better than what you intended. When you and your vendor adapt and improve as you learn more about the actual product you're building. 
+That is to be expected. Those are the things that make your product even better than what you intended. When you and your vendor adapt and improve as you learn more about the actual product you're building.
 
 Sending out a RFP is in direct opposition to that - why would you want that?

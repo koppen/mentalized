@@ -17,12 +17,12 @@ bq. Optimize Web pages for 1024x768, but use a liquid layout that stretches well
 
 There seems, however, to be one important thing wrong with Jakob Nielsens findings: They are based on the assumption that people run their browser in a maximized window with no added browser chrome. I claim that this is a false assumption in most cases. As does "Jesper over at justaddwater.dk":http://justaddwater.dk/2006/08/17/design-for-browser-size-not-screen-size/.
 
-Guesses and claims are interesting in their own right, but in the long wrong, they are pointless and hard facts needs to take their place. Sadly, I have yet to experience a statistics solution that display this useful piece of information. They usually just track the basically useless screen dimensions. 
+Guesses and claims are interesting in their own right, but in the long wrong, they are pointless and hard facts needs to take their place. Sadly, I have yet to experience a statistics solution that display this useful piece of information. They usually just track the basically useless screen dimensions.
 
 
 h2. So I whipped up some quick tracking
 
-Doing beats complaining, so instead of complain about the lack of usable metrics, I whipped up a "quick and dirty browser viewport dimension tracker":http://mentalized.net/stats/howto myself. It's rudimentary, but should work for most browsers. It should also fail silently for the rest, so your visitors hopefully won't notice. 
+Doing beats complaining, so instead of complain about the lack of usable metrics, I whipped up a "quick and dirty browser viewport dimension tracker":http://mentalized.net/stats/howto myself. It's rudimentary, but should work for most browsers. It should also fail silently for the rest, so your visitors hopefully won't notice.
 
 It currently tracks screen width and height, and browser viewport width and height in addition to the client IP address and a timestamp. I plan on making the collected data freely available.
 

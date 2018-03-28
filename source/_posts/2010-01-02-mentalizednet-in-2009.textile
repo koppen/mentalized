@@ -7,19 +7,19 @@ categories:
 - blogging
 - mentalized.net
 ---
-A new year has arrived -- what better time is there to look back at the year that passed? 
+A new year has arrived -- what better time is there to look back at the year that passed?
 
 
 h2. The decline of blog readers
 
-The number of visitors to "mentalized.net":http://mentalized.net keeps declining. This is hardly surprising; I don't write as much as I used to here (I have a feeling "Twitter":http://twitter.com/mentalizer is eating up a bunch of potential articles), and a lot of content is probably being consumed off the site in news readers and other aggregators. 
+The number of visitors to "mentalized.net":http://mentalized.net keeps declining. This is hardly surprising; I don't write as much as I used to here (I have a feeling "Twitter":http://twitter.com/mentalizer is eating up a bunch of potential articles), and a lot of content is probably being consumed off the site in news readers and other aggregators.
 
 Still, I am quite happy having more than 125000 people visit my humble website and I owe each one of you my thanks.
 
 
 h2. What people came for
 
-My collection of "totally free, animated GIFs for showing Ajax activity":http://mentalized.net/activity-indicators continues to reign supreme as the most popular content on mentalized.net. It is followed by my "satirical web 2.0 webdesign tutorial":http://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/. 
+My collection of "totally free, animated GIFs for showing Ajax activity":http://mentalized.net/activity-indicators continues to reign supreme as the most popular content on mentalized.net. It is followed by my "satirical web 2.0 webdesign tutorial":http://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/.
 
 Both of those were published back in 2005 over 4 years ago, yet they still continue to draw readers to the website. The only article on the content top 10 that's actually published in 2009 is "my response to a Java developer spreading some FUD":http://mentalized.net/journal/2009/05/19/java-kicks-ruby-in-the-what-now/ (which unfortunately detoriated into more FUD and mud-slinging).
 
@@ -41,7 +41,7 @@ h2. How people got here
 
 "Google":http://google.com is still, hands down, the biggest source of traffic for mentalized.net. Almost half of all visits have been referred by Google. For comparison, the next search engine on the list is "Bing":http://bing.com with less than 1% of Googles referrals.
 
-Social media sites like "Digg":http://digg.com, "Twitter":http://twitter.com, and "Facebook":http://facebook still aren't providing me with a lot of traffic. I must be "old media" - or perhaps my content simply isn't the kind of content that cries out for immediate attention. 
+Social media sites like "Digg":http://digg.com, "Twitter":http://twitter.com, and "Facebook":http://facebook still aren't providing me with a lot of traffic. I must be "old media" - or perhaps my content simply isn't the kind of content that cries out for immediate attention.
 
 The only post I've made in 2009 that was in relation to "current events" ("link":http://mentalized.net/journal/2009/05/19/java-kicks-ruby-in-the-what-now/) did in fact get some traction on the social sites with roughly half the visitors coming from various social sites.
 

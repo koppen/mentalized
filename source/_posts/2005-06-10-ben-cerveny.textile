@@ -19,7 +19,7 @@ We have rules, rules are the model of the system.
 
 We are complex creatures, and we seek the complex. Too orderly => bored.
 
-Chess is full of metaphors. Feudal system. The rules of chess describe the world at a certain point in time. Chess is a place to store historical knowledge. 
+Chess is full of metaphors. Feudal system. The rules of chess describe the world at a certain point in time. Chess is a place to store historical knowledge.
 
 h2. Presence
 
@@ -30,7 +30,7 @@ h2. State machine
 
 The AI of games are a state machine. It knows the rules of the game, the status of the game, and knows what actions it can take.
 
-We are state machines in the world. Perception of life can be modeled, and is being modelled subconciously. 
+We are state machines in the world. Perception of life can be modeled, and is being modelled subconciously.
 
 When playing game we internalize the models of the game, it becomes an abstract system, don't even need the metaphors of the game anymore (wizards, orcs etc)
 

@@ -43,6 +43,6 @@ Other users who don't browse like you do, will probably not like your way of mak
 
 h2. There is no reason to
 
-The common excuse for forcing links into a new window is that you want to make sure the user is not going to leave your site. Welcome to the World Wide Web - if your users aren't returning to your website, you have issues bigger than what can be solved by opening new browser windows. 
+The common excuse for forcing links into a new window is that you want to make sure the user is not going to leave your site. Welcome to the World Wide Web - if your users aren't returning to your website, you have issues bigger than what can be solved by opening new browser windows.
 
 If you absolutely and without any other option must open a link in a new window, warn the user. See the W3C's <a href="http://www.w3.org/WAI/wcag-curric/sam77-0.htm" title="Example for Checkpoint 10.1">Web Content Accessibility guidelines</a> for an example of how to do this. Even better, avoid doing it altogether - for the sake of your users.

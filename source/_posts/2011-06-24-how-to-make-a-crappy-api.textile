@@ -58,7 +58,7 @@ Bonus points if any of the required fields are totally pointless and not actuall
 
 h2. Produce data you won't accept
 
-Now this is a tip that not many know about, so keep it between you and me, okay? 
+Now this is a tip that not many know about, so keep it between you and me, okay?
 
 The basic gist of this, is to make it so that some data that you accept in your application and provide to API consumers should not be valid when they try to send it back to you.
 

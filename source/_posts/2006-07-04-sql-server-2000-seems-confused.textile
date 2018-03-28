@@ -7,7 +7,7 @@ categories:
 - projects
 - programming
 ---
-So I am getting this error in my Windows Application Event Log: 
+So I am getting this error in my Windows Application Event Log:
 
 bq. The log file for database 'tempdb' is full. Back up the transaction log for the database to free up some log space.
 

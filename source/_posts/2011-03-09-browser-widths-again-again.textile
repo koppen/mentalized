@@ -33,7 +33,7 @@ The chart definitely supports the trend we also saw back in 2008; browsers are g
 
 h2. Key takeaways from the chart
 
-Let's look at some key figures. If you make your design 800 pixels wide, only 2% of your visitors will get a horizontal scrollbar. I can live with that. If you make it 960 pixels wide, for example by using the popular "960 Grid System":http://960.gs, 6% of your visitors get the dreaded horizontal scroller. That's getting into iffy territory to me. 
+Let's look at some key figures. If you make your design 800 pixels wide, only 2% of your visitors will get a horizontal scrollbar. I can live with that. If you make it 960 pixels wide, for example by using the popular "960 Grid System":http://960.gs, 6% of your visitors get the dreaded horizontal scroller. That's getting into iffy territory to me.
 
 And if you make your design 1010 pixels wide a whooping 20% of your visitors have to scroll horizontally to see all your content. Even wider than that and it's all downhill.
 

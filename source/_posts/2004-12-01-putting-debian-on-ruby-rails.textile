@@ -77,7 +77,7 @@ Simple, huh? Yup, but not quite...
 
 h2. Patch RubyGems
 
-It turns out there is a problem with running RubyGems on Ruby 1.8.2. Basically it'll give you an error ("string contains null byte") or something to that effect whenever you try to install a gem. 
+It turns out there is a problem with running RubyGems on Ruby 1.8.2. Basically it'll give you an error ("string contains null byte") or something to that effect whenever you try to install a gem.
 
 Since apt-get won't give us Ruby 1.8.1 and I want to use apt and RubyGems I was stuck at this point for a while, while trying out different workarounds to no avail and becoming "increasingly frustrated(Breaking the Linux Barrier)":http://mentalized.net/journal/2004/11/05/breaking-the-linux-barrier/.
 
@@ -94,6 +94,6 @@ h3. Patch Rails
 
 Due to us running Ruby 1.8.2, which is an unstable CVS checkout as far as I can gather we need to have "this patch(Rails patch)":http://www.ruby-lang.org/cgi-bin/cvsweb.cgi/ruby/lib/cgi/session.rb.diff?r1=1.23.2.9;r2=1.23.2.10;only_with_tag=ruby_1_8  applied.
 
-After this, you should be able to take on the tutorial from around "step 2(Ruby on Rails tutorial Step 2)":http://www.rubyonrails.org/show/TutorialStepTwo. 
+After this, you should be able to take on the tutorial from around "step 2(Ruby on Rails tutorial Step 2)":http://www.rubyonrails.org/show/TutorialStepTwo.
 
 See, it wasn't that bad...

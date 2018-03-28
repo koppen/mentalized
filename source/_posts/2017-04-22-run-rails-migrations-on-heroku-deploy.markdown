@@ -62,7 +62,7 @@ Now, when we push to our git remote on Heroku, the buildpacks prepare our applic
     remote:  !     Release command declared: this new release will not be available until the command succeeds.
     remote:        Released v270
     remote:        https://my-awesome-application.herokuapp.com/ deployed to Heroku
-    remote: 
+    remote:
     remote: Verifying deploy... done.
     remote: Running release command......... done.
 

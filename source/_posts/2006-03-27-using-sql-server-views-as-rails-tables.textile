@@ -11,7 +11,7 @@ In an effort to get a feel for the effort it'll take to rewrite "BiQ":http://www
 
 One pretty important piece of the puzzle is our database. Over the years it has changed from the realm of an application database into being an integration database. Part of the rewrite is my desire to revert that.
 
-I really want to change our database structure around so it matches the conventions of Rails. I believe the cost of doing so is by far outweighed by the benefits, especially since I'd have to map everything to some other name in our models otherwise. 
+I really want to change our database structure around so it matches the conventions of Rails. I believe the cost of doing so is by far outweighed by the benefits, especially since I'd have to map everything to some other name in our models otherwise.
 
 tblUser.strUserFirstname is probably one of the worst naming schemes I've ever come up with. Having to create attribute accessors for everything isn't going to make me like it a single bit more.
 
@@ -20,9 +20,9 @@ For now, while we're exploring and testing, it will probably be most beneficial 
 
 h2. SQL Server saves
 
-My initial idea was to create simple views that create a 1-1 mapping of each table, renaming the columns as I see ie: 
+My initial idea was to create simple views that create a 1-1 mapping of each table, renaming the columns as I see ie:
 
-bc(sql). CREATE VIEW users AS SELECT intUserId AS id FROM tblUser). 
+bc(sql). CREATE VIEW users AS SELECT intUserId AS id FROM tblUser).
 
 This idea is great in all it's simplicity because SQL Server makes this kind of views updatable. "Jakob", I thought to myself, "you're a genious". Then I ran my tests and errors were everywhere.
 
@@ -42,7 +42,7 @@ Bummer. It was a good idea, though.
 
 h2. Create a trigger on the view to turn identity insert on
 
-Creating an Instead-Of-Trigger that turns identity insert on is a fairly clean solution. It doesn't work, though. The SQL Adapter always check if the insertion has an id column and if it has tries to turn identity insertion on. This results in the above error, since it uses the view name. 
+Creating an Instead-Of-Trigger that turns identity insert on is a fairly clean solution. It doesn't work, though. The SQL Adapter always check if the insertion has an id column and if it has tries to turn identity insertion on. This results in the above error, since it uses the view name.
 
 
 h2. Hacking Fixtures

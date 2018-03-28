@@ -6,7 +6,7 @@ mt_id: 1627
 categories:
 - programming
 ---
-This coming Saturday will bring about "24 hours of Rails programming mayhem":http://www.railsday2006.com/. Participating would be extremely cool and fun to boot, but I have no team or no really good ideas for a killer application. 
+This coming Saturday will bring about "24 hours of Rails programming mayhem":http://www.railsday2006.com/. Participating would be extremely cool and fun to boot, but I have no team or no really good ideas for a killer application.
 
 So uhm, anyone need a Rails developer with a flair for UI design?
 

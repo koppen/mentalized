@@ -7,7 +7,7 @@ categories:
 - technology
 - webdesign
 ---
-Before you do anything else, go to "fluxiom.com":http://fluxiom.com and check out their video. Then realize this; It's a web application. 
+Before you do anything else, go to "fluxiom.com":http://fluxiom.com and check out their video. Then realize this; It's a web application.
 
 Holy crap! I can't wait to see it in action. If indeed the interface and interaction is as the movie shows, this is probably the closest to a webbased desktop application we've ever been. It looks like something straight out of the Apple application shop. Go "wollzelle":http://www.wollzelle.com/!
 

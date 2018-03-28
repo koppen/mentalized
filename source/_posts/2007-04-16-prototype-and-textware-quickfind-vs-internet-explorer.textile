@@ -11,13 +11,13 @@ categories:
 - browsers
 - BiQ on Rails
 ---
-bq. You know we're sitting on four million pounds of fuel, one nuclear weapon and a thing that has 270,000 moving parts built by the lowest bidder. Makes you feel good, doesn't it? 
+bq. You know we're sitting on four million pounds of fuel, one nuclear weapon and a thing that has 270,000 moving parts built by the lowest bidder. Makes you feel good, doesn't it?
 
 After launching the "rewritten and redesigned BiQ":http://www.biq.dk I got word of seemingly random IE installations crashing within seconds of opening BiQ. I could not find a way to reproduce this and it only occured on a tiny minority of client installations, so I shrugged it off as yet another reason to upgrade to Firefox.
 
 <!--more-->
 
-However, this weekend I talked to "a friend of mine":http://netego.dk who told me that he had experienced this IE crash himself and that the IT guys at his office knew what was causing the problem. 
+However, this weekend I talked to "a friend of mine":http://netego.dk who told me that he had experienced this IE crash himself and that the IT guys at his office knew what was causing the problem.
 
 It turns out that the combination of "Prototype":http://www.prototypejs.org/ and certain Internet Explorer add-ons (in particular one called QUICKfind BHO) is lethal and causes Internet Explorer to raise a Kernel error and crash when the mouse is moved.
 
@@ -44,7 +44,7 @@ Have people simply disable the malfunctioning add-on. It's a simple matter of go
 
 h3. The upgrading way
 
-If your users actually use the features of the add-on (I am not quite sure exactly what it does - as far as I can tell the only feature it adds to my IE is the crash), you should have people update their QUICKfind add-on. 
+If your users actually use the features of the add-on (I am not quite sure exactly what it does - as far as I can tell the only feature it adds to my IE is the crash), you should have people update their QUICKfind add-on.
 
 "An updated version of the add-on":http://www.support.gyldendal.dk/Gyldendal/GyldenSupport.nsf/0/9DADFD7A6D1B64A3C1256FB00053E29C?opendocument can be downloaded and installed from Gyldendal, a danish provider of dictionaries and one of the distributors of the faulty add-on.
 

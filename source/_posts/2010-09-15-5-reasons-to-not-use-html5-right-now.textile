@@ -24,7 +24,7 @@ You can certainly continue using XHTML or HTML 4, but you'll only be marginalizi
 
 h2. You don't want to make it easier for your users to interact with your website
 
-HTML5 comes with a bunch of new types for input form fields, that allow browsers to tailor their UI to better match the value expected from the user. 
+HTML5 comes with a bunch of new types for input form fields, that allow browsers to tailor their UI to better match the value expected from the user.
 
 The best known examples are the URL and email input fields, which on Mobile Safari results in the keyboard adapting itself to make it easier to input those specific kinds of values.
 
@@ -40,7 +40,7 @@ When that's done and said, the next step should be creating good, semantic HTML5
 
 h2. You need to support browsers that are more than 10 years old
 
-Every browser in widespread use supports HTML5. Yes, that even includes IE6; it just doesn't know it, so you need to "hold its hand a bit":http://code.google.com/p/html5shiv/. We've kind of gotten used to that by now. 
+Every browser in widespread use supports HTML5. Yes, that even includes IE6; it just doesn't know it, so you need to "hold its hand a bit":http://code.google.com/p/html5shiv/. We've kind of gotten used to that by now.
 
 Sure, not everything is supported by all browsers, so you probably shouldn't base your application on client side storage just yet. However, plenty of the core HTML5 features are widely supported, and if they aren't they either degrade gracefully, or you can find Javascripts that emulate the feature for lesser browsers.
 

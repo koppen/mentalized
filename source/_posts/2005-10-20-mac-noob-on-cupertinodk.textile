@@ -6,7 +6,7 @@ mt_id: 1449
 categories:
 - blogging
 ---
-For some reason I've been invited to contribute to a newly launched Danish Mac user blog, "cupertino.dk":http://cupertino.dk. Due to my Mac-noobness I've been watching from the safety of far away as "bundles of energetic and enthusiastic people":http://cupertino.dk/theteam/ got stuff up and running. 
+For some reason I've been invited to contribute to a newly launched Danish Mac user blog, "cupertino.dk":http://cupertino.dk. Due to my Mac-noobness I've been watching from the safety of far away as "bundles of energetic and enthusiastic people":http://cupertino.dk/theteam/ got stuff up and running.
 
 I'm very much looking forward to try blogging in Danish for a change. By far most of my writing (here, at work, everywhere) is in English even though it is a secondary language to me.
 

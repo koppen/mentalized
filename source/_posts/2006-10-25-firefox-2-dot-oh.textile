@@ -6,7 +6,7 @@ mt_id: 1724
 categories:
 - browsers
 ---
-"Firefox 2.0 has been released. Go get it. Now":http://getfirefox.com. 
+"Firefox 2.0 has been released. Go get it. Now":http://getfirefox.com.
 
 h2. First impressions
 
@@ -14,7 +14,7 @@ h3. Subscribing to feeds
 
 Looks like subscribing to feeds got a whole lot friendlier. This is what it looks like for my feed:
 
-!http://mentalized.net/files/journal/firefox2/subscribe_to_feed.gif!
+!http://mentalized.net/files/journal/firefox2/subscribe-to-feed.gif!
 
 Sure beats the more or less raw XML you used to get in most cases.
 

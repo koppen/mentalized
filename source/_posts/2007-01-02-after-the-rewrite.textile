@@ -31,7 +31,7 @@ In addition to the above 4654 lines of code comes roughly the same amount of lin
 
 h2. Why did it take so long?
 
-"Jakob, why did it take so much time? 6 months is a long time for less than 5K lines of code", I hear you ask. The zen'ish answer is that it didn't actually take that long. 
+"Jakob, why did it take so much time? 6 months is a long time for less than 5K lines of code", I hear you ask. The zen'ish answer is that it didn't actually take that long.
 
 Based on our initial tests and prototypes we estimated (somewhat naively) that we needed around half a minute per line of ASP. The reality of things were that it took almost 1 minute per line. However, the added time resulted in a decent test suite as well (unfortunately only around 75% coverage) - this is extra time well spent in my book.
 
@@ -39,7 +39,7 @@ The original guesstimate also figured an average 4 hours of actual rewriting per
 
 h2. What's happening now?
 
-As the investigative reader might have noticed the site at "biq.dk":http://www.biq.dk is still the old ASP/VBScript site. 
+As the investigative reader might have noticed the site at "biq.dk":http://www.biq.dk is still the old ASP/VBScript site.
 
 The actual rewrite was only step one. Step two, which we're working on now, is building new fancy features, improving the existing ones, and generally giving the application a face lift. This isn't only about pretty and readable code, we want a pretty and usable application as well.
 

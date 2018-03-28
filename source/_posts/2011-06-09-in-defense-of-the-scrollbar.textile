@@ -16,14 +16,14 @@ They take up screen estate, sure, but seeing how the smallest Mac display has a 
 
 h2. You need scrollbars
 
-Without a visible scrollbar you have no clue that scrolling is possible and you lose any sense of what and how big a part of a document you're looking at (these are pretty much my objections to "endless scrolling":http://patternry.com/p=endless-scrolling/ as well). 
+Without a visible scrollbar you have no clue that scrolling is possible and you lose any sense of what and how big a part of a document you're looking at (these are pretty much my objections to "endless scrolling":http://patternry.com/p=endless-scrolling/ as well).
 
 I appreciate the tradeoff on the iPhone. Perhaps even on the iPad. There, screen real estate is precious, and we're used to manipulating the content directly. Not so on the desk-/laptop.
 
 
 h2. Consistency isn't a goal in itself
 
-I get it, Apple wants to make their OS's more consistent. Using one device should be like using the other. This seems like change for the sake of change, not actually solving any problems. 
+I get it, Apple wants to make their OS's more consistent. Using one device should be like using the other. This seems like change for the sake of change, not actually solving any problems.
 
 
 h2. Options become defaults become The One Way

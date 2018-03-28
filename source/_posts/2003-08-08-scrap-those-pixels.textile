@@ -6,7 +6,7 @@ mt_id: 724
 categories:
 - webdesign
 ---
-Max Design's piece about <a title="Max Design - Ideal line length for content" href="http://www.maxdesign.com.au/presentation/em/">using ems to achieve an ideal line length for content</a> gave me an idea. Why not use em's for everything? 
+Max Design's piece about <a title="Max Design - Ideal line length for content" href="http://www.maxdesign.com.au/presentation/em/">using ems to achieve an ideal line length for content</a> gave me an idea. Why not use em's for everything?
 
 Traditional fluid- and fixed-width designs often suffer from being garbled when the user in- or decreases the font-size. If you instead base your design on em's, your website will scale according to the users font setting, maintaining whitespace, linelengths, and the general feel you have chosen for your design.
 

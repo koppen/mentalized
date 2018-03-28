@@ -22,7 +22,7 @@ h2. Web application developers
 
 How do we as web application developers solve this issue, that we've always had, but never really been paying attention to until now?
 
-According to the purists we need to turn all links that result in "side effects" into clunky, ugly forms. Basically we should go from 
+According to the purists we need to turn all links that result in "side effects" into clunky, ugly forms. Basically we should go from
 
 bc. <a href="/notes/delete/2">Delete</a>
 

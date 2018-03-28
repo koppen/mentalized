@@ -8,7 +8,7 @@ categories:
 - BiQ on Rails
 - projects
 ---
-At the recent "Canada on Rails conference":http://www.canadaonrails.org/ Robby Russel introduced his upcoming plugin, "Acts as legacy":http://www.robbyonrails.com/articles/2006/04/14/sneaking-rails-through-the-legacy-system. Facing a 60+ table legacy system, I will definitely be watching that space. Acts_as_legacy would allow me to not worry about our existing scripts and jobs, while still rolling BiQ onto the rails. 
+At the recent "Canada on Rails conference":http://www.canadaonrails.org/ Robby Russel introduced his upcoming plugin, "Acts as legacy":http://www.robbyonrails.com/articles/2006/04/14/sneaking-rails-through-the-legacy-system. Facing a 60+ table legacy system, I will definitely be watching that space. Acts_as_legacy would allow me to not worry about our existing scripts and jobs, while still rolling BiQ onto the rails.
 
 For now, though, I am still partial to the idea of changing my tables around. Mainly to spare my poor fingers from having to type out stuff like intRelationValueRelation when building queries. relation_id makes so much more sense.
 

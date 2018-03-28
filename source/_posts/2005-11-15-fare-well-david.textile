@@ -10,7 +10,7 @@ Last night "a bunch of people said goodbye":http://pinds.com/articles/2005/11/15
 
 Selected highlights from David's emigration speech/presentation/keynote/whachamacallit:
 
-* Danish mediocricy-loving and taxes pushed him towards the states. 
+* Danish mediocricy-loving and taxes pushed him towards the states.
 * Open sourcing Rails was a fantastic idea.
 * "Reality PR" requires a thick hide and bombastic opinions.
 * We ain't seen the best of Rails yet.

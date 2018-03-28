@@ -9,7 +9,7 @@ categories:
 Why oh why am I stuck developing ASP/VBScript - that language is so crippled I can't believe it. Every time I try to do something Right(tm) I bang my head against silly limitations of the language. At the moment I am really really missing
 
 # Proper including of external files. Server Side Includes and/or Server.Execute doesn't quite cut it when the scripting language doesn't have namespaces or any way of checking if a certain class already exists. If you have defined one name somewhere in a file, the language provides you with no way to avoid including that file a second time elsewhere in your code, which results in a compilation error.
-# Proper objects. Currently there is no inheritance, no typechecking of objects, no polymorphism. Objects are nothing more than a way to group functions. Actually they might be the a way to provide namespaces if it was possible to avoid including files more than once. 
-# Crappy error handling. I want exceptions. Just telling the scripting engine to continue to next line if an error occurs doesn't cut it. 
+# Proper objects. Currently there is no inheritance, no typechecking of objects, no polymorphism. Objects are nothing more than a way to group functions. Actually they might be the a way to provide namespaces if it was possible to avoid including files more than once.
+# Crappy error handling. I want exceptions. Just telling the scripting engine to continue to next line if an error occurs doesn't cut it.
 
 Hm, I wonder if it is possible to migrate seamlessly to a .NET solution without having to rewrite the entire codebase at once.

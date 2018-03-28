@@ -53,7 +53,7 @@ Easy import from OPML. The channels are divided into folders. Key for navigating
 
 h2. SharpReader
 
-Opens links in my default browser. Space doubles as a "move to next unread key" and "page down through entry" - this will take some getting used to. The way of showing relations between linked entries is quite interesting. So far my biggest pet peeves seem to be that the text in the UI flickers when switching entries and the minimize-on-close sucks. 
+Opens links in my default browser. Space doubles as a "move to next unread key" and "page down through entry" - this will take some getting used to. The way of showing relations between linked entries is quite interesting. So far my biggest pet peeves seem to be that the text in the UI flickers when switching entries and the minimize-on-close sucks.
 
 h2. RssReader
 

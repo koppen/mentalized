@@ -6,7 +6,7 @@ mt_id: 1723
 categories:
 - webdesign
 ---
-In a "recent Jakob Nielsen Alertbox column":http://www.useit.com/alertbox/screen_resolution.html Jakob Nielsen recommends that you 
+In a "recent Jakob Nielsen Alertbox column":http://www.useit.com/alertbox/screen_resolution.html Jakob Nielsen recommends that you
 
 bq. Optimize for 1024x768, which is currently the most widely used screen size.
 
@@ -15,7 +15,7 @@ Unfortunately, Mr. Nielsen seems to forget or ignore a very important detail as 
 
 h2. Getting the figures
 
-Unfortunately website statistic packages that provide this very useful metric of browser viewport size are nearly non existant. 
+Unfortunately website statistic packages that provide this very useful metric of browser viewport size are nearly non existant.
 
 Apparently "Mint":http://www.haveamint.com/ has a "-plugin- pepper that allows you to keep track of the window size":http://www.shauninman.com/plete/2005/10/mint-example-pepper-window-width. This to my knowledge makes Mint the first and only statistics package that provides this metric, and not just the useless screen size.
 
@@ -28,7 +28,7 @@ h2. Shut up and give us the numbers
 
 h3. Most popular screen widths
 
-!http://mentalized.net/files/journal/size_does_matter/screen_widths.gif!
+!http://mentalized.net/files/journal/size-does-matter/screen-widths.gif!
 
 h3. Most popular screen width / viewport width combinations
 
@@ -92,7 +92,7 @@ h3. Most popular screen width / viewport width combinations
 
 The above data tells a couple of things. First of all, my data supports Jakob Nielsens claim that 1024 pixels is the most commonly used screen resolution. This also resonates with my Google Analytics data from both mentalized and "BiQ":http://www.biq.dk.
 
-Secondly it appears that most visitors maximize their browser. Each of the above screen width / viewport width combinations has 30 or less pixels difference between the width of the screen and the viewport. 
+Secondly it appears that most visitors maximize their browser. Each of the above screen width / viewport width combinations has 30 or less pixels difference between the width of the screen and the viewport.
 
 This indicates that visitors either runs browser window maximized or at the very least has resized it to take up almost full width. Depending on your OS, browser, and settings the vertical scrollbar will also take up some amount of pixels.
 
@@ -127,7 +127,7 @@ h2. So what's the conclusion
 
 When Jakob Nielsen claims that you should design for 1024 pixels wide screens since that's the most predominant screen resolution, he is partially correct. 1024 pixels /is/ the most commonly used screen resolution, however taking his recommendation at face value and optimizing for a browser content area that's 994 pixels (maximized browser window minus scrollbar) wide means you'll be optimizing for only 80% of your visitors (well, that's actually 80% of /my/ visitors, see below).
 
-However, if you optimize your design for a width of 770 pixels, you'll be optimizing for 97% of the visitors. That sounds to me like a much better target figure. Do note that this does not necessarily mean you should create 770 pixel fixed width designs. 
+However, if you optimize your design for a width of 770 pixels, you'll be optimizing for 97% of the visitors. That sounds to me like a much better target figure. Do note that this does not necessarily mean you should create 770 pixel fixed width designs.
 
 My recommendation is that you should optimize your designs for a width of 770 pixels while making sure they scale fluidly from 770 pixels to 960 pixels.
 

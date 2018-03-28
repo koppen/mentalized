@@ -18,7 +18,7 @@ The end of the event is reached when Narandi the Wretched is slain, and the ques
 
 h2. The attacking waves
 
-There are 4 distinct points where the giants will launch their attacks from: 
+There are 4 distinct points where the giants will launch their attacks from:
 
 # A line to the south of Thurgadin, charging straight ahead.
 # A line to west of Thurgadin, charging up the hills to the north.

@@ -32,7 +32,7 @@ A book review aggregation and book price comparison application. Lets you, for e
 
 h2. "DNSapp.net":http://dnsapp.net
 
-DNSapp is a place to host DNS for all your domains. They support a bunch of top level domains, and has a REST API and accompanying gem for it. 
+DNSapp is a place to host DNS for all your domains. They support a bunch of top level domains, and has a REST API and accompanying gem for it.
 
 h2. "eventzonen.dk":http://eventzonen.dk
 

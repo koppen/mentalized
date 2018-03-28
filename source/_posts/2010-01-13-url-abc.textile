@@ -8,6 +8,6 @@ categories:
 ---
 Generally speaking, I am always late to memes - "this one":http://www.google.dk/search?q=URL+ABC is no different.
 
-The concept is simple, started by "Tim van Damme":http://2009.maxvoltar.com/articles/url-abc: 
+The concept is simple, started by "Tim van Damme":http://2009.maxvoltar.com/articles/url-abc:
 
-bq. A simple game: Go to the address bar in your favorite browser, and type one letter. Start with 
+bq. A simple game: Go to the address bar in your favorite browser, and type one letter. Start with

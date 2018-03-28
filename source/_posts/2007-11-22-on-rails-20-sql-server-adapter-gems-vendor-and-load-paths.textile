@@ -18,7 +18,7 @@ Digging around a bit, I traced it down to the fact that the newly created model 
 
 h2. First a few important facts
 
-* We're using SQL Server 2000. As of Rails 2.0 the SQLServerAdapter is no longer included in the core Rails distribution and must be installed separately. No biggie, I've put it in /vendor and made sure it gets loaded and used. 
+* We're using SQL Server 2000. As of Rails 2.0 the SQLServerAdapter is no longer included in the core Rails distribution and must be installed separately. No biggie, I've put it in /vendor and made sure it gets loaded and used.
 
 * I have Rails 2.0 installed in /vendor/rails as well.
 
@@ -38,7 +38,7 @@ h2. Digging vendor
 
 Digging into my vendored Rails directory (much love for /vendor), it slowly became obvious that clear_query_cache was never actually called as part of that insert. Digging a bit further, it appeared insert_sql of my SQLServerAdapter wasn't called at all.
 
-At this point I was highly confuzzled - even more so after verifying that the SQLServerAdapter in /vendor is indeed loaded and used. Getting desperate, I searched the entire application and ruby directory for occurrences of @@IDENTITY, found 2 relevant ones and replaced each with a bogus statement. 
+At this point I was highly confuzzled - even more so after verifying that the SQLServerAdapter in /vendor is indeed loaded and used. Getting desperate, I searched the entire application and ruby directory for occurrences of @@IDENTITY, found 2 relevant ones and replaced each with a bogus statement.
 
 Lo and behold, I got an exception from ActiveRecord with a stack trace clearly telling me that it was raised in my gems directory. Rails was using the SQLServerAdapter from the installed, old ActiveRecord gem for doing the insert - a version of ActiveRecord that naturally has no idea that a query cache even exists. Not only am I confuzzled, Rails is as well.
 

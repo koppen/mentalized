@@ -8,7 +8,7 @@ categories:
 ---
 +Update: This position has been filled. Thanks a lot to all of you who applied.+
 
-Do you want to do Ruby for a living, and are you located in Copenhagen (or willing to travel/relocate)? "We're":http://www.biq.dk looking a for a solid developer who can do a bit of all things web, who isn't afraid of neither Windows nor Linux, and who wants to make a difference for one of Denmarks first public facing Rails applications. 
+Do you want to do Ruby for a living, and are you located in Copenhagen (or willing to travel/relocate)? "We're":http://www.biq.dk looking a for a solid developer who can do a bit of all things web, who isn't afraid of neither Windows nor Linux, and who wants to make a difference for one of Denmarks first public facing Rails applications.
 
 "Official position description (in danish) is over here.":http://www.it-jobbank.dk/ShowProfile.aspx?ProfileId=50153038
 

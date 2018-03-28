@@ -7,7 +7,7 @@ categories:
 - programming
 - technology
 ---
-"Rails 1.2.3 was released today":http://weblog.rubyonrails.com/2007/3/14/rails-1-2-3-compatible-with-ruby-1-8-6-and-other-fixes, primarily to fix a few bugs and compatibility issues with the recently released Ruby 1.8.6. 
+"Rails 1.2.3 was released today":http://weblog.rubyonrails.com/2007/3/14/rails-1-2-3-compatible-with-ruby-1-8-6-and-other-fixes, primarily to fix a few bugs and compatibility issues with the recently released Ruby 1.8.6.
 
 Since the Rails team doesn't provide an aggregate changelog and I was going through the individual changelogs to see what had changed, I figured I might as well post the changes for y'all to see.
 
@@ -20,7 +20,7 @@ h2. ActionMailer
 
 h2. ActionPack
 
-* Fix a bug in Routing where a parameter taken from the path of the current request could not be used as a query parameter for the next. Closes #6752. [Nicholas Seckar] 
+* Fix a bug in Routing where a parameter taken from the path of the current request could not be used as a query parameter for the next. Closes #6752. [Nicholas Seckar]
 * session_enabled? works with session :off.  #6680 [Catfish]
 * Performance: patch cgi/session to require digest/md5 once rather than per #create_new_id.  [Stefan Kaes]
 

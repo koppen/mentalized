@@ -110,6 +110,6 @@ An alternative to Open#popen3 (terrible name) is using <a href="http://tldp.org/
 => "err\nout\n"
 ```
 
-This gives you both STDOUT and STDERR in one big string, which might be perfectly fine if you don't require the granular control that popen3 brings to the table. 
+This gives you both STDOUT and STDERR in one big string, which might be perfectly fine if you don't require the granular control that popen3 brings to the table.
 
 I am guessing this method would work for <a href="http://ruby-doc.org/core/classes/IO.html#M002242">IO#popen</a> as well as for the backticks.

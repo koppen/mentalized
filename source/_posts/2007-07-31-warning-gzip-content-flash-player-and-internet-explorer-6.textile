@@ -12,7 +12,7 @@ This is a followup to "my post about using YSlow to optimize websites":http://me
 
 In that post I mention using mod_deflate to GZip encode all our text based content before delivering it to user agents supporting this. However, I've hit an issue with a specific browser. Yup, you guessed it, off course Internet Explorer doesn't behave properly.
 
-It seems there is an issue when Flash Player 9 running in Internet Explorer receives GZip-encoded content from the server. While IE has no problem with GZipped content on it's own, "it apparently fails to unpack and deliver the content to the Flash player":http://blog.jasonnussbaum.com/?p=155. 
+It seems there is an issue when Flash Player 9 running in Internet Explorer receives GZip-encoded content from the server. While IE has no problem with GZipped content on it's own, "it apparently fails to unpack and deliver the content to the Flash player":http://blog.jasonnussbaum.com/?p=155.
 
 This took our "network mapper":http://www.biq.dk/tour/network offline until we were alerted to the issue. This means we have to remove GZip encoding for all the content that the Flash player requests. Unfortunately I have not been able to find an easy way to do this just for the Flash player, so I've opted for turning off GZip encoding for all the requests to network.xml:
 

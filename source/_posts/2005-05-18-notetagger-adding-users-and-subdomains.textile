@@ -16,7 +16,7 @@ h2. Login generators
 
 Ruby and Rails is all about not repeating yourself and reusing code, so I'll be a <del>lazy</del> smart developer and reuse what I can. At the moment there are basically two easy ways to go from nothing to user logins: "Tobias Luetkes Login Generator":http://wiki.rubyonrails.com/rails/show/LoginGenerator and "Joe Hostenys Salted Hash Login Generator":http://wiki.rubyonrails.com/rails/show/SaltedHashLoginGenerator.
 
-I've chosen to go with the latter for 2 reasons: 
+I've chosen to go with the latter for 2 reasons:
 
 # I don't have any experience with it and want to expand my horizon
 # It comes with password recovery support.
@@ -59,7 +59,7 @@ end
 
 h2. Database table
 
-The Salted Hash Login Generator requires a table looking like 
+The Salted Hash Login Generator requires a table looking like
 
 bc.   CREATE TABLE users (
     id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -77,18 +77,18 @@ bc.   CREATE TABLE users (
     token_expiry DATETIME default NULL
   ) TYPE=InnoDB DEFAULT CHARSET=utf8;
 
-So I'll go ahead and create that. 
+So I'll go ahead and create that.
 
 Note that I've added a deleted column, since it turns out later that the Salted Hash Login expects that column to be present. I've also changed the verified column (and deleted) to TINYINT (1) to let Rails figure out their boolean nature.
 
 
 h2. Time to testdrive
 
-After firing up Webrick, I head to http://127.0.0.1:3000/notes to test out my superfancy user authentication system. And it seems to work, woo! 
+After firing up Webrick, I head to http://127.0.0.1:3000/notes to test out my superfancy user authentication system. And it seems to work, woo!
 
 But I am not content with it merely working, no siree, I want a user, so I head to /user/signup. And the page fails. It seems that I have forgot to include part of the localization stuff somewhere, probably because I didn't want it in the first place, and that has come back to haunt me now.
 
-At this point I am not really in the mood to figure out how localization stuff I don't want works, so I'll basically strip it out and change the views to use basic Rails helpers. 
+At this point I am not really in the mood to figure out how localization stuff I don't want works, so I'll basically strip it out and change the views to use basic Rails helpers.
 
 With the localization stuff gone (including renaming views in user_notify) the whole shebang actually works! I can register a user account, I get the email about it, I can verify it and log in and everything. So far, so good.
 
@@ -106,7 +106,7 @@ bc. class Note < ActiveRecord::Base
   belongs_to :author, :class_name => 'User', :foreign_key => 'author_id'
 end
 
-That's it. Each Note now has an author attribute with a User object, so we can for example in a view do 
+That's it. Each Note now has an author attribute with a User object, so we can for example in a view do
 
 bc. <%= note.author.first_name %>
 

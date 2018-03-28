@@ -6,7 +6,7 @@ mt_id: 2005
 categories:
 - projects
 ---
-"Fab:IT":http://www.fab-it.dk, a small hosting company in Copenhagen, Denmark, has long been my standard go-to-guys when I need a VPS hosted locally. They wanted to put more focus on their VPS hosting products, and asked me to build them a dedicated site for their offerings. 
+"Fab:IT":http://www.fab-it.dk, a small hosting company in Copenhagen, Denmark, has long been my standard go-to-guys when I need a VPS hosted locally. They wanted to put more focus on their VPS hosting products, and asked me to build them a dedicated site for their offerings.
 
 !/files/journal/vpsforce/vpsforce.jpg!
 

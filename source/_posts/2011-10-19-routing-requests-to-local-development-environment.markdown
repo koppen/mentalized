@@ -23,7 +23,7 @@ The common approach is to setup a [SSH tunnel](http://www.howtoforge.com/reverse
 
 As long as the above is running, all requests to port 3000 on example.com is received on localhost:3000.
 
-If you're developing Facebook apps, you can stop here. However, some third party services like [Chargify][chargify] and [Quickpay](http://quickpay.net "Danish payment gateway") refuse to use anything but port 80 (and 443) for their communication. 
+If you're developing Facebook apps, you can stop here. However, some third party services like [Chargify][chargify] and [Quickpay](http://quickpay.net "Danish payment gateway") refuse to use anything but port 80 (and 443) for their communication.
 
 While it is possible to setup the tunnel on port 80 remotely, my servers tend to already occupy port 80, so that's a no go.
 

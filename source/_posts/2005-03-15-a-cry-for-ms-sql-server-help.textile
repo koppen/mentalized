@@ -6,8 +6,8 @@ mt_id: 1258
 categories:
 - technology
 ---
-What would make a MS SQL Server 2000 randomly decide that performing write operations is too daunting a task? And instead of telling people that it doesn't want to write things anymore, it just fails to respond while the query times out. 
+What would make a MS SQL Server 2000 randomly decide that performing write operations is too daunting a task? And instead of telling people that it doesn't want to write things anymore, it just fails to respond while the query times out.
 
-Nothing in the SQL Server error logs indicates any problems. Nothing in the SQL Server process list included in the email I get for every database error indicates any problems. Neither the event logs nor the IIS access log indicate any problems. The disk has plenty of free space. The server is not stressed in any way. It delivers results from reading just fine. 
+Nothing in the SQL Server error logs indicates any problems. Nothing in the SQL Server process list included in the email I get for every database error indicates any problems. Neither the event logs nor the IIS access log indicate any problems. The disk has plenty of free space. The server is not stressed in any way. It delivers results from reading just fine.
 
 Still it just fails when writing. I am glad I am not a server administrator - oh wait, I am meant to be one in this case, doh.

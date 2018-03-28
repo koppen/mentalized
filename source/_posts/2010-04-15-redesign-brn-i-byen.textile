@@ -23,4 +23,4 @@ I can't claim credit for the actual design itself, though, I only chopped it int
 We are still cleaning up the corners of the site, removing remnants of the old site design, which - to be honest - I am pleased to see go. It served us well, but looks real dated by now.
 
 
-h2. 
+h2.

@@ -27,7 +27,7 @@ h2. Communication and information flows
 
 h2. You dont need researchers anymore
 
-* The subject is the research 
+* The subject is the research
 * The users provide data themselves
 * Let them do the talking, be a fly on the wall and observe
 

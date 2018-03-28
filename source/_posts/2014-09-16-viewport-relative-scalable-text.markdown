@@ -19,9 +19,9 @@ I used [viewport-relative, scalable text](http://css-tricks.com/viewport-sized-t
 
 Try resizing your browser window. Apart from your run-of-the-mill responsiveness at smaller displays, the text starts growing larger as your viewport increases above a certain threshold.
 
-## vw: Viewport width 
+## vw: Viewport width
 
-The work horse behind this trick is [`vw`](http://www.w3.org/TR/css3-values/#viewport-relative-lengths) - a CSS unit that is relative to the viewport. This means that `1vw` is equal to 1% of the viewports width (and `1vh` is equal to 1% of the height). 
+The work horse behind this trick is [`vw`](http://www.w3.org/TR/css3-values/#viewport-relative-lengths) - a CSS unit that is relative to the viewport. This means that `1vw` is equal to 1% of the viewports width (and `1vh` is equal to 1% of the height).
 
 Where we’re used to setting the width of an element to a specific amount of pixels (using `50px`), we can nowadays use `50vw` to set the width to 50% of the viewports width.
 

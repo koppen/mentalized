@@ -8,7 +8,7 @@ categories:
 - projects
 - programming
 ---
-Take 12 attendees (one from Italy, way to go, Fransesco!), 11 Apple laptops (and one Windows one, I believe), 1 wifi hotspot, mix it all together in "a cottage":http://flickr.com/photos/wa7son/2981895522/ in "the middle of nowhere":http://maps.google.com/maps?f=q&hl=en&geocode=&q=langegyde+75,+denmark&sll=55.056251,10.453148&sspn=0.061353,0.129089&ie=UTF8&t=h&ll=55.045618,10.462825&spn=0.007302,0.016952&z=16&iwloc=addr, sprinkle it with a tad of "Ruby":http://ruby-lang.org, "Git":http://git.or.cz/, and "*jour":http://drnicwilliams.com/2008/06/18/what-is-gitjour-gemjour-starjour/ and let is stew for 2 days and 2 nights. 
+Take 12 attendees (one from Italy, way to go, Fransesco!), 11 Apple laptops (and one Windows one, I believe), 1 wifi hotspot, mix it all together in "a cottage":http://flickr.com/photos/wa7son/2981895522/ in "the middle of nowhere":http://maps.google.com/maps?f=q&hl=en&geocode=&q=langegyde+75,+denmark&sll=55.056251,10.453148&sspn=0.061353,0.129089&ie=UTF8&t=h&ll=55.045618,10.462825&spn=0.007302,0.016952&z=16&iwloc=addr, sprinkle it with a tad of "Ruby":http://ruby-lang.org, "Git":http://git.or.cz/, and "*jour":http://drnicwilliams.com/2008/06/18/what-is-gitjour-gemjour-starjour/ and let is stew for 2 days and 2 nights.
 
 What you get is a "Rails Camp":http://railscamp08.org/#dk_october_2008, and the above recipe was cooked with great success last weekend. Thomas Watson has "a bunch of pictures from the event":http://flickr.com/photos/wa7son/sets/72157608360965512/.
 
@@ -16,7 +16,7 @@ What you get is a "Rails Camp":http://railscamp08.org/#dk_october_2008, and the 
 
 h2. Retrospect
 
-Like "Chopmo":http://chopmo.wordpress.com/2008/10/27/back-from-rails-camp-dk-08/ I enjoyed meeting members of the still growing Ruby community I hadn't met before. 
+Like "Chopmo":http://chopmo.wordpress.com/2008/10/27/back-from-rails-camp-dk-08/ I enjoyed meeting members of the still growing Ruby community I hadn't met before.
 
 Looking back at the event, I might as well add a few observations - probably mostly echoing Chopmos post.
 
@@ -24,7 +24,7 @@ h3. Internet access
 
 My biggest pet peeve before the actual event was the notion that everyone seemed so worried about not having internet for the two days. To me, that was part of the fun. In the end, though, we did indeed have Internet access at the cottage.
 
-Luckily, it wasn't a terribly fast connection, but it was bearable, and I must admit I liked the infusion of emails and IMs from the outside world. That said, I think we could easily have come better prepared (like having the *jour stuff installed and working) and have managed without internet just fine. 
+Luckily, it wasn't a terribly fast connection, but it was bearable, and I must admit I liked the infusion of emails and IMs from the outside world. That said, I think we could easily have come better prepared (like having the *jour stuff installed and working) and have managed without internet just fine.
 
 
 h3. Geeks are introverts, even the Rails-kind
@@ -38,7 +38,7 @@ h3. Demos/presentations
 
 I like the idea of scheduling things. Make everyone give a demo or presentations of sorts. Thing is, it doesn't have to be Steve Jobs keynote quality - as Laust clearly proved ;) Demos are best as it can often be done without any preparation.
 
-The main benefit of this is to drag people away from the screen and focus attention on something shared between the group. Perhaps do this every other hour for like 15 minutes. 
+The main benefit of this is to drag people away from the screen and focus attention on something shared between the group. Perhaps do this every other hour for like 15 minutes.
 
 h3. Games
 
@@ -48,7 +48,7 @@ h3. Shared projects
 
 I luckily managed to -sucker- convince another person into working on the Bottleships project with me (I'll post more about that eventually), which was awesome. I would have loved to see more people contributing, though, but so be it.
 
-One way to perhaps achieve this, would be to take a Barcamp style approach to projects. Everyone writes their project idea somewhere, perhaps pitches it to the group, and then people vote on what project they'd prefer to work on/help with, and only the top projects are picked. 
+One way to perhaps achieve this, would be to take a Barcamp style approach to projects. Everyone writes their project idea somewhere, perhaps pitches it to the group, and then people vote on what project they'd prefer to work on/help with, and only the top projects are picked.
 
 People whose project didn't get picked should be encouraged to go to one of the other projects so noone is left sitting around for one self.
 

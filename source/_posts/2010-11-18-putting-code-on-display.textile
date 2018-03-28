@@ -10,7 +10,7 @@ categories:
 ---
 Some months ago, the "people I share offices with":http://www.houseofdesign.biz/p136.asp had an exhibition showing off their works. They are all visual designers and artist, so their works are fairly easy to exhibit.
 
-I turned down being part of the exhibition, primarily because I couldn't figure out what to showcase. 
+I turned down being part of the exhibition, primarily because I couldn't figure out what to showcase.
 
 <!--more-->
 
@@ -27,7 +27,7 @@ Can we - and if so, how - exhibit our code in a way that becomes interesting to 
 
 h2. The project over time
 
-The open source project, "gource":http://code.google.com/p/gource/, creates pretty movies of how a project evolves over time. You can see how developers move around the project like little busy ants, adding, changing and deleting files. 
+The open source project, "gource":http://code.google.com/p/gource/, creates pretty movies of how a project evolves over time. You can see how developers move around the project like little busy ants, adding, changing and deleting files.
 
 <object width="512" height="329"><param name="movie" value="http://www.youtube.com/v/r0ji8FDNTj0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/r0ji8FDNTj0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="512" height="329"></embed></object>
 
@@ -38,7 +38,7 @@ h2. The execution of code
 
 On the same visualization-over-time-page as gource, it would perhaps be interesting if the execution of code could somehow be visualized.
 
-Some quick googling lead me to "Jeliot":http://cs.joensuu.fi/jeliot/ - a "Program Visualization application. It visualizes how a Java program is interpreted". 
+Some quick googling lead me to "Jeliot":http://cs.joensuu.fi/jeliot/ - a "Program Visualization application. It visualizes how a Java program is interpreted".
 
 <object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/f5ahEgu5Ba0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/f5ahEgu5Ba0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 

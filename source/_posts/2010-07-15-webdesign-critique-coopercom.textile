@@ -11,7 +11,7 @@ A problem with companies becoming ever more aware of and adept at social media i
 
 "This":http://twitter.com/cooper_journal/status/18544122925 is roughly what happened after I "tweeted my dissatisfaction":http://twitter.com/mentalizer/status/18501389419 with the new "Cooper":http://cooper.com website.
 
-Okay, fair enough, I'll spend some time going over some of the issues I found. 
+Okay, fair enough, I'll spend some time going over some of the issues I found.
 
 
 <!--more-->
@@ -48,7 +48,7 @@ This one is just baffling. Horizontal scrolling, really? There are certainly "ca
 The horizontal scrolling unfortunately makes it hard to scroll around each section using the 2-finger gesture of my Macbook Pros touchpad. Apparently I lack the motor skills needed to move my fingers up and down in a straight line, and I continually end up scrolling partially into the sections to the left and right of the one I want to look at.
 
 
-h2. Scrolling and the URL 
+h2. Scrolling and the URL
 
 Cooper has done really well making sure the URL changes as I use their navigation - even though I don't actually change pages. This ensures my back button works and sections can be linked to, a common oversight of pages like this.
 
@@ -57,14 +57,14 @@ Unfortunately, the horizontal scrolling messes this up. Scrolling horizontally I
 
 h2. Navigation changes on hover
 
-I am not a fan of changing the navigation simply when hovering over an item. It's too easy to accidentally switch to another sub-navigation element when trying to move the pointer over to the far items in the current one. 
+I am not a fan of changing the navigation simply when hovering over an item. It's too easy to accidentally switch to another sub-navigation element when trying to move the pointer over to the far items in the current one.
 
 It would be much less frustrating if it required a click to change the sub-navigation.
 
 
 h2. Differently sized screens
 
-Ah, screen sizes, a "pet peeve of mine":http://mentalized.net/journal/2009/02/19/size-still-matters/. The Cooper site seems optimized for a very small range of browser sizes. 
+Ah, screen sizes, a "pet peeve of mine":http://mentalized.net/journal/2009/02/19/size-still-matters/. The Cooper site seems optimized for a very small range of browser sizes.
 
 !/files/journal/cooper/800_pixels_wide.png!
 
@@ -95,10 +95,10 @@ Add to that, that the browser doesn't really know about the fake "pages" used on
 
 h2. The vanilla site
 
-It's interesting to note, that Cooper has deemed it necessary to also create a "vanilla" version of the website and add a very prominent, always visible link to use to it should you be experiencing "technical difficulties". 
+It's interesting to note, that Cooper has deemed it necessary to also create a "vanilla" version of the website and add a very prominent, always visible link to use to it should you be experiencing "technical difficulties".
 
-Ironically, the "vanilla" version solves most the above issues, even though I'd hardly categorize them as technical difficulties. It also looks just as stylish as the "Bells and whistles" version. 
+Ironically, the "vanilla" version solves most the above issues, even though I'd hardly categorize them as technical difficulties. It also looks just as stylish as the "Bells and whistles" version.
 
-Why not just use the vanilla version as the actual and only site? Users would benefit and development/maintenance costs would be lowered. As it is now, users (and Cooper) are paying for "bells and whistles" with no obvious benefit. 
+Why not just use the vanilla version as the actual and only site? Users would benefit and development/maintenance costs would be lowered. As it is now, users (and Cooper) are paying for "bells and whistles" with no obvious benefit.
 
-Is that really worth it? Am I off my rocker? What do you think about "cooper.com":http://cooper.com? 
+Is that really worth it? Am I off my rocker? What do you think about "cooper.com":http://cooper.com?

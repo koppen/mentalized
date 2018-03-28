@@ -15,7 +15,7 @@ The DCP-340CW is one of those multifunction types of gizmos: It -cooks, stirs, a
 
 h2. Downsides
 
-* The prints are slighty fuzzy around the edges. 
+* The prints are slighty fuzzy around the edges.
 * The scans have slighty visible vertical lines.
 * It isn't - as far as I can tell - terribly fast (20 pages per minute in black'n'white prints).
 

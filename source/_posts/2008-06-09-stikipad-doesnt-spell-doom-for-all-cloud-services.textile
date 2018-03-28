@@ -17,8 +17,8 @@ While I am obviously miffled about losing my data, I disagree with that sentimen
 
 The ultimate reality is that I am the one who should've been keeping a backup of my data - just as if I had the data on my local machine. Having my data stored somewhere in the cloud doesn't free me from that responsibility. Unfortunately, I am not aware of any real, usable solutions for doing that kind of backups - a dormant business opportunity, perhaps?
 
-Stikipad disappearing from the net and taking my and everybody elses data with it is unfortunate, but doesn't prove anything general about other services. 
+Stikipad disappearing from the net and taking my and everybody elses data with it is unfortunate, but doesn't prove anything general about other services.
 
 It does turn out, though, that the cloud of tomorrow isn't all that different from the physical hardware of today.
 
-  
+

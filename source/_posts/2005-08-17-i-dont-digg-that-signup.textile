@@ -32,14 +32,14 @@ There are a few reasons why this is bad behavior:
 
 # The register page has no clues whatsoever as to what the requirements for the form fields are. There is no way I can guess that I can't use spaces in my screen name or that the password has to be 6 or more characters.
 # Having error messages on a new page, where I can't change the faulty fields is simply bad usability. It forces me do extra work to please the application and having to remember what field was giving errors and exactly what those errors were.
-# The new page only shows one error at a time even if I have made numerous errors on the previous page. This means I am only able to fix one mistake at a time, having to cycle back and forth between the form and error page for every error. 
+# The new page only shows one error at a time even if I have made numerous errors on the previous page. This means I am only able to fix one mistake at a time, having to cycle back and forth between the form and error page for every error.
 # The screen name "check" should check if the screen name is actually okay. The first page tells me that "Sure, that name is available", the next that "... but you can't use it". This should be stated up front when checking the name, that's what checks do, they check things.
 
 All of the above are really minor issues (which happen to be all covered in chapter two of "Defensive Design for the Web":http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=mentalized-20&amp;creative=9325&amp;path=tg/detail/-/073571410X?v=glance) that can be resolved with a bit of copywriting and attention to detail. What happens when you succesfully beat the registration monster is just stupid:
 
 "!/files/journal/digg/digg_captchas_small.gif 400w (Welcome to CAPTCHA hell)!":/files/journal/digg/digg_captchas.gif
 
-Count them. That's 4 (four!) CAPTCHAs (without any non-visual fallback). I can see a single captcha being an annoying but necessary evil, but having 4 makes no sense. If a bot cannot read the first CAPTCHA, the rest aren't needed. If a bot can read the first, it certainly can also read the next, making it superfluous. 
+Count them. That's 4 (four!) CAPTCHAs (without any non-visual fallback). I can see a single captcha being an annoying but necessary evil, but having 4 makes no sense. If a bot cannot read the first CAPTCHA, the rest aren't needed. If a bot can read the first, it certainly can also read the next, making it superfluous.
 
 That's a lot of small annoyances in a signup process, which is likely to be the first interactive experience your customers have with your application. Remember that first impressions matter - also in web applications, so make sure it's a good impression.
 

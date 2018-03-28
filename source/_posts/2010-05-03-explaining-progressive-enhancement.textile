@@ -6,7 +6,7 @@ mt_id: 2040
 categories:
 - webdesign
 ---
-Trying to explain "progressive enhancement":http://www.alistapart.com/articles/understandingprogressiveenhancement/ (or graceful degredation, for that matter) to someone that isn't used to dealing in abstraction layers, interfaces, and presentation formats, is near impossible. 
+Trying to explain "progressive enhancement":http://www.alistapart.com/articles/understandingprogressiveenhancement/ (or graceful degredation, for that matter) to someone that isn't used to dealing in abstraction layers, interfaces, and presentation formats, is near impossible.
 
 Not surprisingly, most clients fall in that category.
 
@@ -33,6 +33,6 @@ It should also be obvious that the TVs are displaying the same content, they are
 
 h2. It's perfect!
 
-Like any good analogy this probably has a ton of huge flaws, if you really dig into it. Luckily most clients don't want to dig into it, they just want to understand what the heck I am talking about. 
+Like any good analogy this probably has a ton of huge flaws, if you really dig into it. Luckily most clients don't want to dig into it, they just want to understand what the heck I am talking about.
 
 Do you have any experiences explaining concepts like this to "normal" people?

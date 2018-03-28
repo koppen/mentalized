@@ -8,7 +8,7 @@ categories:
 - webdesign
 - programming
 ---
-Yahoo! has released a great Firefox addon - or rather, an addon for "a Firefox addon":http://www.getfirebug.com/ - called "YSlow":http://developer.yahoo.com/yslow/. YSlow allows you to analyze and suggest improvements to various performance metrics on the website you're currently visiting.  
+Yahoo! has released a great Firefox addon - or rather, an addon for "a Firefox addon":http://www.getfirebug.com/ - called "YSlow":http://developer.yahoo.com/yslow/. YSlow allows you to analyze and suggest improvements to various performance metrics on the website you're currently visiting.
 
 For kicks I decided to let it loose on "biq.dk":http://biq.dk. Unfortunately it gave me a disheartening grade of F:
 
@@ -32,7 +32,7 @@ bc(ruby). # Enable serving of images, stylesheets, and javascripts from an asset
 
 If that's not enough for you, Edge Rails introduces "the ability to have multiple asset hosts":http://dev.rubyonrails.org/changeset/6161 simply by using a numbered naming scheme.
 
-And if that is not enough either, there's a "plugin that allows you to use a specific asset host for each type of asset":http://agilewebdevelopment.com/plugins/multi_asset_locations. Don't come complaining about no options, here. 
+And if that is not enough either, there's a "plugin that allows you to use a specific asset host for each type of asset":http://agilewebdevelopment.com/plugins/multi_asset_locations. Don't come complaining about no options, here.
 
 To make this even simpler to implement for me, I have to do almost nothing. We already serve up the same content regardless of what you put in front of biq.dk (well, almost), so http://assets.biq.dk/images/rails.png already exits and I just have to tell Rails to use an asset server in production mode.
 
@@ -48,7 +48,7 @@ h2. Add an Expires header (F)
 
 A bunch (20 or so) of our files didn't even have an Expires header. Basically this means that browsers may (should?) request the file on every request, which is stupid. Stuff like Javascripts, images, and stylesheets rarely change so it makes a lot of sense caching them for a long while.
 
-Rails even makes it even easier for us: It puts the timestamp of each files last modification at the end of each asset request (that's why images in Rails applications are usually addressed as /images/foo.png?74734234). 
+Rails even makes it even easier for us: It puts the timestamp of each files last modification at the end of each asset request (that's why images in Rails applications are usually addressed as /images/foo.png?74734234).
 
 This means the browser will not request an asset unitl the last modified timestamp changes (in which case the asset is considered a new asset by the browser), or until the cached version expires.
 
@@ -87,7 +87,7 @@ Hrm, this an interesting question, and one I am not entirely certain about. More
 
 h2. Minify JS (C)
 
-None of our JavaScript files have been obfuscated or minified. They're simply the generic Prototype and Scriptaculous stuff. While I suppose I could run the javascripts through a processor of sorts when deploying, the benefit of this seems miniscule when the scripts are already being served compressed. 
+None of our JavaScript files have been obfuscated or minified. They're simply the generic Prototype and Scriptaculous stuff. While I suppose I could run the javascripts through a processor of sorts when deploying, the benefit of this seems miniscule when the scripts are already being served compressed.
 
 
 h2. Configure ETags (F)
@@ -99,6 +99,6 @@ h2. The resulting Performance Grade: C (71)
 
 Not bad, a C grade. There are still things I can improve, obviously, but the above are the quick improvements I could kick out during an hour or so, and they should already have improved the user experience quite a bit.
 
-YSlow is a great little addon, and having it hand out grades is genious. Nothing motivates like being told you suck, and having the possibility of a higher score dangled in front of you.  
+YSlow is a great little addon, and having it hand out grades is genious. Nothing motivates like being told you suck, and having the possibility of a higher score dangled in front of you.
 
 

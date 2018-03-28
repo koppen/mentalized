@@ -6,7 +6,7 @@ mt_id: 824
 categories:
 - usability
 ---
-Being a good and paranoid user I naturally install any and all security patches that my kind Windows XP installation asks me to. 
+Being a good and paranoid user I naturally install any and all security patches that my kind Windows XP installation asks me to.
 
 <!--more-->
 

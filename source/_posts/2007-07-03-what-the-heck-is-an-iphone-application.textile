@@ -9,7 +9,7 @@ categories:
 ---
 As you've undoubtedly noticed, assuming you follow at least a few blogs, listen to podcasts, or otherwise read the press, Apples iPhone has been released.
 
-Ever since Steve Jobs non-announcement of 3rd party iPhone applications really being web sites, there has been a rush of developers trying to move into this apparently new market. Never before have so many developers been in such a hurry to cater to a tiny percentage of the market running a closed, proprietary technology.  
+Ever since Steve Jobs non-announcement of 3rd party iPhone applications really being web sites, there has been a rush of developers trying to move into this apparently new market. Never before have so many developers been in such a hurry to cater to a tiny percentage of the market running a closed, proprietary technology.
 
 Ah well, let's for a second forget the folly that is creating web applications targeting a single device, however sleek and sexy it might be, and investigate exactly what these so-called iPhone applications are.
 
@@ -32,9 +32,9 @@ h2. What makes an iPhone application?
 * All of the above?
 
 I can use google.com just fine in an iPhone, that hardly makes it an iPhone application. When websites that are basically simulations of how a website might look and feel on a real iPhone can be qualified as a "top 25 iPhone application":http://www.rev2.org/2007/07/02/top-25-web-apps-for-the-iphone/ something is seriously amiss with our definition.
- 
+
 I assume a bunch of people are releasing so-called iPhone applications for the simple and easy advertising that it is at this point, but if all it takes is to make sure your website can scale down to a width of 480 pixels, the whole point of claiming to have built an iPhone application becomes void.
- 
+
 Or perhaps I am simply missing something not having access to a real iPhone. Perhaps all the websites I visit have a secret way of detecting an iPhone and serve perfect, iPhone optimized goodness to the lucky few. Or perhaps people are grasping for straws, attempting to draw attention to their application:
 
 # Serve a custom stylesheet to iPhones

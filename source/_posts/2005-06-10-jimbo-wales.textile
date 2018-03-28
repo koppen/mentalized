@@ -30,7 +30,7 @@ h2. Why does Wikipedia work?
 
 Due to the community of thoughtful users.
 
-Peer judgement. Community model. Reputation comes from actions and human judgements, instead of from ratings. 
+Peer judgement. Community model. Reputation comes from actions and human judgements, instead of from ratings.
 
 Users are powerful, have to be respected.
 
@@ -63,7 +63,7 @@ h3. Free Software
 * LAMP
 
 Allows for ease of extension
- 
+
 h2. Wikipedia governance
 
 * Aim for consensus

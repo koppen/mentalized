@@ -6,7 +6,7 @@ mt_id: 1644
 categories:
 - Copenhagen.rb
 ---
-Thursday marked the first, casual gathering of what is hopefully going to become the Copenhagen Rails User Group or something like it. We had a great evening with great people, and spent most the time presenting ourselves and discussing what came to mind. 
+Thursday marked the first, casual gathering of what is hopefully going to become the Copenhagen Rails User Group or something like it. We had a great evening with great people, and spent most the time presenting ourselves and discussing what came to mind.
 
 As promised, I've set up "a mailing list":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb so we can figure out where we go from here, and generally keep in touch etc. "Head over here to sign up":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb.
 
