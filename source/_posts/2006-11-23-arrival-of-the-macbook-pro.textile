@@ -6,7 +6,7 @@ mt_id: 1743
 categories:
 - hardware
 ---
-I received "the MacBook Pro":http://mentalized.net/journal/2006/10/30/apple-helps-me-out-by-limiting-options/ some time ago. My impression so far: It's a friggin' sweet machine! It is just the perfect size for a laptop and doesn't weigh as much as I feared. And boy, is it fast. The difference in running a test suite on the MBP compared to my old iBook is staggering.
+I received "the MacBook Pro":https://mentalized.net/journal/2006/10/30/apple-helps-me-out-by-limiting-options/ some time ago. My impression so far: It's a friggin' sweet machine! It is just the perfect size for a laptop and doesn't weigh as much as I feared. And boy, is it fast. The difference in running a test suite on the MBP compared to my old iBook is staggering.
 
 The built-in camera is a nice gadget and makes me wish I had more people I could video chat with. I love how the camera turned on automatically to take a picture for my user account, very nice touch. Photo Booth also makes for tons of fun :)
 

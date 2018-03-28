@@ -8,4 +8,4 @@ categories:
 ---
 <a href="http://www.flickr.com/photos/jakobs/162906797/" title="photo sharing"><img src="http://static.flickr.com/68/162906797_606637a9da.jpg" class="flickr-photo" alt="" /></a>
 				
-The DOM structure of <a href="http://mentalized.net/">Mentalized</a> visualized using <a href="http://www.aharef.info/static/htmlgraph/">this tool</a>.
+The DOM structure of <a href="https://mentalized.net/">Mentalized</a> visualized using <a href="http://www.aharef.info/static/htmlgraph/">this tool</a>.

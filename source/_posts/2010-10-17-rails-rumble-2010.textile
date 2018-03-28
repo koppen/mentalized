@@ -7,7 +7,7 @@ categories:
 - projects
 - programming
 ---
-Rails Rumble 2010 has kicked off. "Rails Rumble":http://railsrumble.com is a 48 hour Rails development contest, and I have - "once again":http://mentalized.net/journal/2008/10/18/rails-rumble-2008/ - entered the competition. This time around, I've joined forces with "Casper":http://casperfabricius.com and "Laust":http://personal-it.dk
+Rails Rumble 2010 has kicked off. "Rails Rumble":http://railsrumble.com is a 48 hour Rails development contest, and I have - "once again":https://mentalized.net/journal/2008/10/18/rails-rumble-2008/ - entered the competition. This time around, I've joined forces with "Casper":http://casperfabricius.com and "Laust":http://personal-it.dk
 
 <!--more-->
 

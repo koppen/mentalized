@@ -52,4 +52,4 @@ The first view to suffer was views/notes/list.rhtml. Trivial use of DateHelper, 
 
 For good measure, I also dug into the views/notes/_form.rhtml partial to change it into something more usable (Basically removing the internal date fields). Now it's starting to look like a real application.
 
-Continue to "Adding tags(Adding tags)":http://mentalized.net/journal/2005/04/15/notetagger-adding-tags/
+Continue to "Adding tags(Adding tags)":https://mentalized.net/journal/2005/04/15/notetagger-adding-tags/

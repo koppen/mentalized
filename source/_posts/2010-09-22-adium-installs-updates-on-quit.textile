@@ -7,7 +7,7 @@ categories:
 - software
 - usability
 ---
-Adium has moved one step closer to the approach "I've suggested":http://mentalized.net/journal/2010/01/08/the-tyranny-of-software-updates/ applications take for software updates:
+Adium has moved one step closer to the approach "I've suggested":https://mentalized.net/journal/2010/01/08/the-tyranny-of-software-updates/ applications take for software updates:
 
 !/files/journal/adium/adium_install_on_quit.png!
 

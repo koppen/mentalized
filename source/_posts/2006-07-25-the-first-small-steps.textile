@@ -9,7 +9,7 @@ categories:
 - BiQ on Rails
 - projects
 ---
-I am now well over a week into "putting BiQ on Rails":http://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/, and I've been having so much fun. The fact that I actually getting paid for writing code that's pretty and well tested means so much to the enjoyment of my work.
+I am now well over a week into "putting BiQ on Rails":https://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/, and I've been having so much fun. The fact that I actually getting paid for writing code that's pretty and well tested means so much to the enjoyment of my work.
 
 <!--more-->
 

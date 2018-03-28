@@ -6,7 +6,7 @@ mt_id: 1532
 categories:
 - business
 ---
-I know "coming up with names is terribly hard":http://mentalized.net/journal/2005/05/09/naming-projects/ - especially if you want a domain name that goes with it. But c'mon, the numbers thing was cute when only a few had it, now it's just overdone. The old timers include "9 Rules":http://9rules.com, "37signals":http://37signals.com, "43 Things":http://43things.com", and now we get "30 Boxes":http://30boxes.com from "83 degrees":http://83degrees.com, gah!
+I know "coming up with names is terribly hard":https://mentalized.net/journal/2005/05/09/naming-projects/ - especially if you want a domain name that goes with it. But c'mon, the numbers thing was cute when only a few had it, now it's just overdone. The old timers include "9 Rules":http://9rules.com, "37signals":http://37signals.com, "43 Things":http://43things.com", and now we get "30 Boxes":http://30boxes.com from "83 degrees":http://83degrees.com, gah!
 
 At least "23":http://23hq.com embraced the consequence and just called themselves a number and nothing else.
 

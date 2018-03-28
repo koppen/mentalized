@@ -6,7 +6,7 @@ categories:
 - technology
 - programming
 ---
-I have written about [Ruby and OpenSSL woes before](http://mentalized.net/journal/2012/01/02/ruby-ssl-certificate-verification-errors/), but I recently got bit by the issues again and the solution I had outlined earlier didn't work.
+I have written about [Ruby and OpenSSL woes before](https://mentalized.net/journal/2012/01/02/ruby-ssl-certificate-verification-errors/), but I recently got bit by the issues again and the solution I had outlined earlier didn't work.
 
 
 <!--more-->
@@ -22,7 +22,7 @@ failed with a
 
     OpenSSL::SSL::SSLError: SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed
 
-No biggie, by now the [solution](http://www.openlygeek.com/programming-2/the-best-way-to-handle-openssl-certificate-verify-failed-errors/) [has](http://blog.kabisa.nl/2009/12/04/ruby-and-ssl-certificate-validation/) [been](http://notetoself.vrensk.com/2008/09/verified-https-in-ruby/) [widely](http://stackoverflow.com/questions/5711190/how-to-get-rid-of-opensslsslsslerror) [documented](http://martinottenwaelter.fr/2010/12/ruby19-and-the-ssl-error/) - Just [install a CA certificate bundle](http://mentalized.net/journal/2012/01/02/ruby-ssl-certificate-verification-errors/):
+No biggie, by now the [solution](http://www.openlygeek.com/programming-2/the-best-way-to-handle-openssl-certificate-verify-failed-errors/) [has](http://blog.kabisa.nl/2009/12/04/ruby-and-ssl-certificate-validation/) [been](http://notetoself.vrensk.com/2008/09/verified-https-in-ruby/) [widely](http://stackoverflow.com/questions/5711190/how-to-get-rid-of-opensslsslsslerror) [documented](http://martinottenwaelter.fr/2010/12/ruby19-and-the-ssl-error/) - Just [install a CA certificate bundle](https://mentalized.net/journal/2012/01/02/ruby-ssl-certificate-verification-errors/):
 
     $ port install curl-ca-bundle
 

@@ -22,7 +22,7 @@ For this exercise, I used:
 * PostGIS 1.5.8
 * Data from [OpenStreetMap](http://www.openstreetmap.org)
 
-Check out my [instructions for getting PostGIS running on OS X](http://mentalized.net/journal/2013/04/05/how-to-install-postgis-on-mountain-lion/).
+Check out my [instructions for getting PostGIS running on OS X](https://mentalized.net/journal/2013/04/05/how-to-install-postgis-on-mountain-lion/).
 
 ## OpenStreetMap
 
@@ -142,6 +142,6 @@ FROM municipalities source,
      municipalities destination;
 ```
 
-This could clearly be optimized (it calculates the distance between each municipality twice (one for each direction)), but you could just run it and make sure to store the output somewhere (perhaps [in CSV format](http://mentalized.net/journal/2011/11/07/how-to-export-csv-data-from-postgresql/).
+This could clearly be optimized (it calculates the distance between each municipality twice (one for each direction)), but you could just run it and make sure to store the output somewhere (perhaps [in CSV format](https://mentalized.net/journal/2011/11/07/how-to-export-csv-data-from-postgresql/).
 
 Oh, and that coffee-farm of yours; I'd get right back to that if I was you. The above takes a long time to run.

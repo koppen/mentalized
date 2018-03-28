@@ -8,6 +8,6 @@ categories:
 ---
 At the beginning of 2004 I made the decision to change from my internet provider, "Tiscali(Tiscali)":http://www.tiscali.dk/, and get a new one, "Cybercity(Cybercity)":http://www.cybercity.dk/. Now, a few months later it seems evident that "Tiscali(Tiscali)":http://www.tiscali.dk/ don't want to let their customers go, and "Cybercity(Cybercity)":http://www.cybercity.dk/ don't want new customers.
 
-I have now decided to publish "my journal of the tragicomical events in this tale(Jakobs ADSL)":http://mentalized.net/adsl/ (in danish). Sadly, I didn't have enough common sense to write everything down from the beginning, so the journal isn't complete.
+I have now decided to publish "my journal of the tragicomical events in this tale(Jakobs ADSL)":https://mentalized.net/adsl/ (in danish). Sadly, I didn't have enough common sense to write everything down from the beginning, so the journal isn't complete.
 
 The bottom line of the story so far, is that I feel lied to and neglected by my (perhaps) coming ISP - even before becoming a customer.

@@ -117,4 +117,4 @@ With all of the above in place, building HTML emails in Rails is almost acceptab
 
 [Good](https://24ways.org/2009/rock-solid-html-emails/) [luck](http://kb.mailchimp.com/campaigns/ways-to-build/about-html-email) [with](http://blog.fogcreek.com/responsive-html-emails-a-different-strategy/) [that](https://support.sendgrid.com/hc/en-us/articles/200184928-HTML-Rendering-The-Do-s-and-Dont-s-of-Cross-Platform-Email-Design).
 
-And a final [word of advice](http://mentalized.net/journal/2009/04/08/testing-html-emails-with-rails-and-litmus/): Use [Litmus](https://litmus.com) to see how your email is rendered across email clients. You'll be surprised at the differences.
+And a final [word of advice](https://mentalized.net/journal/2009/04/08/testing-html-emails-with-rails-and-litmus/): Use [Litmus](https://litmus.com) to see how your email is rendered across email clients. You'll be surprised at the differences.

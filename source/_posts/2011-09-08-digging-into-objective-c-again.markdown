@@ -7,7 +7,7 @@ categories:
 ---
 While the concept of writing native Mac apps in Ruby definitely appeals to me, I must say the experience isn't quite as easy as I was looking for.
 
-After writing [my last post](http://mentalized.net/journal/2011/08/15/running-macruby-and-hotcocoa-on-snow-leopard/) I realized that what I had thought to be the path of least resistance, wasn't. And while I knew I'd run into resistance with XCode and Objective-C as well, at least I'd be doing things the "proper" way and learning new stuff.
+After writing [my last post](https://mentalized.net/journal/2011/08/15/running-macruby-and-hotcocoa-on-snow-leopard/) I realized that what I had thought to be the path of least resistance, wasn't. And while I knew I'd run into resistance with XCode and Objective-C as well, at least I'd be doing things the "proper" way and learning new stuff.
 
 So I fired up XCode once again and set out to write a Mac application. The following is a bunch of notes and stray thoughts I scribbled down during those first hours - my first (well, fourth) impressions of developing iApps coming from Ruby.
 

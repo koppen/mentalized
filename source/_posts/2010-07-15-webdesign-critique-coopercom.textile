@@ -64,7 +64,7 @@ It would be much less frustrating if it required a click to change the sub-navig
 
 h2. Differently sized screens
 
-Ah, screen sizes, a "pet peeve of mine":http://mentalized.net/journal/2009/02/19/size-still-matters/. The Cooper site seems optimized for a very small range of browser sizes.
+Ah, screen sizes, a "pet peeve of mine":https://mentalized.net/journal/2009/02/19/size-still-matters/. The Cooper site seems optimized for a very small range of browser sizes.
 
 !/files/journal/cooper/800_pixels_wide.png!
 
@@ -74,7 +74,7 @@ Looking at the site with a 800 pixels wide browser yields suboptimal and even ha
 
 In a time where we have a multitude of different screen sizes, browsers and devices all accessing our websites and the ability to make our website designs "adapt to the users device/browser":http://www.alistapart.com/articles/responsive-web-design/, relying on the user to use a maximized browser on a 1024 pixels wide screen is, well, nuts.
 
-Disclaimer, I don't know the stats for cooper.com - it might be that all their users use 1024 pixels wide screens and maximize their browser, I don't know. However, it does go against all the statistic I have seen (and "measured":http://mentalized.net/journal/2006/10/24/browser-size-does-matter-actual-numbers/).
+Disclaimer, I don't know the stats for cooper.com - it might be that all their users use 1024 pixels wide screens and maximize their browser, I don't know. However, it does go against all the statistic I have seen (and "measured":https://mentalized.net/journal/2006/10/24/browser-size-does-matter-actual-numbers/).
 
 
 h2. Printing

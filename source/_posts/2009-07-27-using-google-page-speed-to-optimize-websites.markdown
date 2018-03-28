@@ -10,7 +10,7 @@ categories:
 - projects
 - browsers
 ---
-Back when Yahoo! released their YSlow add-on for Firebug, [I took it for a spin](http://mentalized.net/journal/2007/07/26/using-yslow-to-optimize-websites/) and optimized [biq.dk](http://biq.dk) using it.
+Back when Yahoo! released their YSlow add-on for Firebug, [I took it for a spin](https://mentalized.net/journal/2007/07/26/using-yslow-to-optimize-websites/) and optimized [biq.dk](http://biq.dk) using it.
 
 Google recently released their variant of YSlow called [Page Speed](http://code.google.com/speed/page-speed/). Like YSlow, it's an add-on for Firebug and it provides a bunch of recommendations for optimizing the clientside performance of your websites. This time, I'll let it loose on the homepage of [Lokalebasen](http://www.lokalebasen.dk).
 

@@ -9,7 +9,7 @@ categories:
 - projects
 - browsers
 ---
-+I have published "my report and findings on this subject":http://mentalized.net/journal/2006/10/24/size-does-matter-actual-numbers/ .+
++I have published "my report and findings on this subject":https://mentalized.net/journal/2006/10/24/size-does-matter-actual-numbers/ .+
 
 In his most recent Alertbox, Jakob Nielsen dived into "screen resolution and page layout":http://www.useit.com/alertbox/screen_resolution.html. His summarized findings are:
 
@@ -22,10 +22,10 @@ Guesses and claims are interesting in their own right, but in the long wrong, th
 
 h2. So I whipped up some quick tracking
 
-Doing beats complaining, so instead of complain about the lack of usable metrics, I whipped up a "quick and dirty browser viewport dimension tracker":http://mentalized.net/stats/howto myself. It's rudimentary, but should work for most browsers. It should also fail silently for the rest, so your visitors hopefully won't notice.
+Doing beats complaining, so instead of complain about the lack of usable metrics, I whipped up a "quick and dirty browser viewport dimension tracker":https://mentalized.net/stats/howto myself. It's rudimentary, but should work for most browsers. It should also fail silently for the rest, so your visitors hopefully won't notice.
 
 It currently tracks screen width and height, and browser viewport width and height in addition to the client IP address and a timestamp. I plan on making the collected data freely available.
 
-Feel free to join "my little project":http://mentalized.net/stats/howto if you're interested in these numbers.
+Feel free to join "my little project":https://mentalized.net/stats/howto if you're interested in these numbers.
 
 Here's hoping my "shared hosting account":http://textdrive.com doesn't croak under this. :)

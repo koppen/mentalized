@@ -27,7 +27,7 @@ categories:
 <li>I found this experiment at URL: http://kalsey.com/blog/</li>
 <li>I found it via &#8220;Newsreader Software&#8221; or &#8220;Browsing or Searching the Web&#8221; or &#8220;An E-Mail Message&#8221;: Newsreader</li>
 
-<li>I posted this experiment at <span class="caps">URL</span>: http://mentalized.net/journal/</li>
+<li>I posted this experiment at <span class="caps">URL</span>: https://mentalized.net/journal/</li>
 <li>I posted this on date (day, month, year): 02 August 2004</li>
 <li>I posted this at time (24 hour time): 11:20:00</li>
 <li>My posting location is (city, state, country): Copenhagen, N/A, Denmark</li>

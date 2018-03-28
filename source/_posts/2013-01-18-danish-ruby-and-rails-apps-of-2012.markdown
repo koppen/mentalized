@@ -7,7 +7,7 @@ categories:
 - Substance Lab
 - projects
 ---
-While the danish Ruby on Rails community [isn't as big as it should be](http://mentalized.net/journal/2011/08/11/the-state-of-ruby-in-denmark/), we're far from an inactive bunch.
+While the danish Ruby on Rails community [isn't as big as it should be](https://mentalized.net/journal/2011/08/11/the-state-of-ruby-in-denmark/), we're far from an inactive bunch.
 
 With help from the Ruby user groups in [Copenhagen](http://copenhagenrb.dk) and [Aarhus](http://aarhus.rb) I've compiled this list of danish sites/apps built on Rails and launched (more or less) in 2012.
 
@@ -36,4 +36,4 @@ With help from the Ruby user groups in [Copenhagen](http://copenhagenrb.dk) and 
 * <h2>[Visit Kolding Meetings](http://visitkolding-meetings.dk/)</h2> Presentation of hotels og conference centers in Kolding.
 * <h2>[Votes.io](http://votes.io)</h2> A super simple way to create polls and get real time results.
 
-See the [list of Ruby and Rails apps launched in 2010](http://mentalized.net/journal/2011/01/20/new-ruby-and-rails-apps-in-denmark/).
+See the [list of Ruby and Rails apps launched in 2010](https://mentalized.net/journal/2011/01/20/new-ruby-and-rails-apps-in-denmark/).

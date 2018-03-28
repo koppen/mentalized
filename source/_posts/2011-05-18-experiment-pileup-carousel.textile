@@ -14,7 +14,7 @@ I recently had the idea of a photo carousel resembling a pile of photos being sh
 
 <!--more-->
 
-"The resulting demo is here":http://mentalized.net/files/journal/pileup/
+"The resulting demo is here":https://mentalized.net/files/journal/pileup/
 
 h2. Disclaimer
 

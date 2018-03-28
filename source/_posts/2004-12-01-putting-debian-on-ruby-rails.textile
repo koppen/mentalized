@@ -79,7 +79,7 @@ h2. Patch RubyGems
 
 It turns out there is a problem with running RubyGems on Ruby 1.8.2. Basically it'll give you an error ("string contains null byte") or something to that effect whenever you try to install a gem.
 
-Since apt-get won't give us Ruby 1.8.1 and I want to use apt and RubyGems I was stuck at this point for a while, while trying out different workarounds to no avail and becoming "increasingly frustrated(Breaking the Linux Barrier)":http://mentalized.net/journal/2004/11/05/breaking-the-linux-barrier/.
+Since apt-get won't give us Ruby 1.8.1 and I want to use apt and RubyGems I was stuck at this point for a while, while trying out different workarounds to no avail and becoming "increasingly frustrated(Breaking the Linux Barrier)":https://mentalized.net/journal/2004/11/05/breaking-the-linux-barrier/.
 
 #rubyonrails to the rescue! Apply "this patch(RubyGems patch)":http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/121702 to RubyGems, and your worries disappear.
 

@@ -11,7 +11,7 @@ categories:
 - projects
 - programming
 ---
-After 6 months of "evangelizing and advocating":http://mentalized.net/journal/2006/05/14/one-day-with-scott-raymond/, followed by "6 more months of rewriting":http://mentalized.net/journal/2007/01/02/after-the-rewrite/, and then 3 more months of building new features and enhancing existing ones, we have finally launched "the new version of BiQ":http://www.biq.dk.
+After 6 months of "evangelizing and advocating":https://mentalized.net/journal/2006/05/14/one-day-with-scott-raymond/, followed by "6 more months of rewriting":https://mentalized.net/journal/2007/01/02/after-the-rewrite/, and then 3 more months of building new features and enhancing existing ones, we have finally launched "the new version of BiQ":http://www.biq.dk.
 
 <a href="http://www.biq.dk">!/files/journal/biq_on_rails/biq_homepage_2007.jpg!</a>
 

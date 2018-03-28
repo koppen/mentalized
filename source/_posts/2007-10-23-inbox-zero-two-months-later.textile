@@ -6,7 +6,7 @@ mt_id: 1877
 categories:
 - life
 ---
-A few months ago I made a "public commitment":http://mentalized.net/journal/2007/08/27/a-month-of-inbox-zero/ to practicing "Inbox Zero":http://www.43folders.com/izero for a month. I cleaned out my inbox daily for a month, I still am, and I intend to continue doing so.
+A few months ago I made a "public commitment":https://mentalized.net/journal/2007/08/27/a-month-of-inbox-zero/ to practicing "Inbox Zero":http://www.43folders.com/izero for a month. I cleaned out my inbox daily for a month, I still am, and I intend to continue doing so.
 
 It has made my inbox a happy place instead of a guilt-inducer. I feel I am more responsive - and I hope people who have emailed feel that way as well - and in particular no people should be slipping through the cracks and be ignored.
 

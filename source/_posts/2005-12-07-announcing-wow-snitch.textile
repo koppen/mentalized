@@ -16,6 +16,6 @@ I personally use WoW Snitch to upload data to my guilds Guildspace website, Cens
 
 WoW snitch is the first Windows desktop development I have done for ages. It is a nice break away from the dynamically typed scripting languages I usually work with. There's something soothing about that compile phase (probably because I haven't reached 30 minute builds yet), and I really do like the warnings and errors a compiler can catch. That said, I definatly don't mind giving up that in favor of the things made easy by for example Rubys ducktyping.
 
-Having previously "ranted about Windows applications and raved about OS X ditto":http://mentalized.net/journal/2005/07/26/quality-breeds-quality/, I sure hope I have managed to add some of the sexyness that's so badly missing in many Windows applications to WoW Snitch. ::crosses fingers::
+Having previously "ranted about Windows applications and raved about OS X ditto":https://mentalized.net/journal/2005/07/26/quality-breeds-quality/, I sure hope I have managed to add some of the sexyness that's so badly missing in many Windows applications to WoW Snitch. ::crosses fingers::
 
 Head on over to the WoW Snitch website, download the snitch directly, and drop me some feedback "in a mail":mailto:jakob@mentalized.net or the forums or here, thanks.

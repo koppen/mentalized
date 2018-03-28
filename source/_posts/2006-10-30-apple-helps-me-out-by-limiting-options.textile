@@ -6,7 +6,7 @@ mt_id: 1727
 categories:
 - hardware
 ---
-Looks like "Apples":http://www.apple.com recent upgrade of the "MacBook Pro line":http://www.apple.com/macbookpro/ helped answer "the questions I had in regards to buying a MBP":http://mentalized.net/journal/2006/10/12/seeking-mac-shopping-advice/ :
+Looks like "Apples":http://www.apple.com recent upgrade of the "MacBook Pro line":http://www.apple.com/macbookpro/ helped answer "the questions I had in regards to buying a MBP":https://mentalized.net/journal/2006/10/12/seeking-mac-shopping-advice/ :
 
 * The 7200 RPM drive is no longer an option.
 * MacBook Pro now ships with a minimum of 2GB RAM (which kinda sucks, since there was a fair amount of cash to save here).

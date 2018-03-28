@@ -11,6 +11,6 @@ categories:
 
 * "Flickr":http://flickr.com is no longer beta! It's "gamma":http://www.flickr.com/images/flickr_logo_gamma.gif.v1.2!
 
-* "AjaxLoad":http://www.ajaxload.info is doing cool things with "my" "AJAX activity indicator collection":http://mentalized.net/activity-indicators.
+* "AjaxLoad":http://www.ajaxload.info is doing cool things with "my" "AJAX activity indicator collection":https://mentalized.net/activity-indicators.
 
 * "mentalized.net":/ started appearing on "kinja":http://www.kinja.com/id.knj?url=mentalized.net%2F. I have no clue what this means, but it looks kinda neat. I wish it didn't bookmark the index.asp URL, though.

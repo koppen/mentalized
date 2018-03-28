@@ -10,7 +10,7 @@ Onwards to implementing tagging, taking advantage of a whole bunch of Ruby on Ra
 
 I wasn't entirely sure how to go about the whole tagging business, and I initially went for keeping all the tags separated by spaces in a string. While that's a perfectly fine way to display and enter tags, it has a whole bunch of flaws when you actually want to store and use the tags.
 
-(You might want to read "the previous installment(Getting down and dirty)":http://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ before this one.)
+(You might want to read "the previous installment(Getting down and dirty)":https://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ before this one.)
 
 <!--more-->
 

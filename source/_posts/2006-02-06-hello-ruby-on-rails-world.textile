@@ -6,7 +6,7 @@ mt_id: 1528
 categories:
 - programming
 ---
-+There is "a newer version of this article":http://mentalized.net/journal/2010/02/05/hello-rails-3-world/ updated for Rails 3+
++There is "a newer version of this article":https://mentalized.net/journal/2010/02/05/hello-rails-3-world/ updated for Rails 3+
 
 To some people Rails have a fairly high learning curve. And certainly, it's somewhat higher than, say, PHP. However, in the longer run learning Rails definitely pays off.
 

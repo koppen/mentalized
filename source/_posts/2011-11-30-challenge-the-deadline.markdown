@@ -26,6 +26,6 @@ But here's the thing about deadlines; they don't make things any easier or faste
 
 If your deadline is fixed, something else has to give; either quality or number of features. The Project Triangle sayeth so.
 
-Give up on features and the product might not be what you imagined. Give up quality and [you'll pay for it later](http://mentalized.net/journal/2010/10/04/avoiding-the-big-rewrite/) - with interests.
+Give up on features and the product might not be what you imagined. Give up quality and [you'll pay for it later](https://mentalized.net/journal/2010/10/04/avoiding-the-big-rewrite/) - with interests.
 
 I have yet to meet an arbitrary deadline that couldn't be budged in the face of realities. Challenge the deadline before you lose your sleep over it.

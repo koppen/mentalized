@@ -10,7 +10,7 @@ categories:
 
 Undrer du dig også af og til over, hvad alle dine hårdt tjente penge rent faktisk bliver brugt til, efter de er havnet i Skattefars store, sorte sæk?
 
-Det gjorde jeg. Og da jeg er nørd med hang til at lave små [enkeltside](http://mentalized.net/activity-indicators)-[websites](http://progresswars.com) var der ikke langt fra tanke til [hvadbrugespengenetil.dk](http://hvadbrugespengenetil.dk).
+Det gjorde jeg. Og da jeg er nørd med hang til at lave små [enkeltside](https://mentalized.net/activity-indicators)-[websites](http://progresswars.com) var der ikke langt fra tanke til [hvadbrugespengenetil.dk](http://hvadbrugespengenetil.dk).
 
 <a href="http://hvadbrugespengenetil.dk" title="Hvad bruges pengene til?"><img src="/files/journal/hvadbrugespengenetil/hvadbrugespengenetil.png" alt="Screenshot af hvadbrugespengenetil.dk" /></a>
 

@@ -14,7 +14,7 @@ h3. Subscribing to feeds
 
 Looks like subscribing to feeds got a whole lot friendlier. This is what it looks like for my feed:
 
-!http://mentalized.net/files/journal/firefox2/subscribe-to-feed.gif!
+!https://mentalized.net/files/journal/firefox2/subscribe-to-feed.gif!
 
 Sure beats the more or less raw XML you used to get in most cases.
 
@@ -26,7 +26,7 @@ h3. Yellow fade technique
 
 Firefox 2.0 uses a yellow fade technique - or orange fade technique in this case - to illustrate the fact that you have opened a new tab that isn't currently visible in the tab bar. It fades the tab bar navigation arrow from orange to it's regular state:
 
-!http://mentalized.net/files/journal/firefox2/yft.gif!
+!https://mentalized.net/files/journal/firefox2/yft.gif!
 
 Will post more good stuff as I discover it.
 

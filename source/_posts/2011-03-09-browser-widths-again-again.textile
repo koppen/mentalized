@@ -8,7 +8,7 @@ categories:
 - webdesign
 - usability
 ---
-As someone who has been rambling about the "irrelevance of screen resolutions":http://mentalized.net/journal/2006/10/24/browser-size-does-matter-actual-numbers/ and the "importance of browser sizes":http://mentalized.net/journal/2009/02/19/size-still-matters/ for years, it is always a pleasure seeing other people get the point.
+As someone who has been rambling about the "irrelevance of screen resolutions":https://mentalized.net/journal/2006/10/24/browser-size-does-matter-actual-numbers/ and the "importance of browser sizes":https://mentalized.net/journal/2009/02/19/size-still-matters/ for years, it is always a pleasure seeing other people get the point.
 
 The other day I was pointed at "Liquid Fold":http://liquidfold.net/, a project that "will provide you a handy set of graphs showing a breakdown of your visitors' browser sizes". Anything that improves visibility of this important metric that most statistics packages fail to report is a Good Thing.
 

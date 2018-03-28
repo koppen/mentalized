@@ -7,9 +7,9 @@ categories:
 - business
 - life
 ---
-"Rejsefeber":http://www.rejsefeber.dk. I might have "praised your website last year":http://mentalized.net/journal/2004/09/21/congratulations-rejsefeberdk/, but this year you blew it.
+"Rejsefeber":http://www.rejsefeber.dk. I might have "praised your website last year":https://mentalized.net/journal/2004/09/21/congratulations-rejsefeberdk/, but this year you blew it.
 
-Remembering "our pleasant experience":http://mentalized.net/journal/2004/09/21/congratulations-rejsefeberdk/ from last year we actually went to "your site":http://www.rejsefeber.dk first when trying to book our vacation for the summer. And we had bought from you, if it hadn't been for the fact that your booking system kept changing our room preference to a different - and more expensive - choice.
+Remembering "our pleasant experience":https://mentalized.net/journal/2004/09/21/congratulations-rejsefeberdk/ from last year we actually went to "your site":http://www.rejsefeber.dk first when trying to book our vacation for the summer. And we had bought from you, if it hadn't been for the fact that your booking system kept changing our room preference to a different - and more expensive - choice.
 
 Okay, I'm a developer, I know bugs can occur, so you got the benefit of a doubt and a kind email detailing what we did and what error we got. The kind of email that I'd like to receive when bugs occur.
 

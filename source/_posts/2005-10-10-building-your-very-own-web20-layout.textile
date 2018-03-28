@@ -30,7 +30,7 @@ h2. Adding a bit more oomph
 
 The navigation stuff must be horizontal. Enter "list-a-matic":http://css.maxdesign.com.au/listamatic/ giving us a "nice, simple, horizontal list":http://css.maxdesign.com.au/listamatic/horizontal01.htm. While we're at it, we'll add some background-color to it. Getting down with "Fitts":http://ei.cs.vt.edu/~cs5724/g1/, we increase the hitbox area of the links with some padding.
 
-The links need a little love too. "I":http://mentalized.net "like":http://www.guildspace.net "green":http://substancelab.com, so we'll make them green. The hover style needs to highlight the full link, so we create an inverted style for that. Websafe colors all the way.
+The links need a little love too. "I":https://mentalized.net "like":http://www.guildspace.net "green":http://substancelab.com, so we'll make them green. The hover style needs to highlight the full link, so we create an inverted style for that. Websafe colors all the way.
 
 "Now we're cooking!":/files/journal/so_you_wanna_look_web2.0/step3.html
 

@@ -9,7 +9,7 @@ categories:
 - projects
 - programming
 ---
-"Around 6 months ago":http://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
+"Around 6 months ago":https://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
 
 A week or two before christmas the rewrite went feature complete. That is; all the features we want and need in the next, "Ruby":http://ruby-lang.org based version of BiQ have been rewritten.
 
@@ -47,4 +47,4 @@ Since the rewrite isn't only about going from VBScript to Ruby, but also going f
 
 We still have to change, modify and verify a good deal of our internal processes and procedures (like deployment). We also need to run a bunch of internal tests and checks to make sure that everything is behaving as it should and in a timely manner - including the parts of BiQ that haven't been rewritten.
 
-We're hoping to launch before February, I'll be sure to shout it from the roof tops (or at least "mentalized":http://mentalized.net) when we do. I'll see if I can find the time to write a bit more about some of the more technical details of the rewrite as well.
+We're hoping to launch before February, I'll be sure to shout it from the roof tops (or at least "mentalized":https://mentalized.net) when we do. I'll see if I can find the time to write a bit more about some of the more technical details of the rewrite as well.

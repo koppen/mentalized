@@ -7,7 +7,7 @@ categories:
 - webdesign
 - usability
 ---
-I have been preaching the importance of "measuring browser width":http://mentalized.net/journal/2009/02/19/size-still-matters/ rather than screen width for "quite some time now":http://mentalized.net/journal/2006/08/21/size-does-matter/. Unfortunately, people still focus in the size of the users screen when they discuss website design widths.
+I have been preaching the importance of "measuring browser width":https://mentalized.net/journal/2009/02/19/size-still-matters/ rather than screen width for "quite some time now":https://mentalized.net/journal/2006/08/21/size-does-matter/. Unfortunately, people still focus in the size of the users screen when they discuss website design widths.
 
 I don't blame them. Most web analytics packages don't provide us with a metric that tells us the viewport widths of our users, and as humans we are likely to grasp onto the metrics that is available to us, not necessarily those that are important.
 

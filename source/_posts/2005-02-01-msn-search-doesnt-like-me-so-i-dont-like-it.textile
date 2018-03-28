@@ -6,7 +6,7 @@ mt_id: 1241
 categories:
 - technology
 ---
-I put the newly launched MSN Search to the ultimate test: "Searching for my name(MSN Search: Jakob Lange Skjerning)":http://search.msn.dk/results.aspx?q=Jakob+lange+skjerning. Result #34, the last result of the bunch, was my "about page(About | mentalized.net)":http://mentalized.net/about/. It was one of 3 results containing all 3 words from my name, and deemed less relevant than all other results. Result #1 was a list of weblogs, where I was mentioned with a link to mentalized, so they have been able to spider the site.
+I put the newly launched MSN Search to the ultimate test: "Searching for my name(MSN Search: Jakob Lange Skjerning)":http://search.msn.dk/results.aspx?q=Jakob+lange+skjerning. Result #34, the last result of the bunch, was my "about page(About | mentalized.net)":https://mentalized.net/about/. It was one of 3 results containing all 3 words from my name, and deemed less relevant than all other results. Result #1 was a list of weblogs, where I was mentioned with a link to mentalized, so they have been able to spider the site.
 
 "Leaving out my middle name(MSN Search: Jakob Skjerning)":http://search.msn.dk/results.aspx?q=Jakob+skjerning from the search doesn't even bring up mentalized as a result.
 

@@ -6,6 +6,6 @@ mt_id: 1602
 categories:
 - life
 ---
-!http://mentalized.net/files/journal/bella/bella-puppy.jpg!
+!https://mentalized.net/files/journal/bella/bella-puppy.jpg!
 
 In a few weeks time this beauty will be moving in with us :)

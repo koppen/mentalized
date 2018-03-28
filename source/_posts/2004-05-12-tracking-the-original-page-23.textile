@@ -6,7 +6,7 @@ mt_id: 792
 categories:
 - blogging
 ---
-Some days ago the Page 23 concept was infecting the blogosphere on end, including "this very journal(Page 23)":http://mentalized.net/journal/2004/04/15/page-23/. In short people all over the world were posting a set of instructions and a quote from a nearby book.
+Some days ago the Page 23 concept was infecting the blogosphere on end, including "this very journal(Page 23)":https://mentalized.net/journal/2004/04/15/page-23/. In short people all over the world were posting a set of instructions and a quote from a nearby book.
 
 Inspired by a comment by "J(arcana imperii)":http://arcimperii.blogspot.com/ to my Page 23 meme, claiming the instructions had mutated somewhere along the way, I started clicking back through the history of Page 23, trying to trace the single, original page 23 post.
 
@@ -25,7 +25,7 @@ Yeah, somewhat a waste of time doing this, but kind of interesting trying to tra
 
 The full path that I have been able to trace looks like this:
 
-# "mentalized(mentalized)":http://mentalized.net/journal/2004/04/15/page-23/
+# "mentalized(mentalized)":https://mentalized.net/journal/2004/04/15/page-23/
 # "Asterisk(Asterisk)":http://www.7nights.com/asterisk/archives/page_23.php
 # "peterme.com(peterme.com)":http://www.peterme.com/archives/000311.html
 # "Caterina.net(Caterina.net)":http://www.caterina.net/archive/000521.html

@@ -9,7 +9,7 @@ categories:
 - usability
 - technology
 ---
-In a "previous post":http://mentalized.net/journal/2005/11/30/judging-the-judges-of-danish-internet-award-2006/ I took a few easy and cheap shots at some danish web development agencies. I did this since their websites irked a pet peeve of mine. Unfortunatly, in my eagerness to rant I ended up writing a post, that was utterly confused, drawing conclusions that were "only partly cool":http://mentalized.net/journal/2005/11/30/judging-the-judges-of-danish-internet-award-2006/#comment001262. I apologize for the hodgepodge of that post.
+In a "previous post":https://mentalized.net/journal/2005/11/30/judging-the-judges-of-danish-internet-award-2006/ I took a few easy and cheap shots at some danish web development agencies. I did this since their websites irked a pet peeve of mine. Unfortunatly, in my eagerness to rant I ended up writing a post, that was utterly confused, drawing conclusions that were "only partly cool":https://mentalized.net/journal/2005/11/30/judging-the-judges-of-danish-internet-award-2006/#comment001262. I apologize for the hodgepodge of that post.
 
 I never meant to imply anything about the abilities of the individual jury members. I am sure they'll do just fine awarding the Danish Internet. Also, I am sure they "get it" (some of them are even blogging) even though they work for companies that after a cursory glance appear not to. After all, I work for "BiQ":http://www.biq.dk - a company with no weblog, no newsfeeds, and with validation warnings, and I still like to think I "get it".
 

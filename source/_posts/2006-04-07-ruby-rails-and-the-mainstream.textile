@@ -7,7 +7,7 @@ categories:
 - programming
 - technology
 ---
-It seems I have stirred quite a pot around the office with my "recent ravings about Rails":http://mentalized.net/journal/2006/03/16/looking-for-a-rails-champion/. Today the tech-head on the board sent me "this article about why Rails won't make it into the mainstream":http://beust.com/weblog/archives/000382.html and asked for my comments. The following is basically a translation of my reply to him (Gee, this is the closest I've ever come to being paid for blogging).
+It seems I have stirred quite a pot around the office with my "recent ravings about Rails":https://mentalized.net/journal/2006/03/16/looking-for-a-rails-champion/. Today the tech-head on the board sent me "this article about why Rails won't make it into the mainstream":http://beust.com/weblog/archives/000382.html and asked for my comments. The following is basically a translation of my reply to him (Gee, this is the closest I've ever come to being paid for blogging).
 
 <!--more-->
 
@@ -17,7 +17,7 @@ I believe Cedric is somewhat right in concluding that Ruby and Rails will never 
 
 I am not certain that the battle against PHP for the mainstream market of regular programmers is a battle Rails should or even wants to pick. As Cedric points out, most concepts and ideas behind Ruby and Rails go above the head of the average website and the resident programmer, and in most cases they don't even matter. A project needs a certain complexity before writing it in Rails manifests itself as a benefit. It is no coincidence that the "static" pages on "rubyonrails.org":http://www.rubyonrails.org are written in PHP (well, more like written in HTML and glued together with a bit of PHP to avoid repeating stuff). PHP is an obvious and excellent solution when the problem is simple.
 
-Even creating the simplest of hello world applications in Rails is a "23MB RAM consuming, 5 step process":http://mentalized.net/journal/2006/02/06/hello-ruby-on-rails-world/ - and that doesn't even cover the deployment to a webserver. In PHP it's a simple matter of uploading a file containing &lt;?= "Hello world" ?&gt; to your webserver, and you're set. Rails won't ever win that battle.
+Even creating the simplest of hello world applications in Rails is a "23MB RAM consuming, 5 step process":https://mentalized.net/journal/2006/02/06/hello-ruby-on-rails-world/ - and that doesn't even cover the deployment to a webserver. In PHP it's a simple matter of uploading a file containing &lt;?= "Hello world" ?&gt; to your webserver, and you're set. Rails won't ever win that battle.
 
 Rather, I see Rails targetting the crowd of developers who build web applications and realize the benefits of design patterns, automated testing, object oriented programming, and consistent, well-structured code. Ruby and Rails try to bring the ease-of-use of PHP to Java while bringing the structure of Java to PHP. The result is a beautiful package; a language and framework with great power and flexibility and with enforced structure where it makes sense.
 

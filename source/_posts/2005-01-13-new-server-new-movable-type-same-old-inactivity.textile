@@ -44,7 +44,7 @@ h2. Jakobs step by step "guide" to switching servers, Movable Type installation,
 # Time to combat spam <http://sixapart.com/pronet/comment_spam.html#commentscript>
 ## Changed the name of my comment script
 ## Installed "MT-Blacklist(MT-Blacklist)":http://www.jayallen.org/projects/mt-blacklist/
-## Noticed that my "Easier Edit/Remove comment hack(Easier Edit/Removal of new comments)":http://mentalized.net/journal/2003/09/09/movable-type-easier-editremoval-of-new-comments/ is part of MT3, so didn't apply it :)
+## Noticed that my "Easier Edit/Remove comment hack(Easier Edit/Removal of new comments)":https://mentalized.net/journal/2003/09/09/movable-type-easier-editremoval-of-new-comments/ is part of MT3, so didn't apply it :)
 # Repeated most of the above for each of the weblogs that make up mentalized.net, yuck...
 # Created a .htaccess to redirect stuff from old URLs to new URLs (".asp to ".php" basically)
 # Wrote this post

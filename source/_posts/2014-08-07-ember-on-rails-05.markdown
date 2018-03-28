@@ -7,7 +7,7 @@ published: true
 series: "Ember on Rails"
 ---
 
-In todays instalment of [me trying to learn Ember in public](http://mentalized.net/journal/2014/06/01/ember-on-rails-01/) we'll look deeper into how Ember structures its views and what the connection is between routes, views, and templates.
+In todays instalment of [me trying to learn Ember in public](https://mentalized.net/journal/2014/06/01/ember-on-rails-01/) we'll look deeper into how Ember structures its views and what the connection is between routes, views, and templates.
 
 This stuff definitely doesn't work like it does in Rails, so hang on.
 
@@ -41,7 +41,7 @@ $ mv app/assets/javascripts/templates/books/index.handlebars app/assets/javascri
 
 Now, if you go to your list of books, and click the "Add a book" link, the form pops up right where you placed the `{% raw %}{{outlet}}{% endraw %}`.
 
-And it still works! You can enter stuff in the input fields and the new book is persisted when you click save (assuming [it is valid](http://mentalized.net/journal/2014/06/16/ember-on-rails-04/)). Magic!
+And it still works! You can enter stuff in the input fields and the new book is persisted when you click save (assuming [it is valid](https://mentalized.net/journal/2014/06/16/ember-on-rails-04/)). Magic!
 
 ## The magic is in the router
 

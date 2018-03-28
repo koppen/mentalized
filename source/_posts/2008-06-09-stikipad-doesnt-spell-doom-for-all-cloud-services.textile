@@ -7,7 +7,7 @@ categories:
 - technology
 - software
 ---
-My rant about how "Stikipad founders has screwed their customers":http://mentalized.net/journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ attracted "this comment":http://mentalized.net/journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/#comment002917 from reader "Verity":http://www.veritysmart.com/, which I figure warrants a proper reply, not just a comment:
+My rant about how "Stikipad founders has screwed their customers":https://mentalized.net/journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/ attracted "this comment":https://mentalized.net/journal/2008/05/27/stikipad-when-software-in-the-cloud-goes-sour/#comment002917 from reader "Verity":http://www.veritysmart.com/, which I figure warrants a proper reply, not just a comment:
 
 bq. It proves that it will be a long time before we dispense with the desktop
 apps. I for one only used stikipad as and when I wasn't at my own computer
