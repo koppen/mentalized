@@ -6,8 +6,8 @@ mt_id: 716
 categories:
 - blogging
 ---
-I am not sure creating a <a href="http://mentalized.net/journal/archives/quicklinks/" title="Quicklinks archive">quicklinks sidebar</a> was such a great idea for me after all. These days, whenever I see something on the Web that I find interesting and worth a comment, I mindlessly add it to my quicklinks. Why? Because it's quick, it's easy, and I don't have to disengage my brains hibernation mode.
+I am not sure creating a <a href="https://mentalized.net/journal/archives/quicklinks/" title="Quicklinks archive">quicklinks sidebar</a> was such a great idea for me after all. These days, whenever I see something on the Web that I find interesting and worth a comment, I mindlessly add it to my quicklinks. Why? Because it's quick, it's easy, and I don't have to disengage my brains hibernation mode.
 
-A few quicklinks every other day and I consider my blog updated. I don't even have to do anything but press a few keys for it to work, although if I am hyperactive from too much coffee I might add a profound comment like "<a href="http://mentalized.net/journal/archives/quicklinks/movie_clips_made_in_ascii/" title="Quicklink: Movie clips made in ASCII">Wow</a>" or "<a href="http://mentalized.net/journal/archives/quicklinks/this_is_the_way_to_game/" title="Quicklink: This is the way to game">OMFG</a>" to cover my needs for expressing myself creatively.
+A few quicklinks every other day and I consider my blog updated. I don't even have to do anything but press a few keys for it to work, although if I am hyperactive from too much coffee I might add a profound comment like "<a href="https://mentalized.net/journal/archives/quicklinks/movie_clips_made_in_ascii/" title="Quicklink: Movie clips made in ASCII">Wow</a>" or "<a href="https://mentalized.net/journal/archives/quicklinks/this_is_the_way_to_game/" title="Quicklink: This is the way to game">OMFG</a>" to cover my needs for expressing myself creatively.
 
 What a poor excuse for content, huh?

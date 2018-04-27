@@ -41,7 +41,7 @@ Features are meant for my longer essays, writings, and project descriptions that
 
 h3. Archiving setup
 
-I wanted the index listings for each category placed in category-specific directories, ie http://mentalized.net/features/movable_type/ to mimic how I do it on my blog. This is done by setting the category Archive File Template to
+I wanted the index listings for each category placed in category-specific directories, ie https://mentalized.net/features/movable_type/ to mimic how I do it on my blog. This is done by setting the category Archive File Template to
 
 <code><$MTArchiveCategory dirify="1"$>/index.asp</code>
 
@@ -49,11 +49,11 @@ The Archive File Template for Individual archives is then set to
 
 bc. <$MTEntryCategory dirify="1"$>/<$MTEntryTitle dirify="1"$>/index.asp
 
-to place the individual entries inside their respective category directory. This makes for readable and hackable URLs like http://mentalized.net/features/movable_type/powering_your_website_with_movable_type/. Unfortunatly URls like this often get too long, but you can use "this trick from Mark Pilgrim(Cruft-free URLs in Movable Type)":http://diveintomark.org/archives/2003/08/15/slugs to remedy that.
+to place the individual entries inside their respective category directory. This makes for readable and hackable URLs like https://mentalized.net/features/movable_type/powering_your_website_with_movable_type/. Unfortunatly URls like this often get too long, but you can use "this trick from Mark Pilgrim(Cruft-free URLs in Movable Type)":http://diveintomark.org/archives/2003/08/15/slugs to remedy that.
 
 h2. Creating static pages
 
-"Static Pages" means the pages on the website that aren't likely to change often and doesn't need things like archives and indexes. For me, this currently means my about-page, resume, and portfolio, all of which I want to go in http://mentalized.net/about/.
+"Static Pages" means the pages on the website that aren't likely to change often and doesn't need things like archives and indexes. For me, this currently means my about-page, resume, and portfolio, all of which I want to go in https://mentalized.net/about/.
 
 I also wanted to make sure that I have the option of adding static pages more or less everywhere in the site structure. Since I don't need to place the static pages into categories, I decided to use the category field to indicate what directory to put the entries in.
 
@@ -61,13 +61,13 @@ h3. Archiving configuration
 
 For the purpose of static pages, I only needed the Individual archive type, so I deleted the rest.
 
-Initially I used the individual archive file template mentioned above, alas this gave me an URL of http://mentalized.net/about/about/ for my about page, which I'd like give both category and title of "about".
+Initially I used the individual archive file template mentioned above, alas this gave me an URL of https://mentalized.net/about/about/ for my about page, which I'd like give both category and title of "about".
 
 Instead I downloaded <a href="http://mt-plugins.org/archives/entry/compare.php" title="MT Plugins: Compare">Kevin Shays Compare plugin</a>. Using that I am able to tell MT to not create a subdirectory for the entry if its title is the same as its category by setting the archive file template to:
 
 <code><$MTEntryCategory dirify="1"$><MTIfNotEqual a="[MTEntryCategory]" b="[MTEntryTitle]">/<$MTEntryTitle dirify="1"$></MTIfNotEqual>/index.asp</code>
 
-This places my About page at http://mentalized.net/about/, and my other entries from the about category at ie http://mentalized.net/about/resume/, which is exactly what I want.
+This places my About page at https://mentalized.net/about/, and my other entries from the about category at ie https://mentalized.net/about/resume/, which is exactly what I want.
 
 h2. Getting the search right
 
@@ -85,7 +85,7 @@ The number after blog_id= (12 in the example) is the id of the blog.
 
 h2. What about the future
 
-At some point in the future I may want to change my portfolio from being a static page to instead using "some (Rebuilding a Portfolio)":http://www.stopdesign.com/log/2003/07/16/rebuilding_a_portfolio.html "way (Beyond the Blog)":http://a.wholelottanothing.org/features.blah/entry/007162 of managing a portfolio from MT. The way my current setup works, this should be no problem, as I just create yet another blog and have it output its files to http://mentalized.net/about/portfolio/.
+At some point in the future I may want to change my portfolio from being a static page to instead using "some (Rebuilding a Portfolio)":http://www.stopdesign.com/log/2003/07/16/rebuilding_a_portfolio.html "way (Beyond the Blog)":http://a.wholelottanothing.org/features.blah/entry/007162 of managing a portfolio from MT. The way my current setup works, this should be no problem, as I just create yet another blog and have it output its files to https://mentalized.net/about/portfolio/.
 
 Generally extending my website with new areas should pose no difficulties, even if I wan't to do some manually created parts that do not rely on Movable Type.
 

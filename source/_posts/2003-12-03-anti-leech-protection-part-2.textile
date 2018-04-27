@@ -6,7 +6,7 @@ mt_id: 765
 categories:
 - webdesign
 ---
-I have previously ranted about the "crappy so-called antileech javascripts(Stupid anti-leech protection)":http://mentalized.net/journal/2003/06/18/stupid_antileech_protection/ that some sites employ to prevent users from <del>downloading images</del> right clicking.
+I have previously ranted about the "crappy so-called antileech javascripts(Stupid anti-leech protection)":https://mentalized.net/journal/2003/06/18/stupid_antileech_protection/ that some sites employ to prevent users from <del>downloading images</del> right clicking.
 
 Now I have come across an even more retarded "protection". I present to you, The Anti-Textselection-Script of "UGO's EverQuest Casters Realms(EverQuest Casters Realm)":http://eq.crgaming.com/. Try selecting any text on the site. They've deliberatly removed your ability to do so (at least in Firebird and IE), presumably to prevent you from copying the text and present it as your own.
 

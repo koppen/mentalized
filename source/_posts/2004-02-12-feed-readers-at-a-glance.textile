@@ -6,7 +6,7 @@ mt_id: 779
 categories:
 - blogging
 ---
-Since "my favorite news aggregator":http://mentalized.net/journal/2003/09/07/feeddemon-as-my-aggregator-of-choice/, "FeedDemon":http://www.feeddemon.com/feeddemon/, is out of the beta phase and has started costing money, I've decided to take a look around at the alternatives before I invest the $30.
+Since "my favorite news aggregator":https://mentalized.net/journal/2003/09/07/feeddemon-as-my-aggregator-of-choice/, "FeedDemon":http://www.feeddemon.com/feeddemon/, is out of the beta phase and has started costing money, I've decided to take a look around at the alternatives before I invest the $30.
 
 In general, I have a few criterias for an aggregator to stay installed:
 
