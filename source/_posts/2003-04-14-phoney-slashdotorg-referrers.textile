@@ -6,6 +6,6 @@ mt_id: 686
 categories:
 - blogging
 ---
-Hm, somebody from 134.84.144.* have started requesting my index-page using "slashdot.org" as referrer. Needless to say that referrer is a straight lie as I have never been linked on the frontpage of <a href="http://slashdot.org" title="/.">slashdot</a>, neither does the page http://www.mentalized.net/slashdot.org exist (which is what that referrer actually means).
+Hm, somebody from 134.84.144.* have started requesting my index-page using "slashdot.org" as referrer. Needless to say that referrer is a straight lie as I have never been linked on the frontpage of <a href="http://slashdot.org" title="/.">slashdot</a>, neither does the page http://mentalized.net/slashdot.org exist (which is what that referrer actually means).
 
 It doesn't appear to be a spider from slashdot either as slashdot exists at 66.35.250.150, not 134.84.144.*. Welcome to my blacklist.

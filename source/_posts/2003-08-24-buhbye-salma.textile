@@ -10,10 +10,10 @@ Creating website designs is fun. So I did it again. Welcome to yet another look 
 
 Hm, let's see, what have I changed apart from the look - I probably should've kept a changelog ;)
 
-* First of all, the entire site now runs from Movable Type - "details here(Power your website with Movable Type)":http://www.mentalized.net/features/movable_type/power_your_website_with_movable_type/ .
+* First of all, the entire site now runs from Movable Type - "details here(Power your website with Movable Type)":http://mentalized.net/features/movable_type/power_your_website_with_movable_type/ .
 * Metatags on my various index pages should prevent search engines from returning the index pages as results, instead returning the actual archived entries.
 * Search for the entire site
 * Moved some pages to other locations, old URLs should still work
-* Employed "my idea(scrap those pixels)":http://www.mentalized.net/journal/archives/technology/scrap_those_pixels/ for using em's for all widths, creating a fixed-width website that scales with the users preferred font-size.
+* Employed "my idea(scrap those pixels)":http://mentalized.net/journal/archives/technology/scrap_those_pixels/ for using em's for all widths, creating a fixed-width website that scales with the users preferred font-size.
 
 So far the site has been tested and looks acceptable in Firebird, Safari, Internet Explorer (Win), Camino - all of which I believe are newest available versions. If you still come across something that has gone bonkers, please let me know, and remember to include your browsername and version, thanks.

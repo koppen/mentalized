@@ -17,4 +17,4 @@ Since I am not interested in what I was listening to yesterday and currently onl
 
 Displaying the tune data can be achieved by instantiating the class and calling the methods manually, or by simply including the DisplayTune-script which does the above for you automagically.
 
-Download and more information available at the <a href="http://www.mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.
+Download and more information available at the <a href="http://mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.
