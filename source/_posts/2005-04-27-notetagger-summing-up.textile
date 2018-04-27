@@ -6,7 +6,7 @@ mt_id: 1306
 categories:
 - projects
 ---
-"The":https://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ "previous":https://mentalized.net/journal/2005/04/15/notetagger-adding-tags/ "installments":https://mentalized.net/journal/2005/04/27/notetagger-adding-the-ajax/index.php cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial
+"The":https://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ "previous":https://mentalized.net/journal/2005/04/15/notetagger-adding-tags/ "installments":https://mentalized.net/journal/2005/04/27/notetagger-adding-the-ajax/ cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial
 
 bc. rails notetagger
 
@@ -44,4 +44,4 @@ Also the Ajax implementation could be better. The application is unusable if you
 
 I might cover some of the above in future installments, depending on how well the existing ones are received. For now I think I'll relax a bit with making my Notetagger installation pretty and adding "fancy Ajax effects":http://mir.aculo.us/demos/effects/demo1.html that'll make Flash designers weep with envy :P
 
-Continue to next part: "Adding users and subdomains":/journal/2005/05/18/notetagger_adding_users_and_subdomains/
+Continue to next part: "Adding users and subdomains":/journal/2005/05/18/notetagger-adding-users-and-subdomains/

@@ -145,4 +145,4 @@ I am pretty sure I'll end up with some screwy results if there's only one or two
 
 But that's it for tags for now: Notes can be tagged and displayed by their tag, and I can add a list of tags wherever I want it.
 
-"Continue to Adding the AJAX":/journal/2005/04/27/notetagger_adding_the_ajax/
+"Continue to Adding the AJAX":/journal/2005/04/27/notetagger-adding-the-ajax/

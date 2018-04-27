@@ -8,7 +8,7 @@ published: true
 series: "Ember on Rails"
 ---
 
-In the [previous episodes](/journal/2014/06/10/ember_on_rails_03/) we've built a working [Ember.js](http://emberjs.com) application to manage our growing collection of Books. It lives inside a [Rails](http://rubyonrails.org) application which it uses for its backend.
+In the [previous episodes](/journal/2014/06/10/ember-on-rails-03/) we've built a working [Ember.js](http://emberjs.com) application to manage our growing collection of Books. It lives inside a [Rails](http://rubyonrails.org) application which it uses for its backend.
 
 We're able to list all the books in our vast library, and also add new books to our collection. However, if we try to add a book without giving it a title, the backend gladly accepts it and saves it, which is probably not the optimal behavior.
 

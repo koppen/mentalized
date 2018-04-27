@@ -8,7 +8,7 @@ published: true
 series: "Ember on Rails"
 ---
 
-Unfortunately, Amazon wasn't willing to buy the awesome Library Ember application we cooked up in [parts 1](/journal/2014/06/01/ember_on_rails_01/) [and 2](/journal/2014/06/01/ember_on_rails_02/).
+Unfortunately, Amazon wasn't willing to buy the awesome Library Ember application we cooked up in [parts 1](/journal/2014/06/01/ember-on-rails-01/) [and 2](/journal/2014/06/01/ember-on-rails-02/).
 
 I guess we'll have to hunker down, disrupt some synergies, and leverage the network effect or whatever catchphrases are used in startups these days.
 
@@ -18,7 +18,7 @@ In other words, it is time to add persistence to our Ember application.
 
 ## Rails backend
 
-Like in [part 02](/journal/2014/06/01/ember_on_rails_02/), our Rails backend is going to need some work to do what we want it to.
+Like in [part 02](/journal/2014/06/01/ember-on-rails-02/), our Rails backend is going to need some work to do what we want it to.
 
 In order for us to be able to send data to the backend and have it save it in the database, we need to add a `create` action to our `BooksController`:
 
@@ -171,6 +171,6 @@ Victory!
 
 Let's recap: We now have a <del>fully</del> functional Ember application backend by a Rails backend. We can show data and add new data and have it persisted between sessions.
 
-In the [coming episode](/journal/2014/06/16/ember_on_rails_04/) we'll look at how validations - in particular [serverside validations](/journal/2014/06/16/ember_on_rails_04/) - work.
+In the [coming episode](/journal/2014/06/16/ember-on-rails-04/) we'll look at how validations - in particular [serverside validations](/journal/2014/06/16/ember-on-rails-04/) - work.
 
 {% include ember_on_rails.html %}

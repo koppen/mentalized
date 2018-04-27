@@ -131,4 +131,4 @@ I guess it might be possible to create a Rails application, setup a database lik
 
 Good luck if you try :)
 
-"Continue to next part: Summing Up":/journal/2005/04/27/notetagger_summing_up/
+"Continue to next part: Summing Up":/journal/2005/04/27/notetagger-summing-up/

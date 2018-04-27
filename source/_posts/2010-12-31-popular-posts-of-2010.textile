@@ -36,7 +36,7 @@ h2. Most popular 2010 posts
 # "Avoiding The Big Rewrite":https://mentalized.net/journal/2010/10/04/avoiding-the-big-rewrite/
 # "Introducing Progress Wars":https://mentalized.net/journal/2010/03/15/introducing-progress-wars/
 # "Humor driven development":https://mentalized.net/journal/2010/07/30/humor-driven-development/
-# "Webkit-based Xbox dashboard":https://mentalized.net/journal/2010/02/17/webkitbased-xbox-dashboard/
+# "Webkit-based Xbox dashboard":https://mentalized.net/journal/2010/02/17/webkit-based-xbox-dashboard/
 # "Don't use placeholder text as labels":https://mentalized.net/journal/2010/08/05/dont-use-placeholder-text-as-labels/
 
 Looks like my Rails 3 and Ruby related posts are the ones getting the most traffic. I guess a good new years resolution would be to write more of those.

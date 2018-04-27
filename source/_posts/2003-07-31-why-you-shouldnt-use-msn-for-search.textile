@@ -14,7 +14,7 @@ bq. Jakob Skjerning invites you inside and presents his weblog. Among other thin
 
 Oh yeah, that description is spot on, keyboards and online washing machines, that's what Mentalized is all about. Whoever has written that? It certainly isn't me. Does MSN have people sitting around writing descriptions for every website in their index?
 
-Anyways, ignoring the irrelevance of my website for that search and the out-of-sync description of my website, MSN Search makes yet another mistake; The link takes the user to <a href="http://www.mentalized.net/journal/" title="Mentalized/Journal">my journal index</a>. Not to <a href="http://www.mentalized.net/journal/archives/technology/adjusting_ergonomically/" title="Adjusting Ergonomically">the post</a> I wrote about a keyboard, not even to a page containing the word that was searched for.
+Anyways, ignoring the irrelevance of my website for that search and the out-of-sync description of my website, MSN Search makes yet another mistake; The link takes the user to <a href="http://www.mentalized.net/journal/" title="Mentalized/Journal">my journal index</a>. Not to <a href="http://www.mentalized.net/journal/2002/08/22/adjusting-ergonomically/" title="Adjusting Ergonomically">the post</a> I wrote about a keyboard, not even to a page containing the word that was searched for.
 
 Three strikes for MSN Search, you're out. Since Microsoft wants to become a major player on the searchengine market, they better shape up and create an engine that can deliver some proper results. I am guessing the major reason any people use MSN Search is because it will per default be invoked from the addressbar of IE, not because it is the better choice.
 
