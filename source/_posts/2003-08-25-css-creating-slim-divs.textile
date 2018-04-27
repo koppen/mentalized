@@ -21,4 +21,4 @@ bc. div {
    overflow: hidden;
 }
 
-Voila, 2 pixels tall div in IE and better. An example can be found "here(CSS: Slim div's)":http://www.mentalized.net/playground/css/slimbar.html .
+Voila, 2 pixels tall div in IE and better.

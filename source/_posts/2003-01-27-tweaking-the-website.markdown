@@ -23,7 +23,7 @@ The things I have changed so far:
 
 <li>Individual pages now have their own <a href="http://diveintoaccessibility.org/day_8_constructing_meaningful_page_titles.html">meaningful titles</a>. Titles will be added when I get around to it.</li>
 
-<li>Recording referrers using my own <a href="http://www.mentalized.net/docs/projects/j-referrertracker/">J-ReferrerTracker</a>.</li>
+<li>Recording referrers using my own <a href="/journal/2003/01/27/announcing-j-referrertracker/">J-ReferrerTracker</a>.</li>
 
 <li>Using Brads <a href="http://www.bradchoate.com/past/mtmacros.php">MTMacros-plugin</a> to create &lt;acronym&gt;-tags with <a href="http://diveintomark.org/inc/macros">Mark Pilgrims macro-definitions</a> as a base.
 

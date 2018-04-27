@@ -6,8 +6,6 @@ mt_id: 1261
 categories:
 - technology
 ---
-So Google apparently pulled down the GoogleX page, that I -posted about- "linked to (Links for 2005-03-16)":https://mentalized.net/journal/2005/03/16/links-for-20050316/index.php yesterday, from the "labs(Google Labs)":http://labs.google.com. "http://labs.google.com/googlex(GoogleX)":http://labs.google.com/googlex gives a 404. Luckily it can be found in "their own cache(Google cache of GoogleX)":http://64.233.161.104/search?q=cache:HaRYQqPANzcJ:labs.google.com/googlex/+%22labs.google.%2Bcom/googlex%22&hl=da&client=firefox-a.
+So Google apparently pulled down the GoogleX page, that I -posted about- linked to yesterday, from the "labs(Google Labs)":http://labs.google.com. "http://labs.google.com/googlex(GoogleX)":http://labs.google.com/googlex gives a 404. Luckily it can be found in "their own cache(Google cache of GoogleX)":http://64.233.161.104/search?q=cache:HaRYQqPANzcJ:labs.google.com/googlex/+%22labs.google.%2Bcom/googlex%22&hl=da&client=firefox-a.
 
 Scoble has "a post with more mirrors(Scobleizer: Google's X Files Vanish)":http://radio.weblogs.com/0001011/2005/03/16.html#a9653.
-
-

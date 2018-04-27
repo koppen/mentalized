@@ -6,7 +6,7 @@ mt_id: 721
 categories:
 - technology
 ---
-Going through my referrerlogs I noticed a person coming from an <a href="http://search.msn.dk/results.aspx?cp=1252&PI=9542&DI=62&FORM=MSNH&q=tastatur" title="MSN Search for 'tastatur'">MSN search for "keyboard"</a> ("tastatur" in danish). Investigating a bit, I found out that MSN Search ranks me as number 4(!) using that searchterm. To be fair, <a href="http://www.mentalized.net/mt/mt-search.cgi?IncludeBlogs=1&search=keyboard" title="Search Mentalized for 'keyboard'">I have mentioned keyboards</a> on occasion, so I can see why my site might be relevant, but I place higher than many manufacturers and retailers of keyboards.
+Going through my referrerlogs I noticed a person coming from an <a href="http://search.msn.dk/results.aspx?cp=1252&PI=9542&DI=62&FORM=MSNH&q=tastatur" title="MSN Search for 'tastatur'">MSN search for "keyboard"</a> ("tastatur" in danish). Investigating a bit, I found out that MSN Search ranks me as number 4(!) using that searchterm. To be fair, I have mentioned keyboards on occasion, so I can see why my site might be relevant, but I place higher than many manufacturers and retailers of keyboards.
 
 However, the fun will reach no end. The description on MSN Search of my website is (translated - <a href="http://www.mentalized.net/journal/archives/technology/why_you_shouldnt_use_msn_for_search/msnsearch.gif" title="Screenshot of the result from MSN">original here</a>):
 
