@@ -31,13 +31,11 @@ $ cd meters
 
 This generates a blank Rails application called Meters in the meters directory.
 
- We've asked Rails to set itself up using Webpack. We've skip ActiveRecord so we won't have worry about databases for our simple app, and we skip Coffeescript because we don't need that either.
+ We've asked Rails to set itself up using Webpack. We skip ActiveRecord so we won't have worry about databases for our simple app, and we skip Coffeescript because we don't need that either.
 
 ## Use Webpack
 
-We've installed Webpack, but the default views in Rails still includes Javascripts from the asset pipeline, so let's change that.
-
-In `app/views/layouts/application.html.erb` change:
+While we've installed Webpack, the default layout still includes Javascripts from the asset pipeline, so let's change that. In `app/views/layouts/application.html.erb` change:
 
 ```html
 <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
