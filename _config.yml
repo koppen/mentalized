@@ -1,6 +1,9 @@
 gems:
   - jekyll-archives
+  - jekyll-livereload
   - jekyll-textile-converter
+
+livereload: true
 
 excerpt_separator: "<!--more-->"
 markdown: redcarpet
