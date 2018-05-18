@@ -1,6 +1,5 @@
-gems:
+plugins:
   - jekyll-archives
-  - jekyll-livereload
   - jekyll-textile-converter
 
 livereload: true
