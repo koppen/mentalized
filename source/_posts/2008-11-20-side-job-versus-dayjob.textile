@@ -12,9 +12,9 @@ categories:
 - programming
 - business
 ---
-I have been moonlighting as a "freelance webdeveloper":http://substancelab.com for the last couple of years. The first year, I was using my spare evenings and weekends until I began having trouble finding enough time to dedicate to new projects.
+I have been moonlighting as a "freelance webdeveloper":https://substancelab.com for the last couple of years. The first year, I was using my spare evenings and weekends until I began having trouble finding enough time to dedicate to new projects.
 
-My reaction was to cut down on "my dayjob":http://biq.dk, leaving me with more time to focus on "my own clients":http://substancelab.com/work/ (and less time to focus on BiQ, forcing us to "hire another developer":https://mentalized.net/journal/2007/09/27/biq-is-hiring/).
+My reaction was to cut down on "my dayjob":http://biq.dk, leaving me with more time to focus on "my own clients":https://substancelab.com/work/ (and less time to focus on BiQ, forcing us to "hire another developer":https://mentalized.net/journal/2007/09/27/biq-is-hiring/).
 
 <!--more-->
 
@@ -23,6 +23,6 @@ However, it was only a matter of time before I'd run into that luxury problem ag
 
 h2. Half a dayjob minus half a day job equals...?
 
-Do the math and you'll notice that it leaves me no time to work for BiQ. And you'd be correct. Starting this December, I will be a full time "independent web application developer":http://substancelab.com. I am super excited (and slightly scared) about this change.
+Do the math and you'll notice that it leaves me no time to work for BiQ. And you'd be correct. Starting this December, I will be a full time "independent web application developer":https://substancelab.com. I am super excited (and slightly scared) about this change.
 
 If you have a great idea for a website, why don't you "drop me a line":mailto:jakob@mentalized.net and we'll talk about it - I love giving good ideas the execution they deserve.

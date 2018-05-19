@@ -9,7 +9,7 @@ categories:
 ---
 The number of live, production Rails apps is ever increasing. Even though Denmark is still primarily living in a Microsoft and PHP bubble, great Rails applications are being built around the country.
 
-Out of curiosity, I thought it interesting to compile a list of the newer ones added to the growing list of "danish Rails applications":http://workingwithrails.com/browse/sites/country/Denmark, and thanks to my "Twitter followers":http://twitter.com/mentalizer came up with the following list.
+Out of curiosity, I thought it interesting to compile a list of the newer ones added to the growing list of "danish Rails applications":http://workingwithrails.com/browse/sites/country/Denmark, and thanks to my "Twitter followers":https://twitter.com/mentalizer came up with the following list.
 
 
 <!--more-->
@@ -36,7 +36,7 @@ DNSapp is a place to host DNS for all your domains. They support a bunch of top 
 
 h2. "eventzonen.dk":http://eventzonen.dk
 
-Eventzonen.dk puts event organizers in direct contact with artists and entertainers, effectively cutting out the middle man; the booking-agent. Disclaimer: My company, "Substance Lab":http://substancelab.com, built this.
+Eventzonen.dk puts event organizers in direct contact with artists and entertainers, effectively cutting out the middle man; the booking-agent. Disclaimer: My company, "Substance Lab":https://substancelab.com, built this.
 
 h2. "Gruvi":http://gruvi.tv/
 

@@ -16,5 +16,5 @@ People "are":http://pinds.com/2008/3/9/dk-launch-brnibyen-dk "already":http://bl
 
 Since December I have been part of "the Børn i byen team":http://bornibyen.dk/about/. Even though I have no kids, I was added to the project - on recommendation from "Lars":http://pinds.com to assist the "original developer":http://makingmachinesfolloworders.com/ and the rest of the team get a launchable product out the virtual door.
 
-On the technical side of things, it's all "Ruby on Rails":http://rubyonrails.org, using "Blueprint":http://code.google.com/p/blueprintcss/ for the CSS, "Capistrano":http://www.capify.org/ for deployment, "Comatose":http://code.google.com/p/comatose-plugin/ for a lightweight CMS, "Geokit":http://geokit.rubyforge.org/ for the Google Map stuff, and "Carolines":http://www.linkedin.com/pub/0/3B/9A2 espresso machine for fuel.
+On the technical side of things, it's all "Ruby on Rails":http://rubyonrails.org, using "Blueprint":http://code.google.com/p/blueprintcss/ for the CSS, "Capistrano":http://www.capify.org/ for deployment, "Comatose":http://code.google.com/p/comatose-plugin/ for a lightweight CMS, "Geokit":http://geokit.rubyforge.org/ for the Google Map stuff, and "Carolines":https://www.linkedin.com/pub/0/3B/9A2 espresso machine for fuel.
 

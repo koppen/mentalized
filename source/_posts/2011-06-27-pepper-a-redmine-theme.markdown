@@ -17,7 +17,7 @@ That can now be fixed, using my newly released theme, [Pepper](https://github.co
 
 <!--more-->
 
-I use [Redmine](http://www.redmine.org) for managing all of [my client projects](http://substancelab.com/work). For the longest time I have used a home-made theme resembling the look and feel of my <a href="http://substancelab.com" title="Freelance Ruby on Rails development agency">company website</a>.
+I use [Redmine](http://www.redmine.org) for managing all of [my client projects](https://substancelab.com/work). For the longest time I have used a home-made theme resembling the look and feel of my <a href="https://substancelab.com" title="Freelance Ruby on Rails development agency">company website</a>.
 
 That never really was optimal so I wanted something better. While there are many fine [Redmine themes](http://www.redmine.org/projects/redmine/wiki/Theme_List) out there, I didn't really feel any of them looked like I'd like them to.
 

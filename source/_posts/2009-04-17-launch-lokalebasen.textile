@@ -6,7 +6,7 @@ mt_id: 2000
 categories:
 - projects
 ---
-It's not like this has been a secret until now, but <a href="http://www.lokalebasen.dk" title="Lokalebasen: Find ledige kontorlokaler til leje og salg">Lokalebasen</a>, the most recent <a href="http://substancelab.com" title="Freelance web application development">client work built by me</a> (in collaboration with <a href="http://casperfabricius.com">Casper Fabricius</a>) has launched.
+It's not like this has been a secret until now, but <a href="http://www.lokalebasen.dk" title="Lokalebasen: Find ledige kontorlokaler til leje og salg">Lokalebasen</a>, the most recent <a href="https://substancelab.com" title="Freelance web application development">client work built by me</a> (in collaboration with <a href="http://casperfabricius.com">Casper Fabricius</a>) has launched.
 
 <a href="http://www.lokalebasen.dk" title="Uvildig portal for erhvervslejemål">Lokalebasen</a> allows realtors and other providers of offices, warehouses and production facilities to connect with companies looking for a location to buy or rent in Denmark. And so far, the site has been successful.
 

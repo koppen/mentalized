@@ -45,7 +45,7 @@ h2. Referring sites
 
 Interestingly enough, and contrary to what many social media gurus would have you believe, "Google":http://google.com continues to be the master of my referrals with more than 10 times the referred visitors than the closest runner-up.
 
-The best performing social media tool is "Twitter":http://twitter.com at #14, 4 places below "Bing":http://bing.com of all things (looks like the number of people googling on Bing is slow increasing).
+The best performing social media tool is "Twitter":https://twitter.com at #14, 4 places below "Bing":http://bing.com of all things (looks like the number of people googling on Bing is slow increasing).
 
 
 h2. Progress Wars

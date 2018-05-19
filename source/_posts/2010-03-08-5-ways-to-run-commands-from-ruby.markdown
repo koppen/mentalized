@@ -9,7 +9,7 @@ categories:
 ---
 Every so often I have the need to execute a command line application from a Ruby application/script. And every single time I fail to remember what the different command-executing methods Ruby provides us with do.
 
-This post is primarily a brain dump to aid my failing memory, and it was triggered by an [issue](http://github.com/koppen/redmine_github_hook/issues/issue/2) with my [Redmine Github Hook plugin](http://github.com/koppen/redmine_github_hook) where STDERR messages were not being logged.
+This post is primarily a brain dump to aid my failing memory, and it was triggered by an [issue](https://github.com/koppen/redmine_github_hook/issues/issue/2) with my [Redmine Github Hook plugin](https://github.com/koppen/redmine_github_hook) where STDERR messages were not being logged.
 
 The goal of this exercise is basically to figure out how to run a command and capture all its output - both STDOUT and STDERR - so that the output can be used in the calling script.
 

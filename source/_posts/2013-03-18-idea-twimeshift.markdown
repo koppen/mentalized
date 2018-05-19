@@ -5,7 +5,7 @@ mt_id: 2161
 categories:
 - ideas
 ---
-Having [cut the cable TV cord](https://www.google.dk/search?q=cutting+the+cord) one of the few things I kind of miss, is the real time <del>snark</del>insightful comments on [Twitter](http://twitter.com) during live events like the Oscars or X Factor.
+Having [cut the cable TV cord](https://www.google.dk/search?q=cutting+the+cord) one of the few things I kind of miss, is the real time <del>snark</del>insightful comments on [Twitter](https://twitter.com) during live events like the Oscars or X Factor.
 
 Here's an idea; You enter a Twitter hashtag (or any search, I guess), and have the resulting tweets replayed in real time
 as they would have appeared had you been following the hashtag when the event occurred. That way you get the full Twitter-augmented experience when watching anything after the fact.

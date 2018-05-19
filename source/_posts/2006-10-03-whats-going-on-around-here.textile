@@ -19,5 +19,5 @@ Anyways, here are some tidbits about what's be going around my life recently:
 * The "BiQ":http://www.biq.dk rewrite is going really well, and I am thoroughly enjoying this.
 * "Copenhagen Ruby Brigade":http://copenhagenrb.dk has taken off and the two meetings so far have been visited by 20-25 Ruby heads. I'm really enjoying these meetings and the more social side of software.
 * "My girlfriend started blogging":https://mentalized.net/tinytales - primarily for a school project, but it will be interesting to see if she keeps blogging.
-* "Substance Lab":http://substancelab.com is busy with "client work":http://medbillmanager.com.
+* "Substance Lab":https://substancelab.com is busy with "client work":http://medbillmanager.com.
 * "The puppy is growing bigger":http://flickr.com/photos/jakobs/257479084/in/photostream/ - she's almost a real dog now.

@@ -15,7 +15,7 @@ It answers an feature request I seem to get fairly often; "please make it possib
 
 h2. Cheating
 
-We'll cheat and use a few gems to do the heavy lifting for us. Namely the "to_xls gem":http://github.com/splendeo/to_xls that "transforms an Array into a excel file". Internally it relies on the using the "spreadsheet gem":http://spreadsheet.rubyforge.org/ that handles the actual Excel file for us.
+We'll cheat and use a few gems to do the heavy lifting for us. Namely the "to_xls gem":https://github.com/splendeo/to_xls that "transforms an Array into a excel file". Internally it relies on the using the "spreadsheet gem":http://spreadsheet.rubyforge.org/ that handles the actual Excel file for us.
 
 In your Gemfile:
 

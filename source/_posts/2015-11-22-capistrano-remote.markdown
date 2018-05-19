@@ -12,7 +12,7 @@ this usually triggers a bunch of questions: What's that hostname again? What
 user should I log in as? And where did we deploy the application? Is RVM loaded
 correctly? Do I need to bundle exec or whatever?
 
-So [we](http://substancelab.com) built a [Capistrano
+So [we](https://substancelab.com) built a [Capistrano
 extension](https://rubygems.org/gems/capistrano-remote) to answer those
 questions and ease the pain.
 

@@ -6,7 +6,7 @@ categories:
 - software
 ---
 
-We use [Heroku](https://heroku.com) for running some of [our customers](http://substancelab.com/work) applications. Deploying by a simple `git push` is great, but running migrations as part of the process have always been a sore point - until now.
+We use [Heroku](https://heroku.com) for running some of [our customers](https://substancelab.com/work) applications. Deploying by a simple `git push` is great, but running migrations as part of the process have always been a sore point - until now.
 
 <!--more-->
 

@@ -12,6 +12,6 @@ My problem: I have no clue how to monetize these, nor do I know if they are actu
 
 I could build the core of most of those ideas easily enough. I should probably follow Paul Scrivens idea of "taking a weekend and do nothing but hack away at the core functionality of an application":http://9rules.com/whitespace/the_weekend_web_app.php and simply get stuff out there, worry about monetization later. Harness "the power of Ruby on Rails prototyping":http://justaddwater.dk/2006/04/12/rails-prototyping/, "getting real":https://gettingreal.37signals.com/ and all that jazz.
 
-Come to think of it, I'll probably have a bunch of time over Easter to hack away on something. And seeing how I have no pressing "client work":http://substancelab.com/projects/ at the moment, I should probably pick an idea and just go with it.
+Come to think of it, I'll probably have a bunch of time over Easter to hack away on something. And seeing how I have no pressing "client work":https://substancelab.com/projects/ at the moment, I should probably pick an idea and just go with it.
 
 Hm, it actually sounds like a plan.

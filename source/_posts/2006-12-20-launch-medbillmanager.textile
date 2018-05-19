@@ -10,5 +10,5 @@ categories:
 
 MedBillManager is a little (well not quite that small) something that I've been working on over the last couple of months. I did most of the backend stuff together with Wilkes Joiner and Matthew Beale, while "Matt Mueller":http://thatmatt.com/ dealt with the front end.
 
-It's the first "Rails":http://rubyonrails.org application developed primarily by "Substance Lab":http://substancelab.com and I've been working with Christopher on it since the beginning so it feels really good getting it out the door.
+It's the first "Rails":http://rubyonrails.org application developed primarily by "Substance Lab":https://substancelab.com and I've been working with Christopher on it since the beginning so it feels really good getting it out the door.
 

@@ -10,4 +10,4 @@ categories:
 
 !/files/journal/vpsforce/vpsforce.jpg!
 
-I teamed up with Kasper from "activeart":http://activeart.dk and aided by "Laust Rud Jacobsen":http://www.linkedin.com/pub/laust-rud-jacobsen/1/7b2/919 and built them the simple almost-one-page-website you can see at "http://vpsforce.eu":http://vpsforce.eu.
+I teamed up with Kasper from "activeart":http://activeart.dk and aided by "Laust Rud Jacobsen":https://www.linkedin.com/pub/laust-rud-jacobsen/1/7b2/919 and built them the simple almost-one-page-website you can see at "http://vpsforce.eu":http://vpsforce.eu.

@@ -83,4 +83,4 @@ Just put the following in a .rake file in your lib/tasks directory and Rake shou
 end
 </code></pre>
 
-<ins>Update: This is now available on Github at <a href="http://github.com/koppen/i18n_missing_keys">http://github.com/koppen/i18n_missing_keys</a></ins>.
+<ins>Update: This is now available on Github at <a href="https://github.com/koppen/i18n_missing_keys">https://github.com/koppen/i18n_missing_keys</a></ins>.

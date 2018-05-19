@@ -16,7 +16,7 @@ I turned down being part of the exhibition, primarily because I couldn't figure 
 
 h2. What is a coder to do?
 
-Sure, I could've created printouts of pages from the many "sites I've built":http://substancelab.com/work, but that' s not really showing off my work. A screenshot is fine for showing the visuals of a website, but that's not what I (usually) do.
+Sure, I could've created printouts of pages from the many "sites I've built":https://substancelab.com/work, but that' s not really showing off my work. A screenshot is fine for showing the visuals of a website, but that's not what I (usually) do.
 
 I am a programmer, I write code. I would like to be able to exhibit the stuff I actually produce, not the final product that the code produces. The problem with code is that you have to be a programmer to appreciate it.
 

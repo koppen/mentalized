@@ -37,7 +37,7 @@ Unfortunately, many statistics packages still only provide the useless screen si
 
 h2. What does a lazy designer do?
 
-If you're stuck with a statistics package that doesn't provide you with the figures you need to make a decision, you'll have to settle for my advice - just like I did when designing the "Substance Lab":http://substancelab.com website (a rare case of me doing what I say, I admit).
+If you're stuck with a statistics package that doesn't provide you with the figures you need to make a decision, you'll have to settle for my advice - just like I did when designing the "Substance Lab":https://substancelab.com website (a rare case of me doing what I say, I admit).
 
 Back in 2006 I recommended that you "optimize your designs for a width of 770 pixels while making sure they scale [...] to 960 pixels". Now, more than 2 years later, that recommendation hasn't changed much, unfortunately.
 

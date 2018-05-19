@@ -6,7 +6,7 @@ mt_id: 2088
 categories:
 - business
 ---
-Running my own "web development shop":http://substancelab.com unfortunately means I have to do contract negotiation and dealing with other legal mumbo jumbo. It is not an aspect I particularly enjoy, especially not when the potential customer tries to restrain my business by sneaking a "non-compete clause":http://en.wikipedia.org/wiki/Non-compete_clause into the contract.
+Running my own "web development shop":https://substancelab.com unfortunately means I have to do contract negotiation and dealing with other legal mumbo jumbo. It is not an aspect I particularly enjoy, especially not when the potential customer tries to restrain my business by sneaking a "non-compete clause":http://en.wikipedia.org/wiki/Non-compete_clause into the contract.
 
 Agreeing to a non-compete limits your ability to do business in the future. If you do this enough, you will run out of customers to work for and that is - not surprisingly - bad for business. As a business owner, you need to fight this.
 

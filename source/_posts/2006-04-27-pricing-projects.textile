@@ -6,7 +6,7 @@ mt_id: 1596
 categories:
 - business
 ---
-In "Pricing a Project":http://www.blueflavor.com/ed/tips_tricks/pricing_a_project.php Brian Fling talks in great detail about how "Blue Flavor":http://www.blueflavor.com/ prices their projects (duh). It's a great article, and I find their process strikingly similar to what I do in "Substance Lab":http://substancelab.com.
+In "Pricing a Project":http://www.blueflavor.com/ed/tips_tricks/pricing_a_project.php Brian Fling talks in great detail about how "Blue Flavor":http://www.blueflavor.com/ prices their projects (duh). It's a great article, and I find their process strikingly similar to what I do in "Substance Lab":https://substancelab.com.
 
 At a recent project, the client approached me with a set amount of money and said they'd pay me all of them to implement a specific feature. I responded that I would much rather bill them per hour actually spent. They agreed, setting the proposed amount as a max ceiling in the contract. In the end the feature was implemented for around half of what they proposed, making for one pleased customer.
 

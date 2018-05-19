@@ -12,7 +12,7 @@ categories:
 
 On one of my projects the specs are now taking a full 10 minutes to run on my machine. Needless to say, it's mightily annoying seeing a spec failure in the output knowing you'll have to wait for 10 minutes before you get the details of what's failing and you can get to fixing it.
 
-Luckily my co-worker, "Laust Rud Jensen":http://www.linkedin.com/in/laustrud, had that same itch and decided to scratch it. Unfortunately he doesn't have a website to post about these things, so I am posting it for him:
+Luckily my co-worker, "Laust Rud Jensen":https://www.linkedin.com/in/laustrud, had that same itch and decided to scratch it. Unfortunately he doesn't have a website to post about these things, so I am posting it for him:
 
 <!--more-->
 

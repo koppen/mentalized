@@ -43,7 +43,7 @@ Is some code relying on a third party component that's acting up in some cases f
 
 h2. "So, have you heard the one about..."
 
-I am not a particularly funny guy (as I am sure "my Twitter followers":http://twitter.com/mentalizer/followers can confirm). However, while writing this blog post, I came to the realization that this idea of making code more fun isn't new.
+I am not a particularly funny guy (as I am sure "my Twitter followers":https://twitter.com/mentalizer/followers can confirm). However, while writing this blog post, I came to the realization that this idea of making code more fun isn't new.
 
 The first non-me developer we hired at "BiQ":http://biq.dk definitely enjoyed the comments and remarks I had been putting into the code base. Sure, they weren't thigh-smacking-rolling-on-the-floor-laughing-your-lungs-out-funny, but a chuckle every so often goes a long way.
 

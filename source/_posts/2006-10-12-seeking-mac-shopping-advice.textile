@@ -6,7 +6,7 @@ mt_id: 1717
 categories:
 - hardware
 ---
-I am pondering buying a "MacBook Pro":http://www.apple.com/macbookpro/. It will be for "the business":http://substancelab.com and as such used primarily for running a couple of databases, a webserver, "TextMate":http://macromates.com, a bunch of "Ruby":http://www.ruby-lang.org processes, and the occasional Photoshop (although that might end up being run under Windows).
+I am pondering buying a "MacBook Pro":http://www.apple.com/macbookpro/. It will be for "the business":https://substancelab.com and as such used primarily for running a couple of databases, a webserver, "TextMate":http://macromates.com, a bunch of "Ruby":http://www.ruby-lang.org processes, and the occasional Photoshop (although that might end up being run under Windows).
 
 I think I'd like to be able to run "Parallels":http://www.parallels.com/ so I figure 2GB is the amount of RAM I'd need? Is the recommended option still buying the machine with 512MB RAM and order 2GB non-Apple RAM elsewhere and install it yourself?
 

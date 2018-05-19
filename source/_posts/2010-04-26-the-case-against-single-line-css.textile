@@ -23,7 +23,7 @@ This single line approach makes it easy to scan through a stylesheet and find th
 
 h2. Indecipherable rules
 
-Finding a particular attribute in that list is hard, and it can get really hard to quickly grasp what a rule is doing. For example, this actual rule from "substancelab.com":http://substancelab.com is not all that easy scan, is it?
+Finding a particular attribute in that list is hard, and it can get really hard to quickly grasp what a rule is doing. For example, this actual rule from "substancelab.com":https://substancelab.com is not all that easy scan, is it?
 
 bc(css). .more { color: #ffffff; background-color: #326880; display: block; font-weight: bold; padding: 5px 10px; text-align: center; text-decoration: none; color: #326880; text-shadow: #163440 1px 1px 2px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 

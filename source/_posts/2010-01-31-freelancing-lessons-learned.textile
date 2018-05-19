@@ -6,11 +6,11 @@ mt_id: 2014
 categories:
 - business
 ---
-A long long time ago, "I quit my great job":https://mentalized.net/journal/2008/11/20/side-job-versus-dayjob/ at "BiQ":http://biq.dk to live primarily of my "freelance Ruby on Rails development work":http://substancelab.com.
+A long long time ago, "I quit my great job":https://mentalized.net/journal/2008/11/20/side-job-versus-dayjob/ at "BiQ":http://biq.dk to live primarily of my "freelance Ruby on Rails development work":https://substancelab.com.
 
 It's one of the best decisions I've ever made.
 
-Being directly responsible for my own income has been fun, empowering, fulfilling, and pretty damn scary. I've met lots of great people, worked with "great customers on great projects":http://substancelab.com/work, and I've learned a lot of lessons in the process. Allow me to share a few of those lessons with you.
+Being directly responsible for my own income has been fun, empowering, fulfilling, and pretty damn scary. I've met lots of great people, worked with "great customers on great projects":https://substancelab.com/work, and I've learned a lot of lessons in the process. Allow me to share a few of those lessons with you.
 
 
 h2. Your network is important

@@ -87,6 +87,6 @@ h2. 42 hours to go
 
 Due to the competition starting at 1AM our time we figured we'd be wiser to start the competition by sleeping, so by now we've only been at it for roughly 3 hours. Progress so far: Breakfast has been eaten, and a basic application skeleton has been deployed to our server, running a very, very, very basic version of our core functionality.
 
-We've used "Bort":http://github.com/fudgestudios/bort/ (as I am sure a ton of other teams has as well) as the base for the application, and I am sure we've have saved some time doing just that.
+We've used "Bort":https://github.com/fudgestudios/bort/ (as I am sure a ton of other teams has as well) as the base for the application, and I am sure we've have saved some time doing just that.
 
 Next time around I'll probably take a look at the base application _before_ actually basing an application on it, though. Not that there has been any issues, but we did waste some time figuring out some Bort details. Luckily, it's time to dig into the meat of the application now.

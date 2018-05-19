@@ -44,7 +44,7 @@ Looking at only stuff written in 2012, the list looks like:
 
 ## Referring sites
 
-Hey, it looks that social media stuff is finally taking off: That [Twitter thing](http://twitter.com) has made its way into the top 5 referring sites! Just barely.
+Hey, it looks that social media stuff is finally taking off: That [Twitter thing](https://twitter.com) has made its way into the top 5 referring sites! Just barely.
 
 [The Google](http://google.com) still reigns supreme as my number one traffic generator, which I suppose, fits perfectly fine with the long tail of old posts mentioned above. Google is way better at digging up old stuff when it's needed than any social stream service. The latter tends to excel at the here and now.
 

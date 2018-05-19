@@ -6,7 +6,7 @@ mt_id: 2073
 categories:
 - projects
 ---
-Some time ago I pressed the big red launch button on another project built by "Substance Lab":http://substancelab.com: "Eventzonen.dk":http://eventzonen.dk
+Some time ago I pressed the big red launch button on another project built by "Substance Lab":https://substancelab.com: "Eventzonen.dk":http://eventzonen.dk
 
 !/files/journal/eventzonen/eventzonen.jpg!
 

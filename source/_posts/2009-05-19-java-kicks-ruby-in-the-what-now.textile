@@ -47,7 +47,7 @@ This creates two controllers of 2 lines each - obviously trivial to do by hand. 
 
 h2. The not so secret ingredient
 
-It's time to install the secret ingredient, which is what Javier really wanted to be comparing "his project":http://openxava.org with. "Streamlined":http://github.com/relevance/streamlined/tree/master is a framework (seems everything is these days?) that "... allows you to quickly generate useful user interfaces, declaratively":
+It's time to install the secret ingredient, which is what Javier really wanted to be comparing "his project":http://openxava.org with. "Streamlined":https://github.com/relevance/streamlined/tree/master is a framework (seems everything is these days?) that "... allows you to quickly generate useful user interfaces, declaratively":
 
 bc(shell). $ ./script/plugin install git://github.com/relevance/streamlined.git
 

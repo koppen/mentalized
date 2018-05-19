@@ -17,4 +17,4 @@ However, in many cases people end up having their applications installed to thei
 
 What a great way to recognize and prevent a potential headache for your customers.
 
-+Update: Looks like this feature was "originally created":http://www.potionfactory.com/blog/2009/09/17/move-applications-folder by Andy Kim from Potion Factory and released in as "open source":http://github.com/potionfactory/LetsMove/ based on "an idea":http://daringfireball.net/2009/09/how_should_mac_apps_be_distributed by the omnipresent John Gruber.+
++Update: Looks like this feature was "originally created":http://www.potionfactory.com/blog/2009/09/17/move-applications-folder by Andy Kim from Potion Factory and released in as "open source":https://github.com/potionfactory/LetsMove/ based on "an idea":http://daringfireball.net/2009/09/how_should_mac_apps_be_distributed by the omnipresent John Gruber.+

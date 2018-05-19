@@ -7,7 +7,7 @@ categories:
 - projects
 - games
 ---
-Roughly one week ago I posted a "blog post":https://mentalized.net/journal/2010/03/15/introducing-progress-wars/ and a single, innocent "tweet":http://twitter.com/mentalizer/status/10515974760 announcing the launch of "Progress Wars":http://progresswars.com.
+Roughly one week ago I posted a "blog post":https://mentalized.net/journal/2010/03/15/introducing-progress-wars/ and a single, innocent "tweet":https://twitter.com/mentalizer/status/10515974760 announcing the launch of "Progress Wars":http://progresswars.com.
 
 The morning after I fired up Google Analytics to see if anyone had visited the site, expecting perhaps 100 visits or so and my jaw instantly hit the floor.
 
@@ -16,7 +16,7 @@ The morning after I fired up Google Analytics to see if anyone had visited the s
 
 h2. Overnight success
 
-Over the first day of the life of Progress Wars 27000 people had visited, 90% had clicked the "Perform mission" button at least once. In 24 hours the button had been clicked more than a million times, causing "@fbindie":http://twitter.com/fbindie to announce "We are all idiots":http://twitter.com/fbindie/status/10564315852. I wouldn't go that far, but I must say I was - and still am - absolutely stunned by the feedback my little joke got.
+Over the first day of the life of Progress Wars 27000 people had visited, 90% had clicked the "Perform mission" button at least once. In 24 hours the button had been clicked more than a million times, causing "@fbindie":https://twitter.com/fbindie to announce "We are all idiots":https://twitter.com/fbindie/status/10564315852. I wouldn't go that far, but I must say I was - and still am - absolutely stunned by the feedback my little joke got.
 
 Now, a week later, the visits have pretty much faded after 65000 people have visited, and performed missions over 3 million times. From my point of view, Progress Wars have been an astounding success.
 

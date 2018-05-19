@@ -38,13 +38,13 @@ h2. Rails, Github and plugins save the day
 
 Litmus has a nifty little feature (hidden under "Extras") that gives you a single email address you can send emails to and have them tested in the available email clients. Our task then became getting all emails from the application sent to the same email address.
 
-We dug around, and ended up using the "Sanitize Email plugin":http://github.com/pboling/sanitize_email/tree/master. That allowed us to configure our local machines to send all emails created in development environment directly to our Litmus account, while in test and production environments the application respectively doesn't send emails and sends emails to their actual recipients.
+We dug around, and ended up using the "Sanitize Email plugin":https://github.com/pboling/sanitize_email/tree/master. That allowed us to configure our local machines to send all emails created in development environment directly to our Litmus account, while in test and production environments the application respectively doesn't send emails and sends emails to their actual recipients.
 
 We can then either use the development app as a user would and see the emails in Litmus, or we can trigger individual emails directly from the console.
 
 h3. About the Sanitize Email plugin
 
-We did end up having to modify the plugin ever so slightly to have it work with our application, which is running Rails 2.2.3. Through the wonders of "Git":http://git-scm.com/ and "GitHub":http://github.com forking, you can get the modified version at "http://github.com/koppen/sanitize_email/tree/master":http://github.com/koppen/sanitize_email/tree/master.
+We did end up having to modify the plugin ever so slightly to have it work with our application, which is running Rails 2.2.3. Through the wonders of "Git":http://git-scm.com/ and "GitHub":https://github.com forking, you can get the modified version at "https://github.com/koppen/sanitize_email/tree/master":https://github.com/koppen/sanitize_email/tree/master.
 
 
 h2. Eternal bliss?

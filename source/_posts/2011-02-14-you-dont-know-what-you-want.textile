@@ -16,7 +16,7 @@ The opposite is also true - possibly in life, but definitely in software develop
 
 h2. From email to web
 
-We recently launched a new feature on one of "my client projects":http://substancelab.com/work. We used to send an email to an administrator whenever something happened in the application that might need action or attention.
+We recently launched a new feature on one of "my client projects":https://substancelab.com/work. We used to send an email to an administrator whenever something happened in the application that might need action or attention.
 
 This was turning into a _lot_ of emails, so we moved this into the administration interface instead, moving the inbox from her email client into the application in her browser.
 

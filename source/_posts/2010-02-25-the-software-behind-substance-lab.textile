@@ -7,7 +7,7 @@ categories:
 - business
 - software
 ---
-When I founded "Substance Lab":http://substancelab.com I knew I wanted to build a virtual business - or at least as much as it could be. Why should petty details like physical locations decide whether I can help my clients?
+When I founded "Substance Lab":https://substancelab.com I knew I wanted to build a virtual business - or at least as much as it could be. Why should petty details like physical locations decide whether I can help my clients?
 
 From the get go, I chose primarily web applications to run my business on. Also, it kind of makes sense because that's what I am building, and there is no better way to learn about good and bad web applications than using them yourself.
 
@@ -16,9 +16,9 @@ Let me give you a rundown of the most important ones.
 
 <!--more-->
 
-h2. Source code hosting: "Github":http://github.com
+h2. Source code hosting: "Github":https://github.com
 
-All source code must be version controlled, and I use git for pretty much everything. "Github":http://github.com is a great companion, and various open source projects as well as private and client projects are hosted there.
+All source code must be version controlled, and I use git for pretty much everything. "Github":https://github.com is a great companion, and various open source projects as well as private and client projects are hosted there.
 
 
 h2. Issue tracking/project management: "Redmine":http://redmine.org

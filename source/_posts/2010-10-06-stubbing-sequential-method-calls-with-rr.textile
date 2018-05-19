@@ -14,7 +14,7 @@ With Mocha this is neatly done using "Exception#then":http://mocha.rubyforge.org
 
 bc(ruby). object.stubs(:expected_method).returns(1, 2).then.returns(3)
 
-However, I am using "RR":http://github.com/btakita/rr and that doesn't provide any syntactic sugar for this. Thankfully, "Laust":http://personal-it.dk showed me a way that is almost as clean:
+However, I am using "RR":https://github.com/btakita/rr and that doesn't provide any syntactic sugar for this. Thankfully, "Laust":http://personal-it.dk showed me a way that is almost as clean:
 
 bc(ruby). values = [42, 37, 3.14]
 stub(object).counter do
