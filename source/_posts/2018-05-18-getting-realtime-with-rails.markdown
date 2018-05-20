@@ -1,6 +1,7 @@
 ---
 title: "Getting Real(time) with Rails"
-date: '2018-05-14 11:15:57 +0200'
+date: '2018-05-18 11:15:57 +0200'
+series: "Getting Real(time) with Rails"
 categories:
 - programming
 - technology
@@ -265,7 +266,7 @@ If all goes well, your web UI should update automagically whenever your broadcas
 
 ```ruby
 ActionCable.server.broadcast('gauges', 42)
-ActionCable.server.broadcast('gauges', 37)
+ActionCable.server.broadcast('gauges', rand(1..100))
 ActionCable.server.broadcast('gauges', "Hi!")
 ```
 
