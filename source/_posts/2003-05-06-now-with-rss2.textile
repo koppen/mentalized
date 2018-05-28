@@ -6,6 +6,6 @@ mt_id: 696
 categories:
 - blogging
 ---
-My <a href="https://mentalized.net/journal/archives/technology/i_wonder_what_all_the_rss_fuss_is_about/" title="I wonder what all the RSS fuss is about">recent endavours</a> into the world of RSS aggregators and feeds pointed out to me, that an RSS2.0 feed was AGoodThing. <a href="https://mentalized.net/journal/entries.xml" title="RSS2.0 feed with the last 10 journal entries">So be it</a>.
+My <a href="https://mentalized.net/journal/2003/05/05/i-wonder-what-all-the-rss-fuss-is-about/">recent endavours</a> into the world of RSS aggregators and feeds pointed out to me, that an RSS2.0 feed was AGoodThing. <a href="https://mentalized.net/journal/entries.xml" title="RSS2.0 feed with the last 10 journal entries">So be it</a>.
 
 My <a href="https://mentalized.net/journal/entries.xml" title="RSS0.91 feed with the last 10 journal entries">RSS0.91 feed</a> is still around and will be updated in case anyone needs it to be for some reason.
