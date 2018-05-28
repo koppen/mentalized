@@ -40,9 +40,6 @@ This new formatter will print full error details as soon as they are found. Succ
 
 </blockquote>
 
+h2. Deprecated
 
-h2. Download it
-
-For now, you can get the basic formatter "here":https://mentalized.net/files/rspec/rspec-immediate-feedback-formatter.rb - hopefully it'll sneak into RSpec proper or end up somewhere more accessible (and with tests and whatnot).
-
-Install it by putting it somewhere in your project (spec/ for example), and require it in your spec.opts as shown above.
+This is no longer available. I'm sure there are options out there for newer versions of RSpec.

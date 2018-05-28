@@ -13,8 +13,8 @@ Inspired by a post at <a href="http://a.wholelottanothing.org/archives.blah/0066
 
 Since I am not interested in what I was listening to yesterday and currently only want display the song playing at this very moment, using Movable Type to display a single line of text seems a bit overkill for me.
 
-<a href="/docs/projects/asptunetracker/" title="aspTuneTracker project page">aspTuneTracker</a> is invoked by calling an URL with data about the tune (I am using <a href="http://www.oddsock.org/tools/dosomething/" title="DoNothing plugin">the DoSomething Winamp plugin</a> for this). The data is stored in a file using simple CSV for the time being.
+aspTuneTracker is invoked by calling an URL with data about the tune (I am using <a href="http://www.oddsock.org/tools/dosomething/" title="DoNothing plugin">the DoSomething Winamp plugin</a> for this). The data is stored in a file using simple CSV for the time being.
 
 Displaying the tune data can be achieved by instantiating the class and calling the methods manually, or by simply including the DisplayTune-script which does the above for you automagically.
 
-Download and more information available at the <a href="https://mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.
+<del>Download and more information available at the <a href="https://mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.</del>
