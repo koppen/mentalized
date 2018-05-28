@@ -8,7 +8,7 @@ categories:
 - webdesign
 - technology
 ---
-!/files/journal/bornibyen/bornibyen-2010.jpg!
+!/files/journal/bornibyen/bornibyen_2010.jpg!
 
 I totally forgot to mention this when it actually went live a few weeks back. At "Børn i byen":http://bornibyen.dk we've been busy redesigning and changing things around, and the result is now live at "bornibyen.dk":http://bornibyen.dk
 

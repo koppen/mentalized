@@ -28,7 +28,7 @@ h2. Shut up and give us the numbers
 
 h3. Most popular screen widths
 
-!https://mentalized.net/files/journal/size-does-matter/screen-widths.gif!
+!https://mentalized.net/files/journal/size_does_matter/screen_widths.gif!
 
 h3. Most popular screen width / viewport width combinations
 
