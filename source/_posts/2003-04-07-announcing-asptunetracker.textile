@@ -17,4 +17,4 @@ aspTuneTracker is invoked by calling an URL with data about the tune (I am using
 
 Displaying the tune data can be achieved by instantiating the class and calling the methods manually, or by simply including the DisplayTune-script which does the above for you automagically.
 
-<del>Download and more information available at the <a href="https://mentalized.net/docs/projects/" title="aspTuneTracker project">aspTuneTracker project page</a> - and as always, use at your risk.</del>
+<del>Download and more information available at the aspTuneTracker project page - and as always, use at your risk.</del>

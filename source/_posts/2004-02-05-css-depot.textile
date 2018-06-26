@@ -13,7 +13,7 @@ The first steps I take when I start implementing a new layout are always the sam
 # Try to remember how I create that 3 column, semi-liquid layout with a footer and the columns extending the full height or whichever layout I need.
 # Try to work out why the version I've implemented this time around breaks in other browsers.
 
-To avoid taking that path again I collected templates for the layouts I usually use so I could just copy them the next time, and decided I might as well share them: Voila, "CSS Depot (CSS Depot)":https://mentalized.net/cssdepot/ was born.
+To avoid taking that path again I collected templates for the layouts I usually use so I could just copy them the next time, and decided I might as well share them: Voila, CSS Depot was born.
 
 The individual files are standalones with no external CSS influencing the layout model. Each div used for laying out the page is colored to make it easier to see what's going and all the layout specifc CSS rules are visible when viewing the page in your browser - no need to hunt through the HTML source or external files.
 
