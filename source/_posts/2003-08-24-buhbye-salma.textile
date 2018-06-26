@@ -10,7 +10,7 @@ Creating website designs is fun. So I did it again. Welcome to yet another look 
 
 Hm, let's see, what have I changed apart from the look - I probably should've kept a changelog ;)
 
-* First of all, the entire site now runs from Movable Type - "details here(Power your website with Movable Type)":https://mentalized.net/features/movable_type/power_your_website_with_movable_type/ .
+* First of all, the entire site now runs from Movable Type - "details here(Power your website with Movable Type)":/journal/2003/08/01/power-your-website-with-movable-type/.
 * Metatags on my various index pages should prevent search engines from returning the index pages as results, instead returning the actual archived entries.
 * Search for the entire site
 * Moved some pages to other locations, old URLs should still work

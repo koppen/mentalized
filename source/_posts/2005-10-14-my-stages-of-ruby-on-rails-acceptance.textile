@@ -12,7 +12,7 @@ I remember back when "David":http://loudthinking.com showed me Ruby for the firs
 
 I looked at him going "Yes, that's all very fine, but I can do websites in PHP or ASP too, what's the big deal?". Heh, kinda fun thinking about that. Obvious denial, eh?
 
-Next phase is supposed to be anger. I don't recall actually going through anything close to that. My anger phase came as part of my acceptance phase, while "trying to install Ruby and Rails on Debian":/journal/2004/12/01/putting_debian_on_ruby_rails/...
+Next phase is supposed to be anger. I don't recall actually going through anything close to that. My anger phase came as part of my acceptance phase, while "trying to install Ruby and Rails on Debian":/journal/2004/12/01/putting-debian-on-ruby-rails/...
 
 My acceptance phase came when I kept hearing David rave about Rails and seeing him and everybody else release one kickass application after the other. I figured I'd look into it. It was about time to learn a new language anyways, and it couldn't hurt.
 

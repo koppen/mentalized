@@ -44,7 +44,7 @@ multiple attributes.
 ## RTFM
 
 However, going back and reading the effing manual, this is actually the
-[documented behaviour of `update_attribute`](See http://api.rubyonrails.org/clas
+[documented behaviour of `update_attribute`](http://api.rubyonrails.org/clas
 ses/ActiveRecord/Persistence.html#method-i-update_attribute):
 
 > Updates a single attribute and saves the record.

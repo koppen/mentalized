@@ -6,6 +6,6 @@ mt_id: 759
 categories:
 - webdesign
 ---
-Looks like "Paul Scrivens(White Space)":http://www.9rules.com/whitespace has read "my plea(Oh-so-cool Web Design)":https://mentalized.net/journal/2003/09/09/ohsocool_web_design/ for a repository of Good Web Design. Ok, so he likely hasn't, nevertheless I dig his CSS Vault - a gallery of nicely looking, CSS based websites. Partly because he and I seem to share much the same taste.
+Looks like "Paul Scrivens(White Space)":http://www.9rules.com/whitespace has read "my plea(Oh-so-cool Web Design)":https://mentalized.net/journal/2003/09/09/oh-so-cool-web-design/ for a repository of Good Web Design. Ok, so he likely hasn't, nevertheless I dig his CSS Vault - a gallery of nicely looking, CSS based websites. Partly because he and I seem to share much the same taste.
 
 I wouldn't mind him kicking it up a notch though and only accept sites that are actually valid markup, or at least pretend to with a valid homepage. But I can't get everything I point at, and there are still some great looking sites on the list. I do suppose that is what is important for a design gallery.

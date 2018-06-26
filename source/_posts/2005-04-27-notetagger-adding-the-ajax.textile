@@ -8,7 +8,7 @@ categories:
 ---
 Finally I can get around to one of the reasons I started creating Notetagger: Playing with Ajax. In this installment I'll take you through adding simple Ajax functionality to an application.
 
-You might want to read the "previous installment":/journal/2005/04/15/notetagger_adding_tags/ before this one.
+You might want to read the "previous installment":/journal/2005/04/15/notetagger-adding-tags/ before this one.
 
 <!--more-->
 

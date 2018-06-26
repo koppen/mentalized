@@ -35,7 +35,7 @@ Looking at only stuff written in 2012, the list looks like:
 3. [Ruby SSL certificate verification woes](/journal/2012/01/02/ruby-ssl-certificate-verification-errors/)
 4. [Flash is not the 99%](/journal/2012/02/05/flash-is-not-the-99/)
 5. [All lights are green](/journal/2012/04/24/all-lights-are-green/)
-6. [Designers solve problems - what do developers do?](/journal/2012/07/25/designers-solve-problems---what-do-developers-do/)
+6. [Designers solve problems - what do developers do?](/journal/2012/07/25/designers-solve-problems-what-do-developers-do/)
 7. [How we took our tests from 30 to 3 minutes](/journal/2012/12/07/how-we-took-our-tests-from-30-to-3-minutes/)
 8. [48 hours of commits visualized](/journal/2012/10/16/48-hours-of-commits-visualized/)
 9. [Fact-checking the 40%](/journal/2012/02/13/fact-checking-the-40/)

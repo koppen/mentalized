@@ -12,7 +12,7 @@ Update: Ah well, it was a fun experiment, but I've decided to scrap it again, po
 
 Thanks to the wonders of "Sam Stephensons Prototype":http://prototype.conio.net/, "Movable Types":http://movabletype.org comment preview template and AJAX, I am now sporting live comment previews.
 
-"Go check it out":/journal/2005/06/14/ajaxified_live_comment_preview/#comments.
+"Go check it out":/journal/2005/06/14/ajaxified-live-comment-preview/#comments.
 
 There is an issue at the moment: It seems Movable Types comment preview doesn't adhere to the settings I have set for stripping HTML, so some HTML elements might show up in the preview, but be stripped in the final comment. Bad, I know.
 
