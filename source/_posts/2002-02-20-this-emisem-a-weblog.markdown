@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This <em>is</em> a weblog
+title: This is a weblog
 date: '2002-02-20 16:51:48 +0100'
 mt_id: 567
 categories:
