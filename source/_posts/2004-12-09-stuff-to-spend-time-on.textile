@@ -6,6 +6,6 @@ mt_id: 843
 categories:
 - games
 ---
-<a href="/journal/2004/12/09/stuff_to_spend_time_on/tt_big.jpg" title="See full size image"><img alt="My NFSU2 ride, dawg" src="/journal/2004/12/09/stuff_to_spend_time_on/tt.png" width="415" height="171" /></a>
+<a href="/files/journal/stuff_to_spend_time_on/tt_big.jpg" title="See full size image"><img alt="My NFSU2 ride, dawg" src="/files/journal/stuff_to_spend_time_on/tt.png" width="415" height="171" /></a>
 
 "Need(NFSU2 for Xbox)":http://www.amazon.com/exec/obidos/ASIN/B0002ILSH4/mentalized-20 "for(NFSU2 for Gamecube)":http://www.amazon.com/exec/obidos/ASIN/B00005Q8LG/mentalized-20 "Speed(NFSU2 for Windows)":http://www.amazon.com/exec/obidos/ASIN/B0002FGFHU/mentalized-20 "Underground 2(NFSU2 for PlayStation 2)":http://www.amazon.com/exec/obidos/ASIN/B0002IQCSY/mentalized-20 - definatly recommendable.

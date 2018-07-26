@@ -6,4 +6,4 @@ mt_id: 767
 categories:
 - technology
 ---
-<img src="/journal/2003/12/08/windows_xp_the_choice_of_a_patching_generation/hotfixes.png" alt="A few hotfixes for XP..." />
+<img src="/files/journal/windows_xp_the_choice_of_a_patching_generation/hotfixes.png" alt="A few hotfixes for XP..." />
