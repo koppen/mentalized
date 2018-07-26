@@ -43,7 +43,7 @@ Not the cleanest of results but pretty much as expected: We hit the unique const
 
 If this were to happen in a running Rails app, the end user would get a HTTP 500 error page, which is not the most user friendly of things.
 
-![Screenshot of server error in development mode](/files/journal/humane_database_errors/default_error.png)
+![Screenshot of server error in development mode](/files/journal/humane_database-errors/default-error.png)
 
 ## Validations
 
@@ -70,6 +70,6 @@ end
 
 Now, at least the user gets a clue as to what has happened, but perhaps not in the most user friendly fashion:
 
-![Screenshot of database error rendered as a validation error](/files/journal/humane_database_errors/database_error_as_validation_error.png)
+![Screenshot of database error rendered as a validation error](/files/journal/humane_database_errors/database_error_as-validation-error.png)
 
 You could naturally place any other message into the errors object if you so desire - for example one that makes more sense to normal people.

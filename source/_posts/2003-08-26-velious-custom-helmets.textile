@@ -18,15 +18,15 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
   <tr>
     <td>
       <h3>Barbarian</h3>
-      <img src="/files/journal/velious_custom_helmets/barbarian_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/barbarian_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/barbarian-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/barbarian-female.jpg" width="100" height="115" alt="Female" />
 
     </td>
     <td></td>
     <td>
       <h3>Dark elf</h3>
-      <img src="/files/journal/velious_custom_helmets/darkelf_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/darkelf_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/darkelf-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/darkelf-female.jpg" width="100" height="115" alt="Female" />
     </td>
   </tr>
 
@@ -34,15 +34,15 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
   <tr>
     <td>
       <h3>Dwarf</h3>
-      <img src="/files/journal/velious_custom_helmets/dwarf_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/dwarf_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/dwarf-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/dwarf-female.jpg" width="100" height="115" alt="Female" />
     </td>
     <td></td>
 
     <td>
       <h3>Erudite</h3>
-      <img src="/files/journal/velious_custom_helmets/erudite_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/erudite_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/erudite-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/erudite-female.jpg" width="100" height="115" alt="Female" />
     </td>
   </tr>
   <tr><td colspan="3">&nbsp;</td></tr>
@@ -50,15 +50,15 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
 
     <td>
       <h3>Gnome</h3>
-      <img src="/files/journal/velious_custom_helmets/gnome_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/gnome_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/gnome-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/gnome-female.jpg" width="100" height="115" alt="Female" />
     </td>
     <td></td>
     <td>
       <h3>Half elf</h3>
 
-      <img src="/files/journal/velious_custom_helmets/halfelf_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/halfelf_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/halfelf-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/halfelf-female.jpg" width="100" height="115" alt="Female" />
     </td>
   </tr>
   <tr><td colspan="3">&nbsp;</td></tr>
@@ -66,14 +66,14 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
     <td>
       <h3>Halfling</h3>
 
-      <img src="/files/journal/velious_custom_helmets/halfling_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/halfling_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/halfling-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/halfling-female.jpg" width="100" height="115" alt="Female" />
     </td>
     <td></td>
     <td>
       <h3>High elf</h3>
-      <img src="/files/journal/velious_custom_helmets/highelf_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/highelf_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/highelf-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/highelf-female.jpg" width="100" height="115" alt="Female" />
 
     </td>
   </tr>
@@ -81,15 +81,15 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
   <tr>
     <td>
       <h3>Human</h3>
-      <img src="/files/journal/velious_custom_helmets/human_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/human_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/human-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/human-female.jpg" width="100" height="115" alt="Female" />
 
     </td>
     <td></td>
     <td>
       <h3>Iksar</h3>
-      <img src="/files/journal/velious_custom_helmets/iksar_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/iksar_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/iksar-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/iksar-female.jpg" width="100" height="115" alt="Female" />
     </td>
   </tr>
 
@@ -97,15 +97,15 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
   <tr>
     <td>
       <h3>Ogre</h3>
-      <img src="/files/journal/velious_custom_helmets/ogre_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/ogre_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/ogre-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/ogre-female.jpg" width="100" height="115" alt="Female" />
     </td>
     <td></td>
 
     <td>
       <h3>Troll</h3>
-      <img src="/files/journal/velious_custom_helmets/troll_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/troll_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/troll-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/troll-female.jpg" width="100" height="115" alt="Female" />
     </td>
   </tr>
   <tr><td colspan="3">&nbsp;</td></tr>
@@ -113,8 +113,8 @@ I am not entirely certain how customized helmets look with Luclin-graphics enabl
 
     <td>
       <h3>Wood elf</h3>
-      <img src="/files/journal/velious_custom_helmets/woodelf_male.jpg" width="100" height="115" alt="Male" />
-      <img src="/files/journal/velious_custom_helmets/woodelf_female.jpg" width="100" height="115" alt="Female" />
+      <img src="/files/journal/velious_custom-helmets/woodelf-male.jpg" width="100" height="115" alt="Male" />
+      <img src="/files/journal/velious_custom-helmets/woodelf-female.jpg" width="100" height="115" alt="Female" />
     </td>
     <td></td>
     <td>

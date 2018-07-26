@@ -15,15 +15,15 @@ I recently came across "digg":http://digg.com and decided to see what it was all
 
 h2. Signing up
 
-!/files/journal/digg/digg_step1.gif 400w (At first glance the register screen is simple and straightforward)!
+!/files/journal/digg/digg-step1.gif 400w (At first glance the register screen is simple and straightforward)!
 
 At first glance the register screen is simple and straightforward. I entered my "desired screen name" as "Jakob S", since, well, that's pretty much my name. Having a "check" button readily available there is a very nice touch (and a perfect fit for some sweet AJAX loving, eh?) and a click on it assures me that my username is available.
 
-!/files/journal/digg/digg_step2.gif 400w (A click assures me that "Username "Jakob S" is available")!
+!/files/journal/digg/digg-step2.gif 400w (A click assures me that "Username "Jakob S" is available")!
 
 Cool stuff, I think to myself and continue creating my account. However the next page then apologetically tells me that my "username may not contain spaces" and gives me a link back to the previous page. No wonder is was available then.
 
-!/files/journal/digg/digg_step3.gif 400w (An apologetic message)!
+!/files/journal/digg/digg-step3.gif 400w (An apologetic message)!
 
 
 h2. Why is this bad?
@@ -37,7 +37,7 @@ There are a few reasons why this is bad behavior:
 
 All of the above are really minor issues (which happen to be all covered in chapter two of "Defensive Design for the Web":http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;camp=1789&amp;tag=mentalized-20&amp;creative=9325&amp;path=tg/detail/-/073571410X?v=glance) that can be resolved with a bit of copywriting and attention to detail. What happens when you succesfully beat the registration monster is just stupid:
 
-"!/files/journal/digg/digg_captchas_small.gif 400w (Welcome to CAPTCHA hell)!":/files/journal/digg/digg_captchas.gif
+"!/files/journal/digg/digg_captchas-small.gif 400w (Welcome to CAPTCHA hell)!":/files/journal/digg/digg-captchas.gif
 
 Count them. That's 4 (four!) CAPTCHAs (without any non-visual fallback). I can see a single captcha being an annoying but necessary evil, but having 4 makes no sense. If a bot cannot read the first CAPTCHA, the rest aren't needed. If a bot can read the first, it certainly can also read the next, making it superfluous.
 

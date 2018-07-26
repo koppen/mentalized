@@ -15,7 +15,7 @@ Here's the story of my first visit, in the form of a thinking-out-loud usability
 h2. First time around
 
 # Open "kameo.com":http://kameo.com/
-# Huh, "what is this":/files/journal/kameo/kameo_region_selector.jpg? A location selector? Hm, I'm in Europe, so I'll click that.
+# Huh, "what is this":/files/journal/kameo/kameo-region-selector.jpg? A location selector? Hm, I'm in Europe, so I'll click that.
 # Uh, "United Kingdom" or "Ireland"? None of those are really a good match for me. I wonder if I am not allowed to visit the site if I am from another country. No worries, I'll commit a bit of fraud and pretend I am from England.
 # Waiting for some kind of navigation to appear...
 # This music doesn't really mix well with Korn coming out of iTunes. I better kill the Kameo sounds. At least the button to do that is reasonably easy to find.

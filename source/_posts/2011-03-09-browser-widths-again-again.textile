@@ -26,7 +26,7 @@ h2. Time to make a new chart
 
 Seeing how it has been a few years since I last visited these numbers and that Liquid Fold has a huge collection of data points, I figured I'd generate a new chart with their numbers included:
 
-!/files/journal/browser_sizes_2011/visitors_without_horizontal_scrollbar.jpg!
+!/files/journal/browser_sizes_2011/visitors_without-horizontal-scrollbar.jpg!
 
 The chart definitely supports the trend we also saw back in 2008; browsers are getting wider, although the difference is far from as significant as it was in 2008. I wonder if the rise of smaller devices like phones and tables have anything to do with this?
 

@@ -18,6 +18,6 @@ h2. Holy time machine, blogman
 
 Back then, mentalized.net looked like this:
 
-!/files/journal/mentalized/mentalized_2002.jpg!
+!/files/journal/mentalized/mentalized-2002.jpg!
 
 So very, very blog-like :)

@@ -28,4 +28,4 @@ Code pushed five minutes before you head home is likely to be not as well though
 
 Remember, you are not Indy.
 
-<a href="http://epicrapbattlesofhistory.wikia.com/wiki/File:Indiana-jones-hat.jpeg" title="Image by http://epicrapbattlesofhistory.wikia.com/wiki/File:Indiana-jones-hat.jpeg. Licensed under CC-BY-SA"><img src="/files/journal/last_minute_commits/indy_hat.png" alt="Indiana Jones Fedora"></a>
+<a href="http://epicrapbattlesofhistory.wikia.com/wiki/File:Indiana-jones-hat.jpeg" title="Image by http://epicrapbattlesofhistory.wikia.com/wiki/File:Indiana-jones-hat.jpeg. Licensed under CC-BY-SA"><img src="/files/journal/last_minute-commits/indy-hat.png" alt="Indiana Jones Fedora"></a>

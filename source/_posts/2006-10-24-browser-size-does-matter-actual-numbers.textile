@@ -28,7 +28,7 @@ h2. Shut up and give us the numbers
 
 h3. Most popular screen widths
 
-!https://mentalized.net/files/journal/size_does_matter/screen_widths.gif!
+!https://mentalized.net/files/journal/size-does-matter/screen-widths.gif!
 
 h3. Most popular screen width / viewport width combinations
 
@@ -105,7 +105,7 @@ With the above definition, it turns out that an average of 66% of the visitors m
 
 h3. Maximized browsers per screen width
 
-!https://mentalized.net/files/journal/size_does_matter/maximized_browsers.gif!
+!https://mentalized.net/files/journal/size-does-matter/maximized-browsers.gif!
 
 While there is a clear trend that the higher the screen width the less likely you are to maximize your browser window, it is also obvious that the majority of visitors still maximize their browser. The cut off point seems to be when people go from a screen width of 1400 pixels to 1600 pixels.
 
@@ -118,7 +118,7 @@ Determining the width you should optimize your design for is - as everything els
 
 This figure illustrates roughly the percentage of visitors that will not get a horizontal scrollbar for different design widths:
 
-!https://mentalized.net/files/journal/size_does_matter/coverage.gif!
+!https://mentalized.net/files/journal/size-does-matter/coverage.gif!
 
 The design widths above are based on the most popular screen widths minus 30 pixels to allow for a scrollbar. I've also added "Cameron Molls suggestions":http://www.cameronmoll.com/archives/001220.html of 750 pixels for 800x600 resolutions and 960 pixels for 1024x768 resolutions.
 

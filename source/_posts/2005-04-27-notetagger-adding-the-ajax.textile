@@ -125,7 +125,7 @@ Using the callbacks and some extra divs also makes it easy to create status mess
 
 h2. Getting the code
 
-If you want to take a peek at what this and the previous installments have resulted in you can "download the app directory":/files/journal/notetagger/sources/notetagger_app_20050427.zip.
+If you want to take a peek at what this and the previous installments have resulted in you can "download the app directory":/files/journal/notetagger/sources/notetagger-app-20050427.zip.
 
 I guess it might be possible to create a Rails application, setup a database like "described earlier":https://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ and unzip the contents into the app directory to get Notetagger running locally.
 

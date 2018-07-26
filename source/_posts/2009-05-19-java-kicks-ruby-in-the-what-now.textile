@@ -107,7 +107,7 @@ class Recipe < ActiveRecord::Base
   belongs_to :category
 end
 
-!/files/journal/cookbook2/edit_recipe.png!
+!/files/journal/cookbook2/edit-recipe.png!
 
 Now refresh the page for creating a new recipe. Voila, there's a dropdown box for assigned categories to recipes. There is no need to write any HTML, restart the server, or recompile anything for that matter.
 

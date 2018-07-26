@@ -8,4 +8,4 @@ categories:
 ---
 Looks like my Windows XP has suddently started integrating my "Mozilla Thunderbird":http://getthunderbird.com into the Explorer...
 
-<img src="/files/journal/windows_thunderbird_explorer/windows_thunderbird_explorer.jpg" alt="Startbar oddity: Thunderbird is obviously an Explorer window" />
+<img src="/files/journal/windows_thunderbird_explorer/windows-thunderbird-explorer.jpg" alt="Startbar oddity: Thunderbird is obviously an Explorer window" />

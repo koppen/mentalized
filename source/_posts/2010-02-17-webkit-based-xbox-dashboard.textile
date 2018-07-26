@@ -23,13 +23,13 @@ The original inspiration for the actual look and feel is the "Braid theme":http:
 
 The original theme looks like:
 
-!/files/journal/xbox_dashboard/braid_theme.jpg!
+!/files/journal/xbox-dashboard/braid-theme.jpg!
 
 My recreated version looks like:
 
-<a href="/files/journal/xbox_dashboard/"><img src="/files/journal/xbox_dashboard/experiment.jpg" alt="Screenshot of the experiment"></a>
+<a href="/files/journal/xbox-dashboard/"><img src="/files/journal/xbox-dashboard/experiment.jpg" alt="Screenshot of the experiment"></a>
 
-"See the working demo here":https://mentalized.net/files/journal/xbox_dashboard/ _ remember, "Webkit":http://webkit.org_based browsers only, so use "Safari":http://apple.com/safari or "Chrome":http://google.com/chrome.
+"See the working demo here":https://mentalized.net/files/journal/xbox-dashboard/ - remember, "Webkit":http://webkit.org-based browsers only, so use "Safari":http://apple.com/safari or "Chrome":http://google.com/chrome.
 
 I have tried to be generous with the comments in the source, feel free to dig in and see how things are made. Hopefully this can serve as inspiration/education for someone as it did for me.
 
