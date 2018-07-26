@@ -19,7 +19,7 @@ When determining what width to give your design the primary goal must be that as
 
 The following chart shows the percentage of visitors that will not get a horizontal scrollbar for specific pixel widths. It also shows the figures from my 2006 study:
 
-!/files/journal/size_still_matters/visitors-without-scrollbars.jpg!
+!/files/journal/size_still_matters/visitors_without_scrollbars.jpg!
 
 It's interesting to note, that the available width has clearly increased since 2006. Back then, if you were to make your design 800 pixels wide, roughly 10% of your visitors would get a horizontal scrollbar. Today, that number is around 5%. It's getting easier to justify going above the 800 pixels mark.
 

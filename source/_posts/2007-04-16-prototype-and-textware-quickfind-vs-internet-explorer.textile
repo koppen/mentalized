@@ -39,7 +39,7 @@ h3. The disabling way
 
 Have people simply disable the malfunctioning add-on. It's a simple matter of going into Tools > Manage Add-ons, selecting the QUICKfind BHO Object and clicking "Disable". That's how "Audi.dk":http://audi.dk deals with it.
 
-!/files/journal/quickfind_bho/how_to-disable-quickfind.jpg 500x489!
+!/files/journal/quickfind_bho/how_to_disable_quickfind.jpg 500x489!
 
 
 h3. The upgrading way

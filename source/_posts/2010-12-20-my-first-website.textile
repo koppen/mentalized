@@ -16,11 +16,11 @@ I have done just that, with the difference that I've stumbled upon some ancient 
 
 h2. Party like it's 1996
 
-<img src="/files/journal/my_first-websites/bloodbowl-home.png" alt="Homepage of my first website" />
+<img src="/files/journal/my_first_websites/bloodbowl_home.png" alt="Homepage of my first website" />
 
 Centered text written white on black, no doctype, no character encoding, lots of tables, probably "optimized" for IE3. Hot stuff. I am surprised I found no animated gifs not blink tags there.
 
-<img src="/files/journal/my_first-websites/bloodbowl-content.png" alt="Sample content page of my first website" />
+<img src="/files/journal/my_first_websites/bloodbowl_content.png" alt="Sample content page of my first website" />
 
 Back then, I would build the pages on my Amiga, copy them to a floppy, ride my bicycle to the local library, borrow one of their computers and upload the pages via FTP. Things are a bit easier these days.
 

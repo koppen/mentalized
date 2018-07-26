@@ -10,7 +10,7 @@ categories:
 ---
 On a project we were recently given a nicely designed button that we should implement.
 
-![Button using CSS rendered in Webkit](/files/journal/arrow-button/webkit-css.png)
+![Button using CSS rendered in Webkit](/files/journal/arrow_button/webkit_css.png)
 
 No problem, I thought, that's doable using CSS3. Behold, it was (non-interesting styles like font color and size are removed for clarity):
 
@@ -47,7 +47,7 @@ No problem, I thought, that's doable using CSS3. Behold, it was (non-interesting
 
 There was much rejoicing until the big blue elephant in the room reared its ugly head and pooped all over my nice and clean markup. Thank you, IE, so much.
 
-![Button using CSS rendered in IE9](/files/journal/arrow-button/ie9-css.png)
+![Button using CSS rendered in IE9](/files/journal/arrow_button/ie9_css.png)
 
 <!--more-->
 
@@ -61,7 +61,7 @@ While IE9 does support most the CSS that's needed for this button style, it nota
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fec848', endColorstr='#f87d1a');
     }
 
-![Button with IE filter rendered in IE9](/files/journal/arrow_button/ie9_css-and-filter.png)
+![Button with IE filter rendered in IE9](/files/journal/arrow_button/ie9_css_and_filter.png)
 
 Unfortunately, the IE filter doesn't work with border radius, thus the gradient isn't rounded as it should be (note the square corners above). IE will not even clip the background gradient if we add `overflow: hidden`.
 
@@ -85,7 +85,7 @@ The solution is to create a wrapping element with `overflow: hidden` and `border
 
 This brings us really close to where we want to be. Unfortunately - although not unexpected - the arrow icon also gets clipped by the wrapping element.
 
-![Button with IE filter and clipping element rendered in IE9](/files/journal/arrow_button/ie9_css_filter_and-extra-markup.png)
+![Button with IE filter and clipping element rendered in IE9](/files/journal/arrow_button/ie9_css_filter_and_extra_markup.png)
 
 ## Moar markup!
 
@@ -101,7 +101,7 @@ And boom, Internet Explorer now finally knows how to play nicely.
 
 Unfortunately, Internet Explorer 8 doesn't play nice with the above. While it doesn't support border-radius at all, thus the corners aren't rounded, it has [a bug related to generated content and z-indexes](http://stackoverflow.com/questions/5540177/ie8-z-index-on-before-and-after-css-selectors), making our icon render beneath the button:
 
-![Button rendered in IE8](/files/journal/arrow_button/ie8_without-zindex-hack.png)
+![Button rendered in IE8](/files/journal/arrow_button/ie8_without_zindex_hack.png)
 
 To work around that, we can make our clipping element a relatively positioned element with a _negative_ z-index:
 
@@ -164,7 +164,7 @@ This makes our button render well in Internet Explorer 8 and 9, Chrome, Safari, 
 
 The above renders like this in Internet Explorer 9:
 
-![Button with IE filter, clipping element, all inside a link rendered in IE9](/files/journal/arrow_button/ie9_css_filters-and-spans.png)
+![Button with IE filter, clipping element, all inside a link rendered in IE9](/files/journal/arrow_button/ie9_css_filters_and_spans.png)
 
 ## Voila
 

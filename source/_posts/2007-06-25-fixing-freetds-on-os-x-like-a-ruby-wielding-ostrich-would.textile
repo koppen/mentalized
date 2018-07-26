@@ -7,7 +7,7 @@ categories:
 - programming
 - BiQ on Rails
 ---
-<a href="http://flickr.com/photos/jiri/34185693/" title="Photo licensed under Creative Commons by jiri"><img src="/files/journal/ostrich/ostrich-silhouettes.jpg" width="500" height="169" alt="Ostriches by Jiri" /></a>
+<a href="http://flickr.com/photos/jiri/34185693/" title="Photo licensed under Creative Commons by jiri"><img src="/files/journal/ostrich/ostrich_silhouettes.jpg" width="500" height="169" alt="Ostriches by Jiri" /></a>
 
 I am having massive problems connecting my MacBook Pro with the Microsoft SQL Server 2000 we have at work. I've connected to the same SQL Server (more or less) painlessly from Debian a couple of times before, so it bugs me that this is so frigging hard on OS X.
 

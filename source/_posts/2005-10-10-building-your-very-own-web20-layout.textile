@@ -14,7 +14,7 @@ h2. Starting out
 
 Simplicity, doing less, semantics and standards are all keywords being flung around the web-two-o-sphere.  We'll start out with a sample, simple XHTML template. Toss in a bit of semantic structure and so-called content. In your real design you'll obviously get the content from some webservice API. However this is just a template, so we cheat and type it by hand.
 
-"We're almost done!":/files/journal/so_you_wanna-look-web2.0/step1.html
+"We're almost done!":/files/journal/so_you_wanna_look_web2.0/step1.html
 
 
 h2. styling2.0
@@ -23,7 +23,7 @@ White for the background "is":http://del.icio.us/ "the":http://www.formassembly.
 
 For body text we'll go with "everybodys favorite, Arial":http://www.hicksdesign.co.uk/journal/branding-with-arial, set in gray. Headlines need to be huge with a slight kerning. We'll leave body text at the default size (relying on the users preferences - "or lack thereof":http://www.mezzoblue.com/archives/2003/11/26/font_size_no/).
 
-In XHTML/CSS-terms we have this: "Looks like a pro!":/files/journal/so_you_wanna-look-web2.0/step2.html
+In XHTML/CSS-terms we have this: "Looks like a pro!":/files/journal/so_you_wanna_look_web2.0/step2.html
 
 
 h2. Adding a bit more oomph
@@ -32,7 +32,7 @@ The navigation stuff must be horizontal. Enter "list-a-matic":http://css.maxdesi
 
 The links need a little love too. "I":https://mentalized.net "like":http://www.guildspace.net "green":https://substancelab.com, so we'll make them green. The hover style needs to highlight the full link, so we create an inverted style for that. Websafe colors all the way.
 
-"Now we're cooking!":/files/journal/so_you_wanna-look-web2.0/step3.html
+"Now we're cooking!":/files/journal/so_you_wanna_look_web2.0/step3.html
 
 
 h2. Finishing touches
@@ -45,12 +45,12 @@ The footer needs a link to the Creative Commons license, showing that we really 
 
 Oops, that license means I added a new graphical element there, contrary to me stating that I wouldn't only a paragraph earlier. Who cares, in web2.0 we make "decisions just in time":http://www.37signals.com/svn/archives2/sxsw_2005_presentation_how_to_make_big_things_happen_with_small_teams.php and aren't afraid to change existing practices.
 
-"We now have this template.":/files/journal/so_you_wanna-look-web2.0/step4.html
+"We now have this template.":/files/journal/so_you_wanna_look_web2.0/step4.html
 
 
 h2. Done yet?
 
 Nuh uh, we can't possible claim to be web2.0 without having a tag cloud, can we? So be it, and it'll gives a great excuse to link to a bunch of popular applications - namedropping2.0 - really showing that we're one of the cool kids.
 
-"Awesome, we've got it all now.":/files/journal/so_you_wanna-look-web2.0/step5.html: Tag clouds, gradient, big typefaces, standards, you name it. Could it look anymore web2.0? Feel free to snatch it, remix it, mash it up, digest it and spit it back out. It's yours2.0.
+"Awesome, we've got it all now.":/files/journal/so_you_wanna_look_web2.0/step5.html: Tag clouds, gradient, big typefaces, standards, you name it. Could it look anymore web2.0? Feel free to snatch it, remix it, mash it up, digest it and spit it back out. It's yours2.0.
 

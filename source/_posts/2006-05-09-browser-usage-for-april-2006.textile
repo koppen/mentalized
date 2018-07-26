@@ -11,10 +11,10 @@ h2. mentalized.net
 
 Things are looking great for Firefox - at least on this page:
 
-!https://mentalized.net/files/journal/statistics/browsers-april2006.gif(mentalized.net browser statistics for April 2006)!
+!https://mentalized.net/files/journal/statistics/browsers_april2006.gif(mentalized.net browser statistics for April 2006)!
 
 h2. BiQ.dk
 
-!https://mentalized.net/files/journal/statistics/biq-browsers-april2006.gif(biq.dk browser statistics for April 2006)!
+!https://mentalized.net/files/journal/statistics/biq_browsers_april2006.gif(biq.dk browser statistics for April 2006)!
 
 It looks a lot worse on a business-to-business website like "BiQ":http://www.biq.dk, unfortunately. Such a shame.

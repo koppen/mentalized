@@ -43,7 +43,7 @@ h2. Horizontal scrolling
 
 This one is just baffling. Horizontal scrolling, really? There are certainly "cases":http://www.designmeltdown.com/chapters/Horizontal/ where it can be used for great effect, but generally speaking it's a big usability no-no. At least, it used "to":http://freeusabilityadvice.com/archive/32/horizontal-scrolling "be":http://www.useit.com/alertbox/20050711.html - have things changed since 2006?
 
-!/files/journal/cooper/horizontal-scrolling.png!
+!/files/journal/cooper/horizontal_scrolling.png!
 
 The horizontal scrolling unfortunately makes it hard to scroll around each section using the 2-finger gesture of my Macbook Pros touchpad. Apparently I lack the motor skills needed to move my fingers up and down in a straight line, and I continually end up scrolling partially into the sections to the left and right of the one I want to look at.
 
@@ -66,11 +66,11 @@ h2. Differently sized screens
 
 Ah, screen sizes, a "pet peeve of mine":https://mentalized.net/journal/2009/02/19/size-still-matters/. The Cooper site seems optimized for a very small range of browser sizes.
 
-!/files/journal/cooper/800-pixels-wide.png!
+!/files/journal/cooper/800_pixels_wide.png!
 
 Looking at the site with a 800 pixels wide browser yields suboptimal and even harder to use results, and using a very wide browser yields a confusing display where you can see parts of the (clipped) content to the left and right.
 
-!/files/journal/cooper/1760-pixels-wide.png!
+!/files/journal/cooper/1760_pixels_wide.png!
 
 In a time where we have a multitude of different screen sizes, browsers and devices all accessing our websites and the ability to make our website designs "adapt to the users device/browser":http://www.alistapart.com/articles/responsive-web-design/, relying on the user to use a maximized browser on a 1024 pixels wide screen is, well, nuts.
 

@@ -8,6 +8,6 @@ categories:
 ---
 Just spotted this in the Movable Type interface:
 
-!/files/journal/comments-milestone/comments-milestone.gif!
+!/files/journal/comments_milestone/comments_milestone.gif!
 
 For the first time ever (I think) mentalized.net has more comments than entries. And all of those are legit comments. That's a long standing milestone reached for me. Thank you those of you who've contributed with comments and emails; You are definitely a big part of what makes writing here fun.

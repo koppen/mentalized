@@ -11,7 +11,7 @@ You develop great software. You use [Redmine](http://www.redmine.org) to manage 
 
 That can now be fixed, using my newly released theme, [Pepper](https://github.com/koppen/redmine-pepper-theme).
 
-![Issue page](/files/journal/pepper/pepper-issue.png)
+![Issue page](/files/journal/pepper/pepper_issue.png)
 
 
 
@@ -51,12 +51,12 @@ Here's hoping you like and use it, I'd love to hear your feedback.
 
 ## Screenshots
 
-![Redmine homepage](/files/journal/pepper/pepper-homepage.png)
-![Project overview](/files/journal/pepper/pepper-project-overview.png)
-![Issues list](/files/journal/pepper/pepper-issue-list.png)
-![Issue](/files/journal/pepper/pepper-issue.png)
-![New issue](/files/journal/pepper/pepper-new-issue.png)
-![Administration settings](/files/journal/pepper/pepper-settings.png)
+![Redmine homepage](/files/journal/pepper/pepper_homepage.png)
+![Project overview](/files/journal/pepper/pepper_project_overview.png)
+![Issues list](/files/journal/pepper/pepper_issue_list.png)
+![Issue](/files/journal/pepper/pepper_issue.png)
+![New issue](/files/journal/pepper/pepper_new_issue.png)
+![Administration settings](/files/journal/pepper/pepper_settings.png)
 
 
 

@@ -13,7 +13,7 @@ categories:
 ---
 After 6 months of "evangelizing and advocating":https://mentalized.net/journal/2006/05/14/one-day-with-scott-raymond/, followed by "6 more months of rewriting":https://mentalized.net/journal/2007/01/02/after-the-rewrite/, and then 3 more months of building new features and enhancing existing ones, we have finally launched "the new version of BiQ":http://www.biq.dk.
 
-<a href="http://www.biq.dk">!/files/journal/biq_on_rails/biq-homepage-2007.jpg!</a>
+<a href="http://www.biq.dk">!/files/journal/biq_on_rails/biq_homepage_2007.jpg!</a>
 
 Going from ASP/VBScript on Windows 2000 and IIS to Ruby and Rails on Debian served with love by Apache proxy balancing to a Mongrel backend, using memcached for relieving the database of those common queries, with continuous integration provided by Cruise Control and easy deployment through Capistrano sure as heck feels good.
 

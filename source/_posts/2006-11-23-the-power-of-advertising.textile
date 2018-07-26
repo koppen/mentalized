@@ -6,7 +6,7 @@ mt_id: 1744
 categories:
 - games
 ---
-!/files/journal/gears_of_war/gears-of-war.jpg!
+!/files/journal/gears_of_war/gears_of_war.jpg!
 
 Danish television is currently airing a "Gears of World ad":http://www.youtube.com/watch?v=ccWrbGEFgI8&mode=related&search= featuring war torn buildings, full automatic assault rifles, and galactic mega spider monsters, all to the sound of "Mad World".
 
