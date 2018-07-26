@@ -27,7 +27,7 @@ The original theme looks like:
 
 My recreated version looks like:
 
-<a href="https://mentalized.net/files/journal/xbox_dashboard/"><img src="/files/journal/xbox_dashboard/experiment.jpg" alt="Screenshot of the experiment"></a>
+<a href="/files/journal/xbox_dashboard/"><img src="/files/journal/xbox_dashboard/experiment.jpg" alt="Screenshot of the experiment"></a>
 
 "See the working demo here":https://mentalized.net/files/journal/xbox_dashboard/ _ remember, "Webkit":http://webkit.org_based browsers only, so use "Safari":http://apple.com/safari or "Chrome":http://google.com/chrome.
 

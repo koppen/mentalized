@@ -6,7 +6,7 @@ mt_id: 677
 categories:
 - technology
 ---
-An IPv4 address consists of 4 bytes and is generally represented as A.B.C.D - for example the IP address of mentalized.net is <a href="http://217.116.224.24" title="www.biq.dk">217.116.224.24</a> (note, you can't actually use this IP address to access <a href="https://mentalized.net/" title="mentalized.net">mentalized.net</a>). This address can also be expressed as the numerical value, <a href="http://3648315416" title="www.biq.dk">3648315416</a>.
+An IPv4 address consists of 4 bytes and is generally represented as A.B.C.D - for example the IP address of mentalized.net is <a href="http://217.116.224.24" title="www.biq.dk">217.116.224.24</a> (note, you can't actually use this IP address to access <a href="/" title="mentalized.net">mentalized.net</a>). This address can also be expressed as the numerical value, <a href="http://3648315416" title="www.biq.dk">3648315416</a>.
 
 The numerical value is easily calculated by considering an IP address as being a 4 byte value. In hex this gives us D9.74.E0.18 - dots added for clarity. Without the dots, the hex value represented here (<a href="http://0xD974E018" title="www.biq.dk">0xD974E018</a> - which can also be used as an IP address) equals <a href="http://3648315416" title="www.biq.dk">3648315416</a>. In short:
 

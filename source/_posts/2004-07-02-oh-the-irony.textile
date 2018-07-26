@@ -6,6 +6,6 @@ mt_id: 804
 categories:
 - blogging
 ---
-Heh, my post, <a title="Death of the referrer tracker | mentalized" href="https://mentalized.net/journal/2004/03/08/death-of-the-referrer-tracker/">"Death of the referrer tracker"</a>, has received a huge amount of referrer spam from some porn site.
+Heh, my post, <a title="Death of the referrer tracker | mentalized" href="/journal/2004/03/08/death-of-the-referrer-tracker/">"Death of the referrer tracker"</a>, has received a huge amount of referrer spam from some porn site.
 
 If that isn't ironic...

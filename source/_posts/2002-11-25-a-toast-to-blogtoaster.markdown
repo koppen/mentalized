@@ -6,4 +6,4 @@ mt_id: 630
 categories:
 - technology
 ---
-Some time ago I heard of a little tool called BlogToaster. <a href="http://www.pocketsoap.com/weblog/2002/06/15.html">BlogToaster</a> is a MSN-bot, that monitors <a href="http://www.weblogs.com">weblogs.com</a> and sends you a message when your favorite blogs are updated. It <a href="https://mentalized.net/journal/archives/blogtoaster/BlogToaster.gif">works like a charm</a> and makes it way easier to keep up to date on several blogs.
+Some time ago I heard of a little tool called BlogToaster. <a href="http://www.pocketsoap.com/weblog/2002/06/15.html">BlogToaster</a> is a MSN-bot, that monitors <a href="http://www.weblogs.com">weblogs.com</a> and sends you a message when your favorite blogs are updated. It <a href="/journal/archives/blogtoaster/BlogToaster.gif">works like a charm</a> and makes it way easier to keep up to date on several blogs.
