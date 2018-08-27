@@ -1,9 +1,0 @@
----
-layout: post
-title: 'American visuals #3'
-date: '2002-11-01 00:32:18 +0100'
-mt_id: 613
-categories:
-- life
----
-<img alt="Las Vegas - probably the most phony, outrageous, willing, overwhelming, and entertaining place I have yet to experience. And boy, do I want to go back" src="/journal/archives/usa/LasVegas.jpg" width="460" height="690" border="0" />
