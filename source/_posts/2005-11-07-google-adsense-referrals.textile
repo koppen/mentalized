@@ -17,7 +17,7 @@ google_ad_height = 60;
 google_ad_format = "468x60_as_rimg";
 google_cpa_choice = "CAAQq8WdzgEaCCQIMpsWzihvKNvD93M";
 //--></script>
-<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+<script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
  I thought Google understood and realized the value of textual advertising. I mean, that's what they're selling, isn't it? Shouldn't they be taking their own medicine?

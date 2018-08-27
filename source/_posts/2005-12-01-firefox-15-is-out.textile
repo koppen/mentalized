@@ -14,7 +14,7 @@ categories:
   google_ad_format = "120x240_as_rimg";
   google_cpa_choice = "CAAQjeWZzgEaCGUPemYRwK8bKPG193M";
   //--></script>
-  <script type="text/javascript"   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+  <script type="text/javascript"   src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
   </script>
 </div>
 
