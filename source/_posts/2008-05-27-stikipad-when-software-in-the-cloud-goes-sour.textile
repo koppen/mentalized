@@ -10,7 +10,7 @@ For a long time I have been using a wiki service called "Stikipad":http://stikip
 
 Unfortunately Stikipad has looked like this the last 2 weeks or so:
 
-<a href="http://www.flickr.com/photos/jakobs/2527867080/" title="Stikipad silence by JakobS, on Flickr"><img src="http://farm3.static.flickr.com/2006/2527867080_141acc2c26.jpg" width="500" height="420" alt="Stikipad silence" /></a>
+<a href="http://www.flickr.com/photos/jakobs/2527867080/" title="Stikipad silence by JakobS, on Flickr"><img src="https://farm3.static.flickr.com/2006/2527867080_141acc2c26.jpg" width="500" height="420" alt="Stikipad silence" /></a>
 
 This essentially means I cannot get at my data and have not been able to for weeks now. As if that isn't bad enough in itself, I don't know squat about what is happening, why a data center move is taking weeks to complete, or when I might see my data again.
 
