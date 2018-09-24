@@ -10,5 +10,5 @@ Thursday marked the first, casual gathering of what is hopefully going to become
 
 As promised, I've set up "a mailing list":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb so we can figure out where we go from here, and generally keep in touch etc. "Head over here to sign up":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb.
 
-"Jesper":http://justaddwater.dk has posted "images from the evening":http://flickr.com/photos/jesper/tags/copenhagenonrails/, "Olle":http://olle.ter.dk "live-blogged the event":http://olle.ter.dk/blog/?p=276, and "Kasper":http://weibelmedia.com/ has posted "his thoughts on the evening and the format":http://www.weibelmedia.dk/articles/2006/06/30/the-chp-rails-meetup.
+"Jesper":http://justaddwater.dk has posted "images from the evening":https://flickr.com/photos/jesper/tags/copenhagenonrails/, "Olle":http://olle.ter.dk "live-blogged the event":http://olle.ter.dk/blog/?p=276, and "Kasper":http://weibelmedia.com/ has posted "his thoughts on the evening and the format":http://www.weibelmedia.dk/articles/2006/06/30/the-chp-rails-meetup.
 

@@ -19,7 +19,7 @@ Paul Stanton suggests using "games consoles as an analogy for progressive enhanc
 
 h2. Television setups
 
-<a href="http://www.flickr.com/photos/schmilblick/" title="Image by schmilblick"><img src="/files/journal/explaining_progressive_enhancement/252772357_e5e0115d32.jpg" alt="This is IE6 displaying your website" /></a>
+<a href="https://www.flickr.com/photos/schmilblick/" title="Image by schmilblick"><img src="/files/journal/explaining_progressive_enhancement/252772357_e5e0115d32.jpg" alt="This is IE6 displaying your website" /></a>
 
 Instead, I've been toying with using TV as an analogy; If you watch a movie on a huge, wide screen, high definition, digital television hooked up to a state of the art sound system you're getting a vastly better experience than watching the exact same movie on a small black and white TV without loud speakers. The content is the same, but the device used to consume it delivers the content differently.
 

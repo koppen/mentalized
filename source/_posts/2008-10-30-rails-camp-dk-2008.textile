@@ -8,9 +8,9 @@ categories:
 - projects
 - programming
 ---
-Take 12 attendees (one from Italy, way to go, Fransesco!), 11 Apple laptops (and one Windows one, I believe), 1 wifi hotspot, mix it all together in "a cottage":http://flickr.com/photos/wa7son/2981895522/ in "the middle of nowhere":http://maps.google.com/maps?f=q&hl=en&geocode=&q=langegyde+75,+denmark&sll=55.056251,10.453148&sspn=0.061353,0.129089&ie=UTF8&t=h&ll=55.045618,10.462825&spn=0.007302,0.016952&z=16&iwloc=addr, sprinkle it with a tad of "Ruby":http://ruby-lang.org, "Git":http://git.or.cz/, and "*jour":http://drnicwilliams.com/2008/06/18/what-is-gitjour-gemjour-starjour/ and let is stew for 2 days and 2 nights.
+Take 12 attendees (one from Italy, way to go, Fransesco!), 11 Apple laptops (and one Windows one, I believe), 1 wifi hotspot, mix it all together in "a cottage":https://flickr.com/photos/wa7son/2981895522/ in "the middle of nowhere":http://maps.google.com/maps?f=q&hl=en&geocode=&q=langegyde+75,+denmark&sll=55.056251,10.453148&sspn=0.061353,0.129089&ie=UTF8&t=h&ll=55.045618,10.462825&spn=0.007302,0.016952&z=16&iwloc=addr, sprinkle it with a tad of "Ruby":http://ruby-lang.org, "Git":http://git.or.cz/, and "*jour":http://drnicwilliams.com/2008/06/18/what-is-gitjour-gemjour-starjour/ and let is stew for 2 days and 2 nights.
 
-What you get is a "Rails Camp":http://railscamp08.org/#dk_october_2008, and the above recipe was cooked with great success last weekend. Thomas Watson has "a bunch of pictures from the event":http://flickr.com/photos/wa7son/sets/72157608360965512/.
+What you get is a "Rails Camp":http://railscamp08.org/#dk_october_2008, and the above recipe was cooked with great success last weekend. Thomas Watson has "a bunch of pictures from the event":https://flickr.com/photos/wa7son/sets/72157608360965512/.
 
 <!--more-->
 

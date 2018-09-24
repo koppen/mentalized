@@ -9,7 +9,7 @@ categories:
 ---
 * I've received my first "Google AdSense":http://www.google.com/adsense payment. Woo, I'm a filthy rich pro-blogger!
 
-* "Flickr":http://flickr.com is no longer beta! It's "gamma":http://www.flickr.com/images/flickr_logo_gamma.gif.v1.2!
+* "Flickr":https://flickr.com is no longer beta! It's "gamma":https://www.flickr.com/images/flickr_logo_gamma.gif.v1.2!
 
 * "AjaxLoad":http://www.ajaxload.info is doing cool things with "my" "AJAX activity indicator collection":https://mentalized.net/activity-indicators.
 

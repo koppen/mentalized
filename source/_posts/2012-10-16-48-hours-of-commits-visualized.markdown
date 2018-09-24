@@ -6,7 +6,7 @@ categories:
 - projects
 - programming
 ---
-<div class="video embed"><iframe src="http://www.youtube-nocookie.com/embed/DpeRnaiHGE0" frameborder="0" allowfullscreen></iframe></div>
+<div class="video embed"><iframe src="https://www.youtube-nocookie.com/embed/DpeRnaiHGE0" frameborder="0" allowfullscreen></iframe></div>
 
 <!--more-->
 

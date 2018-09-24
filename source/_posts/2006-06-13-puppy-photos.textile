@@ -6,4 +6,4 @@ mt_id: 1626
 categories:
 - life
 ---
-Psst, "puppy photos are over on my Flickr account":http://flickr.com/photos/jakobs/sets/72057594134497923/.
+Psst, "puppy photos are over on my Flickr account":https://flickr.com/photos/jakobs/sets/72057594134497923/.

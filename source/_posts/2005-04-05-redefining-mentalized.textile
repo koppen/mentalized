@@ -28,7 +28,7 @@ I don't think I've ever had a design on mentalized that didn't feature some sort
 
 h3. ...Integrate with external sites
 
-Tagging, taxonomies, "del.icio.us":http://del.icio.us, "Technorati":http://technorati.com, "Flickr":http://flickr.com are the hip buzzword du jour, so obviously I wanted to see if I could do something to improve mentalized's integration with these sites.
+Tagging, taxonomies, "del.icio.us":http://del.icio.us, "Technorati":http://technorati.com, "Flickr":https://flickr.com are the hip buzzword du jour, so obviously I wanted to see if I could do something to improve mentalized's integration with these sites.
 
 So far, I am still thinking about how to go about it, but it is my hope that the new layout allows me to better do this.
 

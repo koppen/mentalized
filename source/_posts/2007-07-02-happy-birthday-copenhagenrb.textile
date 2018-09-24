@@ -8,7 +8,7 @@ categories:
 ---
 I'm a bit late on this, but nevertheless: Last Friday marked the one year anniversary of "the first gathering of Ruby and Rails geeks in Copenhagen":https://mentalized.net/journal/2006/07/03/copenhagen-rubyrails-brigade/, that which should later be formalized as the "Copenhagen Ruby Brigade":http://copenhagenrb.dk.
 
-That initial meeting has been well documented online, both in "words":http://ollehost.dk/blog/?p=276 and in "pictures":http://flickr.com/photos/jesper/tags/copenhagenonrails/.
+That initial meeting has been well documented online, both in "words":http://ollehost.dk/blog/?p=276 and in "pictures":https://flickr.com/photos/jesper/tags/copenhagenonrails/.
 
 
 h2. A year, really?
@@ -18,7 +18,7 @@ So what has happened since then, I can hear the masses of inquisitive readers as
 * We have hosted around 10 official meetings - initially in offices around Copenhagen, but lately we have settled in at our gracious hosts, "PROSA":http://prosa.dk. The topics covered have been many and varied, from technologies like Puppet over building Gems to question likewhat CMS's to choose for your Rails applications. And every meeting continues to feature new people.
 * We have held informal meetings in bars, hosted a free-for-all hackday, and a 14 hour night of contributing patches to Rails.
 * We have been visited by prominent Rubyists like "Obie Fernandez":http://obiefernandez.com/, "David Black":http://dablog.rubypal.com/, and "David Heinemeier Hansson":http://loudthinking.com.
-* The "pool of Copenhagen.rb images":http://flickr.com/photos/tags/copenhagenrb/ on "Flickr":http://flickr.com has grown a fair deal.
+* The "pool of Copenhagen.rb images":https://flickr.com/photos/tags/copenhagenrb/ on "Flickr":https://flickr.com has grown a fair deal.
 * The "mailing list":http://lists.substancelab.com/mailman/listinfo/copenhagen.rb - which is our primary mean of communication - is up to 89 subscribed members.
 
 h2. Ruby adoption in Copenhagen

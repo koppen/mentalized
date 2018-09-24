@@ -6,7 +6,7 @@ mt_id: 1684
 categories:
 - Copenhagen.rb
 ---
-Last Wednesday the Copenhagen Ruby Brigade crowd got together for our first "real" meeting. Approximately 22 people showed up, proving that it wasn't only the "sponsor beer":http://flickr.com/photos/jakobs/185424170/ that lured people last time.
+Last Wednesday the Copenhagen Ruby Brigade crowd got together for our first "real" meeting. Approximately 22 people showed up, proving that it wasn't only the "sponsor beer":https://flickr.com/photos/jakobs/185424170/ that lured people last time.
 
 h2. Stuff that happened
 
