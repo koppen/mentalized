@@ -34,8 +34,6 @@ The year was kickstarted when my satirical "Building your very own web2.0 layout
 
 The runner ups in the category "top content of 2006" are my "free AJAX progress indicator images":https://mentalized.net/activity-indicators/ with 107K pageviews. These are still going strong and getting a fair amount of hits every day.
 
-Third place goes to "this entry":https://mentalized.net/journal/2004/06/30/salma-hayek-summer-edition/ - wonder why...
-
 Honorable mentions go to some of my Rails related tutorials: "No such file to load -- mkmf":https://mentalized.net/journal/2006/01/24/no-such-file-to-load-mkmf/ and "Putting Debian on Ruby rails":https://mentalized.net/journal/2004/12/01/putting-debian-on-ruby-rails/.
 
 It looks like the advice I can take away from 2006 is that writing jokes, giving stuff away for free, and posting images of scantily clad women are great ways to increase your pageview statistics...
