@@ -19,7 +19,7 @@ Still, I am quite happy having more than 125000 people visit my humble website a
 
 h2. What people came for
 
-My collection of "totally free, animated GIFs for showing Ajax activity":https://mentalized.net/activity-indicators continues to reign supreme as the most popular content on mentalized.net. It is followed by my "satirical web 2.0 webdesign tutorial":https://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/.
+My collection of "totally free, animated GIFs for showing Ajax activity":https://mentalized.net/activity-indicators/ continues to reign supreme as the most popular content on mentalized.net. It is followed by my "satirical web 2.0 webdesign tutorial":https://mentalized.net/journal/2005/10/10/building-your-very-own-web20-layout/.
 
 Both of those were published back in 2005 over 4 years ago, yet they still continue to draw readers to the website. The only article on the content top 10 that's actually published in 2009 is "my response to a Java developer spreading some FUD":https://mentalized.net/journal/2009/05/19/java-kicks-ruby-in-the-what-now/ (which unfortunately detoriated into more FUD and mud-slinging).
 

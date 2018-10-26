@@ -13,6 +13,6 @@ An important design element that's part of the whole AJAX business is somehow le
 
 "37signals":http://37signals.com favor "this one":http://assets.backpackit.com/images/indicator.gif, which is taken more or less directly from Mac OS X, I reckon - at least stylistically. I am not sure of the copyrights on that piece of graphic, so I am reluctant to use it in my own apps. Also, occasionally you want something a bit different.
 
-Which is why I've made and collected a few free (both as in beer and speech) animated GIFs and "put them up here":https://mentalized.net/activity-indicators. Download and use them in whatever project you want.
+Which is why I've made and collected a few free (both as in beer and speech) animated GIFs and "put them up here":https://mentalized.net/activity-indicators/. Download and use them in whatever project you want.
 
 If you have an activity indicator of your own and you want to share it with the world, email it to me, and I'll get it up there.
