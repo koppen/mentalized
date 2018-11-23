@@ -16,7 +16,7 @@ He sent me a simple mail, subject was "Test", the content was "Hey Jakob" and hi
 
 <h2>So-called HTML</h2>
 
-While looking through the HTML markup, I noticed a striking resemblance to the tag soup that Word usually serves. Somehow it didn't surprise me that the <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.mentalized.net%2Fjournal%2Farchives%2Foutlookxp%2FOutlookXPMessage.html&amp;charset=%28detect+automatically%29&amp;doctype=HTML+4.01+Transitional">HTML version does not validate</a> (in all fairness, I might have chosen the wrong HTML version as I had to guess it). No biggie, we all use Internet Explorer for checking our mail, right? (actually, does anyone know of a survey on mail client usage? - could be interesting to see)
+While looking through the HTML markup, I noticed a striking resemblance to the tag soup that Word usually serves. Somehow it didn't surprise me that the <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fmentalized.net%2Fjournal%2Farchives%2Foutlookxp%2FOutlookXPMessage.html&amp;charset=%28detect+automatically%29&amp;doctype=HTML+4.01+Transitional">HTML version does not validate</a> (in all fairness, I might have chosen the wrong HTML version as I had to guess it). No biggie, we all use Internet Explorer for checking our mail, right? (actually, does anyone know of a survey on mail client usage? - could be interesting to see)
 
 <h2>Enter SpamAssassin</h2>
 
