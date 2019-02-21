@@ -100,7 +100,7 @@ And behold, if you go to [http://0.0.0.0:3000/#/books](http://0.0.0.0:3000/#/boo
 
 Success, we're done. Amazon, buy us, please! No? What's that? We need to be able to save books as well?
 
-Oh, alright then, we'll take a look at that in [the next installment](/journal/2014/06/10/ember-on-rails-03).
+Oh, alright then, we'll take a look at that in [the next installment](/journal/2014/06/10/ember-on-rails-03/).
 
 
 {% include ember_on_rails.html %}

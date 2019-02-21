@@ -21,7 +21,7 @@ layout: default
     Over the years, I have written about
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
-      <a href="/journal/{{category | first | slugify}}">{{category | first}}</a>,
+      <a href="/journal/{{category | first | slugify}}/">{{category | first}}</a>,
     {% endfor %}
     and a few other tidbits.
   </p>
