@@ -56,6 +56,16 @@ layout: default
   </section>
 </section>
 
+<section class="topics">
+  <h1>Explore the archives</h1>
+  <p>
+    I have written about
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}{% if forloop.index > 1 %}{% if forloop.last == true %} and{% else %},{% endif %}{% endif %}
+      <a href="/journal/{{category[0] | slugify}}/" title="View {{category[1].size}} entries about {{category[0]}}">{{category[0]}}</a>{% endfor %}.
+  </p>
+</section>
+
 <section class="social-links">
   <ul class="social-links-list">
     <li class="social-links-list-item twitter"><a rel="me" href="https://twitter.com/mentalizer" title="Jakob on Twitter">Twitter</a></li>
