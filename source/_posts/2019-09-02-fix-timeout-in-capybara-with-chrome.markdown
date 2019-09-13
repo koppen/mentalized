@@ -37,6 +37,8 @@ Capybara::Selenium::Driver.new(
 )
 ```
 
+Curiously, this fix didn't actually work on our CI service, where we were running ChromeDriver v2.35 😱. We had to upgrade to a newer version there.
+
 ## Thanks!
 
 Thanks a lot to all the [people discussing](https://github.com/teamcapybara/capybara/issues/2181) [this issue](https://bugs.chromium.org/p/chromedriver/issues/detail?id=2897#c4), and especially to [ar31an](https://github.com/ar31an) who posted the actual fix.
