@@ -6,7 +6,7 @@ mt_id: 587
 categories:
 - technology
 ---
-We all know them, and we hate them all: E-mails in your inbox advertising everything from "Get rich in 5 minutes"-schemes to penis-enlargements and "free" busty blondes. Now I wouldn't mind any of those things, but I do mind the advertisments for them polluting my inbox.
+We all know them, and we hate them all: E-mails in your inbox advertising everything from "Get rich in 5 minutes"-schemes to penis-enlargements and "free" busty blondes.
 
 Unfortunatly I am a gullible fool and have a tendency to post my e-mail address all over the internet and sign up for all kinds of services. "Oooh, become a user - click-clickety-click-submit". Heck, I like people being able to get in touch with me, even people I do not know, but I do not want to have to scuffle through myriads of spammails to find the one interesting mail that day.
 
