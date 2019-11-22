@@ -91,7 +91,7 @@ I personally prefer sending emails through to Mailcatcher at least a couple of t
 
 ## Inline all the things!
 
-A classic HTML email painpoint is CSS. Email clients don't work with linked stylesheets and many strip out `<style></style>` blocks, so you're left leaving `style` attributes all over the place. This quickly gets unwieldly and unmanageable.
+A classic HTML email painpoint is CSS. [Email clients](https://www.emailsherpa.net/knows/email-client/) don't work with linked stylesheets and many strip out `<style></style>` blocks, so you're left leaving `style` attributes all over the place. This quickly gets unwieldly and unmanageable.
 
 Luckily, [Premailer](https://github.com/premailer/premailer) exists. It (among other things) takes your CSS rules and inlines them, allowing you to keep your styles in a central place while still having them appear inline on the proper elements in the final email.
 

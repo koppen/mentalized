@@ -6,7 +6,7 @@ mt_id: 639
 categories:
 - technology
 ---
-SpamAssassin caught yet another spam-mail for me today. I am pretty sure I have never seen spam score this high (22.80 points):
+SpamAssassin caught yet another [spam-mail](https://www.emailsherpa.net/knows/spam/) for me today. I am pretty sure I have never seen spam score this high (22.80 points):
 
 <blockquote cite="http://www.spamassassin.org">
 <p>

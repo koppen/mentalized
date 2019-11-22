@@ -14,7 +14,7 @@ Every so often, a client wants their web application to send out emails that cou
 
 h2. Thar be monsters in them woods
 
-It quickly turns out that pretty much every email client renders HTML differently than the next. It's sort of like cross-browser issues, but without the comfort of CSS hacks, conditional comments, UserAgent checking, and IE-specific stylesheets.
+It quickly turns out that pretty much every "email client":https://www.emailsherpa.net/knows/email-client/ renders HTML differently than the next. It's sort of like cross-browser issues, but without the comfort of CSS hacks, conditional comments, UserAgent checking, and IE-specific stylesheets.
 
 Instead, you find yourself facing more email clients than there are browsers, many used by enterprises that don't mind running several year old versions of programs. Realistically speaking, it's only feasible to have access to a fraction of those email clients.
 

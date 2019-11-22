@@ -31,7 +31,7 @@ SPAM: LINK_TO_NO_SCHEME  (3.7 points)  BODY: Contains link without http:// prefi
 </p>
 </blockquote>
 
-That's enough to pass my SpamAssassin treshold, marking the message as spam and rendering it more or less unreadable as my mailclient now cannot render the 5K HTML. Admittedly this is basically a selfinflicted problem, as I have opted to try to remove the masses of spam I receive.
+That's enough to pass my SpamAssassin treshold, marking the message as [spam](https://www.emailsherpa.net/knows/spam/) and rendering it more or less unreadable as my mailclient now cannot render the 5K HTML. Admittedly this is basically a selfinflicted problem, as I have opted to try to remove the masses of spam I receive.
 
 <h2>Non RFC compliancy</h2>
 

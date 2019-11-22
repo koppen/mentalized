@@ -6,10 +6,10 @@ mt_id: 761
 categories:
 - technology
 ---
-Fine, so you have an email server or client that can autoreply to people sending you mail, notifying them if you are on extended vacation, "on course" (actual autoreply), taking a dump or whatever, great for you.
+Fine, so you have an "email server":https://www.emailsherpa.net/knows/email-server/ or "client":https://www.emailsherpa.net/knows/email-client/ that can autoreply to people sending you mail, notifying them if you are on extended vacation, "on course" (actual autoreply), taking a dump or whatever, great for you.
 
 But please, for the love of my time and everything else I consider sacred, do not start sending autoreplies stating "I will reply to your email"! Think, please. You don't have your answering machine saying "I am here, I will answer the phone" do you?
 
-Imagine for a second what would happen if I started doing the same thing in reply to that autoreply? I am sure our mail servers would love having that little chat and I would love seeing my inbox fill up with mindless drivel - I get enough of that from spam already, thank you.
+Imagine for a second what would happen if I started doing the same thing in reply to that autoreply? I am sure our mail servers would love having that little chat and I would love seeing my inbox fill up with mindless drivel - I get enough of that from "spam":https://www.emailsherpa.net/knows/spam/ already, thank you.
 
 If you want to reply to my email, how about actually, you know, reply to it?
