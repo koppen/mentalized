@@ -1,0 +1,82 @@
+---
+title: "Failures"
+categories:
+- business
+- projects
+---
+
+I've built stuff online pretty much since I figured out that I could. Join me on a tour through my the projects I have built where I planned on building a thriving side business - and failed.
+
+<!--more-->
+
+## FUNsummer
+
+The first ever internet-based venture I started working on was back when the internet was quite new and no one really knew all that much about it. It was a marketplace for people renting out their cottages for vacations, so I guess, kind of like [Airbnb](https://www.airbnb.com) ;)
+
+<img src="/files/journal/failures/funsummer.png" alt="FUNsummer map selector" />
+
+This was in 1996 probably and I had no clue what I was doing. I just knew that the world wide web was awesome, [Yahoo!](https://www.yahoo.com/) was the shit, and that my parents had a cottage they wanted to rent out. We didn't even have an internet connection at home, so I rode my bicycle to the local library with a floppy disk in my backpack to upload changes to the site.
+
+I had no marketing plan, and the only customer I knew of was family. Probably not the best approach. But I did have price tag on it, and the payment was a yearly subscription. Man, I was so ahead of my time...
+
+### What did I learn?
+
+- I can actually build things and put them online.
+- Building things and putting them online isn't enough...
+
+## DiabloII.dk
+
+This was pretty much a passion-project, as I remember it. I was an avid gamer and [Diablo II](https://www.blizzard.com/en-us/games/d2/) was coming out. So I started a danish fan-site for it. I don't recall what my goals were, probably just that I wanted to see if I could build something that grew popular. It never really did, but I did get some traffic because I had the sweet domain.
+
+<img src="/files/journal/failures/diabloii.jpg" alt="DiabloII.dk" />
+
+In the end, the site ended up being rolled into a larger gaming site, [Daily Rush](https://www.dailyrush.dk), run by a certain [David Heinemeier Hansson](https://dhh.dk/), who'd later end up building [Rails](https://rubyonrails.org), running [Basecamp](https://basecamp.com), and racing race cars. I ended up working for Daily Rush more or less directly because of my building [DiabloII.dk](http://diabloii.dk) - but as a standalone business it never took off.
+
+### What did I learn?
+
+- I can build stuff that people actually like and use.
+- Having some kind of plan or idea for how to make money in the long run is a good idea.
+
+## Guildspace
+
+This was my first, real attempt at a SaaS business. Still in the online gaming space, this time I was looking at setting up a website for a [World of Warcraft](https://worldofwarcraft.com/en-us/) guild. I had been running the website for my [Everquest](https://www.everquest.com) guild for years, and I knew how much of a pain this was, so I figured if I am about to build a website for my own guild anyways, why not make it generic so other guilds can use the platform?
+
+<img src="/files/journal/failures/guildspace.jpg" alt="Guildspace" />
+
+At its prime, I had 3 or 4 guilds using it; all family and friends, but I did manage to get a few of them to pay monthly. Eventually my interest in World of Warcraft died down, the guild I was running died down, and the application died down.
+
+### What did I learn?
+
+- Scratching your own itch is a decent way to find a market.
+- Having people pay regularly for a product is awesome.
+- PayPal is bad.
+
+## FlowToDo
+
+Ah, to do lists... we all have our special needs, right? FlowToDo was my attempt at making a to do list application that suited my needs perfectly. It was a mix of [Mark Hursts](https://twitter.com/markhurst) ideas from [Good Todo](https://goodtodo.com) - in that you could send emails into the application and schedule tasks into the future - and prioritisation ideas from [Dave Seahs](https://twitter.com/daveseah) [Printable CEO series](https://davidseah.com/2005/11/the-printable-ceo-series/).
+
+I still think the result was decent and I used it for a long while to schedule my own tasks. In the end, though, To Do lists are a crowded market, and with no marketing plan or overall vision I never got around to actually marketing it. And with competitors like [Flow](https://www.getflow.com/), [Wunderlist](https://www.wunderlist.com/), and [Todoist](https://todoist.com) able to execute way better than I could on many of the same ideas, I ended up shutting it down.
+
+### What did I learn?
+
+- It is possible to exist in a crowded market but actually selling is hard if you aren't 100% clear on your unique selling points.
+- Complicated rules and algorithms are hard to explain and doesn't make for good unique sellings points.
+
+## Objectpush
+
+While building FlowToDo it became apparent that receiving emails in web applications really wasn't as easy as it could have been. FlowToDo would actually log into an [email server](https://www.emailsherpa.net/knows/email-server/), check for new emails, and download them via POP like any other [email client](https://www.emailsherpa.net/knows/email-client/). This was cumbersome and error prone and required an email account somewhere.
+
+So I partnered with [Laust](https://object.io/) to build Objectpush; an API/webhook based way of receiving emails. Basically we'd receive the email for you and send you a HTTP request with the contents. The idea was simple enough and it suited our developer mindset.
+
+In the end, we gave up when we saw this being added as features of the big incumbents like [SendGrid](https://sendgrid.com/), [Mailgun](https://www.mailgun.com/) etc. Also dedicated services were popping up that did exactly what we did; the major difference was that they actually had a working product.
+
+### What did I learn?
+
+- Having a partner is awesome, but it is no a guarantee for anything.
+- Technology is irrelevant, regardless of how well built and well designed it is, if no one knows about it.
+
+## Conclusion
+
+In the end, I am not sure what to conclude from all of this; for the most part this is just me reminiscing. Perhaps it is just a curious part of my history, perhaps there's a trendline.
+
+Who we are today is determined by our previous experiences. And none of the above experiences would I have preferred to be without. Hopefully one of these days I might be able to write a "Successes" post, pointing at the above experiences laying the foundation.
