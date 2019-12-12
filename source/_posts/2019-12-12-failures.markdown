@@ -11,7 +11,7 @@ I've built stuff online pretty much since I figured out that I could. Join me on
 
 ## FUNsummer
 
-The first ever internet-based venture I started working on was back when the internet was quite new and no one really knew all that much about it. It was a marketplace for people renting out their cottages for vacations, so I guess, kind of like [Airbnb](https://www.airbnb.com) ;)
+The first ever internet-based venture I started working on was back when the internet was quite new and no one really knew all that much about it. It was a marketplace for people renting out their cottages for vacations, so yes, indeed, I totally invented [Airbnb](https://www.airbnb.com) before the dotcom bust ;)
 
 <img src="/files/journal/failures/funsummer.png" alt="FUNsummer map selector" />
 
