@@ -60,6 +60,19 @@ h = {"foo": :bar} #=> {:foo=>:bar}
 h["foo"] #=> nil
 ```
 
+## You still have to use hash rockets
+
+So even if you don't like the rockets, you still have to use them for the cases where you need `String`-based keys. This means you will likely have both JSON-style and Ruby-style hashes smattered between each other with no rhyme or reason.
+
+And hey, if you're really lucky you might even end up with something like this eye-sore:
+
+```ruby
+{
+  :key => "It's a Symbol",
+  "key" => "It's a String"
+}
+```
+
 ## It looks like keyword arguments, but isn't
 
 Even though they appear exactly the same, the `foo: "bar"` in
@@ -103,4 +116,4 @@ h = { foo: 'bar' }
 
 I get it. The new syntax lets old Ruby versions have something resembling named keyword arguments using a Hash instead - something Avdi showed in [RubyTapas episode 186 on Keyword Argument](https://rubytapas.dpdcart.com/subscriber/post?id=468).
 
-That's a fine semantic meaning for that syntax. Use it for that, but don't use it anywhere else, where all it adds is confusion.
+That's a fine semantic meaning for that syntax. Use it for that, but don't use it anywhere else, where all it adds is confusion and inconsistencies.
