@@ -111,6 +111,14 @@ h = { foo: 'bar' }
 #=> {:foo=>"bar"}
 ```
 
+It even expects hash-rockets if you accidentially trigger a syntax error (I accidentally left a trailing comma here):
+
+``` ruby
+method1 bar: baz,
+new_method()
+
+SyntaxError ((irb):8: syntax error, unexpected '\n', expecting =>)
+```
 
 ## Get off mah lawn!
 
