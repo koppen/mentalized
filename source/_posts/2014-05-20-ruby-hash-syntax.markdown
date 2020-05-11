@@ -68,8 +68,8 @@ And hey, if you're really lucky you might even end up with something like this e
 
 ```ruby
 {
-  :key => "It's a Symbol",
-  "key" => "It's a String"
+  symbol: "It's a Symbol",
+  "String" => "It's a String"
 }
 ```
 
