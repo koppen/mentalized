@@ -4,6 +4,7 @@ title: Some spammers don't even bother...
 date: '2002-12-27 11:10:03 +0100'
 mt_id: 639
 categories:
+- email
 - technology
 ---
 SpamAssassin caught yet another [spam-mail](https://www.emailsherpa.net/knows/spam/) for me today. I am pretty sure I have never seen spam score this high (22.80 points):

@@ -5,6 +5,7 @@ date: '2004-11-18 14:59:59 +0100'
 mt_id: 835
 categories:
 - browsers
+- email
 ---
 I received an email today advertising Mozilla in a somewhat subtle way: The X-message-flag of the mail was set to
 

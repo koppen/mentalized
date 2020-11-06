@@ -4,6 +4,7 @@ title: Experiencing Outlook XP
 date: '2003-01-03 17:55:39 +0100'
 mt_id: 645
 categories:
+- email
 - technology
 ---
 To make my start of 2003 even more pleasant, it turned out that my boss had bought himself a new laptop. A nice little machine that I luckily didn't have to install as it came preinstalled with Windows XP and Office XP. Unfortunatly, Outlook XP apparently sucks for formatting mails.

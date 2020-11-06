@@ -4,6 +4,7 @@ title: End the autoreply madness already!
 date: '2003-11-13 16:25:42 +0100'
 mt_id: 761
 categories:
+- email
 - technology
 ---
 Fine, so you have an "email server":https://www.emailsherpa.net/knows/email-server/ or "client":https://www.emailsherpa.net/knows/email-client/ that can autoreply to people sending you mail, notifying them if you are on extended vacation, "on course" (actual autoreply), taking a dump or whatever, great for you.

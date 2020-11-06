@@ -4,6 +4,7 @@ title: Mining emails
 date: '2002-10-28 17:09:18 +0100'
 mt_id: 609
 categories:
+- email
 - technology
 ---
 Just for kicks I created a tiny web-spider (less than 2K, 30 minutes coding time) in Python designed to get email addresses off websites. The script is small, the rules for recognizing website- and email-addresses are real simple, but still it is pretty effective.
