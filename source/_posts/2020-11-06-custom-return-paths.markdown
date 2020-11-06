@@ -50,9 +50,11 @@ bounce accress or a number of other names). If you don't do anything it's going
 to be something like bounces@track.postmarkapp.com (I don't know what the actual
 address for Postmark is), which is perfectly fine.
 
-However, if you've set up DMARC for your domain (and you should have), recipient
-servers might start flagging your emails in the above - even though both SPF and
-DKIM pass!
+However, if you've set up [DMARC](https://www.emailsherpa.net/knows/dmarc) for
+your domain (and you should have), recipient servers might start flagging your
+emails in the above - even though both
+[SPF](https://www.emailsherpa.net/knows/spf) and
+[DKIM](https://www.emailsherpa.net/knows/dkim) pass!
 
 Basically the recipients look at the domains from both the `From` address
 (ie `frontlobby.dk`) and the bounce address (ie `postmarkapp.com`). It then
