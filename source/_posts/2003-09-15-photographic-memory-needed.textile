@@ -7,7 +7,7 @@ categories:
 - browsers
 - usability
 ---
-Uninstalling the Tabbrowser Extension from Firebird gave me "a popup(Screenshot)":/journal/archives/2003/09/15/photographic_memory_needed/firebird_popup.png with the following message:
+Uninstalling the Tabbrowser Extension from Firebird gave me a popup with the following message:
 
 bq. Unregistration succeed.
 Please close the browser, and remove the following file:

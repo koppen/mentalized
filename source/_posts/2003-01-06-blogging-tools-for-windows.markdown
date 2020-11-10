@@ -11,7 +11,7 @@ Davids recent post about <a href="http://www.loudthinking.com/arc/000085.html" t
 
 <h2>w.bloggar</h2>
 
-<a href="http://wbloggar.com/">w.bloggar</a> is freeware, weighs less than 2MB, and supports a multitude of blogging software. Setup went smooth and I was able to post after a few minutes. You can create new posts or edit your existing ones in <a href="/journal/archives/w.bloggar.gif" title="Screenshot of w.bloggar in action">colorized HTML</a> before saving them locally or remotely.
+<a href="http://wbloggar.com/">w.bloggar</a> is freeware, weighs less than 2MB, and supports a multitude of blogging software. Setup went smooth and I was able to post after a few minutes. You can create new posts or edit your existing ones in colorized HTML before saving them locally or remotely.
 
 The built-in FTP client for uploading files is easy to use, but unfortunatly makes it hard if you want to upload files to a directory other than the standard directory.
 
@@ -21,7 +21,7 @@ Added January 06, 2003: It seems like something goes wrong when rebuilding entri
 
 <h2>blogBuddy</h2>
 
-<a href="http://blogbuddy.sourceforge.net/" title="blogBuddy">blogBuddy</a> is an even smaller download than w.bloggar (less than a half megabyte), and it does seem to be lacking some of the graphical bells and whistles of w.bloggar. Setup took me a little longer than I could've wished for, mainly because <a href="/journal/archives/blogBuddy.gif">the UI</a> isn't as intuitive as that of w.bloggar.
+<a href="http://blogbuddy.sourceforge.net/" title="blogBuddy">blogBuddy</a> is an even smaller download than w.bloggar (less than a half megabyte), and it does seem to be lacking some of the graphical bells and whistles of w.bloggar. Setup took me a little longer than I could've wished for, mainly because the UI isn't as intuitive as that of w.bloggar.
 
 Featurewise, blogBuddy is also somewhat light. You can create and edit posts in plain HTML, but there's no preview pane and the HTML-helpers are limited. I am also missing the ability to save posts locally. Comparing blogBuddy and w.bloggar isn't entirely fair though, as blogBuddy has yet to reach version 1, and w.bloggar is at version 3.
 

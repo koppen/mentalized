@@ -8,7 +8,7 @@ categories:
 ---
 Going through my referrerlogs I noticed a person coming from an <a href="http://search.msn.dk/results.aspx?cp=1252&PI=9542&DI=62&FORM=MSNH&q=tastatur" title="MSN Search for 'tastatur'">MSN search for "keyboard"</a> ("tastatur" in danish). Investigating a bit, I found out that MSN Search ranks me as number 4(!) using that searchterm. To be fair, I have mentioned keyboards on occasion, so I can see why my site might be relevant, but I place higher than many manufacturers and retailers of keyboards.
 
-However, the fun will reach no end. The description on MSN Search of my website is (translated - <a href="/journal/archives/technology/why_you_shouldnt_use_msn_for_search/msnsearch.gif" title="Screenshot of the result from MSN">original here</a>):
+However, the fun will reach no end. The description on MSN Search of my website is translated:
 
 bq. Jakob Skjerning invites you inside and presents his weblog. Among other things, you can read about his experiences with his new keyboard or see how you can wash your clothes via the Internet.
 
