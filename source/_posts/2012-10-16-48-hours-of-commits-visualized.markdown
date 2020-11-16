@@ -5,6 +5,7 @@ mt_id: 2151
 categories:
 - projects
 - programming
+excerpt: "48 hours, 4 developers, one repository - all visualized with Gource"
 ---
 <div class="video embed"><iframe src="https://www.youtube-nocookie.com/embed/DpeRnaiHGE0" frameborder="0" allowfullscreen></iframe></div>
 

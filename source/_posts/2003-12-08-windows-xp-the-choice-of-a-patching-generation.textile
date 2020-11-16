@@ -5,5 +5,6 @@ date: '2003-12-08 11:48:32 +0100'
 mt_id: 767
 categories:
 - technology
+excert: "The amount of patches needed for a fresh Windows XP installation is staggering"
 ---
 <img src="/files/journal/windows_xp_the_choice_of_a_patching_generation/hotfixes.png" alt="A few hotfixes for XP..." />

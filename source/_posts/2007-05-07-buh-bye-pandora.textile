@@ -5,5 +5,6 @@ date: '2007-05-07 08:54:55 +0200'
 mt_id: 1815
 categories:
 - life
+excerpt: "Licensing prevents Pandora from serving me music, so I am outta there"
 ---
 <a href="https://www.flickr.com/photos/jakobs/487886346/" title="Photo Sharing"><img src="https://farm1.static.flickr.com/231/487886346_426091a40a.jpg" width="500" height="432" alt="Buh bye, Pandora :(" /></a>
