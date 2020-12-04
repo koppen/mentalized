@@ -1,5 +1,6 @@
 plugins:
   - jekyll-archives
+  - jekyll-seo-tag
   - jekyll-textile-converter
 
 livereload: true
@@ -10,6 +11,8 @@ highligher: pygments
 permalink: "/journal/:year/:month/:day/:title/"
 source: source
 
+author:
+  name: "Jakob Skjerning"
 name: mentalized.net
 description: The virtual home of Jakob Skjerning
 url: https://mentalized.net
