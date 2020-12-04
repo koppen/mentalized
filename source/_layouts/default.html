@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>{% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.name }}{% endif %}</title>
 
     <link href="//fonts.googleapis.com/css?family=Neucha%7COpen+Sans:400,300,700" rel="stylesheet" type="text/css">
     <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" media="screen" />
@@ -11,7 +10,6 @@
 
     <meta name="robots" content="{{ page.robots }}" />
     <meta name="author" content="Jakob Skjerning" />
-    <meta name="description" content="{% if page.type == 'category' %}Jakobs collected writings about {{page.title}}.{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate:156 }}{% else %}{{ site.description | escape }}{% endif %}" />
 
     <link rel="author" href="https://plus.google.com/+JakobSkjerning?rel=author" />
 
