@@ -1,17 +1,17 @@
 ---
 layout: post
-title: 5 ways to run commands from Ruby
+title: 5 ways to run shell commands from Ruby
 date: '2010-03-08 12:40:33 +0100'
 mt_id: 2029
 categories:
 - programming
 - projects
 ---
-Every so often I have the need to execute a command line application from a Ruby application/script. And every single time I fail to remember what the different command-executing methods Ruby provides us with do.
+Every so often I have the need to execute a command line application from a Ruby script. And every single time I fail to remember what the different command-executing methods Ruby provides us with do.
 
 This post is primarily a brain dump to aid my failing memory, and it was triggered by an [issue](https://github.com/koppen/redmine_github_hook/issues/issue/2) with my [Redmine Github Hook plugin](https://github.com/koppen/redmine_github_hook) where STDERR messages were not being logged.
 
-The goal of this exercise is basically to figure out how to run a command and capture all its output - both STDOUT and STDERR - so that the output can be used in the calling script.
+The goal of this is to figure out how to run a shell command and capture all its output - both STDOUT and STDERR - so that the output can be used in the calling script.
 
 <!--more-->
 
@@ -113,3 +113,7 @@ An alternative to Open#popen3 (terrible name) is using <a href="http://tldp.org/
 This gives you both STDOUT and STDERR in one big string, which might be perfectly fine if you don't require the granular control that popen3 brings to the table.
 
 I am guessing this method would work for <a href="http://ruby-doc.org/core/classes/IO.html#M002242">IO#popen</a> as well as for the backticks.
+
+## What to choose?
+
+There is a great discussion about the different ways to call shell commands over at [Stack Overflow](https://stackoverflow.com/questions/2232/how-to-call-shell-commands-from-ruby), and in particular an excellent flowchart that can help you [decide what method to use when launching a subprocess](https://stackoverflow.com/a/37329716).
