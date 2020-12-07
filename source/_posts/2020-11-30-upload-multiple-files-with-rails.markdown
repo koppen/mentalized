@@ -128,8 +128,14 @@ Let's use that Stimulus controller in our form:
     <%= form.file_field :photos, :multiple => true, :data => {:action => "multi-upload#addFile"} %>
   </div>
 
-  <div data-target="multi-upload.files"></div>
+  <div data-multi-upload-target="files"></div>
 </div>
+```
+
+The above code is for Stimulus 2.0 - If you're on the older Stimulus 1.x, the last line inside the div needs to be
+
+```html
+  <div data-target="multi-upload.files"></div>
 ```
 
 And voila, we've got an ever growing list of `input type="file"` fields.
