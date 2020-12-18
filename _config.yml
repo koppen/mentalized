@@ -36,6 +36,11 @@ sass:
 
 defaults:
   -
+    scope: # All the things
+      path: ""
+    values:
+      image: "/images/og_image.png"
+  -
     scope: # All blog posts
       path: ""
       type: "posts"
