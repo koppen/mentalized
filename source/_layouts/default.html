@@ -8,7 +8,11 @@
     <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
     <link href="/stylesheets/zenburn.css" rel="stylesheet" type="text/css" />
 
-    <meta name="robots" content="{{ page.robots }}" />
+    {% if page.layout == "category_archive" %}
+      <meta name="robots" content="noindex,follow" />
+    {% else %}
+      <meta name="robots" content="{{ page.robots }}" />
+    {% endif %}
 
     <link rel="author" href="https://plus.google.com/+JakobSkjerning?rel=author" />
 
