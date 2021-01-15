@@ -10,7 +10,7 @@ layout: none
   </url>
 
   <url>
-    <loc>{{ "/about" | absolute_url }}</loc>
+    <loc>{{ "/about/" | absolute_url }}</loc>
     <changefreq>yearly</changefreq>
   </url>
 
