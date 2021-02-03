@@ -48,4 +48,5 @@ defaults:
       layout: "post"
 
 include:
+  - '_redirects'
   - '.well-known'
