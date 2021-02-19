@@ -2,6 +2,7 @@
 layout: post
 title: AJAX activity indicators
 date: '2005-11-29 16:49:26 +0100'
+description: "Letting users know that stuff is happening while the server crunches away is a good idea. A common way to do so, is to add a little animated GIF."
 mt_id: 1480
 categories:
 - projects
@@ -10,6 +11,8 @@ categories:
 - webdesign
 ---
 An important design element that's part of the whole AJAX business is somehow letting your user know that stuff is actually happening while the server crunches away. A common way to do so, is to add a little animated GIF that is only shown when the AJAX request is happening.
+
+<!--more-->
 
 "37signals":http://37signals.com favor "this one":http://assets.backpackit.com/images/indicator.gif, which is taken more or less directly from Mac OS X, I reckon - at least stylistically. I am not sure of the copyrights on that piece of graphic, so I am reluctant to use it in my own apps. Also, occasionally you want something a bit different.
 

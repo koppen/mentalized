@@ -11,6 +11,8 @@ categories:
 ---
 When I was implementing the design for "Hvad Bruges Pengene Til ( Hvad bruges dine skattekroner til?)":http://hvadbrugespengenetil.dk I figured it would be interesting to create the ribbon effect using pure CSS.
 
+<!--more-->
+
 Turns out it was fairly easy as well, using "CSS generated content (CSS 2.1: Generated content, automatic numbering, and lists)":http://www.w3.org/TR/CSS2/generate.html.
 
 Taking advantage of :before and :after pseudo elements, we can turn squeaky clean markup like
@@ -21,7 +23,6 @@ into
 
 !(This is how the ribbon effect appears)/files/journal/ribbon/ribbon.png!
 
-<!--more-->
 
 "Check out the demo page":/files/journal/ribbon/ribbon.html
 

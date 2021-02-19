@@ -5,6 +5,7 @@ categories:
 - programming
 - projects
 - technology
+description: "We've built an extension to Capistrano that gives you super easy access to running tasks and scripts on your remote hosts"
 ---
 
 Ever needed to run some maintenance task in your production environment? For me

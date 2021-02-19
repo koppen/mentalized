@@ -5,6 +5,7 @@ date: '2006-01-24 16:09:15 +0100'
 mt_id: 1516
 categories:
 - programming
+description: "If gem install fails for you on Debian with 'no such file to load -- mkmf (LoadError)' this could be the solution"
 ---
 While checking out [Scott Baron](http://lunchroom.lunchboxsoftware.com/)'s coverage-tool for Ruby, [insurance](http://rubyforge.org/projects/insurance/), I ran into a minor issue on my - by now - fairly beat up Debian installation.
 

@@ -7,8 +7,11 @@ categories:
 - projects
 - BiQ on Rails
 - programming
+description: "I got the final commitment from my boss. We'll be moving down the path of rebuilding BiQ using Ruby on Rails. Goodbye stupid ASP, hello sweet Ruby."
 ---
 At long last! I got the final commitment from my boss. We'll be moving down the path of rebuilding "BiQ":http://www.biq.dk using "Ruby on Rails":http://www.rubyonrails.org. Goodbye stupid ASP, hello sweet Ruby.
+
+<!--more-->
 
 Our preliminary tests shows that nothing we are currently doing is outside of the scope of Rails. They also show that Ruby will perform as well as, or better than, the current ASP/IIS/Windows solution - and that's when running on a lower grade machine than our production server.
 

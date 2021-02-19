@@ -5,6 +5,7 @@ date: '2006-10-24 11:13:08 +0200'
 mt_id: 1723
 categories:
 - webdesign
+description: "Screen size does not equal the actually visible area of a browser. But how big are browsers?"
 ---
 In a "recent Jakob Nielsen Alertbox column":http://www.useit.com/alertbox/screen_resolution.html Jakob Nielsen recommends that you
 
@@ -12,6 +13,7 @@ bq. Optimize for 1024x768, which is currently the most widely used screen size.
 
 Unfortunately, Mr. Nielsen seems to forget or ignore a very important detail as "Jesper points out":http://justaddwater.dk/2006/08/17/design-for-browser-size-not-screen-size/ - namely that screen size does not equal the actual visible area of the browser. This article attempts to make up for Nielsens oversight.
 
+<!--more-->
 
 h2. Getting the figures
 
