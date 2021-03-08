@@ -4,7 +4,7 @@ categories:
 - technology
 ---
 
-E-mail is great, but making your email stand out among the other attention-seeking items in your recipients inbox can be hard. One way to increase recognizability is to add a profile picture or avatar to your email.
+Email is great, but making your email stand out among the other attention-seeking items in your recipients inbox can be hard. One way to increase recognizability is to add a profile picture or avatar to your email.
 
 <!--more-->
 
