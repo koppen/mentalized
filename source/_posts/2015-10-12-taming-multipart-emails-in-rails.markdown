@@ -19,7 +19,7 @@ Luckily the problem of generating HTML from text content has been solved numerou
 
 ## Emails written in Markdown
 
-[Markerb](https://github.com/plataformatec/markerb) allows you to generate multipart e-mails from a single view. The view is written in [Markdown](https://daringfireball.net/projects/markdown/syntax#link), which is delivered as the text part, but also rendered and delivered as the HTML part.
+[Markerb](https://github.com/plataformatec/markerb) allows you to generate multipart emails from a single view. The view is written in [Markdown](https://daringfireball.net/projects/markdown/syntax#link), which is delivered as the text part, but also rendered and delivered as the HTML part.
 
 In short; you write your email in Markdown and it is sent as both text and HTML to your recipients.
 

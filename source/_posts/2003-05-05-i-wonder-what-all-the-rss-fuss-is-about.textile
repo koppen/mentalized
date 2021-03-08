@@ -39,7 +39,7 @@ h2. FeedReader
 
 FeedReader v2.5.610 - <a href="http://www.feedreader.com/" title="FeedReader">http://www.feedreader.com/</a>
 
-Ah good, this is more like it. FeedReader provides me with a native Win32 GUI, looking a lot like the three-pane view familiar from Outlook and other e-mail clients. Browsing the feeds and reading the individual entries takes place in the program. The interface makes sense and seems pretty intuitive.
+Ah good, this is more like it. FeedReader provides me with a native Win32 GUI, looking a lot like the three-pane view familiar from Outlook and other email clients. Browsing the feeds and reading the individual entries takes place in the program. The interface makes sense and seems pretty intuitive.
 
 FeedReader can be scheduled to check my feeds for updates with regular intervals, it can even check individual feeds on a different schedule than the rest. If new entries have been posted it can notify you about this and it marks the new, unread items differently from the ones you've already read.
 
