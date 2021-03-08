@@ -1,0 +1,39 @@
+---
+title: "Email"
+categories:
+- development
+- email
+- life
+- technology
+description: "Jakob gets nostalgic about email..."
+---
+
+I still remember my first email address. I had it before we even had internet access at home, so I rode my bicycle 8 km to reach the local library where I could read and send email. Being connected to the world like that was... well, magic almost.
+
+<!--more-->
+
+## I love email
+
+Instant access to everybody regardless of social status, just by knowing their address. This is the ultimate equalizer, fulfilling much of the promise of the internet in the first place. There are no gatekeepers in email.
+
+The applications we use to send emails perform their job well and reliably and the user interfaces are simple and understood (for the most part).
+
+Everything is built on open, stable standards allowing everybody to participate without fear of being locked into a vendor. Seamless communication across competitive company networks is a pipedream that not much else has been able to replicate.
+
+## I hate email
+
+Technically it's a pile of junk held together by string and scotch tape. Backwards compatibility and historical reasons make progress near impossible. No one agrees on anything and standards are only like guidelines, anyway...
+
+Socially it's a cesspool. Instant access from everybody directly to my inbox means spammers and scammers alike have a field day and without building an even higher pile of software and services on top of each other my email inbox would be insufferable.
+
+For the same reason it's impossible to develop for. Who knows if an email ever reached it's recipient, no one knows why it didn't, and you can't get debugging aid anywhere because if we made it easier for you it'd also be easier for spammers.
+
+And good luck trying to make emails look the same across a myriad of email applications - all with each their own constraints and ideas of what makes a good email reading experience.
+
+## Email is not done
+
+Email has been around since the dawn of the internet, which in technology terms makes it ancient, a relic. On the surface of things, not much has changed either. Add an email address, write a subject line and a body, hit send and wait for a reply. Rinse and repeat.
+
+But somehow, we keep improving email. New services pop up with fresh approaches to reading, writing, developing and sending email. New technologies appear to solve the problems that were never anticipated. Email newsletters are growing and turning into businesses of their own.
+
+In a world of inboxes everywhere, the email inbox still seem to be thriving. I am looking forward to the next decades of email.
