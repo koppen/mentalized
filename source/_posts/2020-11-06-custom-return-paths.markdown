@@ -3,6 +3,7 @@ title: "Custom Return Path with Postmark"
 categories:
 - email
 - projects
+description: "Learn how to increase the deliverability of your emails by setting up a custom return path in Postmark"
 ---
 
 [Front Lobby](https://frontlobby.dk) sends transactional emails via

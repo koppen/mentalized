@@ -5,6 +5,7 @@ date: '2004-12-01 18:14:17 +0100'
 mt_id: 842
 categories:
 - technology
+description: "Getting Ruby and Rails up and running on Debian isn't as easy as one would hope. Follow this guide to get you through it."
 ---
 "David(Loud Thinking)":http://loudthinking.com keeps yapping about his "Ruby on Rails(Ruby on Rails)":http://rubyonrails.org framework, and I have to admit it looks interesting.
 

@@ -5,6 +5,7 @@ date: '2011-04-14 12:17:15 +0200'
 mt_id: 2103
 categories:
 - programming
+description: "In this article we'll dig into how you might check if a given String value is really a numeric value."
 ---
 Finally, a technical article... This one caused by a seemingly simple question on Stack Overflow, asking how to "Test if string is a number":http://stackoverflow.com/questions/5661466/test-if-string-is-a-number-in-ruby-on-rails/5661695.
 

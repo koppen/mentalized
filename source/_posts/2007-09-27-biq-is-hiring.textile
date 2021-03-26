@@ -5,6 +5,7 @@ date: '2007-09-27 11:48:14 +0200'
 mt_id: 1874
 categories:
 - BiQ on Rails
+description: "We're looking a for a solid developer who wants to make a difference for one of Denmarks first public facing Rails applications."
 ---
 +Update: This position has been filled. Thanks a lot to all of you who applied.+
 

@@ -11,6 +11,7 @@ categories:
 - projects
 - programming
 - business
+description: "Finding the time to both freelance and have a full time job is hard. So going forward I am a full time independent web application developer"
 ---
 I have been moonlighting as a "freelance webdeveloper":https://substancelab.com for the last couple of years. The first year, I was using my spare evenings and weekends until I began having trouble finding enough time to dedicate to new projects.
 

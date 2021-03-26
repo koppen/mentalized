@@ -6,6 +6,7 @@ mt_id: 2029
 categories:
 - programming
 - projects
+description: "An overview of different ways to call external commands in Ruby applications. What are the benefits and downsides of each of them."
 ---
 Every so often I have the need to execute a command line application from a Ruby script. And every single time I fail to remember what the different command-executing methods Ruby provides us with do.
 
