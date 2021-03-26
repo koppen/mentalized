@@ -7,6 +7,7 @@ categories:
 - software
 - movies
 - life
+description: "I figured out how to convert MTS video files into something iMovie would import without paying for a commercial tool. Here's how to do it."
 ---
 My parents have a digital camcorder. A week long vacation with said camcorder, my parents, and their only grandchild produces a fair amount of raw footage. Before we headed back home after the vacation I wisely snapped up all the footage from their camera hoping to eventually run it through iMovie.
 

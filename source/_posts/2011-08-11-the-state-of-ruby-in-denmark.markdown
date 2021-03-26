@@ -6,6 +6,7 @@ categories:
 - Copenhagen.rb
 - technology
 - programming
+description: "Many companies in Denmark use Ruby as the primary programming language and . we've got solid communities in the largest cities. Have we made it?"
 ---
 Yesterday marked the 5 year anniversary of [Copenhagen Ruby Brigade](http://copenhagenrb.dk). Five years ago, I was part of founding that group. Five years, imagine that.
 

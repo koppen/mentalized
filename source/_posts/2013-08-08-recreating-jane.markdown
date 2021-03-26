@@ -8,6 +8,8 @@ categories:
 - ideas
 - movies
 - software
+description: "Could we create - or at least approximate - the digital assistant, Jane from the Enders Games books, using existing consumer technologies today?"
+
 ---
 So the [Ender movie](http://trailers.apple.com/trailers/summit/endersgame/) is coming out. That's... well, it's coming out.
 

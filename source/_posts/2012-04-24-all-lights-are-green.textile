@@ -6,6 +6,7 @@ mt_id: 2140
 categories:
 - Substance Lab
 - business
+description: "Every so often a customer rings all the bells and checks all the marks!"
 ---
 The following are quotes from an actual email conversation with a potential customer.
 

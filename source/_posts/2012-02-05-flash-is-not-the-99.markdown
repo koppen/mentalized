@@ -6,6 +6,7 @@ categories:
 - technology
 - browsers
 - games
+description: "If you are going to claim that 99% of web browsers support Flash, you'd better have your facts straight."
 ---
 An "[infographic][1]" showing some data points in the epic HTML5 vs Flash battle has recently made its rounds on Twitter and other sites.
 

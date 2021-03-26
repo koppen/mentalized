@@ -6,6 +6,7 @@ mt_id: 2113
 categories:
 - programming
 - technology
+description: "Creating a useful API is hard work and you'd have to maintain it and support it and that's even more hard work... Follow this guide and prove your API useless..."
 ---
 So you want to add a web service API to your web application. Because, you know, that's what cool startups do (when they are not busy pivoting).
 
