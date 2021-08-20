@@ -7,6 +7,7 @@ categories:
 - webdesign
 - technology
 - browsers
+description: "I decided to recreate the Xbox Dashboard using CSS animations, font-face, multiple backgrounds, gradients, RGBA colors, drop shadows and custom scrollbards."
 ---
 Webkit - and Safari in particular - have been really aggressive in adding support for upcoming CSS 3 features - and some CSS features not yet part of any spec.
 

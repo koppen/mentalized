@@ -5,6 +5,7 @@ date: '2006-06-27 08:52:16 +0200'
 mt_id: 1638
 categories:
 - projects
+description: "Pluggd is a podcasting directory/community combining podcast listening with social networking and recommendations."
 ---
 This weekend "Pluggd":http://pluggd.com launched. Pluggd is a podcasting directory/community combining podcast listening with social networking and recommendations built on the belief that many people listen to podcasts online when at work or school, and not just offline while commuting.
 

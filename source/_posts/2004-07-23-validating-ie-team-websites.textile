@@ -7,6 +7,7 @@ categories:
 - browsers
 - webdesign
 - technology
+description: "I investigate if a team that has to struggle with parsing and rendering the bottomless bowls of tag soup themselves care about outputting proper HTML."
 ---
 "Scoble assures us(Scobleizer: Nigel says that Microsoft hates the Web)":http://radio.weblogs.com/0001011/2004/05/31.html#a7660 that it is untrue that Microsoft doesn't want to comply with the W3C standards. "Dave Massy(Dave Massy's WebLog)":http://blogs.msdn.com/dmassy/ from the IE team "calls it a myth(IE Team chat transcripts)":https://mentalized.net/journal/2004/07/20/ie-team-chat-transcripts/ that Microsoft doesn't support standards.
 

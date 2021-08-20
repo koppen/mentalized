@@ -6,6 +6,8 @@ mt_id: 2030
 categories:
 - projects
 - games
+description: "I bring you Progress Wars the ultimate game of progression, a bold and fresh take on classics like Mafia Wars, Pirate Wars, Ninja Wars"
+
 ---
 Today, I am stoked to bring you "Progress Wars":http://progresswars.com - the ultimate game of progression.
 

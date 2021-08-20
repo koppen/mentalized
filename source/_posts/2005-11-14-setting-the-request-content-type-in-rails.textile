@@ -5,8 +5,9 @@ date: '2005-11-14 15:54:29 +0100'
 mt_id: 1467
 categories:
 - programming
+description: "How to set the content type and character set of your responses of your Rails application."
 ---
-To set the content type and character set of your responses of your Rails applicaiton, add this to your Application Controller (/app/controllers/application.rb):
+To set the content type and character set of your responses of your Rails application, add this to your Application Controller (/app/controllers/application.rb):
 
 bc. class ApplicationController < ActionController::Base
   before_filter :set_content_type
