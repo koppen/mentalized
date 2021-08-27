@@ -5,7 +5,7 @@ date: '2006-10-24 11:13:08 +0200'
 mt_id: 1723
 categories:
 - webdesign
-description: "Screen size does not equal the actually visible area of a browser. But how big are browsers?"
+description: "Screen size does not equal the actually visible area of a browser. But how big are browsers really? Let's find out."
 ---
 In a "recent Jakob Nielsen Alertbox column":http://www.useit.com/alertbox/screen_resolution.html Jakob Nielsen recommends that you
 

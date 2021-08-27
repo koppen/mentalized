@@ -5,7 +5,7 @@ date: '2006-12-20 18:54:21 +0100'
 mt_id: 1763
 categories:
 - projects
-description: "MedBillManager is a little something that I've been working on over the last couple of months."
+description: "Substance Lab launches the first client Ruby on Rails application; MedBillManager is a little something that I've been working on over the last couple of months"
 ---
 "MedBillManager":http://www.medbillmanager.com makes dealing with medical bills easier and allows you to compare what you're paying with what others are paying.
 

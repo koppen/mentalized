@@ -7,7 +7,7 @@ categories:
 - BiQ on Rails
 - webdesign
 - programming
-description: "A walk through how we optimized our website performance with the advice of YSlow"
+description: "A walk through how we used the recommendations from YSlow to optimized the performance of our Ruby on Rails application"
 ---
 Yahoo! has released a great Firefox addon - or rather, an addon for "a Firefox addon":http://www.getfirebug.com/ - called "YSlow":http://developer.yahoo.com/yslow/. YSlow allows you to analyze and suggest improvements to various performance metrics on the website you're currently visiting.
 

@@ -5,7 +5,7 @@ categories:
 - email
 - life
 - technology
-description: "Jakob gets nostalgic about email..."
+description: "Jakob gets nostalgic about email and reminisce about his first email address and whine about his love/hate relationship with email"
 ---
 
 I still remember my first email address. I had it before we even had internet access at home, so I rode my bicycle 8 km to reach the local library where I could read and send email. Being connected to the world like that was... well, magic almost.

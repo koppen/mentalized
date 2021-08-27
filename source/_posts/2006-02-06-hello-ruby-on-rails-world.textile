@@ -5,7 +5,7 @@ date: '2006-02-06 11:34:37 +0100'
 mt_id: 1528
 categories:
 - programming
-description: "This is a step by step tutorial to creating a 'hello world' application in Ruby on Rails 1.0."
+description: "Follow this step by step tutorial to learn how to create the classic 'hello world' application in Ruby on Rails 1.0."
 ---
 +There is "a newer version of this article":https://mentalized.net/journal/2010/02/05/hello-rails-3-world/ updated for Rails 3+
 
