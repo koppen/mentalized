@@ -49,12 +49,12 @@ end
 When I create or update a note, I am going to be entering the tags as a long, space separated string. I want to store that string in Note.tag_string, but I also want to update the notes_tags join table. I opted to do this by using an after_save filter in the Note model:
 
 bc. class Note < ActiveRecord::Base
-  ...  
-  after_save :update_tags  
+  ...
+  after_save :update_tags
   # Maintains the tag associations
-  def update_tags    
+  def update_tags
     self.tags.clear
-    for tag_name in self.tag_string.split      
+    for tag_name in self.tag_string.split
       tag = Tag.new(:name => tag_name) unless (tag = Tag.find_by_name(tag_name))
       self.tags.push(tag)
     end

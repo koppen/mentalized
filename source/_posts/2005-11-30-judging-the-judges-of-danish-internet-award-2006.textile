@@ -22,11 +22,11 @@ h2. The contestants
 
 These are the contestants, whose websites I had to guess since the DIA website for some reason doesn't care to link to them. But hey, it's not like the DIA is about marketing on the web, so we'll forgive them.
 
-* "Dwarf":http://dwarf.dk	
-* "Framfab":http://framfab.dk	
+* "Dwarf":http://dwarf.dk
+* "Framfab":http://framfab.dk
 * "GoViral":http://goviral.dk/
-* "Magnetix":http://magnetix.dk	
-* "Netpeople":http://netpeople.dk	
+* "Magnetix":http://magnetix.dk
+* "Netpeople":http://netpeople.dk
 
 h2. The measurement
 
