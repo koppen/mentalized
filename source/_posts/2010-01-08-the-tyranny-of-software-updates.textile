@@ -5,6 +5,7 @@ date: '2010-01-08 16:59:11 +0100'
 mt_id: 2015
 categories:
 - software
+description: "Software updates are never convenient. Here are some suggestions how to make your app update experience better for you users."
 ---
 There you are, sitting at your desk. Your thoughts are coming alive on the glowing display in front of you, brought into existence by your fingers effortlessly running across the keyboard. The outside world has become a distant memory - even the music flowing into your ears from your headphones has grown muffled and removed.
 

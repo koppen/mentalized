@@ -8,6 +8,7 @@ categories:
 - webdesign
 - usability
 - blogging
+description: "Evaluating, unfairly perhaps, the technical performance of the people (well companies) that judge in the Danish Internet Award show"
 ---
 This post is inspired by the announcement of the "Danish Internet Award 2006":http://www.dia06.dk, sporting a 1999-style website complete with Flash intro and invalid markup (They do have a weblog, though).
 

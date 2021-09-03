@@ -5,6 +5,7 @@ date: '2005-04-15 14:23:13 +0200'
 mt_id: 1294
 categories:
 - projects
+description: "We continue building our theoretical product, Notetagger. Today we'll be adding the actual tagging functionality."
 ---
 Onwards to implementing tagging, taking advantage of a whole bunch of Ruby on Rails features: Helpers, assocations, partials, and filters.
 

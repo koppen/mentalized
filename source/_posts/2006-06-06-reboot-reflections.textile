@@ -5,6 +5,7 @@ date: '2006-06-06 12:24:15 +0200'
 mt_id: 1620
 categories:
 - reboot
+description: "Jakob takes an honest look back at the Reboot 8 conference in Copenhagen. TLDR; he didn't quite get it, and that's okay"
 ---
 So "Reboot 8.0":http://www.reboot.dk is over, and I am kinda left with this weird sensation that I somehow didn't get it.
 
