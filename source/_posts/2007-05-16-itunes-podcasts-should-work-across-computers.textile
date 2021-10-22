@@ -2,6 +2,7 @@
 layout: post
 title: iTunes podcasts should work across computers
 date: '2007-05-16 09:33:27 +0200'
+description: "Dear Apple, please sync my podcast subscriptions so I can manage them from all my devices. You have the technology!"
 mt_id: 1818
 categories:
 - usability
@@ -11,6 +12,8 @@ categories:
 Imagine this: I'm at work when someone tells me: "Hey, you need to check out this podcast". "Sure", I say, "I'd love to". So I fire up my iTunes, add the podcast to my subscriptions, and forget all about it. Then when I get back home to my podcast-syncing machine, the podcast is downloaded and put on my iPod without me having to do a thing.
 
 Sounds like a great experience and very Apple-ish, right? Too bad it doesn't work that way.
+
+<!--more-->
 
 An iPod isn't allowed to be connected with two different iTunes libraries, which I can understand. Apple needs to deal with DRM issues and I can live with that. But why doesn't iTunes store my podcast subscription settings on their server?
 

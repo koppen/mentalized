@@ -2,6 +2,7 @@
 layout: post
 title: 'Idea: fontstack.com'
 date: '2010-05-17 09:12:35 +0200'
+description: "Please build this: A service where I can look at the page for Rockwell and see a list of alternative fonts resembling it - preferably ordered by resemblance"
 mt_id: 2041
 categories:
 - projects

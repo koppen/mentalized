@@ -2,6 +2,7 @@
 layout: post
 title: Hello Rails 3 World
 date: '2010-02-05 11:09:30 +0100'
+description: "A step by step tutorial to creating the traditional 'hello world' example application in the upcoming version 3 of Ruby on Rails"
 mt_id: 2024
 categories:
 - programming

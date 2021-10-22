@@ -1,6 +1,7 @@
 ---
 title: Using Google Page Speed to optimize websites
 date: '2009-07-27 11:02:44 +0200'
+description: "Jakob walks us through the process he went through, and the tools he used to optimize the performance of an actual webpage."
 mt_id: 2002
 categories:
 - programming
