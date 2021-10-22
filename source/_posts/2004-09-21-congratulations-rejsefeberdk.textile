@@ -2,6 +2,7 @@
 layout: post
 title: Congratulations, Rejsefeber.dk
 date: '2004-09-21 13:04:30 +0200'
+description: "Congratulations, Rejsefeber.dk. You just made a sale because your website was nicely looking, easy to use, and Firefox friendly - unlike your rivals."
 mt_id: 821
 categories:
 - webdesign

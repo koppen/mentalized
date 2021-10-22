@@ -2,6 +2,7 @@
 layout: post
 title: iTunes podcasts should work across computers
 date: '2007-05-16 09:33:27 +0200'
+description: "Dear Apple, please sync my podcast subscriptions so I can manage them from all my devices. You have the technology!"
 mt_id: 1818
 categories:
 - usability

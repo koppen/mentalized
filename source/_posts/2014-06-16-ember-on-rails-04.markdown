@@ -4,6 +4,7 @@ date: '2014-06-16 11:15:57 +0100'
 categories:
 - programming
 - technology
+description: "Part 4 of my Ember on Rails tutorial shows how to manage validations in an Ember frontend using Rails as for the backend."
 published: true
 series: "Ember on Rails"
 ---
