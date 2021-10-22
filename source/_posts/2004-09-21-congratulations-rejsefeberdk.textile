@@ -9,6 +9,8 @@ categories:
 ---
 Congratulations, <a title="Rejsefeber.dk" href="http://www.rejsefeber.dk/">Rejsefeber.dk</a>. You just made a sale because your website was nicely looking, easy to use, and Firefox friendly - unlike your rivals.
 
+<!--more-->
+
 <a href="http://www.mytravel.dk/" title="MyTravel">MyTravel</a> came close to making a sale too for the same reasons, unfortunatly they had no travels that met our requirements.
 
 Your competitors should consider going through your websites to see how such a thing should be built.

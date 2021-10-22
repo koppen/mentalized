@@ -13,6 +13,8 @@ Imagine this: I'm at work when someone tells me: "Hey, you need to check out thi
 
 Sounds like a great experience and very Apple-ish, right? Too bad it doesn't work that way.
 
+<!--more-->
+
 An iPod isn't allowed to be connected with two different iTunes libraries, which I can understand. Apple needs to deal with DRM issues and I can live with that. But why doesn't iTunes store my podcast subscription settings on their server?
 
 iTunes already logs me in automatically, the technology needed to store this really doesn't appear to be that big a deal, and the podcast content isn't DRM protected or even stored on their network. The infrastructure is there!
