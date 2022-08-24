@@ -34,7 +34,7 @@ $ sudo port select --set pip3 pip39
 
 ```bash
 # Now use pip to install azure-cli
-$ sudo pip install azure-cli
+$ pip install azure-cli
 ```
 
 Now, this might not get you the expected behavior default (it didn’t on my machine):
