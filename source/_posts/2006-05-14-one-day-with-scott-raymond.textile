@@ -9,6 +9,7 @@ categories:
 - programming
 - BiQ on Rails
 - technology
+description: "Scott Raymond is my Ruby on Rails champion, and he delivered"
 ---
 Thursday marked a major step on the path to exploring Rails as an alternative for "BiQ":http://www.biq.dk. "As I've mentioned earlier":https://mentalized.net/journal/2006/03/16/looking-for-a-rails-champion/ I've been looking for someone to come and present Rails for us. We found Scott Raymond of "Blinksale":http://www.blinksale.com and "IconBuffet":http://www.iconbuffet.com fame and spent all of Thursday picking his brain.
 

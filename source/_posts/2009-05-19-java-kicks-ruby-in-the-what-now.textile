@@ -6,6 +6,7 @@ mt_id: 2001
 categories:
 - programming
 - technology
+description: "A response to an uninformed article unfairly pitting Rails against Java."
 ---
 When I first read the "Java Kicks Ruby on Rails in the Butt article":http://java.sys-con.com/node/965189 by Javier Paniza, I brushed it aside as something from the time when Rails was just getting traction and people using related, established technologies started feeling threatened.
 

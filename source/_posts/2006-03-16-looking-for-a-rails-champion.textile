@@ -9,7 +9,7 @@ categories:
 - programming
 - business
 - BiQ on Rails
-decription: "I want to rewrite 42000 lines of VBSCript drivel and 30000 lines Python code. Can you tell my boss it's a good idea?"
+decription: "I want to rewrite 42000 lines of VBSCript and 30000 lines Python code. Can you tell my boss it's a good idea?"
 ---
 At the day job I'm the sole developer and maintainer of a legacy ASP/VBScript system. Yes, ASP/VBScript. No, not .NET. And yes, it's driving me insane. The code contains around 42000 lines of VBSCript drivel and 30000 lines of supporting Python code.
 

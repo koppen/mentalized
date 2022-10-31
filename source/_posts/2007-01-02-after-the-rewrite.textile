@@ -8,6 +8,7 @@ categories:
 - technology
 - projects
 - programming
+description: "6 months into converting biq.dk from ASP/VBScript to Ruby and Rails, what's the status?"
 ---
 "Around 6 months ago":https://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/ I started the actual progress of rewriting our existing, customer facing application at "BiQ":http://www.biq.dk.
 
