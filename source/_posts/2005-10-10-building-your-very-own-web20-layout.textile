@@ -5,7 +5,6 @@ date: '2005-10-10 11:38:35 +0200'
 mt_id: 1441
 categories:
 - webdesign
-description: "A guide to creating your very own web2.0 webdesign template for you application or blog or startup or whatever"
 ---
 So you wanna look web2.0? You've come to the right place. In this short feature I'll guide you through creating your very own webdesign template ready to be applied to your web2.0 application or blog or startup or what else you see fit. You'll go from web1.0 to web2.0 in 10 minutes.
 

@@ -7,7 +7,6 @@ categories:
 - mentalized.net
 - projects
 - technology
-description: "Live comment previews are fun and cool"
 ---
 Update: Ah well, it was a fun experiment, but I've decided to scrap it again, possible in favor of something pure Javascript'ish. The AJAX preview is either too unresponsive to be worthwhile or I send way too many requests against MT/MySQL that I am comfortable with on a shared server.
 

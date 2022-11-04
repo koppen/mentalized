@@ -11,7 +11,6 @@ categories:
 - business
 - blogging
 - BiQ on Rails
-description: "While things are quite on the blog, not everything is standing still"
 ---
 It's been pretty quiet around these parts lately - if you ignore the posts about Copenhagen.rb meetings at least. That's primarily because I am having "tons of fun at work":https://mentalized.net/journal/2006/07/11/biq-on-rails-its-a-go/, which for some reason doesn't leave me much time for blogging. Not that I would ever think of blogging at work, no siree...
 
