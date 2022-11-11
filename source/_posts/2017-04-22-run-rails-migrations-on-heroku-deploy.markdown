@@ -4,6 +4,7 @@ categories:
 - projects
 - Substance Lab
 - software
+description: "Running migrations automatically when you deploy your application to Heroku is super helpful. Here's how to do it."
 ---
 
 We use [Heroku](https://heroku.com) for running some of [our customers](https://substancelab.com/work) applications. Deploying by a simple `git push` is great, but running migrations as part of the process have always been a sore point - until now.

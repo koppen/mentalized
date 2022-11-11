@@ -3,6 +3,7 @@ title: "How to upload multiple files to a Rails model"
 categories:
 - development
 - process
+description: "ActiveStorage made uploading files to Rails applications simple, but it does not help us upload more than one file at a time in a user friendly manner"
 ---
 
 With the advent of [ActiveStorage](https://guides.rubyonrails.org/active_storage_overview.html) uploading files to your Rails application has become easier than ever. However, we recently encountered a blind spot; how to upload more than one file in a user-friendly manner.

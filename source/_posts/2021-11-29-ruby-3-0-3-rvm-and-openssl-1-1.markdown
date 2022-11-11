@@ -2,6 +2,7 @@
 title: "How to install Ruby 3.0.3 with OpenSSL using MacPorts and RVM"
 categories:
 - technology
+description: "Ruby 3 and OpenSSL 3 does not go well together. Follow these steps to get Ruby working without getting 'Could not load OpenSSL'"
 ---
 
 Recently a security patch for [Ruby](https://www.ruby-lang.org/)
