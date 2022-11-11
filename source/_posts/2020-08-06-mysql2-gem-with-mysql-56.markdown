@@ -2,6 +2,7 @@
 title: "How to fix a mysql2 gem install problem"
 categories:
 - development
+description: "If you get an 'unknown option '--include' message when installing the mysql2, this might just be the fix."
 ---
 
 This is one of those posts that's written as my extended memory. I ran into an
