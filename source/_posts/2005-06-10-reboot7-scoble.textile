@@ -5,6 +5,7 @@ date: '2005-06-10 09:53:43 +0200'
 mt_id: 1332
 categories:
 - reboot
+description: "reboot7: Notes I took during Robert Scobles keynote speech at reboot7 in Copenhagen"
 ---
 Notes from "Robert Scobles":http://www.scobleizer.com/linkblog/ keynote speech at reboot7.
 

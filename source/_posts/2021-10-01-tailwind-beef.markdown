@@ -3,7 +3,7 @@ title: "My beef with Tailwind UI"
 categories:
 - development
 - technology
-description: "Tailwind and Tailwind UI are great projects, but they aren't without issues."
+description: "Tailwind CSS and Tailwind UI are great, but I must admit; as a long-time semantic-markup-separation-of-concerns-advocate, there are some issues."
 ---
 
 I like [Tailwind UI](https://tailwindui.com). I like the aesthetics, the clearly well-thought out ideas that has gone into it, and I am in awe of the business it has spawned. Massive kudos to the Tailwind team. However, I have some things I need to get off my chest.

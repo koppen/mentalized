@@ -5,6 +5,7 @@ date: '2005-06-10 17:23:55 +0200'
 mt_id: 1337
 categories:
 - reboot
+description: "reboot7: Notes I took during Ben Jason Frieds speech at reboot7 in Copenhagen: 'How to make big things happen with small teams'"
 ---
 Notes from Jason Frieds speech; How to make big things happen with small teams
 

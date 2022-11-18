@@ -5,6 +5,7 @@ date: '2005-06-10 14:22:31 +0200'
 mt_id: 1336
 categories:
 - reboot
+description: "reboot7: Notes I took during Jimmy Wales speech at reboot7 in Copenhagen: 'The Intelligence of Wikipedia'"
 ---
 Notes from Jimbo Wales' speech; The Intelligence of Wikipedia
 

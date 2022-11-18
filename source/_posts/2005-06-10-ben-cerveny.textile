@@ -5,6 +5,7 @@ date: '2005-06-10 12:36:09 +0200'
 mt_id: 1335
 categories:
 - reboot
+description: "reboot7: Notes I took during Ben Cervenys speech at reboot7 in Copenhagen: 'At Play in the Garden'"
 ---
 Notes from Ben Cervenys speech; At Play in the Garden
 

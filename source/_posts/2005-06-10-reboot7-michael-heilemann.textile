@@ -5,6 +5,7 @@ date: '2005-06-10 10:49:04 +0200'
 mt_id: 1333
 categories:
 - reboot
+description: "reboot7: Notes I took during Michael Heilemanns speech at reboot7 in Copenhagen: 'Open Source Design'"
 ---
 Notes from "Michael Heilemanns":http://binarybonsai.com speech: Open Source Design
 

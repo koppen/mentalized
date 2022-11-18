@@ -3,7 +3,7 @@ title: "How to install Azure CLI on macOS with MacPorts"
 categories:
 - software
 - technology
-description: "How to install the Azure CLI on macOS if you're not using Homebrew like Microsoft expects."
+description: "How to install the Azure CLI on macOS if you're not using Homebrew like Microsoft expects. Turns out, it actually is turtles all the way down."
 ---
 
 [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-gb/cli/azure/) is a great tool. Unfortunately the only [installation instructions they have for macOS](https://docs.microsoft.com/en-gb/cli/azure/install-azure-cli-macos) assumes you're using [Homebrew](https://brew.sh/). I'm not. Luckily there are other - undocumented - ways of installing azure-cli and the az command.

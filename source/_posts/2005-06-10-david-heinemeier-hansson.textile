@@ -5,6 +5,8 @@ date: '2005-06-10 19:04:35 +0200'
 mt_id: 1338
 categories:
 - reboot
+description: "reboot7: Notes I took during David Heinemeier Hanssons speech at reboot7 in Copenhagen: 'Tech, Necessiry, and Passion'"
+
 ---
 Notes from David Heinemeier Hanssons speech; Ruby on Rails: Tech, Necessity, and Passion
 

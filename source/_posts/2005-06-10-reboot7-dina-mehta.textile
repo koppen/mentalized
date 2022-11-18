@@ -5,6 +5,7 @@ date: '2005-06-10 11:36:02 +0200'
 mt_id: 1334
 categories:
 - reboot
+description: "reboot7: Notes I took during Dina Methas speech; 'Social tools for research & collaboration'"
 ---
 Notes from "Dina Methas":http://dinametha.com speech; Social tools for research & collaboration
 
