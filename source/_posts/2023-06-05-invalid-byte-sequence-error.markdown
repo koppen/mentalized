@@ -1,5 +1,5 @@
 ---
-title: "Encoding::InvalidByteSequenceError on Digital Ocean"
+title: "Debugging Encoding::InvalidByteSequenceError on Digital Ocean"
 categories:
 - software
 - technology
