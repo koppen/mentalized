@@ -3,7 +3,7 @@ title: "Debugging Encoding::InvalidByteSequenceError on Digital Ocean"
 categories:
 - software
 - technology
-description: "Classlist is a Ruby implementation of DOMTokenList for easier manipulation of CSS classnames in Ruby"
+description: "Follow along as Jakob debugs and succesfully fixes an Encoding::InvalidByteSequenceError error on deploying a Bridgetown site to Digital Ocean."
 ---
 
 I recently ran into a weird error trying to deploy a [Bridgetown](https://www.bridgetownrb.com/) [site](https://www.frontlobby.dk) to [Digital Ocean](https://www.digitalocean.com)s app platform: `Encoding::InvalidByteSequenceError` while converting `ERBTemplates`. Here's what I did to fix it.
