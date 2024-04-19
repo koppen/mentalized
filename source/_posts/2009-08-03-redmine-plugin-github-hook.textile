@@ -5,6 +5,7 @@ date: '2009-08-03 16:10:37 +0200'
 mt_id: 2003
 categories:
 - projects
+description: "Now available: Redmine Github Hook - A Redmine plugin that makes Github integration easy"
 ---
 I use "Redmine":http://www.redmine.org/ to keep track of most of "Substance Labs projects":https://substancelab.com/work. It's a nifty, open source project management/issue tracking system, and I am quite happy with it.
 

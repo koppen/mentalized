@@ -5,6 +5,7 @@ date: '2005-04-27 16:57:00 +0200'
 mt_id: 1304
 categories:
 - projects
+description: "In this installment I take you through adding simple Ajax functionality to a Rails application."
 ---
 Finally I can get around to one of the reasons I started creating Notetagger: Playing with Ajax. In this installment I'll take you through adding simple Ajax functionality to an application.
 

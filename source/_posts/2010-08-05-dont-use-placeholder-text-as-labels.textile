@@ -6,6 +6,7 @@ mt_id: 2052
 categories:
 - usability
 - webdesign
+description: "Using placeholder text as labels in forms is a bad idea. This article explains why."
 ---
 One of the form field enhancements coming in HTML5 is the "placeholder-attribute":http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#the-placeholder-attribute:
 

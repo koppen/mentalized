@@ -5,6 +5,7 @@ date: '2005-04-15 14:00:24 +0200'
 mt_id: 1293
 categories:
 - projects
+description: "In this installment of Project Notetagger I dig into the gritty, technical details and start writing real code."
 ---
 In this installment of Project Notetagger I dig into the gritty, technical details and start writing real code. The database and model is created, the first HTML output and I even get around to adding Ajax. All in a few hours of development.
 
