@@ -4,6 +4,7 @@ date: '2019-04-26 13:43:23 +0200'
 categories:
 - programming
 - technology
+description: "How we managed to embed Zendesks web widget in a Rails application running Turbolinks"
 ---
 
 [We](https://substancelab.dk) were recently asked to add [Zendesks](https://zendesk.com) [Web Widget](https://www.Zendesk.com/embeddables/) to one of our [customer web applications](https://bornibyen.dk).
@@ -59,7 +60,7 @@ A common way around this is to shove the snippet into the `body` of the page. Sc
 
 Around this point we started reaching out to Zendesks support, who turned out to be very helpful, and had a bunch of suggestions for things we could try; none of them worked, unfortunately.
 
-During this time, we tried everything we could think of. 
+During this time, we tried everything we could think of.
 
 * Loading the snippet via a dynamic `script` element inserted into the DOM in a `turbolinks:render` event
 * Calling every function we could find in the documentation; `zE.setSuggestions` was a suggestion from support, whereas personally I had high hopes for `zE.show` or `ze.activate`.

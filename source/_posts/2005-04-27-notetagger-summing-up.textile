@@ -5,6 +5,7 @@ date: '2005-04-27 17:04:58 +0200'
 mt_id: 1306
 categories:
 - projects
+description: "We look back at building a simple tagging application in Rails, 4 hours from start to finish."
 ---
 "The":https://mentalized.net/journal/2005/04/15/notetagger-getting-down-and-dirty/ "previous":https://mentalized.net/journal/2005/04/15/notetagger-adding-tags/ "installments":https://mentalized.net/journal/2005/04/27/notetagger-adding-the-ajax/ cover roughly 4 hours of development, research and taking notes for these posts. That is 4 hours from doing the initial
 
