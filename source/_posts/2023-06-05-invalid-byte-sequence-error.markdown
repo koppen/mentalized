@@ -6,7 +6,7 @@ categories:
 description: "Follow along as Jakob debugs and succesfully fixes an Encoding::InvalidByteSequenceError error on deploying a Bridgetown site to Digital Ocean."
 ---
 
-I recently ran into a weird error trying to deploy a [Bridgetown](https://www.bridgetownrb.com/) [site](https://www.frontlobby.dk) to [Digital Ocean](https://www.digitalocean.com)s app platform: `Encoding::InvalidByteSequenceError` while converting `ERBTemplates`. Here's what I did to fix it.
+I recently ran into a weird error trying to deploy a [Bridgetown](https://www.bridgetownrb.com/) [site](https://www.frontlobby.dk) to [Digital Ocean](https://www.digitalocean.com/?refcode=fbdd55a784a6)s app platform: `Encoding::InvalidByteSequenceError` while converting `ERBTemplates`. Here's what I did to fix it.
 
 <!--more-->
 
