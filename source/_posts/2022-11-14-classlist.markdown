@@ -17,7 +17,7 @@ So we made [Classlist](https://github.com/substancelab/classlist), a Ruby implem
 [`Classlist`](https://gemdocs.org/gems/classlist/1.1.0/Classlist.html) allows us to create, manipulate and pass around lists of classnames like so:
 
 ```ruby
-classes = Claslist.new
+classes = Classlist.new
 classes.add("rounded-full")
 classes.add("w-24 h-24")
 ```
