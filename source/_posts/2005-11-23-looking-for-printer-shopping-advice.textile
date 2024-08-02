@@ -2,6 +2,7 @@
 layout: post
 title: Looking for printer-shopping advice
 date: '2005-11-23 16:43:05 +0100'
+description: "I need a printer. Help me pick the best one for my needs."
 mt_id: 1474
 categories:
 - technology

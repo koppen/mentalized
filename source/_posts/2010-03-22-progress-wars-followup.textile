@@ -2,6 +2,7 @@
 layout: post
 title: Progress Wars followup
 date: '2010-03-22 20:53:43 +0100'
+description: "A followup on the launch of Progress Wars, a week later. It has become a suprisingly big success."
 mt_id: 2031
 categories:
 - projects

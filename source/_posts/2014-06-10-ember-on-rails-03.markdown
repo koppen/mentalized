@@ -1,6 +1,7 @@
 ---
 title: "Ember on Rails: Writing data to the backend"
 date: '2014-06-10 09:06:36 +0200'
+description: "Follow along as we learn to integrate Ember.js with Rails, creating an Ember app backed by a Rails JSON API."
 categories:
 - programming
 - technology

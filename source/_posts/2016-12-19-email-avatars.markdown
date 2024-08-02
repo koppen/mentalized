@@ -2,6 +2,7 @@
 title: "How to add an avatar to your emails"
 categories:
 - technology
+description: "Increase recognizability in recipient inboxes by adding a profile picture or avatar to your email in Gmail and other email clients."
 ---
 
 Email is great, but making your email stand out among the other attention-seeking items in your recipients inbox can be hard. One way to increase recognizability is to add a profile picture or avatar to your email.

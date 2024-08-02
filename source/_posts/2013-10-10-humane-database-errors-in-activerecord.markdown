@@ -1,6 +1,7 @@
 ---
 title: Humane database errors in ActiveRecord
 date: '2013-10-10 13:48:23 +0200'
+description: "We investigate how to handle database errors in ActiveRecord when caused by constraints in the database."
 mt_id: 2172
 categories:
 - programming

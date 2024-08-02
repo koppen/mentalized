@@ -3,7 +3,7 @@ title: "Emojis in MySQL, oh my 😣"
 categories:
 - software
 - technology
-description: "Even though we've jumped through all the hoops to make our MySQL 8 database accept emojis, we still see 'Incorrect string value' errors. This is how we found and fixed the last problem."
+description: "This is how we found and fixed 'Incorrect string value' errors after adding support for emojis to our MySQL 8 database."
 ---
 
 Running a fairly old application with a similarily old MySQL database is a source of neverending challenges. These are my notes from trying to make a Rails 7 application backed by a MySQL 8 database support emojis.

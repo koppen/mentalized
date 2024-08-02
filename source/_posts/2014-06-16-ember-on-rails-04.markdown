@@ -1,6 +1,7 @@
 ---
 title: "Ember on Rails: Validations"
 date: '2014-06-16 11:15:57 +0100'
+description: "Follow along as we learn to integrate Ember.js with Rails, creating an Ember app backed by a Rails JSON API."
 categories:
 - programming
 - technology
