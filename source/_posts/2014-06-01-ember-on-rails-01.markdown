@@ -197,5 +197,3 @@ When you refresh the books page at [http://0.0.0.0:3000/#/books](http://0.0.0.0:
 In the next parts of the series we'll look into showing actual data returned by the backend, and we'll add the ability to actually persist our Ember models on the backend.
 
 [Continue to part 2: Reading data from the backend](/journal/2014/06/01/ember-on-rails-02/)
-
-{% include ember_on_rails.html %}

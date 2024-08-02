@@ -21,9 +21,3 @@ This creates pretty much everything we need (Rails controller, model, routes, an
 
 
 We'll take a simplistic view and assume a book only ever has one author.
-
-
-
-
-{% include ember_on_rails.html %}
-

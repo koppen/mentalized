@@ -122,7 +122,3 @@ Now, if you try to add a book without a title you'll get an actual error message
 ![Serverside validation error rendered inline](/files/journal/ember/validation_error.png)
 
 And if you add a title and click "Save" the book is saved on the backend and you're shown the list of books. Success x 2!
-
-
-{% include ember_on_rails.html %}
-

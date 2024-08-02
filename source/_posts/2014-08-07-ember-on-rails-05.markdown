@@ -87,6 +87,3 @@ In Rails we can include `yield` in our application layouts to insert the output 
 But where Rails stops at the action level, Ember doesn't. Ember views can be nested inside Ember views which are inside Ember views.
 
 It really is views all the ways down.
-
-
-{% include ember_on_rails.html %}
