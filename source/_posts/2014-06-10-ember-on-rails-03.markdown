@@ -172,5 +172,3 @@ Victory!
 Let's recap: We now have a <del>fully</del> functional Ember application backend by a Rails backend. We can show data and add new data and have it persisted between sessions.
 
 In the [coming episode](/journal/2014/06/16/ember-on-rails-04/) we'll look at how validations - in particular [serverside validations](/journal/2014/06/16/ember-on-rails-04/) - work.
-
-{% include ember_on_rails.html %}
