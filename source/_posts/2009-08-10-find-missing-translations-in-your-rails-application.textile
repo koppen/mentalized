@@ -2,6 +2,7 @@
 layout: post
 title: Find missing translations in your Rails application
 date: '2009-08-10 10:39:40 +0200'
+description: "I've created a small script that finds and lists translation keys that do not exist in all locales in your Rails application."
 mt_id: 2004
 categories:
 - programming

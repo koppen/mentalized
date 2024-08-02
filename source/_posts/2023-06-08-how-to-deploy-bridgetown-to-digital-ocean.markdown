@@ -3,7 +3,7 @@ title: "How to deploy Bridgetown to Digital Ocean"
 categories:
 - software
 - technology
-description: "Bridgetown has a bunch of delicious deployment options, and if you want to deploy your static site on Digital Oceans app platform, this guide takes you through the process."
+description: "Bridgetown has a bunch of deployment options. This guide takes you through the process of deploying your static site on Digital Oceans app platform."
 ---
 
 Deploying a [Bridgetown](https://www.bridgetownrb.com) static site to [Digital Ocean](https://www.digitalocean.com/?refcode=fbdd55a784a6)s app platform is fairly straightforward, but does require knowing the right buttons to push and the correct commands to execute. This guide teaches you exactly that.

@@ -2,6 +2,7 @@
 layout: post
 title: Building your very own web2.0 layout
 date: '2005-10-10 11:38:35 +0200'
+description: "I guide you through creating your very own webdesign template ready to be applied to your web2.0 application or blog or startup or what else you see fit."
 mt_id: 1441
 categories:
 - webdesign
@@ -53,4 +54,3 @@ h2. Done yet?
 Nuh uh, we can't possible claim to be web2.0 without having a tag cloud, can we? So be it, and it'll gives a great excuse to link to a bunch of popular applications - namedropping2.0 - really showing that we're one of the cool kids.
 
 "Awesome, we've got it all now.":/files/journal/so_you_wanna_look_web2.0/step5.html: Tag clouds, gradient, big typefaces, standards, you name it. Could it look anymore web2.0? Feel free to snatch it, remix it, mash it up, digest it and spit it back out. It's yours2.0.
-

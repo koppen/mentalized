@@ -2,6 +2,7 @@
 layout: post
 title: 'Warning: GZip content, Flash Player, and Internet Explorer 6'
 date: '2007-07-31 13:11:29 +0200'
+description: 'A warning about using GZip encoding for Flash content in Internet Explorer 6.'
 mt_id: 1849
 categories:
 - technology
@@ -19,4 +20,3 @@ This took our "network mapper":http://www.biq.dk/tour/network offline until we w
 bc. SetEnvIf Request_URI "/network\.xml" no-gzip
 
 Sigh, why can't things just work out of the box in this business.
-

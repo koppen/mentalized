@@ -2,6 +2,7 @@
 title: "Commit messages deserve care and tenderness"
 categories:
 - programming
+description: "As someone who routinely has to figure out why a certain piece of code is like it is, I often read commit messages. And too often I am disappointed in them."
 published: true
 ---
 Commit messages are probably the most important piece of [documentation](http://mislav.uniqpath.com/2014/02/hidden-documentation/) we have. They are not to be taken lightly.
