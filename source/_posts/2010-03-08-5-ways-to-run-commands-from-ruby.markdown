@@ -102,9 +102,27 @@ output.readlines
 * Both STDOUT and STDERR are captured into nice IO objects.
 
 
+## <a href="https://ruby-doc.org/3.3.5/stdlibs/open3/Open3.html#method-i-capture3">Open3#capture3</a>
+
+An alternative to `Open#popen3`, which is perhaps simpler, is using `Open3#capture3`. It basically wraps `Open3#popen3` and returns STDERR and STDOUT as strings:
+
+``` ruby
+>> require 'open3'
+=> true
+>> stdout, stderr = Open3.capture3('./err.rb')
+=> ["out\n", "error\n", #<Process::Status: pid 68154 exit 0>]
+>> stdout
+=> ["out\n"]
+>> stderr
+=> ["err\n"]
+```
+
+* Both STDOUT and STDERR are captured into String objects.
+
+
 ## Alternative: Using 'nix redirection
 
-An alternative to Open#popen3 (terrible name) is using <a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html">standard output redirection</a>:
+Another alternative to `Open#popen3`, that still gives us both STDOUT and STDERR, is using <a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html">standard output redirection</a>:
 
 ``` ruby
 >> `./err.rb 2>&amp;1`
