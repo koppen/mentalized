@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/koppen/jekyll-seo-tag.git
+  revision: 1158b38eaa7b9c840b59064e6951d68604b2217f
+  branch: social_card_creator
+  specs:
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,8 +48,6 @@ GEM
       jekyll (>= 3.6, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-seo-tag (2.8.0)
-      jekyll (>= 3.8, < 5.0)
     jekyll-textile-converter (0.1.0)
       RedCloth (~> 4.0)
     jekyll-watch (2.2.1)
@@ -89,7 +95,7 @@ DEPENDENCIES
   RedCloth
   jekyll
   jekyll-archives
-  jekyll-seo-tag
+  jekyll-seo-tag!
   jekyll-textile-converter
   loofah
   redcarpet
