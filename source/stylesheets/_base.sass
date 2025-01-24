@@ -4,6 +4,8 @@
 //
 // http://smacss.com/book/type-base
 
+@use "sass:color"
+
 blockquote, figure, p, pre
   margin-bottom: 0.9em
   margin-top: 0.9em
@@ -103,7 +105,7 @@ table
   margin: 1em 0
   max-width: $content_width
   tr
-    border-bottom: 1px solid darken($background_color, 10%)
+    border-bottom: 1px solid color.adjust($background_color, $lightness: -10%)
   td, th
     background: #ffffff
     padding: 0.45em 0.9em
@@ -113,5 +115,5 @@ table
     &:last-child
       text-align: right
   th
-    background: darken($background_color, 10%)
+    background: color.adjust($background_color, $lightness: -10%)
     font-weight: bold
