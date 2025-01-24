@@ -1,10 +1,12 @@
 // Form Rules
 
+@use "sass:color"
+
 button
-  $_highlight_color: mix(#ffffff, lighten($link_color, 10%), 50%)
-  $_shadow_color: darken($link_color, 10%)
+  $_highlight_color: color.mix(#ffffff, color.adjust($link_color, $lightness: 10%), 50%)
+  $_shadow_color: color.adjust($link_color, $lightness: -10%)
   background: $link_color
-  background: linear-gradient(top, lighten($link_color, 10%), $link_color)
+  background: linear-gradient(top, color.adjust($link_color, $lightness: 10%), $link_color)
   border-radius: 0.4em
   border: 0.1em solid $_highlight_color
   border-bottom-color: $_shadow_color
