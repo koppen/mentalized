@@ -4,7 +4,7 @@ categories:
 - technology
 ---
 
-This week has been ... interesting. Not because of obvious geopolitical events, but because a [client application](https://eventzonen.dk) started throwing weird errors in background processes - and otherwise reliable cronjobs just didn't do what they were supposed to; no failures or anything, they just didn't process the records they were meant to.
+This week has been ... interesting. Not because of obvious geopolitical events, but because a [client application](https://eventzonen.dk) started throwing weird errors; background processes failed in ways that weren't possible and otherwise reliable cronjobs just didn't do what they were supposed to; no failures or anything, they just didn't process the records they were meant to.
 
 <!--more-->
 
