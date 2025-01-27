@@ -1,5 +1,5 @@
 ---
-title: "Caution: Be careful using ActiveRecords STI"
+title: "Active Record STI and eager loading"
 categories:
 - technology
 ---
