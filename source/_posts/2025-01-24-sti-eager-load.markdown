@@ -44,17 +44,17 @@ Lo and behold, we could reproduce the problem in development when setting `confi
 
 ```ruby
 ArtistEvent.limit(1).to_sql
-#=> "SELECT \"events\".* FROM \"events\" WHERE \"events\".\"type\" IN ('ArtistEvent', 'OfferEvent', 'BookingEvent') LIMIT 1"
+#=> "SELECT \"events\".* FROM \"events\" WHERE \"events\".\"type\" IN ('ArtistEvent') LIMIT 1"
 ```
 
 ### With `eager_load=true`
 
 ```ruby
 ArtistEvent.limit(1).to_sql
-#=> "SELECT \"events\".* FROM \"events\" WHERE \"events\".\"type\" IN ('ArtistEvent') LIMIT 1"
+#=> "SELECT \"events\".* FROM \"events\" WHERE \"events\".\"type\" IN ('ArtistEvent', 'OfferEvent', 'BookingEvent') LIMIT 1"
 ```
 
-In other words, when `eager_load` is set to `true`, our query exclusively loads models of type `ArtistEvent`, ie none. We want the subclasses of `ArtistEvent` to be loaded, which is what happens with `eager_load = false`.
+In other words, when `eager_load` is set to `false`, our query exclusively loads models of type `ArtistEvent`, ie none. We want the subclasses of `ArtistEvent` to be loaded, which is what happens with `eager_load = true`.
 
 ## RTFM
 
