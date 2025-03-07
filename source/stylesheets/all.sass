@@ -1,13 +1,13 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+@use "sass:meta"
 
-@import "normalize"
+@include meta.load-css("normalize")
 
-@import "settings"
-@import "base"
-@import "layout"
-@import "modules"
-@import "forms"
-@import "modules/mailchimp"
-@import "modules/social_links"
+@include meta.load-css("base")
+@include meta.load-css("layout")
+@include meta.load-css("modules")
+@include meta.load-css("forms")
+@include meta.load-css("modules/mailchimp")
+@include meta.load-css("modules/social_links")

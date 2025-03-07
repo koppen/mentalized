@@ -6,6 +6,8 @@
 
 @use "sass:color"
 
+@use "settings"
+
 blockquote, figure, p, pre
   margin-bottom: 0.9em
   margin-top: 0.9em
@@ -16,9 +18,9 @@ blockquote
   padding-right: 1.6em
 
 body
-  background: $background_color
+  background: settings.$background_color
   border-top: 1em solid #7F8D3E
-  color: $text_color
+  color: settings.$text_color
   font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Sans-serif
   line-height: 1.8em
 
@@ -47,12 +49,12 @@ h2
 
 a
   &:link
-    color: $text_color
+    color: settings.$text_color
     text-decoration: none
-    border-bottom: 0.18em solid $link_color
+    border-bottom: 0.18em solid settings.$link_color
   &:hover
-    color: $link_color
-    border-bottom: 0.18em solid $link_color
+    color: settings.$link_color
+    border-bottom: 0.18em solid settings.$link_color
 
 // Code examples
 // ------------------------------
@@ -85,10 +87,10 @@ article
       &:visited,
       &:hover
         border-bottom: none
-        color: $text_color
+        color: settings.$text_color
         text-decoration: none
       &:hover
-        color: $link_color
+        color: settings.$link_color
 
   ol, ul
     margin: 0.9em 0 0.9em 1.5em
@@ -103,9 +105,9 @@ article
 table
   border-collapse: collapse
   margin: 1em 0
-  max-width: $content_width
+  max-width: settings.$content_width
   tr
-    border-bottom: 1px solid color.adjust($background_color, $lightness: -10%)
+    border-bottom: 1px solid color.adjust(settings.$background_color, $lightness: -10%)
   td, th
     background: #ffffff
     padding: 0.45em 0.9em
@@ -115,5 +117,5 @@ table
     &:last-child
       text-align: right
   th
-    background: color.adjust($background_color, $lightness: -10%)
+    background: color.adjust(settings.$background_color, $lightness: -10%)
     font-weight: bold
