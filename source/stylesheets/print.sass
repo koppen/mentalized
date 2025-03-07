@@ -3,8 +3,8 @@
 ---
 @use "sass:meta"
 
-@import "settings"
-@import "layout"
+@include meta.load-css("settings")
+@include meta.load-css("layout")
 
 h1, h2, h3
   color: #3a3a3a
