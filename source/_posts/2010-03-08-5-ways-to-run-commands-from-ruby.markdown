@@ -133,6 +133,10 @@ This gives you both STDOUT and STDERR in one big string, which might be perfectl
 
 I am guessing this method would work for <a href="http://ruby-doc.org/core/classes/IO.html#M002242">IO#popen</a> as well as for the backticks.
 
+## Third party libraries
+
+All of the above are all part of Rubys standard library, but there are of course other alternatives if you dig into third party libraries. Of note is [Exeggutor](https://github.com/michaeleisel/Exeggutor/), which basically does everything you could need or want wrapped in an understandable API.
+
 ## What to choose?
 
 There is a great discussion about the different ways to call shell commands over at [Stack Overflow](https://stackoverflow.com/questions/2232/how-to-call-shell-commands-from-ruby), and in particular an excellent flowchart that can help you [decide what method to use when launching a subprocess](https://stackoverflow.com/a/37329716).
