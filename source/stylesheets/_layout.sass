@@ -4,7 +4,8 @@
 //
 // http://smacss.com/book/type-layout
 
-@import 'shared/separator'
+@use "settings"
+@use "shared/separator"
 
 article
   clear: both
@@ -12,7 +13,7 @@ article
   margin-top: 4em
   width: 100%
   p
-    max-width: $content_width
+    max-width: settings.$content_width
     @media (max-width:575px)
       max-width: 100%
   img
@@ -46,7 +47,7 @@ figure
   background-color: #ffffff
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 1em
   margin-left: 0
-  max-width: $content_width // Centers the image if it's smaller than the width
+  max-width: settings.$content_width // Centers the image if it's smaller than the width
   overflow: auto
   text-align: center
   @media (max-width:575px)
@@ -89,7 +90,7 @@ figcaption
 
 
 footer
-  +separator
+  +separator.separator
   clear: both
   display: block
   font-size: 0.8em
@@ -220,7 +221,7 @@ nav
     margin-left: 0
     width: auto
     &:last-child
-      +separator
+      +separator.separator
 
 .quad .column
   margin-left: 4%
@@ -230,4 +231,3 @@ nav
     &:nth-child(2n+1)
       clear: left
       margin-left: 0
-

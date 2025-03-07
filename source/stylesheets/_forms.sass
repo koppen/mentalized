@@ -2,11 +2,13 @@
 
 @use "sass:color"
 
+@use "settings"
+
 button
-  $_highlight_color: color.mix(#ffffff, color.adjust($link_color, $lightness: 10%), 50%)
-  $_shadow_color: color.adjust($link_color, $lightness: -10%)
-  background: $link_color
-  background: linear-gradient(top, color.adjust($link_color, $lightness: 10%), $link_color)
+  $_highlight_color: color.mix(#ffffff, color.adjust(settings.$link_color, $lightness: 10%), 50%)
+  $_shadow_color: color.adjust(settings.$link_color, $lightness: -10%)
+  background: settings.$link_color
+  background: linear-gradient(top, color.adjust(settings.$link_color, $lightness: 10%), settings.$link_color)
   border-radius: 0.4em
   border: 0.1em solid $_highlight_color
   border-bottom-color: $_shadow_color
