@@ -2,6 +2,8 @@
 title: "Driving View Transitions with Hotwired/Turbo"
 categories:
 - technology
+description: "Learn how straightforward it is to add transitions between your pages using Hotwired/Turbo"
+
 ---
 
 View transitions between pages has been a reality on the web for quite a while now (at least in the browsers that support it). It has also been possible to use them with Turbo, albeit somewhat [cumbersome](https://dev.to/nejremeslnici/how-to-use-view-transitions-in-hotwire-turbo-1kdi), but that's changed. [Turbo](https://turbo.hotwired.dev/) now has built-in support for the [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) as of version 8+.
