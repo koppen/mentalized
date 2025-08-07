@@ -10,7 +10,7 @@ Running a fairly old application with a similarily old MySQL database is a sourc
 
 <!--more-->
 
-Even though we've jumped through all the hoops to make our [MySQL](https://www.mysql.com/) 8 database accept emojis (and other characters, but really, it's all about the emojis), we'd still see errors from our [exception tracker](https://www.honeybadger.io/) indicating stuff wasn't working as intended:
+Even though we've jumped through all the hoops to make our [MySQL](https://www.mysql.com/) 8 database accept emojis (and other characters, but really, it's all about the emojis), we'd still see errors from our [exception tracker](https://app.honeybadger.io/users/sign_up?referred_by=Jr7WdmPqBTTMJT3u) indicating stuff wasn't working as intended:
 
 > ActiveRecord::StatementInvalid: Mysql2::Error: Incorrect string value: '\xF0\x9D\x97\xA5\...' for column 'description' at row 1
 

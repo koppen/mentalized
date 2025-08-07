@@ -9,7 +9,7 @@ categories:
 ---
 Staying on top of errors that happen in your production Rails applications is a must. Unfortunately trawling through log files get old really fast, and getting enough information about where the error happened can be hard.
 
-That's what services like "Honeybadger":https://www.honeybadger.io/ or "Airbrake":https://airbrake.io solves. Whenever an error occurs in your application the details are sent to their service, where you are able to see when, where and how many times a given error has occurred.
+That's what services like "Honeybadger":https://app.honeybadger.io/users/sign_up?referred_by=Jr7WdmPqBTTMJT3u or "Airbrake":https://airbrake.io solves. Whenever an error occurs in your application the details are sent to their service, where you are able to see when, where and how many times a given error has occurred.
 
 However, if you're uneasy about sending this level of details to a third party service - or if you're simply a cheapskate like me, there is another way using "Redmine":http://redmine.org.
 
