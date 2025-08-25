@@ -53,12 +53,40 @@ With the recent release of Ruby 2.2, the above is no longer accurate. With Ruby 
 h = {"foo": :bar}
 ```
 
+## It's implicit type coercion...
+
 Ruby still really wants you to use a `Symbol`, though, so the key will stealthily (no warnings, nothing) be changed from a `String` to a `Symbol` behind your back:
 
 ``` ruby
 h = {"foo": :bar} #=> {:foo=>:bar}
 h["foo"] #=> nil
 ```
+
+This is an example from a real life test suite testing some JSON API. The API responds with the following JSON:
+
+```json
+{
+    "id": "folder_id"
+}
+```
+
+which is tested (using RSpec):
+
+```ruby
+expect(response).to eq({"id": "folder_id"})
+```
+
+but this fails! Why? Because `"id":` doesn't mean the `String` `"id"`, (which is what is what the code explicitly says), but rather the `Symbol` `:id`:
+
+```
+     Failure/Error: expect(response).to eq({"id": "folder_id"})
+
+       expected: {:id=>"folder_id"}
+            got: {"id"=>"folder_id"}
+```
+
+😤
+
 
 ## You still have to use hash rockets
 
