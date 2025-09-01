@@ -8,7 +8,7 @@ description: "If you get an 'ld: library not found for -lzstd' message when inst
 
 I have a history of problems with installing the mysql2 gem, and this is just another chapter in [that tale](https://mentalized.net/journal/2020/08/06/mysql2-gem-with-mysql-56/). If you receive a `ld: library not found for -lzstd` error when running bundler or otherwise attempt to install the mysql2 gem, this might be the solution.
 
-<!--more -->
+<!--more-->
 
 ## What I experienced
 
