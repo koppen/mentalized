@@ -5,6 +5,7 @@ date: '2005-08-23 10:04:04 +0200'
 mt_id: 1399
 categories:
 - programming
+- Rails
 ---
 What's wrong with this line of "Ruby on Rails":http://www.rubyonrails.com code?
 

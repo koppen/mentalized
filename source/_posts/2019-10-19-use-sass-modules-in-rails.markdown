@@ -1,6 +1,7 @@
 ---
 title: "How to use Sass modules in Rails with Webpacker"
 categories:
+- Rails
 - technology
 ---
 
@@ -26,7 +27,7 @@ If you have already set up the above, jump directly to "Use Dart Sass instead of
 Let's create a sample Rails application for this, skipping over the default sprockets-based asset pipeline:
 
 ```bash
-$ rails new dart-sass --skip-sprockets 
+$ rails new dart-sass --skip-sprockets
 $ cd dart-sass
 $ rails generate controller hello world
 $ rails server
@@ -98,7 +99,7 @@ and let's use it in `application.scss`:
 
 body {
   @include background.red;
-}  
+}
 ```
 
 If you now refresh your webbrowser, you'll get a `

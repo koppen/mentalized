@@ -5,6 +5,7 @@ date: '2006-06-19 08:53:47 +0200'
 mt_id: 1631
 categories:
 - programming
+- Rails
 - webdesign
 - projects
 ---

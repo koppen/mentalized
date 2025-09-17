@@ -5,6 +5,7 @@ date: '2006-02-02 16:38:11 +0100'
 mt_id: 1525
 categories:
 - programming
+- Rails
 ---
 One of the oft-ranted about features of Rails, is the Inflector - also known as that f***** pluralizer. To turn it off, put this in your config/environment.rb, below the line that says "Include your application configuration below":
 

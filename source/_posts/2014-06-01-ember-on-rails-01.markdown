@@ -4,6 +4,7 @@ date: '2014-06-01 21:05:54 +0100'
 description: "Follow along as we learn to integrate Ember.js with Rails, creating an Ember app backed by a Rails JSON API."
 categories:
 - programming
+- Rails
 - technology
 published: true
 series: "Ember on Rails"

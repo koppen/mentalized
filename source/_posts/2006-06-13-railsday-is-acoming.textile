@@ -5,6 +5,7 @@ date: '2006-06-13 10:45:05 +0200'
 mt_id: 1627
 categories:
 - programming
+- Rails
 ---
 This coming Saturday will bring about "24 hours of Rails programming mayhem":http://www.railsday2006.com/. Participating would be extremely cool and fun to boot, but I have no team or no really good ideas for a killer application.
 

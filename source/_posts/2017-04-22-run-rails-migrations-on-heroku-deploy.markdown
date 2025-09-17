@@ -2,6 +2,7 @@
 title: "Run migrations when deploying to Heroku"
 categories:
 - projects
+- Rails
 - Substance Lab
 - software
 description: "Running migrations automatically when you deploy your application to Heroku is super helpful. Here's how to do it."

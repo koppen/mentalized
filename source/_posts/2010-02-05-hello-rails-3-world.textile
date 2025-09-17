@@ -6,6 +6,7 @@ description: "A step by step tutorial to creating the traditional 'hello world' 
 mt_id: 2024
 categories:
 - programming
+- Rails
 ---
 A long time ago (one day short of exactly 4 years) I posted a super simple - and to be honest - pointless "Hello World example using Ruby on Rails":https://mentalized.net/journal/2006/02/06/hello-ruby-on-rails-world/. Back then the "Rails":http://rubyonrails.org version was 1.0.
 

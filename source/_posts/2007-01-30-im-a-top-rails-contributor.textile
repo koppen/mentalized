@@ -6,6 +6,7 @@ mt_id: 1781
 categories:
 - BiQ on Rails
 - programming
+- Rails
 ---
 Cool, I made it into the "top 40 Rails contributors":http://www.oreillynet.com/ruby/blog/2007/01/railsconf_2007_cd_baby_hackfes.html in January. Which means I might end up with a free registration to the "US RailsConf 2007":http://conferences.oreillynet.com/rails/ and a hotel room, courtesy of "CD Baby":http://cdbaby.com/ - assuming enough of the "top 20 contributors":http://workingwithrails.com/contests/hackfest2007/winners can't make it to RailsConf.
 

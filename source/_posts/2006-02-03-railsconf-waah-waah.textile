@@ -5,6 +5,7 @@ date: '2006-02-03 11:35:05 +0100'
 mt_id: 1526
 categories:
 - programming
+- Rails
 ---
 So "RailsConf 2006 registration has opened":http://www.railsconf.org/articles/2006/02/02/registration-is-open. Boy oh boy, would I like to go. But clocking in at minimum $400 for registration and a lot more for travelling expenses I can't justify it. "The side job":https://substancelab.com doesn't currently make enough money for that, and "the day job":http://www.biq.dk doesn't use Rails.
 

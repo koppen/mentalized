@@ -5,6 +5,7 @@ date: '2006-12-08 15:46:52 +0100'
 mt_id: 1757
 categories:
 - programming
+- Rails
 ---
 "Rails":http://www.rubyonrails.org views are powerful creatures. You have the full power of "Ruby":http://ruby-lang.org right at your fingertips, which makes it easy to write too much Ruby code in your view making them become cluttered and hard to read.
 

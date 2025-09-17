@@ -6,6 +6,7 @@ description: "I've created a small script that finds and lists translation keys 
 mt_id: 2004
 categories:
 - programming
+- Rails
 ---
 I am currently wrapping up a client-project where I am preparing a "Rails":http://rubyonrails.org application for "internationalization":http://guides.rubyonrails.org/i18n.html. The application is currently in English and I am translating it to Danish as a proof of concept.
 

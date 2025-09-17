@@ -2,6 +2,7 @@
 title: "Ember on Rails: Nested views"
 categories:
 - programming
+- Rails
 - technology
 description: "Follow along as we learn to integrate Ember.js with Rails, creating an Ember app backed by a Rails JSON API."
 published: true

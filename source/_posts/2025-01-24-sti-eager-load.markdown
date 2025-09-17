@@ -1,6 +1,7 @@
 ---
 title: "Active Record STI and eager loading"
 categories:
+- Rails
 - technology
 ---
 
