@@ -5,6 +5,7 @@ date: '2005-10-26 08:51:10 +0200'
 mt_id: 1455
 categories:
 - programming
+- Rails
 ---
 In these times where "Rails 1.0 Release Candidates":http://weblog.rubyonrails.com/archives/2005/10/25/rails-1-0-rc3-0-14-2-a-bunch-of-little-things introduce "memory leaks":http://weblog.textdrive.com/article/178/fun, bugs, and whatnot, you might want to lock your Rails application to a tried and tested version.
 

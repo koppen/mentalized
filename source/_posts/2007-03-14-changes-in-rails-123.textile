@@ -6,6 +6,7 @@ mt_id: 1797
 categories:
 - programming
 - technology
+- Rails
 ---
 "Rails 1.2.3 was released today":http://weblog.rubyonrails.com/2007/3/14/rails-1-2-3-compatible-with-ruby-1-8-6-and-other-fixes, primarily to fix a few bugs and compatibility issues with the recently released Ruby 1.8.6.
 
@@ -48,5 +49,4 @@ h2. RailTies
 
 * Ruby 1.8.6 compatibility
 * Windows: include MinGW in RUBY_PLATFORM check.  #2982 [okkez000@gmail.com, Kaspar Schiess]
-* Stop swallowing errors during rake test [Koz]	
-
+* Stop swallowing errors during rake test [Koz]

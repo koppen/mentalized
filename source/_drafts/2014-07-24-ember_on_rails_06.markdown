@@ -3,6 +3,7 @@ title: "Ember on Rails: Relationships"
 date: '2014-07-24 11:15:57 +0100'
 categories:
 - programming
+- Rails
 - technology
 published: false
 series: "Ember on Rails"

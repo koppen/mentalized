@@ -4,6 +4,7 @@ title: Heroku, Rails 3, and Sass
 date: '2010-04-06 08:58:20 +0200'
 mt_id: 2032
 categories:
+- Rails
 - technology
 ---
 "Heroku":http://heroku.com is a great way to host your Rails apps. "Rails 3":http://weblog.rubyonrails.org/2010/4/1/rails-3-0-second-beta-release is the new hotness. "Sass":http://sass-lang.com/ is a decent way to write your stylesheets. Unfortunately combining the three isn't as straight forward as it could be, but it can be done.

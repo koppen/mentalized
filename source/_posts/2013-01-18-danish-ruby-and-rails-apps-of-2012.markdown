@@ -6,6 +6,7 @@ categories:
 - Copenhagen.rb
 - Substance Lab
 - projects
+- Rails
 ---
 While the danish Ruby on Rails community [isn't as big as it should be](https://mentalized.net/journal/2011/08/11/the-state-of-ruby-in-denmark/), we're far from an inactive bunch.
 

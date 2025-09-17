@@ -1,6 +1,7 @@
 ---
 title: "SimpleLocalize on Rails"
 categories:
+- Rails
 - software
 - technology
 description: "Learn to integrate SimpleLocalize with Rails for efficient translation management. Ideal for developers on multi-language Rails apps."

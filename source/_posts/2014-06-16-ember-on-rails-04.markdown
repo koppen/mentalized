@@ -4,6 +4,7 @@ date: '2014-06-16 11:15:57 +0100'
 description: "Follow along as we learn to integrate Ember.js with Rails, creating an Ember app backed by a Rails JSON API."
 categories:
 - programming
+- Rails
 - technology
 description: "Part 4 of my Ember on Rails tutorial shows how to manage validations in an Ember frontend using Rails as for the backend."
 published: true

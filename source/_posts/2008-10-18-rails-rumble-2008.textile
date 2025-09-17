@@ -5,6 +5,7 @@ date: '2008-10-18 09:42:29 +0200'
 mt_id: 1995
 categories:
 - projects
+- Rails
 ---
 "Rails Rumble 2008":http://railsrumble.com is in full effect. Rails Rumble is a 48 hour Rails development contest, and I and two others from the "Copenhagen Ruby Brigade":http://copenhagenrb.dk have decided to enter the fray.
 
