@@ -1,6 +1,7 @@
 ---
 title: "My beef with Tailwind UI"
 categories:
+- Rails
 - development
 - technology
 description: "Tailwind CSS and Tailwind UI are great, but I must admit; as a long-time semantic-markup-separation-of-concerns-advocate, there are some issues."

@@ -3,6 +3,7 @@ title: Destroying anchovies
 date: '2012-07-31 13:45:39 +0200'
 mt_id: 2135
 categories:
+- Rails
 - programming
 ---
 When ordering pizza from an unknown pizza joint, I used to order a number 7 without anchovies. I didn't know what pizza number 7 was, but I knew I didn't want anchovies.

@@ -4,6 +4,7 @@ title: Ruby, Rails, and the mainstream
 date: '2006-04-07 13:33:15 +0200'
 mt_id: 1583
 categories:
+- Rails
 - programming
 - technology
 ---

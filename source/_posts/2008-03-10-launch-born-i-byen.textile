@@ -4,6 +4,7 @@ title: "Launch: Børn i byen"
 date: '2008-03-10 10:13:11 +0100'
 mt_id: 1932
 categories:
+- Rails
 - projects
 ---
 This is probably one of those posts, that I ought to in Danish, oh well...

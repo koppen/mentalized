@@ -1,6 +1,7 @@
 ---
 title: "How to use a different database for each branch in Rails"
 categories:
+- Rails
 - development
 - technology
 description: "With a Rails app, how do you manage switching between a bunch of different branches that have different DB schemas/migration states?"

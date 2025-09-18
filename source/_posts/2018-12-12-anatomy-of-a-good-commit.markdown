@@ -2,6 +2,7 @@
 title: "The anatomy of a good commit"
 date: '2018-12-12 11:43:23 +0200'
 categories:
+- Rails
 - programming
 ---
 

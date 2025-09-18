@@ -4,6 +4,7 @@ title: Lighttpd mod_cgi slowdown issue
 date: '2005-09-21 17:31:05 +0200'
 mt_id: 1421
 categories:
+- Rails
 - technology
 - projects
 ---

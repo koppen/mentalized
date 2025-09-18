@@ -4,6 +4,7 @@ title: I've been ripped off
 date: '2005-06-14 10:55:39 +0200'
 mt_id: 1343
 categories:
+- Rails
 - projects
 - webdesign
 ---

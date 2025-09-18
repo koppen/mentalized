@@ -4,6 +4,7 @@ title: Java kicks Ruby in the what now?
 date: '2009-05-19 11:46:00 +0200'
 mt_id: 2001
 categories:
+- Rails
 - programming
 - technology
 ---

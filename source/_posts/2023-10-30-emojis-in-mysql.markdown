@@ -1,6 +1,7 @@
 ---
 title: "Emojis in MySQL, oh my 😣"
 categories:
+- Rails
 - software
 - technology
 description: "This is how we found and fixed 'Incorrect string value' errors after adding support for emojis to our MySQL 8 database."

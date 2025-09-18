@@ -5,6 +5,7 @@ date: '2005-05-18 11:43:00 +0200'
 description: "Time to take Notetagger up a notch and add support for multiple users using subdomains as account keys."
 mt_id: 1318
 categories:
+- Rails
 - projects
 ---
 Time to take Notetagger up a notch and add support for multiple users. And being the always creative and innovative person I am, I'll naturally be doing what the cool kids are doing; using subdomains as account keys.

@@ -1,6 +1,7 @@
 ---
 title: "Webpacker 6 conflicts with .br extensions"
 categories:
+- Rails
 - development
 - technology
 description: "Running Webpacker with a v6 pre-release and/or beta, you might see errors saying you have conflicting assets named something .br. This shows how to fix it."

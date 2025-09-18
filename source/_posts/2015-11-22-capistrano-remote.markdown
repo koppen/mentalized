@@ -2,6 +2,7 @@
 title: Announcing Capistrano-Remote
 layout: post
 categories:
+- Rails
 - programming
 - projects
 - technology

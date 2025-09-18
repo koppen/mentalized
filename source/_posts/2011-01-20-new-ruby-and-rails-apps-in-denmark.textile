@@ -4,6 +4,7 @@ title: New Ruby and Rails apps in Denmark
 date: '2011-01-20 13:17:41 +0100'
 mt_id: 2083
 categories:
+- Rails
 - projects
 - technology
 ---

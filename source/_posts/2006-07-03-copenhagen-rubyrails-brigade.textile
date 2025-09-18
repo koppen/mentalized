@@ -4,6 +4,7 @@ title: Copenhagen Ruby/Rails Brigade
 date: '2006-07-03 08:51:21 +0200'
 mt_id: 1644
 categories:
+- Rails
 - Copenhagen.rb
 ---
 Thursday marked the first, casual gathering of what is hopefully going to become the Copenhagen Rails User Group or something like it. We had a great evening with great people, and spent most the time presenting ourselves and discussing what came to mind.

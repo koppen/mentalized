@@ -4,6 +4,7 @@ title: Suppress warnings from Ruby
 date: '2010-04-02 10:13:09 +0200'
 mt_id: 2035
 categories:
+- Rails
 - programming
 ---
 We Ruby programmers routinely do things that other programmers frown upon, and - in many cases - won't even be allowed to do by their interpreter/compiler.

@@ -4,6 +4,7 @@ title: Setting the request content type in Rails
 date: '2005-11-14 15:54:29 +0100'
 mt_id: 1467
 categories:
+- Rails
 - programming
 description: "Setting the content type and character set of your responses of your Rails application is simple, just do this"
 ---

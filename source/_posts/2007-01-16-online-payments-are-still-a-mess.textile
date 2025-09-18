@@ -4,6 +4,7 @@ title: Online payments are still a mess
 date: '2007-01-16 15:07:25 +0100'
 mt_id: 1772
 categories:
+- Rails
 - business
 - technology
 - projects

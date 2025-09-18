@@ -4,6 +4,7 @@ title: Hello Ruby on Rails world
 date: '2006-02-06 11:34:37 +0100'
 mt_id: 1528
 categories:
+- Rails
 - programming
 description: "Follow this step by step tutorial to learn how to create the classic 'hello world' application in Ruby on Rails 1.0."
 ---

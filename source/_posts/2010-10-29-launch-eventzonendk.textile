@@ -4,6 +4,7 @@ title: 'Launch: Eventzonen.dk'
 date: '2010-10-29 09:31:39 +0200'
 mt_id: 2073
 categories:
+- Rails
 - projects
 ---
 Some time ago I pressed the big red launch button on another project built by "Substance Lab":https://substancelab.com: "Eventzonen.dk":http://eventzonen.dk

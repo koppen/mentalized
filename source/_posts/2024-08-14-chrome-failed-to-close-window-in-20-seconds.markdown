@@ -1,6 +1,7 @@
 ---
 title: "How to fix (some) UnknownError and InvalidArgumentError in Capybara"
 categories:
+- Rails
 - software
 - technology
 description: "Fix UnknownError and InvalidArgumentError in Capybara by adding --disable-search-engine-choice-screen to Chrome driver options to bypass search engine dialog."

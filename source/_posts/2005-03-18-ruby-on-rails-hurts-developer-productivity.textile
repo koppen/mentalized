@@ -4,6 +4,7 @@ title: Ruby on Rails hurts developer productivity
 date: '2005-03-18 14:05:47 +0100'
 mt_id: 1263
 categories:
+- Rails
 - programming
 ---
 Gah, using "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com is seriously influencing my productivity at work in a negative way. I take longer doing simple stuff, my code has more errors and never works the first time anymore.

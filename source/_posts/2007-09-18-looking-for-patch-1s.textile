@@ -4,6 +4,7 @@ title: Looking for patch +1's
 date: '2007-09-18 14:57:09 +0200'
 mt_id: 1868
 categories:
+- Rails
 - programming
 ---
 During his keynote today, and now on the Rails blog, "David":http://www.loudthinking.com explained "the new policy for getting patches into Rails":http://weblog.rubyonrails.com/2007/9/15/how-to-get-a-patch-into-rails.

@@ -4,6 +4,7 @@ title: ActiveRecord oddity of the day
 date: '2010-01-22 09:52:45 +0100'
 mt_id: 2020
 categories:
+- Rails
 - programming
 ---
 Yesterday I got bit by this fairly obscure behavior in "ActiveRecord":http://api.rubyonrails.org/classes/ActiveRecord/Base.html:

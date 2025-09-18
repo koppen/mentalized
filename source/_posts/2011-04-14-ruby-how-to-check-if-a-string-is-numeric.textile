@@ -4,6 +4,7 @@ title: 'Ruby: How to check if a String is numeric'
 date: '2011-04-14 12:17:15 +0200'
 mt_id: 2103
 categories:
+- Rails
 - programming
 description: "In this article we'll dig into how you might check if a given String value is really a numeric value."
 ---

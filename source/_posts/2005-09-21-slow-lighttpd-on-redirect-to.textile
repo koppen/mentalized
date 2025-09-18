@@ -4,6 +4,7 @@ title: Slow Lighttpd on redirect_to
 date: '2005-09-21 19:35:06 +0200'
 mt_id: 1422
 categories:
+- Rails
 - technology
 ---
 This seems to be an issue that pops up every so often on the Ruby on Rails mailing list and IRC channel and probably elsewhere. When using "Lighttpd":http://www.lighttpd.net proxypassed behind Apache (this might also be true if you're not behind Apache, I'm too lazy to check) the redirect_to function will take roughly 30 seconds to complete.

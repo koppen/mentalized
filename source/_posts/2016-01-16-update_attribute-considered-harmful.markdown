@@ -1,6 +1,7 @@
 ---
 title: "<code>update_attribute</code> considered harmful"
 categories:
+- Rails
 - programming
 - projects
 - technology

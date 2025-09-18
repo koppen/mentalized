@@ -4,6 +4,7 @@ title: Testing HTML emails with Rails and Litmus
 date: '2009-04-08 14:16:50 +0200'
 mt_id: 1999
 categories:
+- Rails
 - webdesign
 - software
 - projects

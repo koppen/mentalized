@@ -4,6 +4,7 @@ title: Notetagger - Getting down and dirty
 date: '2005-04-15 14:00:24 +0200'
 mt_id: 1293
 categories:
+- Rails
 - projects
 description: "In this installment of Project Notetagger I dig into the gritty, technical details and start writing real code."
 ---

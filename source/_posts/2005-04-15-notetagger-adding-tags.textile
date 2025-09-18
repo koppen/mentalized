@@ -4,6 +4,7 @@ title: Notetagger - Adding tags
 date: '2005-04-15 14:23:13 +0200'
 mt_id: 1294
 categories:
+- Rails
 - projects
 description: "We continue building our theoretical product, Notetagger. Today we'll be adding the actual tagging functionality."
 ---

@@ -3,6 +3,7 @@ title: "Getting Real(time) with Rails - part 2"
 date: '2018-05-20 20:11:23 +0200'
 series: "Getting Real(time) with Rails"
 categories:
+- Rails
 - programming
 - technology
 ---

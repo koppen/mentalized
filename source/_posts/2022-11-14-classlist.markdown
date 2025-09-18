@@ -1,6 +1,7 @@
 ---
 title: "Introducing Classlist"
 categories:
+- Rails
 - software
 - technology
 description: "Classlist is a Ruby implementation of DOMTokenList for easier manipulation of CSS classnames in Ruby"

@@ -4,6 +4,7 @@ title: Introducing Progress Wars
 date: '2010-03-15 13:36:48 +0100'
 mt_id: 2030
 categories:
+- Rails
 - projects
 - games
 description: "I bring you Progress Wars the ultimate game of progression, a bold and fresh take on classics like Mafia Wars, Pirate Wars, Ninja Wars"

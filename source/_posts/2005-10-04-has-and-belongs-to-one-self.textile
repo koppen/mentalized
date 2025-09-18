@@ -4,6 +4,7 @@ title: has_and_belongs_to_one_self
 date: '2005-10-04 20:47:58 +0200'
 mt_id: 1437
 categories:
+- Rails
 - programming
 ---
 This little Ruby on Rails snippet solves a problem I've seen some people get confused by. I figured I'd share my way of doing it.

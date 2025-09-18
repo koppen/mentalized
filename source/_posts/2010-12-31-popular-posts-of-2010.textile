@@ -4,6 +4,7 @@ title: Popular posts of 2010
 date: '2010-12-31 13:58:39 +0100'
 mt_id: 2078
 categories:
+- Rails
 - mentalized.net
 ---
 It's the last day of the year 2010. What better time is there to do what everybody else is doing and dive into Google Analytics and pretend statistics matter.

@@ -4,6 +4,7 @@ title: My stages of Ruby on Rails acceptance
 date: '2005-10-14 09:21:02 +0200'
 mt_id: 1447
 categories:
+- Rails
 - programming
 ---
 Andy Budd has posted a about "the stages of technological acceptance":http://www.andybudd.com/archives/2005/10/the_six_stages_of_technological_acceptance/. They seem to mirror my acceptance of "Ruby":http://ruby-lang.org and "Rails":http://www.rubyonrails.com quite well.

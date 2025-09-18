@@ -4,6 +4,7 @@ title: Localizable Rails 3 validators
 date: '2011-01-07 10:57:34 +0100'
 mt_id: 2080
 categories:
+- Rails
 - programming
 ---
 "Rails 3":http://rubyonrails.org introduced a new style of validators that allow us to group validations for each attribute into their own line. It also became easy to "create our own, custom validators":http://www.perfectline.ee/blog/building-ruby-on-rails-3-custom-validators.

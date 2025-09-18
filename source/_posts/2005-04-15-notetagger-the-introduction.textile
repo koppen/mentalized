@@ -4,6 +4,7 @@ title: Notetagger - The introduction
 date: '2005-04-15 11:14:41 +0200'
 mt_id: 1291
 categories:
+- Rails
 - projects
 ---
 I want to get into using "Ajax(Adaptive Path)":http://www.adaptivepath.com/publications/essays/archives/000385.php. I want to get more "Ruby on Rails(Ruby on Rails)":http://www.rubyonrails.com/ experience. I want an online place to post my thoughts and notes since my memory isn't quite reliable.

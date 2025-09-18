@@ -5,6 +5,7 @@ description: "We investigate how to handle database errors in ActiveRecord when 
 mt_id: 2172
 categories:
 - programming
+- Rails
 ---
 [`ActiveRecord`](http://api.rubyonrails.org/classes/ActiveRecord/Base.html) doesn't really play well with database constraints and other builtin data consistency mechanisms.
 

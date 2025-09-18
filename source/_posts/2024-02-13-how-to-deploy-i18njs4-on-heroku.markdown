@@ -1,6 +1,7 @@
 ---
 title: "How to deploy i18n-js to Heroku when using jsbundling"
 categories:
+- Rails
 - software
 - technology
 description: "If you're having problems deploying a Rails application using esbuild, webpack and i18n-js to Heroku, this might be the solution."

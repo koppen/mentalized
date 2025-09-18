@@ -4,6 +4,7 @@ title: Tracking exceptions with Redmine
 date: '2010-11-23 09:45:51 +0100'
 mt_id: 2076
 categories:
+- Rails
 - software
 - programming
 ---
