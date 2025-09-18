@@ -4,6 +4,7 @@ title: Startup lessons from Rails Rumble
 date: '2010-11-01 09:56:58 +0100'
 mt_id: 2070
 categories:
+- Rails
 - projects
 - usability
 - business

@@ -4,6 +4,7 @@ title: Procrastinating I am not
 date: '2005-03-01 15:32:32 +0100'
 mt_id: 1250
 categories:
+- Rails
 - blogging
 ---
 It's been pretty quiet around here lately, owing largely due to a project I am currently working on. Actually, that should probably read "playing with", since I am finding web development fun again, thanks to "Davids(Loud Thinking)":http://loudthinking.com excellent "Ruby on Rails framework(Ruby on Rails)":http://www.rubyonrails.com - which is getting ever closer to the mythical version 1.0. Can't wait.

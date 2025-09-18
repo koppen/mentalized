@@ -4,6 +4,7 @@ title: Calling Railsheads in Copenhagen
 date: '2006-05-31 14:20:14 +0200'
 mt_id: 1617
 categories:
+- Rails
 - programming
 - Copenhagen.rb
 ---

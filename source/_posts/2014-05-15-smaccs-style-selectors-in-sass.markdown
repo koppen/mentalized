@@ -1,6 +1,7 @@
 ---
 title: "SMACSS-style selectors in Sass"
 categories:
+- Rails
 - programming
 - technology
 published: true

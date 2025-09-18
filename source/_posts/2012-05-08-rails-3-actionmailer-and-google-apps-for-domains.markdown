@@ -3,6 +3,7 @@ title: Rails 3, ActionMailer, and Google Apps for Domains
 date: '2012-05-08 18:08:43 +0200'
 mt_id: 2141
 categories:
+- Rails
 - software
 ---
 After upgrading my [Redmine](http://redmine.org) installation to Redmine 2 (the development branch) emails stopped being delivered.

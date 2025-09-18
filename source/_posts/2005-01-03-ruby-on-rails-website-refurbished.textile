@@ -4,6 +4,7 @@ title: Ruby on Rails website refurbished
 date: '2005-01-03 14:25:40 +0100'
 mt_id: 849
 categories:
+- Rails
 - projects
 - webdesign
 ---

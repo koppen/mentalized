@@ -3,6 +3,7 @@ title: 48 hours of commits visualized
 date: '2012-10-16 07:41:00 +0200'
 mt_id: 2151
 categories:
+- Rails
 - projects
 - programming
 excerpt: "48 hours, 4 developers, one repository - all visualized with Gource"

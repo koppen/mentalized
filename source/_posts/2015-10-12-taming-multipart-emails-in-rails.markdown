@@ -2,6 +2,7 @@
 title: Taming multipart emails in Rails
 layout: post
 categories:
+- Rails
 - programming
 - technology
 ---

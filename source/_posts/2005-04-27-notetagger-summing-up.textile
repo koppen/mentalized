@@ -4,6 +4,7 @@ title: Notetagger - Summing up
 date: '2005-04-27 17:04:58 +0200'
 mt_id: 1306
 categories:
+- Rails
 - projects
 description: "We look back at building a simple tagging application in Rails, 4 hours from start to finish."
 ---

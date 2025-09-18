@@ -3,6 +3,7 @@ title: Popular posts of 2012
 date: '2013-01-02 11:28:50 +0100'
 mt_id: 2157
 categories:
+- Rails
 - blogging
 - browsers
 - mentalized.net

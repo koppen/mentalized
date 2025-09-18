@@ -3,6 +3,7 @@ title: Announcing r-conomic
 date: '2011-08-02 10:45:27 +0200'
 mt_id: 2112
 categories:
+- Rails
 - projects
 - software
 - programming

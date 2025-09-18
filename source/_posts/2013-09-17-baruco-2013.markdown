@@ -3,6 +3,7 @@ title: Baruco 2013
 date: '2013-09-17 21:28:42 +0200'
 mt_id: 2170
 categories:
+- Rails
 - life
 - technology
 - software

@@ -4,6 +4,7 @@ title: Watch out for those return values
 date: '2006-05-16 10:22:19 +0200'
 mt_id: 1610
 categories:
+- Rails
 - programming
 ---
 For the first time a Rubyism has bit me using Rails. I needed to make sure a field was set to false and not null. So I added af before_save callback to my ActiveRecord model:

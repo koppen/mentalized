@@ -4,6 +4,7 @@ title: The death of an idea
 date: '2009-11-15 20:07:17 +0100'
 mt_id: 2008
 categories:
+- Rails
 - business
 - projects
 ---

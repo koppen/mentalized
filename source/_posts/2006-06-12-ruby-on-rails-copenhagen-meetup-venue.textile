@@ -4,6 +4,7 @@ title: Ruby on Rails Copenhagen meetup venue
 date: '2006-06-12 09:33:04 +0200'
 mt_id: 1625
 categories:
+- Rails
 - programming
 - Copenhagen.rb
 - life

@@ -4,6 +4,7 @@ title: Podcast recommendations
 date: '2008-04-28 17:56:01 +0200'
 mt_id: 1951
 categories:
+- Rails
 - life
 ---
 I am a big fan of podcasts. I have roughly one hour of daily bicycling to and from work, and roughly the same amount of walking the dog, both of which are perfect time to listen to podcasts.

@@ -1,6 +1,7 @@
 ---
 title: "ActiveModel validations without a model"
 categories:
+- Rails
 - programming
 published: true
 ---

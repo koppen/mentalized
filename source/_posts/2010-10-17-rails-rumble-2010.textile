@@ -4,6 +4,7 @@ title: Rails Rumble 2010
 date: '2010-10-17 08:18:08 +0200'
 mt_id: 2069
 categories:
+- Rails
 - projects
 - programming
 ---

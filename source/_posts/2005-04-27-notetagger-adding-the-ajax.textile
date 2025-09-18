@@ -4,6 +4,7 @@ title: Notetagger - Adding the Ajax
 date: '2005-04-27 16:57:00 +0200'
 mt_id: 1304
 categories:
+- Rails
 - projects
 description: "In this installment I take you through adding simple Ajax functionality to a Rails application."
 ---

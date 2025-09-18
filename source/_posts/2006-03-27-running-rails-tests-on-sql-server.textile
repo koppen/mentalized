@@ -4,6 +4,7 @@ title: Running Rails tests on SQL Server
 date: '2006-03-27 11:04:13 +0200'
 mt_id: 1572
 categories:
+- Rails
 - programming
 ---
 Quick tip: If you want to run your Rails test suite through Rake on Windows using SQL Server, you need to have the scptxfr.exe utility in your path. On our development server, which is a pretty standard Microsoft SQL Server 2000 install, it's located in C:\Program Files\Microsoft SQL Server\MSSQL\Upgrade.

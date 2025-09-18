@@ -4,6 +4,7 @@ title: Fare well David
 date: '2005-11-15 10:50:55 +0100'
 mt_id: 1468
 categories:
+- Rails
 - life
 ---
 Last night "a bunch of people said goodbye":http://pinds.com/articles/2005/11/15/emigrationsafhandling-worth-doing to "David":http://www.loudthinking.com, all while trying to prive whatever information we could from that impressive (and loud) mind of his.

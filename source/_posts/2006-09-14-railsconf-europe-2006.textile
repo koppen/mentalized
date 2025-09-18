@@ -4,6 +4,7 @@ title: Railsconf Europe 2006
 date: '2006-09-14 12:28:29 +0200'
 mt_id: 1704
 categories:
+- Rails
 - blogging
 - programming
 - Copenhagen.rb

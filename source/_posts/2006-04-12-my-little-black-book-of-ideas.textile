@@ -4,6 +4,7 @@ title: My little black book of ideas
 date: '2006-04-12 15:40:02 +0200'
 mt_id: 1587
 categories:
+- Rails
 - projects
 ---
 I carry a Moleskine notebook with me pretty much wherever I go. I use it to jot down ideas and thoughts, usually for websites and -services. At the time of writing I have 10-12 different ideas floating around in my head and/or notebook.

@@ -4,6 +4,7 @@ title: 'Plug: Pluggd pluggs in'
 date: '2006-06-27 08:52:16 +0200'
 mt_id: 1638
 categories:
+- Rails
 - projects
 description: "Pluggd is a podcasting directory/community combining podcast listening with social networking and recommendations."
 ---

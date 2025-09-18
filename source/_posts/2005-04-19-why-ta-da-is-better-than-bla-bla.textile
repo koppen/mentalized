@@ -4,6 +4,7 @@ title: Why Ta-da is better than Bla-bla
 date: '2005-04-19 09:24:46 +0200'
 mt_id: 1296
 categories:
+- Rails
 - technology
 ---
 Having followed the "Ruby on Rails weblog(Ruby on Rails weblog)":http://weblog.rubyonrails.com/ I've known about "Bla-bla List(Bla-bla List)":http://blablalist.com/ for some time now. However it's "appearance on Forever Geek(Bla-bla List at Forever Geek)":http://forevergeek.com/open_source/blabla_list.php made me figure I'd give the application a shot and try it out for size.

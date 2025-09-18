@@ -4,6 +4,7 @@ title: Humor driven development
 date: '2010-07-30 10:37:40 +0200'
 mt_id: 2047
 categories:
+- Rails
 - programming
 ---
 Happy developers are productive developers. Having fun makes people happy. So sayeth the "Chief Happiness Officer":http://positivesharing.com/2007/03/top-10-reasons-why-happiness-at-work-is-the-ultimate-productivity-booster/.

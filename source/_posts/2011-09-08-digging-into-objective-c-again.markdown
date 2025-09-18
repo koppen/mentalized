@@ -3,6 +3,7 @@ title: Digging into Objective-C (again)
 date: '2011-09-08 09:03:00 +0200'
 mt_id: 2123
 categories:
+- Rails
 - programming
 ---
 While the concept of writing native Mac apps in Ruby definitely appeals to me, I must say the experience isn't quite as easy as I was looking for.

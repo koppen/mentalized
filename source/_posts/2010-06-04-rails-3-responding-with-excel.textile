@@ -4,6 +4,7 @@ title: 'Rails 3: Responding with Excel'
 date: '2010-06-04 09:29:57 +0200'
 mt_id: 2042
 categories:
+- Rails
 - programming
 ---
 The following is a short code snippet from my Rails 3 presentation at "Community Day":http://communityday.in/copenhagen/ last week. I'm putting it here, because it's such a nifty little piece of code.

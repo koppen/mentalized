@@ -3,6 +3,7 @@ title: I've taken up Exercising
 date: '2013-07-23 14:40:05 +0200'
 mt_id: 2166
 categories:
+- Rails
 - programming
 ---
 I have been having fun participating in [Exercism.io](http://excercism.io) - a collaborative code improvement site started by [Katrina Owen](https://twitter.com/kytrinyx).

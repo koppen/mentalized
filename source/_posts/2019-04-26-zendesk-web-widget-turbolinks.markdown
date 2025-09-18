@@ -2,6 +2,7 @@
 title: "Putting Zendesks web widget on Turbolinks"
 date: '2019-04-26 13:43:23 +0200'
 categories:
+- Rails
 - programming
 - technology
 description: "How we managed to embed Zendesks web widget in a Rails application running Turbolinks"

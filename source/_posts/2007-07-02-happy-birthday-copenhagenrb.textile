@@ -4,6 +4,7 @@ title: Happy birthday, Copenhagen.rb
 date: '2007-07-02 10:53:24 +0200'
 mt_id: 1831
 categories:
+- Rails
 - Copenhagen.rb
 ---
 I'm a bit late on this, but nevertheless: Last Friday marked the one year anniversary of "the first gathering of Ruby and Rails geeks in Copenhagen":https://mentalized.net/journal/2006/07/03/copenhagen-rubyrails-brigade/, that which should later be formalized as the "Copenhagen Ruby Brigade":http://copenhagenrb.dk.
