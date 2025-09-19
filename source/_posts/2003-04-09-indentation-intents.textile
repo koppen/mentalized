@@ -8,7 +8,7 @@ categories:
 ---
 Gah, I just spent the last hour on the phone with a developer trying to debug a Python script, that had to run in our enviroment and couldn't be debugged by him locally. Long distance eXtreme Programming I suppose.
 
-We found the bug after nearly tearing eachothers hair out. He had indented a line using 2  tabs instead the one tab and 4 spaces the rest of the block was indented with. Unfortunatly this hits me right in the What-I-Don't-Like-About-Python area (and Python-style indentation is probably the first thing that new users stumble over).
+We found the bug after nearly tearing eachothers hair out. He had indented a line using 2  tabs instead the one tab and 4 spaces the rest of the block was indented with. Unfortunately this hits me right in the What-I-Don't-Like-About-Python area (and Python-style indentation is probably the first thing that new users stumble over).
 
 <!--more-->
 

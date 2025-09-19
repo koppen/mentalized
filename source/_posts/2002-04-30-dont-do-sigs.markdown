@@ -24,7 +24,7 @@ Some graphical signatures are simply plain stupid. I spent quite some time to fi
 Some signatures are like small kids, shouting "Hey, I'm over here, look at me!". Most prominent in this category are signatures made in Flash, as people have a tendency to make them move, jump, flash and whatnot, inevitably drawing my attention away from the message and onto the signature. I have even experienced a signature who played a 30 seconds long sound when you happened to move your mousecursor over it. I repeat: Since when did the author become more important than the message?
 
 <h3>The ugly signature</h3>
-Well, one does not have to look long to find examples of this. Far from everybody is a graphical wizard - unfortunatly many seem to think they are.
+Well, one does not have to look long to find examples of this. Far from everybody is a graphical wizard - unfortunately many seem to think they are.
 
 My plea to boardusers and -administrators is this: Do the world a favor - just say no to graphical signatures.
 

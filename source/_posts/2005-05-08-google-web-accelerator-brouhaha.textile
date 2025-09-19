@@ -39,7 +39,7 @@ Another alternative is going the Javascript route doing something like
 
 bc. <a href="#" onclick="request('/notes/delete/2');">Delete</a>
 
-This way at least preserves the illusion that we're still using links. Assuming it's somehow possible to have Javascript submit POST requests, this would work. Unfortunatly, it doesn't degrade at all for users without Javascript. Although in many newer applications I suspect Javascript is a requirement anyways.
+This way at least preserves the illusion that we're still using links. Assuming it's somehow possible to have Javascript submit POST requests, this would work. Unfortunately, it doesn't degrade at all for users without Javascript. Although in many newer applications I suspect Javascript is a requirement anyways.
 
 
 h2. "Pre-fetching" application developers

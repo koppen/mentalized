@@ -7,7 +7,7 @@ categories:
 - email
 - technology
 ---
-To make my start of 2003 even more pleasant, it turned out that my boss had bought himself a new laptop. A nice little machine that I luckily didn't have to install as it came preinstalled with Windows XP and Office XP. Unfortunatly, Outlook XP apparently sucks for formatting mails.
+To make my start of 2003 even more pleasant, it turned out that my boss had bought himself a new laptop. A nice little machine that I luckily didn't have to install as it came preinstalled with Windows XP and Office XP. Unfortunately, Outlook XP apparently sucks for formatting mails.
 
 <!--more-->
 
@@ -42,6 +42,6 @@ Outlook XP fails to uniquely identify the messages it sends, invalidating tools 
 
 <h2>Strike 3, you're outta here</h2>
 
-I naivly hope that people using Outlook XP will chose to send mails as text only. Unfortunatly people are most likely not going to change the default setting, and they themself will not experience any problems, as Outlook XP naturally handles the above problems without hesitation. What people need to realize is that when you send a HTML mail from Outlook XP, you are enforcing your choice of mailclient upon others that may not be able or willing to use Outlook.
+I naivly hope that people using Outlook XP will chose to send mails as text only. Unfortunately people are most likely not going to change the default setting, and they themself will not experience any problems, as Outlook XP naturally handles the above problems without hesitation. What people need to realize is that when you send a HTML mail from Outlook XP, you are enforcing your choice of mailclient upon others that may not be able or willing to use Outlook.
 
 Will we be seeing a reenactment of the "browser war" on the mailclient front? Hopefully not, but the browser war started with vendors moving away from the standards, refusing to support other vendors features or more or less intentionally making sure that websites designed for one browser didn't render properly in the competing browser. This is what Microsoft seems to be doing with Outlook XP.

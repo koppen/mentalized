@@ -6,7 +6,7 @@ mt_id: 760
 categories:
 - webdesign
 ---
-Unfortunatly I've found myself hunting for a new monitor. The old one decided to no longer function. I had pretty much already decided on a 19" CRT (suits my needs just fine and is affordable), and I had been recommended a Samsung.
+Unfortunately I've found myself hunting for a new monitor. The old one decided to no longer function. I had pretty much already decided on a 19" CRT (suits my needs just fine and is affordable), and I had been recommended a Samsung.
 
 A quick look at a "danish hardware price index(EDBpriser)":http://www.edbpriser.dk/ gave me the name of one that fit my price range, the SyncMaster 959NF. The price might be right, but I wanted some more details, in particular what refresh rates it could display 1280x1024 in.
 

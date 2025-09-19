@@ -11,6 +11,6 @@ Congratulations, <a title="Rejsefeber.dk" href="http://www.rejsefeber.dk/">Rejse
 
 <!--more-->
 
-<a href="http://www.mytravel.dk/" title="MyTravel">MyTravel</a> came close to making a sale too for the same reasons, unfortunatly they had no travels that met our requirements.
+<a href="http://www.mytravel.dk/" title="MyTravel">MyTravel</a> came close to making a sale too for the same reasons, unfortunately they had no travels that met our requirements.
 
 Your competitors should consider going through your websites to see how such a thing should be built.

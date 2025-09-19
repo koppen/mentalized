@@ -10,7 +10,7 @@ Being a good and paranoid user I naturally install any and all security patches 
 
 <!--more-->
 
-Unfortunatly some patches require me to restart my computer after installation. Primitive, but it's the Windows way, I guess. While the patches have been downloaded and installed, I have continued to use my computer and would actually prefer to not have to shut down all my applications. So when the installation asks me to reboot, I click "Reboot later" planning to shut down the machine when I leave work.
+Unfortunately some patches require me to restart my computer after installation. Primitive, but it's the Windows way, I guess. While the patches have been downloaded and installed, I have continued to use my computer and would actually prefer to not have to shut down all my applications. So when the installation asks me to reboot, I click "Reboot later" planning to shut down the machine when I leave work.
 
 !/journal/2004/10/18/restart_in_10_minutes_resistance_is_futile/restart_later.png (Restart later popup)!
 

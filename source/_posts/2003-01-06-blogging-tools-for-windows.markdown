@@ -13,7 +13,7 @@ Davids recent post about <a href="http://www.loudthinking.com/arc/000085.html" t
 
 <a href="http://wbloggar.com/">w.bloggar</a> is freeware, weighs less than 2MB, and supports a multitude of blogging software. Setup went smooth and I was able to post after a few minutes. You can create new posts or edit your existing ones in colorized HTML before saving them locally or remotely.
 
-The built-in FTP client for uploading files is easy to use, but unfortunatly makes it hard if you want to upload files to a directory other than the standard directory.
+The built-in FTP client for uploading files is easy to use, but unfortunately makes it hard if you want to upload files to a directory other than the standard directory.
 
 So far, w.bloggar seems like a great little tool. I'm wonder how it performs offline (for blogging while messing around on a non-802.11 laptop), alas it looks like it only supports one locally saved post - I will have to test this though.
 
