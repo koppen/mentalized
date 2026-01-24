@@ -1,0 +1,63 @@
+---
+title: "Announcing styr"
+categories:
+- programming
+- projects
+- technology
+description: "We've built a small utility that makes it super simple to access and run tasks on your deployed applications."
+---
+
+Ever needed to run some maintenance task in your production environment? For me this always triggers a bunch of questions: What's that hostname again? What user should I log in as? And where did we deploy the application?
+
+[We](https://substancelab.com)'ve built [styr](https://github.com/substancelab/styr) to answer those questions and ease the pain.
+
+<!--more-->
+
+With styr launching a Rails console in your production environment is as simple as
+
+    $ styr --target=production run bundle exec rails console
+    Running rails console on ⬢ redacted-production... up, run.9530
+    Loading production environment (Rails 7.2.1.2)
+    redacted(prod)>
+
+And the best part is, if your application is reachable via SSH instead of being hosted on Heroku as above, launching a Rails console in your production environment is as simple as
+
+    $ styr --target=production run bundle exec rails console
+    Loading production environment (Rails 8.0.2.1)
+    redacted(prod)>
+
+## Getting started
+
+Just follow the fairly simple installation and usage instructions at [substancelab/styr](https://github.com/substancelab/styr). Basically:
+
+1. Grab the code from GitHub.
+2. Add the `styr` binary to your `PATH`.
+3. Configure targets in your application.
+
+You should now be able to see `styr` in  all it's glory:
+
+    $ styr
+    styr [options] [--target] task [task options]
+            --help                       Show helpful information
+            --target TARGET              Target to perform the task on
+
+    Available tasks:
+      run       Run a command on a target
+      targets   List configured targets
+      tasks     List available tasks
+
+## How about one-off scripts?
+
+In my last post here I talked about[ running one-off scripts on Heroku with Rails](https://mentalized.net/journal/2025/10/16/heroku-run-rails-runner/), and of course you can do this with styr:
+
+    $ cat hi.rb | styr --target=production run "rails runner -"
+
+## Legacy
+
+Looking back at my posts, this has actually been an ongoing thing of mine, and in many ways `styr` is the spiritual successor to [capistrano-remote](https://mentalized.net/journal/2015/11/22/capistrano-remote/) - just simpler and better.
+
+## The future
+
+While the current version provides the bare minimum, I'd love to be able to add application specific tasks. How about running `styr --target production rake db:migrate` for example, or perhaps just `styr --target production console` to launch a console regardless of your application stack.
+
+I am also seeing something interesting in running tasks on multiple servers at once. Perhaps something like `styr --targets worker,web,app-01,app-02 run df -h` to see free disk space across multiple servers?
