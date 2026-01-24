@@ -34,7 +34,7 @@ Just follow the fairly simple installation and usage instructions at [substancel
 2. Add the `styr` binary to your `PATH`.
 3. Configure targets in your application.
 
-You should now be able to see `styr` in  all its glory:
+You should now be able to see `styr` in all its glory:
 
     $ styr
     styr [options] [--target] task [task options]
@@ -48,7 +48,7 @@ You should now be able to see `styr` in  all its glory:
 
 ## How about one-off scripts?
 
-In my last post here I talked about[ running one-off scripts on Heroku with Rails](https://mentalized.net/journal/2025/10/16/heroku-run-rails-runner/), and of course you can do this with styr:
+In my last post here I talked about [running one-off scripts on Heroku with Rails](https://mentalized.net/journal/2025/10/16/heroku-run-rails-runner/), and of course you can do this with styr:
 
     $ cat hi.rb | styr --target=production run "rails runner -"
 
@@ -58,6 +58,6 @@ Looking back at my posts, this has actually been an ongoing thing of mine, and i
 
 ## The future
 
-While the current version provides the bare minimum, I'd love to be able to add application specific tasks. How about running `styr --target production rake db:migrate` for example, or perhaps just `styr --target production console` to launch a console regardless of your application stack.
+While the current version provides the bare minimum, I'd love to be able to add application specific tasks. How about running `styr --target=production rake db:migrate` for example, or perhaps just `styr --target=production console` to launch a console regardless of your application stack.
 
-I am also seeing something interesting in running tasks on multiple servers at once. Perhaps something like `styr --targets worker,web,app-01,app-02 run df -h` to see free disk space across multiple servers?
+I am also seeing something interesting in running tasks on multiple servers at once. Perhaps something like `styr --target=worker,web,app-01,app-02 run df -h` to see free disk space across multiple servers?
