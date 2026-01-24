@@ -34,7 +34,7 @@ Just follow the fairly simple installation and usage instructions at [substancel
 2. Add the `styr` binary to your `PATH`.
 3. Configure targets in your application.
 
-You should now be able to see `styr` in  all it's glory:
+You should now be able to see `styr` in  all its glory:
 
     $ styr
     styr [options] [--target] task [task options]

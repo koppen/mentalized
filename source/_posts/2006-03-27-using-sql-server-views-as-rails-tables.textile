@@ -24,7 +24,7 @@ My initial idea was to create simple views that create a 1-1 mapping of each tab
 
 bc(sql). CREATE VIEW users AS SELECT intUserId AS id FROM tblUser).
 
-This idea is great in all it's simplicity because SQL Server makes this kind of views updatable. "Jakob", I thought to myself, "you're a genious". Then I ran my tests and errors were everywhere.
+This idea is great in all its simplicity because SQL Server makes this kind of views updatable. "Jakob", I thought to myself, "you're a genious". Then I ran my tests and errors were everywhere.
 
 
 h2. ActiveRecord objects to my idea
