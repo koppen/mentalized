@@ -111,3 +111,7 @@ production
 ```
 
 Very helpful indeed!
+
+## Styr might help you
+
+If you find the above relevant or helpful, you might be interested in checking out [styr](/journal/2026/01/24/styr/) instead, which makes the above even easier.

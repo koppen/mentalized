@@ -65,3 +65,7 @@ environment to run Rails commands) are pretty much exactly what
 
 Think of it as `heroku run rails console` for those of us stuck on selfmanaged
 nodes and Capistrano and grab it from [RubyGems](https://rubygems.org/gems/capistrano-remote).
+
+## Reading this in 2026?
+
+You might be interested in [styr](/journal/2026/01/24/styr/) instead.
