@@ -9,6 +9,7 @@ gem \
   :branch => "social_card_creator",
   :git => "https://github.com/koppen/jekyll-seo-tag.git"
 gem "jekyll-textile-converter"
+gem "logger"
 gem "loofah"
 gem "RedCloth"
 gem "redcarpet"
