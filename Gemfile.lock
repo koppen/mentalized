@@ -91,6 +91,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     loofah (2.25.2)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -196,6 +197,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-seo-tag!
   jekyll-textile-converter
+  logger
   loofah
   redcarpet
   webrick
