@@ -203,7 +203,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-  ruby 3.4.11
+  ruby 4.0.7
 
 BUNDLED WITH
   4.0.23
