@@ -26,7 +26,7 @@ Your admins, your support staff, your employees, all deserve a friendly, usable,
 That’s why we’ve built [Uchi](https://www.uchiadmin.com). [A premium admin panel framework](https://www.uchiadmin.com) that doesn’t just give you a delicious CRUD UI, but also lets you adapt and extend without getting in your way. There's no custom DSLs or complex configuration files, because it’s just Rails.
 
 <figure>
-  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/dP2VCyiW9Kw?si=uwAoDs-GtawThtae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/16UdsTsVZ4Q?si=uwAoDs-GtawThtae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
 
 ## Forged in the real world
