@@ -4,9 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <link href="//fonts.googleapis.com/css?family=Neucha%7COpen+Sans:400,300,700" rel="stylesheet" type="text/css">
-    <link href="/stylesheets/all.css" rel="stylesheet" type="text/css" media="screen" />
+    {% capture screen_css %}@use "sass:meta"; @media screen { @include meta.load-css("screen"); }{% endcapture %}
+    <style>{{ screen_css | scssify }}</style>
+    {% if content contains 'class="highlight' %}
+      {% capture zenburn_css %}@use "sass:meta"; @include meta.load-css("zenburn");{% endcapture %}
+      <style>{{ zenburn_css | scssify }}</style>
+    {% endif %}
     <link href="/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
-    <link href="/stylesheets/zenburn.css" rel="stylesheet" type="text/css" />
 
     {% if page.layout == "category_archive" %}
       <meta name="robots" content="noindex,follow" />
